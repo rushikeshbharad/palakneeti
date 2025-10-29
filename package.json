@@ -4,7 +4,8 @@
   "description": "Parameters for each article",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "cypress run"
+    "migrate": "cypress run",
+    "generate-article-index": "node generate-article-index.js"
   },
   "author": "",
   "license": "ISC",

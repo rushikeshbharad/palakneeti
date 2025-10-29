@@ -99,7 +99,7 @@ export default articleData;
           const anchors = document.querySelectorAll("a")
           anchors.forEach((a) => {
             a.setAttribute("target", "_blank") // Add target="_blank"
-            let href = a.getAttribute("href")
+            let href = decodeURI(a.getAttribute("href") || "")
             if (href && href.startsWith("https://palakneeti.in")) {
               // Keep only the relative path
               a.setAttribute("href", new URL(href).pathname)
@@ -111,10 +111,10 @@ export default articleData;
           const imageDownloads = []
 
           images.forEach((img, index) => {
-            const src = img.getAttribute("src")
+            const src = img.getAttribute("src") || ""
             if (!src) return
 
-            const originalFileName = src.split("/").pop().split("?")[0]
+            const originalFileName = decodeURI(src).split("/").pop().split("?")[0]
             const extension = originalFileName.split(".").pop() || "jpg"
             const newFileName = `${slug}-${index}-${originalFileName}`
             const newImagePath = `assets/article-images/${newFileName}`

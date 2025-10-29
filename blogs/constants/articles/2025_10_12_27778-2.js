@@ -15,7 +15,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <p><strong>प्राजक्ता अतुल</strong></p>
 
       <p>
