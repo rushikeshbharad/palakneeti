@@ -17,49 +17,29 @@ const articleData = {
   <div class="entry-content-wrapper">
     <div class="entry-content gsp_dc">
       <p>
-        <a
-          href="/%E0%A4%A4%E0%A4%AE%E0%A4%BE%E0%A4%B6%E0%A5%87-%E0%A4%A5%E0%A4%AF%E0%A4%A5%E0%A4%AF%E0%A4%BE%E0%A4%9F/"
-          target="_blank"
+        <a href="/तमाशे-थयथयाट/" target="_blank"
           >१. तमाशे! थयथयाट! – रुबी रमा प्रवीण</a
         >
       </p>
 
-      <p>
-        <a
-          href="/%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%95%E0%A5%80%E0%A4%AF-10/"
-          target="_blank"
-          >२. संवादकीय ऑगस्ट २०२५</a
-        >
-      </p>
+      <p><a href="/संवादकीय-10/" target="_blank">२. संवादकीय ऑगस्ट २०२५</a></p>
 
       <p>
-        <a
-          href="/%E0%A4%B6%E0%A4%BE%E0%A4%B3%E0%A4%BE%E0%A4%82%E0%A4%AE%E0%A4%A7%E0%A4%B2%E0%A5%80-%E0%A4%AD%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%82/"
-          target="_blank"
+        <a href="/शाळांमधली-भित्तिचित्रं/" target="_blank"
           >३. शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे! – आभा भागवत
         </a>
       </p>
 
-      <p>
-        <a
-          href="/%E0%A4%8F%E0%A4%AC%E0%A5%80%E0%A4%8F%E0%A4%B2/"
-          target="_blank"
-          >४. एबीएल
-        </a>
-      </p>
+      <p><a href="/एबीएल/" target="_blank">४. एबीएल </a></p>
 
       <p>
-        <a
-          href="/%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AD%E0%A5%8B%E0%A4%B5%E0%A4%A4%E0%A5%80%E0%A4%9A%E0%A5%87-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A5%8D%E0%A4%A8-4/"
-          target="_blank"
+        <a href="/चित्राभोवतीचे-प्रश्न-4/" target="_blank"
           >५. चित्राभोवतीचे प्रश्न – ऑगस्ट २०२५ – श्रीनिवास बाळकृष्ण</a
         >
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%AC%E0%A4%BF%E0%A4%A8%E0%A4%AD%E0%A4%BF%E0%A4%82%E0%A4%A4%E0%A5%80%E0%A4%82%E0%A4%9A%E0%A5%80-%E0%A4%B6%E0%A4%BE%E0%A4%B3%E0%A4%BE/"
-          target="_blank"
+        <a href="/बिनभिंतींची-शाळा/" target="_blank"
           >६. बिन’भिंतीं’ची शाळा – कपिल देशपांडे
         </a>
       </p>
@@ -72,17 +52,13 @@ const articleData = {
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%B5%E0%A5%89%E0%A4%B2%E0%A5%8D%E0%A4%A1%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%AB-%E0%A4%9C%E0%A4%B0%E0%A5%8D%E0%A4%A8%E0%A5%80/"
-          target="_blank"
+        <a href="/वॉल्डॉर्फ-जर्नी/" target="_blank"
           >८. वॉल्डॉर्फ जर्नी – अनु. नीलिमा सहस्रबुद्धे
         </a>
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%AD%E0%A4%BF%E0%A4%82%E0%A4%A4-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%95%E0%A5%80-%E0%A4%9D%E0%A4%BE%E0%A4%B2%E0%A5%80/"
-          target="_blank"
+        <a href="/भिंत-बोलकी-झाली/" target="_blank"
           >८. भिंत बोलकी झाली… – रमाकांत धनोकर</a
         >
       </p>

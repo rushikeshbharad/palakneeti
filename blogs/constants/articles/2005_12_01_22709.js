@@ -1,0 +1,105 @@
+const articleData = {
+  content: {
+    marathi: `<article
+  id="post-22709"
+  class="post-22709 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-monthly category-palakneeti"
+>
+  <img
+    width="791"
+    height="1024"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22709-0-Dec-2005-791x1024.jpg"
+    class="aligncenter wp-post-image"
+    alt="डिसेंबर – २००५"
+    decoding="async"
+    sizes="(max-width: 791px) 100vw, 791px"
+  />
+
+  <div class="entry-content-wrapper">
+    <div class="entry-content gsp_dc">
+      <p><strong>या अंकात…</strong></p>
+      <ol class="menu">
+        <li class="leaf first">
+          <a href="/21971/" target="_blank">संवादकीय – डिसेंबर २००५</a>
+        </li>
+        <li class="leaf">
+          <a href="/21972/" target="_blank">पोलिओ निर्मूलनाचे मृगजळ</a>
+        </li>
+        <li class="leaf"><a href="/21973/" target="_blank">माझा प्रश्न</a></li>
+        <li class="leaf">
+          <a href="/21974/" target="_blank">बच्चा क्या कह गया !</a>
+        </li>
+        <li class="leaf"><a href="/21975/" target="_blank">प्रतिक्रिया</a></li>
+        <li class="leaf">
+          <a href="/21976/" target="_blank">दखल प्रतिक्रियेची</a>
+        </li>
+        <li class="leaf">
+          <a href="/21977/" target="_blank">महत्त्व कशाला</a>
+        </li>
+        <li class="leaf">
+          <a href="/21978/" target="_blank">मुलांसाठी आणि माझ्यासाठीही</a>
+        </li>
+        <li class="leaf last">
+          <a href="/21979/" target="_blank">सवयी लावताना…</a>
+        </li>
+      </ol>
+      <p>
+        <a
+          href="https://drive.google.com/file/d/1CrGf2hySAvhvZ94aMF4Omt_9hZRkV7Cm/view"
+          target="_blank"
+          >Download entire edition in PDF format.</a
+        >
+      </p>
+      <p>
+        एकंदरीत अंकाबद्दलची तुमची प्रतिक्रिया जाणून घ्यायला आम्हाला खूप आवडेल.
+        कृपया आपल्या प्रतिक्रिया
+        <a
+          href="https://goo.gl/forms/ppg3F41tMil0ILcx1"
+          target="_blank"
+          rel="noopener noreferrer"
+          >इथे नोंदवा</a
+        >.
+      </p>
+      <div
+        class="gsp_post_data"
+        data-post_type="post"
+        data-cat="masik-monthly,palakneeti"
+        data-modified="120"
+        data-title="डिसेंबर – २००५"
+        data-home="https://palakneeti.in"
+      ></div>
+    </div>
+    <!-- .entry-content -->
+  </div>
+  <!-- .entry-content-wrapper -->
+
+  <!-- .entry-meta -->
+
+  <footer class="entry-footer"></footer>
+  <!-- .entry-footer -->
+</article>
+`,
+    english: ``,
+  },
+  title: {
+    marathi: "डिसेंबर – २००५",
+    english: "",
+  },
+  short: {
+    marathi:
+      "या अंकात… संवादकीय - डिसेंबर २००५ पोलिओ निर्मूलनाचे मृगजळ माझा प्रश्न बच्चा क्या कह गया ! प्रतिक्रिया दखल प्रतिक्रियेची महत्त्व...",
+    english: "",
+  },
+  authors: [],
+  translators: [],
+  verbalizers: [],
+  conceptualists: [],
+  tags: [],
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22709.jpg",
+  verified: {
+    marathi: true,
+    english: false,
+  },
+};
+
+export default articleData;

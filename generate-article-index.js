@@ -24,7 +24,7 @@ async function generateArticleIndex() {
     articleFiles.forEach((file) => {
       const fileName = path.basename(file, ".js");
       // Replace hyphens with underscores for a valid variable name
-      const importName = `articleData_${fileName.replace(/-/g, "_")}`;
+      const importName = `articleData_${fileName.replaceAll("-", "_").replaceAll("॥", "")}`;
 
       imports.push(`import ${importName} from "./articles/${fileName}.js";`);
       articleEntries.push(`{ '${fileName}': ${importName} }`);

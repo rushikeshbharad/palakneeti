@@ -16,10 +16,1983 @@ import articleData_2025_09_15_आनंदाचे_डोही from "./article
 import articleData_2025_09_15_आनंदशोध from "./articles/2025_09_15_आनंदशोध.js";
 import articleData_2025_09_15_आई_रडतेय from "./articles/2025_09_15_आई-रडतेय.js";
 import articleData_2025_09_03_शिकता_शिकवताना from "./articles/2025_09_03_शिकता-शिकवताना.js";
+import articleData_2025_08_15_संवादकीय_10 from "./articles/2025_08_15_संवादकीय-10.js";
+import articleData_2025_08_15_शाळांमधली_भित्तिचित्रं from "./articles/2025_08_15_शाळांमधली-भित्तिचित्रं.js";
 import articleData_2025_08_15_वॉल्डॉर्फ_जर्नी from "./articles/2025_08_15_वॉल्डॉर्फ-जर्नी.js";
 import articleData_2025_08_15_भिंत_बोलकी_झाली from "./articles/2025_08_15_भिंत-बोलकी-झाली.js";
+import articleData_2025_08_15_बिनभिंतींची_शाळा from "./articles/2025_08_15_बिनभिंतींची-शाळा.js";
+import articleData_2025_08_15_तमाशे_थयथयाट from "./articles/2025_08_15_तमाशे-थयथयाट.js";
+import articleData_2025_08_15_चित्राभोवतीचे_प्रश्न_4 from "./articles/2025_08_15_चित्राभोवतीचे-प्रश्न-4.js";
 import articleData_2025_08_15_ऑगस्ट_२०२५ from "./articles/2025_08_15_ऑगस्ट-२०२५.js";
+import articleData_2025_08_15_एबीएल from "./articles/2025_08_15_एबीएल.js";
 import articleData_2025_08_15_27675_2 from "./articles/2025_08_15_27675-2.js";
+import articleData_2025_07_15_संवादकीय_9 from "./articles/2025_07_15_संवादकीय-9.js";
+import articleData_2025_07_15_मरण from "./articles/2025_07_15_मरण.js";
+import articleData_2025_07_15_निनू from "./articles/2025_07_15_निनू.js";
+import articleData_2025_07_15_तू_नको_बाबा_पाहिजे from "./articles/2025_07_15_तू-नको-बाबा-पाहिजे.js";
+import articleData_2025_07_15_जुलै_२०२५ from "./articles/2025_07_15_जुलै-२०२५.js";
+import articleData_2025_07_15_चित्राभोवतीचे_प्रश्न_3 from "./articles/2025_07_15_चित्राभोवतीचे-प्रश्न-3.js";
+import articleData_2025_07_15_कळावे_लोभ_असावा_ही_विनंती from "./articles/2025_07_15_कळावे-लोभ-असावा-ही-विनंती.js";
+import articleData_2025_07_15_इतिहासाचे_अवजड_ओझे from "./articles/2025_07_15_इतिहासाचे-अवजड-ओझे.js";
+import articleData_2025_07_15_इतिहासाकडून_शिकताना from "./articles/2025_07_15_इतिहासाकडून-शिकताना.js";
+import articleData_2025_07_15_इतिहास_का_वाचायचा from "./articles/2025_07_15_इतिहास-का-वाचायचा.js";
+import articleData_2025_06_24_बिग_हिस्ट्री from "./articles/2025_06_24_बिग-हिस्ट्री.js";
+import articleData_2025_06_24_जून_२०२५ from "./articles/2025_06_24_जून-२०२५.js";
+import articleData_2025_06_24_आदरांजली_डॉ_जयंत_नारळीकर from "./articles/2025_06_24_आदरांजली-डॉ-जयंत-नारळीकर.js";
+import articleData_2025_06_15_स्क्रीन_टाइम from "./articles/2025_06_15_स्क्रीन-टाइम.js";
+import articleData_2025_06_15_संवादकीय_जून_२०२५ from "./articles/2025_06_15_संवादकीय-जून-२०२५.js";
+import articleData_2025_06_15_चित्राभोवतीचे_प्रश्न_जू from "./articles/2025_06_15_चित्राभोवतीचे-प्रश्न-जू.js";
+import articleData_2025_06_15_चष्मा_बदलतो_आहे from "./articles/2025_06_15_चष्मा-बदलतो-आहे.js";
+import articleData_2025_06_15_इतिहास_आणि_पर्यावरण_शिक् from "./articles/2025_06_15_इतिहास-आणि-पर्यावरण-शिक्.js";
+import articleData_2025_06_15_आमचा_दात_घासण्याचा_इतिहा from "./articles/2025_06_15_आमचा-दात-घासण्याचा-इतिहा.js";
+import articleData_2025_05_24_एआय_म्हणजे_काय_रे_भाऊ from "./articles/2025_05_24_एआय-म्हणजे-काय-रे-भाऊ.js";
+import articleData_2025_05_15_संवादकीय_मे_२०२५ from "./articles/2025_05_15_संवादकीय-मे-२०२५.js";
+import articleData_2025_05_15_मे_२०२५ from "./articles/2025_05_15_मे-२०२५.js";
+import articleData_2025_05_15_बदलत्या_जगातील_पालकत्वा from "./articles/2025_05_15_बदलत्या-जगातील-पालकत्वा.js";
+import articleData_2025_05_15_नाही_येत_मला_मी_नाही_करणा from "./articles/2025_05_15_नाही-येत-मला-मी-नाही-करणा.js";
+import articleData_2025_05_15_डोकं_असेल_तर_ते_वापरा from "./articles/2025_05_15_डोकं-असेल-तर-ते-वापरा.js";
+import articleData_2025_05_15_चित्राभोवतीचे_प्रश्न_मे from "./articles/2025_05_15_चित्राभोवतीचे-प्रश्न-मे.js";
+import articleData_2025_05_15_काही_आशेचे_किरण from "./articles/2025_05_15_काही-आशेचे-किरण.js";
+import articleData_2025_05_15_कला_ल्पनाशक्ती from "./articles/2025_05_15_कला-ल्पनाशक्ती.js";
+import articleData_2025_05_15_एआयला_सामोरे_जाताना from "./articles/2025_05_15_एआयला-सामोरे-जाताना.js";
+import articleData_2025_05_15_इतिहासबोध_की_अपराधबोधॽ from "./articles/2025_05_15_इतिहासबोध-की-अपराधबोधॽ.js";
+import articleData_2025_05_15_आता_न_मागे_फिरणे from "./articles/2025_05_15_आता-न-मागे-फिरणे.js";
+import articleData_2025_04_17_संवादकीय_एप्रिल_२०२५ from "./articles/2025_04_17_संवादकीय-एप्रिल-२०२५.js";
+import articleData_2025_04_17_लहानआहे_ना_ती from "./articles/2025_04_17_लहानआहे-ना-ती.js";
+import articleData_2025_04_17_फिरुनी_नवी_जन्मेन_मी from "./articles/2025_04_17_फिरुनी-नवी-जन्मेन-मी.js";
+import articleData_2025_04_17_चित्राभोवतीचे_प्रश्न_2 from "./articles/2025_04_17_चित्राभोवतीचे-प्रश्न-2.js";
+import articleData_2025_04_17_आणि_मी_मला_गवसले from "./articles/2025_04_17_आणि-मी-मला-गवसले.js";
+import articleData_2025_04_15_भीती_नव्हे_स्वीकृती from "./articles/2025_04_15_भीती-नव्हे-स्वीकृती.js";
+import articleData_2025_04_15_पेरेंटिंग_फ्रॉम_द_इनसाईड from "./articles/2025_04_15_पेरेंटिंग-फ्रॉम-द-इनसाईड.js";
+import articleData_2025_04_15_ची_तोकू_ताई from "./articles/2025_04_15_ची-तोकू-ताई.js";
+import articleData_2025_04_15_एप्रिल_२०२५ from "./articles/2025_04_15_एप्रिल-२०२५.js";
+import articleData_2025_03_15_संवादकीय_मार्च_२०२५ from "./articles/2025_03_15_संवादकीय-मार्च-२०२५.js";
+import articleData_2025_03_15_वा_छान_शाब्बास from "./articles/2025_03_15_वा-छान-शाब्बास.js";
+import articleData_2025_03_15_मार्च_२०२५ from "./articles/2025_03_15_मार्च-२०२५.js";
+import articleData_2025_03_15_पूर्वा_आणि_मन्शा from "./articles/2025_03_15_पूर्वा-आणि-मन्शा.js";
+import articleData_2025_03_15_पालकत्वाचा_पैस from "./articles/2025_03_15_पालकत्वाचा-पैस.js";
+import articleData_2025_03_15_चित्राभोवतीचे_प्रश्न from "./articles/2025_03_15_चित्राभोवतीचे-प्रश्न.js";
+import articleData_2025_03_15_ओझं_खांद्यावरून_उतरताना from "./articles/2025_03_15_ओझं-खांद्यावरून-उतरताना.js";
+import articleData_2025_03_15_आयुष्य_म्हणजे_स्वतःचा_शो from "./articles/2025_03_15_आयुष्य-म्हणजे-स्वतःचा-शो.js";
+import articleData_2025_03_15_अर्थपूर्ण_पालकत्व from "./articles/2025_03_15_अर्थपूर्ण-पालकत्व.js";
+import articleData_2025_02_20_poorva_and_mansha from "./articles/2025_02_20_poorva-and-mansha.js";
+import articleData_2025_02_20_parenting_dimensions from "./articles/2025_02_20_parenting-dimensions.js";
+import articleData_2025_02_15_साठ_जीवांची_माय from "./articles/2025_02_15_साठ-जीवांची-माय.js";
+import articleData_2025_02_15_संवादकीय_8 from "./articles/2025_02_15_संवादकीय-8.js";
+import articleData_2025_02_15_वर्तमानातला_क्षण from "./articles/2025_02_15_वर्तमानातला-क्षण.js";
+import articleData_2025_02_15_मी_ओरडते_ह्यात_तुझी_चूक_कध from "./articles/2025_02_15_मी-ओरडते-ह्यात-तुझी-चूक-कध.js";
+import articleData_2025_02_15_फेब्रुवारी_२०२५ from "./articles/2025_02_15_फेब्रुवारी-२०२५.js";
+import articleData_2025_02_15_प्राणी_आणि_प्रेम from "./articles/2025_02_15_प्राणी-आणि-प्रेम.js";
+import articleData_2025_02_15_चिल्लर_पार्टी from "./articles/2025_02_15_चिल्लर-पार्टी.js";
+import articleData_2025_02_15_चित्राभोवतीचे_प्रश्र्न_2 from "./articles/2025_02_15_चित्राभोवतीचे-प्रश्र्न-2.js";
+import articleData_2025_02_15_एका_कुहूमुळे from "./articles/2025_02_15_एका-कुहूमुळे.js";
+import articleData_2025_02_15_आदरांजली_मोहन_हिराबाई_हि from "./articles/2025_02_15_आदरांजली-मोहन-हिराबाई-हि.js";
+import articleData_2025_01_15_संवादकीय_7 from "./articles/2025_01_15_संवादकीय-7.js";
+import articleData_2025_01_15_लोकविज्ञान_दिनदर्शिका_आण from "./articles/2025_01_15_लोकविज्ञान-दिनदर्शिका-आण.js";
+import articleData_2025_01_15_मी_मुलगा_विरूद्ध_टॉवेल from "./articles/2025_01_15_मी-मुलगा-विरूद्ध-टॉवेल.js";
+import articleData_2025_01_15_मले from "./articles/2025_01_15_मले.js";
+import articleData_2025_01_15_फ्री_सायकल_द_फ्री_स्पेस from "./articles/2025_01_15_फ्री-सायकल-द-फ्री-स्पेस.js";
+import articleData_2025_01_15_निमित्त from "./articles/2025_01_15_निमित्त.js";
+import articleData_2025_01_15_दृश्यकला_आणि_पालकत्व from "./articles/2025_01_15_दृश्यकला-आणि-पालकत्व.js";
+import articleData_2025_01_15_जानेवारी_२०२५ from "./articles/2025_01_15_जानेवारी-२०२५.js";
+import articleData_2025_01_15_चित्राभोवतीचे_प्रश्र्न from "./articles/2025_01_15_चित्राभोवतीचे-प्रश्र्न.js";
+import articleData_2025_01_15_चित्रांचा_अवकाश from "./articles/2025_01_15_चित्रांचा-अवकाश.js";
+import articleData_2025_01_15_क्या_करे_क्या_ना_करे from "./articles/2025_01_15_क्या-करे-क्या-ना-करे.js";
+import articleData_2025_01_15_आदरांजली_2 from "./articles/2025_01_15_आदरांजली-2.js";
+import articleData_2024_12_18_मेरी_पहचान_है_इन_लकीरोंमे from "./articles/2024_12_18_मेरी-पहचान-है-इन-लकीरोंमे.js";
+import articleData_2024_12_18_दत्तकपार_पालकत्व_एक_परिस from "./articles/2024_12_18_दत्तकपार-पालकत्व-एक-परिस.js";
+import articleData_2024_12_18_डिसेंबर_२०२४ from "./articles/2024_12_18_डिसेंबर-२०२४.js";
+import articleData_2024_12_18_चित्रकलेपासून_दृश्यकलेक from "./articles/2024_12_18_चित्रकलेपासून-दृश्यकलेक.js";
+import articleData_2024_12_18_चित्र_काढायला_शिकणं_लहान from "./articles/2024_12_18_चित्र-काढायला-शिकणं-लहान.js";
+import articleData_2024_12_18_कहानीमेळ्याची_कहाणी from "./articles/2024_12_18_कहानीमेळ्याची-कहाणी.js";
+import articleData_2024_12_18_आर्टस्पार्क्सच्या_निमित from "./articles/2024_12_18_आर्टस्पार्क्सच्या-निमित.js";
+import articleData_2024_12_18_25665_2 from "./articles/2024_12_18_25665-2.js";
+import articleData_2024_12_17_संवादकीय_डिसेंबर_२०२४ from "./articles/2024_12_17_संवादकीय-डिसेंबर-२०२४.js";
+import articleData_2024_12_17_दीपस्तंभ_डिसेंबर_२०२४ from "./articles/2024_12_17_दीपस्तंभ-डिसेंबर-२०२४.js";
+import articleData_2024_12_17_अभिव्यक्तीच्या_अंगणात from "./articles/2024_12_17_अभिव्यक्तीच्या-अंगणात.js";
+import articleData_2024_11_18_दत्तविधान from "./articles/2024_11_18_दत्तविधान.js";
+import articleData_2024_11_18_काराच्या_कार्याचे_कारण from "./articles/2024_11_18_काराच्या-कार्याचे-कारण.js";
+import articleData_2024_11_15_चिऊची_काऊ from "./articles/2024_11_15_चिऊची-काऊ.js";
+import articleData_2024_11_12_दिवाळी_अंक_२०२४ from "./articles/2024_11_12_दिवाळी-अंक-२०२४.js";
+import articleData_2024_10_26_तेव्हापासून_आत्तापर्यंत from "./articles/2024_10_26_तेव्हापासून-आत्तापर्यंत.js";
+import articleData_2024_10_26_the_evolving_landscape_of_child_care_institutions_in_india_challenges_processes_and_the_path_forward from "./articles/2024_10_26_the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward.js";
+import articleData_2024_10_26_beware_of_the_threats_we_bring_to_our_doors from "./articles/2024_10_26_beware-of-the-threats-we-bring-to-our-doors.js";
+import articleData_2024_10_26_adopted from "./articles/2024_10_26_adopted.js";
+import articleData_2024_10_25_संवादकीय_6 from "./articles/2024_10_25_संवादकीय-6.js";
+import articleData_2024_10_25_why_do_lakhs_of_children_languish_in_shelters_while_thousands_of_eager_families_wait_to_adopt from "./articles/2024_10_25_why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt.js";
+import articleData_2024_09_15_स्मृती_जागवूया from "./articles/2024_09_15_स्मृती-जागवूया.js";
+import articleData_2024_09_15_संवादकीय_5 from "./articles/2024_09_15_संवादकीय-5.js";
+import articleData_2024_09_15_सप्टेंबर_२०२४ from "./articles/2024_09_15_सप्टेंबर-२०२४.js";
+import articleData_2024_09_15_मी_एकल_पालक from "./articles/2024_09_15_मी-एकल-पालक.js";
+import articleData_2024_09_15_माझी_वाट_वेगळी from "./articles/2024_09_15_माझी-वाट-वेगळी.js";
+import articleData_2024_09_15_दीपस्तंभ from "./articles/2024_09_15_दीपस्तंभ.js";
+import articleData_2024_09_15_एकल_पालकत्वाच्या_वाटेवरत from "./articles/2024_09_15_एकल-पालकत्वाच्या-वाटेवरत.js";
+import articleData_2024_09_15_एकल_पालकत्वाचे_शिवधनुष्य from "./articles/2024_09_15_एकल-पालकत्वाचे-शिवधनुष्य.js";
+import articleData_2024_09_15_उत्सव_2 from "./articles/2024_09_15_उत्सव-2.js";
+import articleData_2024_09_15_suffer_नव्हे_सफर from "./articles/2024_09_15_suffer-नव्हे-सफर.js";
+import articleData_2024_09_15_25499_2 from "./articles/2024_09_15_25499-2.js";
+import articleData_2024_08_16_लहान्याला_समजलं from "./articles/2024_08_16_लहान्याला-समजलं.js";
+import articleData_2024_08_16_ऑक्टोबर_नोव्हेंबर_२०२४_ज from "./articles/2024_08_16_ऑक्टोबर-नोव्हेंबर-२०२४-ज.js";
+import articleData_2024_08_15_संवादकीय_ऑगस्ट_२०२४ from "./articles/2024_08_15_संवादकीय-ऑगस्ट-२०२४.js";
+import articleData_2024_08_15_वाया_नाही_वायू from "./articles/2024_08_15_वाया-नाही-वायू.js";
+import articleData_2024_08_15_लिटल_माइकल_अँजेलोज् from "./articles/2024_08_15_लिटल-माइकल-अँजेलोज्.js";
+import articleData_2024_08_15_मुक्त_स्रोत_सॉफ्टवेअर_चळ from "./articles/2024_08_15_मुक्त-स्रोत-सॉफ्टवेअर-चळ.js";
+import articleData_2024_08_15_ब्राबद्दलचा_ब्र from "./articles/2024_08_15_ब्राबद्दलचा-ब्र.js";
+import articleData_2024_08_15_ऑगस्ट_२०२४ from "./articles/2024_08_15_ऑगस्ट-२०२४.js";
+import articleData_2024_08_15_आदरांजली_विद्युत_भागवत from "./articles/2024_08_15_आदरांजली-विद्युत-भागवत.js";
+import articleData_2024_07_18_संवादकीय_जुलै_२०२४ from "./articles/2024_07_18_संवादकीय-जुलै-२०२४.js";
+import articleData_2024_07_18_पर्यावरणव्रती_कुसुम from "./articles/2024_07_18_पर्यावरणव्रती-कुसुम.js";
+import articleData_2024_07_18_पर्यावरणपूरक_पालकत्व from "./articles/2024_07_18_पर्यावरणपूरक-पालकत्व.js";
+import articleData_2024_07_18_पर्यावरण_विषय_मुलांपर्यं from "./articles/2024_07_18_पर्यावरण-विषय-मुलांपर्यं.js";
+import articleData_2024_07_18_निसर्गप्रज्ञा from "./articles/2024_07_18_निसर्गप्रज्ञा.js";
+import articleData_2024_07_18_दीपस्तंभ_जुलै_२०२४ from "./articles/2024_07_18_दीपस्तंभ-जुलै-२०२४.js";
+import articleData_2024_07_18_जुलै_२०२४ from "./articles/2024_07_18_जुलै-२०२४.js";
+import articleData_2024_07_18_कचरा_कशाशी_खातात from "./articles/2024_07_18_कचरा-कशाशी-खातात.js";
+import articleData_2024_07_15_नवे_बदल_स्वीकारताना from "./articles/2024_07_15_नवे-बदल-स्वीकारताना.js";
+import articleData_2024_07_15_उषाताई_खरे_खेळघराची_एक_म from "./articles/2024_07_15_उषाताई-खरे-खेळघराची-एक-म.js";
+import articleData_2024_06_15_संवादकीय_जून_२०२४ from "./articles/2024_06_15_संवादकीय-जून-२०२४.js";
+import articleData_2024_06_15_शास्त्री_विरुद्ध_शास्त्र from "./articles/2024_06_15_शास्त्री-विरुद्ध-शास्त्र.js";
+import articleData_2024_06_15_लोक_काय_म्हणतील from "./articles/2024_06_15_लोक-काय-म्हणतील.js";
+import articleData_2024_06_15_मनातला_शिमगा from "./articles/2024_06_15_मनातला-शिमगा.js";
+import articleData_2024_06_15_बच्चे_बने_लेखक from "./articles/2024_06_15_बच्चे-बने-लेखक.js";
+import articleData_2024_06_15_दीपस्तंभ_जून_२०२४ from "./articles/2024_06_15_दीपस्तंभ-जून-२०२४.js";
+import articleData_2024_06_15_जून_२०२४ from "./articles/2024_06_15_जून-२०२४.js";
+import articleData_2024_06_15_चला_गोफ_विणू_या from "./articles/2024_06_15_चला-गोफ-विणू-या.js";
+import articleData_2024_06_15_गणित_सहकार्याचे from "./articles/2024_06_15_गणित-सहकार्याचे.js";
+import articleData_2024_05_25_खेळघर_मित्र_पुस्तकपेटी from "./articles/2024_05_25_खेळघर-मित्र-पुस्तकपेटी.js";
+import articleData_2024_05_15_संवादकीय_मे_२०२४ from "./articles/2024_05_15_संवादकीय-मे-२०२४.js";
+import articleData_2024_05_15_वाचक_लिहितात_मे_२०२४ from "./articles/2024_05_15_वाचक-लिहितात-मे-२०२४.js";
+import articleData_2024_05_15_मे_२०२४ from "./articles/2024_05_15_मे-२०२४.js";
+import articleData_2024_05_15_मुखपृष्ठावरील_कबीराच्या from "./articles/2024_05_15_मुखपृष्ठावरील-कबीराच्या.js";
+import articleData_2024_05_15_भूमिका_मे_२०२४ from "./articles/2024_05_15_भूमिका-मे-२०२४.js";
+import articleData_2024_05_15_फिलॉसफी_फॉर_चिल्ड्रन from "./articles/2024_05_15_फिलॉसफी-फॉर-चिल्ड्रन.js";
+import articleData_2024_05_15_फाईनमनच्या_बालपणातील_किस from "./articles/2024_05_15_फाईनमनच्या-बालपणातील-किस.js";
+import articleData_2024_05_15_नवनिर्मितीच्या_माध्यमात from "./articles/2024_05_15_नवनिर्मितीच्या-माध्यमात.js";
+import articleData_2024_05_15_दीपस्तंभ_मे_२०२४ from "./articles/2024_05_15_दीपस्तंभ-मे-२०२४.js";
+import articleData_2024_05_15_इन्क्वायरीसाठी_पूरक_वाता from "./articles/2024_05_15_इन्क्वायरीसाठी-पूरक-वाता.js";
+import articleData_2024_05_15_इन्क्वायरी_शोधन_आतून_आणि from "./articles/2024_05_15_इन्क्वायरी-शोधन-आतून-आणि.js";
+import articleData_2024_05_15_इतिहासासंदर्भात_इन्क्वा from "./articles/2024_05_15_इतिहासासंदर्भात-इन्क्वा.js";
+import articleData_2024_04_15_सहजतेने_जगण्यासाठी from "./articles/2024_04_15_सहजतेने-जगण्यासाठी.js";
+import articleData_2024_04_15_संवादकीय_एप्रिल_२०२४ from "./articles/2024_04_15_संवादकीय-एप्रिल-२०२४.js";
+import articleData_2024_04_15_वाचक_लिहितात_3 from "./articles/2024_04_15_वाचक-लिहितात-3.js";
+import articleData_2024_04_15_लिंगभावाच्या_कलाकलाने from "./articles/2024_04_15_लिंगभावाच्या-कलाकलाने.js";
+import articleData_2024_04_15_लिंग_लिंगभाव_आणि_त्याची_अ from "./articles/2024_04_15_लिंग-लिंगभाव-आणि-त्याची-अ.js";
+import articleData_2024_04_15_मुलांशी_त्या_विषयावर_ब from "./articles/2024_04_15_मुलांशी-त्या-विषयावर-ब.js";
+import articleData_2024_04_15_प्रवास_लैंगिकतेच्या_पूर from "./articles/2024_04_15_प्रवास-लैंगिकतेच्या-पूर.js";
+import articleData_2024_04_15_दीपस्तंभ_एप्रिल_२०२४ from "./articles/2024_04_15_दीपस्तंभ-एप्रिल-२०२४.js";
+import articleData_2024_04_15_एप्रिल_२०२४ from "./articles/2024_04_15_एप्रिल-२०२४.js";
+import articleData_2024_03_16_दीपस्तंभ_मार्च_२०२४ from "./articles/2024_03_16_दीपस्तंभ-मार्च-२०२४.js";
+import articleData_2024_03_15_सहज_की_सुंदर from "./articles/2024_03_15_सहज-की-सुंदर.js";
+import articleData_2024_03_15_संवादकीय_मार्च_२०२४ from "./articles/2024_03_15_संवादकीय-मार्च-२०२४.js";
+import articleData_2024_03_15_रा_शि_धो_2020_ची_अंमलबजावणी_बि from "./articles/2024_03_15_रा-शि-धो-2020-ची-अंमलबजावणी-बि.js";
+import articleData_2024_03_15_मार्च_२०२४ from "./articles/2024_03_15_मार्च-२०२४.js";
+import articleData_2024_03_15_कारण_तुझं_नि_माझं_बी_लाले_र from "./articles/2024_03_15_कारण-तुझं-नि-माझं-बी-लाले-र.js";
+import articleData_2024_03_15_अजब_शिक्षिकेचा_गजब_वर्ग from "./articles/2024_03_15_अजब-शिक्षिकेचा-गजब-वर्ग.js";
+import articleData_2024_03_04_विशेष_पालकसभा from "./articles/2024_03_04_विशेष-पालकसभा.js";
+import articleData_2024_02_23_फेब्रुवारी_२०२४ from "./articles/2024_02_23_फेब्रुवारी-२०२४.js";
+import articleData_2024_02_19_वारा from "./articles/2024_02_19_वारा.js";
+import articleData_2024_02_15_संवादी_संगोपन from "./articles/2024_02_15_संवादी-संगोपन.js";
+import articleData_2024_02_15_संवादकीय_फेब्रुवारी_२०२_4 from "./articles/2024_02_15_संवादकीय-फेब्रुवारी-२०२-4.js";
+import articleData_2024_02_15_शिक्षक_आणि_मुलं_यांचा_पुस from "./articles/2024_02_15_शिक्षक-आणि-मुलं-यांचा-पुस.js";
+import articleData_2024_02_15_वाचक_लिहितात_2 from "./articles/2024_02_15_वाचक-लिहितात-2.js";
+import articleData_2024_02_15_राष्ट्रीय_उच्चशिक्षण_धो from "./articles/2024_02_15_राष्ट्रीय-उच्चशिक्षण-धो.js";
+import articleData_2024_02_15_बिन_गुस्सेवाला from "./articles/2024_02_15_बिन-गुस्सेवाला.js";
+import articleData_2024_02_15_दीपस्तंभ_फेब्रुवारी_२०२ from "./articles/2024_02_15_दीपस्तंभ-फेब्रुवारी-२०२.js";
+import articleData_2024_02_15_चम्मत_ग_कणीक from "./articles/2024_02_15_चम्मत-ग-कणीक.js";
+import articleData_2024_02_15_आत्मपॅम्फ्लेट from "./articles/2024_02_15_आत्मपॅम्फ्लेट.js";
+import articleData_2024_02_10_रस्ता_2 from "./articles/2024_02_10_रस्ता-2.js";
+import articleData_2024_01_31_रस्ता_पुस्तक_कलेचा_वर्ग from "./articles/2024_01_31_रस्ता-पुस्तक-कलेचा-वर्ग.js";
+import articleData_2024_01_22_मला_भावलेल्या_शोभाताई from "./articles/2024_01_22_मला-भावलेल्या-शोभाताई.js";
+import articleData_2024_01_22_जानेवारी_२०२४ from "./articles/2024_01_22_जानेवारी-२०२४.js";
+import articleData_2024_01_20_संवादकीय_जानेवारी_२०२४ from "./articles/2024_01_20_संवादकीय-जानेवारी-२०२४.js";
+import articleData_2024_01_20_षट्कोनी_खिडकी_आठवणींची from "./articles/2024_01_20_षट्कोनी-खिडकी-आठवणींची.js";
+import articleData_2024_01_20_शब्द_बापुडे_केविलवाणे from "./articles/2024_01_20_शब्द-बापुडे-केविलवाणे.js";
+import articleData_2024_01_20_बालभवनच्या_शोभाताई from "./articles/2024_01_20_बालभवनच्या-शोभाताई.js";
+import articleData_2024_01_20_बालकारणी_शोभाताई from "./articles/2024_01_20_बालकारणी-शोभाताई.js";
+import articleData_2024_01_20_बालकारणाचे_क्षितिज_विस्त from "./articles/2024_01_20_बालकारणाचे-क्षितिज-विस्त.js";
+import articleData_2024_01_20_प्रिय_शोभाताई from "./articles/2024_01_20_प्रिय-शोभाताई.js";
+import articleData_2024_01_20_पडद्यामागचा_मृत्यू from "./articles/2024_01_20_पडद्यामागचा-मृत्यू.js";
+import articleData_2024_01_20_दीपस्तंभ_जानेवारी_२०२४ from "./articles/2024_01_20_दीपस्तंभ-जानेवारी-२०२४.js";
+import articleData_2024_01_20_ओजस_आणि_तुहिन from "./articles/2024_01_20_ओजस-आणि-तुहिन.js";
+import articleData_2024_01_16_प्रकाशनाच्या_निमित्ताने from "./articles/2024_01_16_प्रकाशनाच्या-निमित्ताने.js";
+import articleData_2023_12_20_सॅड_बुक from "./articles/2023_12_20_सॅड-बुक.js";
+import articleData_2023_12_20_संवादकीय_4 from "./articles/2023_12_20_संवादकीय-4.js";
+import articleData_2023_12_20_शिक्षणात_धर्माचा_शिरकाव from "./articles/2023_12_20_शिक्षणात-धर्माचा-शिरकाव.js";
+import articleData_2023_12_20_वाचक_लिहितात from "./articles/2023_12_20_वाचक-लिहितात.js";
+import articleData_2023_12_20_लोकविज्ञान_दिनदर्शिका_2024_व from "./articles/2023_12_20_लोकविज्ञान-दिनदर्शिका-2024-व.js";
+import articleData_2023_12_20_परीक्षेची_मानसिकता from "./articles/2023_12_20_परीक्षेची-मानसिकता.js";
+import articleData_2023_12_20_निमित्त_प्रसंगाचे_समारो from "./articles/2023_12_20_निमित्त-प्रसंगाचे-समारो.js";
+import articleData_2023_12_20_धर्म_आणि_मुले from "./articles/2023_12_20_धर्म-आणि-मुले.js";
+import articleData_2023_12_20_डिसेंबर_२०२३ from "./articles/2023_12_20_डिसेंबर-२०२३.js";
+import articleData_2023_12_20_आदरांजली_शोभा_भागवत from "./articles/2023_12_20_आदरांजली-शोभा-भागवत.js";
+import articleData_2023_12_20_आदरांजली_प्रा_शाम_वाघ from "./articles/2023_12_20_आदरांजली-प्रा-शाम-वाघ.js";
+import articleData_2023_12_20_24792_2 from "./articles/2023_12_20_24792-2.js";
+import articleData_2023_11_15_दिवाळी_अंक_२०२३ from "./articles/2023_11_15_दिवाळी-अंक-२०२३.js";
+import articleData_2023_11_10_खेळघराची_दुकानजत्रा from "./articles/2023_11_10_खेळघराची-दुकानजत्रा.js";
+import articleData_2023_11_06_नवदुर्गा_पुरस्कार from "./articles/2023_11_06_नवदुर्गा-पुरस्कार.js";
+import articleData_2023_10_18_लोकसत्ता_दुर्गा_पुरस्कार from "./articles/2023_10_18_लोकसत्ता-दुर्गा-पुरस्कार.js";
+import articleData_2023_09_20_संवादकीय_सप्टेंबर_२०२३ from "./articles/2023_09_20_संवादकीय-सप्टेंबर-२०२३.js";
+import articleData_2023_09_20_सप्टेंबर_२०२३ from "./articles/2023_09_20_सप्टेंबर-२०२३.js";
+import articleData_2023_09_20_लांडग्यांना_दुष्ट_का_म्ह from "./articles/2023_09_20_लांडग्यांना-दुष्ट-का-म्ह.js";
+import articleData_2023_09_20_पालकांमधील_अप्रत्यक्ष_रा from "./articles/2023_09_20_पालकांमधील-अप्रत्यक्ष-रा.js";
+import articleData_2023_09_20_निषेधाचं_निरूपण_सप्टेंब from "./articles/2023_09_20_निषेधाचं-निरूपण-सप्टेंब.js";
+import articleData_2023_09_20_निवांत_सप्टेंबर_२०२३ from "./articles/2023_09_20_निवांत-सप्टेंबर-२०२३.js";
+import articleData_2023_09_20_निमित्त_प्रसंगाचे_सप्टे from "./articles/2023_09_20_निमित्त-प्रसंगाचे-सप्टे.js";
+import articleData_2023_09_20_धोरणामागील_धोरण_एनईपी_२० from "./articles/2023_09_20_धोरणामागील-धोरण-एनईपी-२०.js";
+import articleData_2023_09_20_उशीर_सप्टेंबर_२०२३ from "./articles/2023_09_20_उशीर-सप्टेंबर-२०२३.js";
+import articleData_2023_09_20_आदरांजली_सप्टेंबर_२०२३ from "./articles/2023_09_20_आदरांजली-सप्टेंबर-२०२३.js";
+import articleData_2023_08_25_स्वातंत्र्यानंतर_100_वर्षा from "./articles/2023_08_25_स्वातंत्र्यानंतर-100-वर्षा.js";
+import articleData_2023_08_25_स्वातंत्र्य from "./articles/2023_08_25_स्वातंत्र्य.js";
+import articleData_2023_08_25_स्वतंत्र_मी from "./articles/2023_08_25_स्वतंत्र-मी.js";
+import articleData_2023_08_25_संवादकीय_ऑगस्ट_२०२३ from "./articles/2023_08_25_संवादकीय-ऑगस्ट-२०२३.js";
+import articleData_2023_08_25_संघर्षाचा_प्रवास from "./articles/2023_08_25_संघर्षाचा-प्रवास.js";
+import articleData_2023_08_25_बाळपणीच्या_जडणघडणीत_पा from "./articles/2023_08_25_बाळपणीच्या-जडणघडणीत-पा.js";
+import articleData_2023_08_25_निमित्त_प्रसंगाचे_ऑगस्ट from "./articles/2023_08_25_निमित्त-प्रसंगाचे-ऑगस्ट.js";
+import articleData_2023_08_25_द_स्टोरी_ऑफ_फर्डिनंड_गोष् from "./articles/2023_08_25_द-स्टोरी-ऑफ-फर्डिनंड-गोष्.js";
+import articleData_2023_08_25_ऑगस्ट_२०२३ from "./articles/2023_08_25_ऑगस्ट-२०२३.js";
+import articleData_2023_08_25_एक_खेलती_हुई_लडकी_को from "./articles/2023_08_25_एक-खेलती-हुई-लडकी-को.js";
+import articleData_2023_08_14_थेट_भेट_एक_आनंद_सोहळा from "./articles/2023_08_14_थेट-भेट-एक-आनंद-सोहळा.js";
+import articleData_2023_08_07_खेळघराच्या_खिडकीतून_9 from "./articles/2023_08_07_खेळघराच्या-खिडकीतून-9.js";
+import articleData_2023_07_25_संवादकीय_जुलै_२०२३ from "./articles/2023_07_25_संवादकीय-जुलै-२०२३.js";
+import articleData_2023_07_25_समलिंगी_विवाह_अधिकार_की_स from "./articles/2023_07_25_समलिंगी-विवाह-अधिकार-की-स.js";
+import articleData_2023_07_25_सजग_प्रौढांची_गरज_आहे from "./articles/2023_07_25_सजग-प्रौढांची-गरज-आहे.js";
+import articleData_2023_07_25_शाळकरी_लेकरांनी_बालविवाह from "./articles/2023_07_25_शाळकरी-लेकरांनी-बालविवाह.js";
+import articleData_2023_07_25_विशेष_मुलांसाठी from "./articles/2023_07_25_विशेष-मुलांसाठी.js";
+import articleData_2023_07_25_म_मुलांचा_क_कायद्यांचा from "./articles/2023_07_25_म-मुलांचा-क-कायद्यांचा.js";
+import articleData_2023_07_25_न्याय from "./articles/2023_07_25_न्याय.js";
+import articleData_2023_07_25_निमित्त_प्रसंगाचे_जुलै_२ from "./articles/2023_07_25_निमित्त-प्रसंगाचे-जुलै-२.js";
+import articleData_2023_07_25_जुलै_२०२३ from "./articles/2023_07_25_जुलै-२०२३.js";
+import articleData_2023_07_25_कुमार_स्वर_एक_गंधर्व_कथा from "./articles/2023_07_25_कुमार-स्वर-एक-गंधर्व-कथा.js";
+import articleData_2023_06_30_सहिष्णू_समाजाच्या_दिशेने from "./articles/2023_06_30_सहिष्णू-समाजाच्या-दिशेने.js";
+import articleData_2023_06_30_संवादकीय_जून_२०२३ from "./articles/2023_06_30_संवादकीय-जून-२०२३.js";
+import articleData_2023_06_30_पूर्वप्राथमिक_शिक्षण_पद् from "./articles/2023_06_30_पूर्वप्राथमिक-शिक्षण-पद्.js";
+import articleData_2023_06_30_निमित्त_प्रसंगाचे_जून_२० from "./articles/2023_06_30_निमित्त-प्रसंगाचे-जून-२०.js";
+import articleData_2023_06_30_धर्मविचार_आणि_शालेय_शिक् from "./articles/2023_06_30_धर्मविचार-आणि-शालेय-शिक्.js";
+import articleData_2023_06_30_द_अन_बॉय_बॉय from "./articles/2023_06_30_द-अन-बॉय-बॉय.js";
+import articleData_2023_06_30_जून_२०२३ from "./articles/2023_06_30_जून-२०२३.js";
+import articleData_2023_06_30_चष्मा_बदलताना from "./articles/2023_06_30_चष्मा-बदलताना.js";
+import articleData_2023_06_30_खेळघरातील_पुस्तक_प्रदर्श from "./articles/2023_06_30_खेळघरातील-पुस्तक-प्रदर्श.js";
+import articleData_2023_06_30_कितीहास_इतिहास from "./articles/2023_06_30_कितीहास-इतिहास.js";
+import articleData_2023_06_12_खेळघरातली_इयत्ता_नववीत_अ from "./articles/2023_06_12_खेळघरातली-इयत्ता-नववीत-अ.js";
+import articleData_2023_05_20_संवादकीय_मे_२०२३ from "./articles/2023_05_20_संवादकीय-मे-२०२३.js";
+import articleData_2023_05_20_वाचनसंस्कृती_रुजली_पाहिज from "./articles/2023_05_20_वाचनसंस्कृती-रुजली-पाहिज.js";
+import articleData_2023_05_20_वाचकाचे_हक्क from "./articles/2023_05_20_वाचकाचे-हक्क.js";
+import articleData_2023_05_20_मे_२०२३ from "./articles/2023_05_20_मे-२०२३.js";
+import articleData_2023_05_20_प्रक्रिया_वाचन_कट्टा from "./articles/2023_05_20_प्रक्रिया-वाचन-कट्टा.js";
+import articleData_2023_05_20_निवडोनी_उत्तम from "./articles/2023_05_20_निवडोनी-उत्तम.js";
+import articleData_2023_05_20_निर्णयाचे_पोटी_जबाबदारीच from "./articles/2023_05_20_निर्णयाचे-पोटी-जबाबदारीच.js";
+import articleData_2023_05_20_निमित्त_प्रसंगाचे from "./articles/2023_05_20_निमित्त-प्रसंगाचे.js";
+import articleData_2023_05_20_तुम्हाला_पुस्तकालयाचा_पत from "./articles/2023_05_20_तुम्हाला-पुस्तकालयाचा-पत.js";
+import articleData_2023_05_20_कहानी_किड्स_लायब्ररी from "./articles/2023_05_20_कहानी-किड्स-लायब्ररी.js";
+import articleData_2023_05_20_अनोख्या_पुस्तक_मित्रांच् from "./articles/2023_05_20_अनोख्या-पुस्तक-मित्रांच्.js";
+import articleData_2023_05_20_अक्षरगंध_खिडक्या_उघडू_ला from "./articles/2023_05_20_अक्षरगंध-खिडक्या-उघडू-ला.js";
+import articleData_2023_05_10_निवडक_पालकनीती_पुस्तकाच from "./articles/2023_05_10_निवडक-पालकनीती-पुस्तकाच.js";
+import articleData_2023_05_10_डॉ_गीताली_वि_मं_पालकनीती_ब from "./articles/2023_05_10_डॉ-गीताली-वि-मं-पालकनीती-ब.js";
+import articleData_2023_05_10_खेळघर_फिल्म from "./articles/2023_05_10_खेळघर-फिल्म.js";
+import articleData_2023_04_20_संवादकीय_एप्रिल_२०२३ from "./articles/2023_04_20_संवादकीय-एप्रिल-२०२३.js";
+import articleData_2023_04_20_वर्तन_व्यवस्थापन_महत्त् from "./articles/2023_04_20_वर्तन-व्यवस्थापन-महत्त्.js";
+import articleData_2023_04_20_वर्गावर्गांच्या_भिंती from "./articles/2023_04_20_वर्गावर्गांच्या-भिंती.js";
+import articleData_2023_04_20_वन_लिटिल_बॅग from "./articles/2023_04_20_वन-लिटिल-बॅग.js";
+import articleData_2023_04_20_मुलांना_काळ_चाखायला_देणा from "./articles/2023_04_20_मुलांना-काळ-चाखायला-देणा.js";
+import articleData_2023_04_20_निसर्गस्नेही_जीवनशैलीती from "./articles/2023_04_20_निसर्गस्नेही-जीवनशैलीती.js";
+import articleData_2023_04_20_निसर्गसान्निध्यातून_शां from "./articles/2023_04_20_निसर्गसान्निध्यातून-शां.js";
+import articleData_2023_04_20_निमित्त_प्रसंगाचे_एप्र from "./articles/2023_04_20_निमित्त-प्रसंगाचे-एप्र.js";
+import articleData_2023_04_20_द_हिडन_लाइफ_ऑफ_ट्रीज from "./articles/2023_04_20_द-हिडन-लाइफ-ऑफ-ट्रीज.js";
+import articleData_2023_04_20_एप्रिल_२०२३ from "./articles/2023_04_20_एप्रिल-२०२३.js";
+import articleData_2023_04_20_आनंदाची_बातमी_शिवाजी_काग from "./articles/2023_04_20_आनंदाची-बातमी-शिवाजी-काग.js";
+import articleData_2023_03_15_संवादकीय_3 from "./articles/2023_03_15_संवादकीय-3.js";
+import articleData_2023_03_15_शिक्षणाचा_मूलभूत_हक्क_वं from "./articles/2023_03_15_शिक्षणाचा-मूलभूत-हक्क-वं.js";
+import articleData_2023_03_15_मितवा from "./articles/2023_03_15_मितवा.js";
+import articleData_2023_03_15_मार्च_२०२३ from "./articles/2023_03_15_मार्च-२०२३.js";
+import articleData_2023_03_15_माझा_शिक्षणाचा_प्रवास from "./articles/2023_03_15_माझा-शिक्षणाचा-प्रवास.js";
+import articleData_2023_03_15_बेटी_बचाओ_बेटी_पढाओ from "./articles/2023_03_15_बेटी-बचाओ-बेटी-पढाओ.js";
+import articleData_2023_03_15_ग्रामऊर्जा_फाउंडेशन from "./articles/2023_03_15_ग्रामऊर्जा-फाउंडेशन.js";
+import articleData_2023_03_15_गाता_साखरेची_गाणी_पोरांच from "./articles/2023_03_15_गाता-साखरेची-गाणी-पोरांच.js";
+import articleData_2023_01_30_संवादकीय_2 from "./articles/2023_01_30_संवादकीय-2.js";
+import articleData_2023_01_30_मूल_सार्‍या_गावाचं_it_takes_a_village from "./articles/2023_01_30_मूल-सार्‍या-गावाचं-it-takes-a-village.js";
+import articleData_2023_01_30_बहुसांस्कृतिक_वर्ग_शिक् from "./articles/2023_01_30_बहुसांस्कृतिक-वर्ग-शिक्.js";
+import articleData_2023_01_30_प्रास्ताविक from "./articles/2023_01_30_प्रास्ताविक.js";
+import articleData_2023_01_30_पालकत्व from "./articles/2023_01_30_पालकत्व.js";
+import articleData_2023_01_30_जानेवारी_२०२३ from "./articles/2023_01_30_जानेवारी-२०२३.js";
+import articleData_2023_01_30_कोविडपश्चात_शिक्षणाचे_वा from "./articles/2023_01_30_कोविडपश्चात-शिक्षणाचे-वा.js";
+import articleData_2023_01_30_काही_शिकले_काही_चुकले from "./articles/2023_01_30_काही-शिकले-काही-चुकले.js";
+import articleData_2023_01_30_करोना_काळातील_मुलांची_भी from "./articles/2023_01_30_करोना-काळातील-मुलांची-भी.js";
+import articleData_2023_01_27_बालवर्गातील_मुले_सुलभा_क from "./articles/2023_01_27_बालवर्गातील-मुले-सुलभा-क.js";
+import articleData_2023_01_25_मुलांची_भाषा_आणि_शिक्षक from "./articles/2023_01_25_मुलांची-भाषा-आणि-शिक्षक.js";
+import articleData_2023_01_25_चकमक_फेब्रुवारी_२००२ from "./articles/2023_01_25_चकमक-फेब्रुवारी-२००२.js";
+import articleData_2022_12_20_when_daddy_makes_mistakes from "./articles/2022_12_20_when-daddy-makes-mistakes.js";
+import articleData_2022_12_20_what_happened_kid_is_crying from "./articles/2022_12_20_what_happened_kid_is_crying.js";
+import articleData_2022_12_20_vinod_kumar_shukla from "./articles/2022_12_20_vinod-kumar-shukla.js";
+import articleData_2022_12_20_tribute_ila_bhatt from "./articles/2022_12_20_tribute-ila-bhatt.js";
+import articleData_2022_12_20_tribute_dr_nagnath from "./articles/2022_12_20_tribute-dr-nagnath.js";
+import articleData_2022_12_20_tribute_dec_2022 from "./articles/2022_12_20_tribute-dec-2022.js";
+import articleData_2022_12_20_scientists_series_end from "./articles/2022_12_20_scientists-series-end.js";
+import articleData_2022_12_20_library_lec from "./articles/2022_12_20_library-lec.js";
+import articleData_2022_12_20_jod_ank_2022_feedback from "./articles/2022_12_20_jod-ank-2022-feedback.js";
+import articleData_2022_12_20_editorial_december_2022 from "./articles/2022_12_20_editorial-december-2022.js";
+import articleData_2022_12_20_december_2022 from "./articles/2022_12_20_december-2022.js";
+import articleData_2022_11_18_संवादकीय_दिवाळी_अंक_२०२२ from "./articles/2022_11_18_संवादकीय-दिवाळी-अंक-२०२२.js";
+import articleData_2022_11_17_शांतीचा_संदेश_देतात_कथा from "./articles/2022_11_17_शांतीचा-संदेश-देतात-कथा.js";
+import articleData_2022_11_17_शांतीकडे_बघण्याचे_वेगवेग from "./articles/2022_11_17_शांतीकडे-बघण्याचे-वेगवेग.js";
+import articleData_2022_11_17_बहुसांस्कृतिकता_आणि_शिक् from "./articles/2022_11_17_बहुसांस्कृतिकता-आणि-शिक्.js";
+import articleData_2022_11_17_दिवाळी_अंक_२०२२ from "./articles/2022_11_17_दिवाळी-अंक-२०२२.js";
+import articleData_2022_11_17_अ_हिडन_लाईफ_चित्रपट_परिचय from "./articles/2022_11_17_अ-हिडन-लाईफ-चित्रपट-परिचय.js";
+import articleData_2022_11_12_unnati_isec from "./articles/2022_11_12_unnati-isec.js";
+import articleData_2022_11_01_shala from "./articles/2022_11_01_shala.js";
+import articleData_2022_11_01_refugee from "./articles/2022_11_01_refugee.js";
+import articleData_2022_11_01_free_to_learn from "./articles/2022_11_01_free-to-learn.js";
+import articleData_2022_11_01_editorial_june_2022 from "./articles/2022_11_01_editorial-june-2022.js";
+import articleData_2022_11_01_an_nashik from "./articles/2022_11_01_an-nashik.js";
+import articleData_2022_11_01_18823 from "./articles/2022_11_01_18823.js";
+import articleData_2022_11_01_18795_2 from "./articles/2022_11_01_18795-2.js";
+import articleData_2022_10_30_the_churn_within from "./articles/2022_10_30_the-churn-within.js";
+import articleData_2022_10_07_teacher_experience_sharing from "./articles/2022_10_07_teacher_experience_sharing.js";
+import articleData_2022_10_05_letter_to_parents from "./articles/2022_10_05_letter_to_parents.js";
+import articleData_2022_10_05_dushyant_kumar from "./articles/2022_10_05_dushyant_kumar.js";
+import articleData_2022_09_14_sep2022_editorial from "./articles/2022_09_14_sep2022-editorial.js";
+import articleData_2022_09_14_bilqis_rabbi from "./articles/2022_09_14_bilqis-rabbi.js";
+import articleData_2022_09_07_toilet_training from "./articles/2022_09_07_toilet_training.js";
+import articleData_2022_09_07_sep_2022 from "./articles/2022_09_07_sep-2022.js";
+import articleData_2022_09_05_v_s_ramchandran from "./articles/2022_09_05_v_s_ramchandran.js";
+import articleData_2022_09_05_readers_write from "./articles/2022_09_05_readers_write.js";
+import articleData_2022_09_05_how_daddys_feelings_were_hurt from "./articles/2022_09_05_how-daddys-feelings-were-hurt.js";
+import articleData_2022_08_17_ऑगस्ट_२०२२ from "./articles/2022_08_17_ऑगस्ट-२०२२.js";
+import articleData_2022_08_16_संवादकीय_ऑगस्ट_२०२२ from "./articles/2022_08_16_संवादकीय-ऑगस्ट-२०२२.js";
+import articleData_2022_08_16_संवाद from "./articles/2022_08_16_संवाद.js";
+import articleData_2022_08_16_शहतूत_mulberry from "./articles/2022_08_16_शहतूत-mulberry.js";
+import articleData_2022_08_16_भान_येताना from "./articles/2022_08_16_भान-येताना.js";
+import articleData_2022_08_16_बाळ_काही_खातच_नाही_उत्तरा from "./articles/2022_08_16_बाळ-काही-खातच-नाही-उत्तरा.js";
+import articleData_2022_08_16_बाबा_पाव_जमिनीवर_फेकतो_ते from "./articles/2022_08_16_बाबा-पाव-जमिनीवर-फेकतो-ते.js";
+import articleData_2022_08_16_फ्रान्सिस_क्रिक from "./articles/2022_08_16_फ्रान्सिस-क्रिक.js";
+import articleData_2022_08_16_आदरांजली_नंदा_खरे from "./articles/2022_08_16_आदरांजली-नंदा-खरे.js";
+import articleData_2022_07_16_जुलै_२०२२ from "./articles/2022_07_16_जुलै-२०२२.js";
+import articleData_2022_07_15_संवादकीय_जुलै_२०२२ from "./articles/2022_07_15_संवादकीय-जुलै-२०२२.js";
+import articleData_2022_07_15_लर्निंग_कंपॅनिअन्स_शिक् from "./articles/2022_07_15_लर्निंग-कंपॅनिअन्स-शिक्.js";
+import articleData_2022_07_15_रिचर्ड_फाईनमन_या_सम_हा from "./articles/2022_07_15_रिचर्ड-फाईनमन-या-सम-हा.js";
+import articleData_2022_07_15_मला_हवंय from "./articles/2022_07_15_मला-हवंय.js";
+import articleData_2022_07_15_बाळ_काही_खातच_नाही from "./articles/2022_07_15_बाळ-काही-खातच-नाही.js";
+import articleData_2022_07_15_बाबा_गाणं_शिकतो_तेव्हा from "./articles/2022_07_15_बाबा-गाणं-शिकतो-तेव्हा.js";
+import articleData_2022_07_15_एका_ध्यासाचा_मागोवा from "./articles/2022_07_15_एका-ध्यासाचा-मागोवा.js";
+import articleData_2022_07_15_अध्यापनातून_मला_काय_मिळा from "./articles/2022_07_15_अध्यापनातून-मला-काय-मिळा.js";
+import articleData_2022_06_21_jun_2022 from "./articles/2022_06_21_jun-2022.js";
+import articleData_2022_05_21_संवादकीय_मे_२०२२ from "./articles/2022_05_21_संवादकीय-मे-२०२२.js";
+import articleData_2022_05_21_रिचर्ड_डॉकिन्स from "./articles/2022_05_21_रिचर्ड-डॉकिन्स.js";
+import articleData_2022_05_21_मे_२०२२ from "./articles/2022_05_21_मे-२०२२.js";
+import articleData_2022_05_21_बाबा_डॉक्टरांना_चावतो_ते from "./articles/2022_05_21_बाबा-डॉक्टरांना-चावतो-ते.js";
+import articleData_2022_05_21_फास्ट_फॉरवर्ड from "./articles/2022_05_21_फास्ट-फॉरवर्ड.js";
+import articleData_2022_05_21_ग्रीष्म from "./articles/2022_05_21_ग्रीष्म.js";
+import articleData_2022_05_21_खेळ from "./articles/2022_05_21_खेळ.js";
+import articleData_2022_05_21_एन्कांटो_एपलरपीें from "./articles/2022_05_21_एन्कांटो-एपलरपीें.js";
+import articleData_2022_05_21_आहार_आणि_बालविकास_2 from "./articles/2022_05_21_आहार-आणि-बालविकास-2.js";
+import articleData_2022_04_15_संवादकीय_एप्रिल_२०२२ from "./articles/2022_04_15_संवादकीय-एप्रिल-२०२२.js";
+import articleData_2022_04_15_लहान_मुलांना_कोडिंग_शिकव from "./articles/2022_04_15_लहान-मुलांना-कोडिंग-शिकव.js";
+import articleData_2022_04_15_भाषेच्या_महत्तेची_रुजवण from "./articles/2022_04_15_भाषेच्या-महत्तेची-रुजवण.js";
+import articleData_2022_04_15_बालविकासाच्या_सौधावरून from "./articles/2022_04_15_बालविकासाच्या-सौधावरून.js";
+import articleData_2022_04_15_बाबा_कविता_लिहितो_तेव्हा from "./articles/2022_04_15_बाबा-कविता-लिहितो-तेव्हा.js";
+import articleData_2022_04_15_प्रत्यय from "./articles/2022_04_15_प्रत्यय.js";
+import articleData_2022_04_15_पुस्तकमैत्री_अभ्यासक्रम from "./articles/2022_04_15_पुस्तकमैत्री-अभ्यासक्रम.js";
+import articleData_2022_04_15_क्लॉड_शॅनन from "./articles/2022_04_15_क्लॉड-शॅनन.js";
+import articleData_2022_04_15_एप्रिल_२०२२ from "./articles/2022_04_15_एप्रिल-२०२२.js";
+import articleData_2022_04_15_इल्म_बड़ी_दौलत_है from "./articles/2022_04_15_इल्म-बड़ी-दौलत-है.js";
+import articleData_2022_04_11_खेळघर_मित्र from "./articles/2022_04_11_खेळघर-मित्र.js";
+import articleData_2022_03_25_शाळा_असते_कशासाठी from "./articles/2022_03_25_शाळा-असते-कशासाठी.js";
+import articleData_2022_03_17_संवादकीय_मार्च_२०२२ from "./articles/2022_03_17_संवादकीय-मार्च-२०२२.js";
+import articleData_2022_03_15_शाळा_असते_कशासाठी_भाग_२ from "./articles/2022_03_15_शाळा-असते-कशासाठी-भाग-२.js";
+import articleData_2022_03_15_मड्डम from "./articles/2022_03_15_मड्डम.js";
+import articleData_2022_03_15_बाबानं_कुत्र्याला_कसं_मा from "./articles/2022_03_15_बाबानं-कुत्र्याला-कसं-मा.js";
+import articleData_2022_03_15_पोटासाठी_की_पाटीसाठी from "./articles/2022_03_15_पोटासाठी-की-पाटीसाठी.js";
+import articleData_2022_03_15_तुम_लडकी_हो_तुम्हें_क्यों from "./articles/2022_03_15_तुम-लडकी-हो-तुम्हें-क्यों.js";
+import articleData_2022_03_15_आहार_आणि_बालविकास from "./articles/2022_03_15_आहार-आणि-बालविकास.js";
+import articleData_2022_03_10_डॅनियल_काहनेमन from "./articles/2022_03_10_डॅनियल-काहनेमन.js";
+import articleData_2022_02_26_संवादकीय_फेब्रुवारी_२०२_3 from "./articles/2022_02_26_संवादकीय-फेब्रुवारी-२०२-3.js";
+import articleData_2022_02_26_शाळा_असते_कशासाठी_भाग_1 from "./articles/2022_02_26_शाळा-असते-कशासाठी-भाग-1.js";
+import articleData_2022_02_26_व्हेरियर_एल्विन from "./articles/2022_02_26_व्हेरियर-एल्विन.js";
+import articleData_2022_02_26_भाषाविकासाचा_सुदृढ_पाया from "./articles/2022_02_26_भाषाविकासाचा-सुदृढ-पाया.js";
+import articleData_2022_02_26_बाबा_धावत्या_गाडीखाली_चे from "./articles/2022_02_26_बाबा-धावत्या-गाडीखाली-चे.js";
+import articleData_2022_02_26_जेव्हा_बाबा_लहान_होता from "./articles/2022_02_26_जेव्हा-बाबा-लहान-होता.js";
+import articleData_2022_02_17_मातृभाषा_की_मौत from "./articles/2022_02_17_मातृभाषा-की-मौत.js";
+import articleData_2022_02_17_बिलीफ_मनमें_है_विश्वास from "./articles/2022_02_17_बिलीफ-मनमें-है-विश्वास.js";
+import articleData_2022_02_17_नका_उगारू_हात_आणखी from "./articles/2022_02_17_नका-उगारू-हात-आणखी.js";
+import articleData_2022_02_15_फेब्रुवारी_२०२२ from "./articles/2022_02_15_फेब्रुवारी-२०२२.js";
+import articleData_2022_01_23_संजीवनातून_की_संगोपनातून from "./articles/2022_01_23_संजीवनातून-की-संगोपनातून.js";
+import articleData_2022_01_23_योहान्स_केप्लर from "./articles/2022_01_23_योहान्स-केप्लर.js";
+import articleData_2022_01_23_भारताची_सामूहिक_कविता from "./articles/2022_01_23_भारताची-सामूहिक-कविता.js";
+import articleData_2022_01_23_न_पत्रांचा_गुच्छ from "./articles/2022_01_23_न-पत्रांचा-गुच्छ.js";
+import articleData_2022_01_23_गोड_साखरेची_कडू_कहाणी from "./articles/2022_01_23_गोड-साखरेची-कडू-कहाणी.js";
+import articleData_2022_01_22_हम_लोग_we_the_people from "./articles/2022_01_22_हम-लोग-we-the-people.js";
+import articleData_2022_01_22_संवादकीय_जानेवारी_२०२२ from "./articles/2022_01_22_संवादकीय-जानेवारी-२०२२.js";
+import articleData_2022_01_22_अनुभव_जपून_ठेवावा_असा from "./articles/2022_01_22_अनुभव-जपून-ठेवावा-असा.js";
+import articleData_2022_01_19_जानेवारी_२०२२ from "./articles/2022_01_19_जानेवारी-२०२२.js";
+import articleData_2021_12_15_डिसेंबर_२०२१ from "./articles/2021_12_15_डिसेंबर-२०२१.js";
+import articleData_2021_12_10_संवादकीय_डिसेंबर_२०२१ from "./articles/2021_12_10_संवादकीय-डिसेंबर-२०२१.js";
+import articleData_2021_12_10_विळखा_ऑनलाइन_गेमिंगचा from "./articles/2021_12_10_विळखा-ऑनलाइन-गेमिंगचा.js";
+import articleData_2021_12_10_पुस्तक_खिडकी from "./articles/2021_12_10_पुस्तक-खिडकी.js";
+import articleData_2021_12_10_गं_भा from "./articles/2021_12_10_गं-भा.js";
+import articleData_2021_12_10_1_डिसेंबर_जागतिक_एड्स_दिवस from "./articles/2021_12_10_1-डिसेंबर-जागतिक-एड्स-दिवस.js";
+import articleData_2021_11_06_संवादकीय_ऑक्टोबर_नोव्हे_4 from "./articles/2021_11_06_संवादकीय-ऑक्टोबर-नोव्हे-4.js";
+import articleData_2021_11_05_संवादकीय_ऑगस्ट_२०२१ from "./articles/2021_11_05_संवादकीय-ऑगस्ट-२०२१.js";
+import articleData_2021_11_05_मुलांचे_मासिक from "./articles/2021_11_05_मुलांचे-मासिक.js";
+import articleData_2021_11_05_मिझोराम from "./articles/2021_11_05_मिझोराम.js";
+import articleData_2021_11_05_भांड्यांचा_इतिहास_शिकवता from "./articles/2021_11_05_भांड्यांचा-इतिहास-शिकवता.js";
+import articleData_2021_11_05_पूर्वग्रहांवर_मात_करण्या from "./articles/2021_11_05_पूर्वग्रहांवर-मात-करण्या.js";
+import articleData_2021_11_05_चौकटीबाहेरचे_मूल from "./articles/2021_11_05_चौकटीबाहेरचे-मूल.js";
+import articleData_2021_11_05_काहीही_न_बोलता from "./articles/2021_11_05_काहीही-न-बोलता.js";
+import articleData_2021_11_05_आमच्या_गावातील_लॉकडाऊन_छ from "./articles/2021_11_05_आमच्या-गावातील-लॉकडाऊन-छ.js";
+import articleData_2021_11_05_आदरांजली_सतीश_काळसेकर from "./articles/2021_11_05_आदरांजली-सतीश-काळसेकर.js";
+import articleData_2021_11_05_आदरांजली_विलासराव_चाफेक from "./articles/2021_11_05_आदरांजली-विलासराव-चाफेक.js";
+import articleData_2021_11_05_आदरांजली_बनविहारी_बॉनी_न from "./articles/2021_11_05_आदरांजली-बनविहारी-बॉनी-न.js";
+import articleData_2021_11_05_आदरांजली_डॉ_गेल_ऑम्व्हेट from "./articles/2021_11_05_आदरांजली-डॉ-गेल-ऑम्व्हेट.js";
+import articleData_2021_11_03_एका_आईचे_मनोगत from "./articles/2021_11_03_एका-आईचे-मनोगत.js";
+import articleData_2021_09_16_सप्टेंबर_२०२१ from "./articles/2021_09_16_सप्टेंबर-२०२१.js";
+import articleData_2021_09_15_संवादकीय_सप्टेम्बर_२०२१ from "./articles/2021_09_15_संवादकीय-सप्टेम्बर-२०२१.js";
+import articleData_2021_09_15_शिराळशेठची_कहाणी from "./articles/2021_09_15_शिराळशेठची-कहाणी.js";
+import articleData_2021_09_15_टिली_मिली_एक_शैक्षणिक_उपक from "./articles/2021_09_15_टिली-मिली-एक-शैक्षणिक-उपक.js";
+import articleData_2021_09_15_चकमक from "./articles/2021_09_15_चकमक.js";
+import articleData_2021_09_15_ऑनलाईन_स्टोरीटेलिंग_अर् from "./articles/2021_09_15_ऑनलाईन-स्टोरीटेलिंग-अर्.js";
+import articleData_2021_09_15_एडा_लवलेस from "./articles/2021_09_15_एडा-लवलेस.js";
+import articleData_2021_09_15_3373_2 from "./articles/2021_09_15_3373-2.js";
+import articleData_2021_08_15_ऑगस्ट_२०२१ from "./articles/2021_08_15_ऑगस्ट-२०२१.js";
+import articleData_2021_08_01_साईकिल from "./articles/2021_08_01_साईकिल.js";
+import articleData_2021_08_01_विचित्र_भेट from "./articles/2021_08_01_विचित्र-भेट.js";
+import articleData_2021_08_01_चित्रपट_परिचय_दि_ग्रेट_इं from "./articles/2021_08_01_चित्रपट-परिचय-दि-ग्रेट-इं.js";
+import articleData_2021_08_01_आदरांजली_सुंदरलाल_बहुगु from "./articles/2021_08_01_आदरांजली-सुंदरलाल-बहुगु.js";
+import articleData_2021_08_01_आदरांजली_गुणेश_डोईफोडे from "./articles/2021_08_01_आदरांजली-गुणेश-डोईफोडे.js";
+import articleData_2021_07_15_जुलै_२०२१ from "./articles/2021_07_15_जुलै-२०२१.js";
+import articleData_2021_07_15_खेळघर_म्हणजे_काय from "./articles/2021_07_15_खेळघर-म्हणजे-काय.js";
+import articleData_2021_07_09_july_2021 from "./articles/2021_07_09_july-2021.js";
+import articleData_2021_07_01_हनुमंत_मोहिते from "./articles/2021_07_01_हनुमंत-मोहिते.js";
+import articleData_2021_07_01_सपना_वाघमारे_travel_and_tourism_कोर्स_दुस from "./articles/2021_07_01_सपना-वाघमारे-travel-and-tourism-कोर्स-दुस.js";
+import articleData_2021_07_01_प्रिया_नागेश_वग्गे_१२_वी_क from "./articles/2021_07_01_प्रिया-नागेश-वग्गे-१२-वी-क.js";
+import articleData_2021_07_01_परिस्थितीचे_अडथळे_ओलांडत from "./articles/2021_07_01_परिस्थितीचे-अडथळे-ओलांडत.js";
+import articleData_2021_07_01_परशुराम_कांबळे from "./articles/2021_07_01_परशुराम-कांबळे.js";
+import articleData_2021_07_01_आकाश_कोसळले_तरीही_शारदा from "./articles/2021_07_01_आकाश-कोसळले-तरीही-शारदा.js";
+import articleData_2021_07_01_अजय_चव्हाण_ty_bsc from "./articles/2021_07_01_अजय-चव्हाण-ty-bsc.js";
+import articleData_2021_06_29_संवादकीय_जून_२०२१ from "./articles/2021_06_29_संवादकीय-जून-२०२१.js";
+import articleData_2021_06_29_संमीलन_कॉन्वर्जन्स from "./articles/2021_06_29_संमीलन-कॉन्वर्जन्स.js";
+import articleData_2021_06_29_मुले_आणि_प्रोग्रामिंग from "./articles/2021_06_29_मुले-आणि-प्रोग्रामिंग.js";
+import articleData_2021_06_15_जून_२०२१ from "./articles/2021_06_15_जून-२०२१.js";
+import articleData_2021_05_25_आजारी_मनाचा_टाहो from "./articles/2021_05_25_आजारी-मनाचा-टाहो.js";
+import articleData_2021_05_24_शिकवू_इच्छिणार्‍यांना_आ from "./articles/2021_05_24_शिकवू-इच्छिणार्‍यांना-आ.js";
+import articleData_2021_05_23_संवादसेतू from "./articles/2021_05_23_संवादसेतू.js";
+import articleData_2021_05_22_आदरांजली_विरुपाक्ष_कुलक from "./articles/2021_05_22_आदरांजली-विरुपाक्ष-कुलक.js";
+import articleData_2021_05_21_जिद्द_डोळस_बनवते from "./articles/2021_05_21_जिद्द-डोळस-बनवते.js";
+import articleData_2021_05_17_हे_मावशीच_करू_जाणोत from "./articles/2021_05_17_हे-मावशीच-करू-जाणोत.js";
+import articleData_2021_05_16_संवादकीय_मे_२०२१ from "./articles/2021_05_16_संवादकीय-मे-२०२१.js";
+import articleData_2021_05_15_मे_२०२१ from "./articles/2021_05_15_मे-२०२१.js";
+import articleData_2021_05_15_चिकूpiku from "./articles/2021_05_15_चिकूpiku.js";
+import articleData_2021_05_09_पुस्तक_परिचय_अनारको_के_आठ from "./articles/2021_05_09_पुस्तक-परिचय-अनारको-के-आठ.js";
+import articleData_2021_05_09_गुजगोष्टी_भाषांच्या from "./articles/2021_05_09_गुजगोष्टी-भाषांच्या.js";
+import articleData_2021_05_08_संवादकीय_मार्च_२०२१ from "./articles/2021_05_08_संवादकीय-मार्च-२०२१.js";
+import articleData_2021_05_08_मूल_नावाचं_सुंदर_कोडं from "./articles/2021_05_08_मूल-नावाचं-सुंदर-कोडं.js";
+import articleData_2021_05_08_पाठशाला_भीतर_और_बाहर from "./articles/2021_05_08_पाठशाला-भीतर-और-बाहर.js";
+import articleData_2021_05_08_कोविड_एक_संकट_तर_आहेच_पण_त् from "./articles/2021_05_08_कोविड-एक-संकट-तर-आहेच-पण-त्.js";
+import articleData_2021_05_08_कोविड_आणि_महिला from "./articles/2021_05_08_कोविड-आणि-महिला.js";
+import articleData_2021_04_11_एप्रिल_२०२१ from "./articles/2021_04_11_एप्रिल-२०२१.js";
+import articleData_2021_04_10_संवादकीय_एप्रिल_२०२१ from "./articles/2021_04_10_संवादकीय-एप्रिल-२०२१.js";
+import articleData_2021_04_10_वयम् from "./articles/2021_04_10_वयम्.js";
+import articleData_2021_04_10_यात्रेच्या_मार्गावर_पॉल from "./articles/2021_04_10_यात्रेच्या-मार्गावर-पॉल.js";
+import articleData_2021_04_10_मुले_झाडांसारखी_असतात from "./articles/2021_04_10_मुले-झाडांसारखी-असतात.js";
+import articleData_2021_04_10_प्रदर्शन_आणि_प्रकाशन_रमा from "./articles/2021_04_10_प्रदर्शन-आणि-प्रकाशन-रमा.js";
+import articleData_2021_04_10_पान_१६ from "./articles/2021_04_10_पान-१६.js";
+import articleData_2021_04_10_उद्याबद्दल from "./articles/2021_04_10_उद्याबद्दल.js";
+import articleData_2021_04_10_आदरांजली_सुधा_साठे_सदा_डु from "./articles/2021_04_10_आदरांजली-सुधा-साठे-सदा-डु.js";
+import articleData_2021_03_29_रंग_माझा_वेगळा from "./articles/2021_03_29_रंग-माझा-वेगळा.js";
+import articleData_2021_03_29_प्लूटो from "./articles/2021_03_29_प्लूटो.js";
+import articleData_2021_03_29_कृती_कामातून_शालेय_शिक्ष from "./articles/2021_03_29_कृती-कामातून-शालेय-शिक्ष.js";
+import articleData_2021_03_29_करकोचा_आणि_कासव from "./articles/2021_03_29_करकोचा-आणि-कासव.js";
+import articleData_2021_03_22_संवादकीय_मार्च_२०२१_2 from "./articles/2021_03_22_संवादकीय-मार्च-२०२१-2.js";
+import articleData_2021_03_19_march_2021 from "./articles/2021_03_19_march-2021.js";
+import articleData_2021_03_13_संवादकीय_फेब्रुवारी_२०२_2 from "./articles/2021_03_13_संवादकीय-फेब्रुवारी-२०२-2.js";
+import articleData_2021_02_25_फेब्रुवारी_२०२१ from "./articles/2021_02_25_फेब्रुवारी-२०२१.js";
+import articleData_2021_01_30_जानेवारी_२०२१ from "./articles/2021_01_30_जानेवारी-२०२१.js";
+import articleData_2021_01_28_शब्द_शब्द_जपून_ठेव_सायली from "./articles/2021_01_28_शब्द-शब्द-जपून-ठेव-सायली.js";
+import articleData_2021_01_24_आम्ही_गृहीत_धरलंय from "./articles/2021_01_24_आम्ही-गृहीत-धरलंय.js";
+import articleData_2021_01_23_संवादकीय_जानेवारी_२०२१ from "./articles/2021_01_23_संवादकीय-जानेवारी-२०२१.js";
+import articleData_2021_01_23_ग्लोबल_टीचर_पुरस्कारा from "./articles/2021_01_23_ग्लोबल-टीचर-पुरस्कारा.js";
+import articleData_2021_01_23_कशासाठी_मराठीप्रेमी_पाल from "./articles/2021_01_23_कशासाठी-मराठीप्रेमी-पाल.js";
+import articleData_2021_01_23_अटकमटक from "./articles/2021_01_23_अटकमटक.js";
+import articleData_2020_12_28_संवादकीय_डिसेंबर_२०२०_मा from "./articles/2020_12_28_संवादकीय-डिसेंबर-२०२०-मा.js";
+import articleData_2020_12_26_शिक्षण_राष्ट्र_आणि_राज्य from "./articles/2020_12_26_शिक्षण-राष्ट्र-आणि-राज्य.js";
+import articleData_2020_12_24_गोष्टीचं_नाटक_प्रतीक्षा from "./articles/2020_12_24_गोष्टीचं-नाटक-प्रतीक्षा.js";
+import articleData_2020_12_20_डिसेंबर_२०२० from "./articles/2020_12_20_डिसेंबर-२०२०.js";
+import articleData_2020_12_10_पुष्पाताई_गेल्या_सं from "./articles/2020_12_10_पुष्पाताई-गेल्या-सं.js";
+import articleData_2020_12_10_दुकानजत्रा_एक_जीवनस्पर् from "./articles/2020_12_10_दुकानजत्रा-एक-जीवनस्पर्.js";
+import articleData_2020_12_10_अभिनंदन_रणजितसिंह_डिसले from "./articles/2020_12_10_अभिनंदन-रणजितसिंह-डिसले.js";
+import articleData_2020_11_14_भूगोलची_बूक_सापडत_नाही_मु from "./articles/2020_11_14_भूगोलची-बूक-सापडत-नाही-मु.js";
+import articleData_2020_11_14_भाषेची_आनंदयात्रा_दिलीप from "./articles/2020_11_14_भाषेची-आनंदयात्रा-दिलीप.js";
+import articleData_2020_11_13_स्पार्टाकस from "./articles/2020_11_13_स्पार्टाकस.js";
+import articleData_2020_11_13_संवादकीय_ऑक्टोबर_नोव्हे_3 from "./articles/2020_11_13_संवादकीय-ऑक्टोबर-नोव्हे-3.js";
+import articleData_2020_11_13_संदर्भ_हरवलेला_शब्द_डॉ_गण from "./articles/2020_11_13_संदर्भ-हरवलेला-शब्द-डॉ-गण.js";
+import articleData_2020_11_13_संज्ञा_काटेकोरपणेच_बनवल् from "./articles/2020_11_13_संज्ञा-काटेकोरपणेच-बनवल्.js";
+import articleData_2020_11_13_संगीत_नावाची_जादू from "./articles/2020_11_13_संगीत-नावाची-जादू.js";
+import articleData_2020_11_13_शहर_की_भाषा from "./articles/2020_11_13_शहर-की-भाषा.js";
+import articleData_2020_11_13_शब्दांपल्याड from "./articles/2020_11_13_शब्दांपल्याड.js";
+import articleData_2020_11_13_ये_हृदयीचे_ते_हृदयी from "./articles/2020_11_13_ये-हृदयीचे-ते-हृदयी.js";
+import articleData_2020_11_13_मेंदूच्या_भाषेत from "./articles/2020_11_13_मेंदूच्या-भाषेत.js";
+import articleData_2020_11_13_माडिया_शिकू_या from "./articles/2020_11_13_माडिया-शिकू-या.js";
+import articleData_2020_11_13_जो_हुआ_करता_हैं_फिल्मों_मे from "./articles/2020_11_13_जो-हुआ-करता-हैं-फिल्मों-मे.js";
+import articleData_2020_11_13_गोष्टींची_शाळा from "./articles/2020_11_13_गोष्टींची-शाळा.js";
+import articleData_2020_11_12_भाषेचे_सांस्कृतिक_राजकार from "./articles/2020_11_12_भाषेचे-सांस्कृतिक-राजकार.js";
+import articleData_2020_11_12_भाषा_समजून_घेताना from "./articles/2020_11_12_भाषा-समजून-घेताना.js";
+import articleData_2020_11_12_टेबल_म्हणजे_टेबल from "./articles/2020_11_12_टेबल-म्हणजे-टेबल.js";
+import articleData_2020_11_12_छोट्यांचे_भाषाविश्व from "./articles/2020_11_12_छोट्यांचे-भाषाविश्व.js";
+import articleData_2020_11_12_ग्रेन्युईची_गोष्ट from "./articles/2020_11_12_ग्रेन्युईची-गोष्ट.js";
+import articleData_2020_11_12_करक_भाषेचं_पुनरुज्जीवन from "./articles/2020_11_12_करक-भाषेचं-पुनरुज्जीवन.js";
+import articleData_2020_11_12_आगामी_पुस्तकाबद्दल from "./articles/2020_11_12_आगामी-पुस्तकाबद्दल.js";
+import articleData_2020_11_12_अश्शी_भाषा from "./articles/2020_11_12_अश्शी-भाषा.js";
+import articleData_2020_11_12_आरोग्यसंवादु_स्वतःला from "./articles/2020_11_12_॥आरोग्यसंवादु॥-॥स्वतःला.js";
+import articleData_2020_11_11_मुलात_मूल from "./articles/2020_11_11_मुलात-मूल.js";
+import articleData_2020_11_11_अक्षरसेतू from "./articles/2020_11_11_अक्षरसेतू.js";
+import articleData_2020_11_10_कुणी_घर_देता_का_घर_मराठीला from "./articles/2020_11_10_कुणी-घर-देता-का-घर-मराठीला.js";
+import articleData_2020_11_09_भाषांची_पौष्टिक_खिचडी from "./articles/2020_11_09_भाषांची-पौष्टिक-खिचडी.js";
+import articleData_2020_11_08_राष्ट्रीय_शिक्षण_धोरण_सं from "./articles/2020_11_08_राष्ट्रीय-शिक्षण-धोरण-सं.js";
+import articleData_2020_11_07_मराठीचा_अस्सल_गोडवा_ओवी_स from "./articles/2020_11_07_मराठीचा-अस्सल-गोडवा-ओवी-स.js";
+import articleData_2020_11_06_मातृभाषेवर_आधारित_बहुभाष from "./articles/2020_11_06_मातृभाषेवर-आधारित-बहुभाष.js";
+import articleData_2020_11_06_mother_tongue_based_multilingual_education_and_english_in_india from "./articles/2020_11_06_mother-tongue-based-multilingual-education-and-english-in-india.js";
+import articleData_2020_11_05_मित्रहो_पु_ल_देशपांडे from "./articles/2020_11_05_मित्रहो-पु-ल-देशपांडे.js";
+import articleData_2020_11_05_ऑक्टोबर_नोव्हेंबर_२०२०_द from "./articles/2020_11_05_ऑक्टोबर-नोव्हेंबर-२०२०-द.js";
+import articleData_2020_11_04_मुलांशी_बोलताना from "./articles/2020_11_04_मुलांशी-बोलताना.js";
+import articleData_2020_11_03_मुलांबरोबर_भाषा_शिकताना from "./articles/2020_11_03_मुलांबरोबर-भाषा-शिकताना.js";
+import articleData_2020_10_30_जोडअंक_ऑक्टोबर_नोव्हेंब from "./articles/2020_10_30_जोडअंक-ऑक्टोबर-नोव्हेंब.js";
+import articleData_2020_09_14_संपादकीय_ऑगस्ट_सप्टेंबर from "./articles/2020_09_14_संपादकीय-ऑगस्ट-सप्टेंबर.js";
+import articleData_2020_09_14_शाळाबंदी_ही_एक_संधीच from "./articles/2020_09_14_शाळाबंदी-ही-एक-संधीच.js";
+import articleData_2020_09_14_राष्ट्रीय_शिक्षण_धोरण_2020 from "./articles/2020_09_14_राष्ट्रीय-शिक्षण-धोरण-2020.js";
+import articleData_2020_09_14_ये_दुख_काहे_खतम_नही_होता_बे_2 from "./articles/2020_09_14_ये-दुख-काहे-खतम-नही-होता-बे-2.js";
+import articleData_2020_09_14_पुस्तकावरचे_प्रतिसादात् from "./articles/2020_09_14_पुस्तकावरचे-प्रतिसादात्.js";
+import articleData_2020_09_14_पुन्हा_घडवूया_रेनायसन्स from "./articles/2020_09_14_पुन्हा-घडवूया-रेनायसन्स.js";
+import articleData_2020_09_14_घरच्या_घरी from "./articles/2020_09_14_घरच्या-घरी.js";
+import articleData_2020_09_14_कोविड_आणि_आपण from "./articles/2020_09_14_कोविड-आणि-आपण.js";
+import articleData_2020_09_14_ऑनलाईन_शिक्षण from "./articles/2020_09_14_ऑनलाईन-शिक्षण.js";
+import articleData_2020_09_14_आदरांजली_डॉ_इलीना_सेन from "./articles/2020_09_14_आदरांजली-डॉ-इलीना-सेन.js";
+import articleData_2020_09_04_ऑगस्ट_सप्टेंबर_२०२० from "./articles/2020_09_04_ऑगस्ट-सप्टेंबर-२०२०.js";
+import articleData_2020_07_28_संवादकीय_जून_जुलै_२०२० from "./articles/2020_07_28_संवादकीय-जून-जुलै-२०२०.js";
+import articleData_2020_07_28_लॉक्ड_डाऊन_इन_जम्मू from "./articles/2020_07_28_लॉक्ड-डाऊन-इन-जम्मू.js";
+import articleData_2020_07_28_लीलाताई_आनंद_निकेतन_शाळे from "./articles/2020_07_28_लीलाताई-आनंद-निकेतन-शाळे.js";
+import articleData_2020_07_28_ये_दुख_काहे_खतम_नही_होता_बे from "./articles/2020_07_28_ये-दुख-काहे-खतम-नही-होता-बे.js";
+import articleData_2020_07_28_मुलं_टेकडी_आणि_मी from "./articles/2020_07_28_मुलं-टेकडी-आणि-मी.js";
+import articleData_2020_07_28_बिकट_वाट_वहिवाट_नसावी from "./articles/2020_07_28_बिकट-वाट-वहिवाट-नसावी.js";
+import articleData_2020_07_28_पुस्तकातील_चित्रं_आणि_कल from "./articles/2020_07_28_पुस्तकातील-चित्रं-आणि-कल.js";
+import articleData_2020_07_28_ज्योतसे_ज्योत_जलाते_चलो from "./articles/2020_07_28_ज्योतसे-ज्योत-जलाते-चलो.js";
+import articleData_2020_07_28_गाणं_ज्याचं_त्याचं_तुमच from "./articles/2020_07_28_गाणं-ज्याचं-त्याचं-तुमच.js";
+import articleData_2020_07_28_कचरावेचक_बालमजूर_आर्थिक from "./articles/2020_07_28_कचरावेचक-बालमजूर-आर्थिक.js";
+import articleData_2020_07_28_आपण_गिऱ्हाईक_होतोय_का from "./articles/2020_07_28_आपण-गिऱ्हाईक-होतोय-का.js";
+import articleData_2020_07_28_आदरांजली_लीलाताई from "./articles/2020_07_28_आदरांजली-लीलाताई.js";
+import articleData_2020_07_28_2148_2 from "./articles/2020_07_28_2148-2.js";
+import articleData_2020_07_05_जून_जुलै_२०२० from "./articles/2020_07_05_जून-जुलै-२०२०.js";
+import articleData_2020_05_28_कुछ_ना_कहो_स्लो_माध्यमे from "./articles/2020_05_28_कुछ-ना-कहो-स्लो-माध्यमे.js";
+import articleData_2020_05_26_लॉकडाऊनदरम्यान_अनुभवलेल from "./articles/2020_05_26_लॉकडाऊनदरम्यान-अनुभवलेल.js";
+import articleData_2020_05_26_ताकि_थमे_नहीं_कलम from "./articles/2020_05_26_ताकि-थमे-नहीं-कलम.js";
+import articleData_2020_05_22_संकटातील_संधी_आणि_संधीती from "./articles/2020_05_22_संकटातील-संधी-आणि-संधीती.js";
+import articleData_2020_05_20_अत्यावश्यक_ते_अनावश्यकव् from "./articles/2020_05_20_अत्यावश्यक-ते-अनावश्यकव्.js";
+import articleData_2020_05_12_संवादकीय_एप्रिल_मे_२०२० from "./articles/2020_05_12_संवादकीय-एप्रिल-मे-२०२०.js";
+import articleData_2020_05_11_जजमेंट_डे from "./articles/2020_05_11_जजमेंट-डे.js";
+import articleData_2020_05_11_कथा_कहाण्यांच्या_परिघापल from "./articles/2020_05_11_कथा-कहाण्यांच्या-परिघापल.js";
+import articleData_2020_05_10_बालक_पालक_आणि_मी from "./articles/2020_05_10_बालक-पालक-आणि-मी.js";
+import articleData_2020_05_05_एप्रिल_मे_२०२० from "./articles/2020_05_05_एप्रिल-मे-२०२०.js";
+import articleData_2020_05_05_एका_शिक्षकाची_डायरी from "./articles/2020_05_05_एका-शिक्षकाची-डायरी.js";
+import articleData_2020_05_04_पालकांना_पत्र from "./articles/2020_05_04_पालकांना-पत्र.js";
+import articleData_2020_03_23_संवादकीय_मार्च_२०२० from "./articles/2020_03_23_संवादकीय-मार्च-२०२०.js";
+import articleData_2020_03_23_वदनी_कवळ_घेता from "./articles/2020_03_23_वदनी-कवळ-घेता.js";
+import articleData_2020_03_23_फेक_न्यूज_अर्थात_भंपक_भरत from "./articles/2020_03_23_फेक-न्यूज-अर्थात-भंपक-भरत.js";
+import articleData_2020_03_23_नेमेचि_येतो from "./articles/2020_03_23_नेमेचि-येतो.js";
+import articleData_2020_03_23_थंगारी from "./articles/2020_03_23_थंगारी.js";
+import articleData_2020_03_23_आता_खेळा_नाचा from "./articles/2020_03_23_आता-खेळा-नाचा.js";
+import articleData_2020_03_05_मार्च_२०२० from "./articles/2020_03_05_मार्च-२०२०.js";
+import articleData_2020_02_16_संवादकीय_फेब्रुवारी_२०२ from "./articles/2020_02_16_संवादकीय-फेब्रुवारी-२०२.js";
+import articleData_2020_02_16_वाचक_कळवतात from "./articles/2020_02_16_वाचक-कळवतात.js";
+import articleData_2020_02_16_मी_कुठे_जाऊ from "./articles/2020_02_16_मी-कुठे-जाऊ.js";
+import articleData_2020_02_16_नवजाणिवांच्या_प्रसूतिकळ from "./articles/2020_02_16_नवजाणिवांच्या-प्रसूतिकळ.js";
+import articleData_2020_02_16_कमी_हळू_खरे from "./articles/2020_02_16_कमी-हळू-खरे.js";
+import articleData_2020_02_16_कथुली_माझ्या_शेजाऱ्याचा from "./articles/2020_02_16_कथुली-माझ्या-शेजाऱ्याचा.js";
+import articleData_2020_02_16_आदरांजली_विमुक्ता_विद्य from "./articles/2020_02_16_आदरांजली-विमुक्ता-विद्य.js";
+import articleData_2020_02_16_अभिव्यक्ती_अभिनयाच्या_म from "./articles/2020_02_16_अभिव्यक्ती-अभिनयाच्या-म.js";
+import articleData_2020_02_04_फेब्रुवारी_२०२० from "./articles/2020_02_04_फेब्रुवारी-२०२०.js";
+import articleData_2020_01_16_ही_भूमी_माझी_आहे from "./articles/2020_01_16_ही-भूमी-माझी-आहे.js";
+import articleData_2020_01_16_संवादकीय_जानेवारी_२०२० from "./articles/2020_01_16_संवादकीय-जानेवारी-२०२०.js";
+import articleData_2020_01_16_मुलांना_बोलतं_लिहितं_करत from "./articles/2020_01_16_मुलांना-बोलतं-लिहितं-करत.js";
+import articleData_2020_01_16_ढग्रास_सूर्यग्रहण from "./articles/2020_01_16_ढग्रास-सूर्यग्रहण.js";
+import articleData_2020_01_16_गोष्ट_सांगण्यामागची_गोष् from "./articles/2020_01_16_गोष्ट-सांगण्यामागची-गोष्.js";
+import articleData_2020_01_16_आम्ही_भारताचे_नागरिक from "./articles/2020_01_16_आम्ही-भारताचे-नागरिक.js";
+import articleData_2020_01_05_जानेवारी_२०२० from "./articles/2020_01_05_जानेवारी-२०२०.js";
+import articleData_2019_12_22_संवादकीय_डिसेंबर_२०१९ from "./articles/2019_12_22_संवादकीय-डिसेंबर-२०१९.js";
+import articleData_2019_12_21_सूर्योत्सव from "./articles/2019_12_21_सूर्योत्सव.js";
+import articleData_2019_12_20_गोष्ट_एक_दृष्टिकोन_अनेक_इ from "./articles/2019_12_20_गोष्ट-एक-दृष्टिकोन-अनेक-इ.js";
+import articleData_2019_12_19_सत्याग्रह from "./articles/2019_12_19_सत्याग्रह.js";
+import articleData_2019_12_18_माझी_शाळा_मराठी_शाळा from "./articles/2019_12_18_माझी-शाळा-मराठी-शाळा.js";
+import articleData_2019_12_07_सांगायची_गोष्ट from "./articles/2019_12_07_सांगायची-गोष्ट.js";
+import articleData_2019_12_07_लगीन_मनीमाऊचं from "./articles/2019_12_07_लगीन-मनीमाऊचं.js";
+import articleData_2019_12_07_रामायणे_300_की_3000 from "./articles/2019_12_07_रामायणे-300-की-3000.js";
+import articleData_2019_12_07_रंगीत_गंमत from "./articles/2019_12_07_रंगीत-गंमत.js";
+import articleData_2019_12_07_म्युझिशिअन_रेनच्या_शोधात from "./articles/2019_12_07_म्युझिशिअन-रेनच्या-शोधात.js";
+import articleData_2019_12_07_मुलांच्या_विभागाबद्दल from "./articles/2019_12_07_मुलांच्या-विभागाबद्दल.js";
+import articleData_2019_12_07_मी_चोरून_साखर_खातो_तेव्हा from "./articles/2019_12_07_मी-चोरून-साखर-खातो-तेव्हा.js";
+import articleData_2019_12_07_भाकर from "./articles/2019_12_07_भाकर.js";
+import articleData_2019_12_07_बेंजामिन_आणि_फ्रँकलिन from "./articles/2019_12_07_बेंजामिन-आणि-फ्रँकलिन.js";
+import articleData_2019_12_07_बहादूर_लंगड्या from "./articles/2019_12_07_बहादूर-लंगड्या.js";
+import articleData_2019_12_07_पृथ्वीवर_चांदोबा from "./articles/2019_12_07_पृथ्वीवर-चांदोबा.js";
+import articleData_2019_12_07_पाऊस_दणकून_कोसळत_होता from "./articles/2019_12_07_पाऊस-दणकून-कोसळत-होता.js";
+import articleData_2019_12_07_धानाची_निंदणी from "./articles/2019_12_07_धानाची-निंदणी.js";
+import articleData_2019_12_07_देतो_तो_देव from "./articles/2019_12_07_देतो-तो-देव.js";
+import articleData_2019_12_07_थरारक_सहल from "./articles/2019_12_07_थरारक-सहल.js";
+import articleData_2019_12_07_चिऊताईचं_शेतकरीदादाला_पत from "./articles/2019_12_07_चिऊताईचं-शेतकरीदादाला-पत.js";
+import articleData_2019_12_07_अंकाबद्दल from "./articles/2019_12_07_अंकाबद्दल.js";
+import articleData_2019_12_06_झाड_मेले from "./articles/2019_12_06_झाड-मेले.js";
+import articleData_2019_12_06_जेव्हा_काळ_धावून_येतो from "./articles/2019_12_06_जेव्हा-काळ-धावून-येतो.js";
+import articleData_2019_12_06_चांदोबा_रोज_फिरायला_जाता from "./articles/2019_12_06_चांदोबा-रोज-फिरायला-जाता.js";
+import articleData_2019_12_06_चंद्राला_हात_लावला from "./articles/2019_12_06_चंद्राला-हात-लावला.js";
+import articleData_2019_12_06_गावात_पसरला_आनंदी_आनंद from "./articles/2019_12_06_गावात-पसरला-आनंदी-आनंद.js";
+import articleData_2019_12_06_कुठे_गेला_ओप्पो from "./articles/2019_12_06_कुठे-गेला-ओप्पो.js";
+import articleData_2019_12_04_डिसेंबर_२०१९ from "./articles/2019_12_04_डिसेंबर-२०१९.js";
+import articleData_2019_11_20_ऑक्टोबर_नोव्हेंबर_२०१९_द from "./articles/2019_11_20_ऑक्टोबर-नोव्हेंबर-२०१९-द.js";
+import articleData_2019_11_16_संवादकीय_ऑक्टोबर_नोव्हे_2 from "./articles/2019_11_16_संवादकीय-ऑक्टोबर-नोव्हे-2.js";
+import articleData_2019_11_16_शेत_विकलं from "./articles/2019_11_16_शेत-विकलं.js";
+import articleData_2019_11_16_शाळा from "./articles/2019_11_16_शाळा.js";
+import articleData_2019_11_16_लोककथा_आणि_समाजजीवन from "./articles/2019_11_16_लोककथा-आणि-समाजजीवन.js";
+import articleData_2019_11_16_चुचू_मांतूची_चॉकलेटांची from "./articles/2019_11_16_चुचू-मांतूची-चॉकलेटांची.js";
+import articleData_2019_11_15_स्वीकार_2 from "./articles/2019_11_15_स्वीकार-2.js";
+import articleData_2019_11_15_मैत्री from "./articles/2019_11_15_मैत्री.js";
+import articleData_2019_11_15_मित्र_भेटला from "./articles/2019_11_15_मित्र-भेटला.js";
+import articleData_2019_11_15_तरी_बरं from "./articles/2019_11_15_तरी-बरं.js";
+import articleData_2019_11_15_तरंग from "./articles/2019_11_15_तरंग.js";
+import articleData_2019_11_15_टिंकू from "./articles/2019_11_15_टिंकू.js";
+import articleData_2019_11_15_झॉपांग_भॉतांग from "./articles/2019_11_15_झॉपांग-भॉतांग.js";
+import articleData_2019_11_15_खजिना from "./articles/2019_11_15_खजिना.js";
+import articleData_2019_11_15_उजालेकी_ईद from "./articles/2019_11_15_उजालेकी-ईद.js";
+import articleData_2019_11_15_आणि_महेश_खूश_झाला from "./articles/2019_11_15_आणि-महेश-खूश-झाला.js";
+import articleData_2019_11_15_आएशाचं_धाडस from "./articles/2019_11_15_आएशाचं-धाडस.js";
+import articleData_2019_11_15_अक्कामावशीचं_पत्र from "./articles/2019_11_15_अक्कामावशीचं-पत्र.js";
+import articleData_2019_11_07_सांभाळ from "./articles/2019_11_07_सांभाळ.js";
+import articleData_2019_11_07_रायमाचा_राजपुत्र from "./articles/2019_11_07_रायमाचा-राजपुत्र.js";
+import articleData_2019_11_07_चोर_तर_नसेल from "./articles/2019_11_07_चोर-तर-नसेल.js";
+import articleData_2019_11_07_चिनी from "./articles/2019_11_07_चिनी.js";
+import articleData_2019_11_07_चालता_चालता_चंद्र_ढगाला_अ from "./articles/2019_11_07_चालता-चालता-चंद्र-ढगाला-अ.js";
+import articleData_2019_11_07_काय_हरकत_आहे from "./articles/2019_11_07_काय-हरकत-आहे.js";
+import articleData_2019_09_15_स्टोरीटेल from "./articles/2019_09_15_स्टोरीटेल.js";
+import articleData_2019_09_15_संवादकीय_सप्टेंबर_२०१९ from "./articles/2019_09_15_संवादकीय-सप्टेंबर-२०१९.js";
+import articleData_2019_09_15_लपलेले_कॅमेरे from "./articles/2019_09_15_लपलेले-कॅमेरे.js";
+import articleData_2019_09_15_माझे_भारतवाचन from "./articles/2019_09_15_माझे-भारतवाचन.js";
+import articleData_2019_09_15_बाळाचा_सर्वांगीण_विकास_आ from "./articles/2019_09_15_बाळाचा-सर्वांगीण-विकास-आ.js";
+import articleData_2019_09_15_पुस्तक_परिचय_सत्योत्तर_र from "./articles/2019_09_15_पुस्तक-परिचय-सत्योत्तर-र.js";
+import articleData_2019_09_15_कोंबडा_विकून_टाकला from "./articles/2019_09_15_कोंबडा-विकून-टाकला.js";
+import articleData_2019_09_04_सप्टेंबर_२०१९ from "./articles/2019_09_04_सप्टेंबर-२०१९.js";
+import articleData_2019_08_27_संवादकीय_ऑगस्ट_२०१९ from "./articles/2019_08_27_संवादकीय-ऑगस्ट-२०१९.js";
+import articleData_2019_08_27_भारतातील_शिक्षणाचं_वास्त from "./articles/2019_08_27_भारतातील-शिक्षणाचं-वास्त.js";
+import articleData_2019_08_27_प्ले_थेरपी from "./articles/2019_08_27_प्ले-थेरपी.js";
+import articleData_2019_08_27_पालकत्व_खरेच_इतके_महत्त् from "./articles/2019_08_27_पालकत्व-खरेच-इतके-महत्त्.js";
+import articleData_2019_08_27_इवलेसे_रोप_लावियले_दारी from "./articles/2019_08_27_इवलेसे-रोप-लावियले-दारी.js";
+import articleData_2019_08_27_आदरांजली_निर्मलाताई_पुर from "./articles/2019_08_27_आदरांजली-निर्मलाताई-पुर.js";
+import articleData_2019_08_04_ऑगस्ट_२०१९ from "./articles/2019_08_04_ऑगस्ट-२०१९.js";
+import articleData_2019_07_21_सोविएत_बाल_कुमार_साहित्य from "./articles/2019_07_21_सोविएत-बाल-कुमार-साहित्य.js";
+import articleData_2019_07_21_संवादकीय_जुलै_२०१९ from "./articles/2019_07_21_संवादकीय-जुलै-२०१९.js";
+import articleData_2019_07_21_राष्ट्रीय_शिक्षण_धोरण_२० from "./articles/2019_07_21_राष्ट्रीय-शिक्षण-धोरण-२०.js";
+import articleData_2019_07_21_दूरदर्शन_आणि_पालकत्व from "./articles/2019_07_21_दूरदर्शन-आणि-पालकत्व.js";
+import articleData_2019_07_21_कविता from "./articles/2019_07_21_कविता.js";
+import articleData_2019_07_21_आनंदघर_डायरीज_2 from "./articles/2019_07_21_आनंदघर-डायरीज-2.js";
+import articleData_2019_07_04_जुलै_२०१९ from "./articles/2019_07_04_जुलै-२०१९.js";
+import articleData_2019_06_19_संवादकीय_जून_२०१९ from "./articles/2019_06_19_संवादकीय-जून-२०१९.js";
+import articleData_2019_06_19_लोकशाही from "./articles/2019_06_19_लोकशाही.js";
+import articleData_2019_06_19_पुस्तक_परिचय_डेमोक्रॅटि from "./articles/2019_06_19_पुस्तक-परिचय-डेमोक्रॅटि.js";
+import articleData_2019_06_19_गाभार्‍यातला_देव from "./articles/2019_06_19_गाभार्‍यातला-देव.js";
+import articleData_2019_06_19_कथुली_2 from "./articles/2019_06_19_कथुली-2.js";
+import articleData_2019_06_19_आनंदघर_डायरीज from "./articles/2019_06_19_आनंदघर-डायरीज.js";
+import articleData_2019_06_19_अंजू_सैगल_शिक्षणक्षेत्र from "./articles/2019_06_19_अंजू-सैगल-शिक्षणक्षेत्र.js";
+import articleData_2019_06_19_अंजू_एक_विलक्षण_व्यक्ती from "./articles/2019_06_19_अंजू-एक-विलक्षण-व्यक्ती.js";
+import articleData_2019_06_04_जून_२०१९ from "./articles/2019_06_04_जून-२०१९.js";
+import articleData_2019_05_16_संवादकीय_मे_२०१९ from "./articles/2019_05_16_संवादकीय-मे-२०१९.js";
+import articleData_2019_05_16_शैक्षणिक_खेळ_आणि_साधने_नि from "./articles/2019_05_16_शैक्षणिक-खेळ-आणि-साधने-नि.js";
+import articleData_2019_05_16_शिक्षण_कशासाठी from "./articles/2019_05_16_शिक्षण-कशासाठी.js";
+import articleData_2019_05_16_मरायला_वेळ_आहे_ना from "./articles/2019_05_16_मरायला-वेळ-आहे-ना.js";
+import articleData_2019_05_16_पोरक्या_पोरांसाठी from "./articles/2019_05_16_पोरक्या-पोरांसाठी.js";
+import articleData_2019_05_16_पुस्तक_परिचय_बॉर्न_अ_क्रा from "./articles/2019_05_16_पुस्तक-परिचय-बॉर्न-अ-क्रा.js";
+import articleData_2019_05_16_परीक्षा_निष्पत्ती_शून्य from "./articles/2019_05_16_परीक्षा-निष्पत्ती-शून्य.js";
+import articleData_2019_05_16_कथुली from "./articles/2019_05_16_कथुली.js";
+import articleData_2019_05_16_आवाजी_तंत्रज्ञान_आणि_पाल from "./articles/2019_05_16_आवाजी-तंत्रज्ञान-आणि-पाल.js";
+import articleData_2019_05_04_मे_२०१९ from "./articles/2019_05_04_मे-२०१९.js";
+import articleData_2019_04_22_संवादकीय_एप्रिल_२०१९ from "./articles/2019_04_22_संवादकीय-एप्रिल-२०१९.js";
+import articleData_2019_04_22_शिक्षणाचे_तीन_मार्ग from "./articles/2019_04_22_शिक्षणाचे-तीन-मार्ग.js";
+import articleData_2019_04_22_विरोधी_मतं_नीटपणे_का_ऐकून from "./articles/2019_04_22_विरोधी-मतं-नीटपणे-का-ऐकून.js";
+import articleData_2019_04_22_वाचक_प्रतिसाद_2 from "./articles/2019_04_22_वाचक-प्रतिसाद-2.js";
+import articleData_2019_04_22_मुलांवर_विश्वास_ठेवताना from "./articles/2019_04_22_मुलांवर-विश्वास-ठेवताना.js";
+import articleData_2019_04_22_तंत्रज्ञान_समृद्ध_जगण्य from "./articles/2019_04_22_तंत्रज्ञान-समृद्ध-जगण्य.js";
+import articleData_2019_04_22_टोमॅटो_आदूकडे_गेला_का from "./articles/2019_04_22_टोमॅटो-आदूकडे-गेला-का.js";
+import articleData_2019_04_22_एका_सायकलीने_चळवळ_सुरू_के from "./articles/2019_04_22_एका-सायकलीने-चळवळ-सुरू-के.js";
+import articleData_2019_04_22_आदरांजली_अरुण_ठाकूर from "./articles/2019_04_22_आदरांजली-अरुण-ठाकूर.js";
+import articleData_2019_04_22_trusting_children from "./articles/2019_04_22_trusting-children.js";
+import articleData_2019_04_04_एप्रिल_२०१९ from "./articles/2019_04_04_एप्रिल-२०१९.js";
+import articleData_2019_03_18_स्वातंत्र्य_आणि_सुव्यवस् from "./articles/2019_03_18_स्वातंत्र्य-आणि-सुव्यवस्.js";
+import articleData_2019_03_18_संवादातून_स्वर्ग from "./articles/2019_03_18_संवादातून-स्वर्ग.js";
+import articleData_2019_03_18_संवादकीय_मार्च_२०१९ from "./articles/2019_03_18_संवादकीय-मार्च-२०१९.js";
+import articleData_2019_03_18_शाळांमध्ये_स्वयंशिस्तीच from "./articles/2019_03_18_शाळांमध्ये-स्वयंशिस्तीच.js";
+import articleData_2019_03_18_बरं_झालं_चिऊताई_तू_दार_नाह from "./articles/2019_03_18_बरं-झालं-चिऊताई-तू-दार-नाह.js";
+import articleData_2019_03_18_पुस्तक_परिचय_स्ट्रीट_किड from "./articles/2019_03_18_पुस्तक-परिचय-स्ट्रीट-किड.js";
+import articleData_2019_03_18_कुत्री_आणि_मी from "./articles/2019_03_18_कुत्री-आणि-मी.js";
+import articleData_2019_03_18_आपल्या_सैनिकांबद्दलच्या from "./articles/2019_03_18_आपल्या-सैनिकांबद्दलच्या.js";
+import articleData_2019_03_18_book_review_street_kid from "./articles/2019_03_18_book-review-street-kid.js";
+import articleData_2019_03_04_मार्च_२०१९ from "./articles/2019_03_04_मार्च-२०१९.js";
+import articleData_2019_02_23_स्वातंत्र्य_एक_शिक्षणसा from "./articles/2019_02_23_स्वातंत्र्य-एक-शिक्षणसा.js";
+import articleData_2019_02_23_स्वातंत्र्य_आणि_शिस्त_आम from "./articles/2019_02_23_स्वातंत्र्य-आणि-शिस्त-आम.js";
+import articleData_2019_02_23_संवादकीय_फेब्रुवारी_२०१_2 from "./articles/2019_02_23_संवादकीय-फेब्रुवारी-२०१-2.js";
+import articleData_2019_02_23_भोलूची_गोष्ट from "./articles/2019_02_23_भोलूची-गोष्ट.js";
+import articleData_2019_02_23_पुस्तक_परिचय_हॅत्तेच्य from "./articles/2019_02_23_पुस्तक-परिचय-हॅत्तेच्य.js";
+import articleData_2019_02_23_पालकांचा_ध्यास_मुलांच्य from "./articles/2019_02_23_पालकांचा-ध्यास-मुलांच्य.js";
+import articleData_2019_02_23_अशी_ही_बनवाबनवी from "./articles/2019_02_23_अशी-ही-बनवाबनवी.js";
+import articleData_2019_02_22_freedom_as_a_tool_for_learning from "./articles/2019_02_22_freedom-as-a-tool-for-learning.js";
+import articleData_2019_02_04_फेब्रुवारी_२०१९ from "./articles/2019_02_04_फेब्रुवारी-२०१९.js";
+import articleData_2019_01_27_games_fears_play from "./articles/2019_01_27_games-fears-play.js";
+import articleData_2019_01_26_संवादकीय from "./articles/2019_01_26_संवादकीय.js";
+import articleData_2019_01_26_संवादकीय_जानेवारी_२०१९ from "./articles/2019_01_26_संवादकीय-जानेवारी-२०१९.js";
+import articleData_2019_01_26_श्रद्धांजली from "./articles/2019_01_26_श्रद्धांजली.js";
+import articleData_2019_01_26_भीतीला_सामोरे_जाताना from "./articles/2019_01_26_भीतीला-सामोरे-जाताना.js";
+import articleData_2019_01_26_भीतीच्या_राज्यावर_मात from "./articles/2019_01_26_भीतीच्या-राज्यावर-मात.js";
+import articleData_2019_01_26_भय_स्वतला_स्वीकारण्याचं from "./articles/2019_01_26_भय-स्वतला-स्वीकारण्याचं.js";
+import articleData_2019_01_26_पुस्तक_परीक्षण from "./articles/2019_01_26_पुस्तक-परीक्षण.js";
+import articleData_2019_01_26_निश्चय_आणि_कृती_यातील_तफा from "./articles/2019_01_26_निश्चय-आणि-कृती-यातील-तफा.js";
+import articleData_2019_01_26_जे_कृष्णमूर्ती_म्हणतात from "./articles/2019_01_26_जे-कृष्णमूर्ती-म्हणतात.js";
+import articleData_2019_01_26_आजोबा_होणार from "./articles/2019_01_26_आजोबा-होणार.js";
+import articleData_2019_01_04_जानेवारी_२०१९ from "./articles/2019_01_04_जानेवारी-२०१९.js";
+import articleData_2018_12_25_भीतीचे_मानसशास्त्रीय_पैल from "./articles/2018_12_25_भीतीचे-मानसशास्त्रीय-पैल.js";
+import articleData_2018_12_23_संवादकीय_डिसेंबर_२०१८ from "./articles/2018_12_23_संवादकीय-डिसेंबर-२०१८.js";
+import articleData_2018_12_23_वाचक_प्रतिसाद from "./articles/2018_12_23_वाचक-प्रतिसाद.js";
+import articleData_2018_12_23_भीती_समजून_घेऊया from "./articles/2018_12_23_भीती-समजून-घेऊया.js";
+import articleData_2018_12_23_भय_इथले_संपायला_हवे from "./articles/2018_12_23_भय-इथले-संपायला-हवे.js";
+import articleData_2018_12_23_आदरांजली from "./articles/2018_12_23_आदरांजली.js";
+import articleData_2018_12_23_अर्थव्यवस्था_निसर्गर्‍ from "./articles/2018_12_23_अर्थव्यवस्था-निसर्गर्‍.js";
+import articleData_2018_12_23_अभिनंदन from "./articles/2018_12_23_अभिनंदन.js";
+import articleData_2018_12_03_डिसेंबर_२०१८ from "./articles/2018_12_03_डिसेंबर-२०१८.js";
+import articleData_2018_11_09_संवादकीय_ऑक्टोबर_नोव्हे from "./articles/2018_11_09_संवादकीय-ऑक्टोबर-नोव्हे.js";
+import articleData_2018_11_04_होय_हे_लाड_थांबवलेच_पाह from "./articles/2018_11_04_होय-हे-लाड-थांबवलेच-पाह.js";
+import articleData_2018_11_04_सोनेजी_कुटुंबाची_गोष्ट from "./articles/2018_11_04_सोनेजी-कुटुंबाची-गोष्ट.js";
+import articleData_2018_11_04_संपत्तीच्या_बळे_एक_झाले_आ from "./articles/2018_11_04_संपत्तीच्या-बळे-एक-झाले-आ.js";
+import articleData_2018_11_04_व्याख्या_पैशाची_ज्याची_त from "./articles/2018_11_04_व्याख्या-पैशाची-ज्याची-त.js";
+import articleData_2018_11_04_मनी_मानसी_हेमंत_बेलसरे from "./articles/2018_11_04_मनी-मानसी-हेमंत-बेलसरे.js";
+import articleData_2018_11_04_मनी_मानसी_सायली_तामणे from "./articles/2018_11_04_मनी-मानसी-सायली-तामणे.js";
+import articleData_2018_11_04_मनी_मानसी_नीला_आपटे from "./articles/2018_11_04_मनी-मानसी-नीला-आपटे.js";
+import articleData_2018_11_04_मनी_मानसी_कुसुम_कर्णिक from "./articles/2018_11_04_मनी-मानसी-कुसुम-कर्णिक.js";
+import articleData_2018_11_04_मनी_मानसी_कल्पना_संचेती from "./articles/2018_11_04_मनी-मानसी-कल्पना-संचेती.js";
+import articleData_2018_11_04_बुद्धिप्राय_यंत्रणा_अधीन from "./articles/2018_11_04_बुद्धिप्राय-यंत्रणा-अधीन.js";
+import articleData_2018_11_04_बाल_मजुरांच्या_दृष्टीतून from "./articles/2018_11_04_बाल-मजुरांच्या-दृष्टीतून.js";
+import articleData_2018_11_04_पैशाचे_नियोजन_मेलजोल_अफल from "./articles/2018_11_04_पैशाचे-नियोजन-मेलजोल-अफल.js";
+import articleData_2018_11_04_पुस्तक_परिचय_रुपया_पैसा from "./articles/2018_11_04_पुस्तक-परिचय-रुपया-पैसा.js";
+import articleData_2018_11_04_पालकत्वाचे_भौतिक_आधार from "./articles/2018_11_04_पालकत्वाचे-भौतिक-आधार.js";
+import articleData_2018_11_04_डज_मनी_मेक_यू_मीन from "./articles/2018_11_04_डज-मनी-मेक-यू-मीन.js";
+import articleData_2018_11_04_कैफियत from "./articles/2018_11_04_कैफियत.js";
+import articleData_2018_11_04_का_समजून_घ्यायची_ही_पैशां from "./articles/2018_11_04_का-समजून-घ्यायची-ही-पैशां.js";
+import articleData_2018_11_04_आपल्याला_किती_पैसा_लागतो from "./articles/2018_11_04_आपल्याला-किती-पैसा-लागतो.js";
+import articleData_2018_11_04_अर्थशिक्षण_आणि_पालक from "./articles/2018_11_04_अर्थशिक्षण-आणि-पालक.js";
+import articleData_2018_11_04_अर्थव्यवस्था_निसर्गर्‍ह from "./articles/2018_11_04_अर्थव्यवस्था-निसर्गर्‍ह.js";
+import articleData_2018_11_03_ऑक्टोबर_नोव्हेंबर_२०१८_द from "./articles/2018_11_03_ऑक्टोबर-नोव्हेंबर-२०१८-द.js";
+import articleData_2018_09_18_संवादकीय_सप्टेंबर_२०१८ from "./articles/2018_09_18_संवादकीय-सप्टेंबर-२०१८.js";
+import articleData_2018_09_18_शास्त्रीय_संगीत_जगण्याच from "./articles/2018_09_18_शास्त्रीय-संगीत-जगण्याच.js";
+import articleData_2018_09_18_नृत्योपचार from "./articles/2018_09_18_नृत्योपचार.js";
+import articleData_2018_09_18_नृत्यकला_ते_स्वतचा_शोध from "./articles/2018_09_18_नृत्यकला-ते-स्वतचा-शोध.js";
+import articleData_2018_09_18_नाट्यकला_जगणे_समृद्ध_करण from "./articles/2018_09_18_नाट्यकला-जगणे-समृद्ध-करण.js";
+import articleData_2018_09_18_नाटकाची_जादू from "./articles/2018_09_18_नाटकाची-जादू.js";
+import articleData_2018_09_18_किस्सा from "./articles/2018_09_18_किस्सा.js";
+import articleData_2018_09_18_कला_पालक_मुलातील_सेतुबंध from "./articles/2018_09_18_कला-पालक-मुलातील-सेतुबंध.js";
+import articleData_2018_09_18_कला_कशासाठी from "./articles/2018_09_18_कला-कशासाठी.js";
+import articleData_2018_09_18_कला_आणि_बालपण from "./articles/2018_09_18_कला-आणि-बालपण.js";
+import articleData_2018_09_18_उंच_तिचा_झोका from "./articles/2018_09_18_उंच-तिचा-झोका.js";
+import articleData_2018_09_03_सप्टेंबर_२०१८ from "./articles/2018_09_03_सप्टेंबर-२०१८.js";
+import articleData_2018_08_13_सामाजिक_संघर्ष_आणि_लहान_म from "./articles/2018_08_13_सामाजिक-संघर्ष-आणि-लहान-म.js";
+import articleData_2018_08_13_संवादकीय_ऑगस्ट_२०१८ from "./articles/2018_08_13_संवादकीय-ऑगस्ट-२०१८.js";
+import articleData_2018_08_13_मी_आम्ही_आपण from "./articles/2018_08_13_मी-आम्ही-आपण.js";
+import articleData_2018_08_13_माझी_शाळा_कंची from "./articles/2018_08_13_माझी-शाळा-कंची.js";
+import articleData_2018_08_13_भूमिका_ऑगस्ट_२०१८ from "./articles/2018_08_13_भूमिका-ऑगस्ट-२०१८.js";
+import articleData_2018_08_13_पालकत्वाला_धर्माची_साथ from "./articles/2018_08_13_पालकत्वाला-धर्माची-साथ.js";
+import articleData_2018_08_13_जरुरी_नही_है from "./articles/2018_08_13_जरुरी-नही-है.js";
+import articleData_2018_08_13_उत्सव from "./articles/2018_08_13_उत्सव.js";
+import articleData_2018_08_13_इतिहासाचा_धडा from "./articles/2018_08_13_इतिहासाचा-धडा.js";
+import articleData_2018_08_13_आमचा_सर्वधर्मसमभाव from "./articles/2018_08_13_आमचा-सर्वधर्मसमभाव.js";
+import articleData_2018_08_13_अस्वस्थ_आसमंताचे_आव्हान from "./articles/2018_08_13_अस्वस्थ-आसमंताचे-आव्हान.js";
+import articleData_2018_08_13_junk_food_habits_that_harm_our_health from "./articles/2018_08_13_junk-food-habits-that-harm-our-health.js";
+import articleData_2018_08_04_the_imperfect_fathers from "./articles/2018_08_04_the-imperfect-fathers.js";
+import articleData_2018_08_04_role_of_father_in_child_development from "./articles/2018_08_04_role-of-father-in-child-development.js";
+import articleData_2018_08_03_स्वर्वोत्तम_बाबा from "./articles/2018_08_03_स्वर्वोत्तम-बाबा.js";
+import articleData_2018_08_03_स्टे_अॅट_होम_डॅड्स from "./articles/2018_08_03_स्टे-अॅट-होम-डॅड्स.js";
+import articleData_2018_08_03_वडील_नसताना from "./articles/2018_08_03_वडील-नसताना.js";
+import articleData_2018_08_03_बालसंगोपनातील_वडिलांची_भ from "./articles/2018_08_03_बालसंगोपनातील-वडिलांची-भ.js";
+import articleData_2018_08_03_प्रसिद्ध_मुलांचे_अप्रसिद from "./articles/2018_08_03_प्रसिद्ध-मुलांचे-अप्रसिद.js";
+import articleData_2018_08_03_पालकत्व_वडिलांच्या_अनुप from "./articles/2018_08_03_पालकत्व-वडिलांच्या-अनुप.js";
+import articleData_2018_08_03_ऑगस्ट_२०१८ from "./articles/2018_08_03_ऑगस्ट-२०१८.js";
+import articleData_2018_08_03_अस्तित्व from "./articles/2018_08_03_अस्तित्व.js";
+import articleData_2018_07_07_पावलं_रवींद्रनाथ_टागोर_the_feet_ra from "./articles/2018_07_07_पावलं-रवींद्रनाथ-टागोर-the-feet-ra.js";
+import articleData_2018_07_07_ऑगस्ट_महिन्याचे_प्रश्न from "./articles/2018_07_07_ऑगस्ट-महिन्याचे-प्रश्न.js";
+import articleData_2018_07_07_what_we_can_learn_from_animals from "./articles/2018_07_07_what-we-can-learn-from-animals.js";
+import articleData_2018_07_07_salim_mamoo_and_me_book_review from "./articles/2018_07_07_salim-mamoo-and-me-book-review.js";
+import articleData_2018_07_07_how_do_children_perceive_nature_in_different_ages from "./articles/2018_07_07_how-do-children-perceive-nature-in-different-ages.js";
+import articleData_2018_07_06_संवादकीय_जून_२०१८ from "./articles/2018_07_06_संवादकीय-जून-२०१८.js";
+import articleData_2018_07_06_सलीममामू_अँड_मी_पुस्तक_पर from "./articles/2018_07_06_सलीममामू-अँड-मी-पुस्तक-पर.js";
+import articleData_2018_07_06_शब्दांच्या_पलीकडले from "./articles/2018_07_06_शब्दांच्या-पलीकडले.js";
+import articleData_2018_07_06_वाढत्या_वयातील_निसर्ग_आक from "./articles/2018_07_06_वाढत्या-वयातील-निसर्ग-आक.js";
+import articleData_2018_07_06_पालकत्वाचं_इको_लॉजिक from "./articles/2018_07_06_पालकत्वाचं-इको-लॉजिक.js";
+import articleData_2018_07_06_पाचगाव from "./articles/2018_07_06_पाचगाव.js";
+import articleData_2018_07_06_निसर्गाची_आवड_की_निसर्गा from "./articles/2018_07_06_निसर्गाची-आवड-की-निसर्गा.js";
+import articleData_2018_07_03_संवादकीय_जुलै_२०१८ from "./articles/2018_07_03_संवादकीय-जुलै-२०१८.js";
+import articleData_2018_07_03_व्युत्पत्तीशास्त्र_etymology from "./articles/2018_07_03_व्युत्पत्तीशास्त्र-etymology.js";
+import articleData_2018_07_03_मूल_वाढवण्यात_बाबाचा_सहभ from "./articles/2018_07_03_मूल-वाढवण्यात-बाबाचा-सहभ.js";
+import articleData_2018_07_03_जुलै_२०१८ from "./articles/2018_07_03_जुलै-२०१८.js";
+import articleData_2018_06_07_आजीआजोबा_आई_बाबा_नातवं from "./articles/2018_06_07_आजीआजोबा-आई-बाबा-नातवं.js";
+import articleData_2018_06_06_पर्यावरण_शिक्षणातून_काय from "./articles/2018_06_06_पर्यावरण-शिक्षणातून-काय.js";
+import articleData_2018_06_03_जून_२०१८ from "./articles/2018_06_03_जून-२०१८.js";
+import articleData_2018_05_31_positive_parenting_workshop_design_strategies_to_nurture_growth_mindset from "./articles/2018_05_31_positive-parenting-workshop-design-strategies-to-nurture-growth-mindset.js";
+import articleData_2018_05_24_saying_goodbye_to_achamma from "./articles/2018_05_24_saying-goodbye-to-achamma.js";
+import articleData_2018_05_22_साद_प्रतिसाद from "./articles/2018_05_22_साद-प्रतिसाद.js";
+import articleData_2018_05_22_संवादकीय_मे_2018 from "./articles/2018_05_22_संवादकीय-मे-2018.js";
+import articleData_2018_05_22_विनोबा from "./articles/2018_05_22_विनोबा.js";
+import articleData_2018_05_22_माझ्या_आज्या from "./articles/2018_05_22_माझ्या-आज्या.js";
+import articleData_2018_05_22_निरोप from "./articles/2018_05_22_निरोप.js";
+import articleData_2018_05_22_नात_मी_आजी_मी from "./articles/2018_05_22_नात-मी-आजी-मी.js";
+import articleData_2018_05_22_ग्रॅनी_क्लाऊड from "./articles/2018_05_22_ग्रॅनी-क्लाऊड.js";
+import articleData_2018_05_22_आजी_तुझं_वय_काय from "./articles/2018_05_22_आजी-तुझं-वय-काय.js";
+import articleData_2018_05_22_आजी_आजोबा_व्हायचंय from "./articles/2018_05_22_आजी-आजोबा-व्हायचंय.js";
+import articleData_2018_05_22_आई_आजी_पणजी from "./articles/2018_05_22_आई-आजी-पणजी.js";
+import articleData_2018_05_22_अमेरिकेतील_आजीपण from "./articles/2018_05_22_अमेरिकेतील-आजीपण.js";
+import articleData_2018_05_22_अनुबंध from "./articles/2018_05_22_अनुबंध.js";
+import articleData_2018_05_03_जुलै_महिन्याचे_प्रश्न from "./articles/2018_05_03_जुलै-महिन्याचे-प्रश्न.js";
+import articleData_2018_05_02_शिक्षकाच्या_नजरेतून from "./articles/2018_05_02_शिक्षकाच्या-नजरेतून.js";
+import articleData_2018_05_02_मे_२०१८ from "./articles/2018_05_02_मे-२०१८.js";
+import articleData_2018_05_02_माझा_बाबा from "./articles/2018_05_02_माझा-बाबा.js";
+import articleData_2018_05_02_जून_महिन्याच्या_अंकासाठी from "./articles/2018_05_02_जून-महिन्याच्या-अंकासाठी.js";
+import articleData_2018_05_02_गेल्या_अंकांविषयी_वाचक_म from "./articles/2018_05_02_गेल्या-अंकांविषयी-वाचक-म.js";
+import articleData_2018_05_02_एक_मैं_और_एक_तू from "./articles/2018_05_02_एक-मैं-और-एक-तू.js";
+import articleData_2018_05_02_आकडे_वारी_जेंडर from "./articles/2018_05_02_आकडे-वारी-जेंडर.js";
+import articleData_2018_04_02_स्टॉप_व्हिस्परिंग_अँड_स् from "./articles/2018_04_02_स्टॉप-व्हिस्परिंग-अँड-स्.js";
+import articleData_2018_04_02_संवादकिय_एप्रिल_2018 from "./articles/2018_04_02_संवादकिय-एप्रिल-2018.js";
+import articleData_2018_04_02_समतेच्या_दिशेनं_जाताना from "./articles/2018_04_02_समतेच्या-दिशेनं-जाताना.js";
+import articleData_2018_04_02_मुरिया_गोंड_आदिवासी from "./articles/2018_04_02_मुरिया-गोंड-आदिवासी.js";
+import articleData_2018_04_02_मला_वाटतं from "./articles/2018_04_02_मला-वाटतं.js";
+import articleData_2018_04_02_पण_ह्या_बद्दल_कोण_बोलणार from "./articles/2018_04_02_पण-ह्या-बद्दल-कोण-बोलणार.js";
+import articleData_2018_04_02_एप्रिल_२०१८ from "./articles/2018_04_02_एप्रिल-२०१८.js";
+import articleData_2018_03_09_पुस्तक_समीक्षा from "./articles/2018_03_09_पुस्तक-समीक्षा.js";
+import articleData_2018_03_09_पुरुषत्वाचं_ओझं from "./articles/2018_03_09_पुरुषत्वाचं-ओझं.js";
+import articleData_2018_03_09_जगण्याशी_जोडलेलं_तत्वज्ञ from "./articles/2018_03_09_जगण्याशी-जोडलेलं-तत्वज्ञ.js";
+import articleData_2018_03_09_कायदा_आणि_लिंगभेद from "./articles/2018_03_09_कायदा-आणि-लिंगभेद.js";
+import articleData_2018_03_09_आत्मकथा from "./articles/2018_03_09_आत्मकथा.js";
+import articleData_2018_03_09_आकडे_वारी from "./articles/2018_03_09_आकडे-वारी.js";
+import articleData_2018_03_09_आई_माणूस_बाप_माणूस from "./articles/2018_03_09_आई-माणूस-बाप-माणूस.js";
+import articleData_2018_03_09_book_review_what_a_girl from "./articles/2018_03_09_book-review-what-a-girl.js";
+import articleData_2018_03_08_शब्दकोश_वाढतोय from "./articles/2018_03_08_शब्दकोश-वाढतोय.js";
+import articleData_2018_03_07_संवादकीय_मार्च_२०१८ from "./articles/2018_03_07_संवादकीय-मार्च-२०१८.js";
+import articleData_2018_03_02_receiving from "./articles/2018_03_02_receiving.js";
+import articleData_2018_03_02_gift_culture from "./articles/2018_03_02_gift-culture.js";
+import articleData_2018_03_01_मार्च_२०१८ from "./articles/2018_03_01_मार्च-२०१८.js";
+import articleData_2018_02_28_फेब्रुवारी_२०१८ from "./articles/2018_02_28_फेब्रुवारी-२०१८.js";
+import articleData_2018_02_03_तिच्यासाठी_त्याच्यासाठ from "./articles/2018_02_03_तिच्यासाठी-त्याच्यासाठ.js";
+import articleData_2018_02_03_activity_for_parents_on_gifts_gifting from "./articles/2018_02_03_activity-for-parents-on-gifts-gifting.js";
+import articleData_2018_02_03_99_2 from "./articles/2018_02_03_99-2.js";
+import articleData_2018_02_02_संवादकीय_फेब्रुवारी_२०१ from "./articles/2018_02_02_संवादकीय-फेब्रुवारी-२०१.js";
+import articleData_2018_02_02_श्री_अरविंद_गुप्ता_यांना from "./articles/2018_02_02_श्री-अरविंद-गुप्ता-यांना.js";
+import articleData_2018_02_02_मुलं_भाषा_आणि_आपले_निर्णय from "./articles/2018_02_02_मुलं-भाषा-आणि-आपले-निर्णय.js";
+import articleData_2018_02_02_भय_इथले_संपत_नाही from "./articles/2018_02_02_भय-इथले-संपत-नाही.js";
+import articleData_2018_02_02_बदलतं_पर्यावरण_बदलतं_पाल from "./articles/2018_02_02_बदलतं-पर्यावरण-बदलतं-पाल.js";
+import articleData_2018_02_02_जंक_फूड_एक_आरोग्यबाधक_सवय from "./articles/2018_02_02_जंक-फूड-एक-आरोग्यबाधक-सवय.js";
+import articleData_2018_02_02_गोष्ट_जुनीचपंचतंत्रातली from "./articles/2018_02_02_गोष्ट-जुनीचपंचतंत्रातली.js";
+import articleData_2018_02_02_आधुनिक_तंत्रज्ञान_आणि_आप from "./articles/2018_02_02_आधुनिक-तंत्रज्ञान-आणि-आप.js";
+import articleData_2018_02_02_आता_बाळ_कधी from "./articles/2018_02_02_आता-बाळ-कधी.js";
+import articleData_2018_01_22_स्वीकार from "./articles/2018_01_22_स्वीकार.js";
+import articleData_2018_01_22_पत्रास_कारण_की from "./articles/2018_01_22_पत्रास-कारण-की.js";
+import articleData_2018_01_22_जानेवारी_२०१८ from "./articles/2018_01_22_जानेवारी-२०१८.js";
+import articleData_2018_01_22_गिफ्ट_कल्चर from "./articles/2018_01_22_गिफ्ट-कल्चर.js";
+import articleData_2017_08_09_सृजनोत्सव_अर्थात_सर्जनसो from "./articles/2017_08_09_सृजनोत्सव-अर्थात-सर्जनसो.js";
+import articleData_2017_08_09_शिक्षा_नसणारी_शाळा from "./articles/2017_08_09_शिक्षा-नसणारी-शाळा.js";
+import articleData_2017_08_09_शाळेचा_वैचारिक_प्रवास from "./articles/2017_08_09_शाळेचा-वैचारिक-प्रवास.js";
+import articleData_2017_08_09_मुलांची_जडण_घडण from "./articles/2017_08_09_मुलांची-जडण-घडण.js";
+import articleData_2017_08_09_भाषेची_समृद्धी from "./articles/2017_08_09_भाषेची-समृद्धी.js";
+import articleData_2017_08_09_प्रकल्प_साध्य_नव्हे_तर_सा from "./articles/2017_08_09_प्रकल्प-साध्य-नव्हे-तर-सा.js";
+import articleData_2017_08_09_परीघ_विस्तारण्यासाठी from "./articles/2017_08_09_परीघ-विस्तारण्यासाठी.js";
+import articleData_2017_08_09_धर्म_सण_उत्सव_समाज_आणि_शाळ from "./articles/2017_08_09_धर्म-सण-उत्सव-समाज-आणि-शाळ.js";
+import articleData_2017_08_09_ताईंची_एकतानता from "./articles/2017_08_09_ताईंची-एकतानता.js";
+import articleData_2017_08_09_झपाटण्याचे_दिवस from "./articles/2017_08_09_झपाटण्याचे-दिवस.js";
+import articleData_2017_08_09_जीवनशिक्षणाची_प्रयोगशाळ from "./articles/2017_08_09_जीवनशिक्षणाची-प्रयोगशाळ.js";
+import articleData_2017_08_09_गुंतागुंत_उकलताना from "./articles/2017_08_09_गुंतागुंत-उकलताना.js";
+import articleData_2017_08_09_ऑगस्ट_२०१७ from "./articles/2017_08_09_ऑगस्ट-२०१७.js";
+import articleData_2017_08_09_आमची_बालवाडी_मुक्ता_पुरा from "./articles/2017_08_09_आमची-बालवाडी-मुक्ता-पुरा.js";
+import articleData_2017_08_09_आमची_दुसरी_शाळा_आनंद_निके from "./articles/2017_08_09_आमची-दुसरी-शाळा-आनंद-निके.js";
+import articleData_2017_08_09_आत्मभान_शिबिर from "./articles/2017_08_09_आत्मभान-शिबिर.js";
+import articleData_2017_05_09_संवादकीय_ऑगस्ट_२०१७ from "./articles/2017_05_09_संवादकीय-ऑगस्ट-२०१७.js";
+import articleData_2017_05_09_बिनभिंतीची_उघडी_शाळा_लाख from "./articles/2017_05_09_बिनभिंतीची-उघडी-शाळा-लाख.js";
+import articleData_2015_12_16_संवादकीय_डिसेंबर_२०१५ from "./articles/2015_12_16_संवादकीय-डिसेंबर-२०१५.js";
+import articleData_2015_12_16_डिसेंबर_२०१५ from "./articles/2015_12_16_डिसेंबर-२०१५.js";
+import articleData_2015_10_03_हत्तीचं_वजन_मधुरा_राजवंश from "./articles/2015_10_03_हत्तीचं-वजन-मधुरा-राजवंश.js";
+import articleData_2015_10_03_सावली from "./articles/2015_10_03_सावली.js";
+import articleData_2015_10_03_संपादकीय_दिवाली_ऑक्टोबर from "./articles/2015_10_03_संपादकीय-दिवाली-ऑक्टोबर.js";
+import articleData_2015_10_03_वंचित_समाजातील_मुलांच्या from "./articles/2015_10_03_वंचित-समाजातील-मुलांच्या.js";
+import articleData_2015_10_03_मूल_शंभराचं_आहे from "./articles/2015_10_03_मूल-शंभराचं-आहे.js";
+import articleData_2015_10_03_मुलांच्या_शंभर_भाषा from "./articles/2015_10_03_मुलांच्या-शंभर-भाषा.js";
+import articleData_2015_10_03_मुलांचे_सुप्त_गुण_आभा_भाग from "./articles/2015_10_03_मुलांचे-सुप्त-गुण-आभा-भाग.js";
+import articleData_2015_10_03_माझ्या_जन्माचं_चित्र_संज from "./articles/2015_10_03_माझ्या-जन्माचं-चित्र-संज.js";
+import articleData_2015_10_03_मज्जेत_शिकण्याचा_जादुई_म from "./articles/2015_10_03_मज्जेत-शिकण्याचा-जादुई-म.js";
+import articleData_2015_10_03_बैदा_वसीम_मणेर from "./articles/2015_10_03_बैदा-वसीम-मणेर.js";
+import articleData_2015_10_03_बाटकीचा_प्रकाश_अनभूले from "./articles/2015_10_03_बाटकीचा-प्रकाश-अनभूले.js";
+import articleData_2015_10_03_निसर्गाची_शाळा_सुनील_करक from "./articles/2015_10_03_निसर्गाची-शाळा-सुनील-करक.js";
+import articleData_2015_10_03_निळी_भिरभिरी_सुस्सू_आणि_इ from "./articles/2015_10_03_निळी-भिरभिरी-सुस्सू-आणि-इ.js";
+import articleData_2015_10_03_दिवाली_आक्टो_नोव्हेंबर_२ from "./articles/2015_10_03_दिवाली-आक्टो-नोव्हेंबर-२.js";
+import articleData_2015_10_03_टिंबाकडून_अक्षराकडे from "./articles/2015_10_03_टिंबाकडून-अक्षराकडे.js";
+import articleData_2015_10_03_जीवाचे_बांधकाम_गीतांजली from "./articles/2015_10_03_जीवाचे-बांधकाम-गीतांजली.js";
+import articleData_2015_10_03_जन्माच्या_चित्राची_जन्मक from "./articles/2015_10_03_जन्माच्या-चित्राची-जन्मक.js";
+import articleData_2015_10_03_चित्रामागचं_चित्र_यशवंत from "./articles/2015_10_03_चित्रामागचं-चित्र-यशवंत.js";
+import articleData_2015_10_03_चंदूचा_मेंदू_आणि_शंभर_शक् from "./articles/2015_10_03_चंदूचा-मेंदू-आणि-शंभर-शक्.js";
+import articleData_2015_10_03_गजरा_मालविका_झा from "./articles/2015_10_03_गजरा-मालविका-झा.js";
+import articleData_2015_10_03_आक्का_करेक्ट_नीलिमा_सहस् from "./articles/2015_10_03_आक्का-करेक्ट-नीलिमा-सहस्.js";
+import articleData_2015_06_16_जून_२०१५ from "./articles/2015_06_16_जून-२०१५.js";
+import articleData_2015_06_03_संवादकीय_जून_२०१५ from "./articles/2015_06_03_संवादकीय-जून-२०१५.js";
+import articleData_2015_06_03_सकारत्मक_ऊर्जा_देणारे_एट from "./articles/2015_06_03_सकारत्मक-ऊर्जा-देणारे-एट.js";
+import articleData_2015_06_03_शाळा_नावाचे_मुग्रजल_कृति from "./articles/2015_06_03_शाळा-नावाचे-मुग्रजल-कृति.js";
+import articleData_2015_06_03_शहाणी_वेबपाने_मधुरा_राजव from "./articles/2015_06_03_शहाणी-वेबपाने-मधुरा-राजव.js";
+import articleData_2015_06_03_विचार_करून_पाहू_बाळ_निघाल from "./articles/2015_06_03_विचार-करून-पाहू-बाळ-निघाल.js";
+import articleData_2015_06_03_मी_मराठी_शाळेत_शिकवतोय_फा from "./articles/2015_06_03_मी-मराठी-शाळेत-शिकवतोय-फा.js";
+import articleData_2015_06_03_बंगल्यातली_शाळा_प्रकाश_अ from "./articles/2015_06_03_बंगल्यातली-शाळा-प्रकाश-अ.js";
+import articleData_2015_06_03_पुस्तक_परीक्षण_विभा_देशप from "./articles/2015_06_03_पुस्तक-परीक्षण-विभा-देशप.js";
+import articleData_2015_06_03_निर्णय_शाळा_प्रवेशाचा_रा from "./articles/2015_06_03_निर्णय-शाळा-प्रवेशाचा-रा.js";
+import articleData_2015_06_03_ज्ञानाची_भाषा_नीला_आपटे from "./articles/2015_06_03_ज्ञानाची-भाषा-नीला-आपटे.js";
+import articleData_2015_05_16_शहाणी_नसलेली_वेबपाने_प्र from "./articles/2015_05_16_शहाणी-नसलेली-वेबपाने-प्र.js";
+import articleData_2015_05_16_विचार_करून_पाहू_अवगड_विषय from "./articles/2015_05_16_विचार-करून-पाहू-अवगड-विषय.js";
+import articleData_2015_05_16_मुलांचा_खेळ_धीश्क्याव_आन from "./articles/2015_05_16_मुलांचा-खेळ-धीश्क्याव-आन.js";
+import articleData_2015_05_16_मुलं_आणि_अध्ययनात_येणाऱ् from "./articles/2015_05_16_मुलं-आणि-अध्ययनात-येणाऱ्.js";
+import articleData_2015_05_16_भीती_कविता_प्रमोद_तिवारी from "./articles/2015_05_16_भीती-कविता-प्रमोद-तिवारी.js";
+import articleData_2015_05_16_आंनदाने_शिकण्याच्या_दिशे from "./articles/2015_05_16_आंनदाने-शिकण्याच्या-दिशे.js";
+import articleData_2015_04_01_22799 from "./articles/2015_04_01_22799.js";
+import articleData_2015_04_01_22628 from "./articles/2015_04_01_22628.js";
+import articleData_2015_04_01_22627 from "./articles/2015_04_01_22627.js";
+import articleData_2015_04_01_22626 from "./articles/2015_04_01_22626.js";
+import articleData_2015_04_01_22625 from "./articles/2015_04_01_22625.js";
+import articleData_2015_04_01_22624 from "./articles/2015_04_01_22624.js";
+import articleData_2015_04_01_22623 from "./articles/2015_04_01_22623.js";
+import articleData_2015_04_01_22622 from "./articles/2015_04_01_22622.js";
+import articleData_2015_03_01_22798 from "./articles/2015_03_01_22798.js";
+import articleData_2015_03_01_22621 from "./articles/2015_03_01_22621.js";
+import articleData_2015_03_01_22620 from "./articles/2015_03_01_22620.js";
+import articleData_2015_03_01_22619 from "./articles/2015_03_01_22619.js";
+import articleData_2015_03_01_22618 from "./articles/2015_03_01_22618.js";
+import articleData_2015_03_01_22617 from "./articles/2015_03_01_22617.js";
+import articleData_2015_03_01_22616 from "./articles/2015_03_01_22616.js";
+import articleData_2015_01_01_22796 from "./articles/2015_01_01_22796.js";
+import articleData_2015_01_01_22606 from "./articles/2015_01_01_22606.js";
+import articleData_2015_01_01_22605 from "./articles/2015_01_01_22605.js";
+import articleData_2015_01_01_22604 from "./articles/2015_01_01_22604.js";
+import articleData_2015_01_01_22603 from "./articles/2015_01_01_22603.js";
+import articleData_2015_01_01_22602 from "./articles/2015_01_01_22602.js";
+import articleData_2015_01_01_22601 from "./articles/2015_01_01_22601.js";
+import articleData_2015_01_01_22600 from "./articles/2015_01_01_22600.js";
+import articleData_2015_01_01_22599 from "./articles/2015_01_01_22599.js";
+import articleData_2015_01_01_22598 from "./articles/2015_01_01_22598.js";
+import articleData_2015_01_01_22597 from "./articles/2015_01_01_22597.js";
+import articleData_2015_01_01_22596 from "./articles/2015_01_01_22596.js";
+import articleData_2015_01_01_22595 from "./articles/2015_01_01_22595.js";
+import articleData_2014_11_16_आम्ही_प्रकाशबीजे_रुजवीत from "./articles/2014_11_16_आम्ही-प्रकाशबीजे-रुजवीत.js";
+import articleData_2014_10_01_22795 from "./articles/2014_10_01_22795.js";
+import articleData_2014_10_01_22594 from "./articles/2014_10_01_22594.js";
+import articleData_2014_10_01_22593 from "./articles/2014_10_01_22593.js";
+import articleData_2014_10_01_22592 from "./articles/2014_10_01_22592.js";
+import articleData_2014_10_01_22591 from "./articles/2014_10_01_22591.js";
+import articleData_2014_10_01_22590 from "./articles/2014_10_01_22590.js";
+import articleData_2014_10_01_22589 from "./articles/2014_10_01_22589.js";
+import articleData_2014_10_01_22588 from "./articles/2014_10_01_22588.js";
+import articleData_2014_10_01_22587 from "./articles/2014_10_01_22587.js";
+import articleData_2014_10_01_22586 from "./articles/2014_10_01_22586.js";
+import articleData_2014_10_01_22585 from "./articles/2014_10_01_22585.js";
+import articleData_2014_10_01_22584 from "./articles/2014_10_01_22584.js";
+import articleData_2014_10_01_22583 from "./articles/2014_10_01_22583.js";
+import articleData_2014_09_30_संवादकीय_सप्टेंबर_२०१४_2 from "./articles/2014_09_30_संवादकीय-सप्टेंबर-२०१४-2.js";
+import articleData_2014_09_16_संवादकीय_सप्टेंबर_२०१४ from "./articles/2014_09_16_संवादकीय-सप्टेंबर-२०१४.js";
+import articleData_2014_09_16_सप्टेंबर_२०१४_2 from "./articles/2014_09_16_सप्टेंबर-२०१४-2.js";
+import articleData_2014_09_16_सकारात्मक_शिस्त_लेखांक_६ from "./articles/2014_09_16_सकारात्मक-शिस्त-लेखांक-६.js";
+import articleData_2014_09_16_शब्दबिंब_सप्टेंबर_२०१४ from "./articles/2014_09_16_शब्दबिंब-सप्टेंबर-२०१४.js";
+import articleData_2014_09_16_शब्द_वेचताना from "./articles/2014_09_16_शब्द-वेचताना.js";
+import articleData_2014_08_30_संवादकीय_ऑगस्ट_२०१४_2 from "./articles/2014_08_30_संवादकीय-ऑगस्ट-२०१४-2.js";
+import articleData_2014_08_09_संवादकीय_ऑगस्ट_२०१४ from "./articles/2014_08_09_संवादकीय-ऑगस्ट-२०१४.js";
+import articleData_2014_08_09_सकारात्मक_शिस्त_लेखांक_५ from "./articles/2014_08_09_सकारात्मक-शिस्त-लेखांक-५.js";
+import articleData_2014_08_09_धर्म_धर्मनिरपेक्षता_आणि from "./articles/2014_08_09_धर्म-धर्मनिरपेक्षता-आणि.js";
+import articleData_2014_08_09_ऑगस्ट_२०१४ from "./articles/2014_08_09_ऑगस्ट-२०१४.js";
+import articleData_2014_08_09_आम्हालाही_ग्रामसभेत_आमचे from "./articles/2014_08_09_आम्हालाही-ग्रामसभेत-आमचे.js";
+import articleData_2014_07_30_संवादकीय_जुलै_२०१४_2 from "./articles/2014_07_30_संवादकीय-जुलै-२०१४-2.js";
+import articleData_2014_07_11_संवादकीय_जुलै_२०१४ from "./articles/2014_07_11_संवादकीय-जुलै-२०१४.js";
+import articleData_2014_07_11_सत्तांतरासाठी_फिरणारं_च from "./articles/2014_07_11_सत्तांतरासाठी-फिरणारं-च.js";
+import articleData_2014_07_11_सकारात्मक_शिस्त_उपायांच from "./articles/2014_07_11_सकारात्मक-शिस्त-उपायांच.js";
+import articleData_2014_07_11_नवक्षितिज_विशेष_प्रौढ from "./articles/2014_07_11_नवक्षितिज-विशेष-प्रौढ.js";
+import articleData_2014_07_11_जुलै_२०१४ from "./articles/2014_07_11_जुलै-२०१४.js";
+import articleData_2014_07_11_कॉम्पुटर_लॅब_सुरू_झाली from "./articles/2014_07_11_कॉम्पुटर-लॅब-सुरू-झाली.js";
+import articleData_2014_06_30_संवादकीय_जून_२०१४_2 from "./articles/2014_06_30_संवादकीय-जून-२०१४-2.js";
+import articleData_2014_06_11_ही_आहे_उजेडाची_पेरणी from "./articles/2014_06_11_ही-आहे-उजेडाची-पेरणी.js";
+import articleData_2014_06_11_संवादकीय_जून_२०१४ from "./articles/2014_06_11_संवादकीय-जून-२०१४.js";
+import articleData_2014_06_11_शिक्षण_गुणवत्तापूर्ण_होण from "./articles/2014_06_11_शिक्षण-गुणवत्तापूर्ण-होण.js";
+import articleData_2014_06_11_मुलं_स्वत_शिकत_आहेत from "./articles/2014_06_11_मुलं-स्वत-शिकत-आहेत.js";
+import articleData_2014_06_11_ज्ञानरचनावाद_काय_आहे_आणि from "./articles/2014_06_11_ज्ञानरचनावाद-काय-आहे-आणि.js";
+import articleData_2014_06_11_जून_२०१४ from "./articles/2014_06_11_जून-२०१४.js";
+import articleData_2014_06_11_ऍक्टिव_टीचर्स_फोरमचं_शिक from "./articles/2014_06_11_ऍक्टिव-टीचर्स-फोरमचं-शिक.js";
+import articleData_2014_06_11_असं_झालं_संमेलन from "./articles/2014_06_11_असं-झालं-संमेलन.js";
+import articleData_2014_05_30_संवादकीय_मे_२०१४_2 from "./articles/2014_05_30_संवादकीय-मे-२०१४-2.js";
+import articleData_2014_05_12_संवादकीय_मे_२०१४ from "./articles/2014_05_12_संवादकीय-मे-२०१४.js";
+import articleData_2014_05_12_रसिका_एक_प्रकाश_शलाका from "./articles/2014_05_12_रसिका-एक-प्रकाश-शलाका.js";
+import articleData_2014_05_12_मे_२०१४ from "./articles/2014_05_12_मे-२०१४.js";
+import articleData_2014_05_12_बेशिस्तीकडे_बघण्याचा_न from "./articles/2014_05_12_बेशिस्तीकडे-बघण्याचा-न.js";
+import articleData_2014_05_12_तंत्रज्ञानाचा_विकास_नव्ह from "./articles/2014_05_12_तंत्रज्ञानाचा-विकास-नव्ह.js";
+import articleData_2014_05_12_आदिवासी_संस्कृती_जपण्यास from "./articles/2014_05_12_आदिवासी-संस्कृती-जपण्यास.js";
+import articleData_2014_05_12_अदिती_अपूर्वा_तुम्ही_कमा from "./articles/2014_05_12_अदिती-अपूर्वा-तुम्ही-कमा.js";
+import articleData_2014_04_30_संवादकीय_एप्रिल_२०१४_3 from "./articles/2014_04_30_संवादकीय-एप्रिल-२०१४-3.js";
+import articleData_2014_04_16_संवादकीय_एप्रिल_२०१४_2 from "./articles/2014_04_16_संवादकीय-एप्रिल-२०१४-2.js";
+import articleData_2014_04_12_सांगा_माझ्या_बापानं_नाह from "./articles/2014_04_12_सांगा-माझ्या-बापानं-नाह.js";
+import articleData_2014_04_12_संवादकीय_एप्रिल_२०१४ from "./articles/2014_04_12_संवादकीय-एप्रिल-२०१४.js";
+import articleData_2014_04_12_शब्दबिंब_एप्रिल_२०१४ from "./articles/2014_04_12_शब्दबिंब-एप्रिल-२०१४.js";
+import articleData_2014_04_12_शब्दबिंब_एप्रिल_२०१४_2 from "./articles/2014_04_12_शब्दबिंब-एप्रिल-२०१४-2.js";
+import articleData_2014_04_12_मातीचा_सांगाती from "./articles/2014_04_12_मातीचा-सांगाती.js";
+import articleData_2014_04_12_एप्रिल_२०१४ from "./articles/2014_04_12_एप्रिल-२०१४.js";
+import articleData_2014_04_12_एक_सहज_आणि_साधं_जगणं_किती_द from "./articles/2014_04_12_एक-सहज-आणि-साधं-जगणं-किती-द.js";
+import articleData_2014_04_12_असर_क्या_होता_है from "./articles/2014_04_12_असर-क्या-होता-है.js";
+import articleData_2014_03_30_संवादकीय_मार्च_२०१४_2 from "./articles/2014_03_30_संवादकीय-मार्च-२०१४-2.js";
+import articleData_2014_03_12_सांगा_कसं_शिकायचं from "./articles/2014_03_12_सांगा-कसं-शिकायचं.js";
+import articleData_2014_03_12_संवादकीय_मार्च_२०१४ from "./articles/2014_03_12_संवादकीय-मार्च-२०१४.js";
+import articleData_2014_03_12_सकारात्मक_शिस्त_मार्च_२० from "./articles/2014_03_12_सकारात्मक-शिस्त-मार्च-२०.js";
+import articleData_2014_03_12_मार्च_२०१४ from "./articles/2014_03_12_मार्च-२०१४.js";
+import articleData_2014_03_12_खेळघर_कादंबरीबद्दल from "./articles/2014_03_12_खेळघर-कादंबरीबद्दल.js";
+import articleData_2014_03_12_आश्‍वासक_आधार from "./articles/2014_03_12_आश्‍वासक-आधार.js";
+import articleData_2014_02_28_संवादकीय_फेब्रुवारी_२०_2 from "./articles/2014_02_28_संवादकीय-फेब्रुवारी-२०-2.js";
+import articleData_2014_02_28_शब्दबिंब_3 from "./articles/2014_02_28_शब्दबिंब-3.js";
+import articleData_2014_02_28_खेळघरातले_कलेचे_प्रयोग_2 from "./articles/2014_02_28_खेळघरातले-कलेचे-प्रयोग-2.js";
+import articleData_2014_02_12_संवादकीय_फेब्रुवारी_२०१_3 from "./articles/2014_02_12_संवादकीय-फेब्रुवारी-२०१-3.js";
+import articleData_2014_02_12_सकारात्मक_शिस्त_फेब्रुव from "./articles/2014_02_12_सकारात्मक-शिस्त-फेब्रुव.js";
+import articleData_2014_02_12_विचार_आणि_भाषा from "./articles/2014_02_12_विचार-आणि-भाषा.js";
+import articleData_2014_02_12_लीलावती_भागवत_मराठी_बालस from "./articles/2014_02_12_लीलावती-भागवत-मराठी-बालस.js";
+import articleData_2014_02_12_माझी_भाषा_कोणती from "./articles/2014_02_12_माझी-भाषा-कोणती.js";
+import articleData_2014_02_12_मराठीसाठी_जंग_जंग from "./articles/2014_02_12_मराठीसाठी-जंग-जंग.js";
+import articleData_2014_02_12_फेब्रुवारी_२०१४ from "./articles/2014_02_12_फेब्रुवारी-२०१४.js";
+import articleData_2014_02_12_गुटखा_खायचाय_अन्_दारूबी_प from "./articles/2014_02_12_गुटखा-खायचाय-अन्-दारूबी-प.js";
+import articleData_2014_01_30_संवादकीय_जानेवारी_२०१४_2 from "./articles/2014_01_30_संवादकीय-जानेवारी-२०१४-2.js";
+import articleData_2014_01_12_संवादकीय_जानेवारी_२०१४ from "./articles/2014_01_12_संवादकीय-जानेवारी-२०१४.js";
+import articleData_2014_01_12_सकारात्मक_शिस्त from "./articles/2014_01_12_सकारात्मक-शिस्त.js";
+import articleData_2014_01_12_मुस्कान_एक_हास्य_लोभवणार from "./articles/2014_01_12_मुस्कान-एक-हास्य-लोभवणार.js";
+import articleData_2014_01_12_निसर्ग_जोपासनेचे_तत्त्वज from "./articles/2014_01_12_निसर्ग-जोपासनेचे-तत्त्वज.js";
+import articleData_2014_01_12_जानेवारी_२०१४ from "./articles/2014_01_12_जानेवारी-२०१४.js";
+import articleData_2014_01_12_आम्ही_पुस्तक_बनवतो from "./articles/2014_01_12_आम्ही-पुस्तक-बनवतो.js";
+import articleData_2013_12_13_डिसेंबर_२०१३ from "./articles/2013_12_13_डिसेंबर-२०१३.js";
+import articleData_2013_11_13_लळा_लागो_बाळा_पुस्तकांचा from "./articles/2013_11_13_लळा-लागो-बाळा-पुस्तकांचा.js";
+import articleData_2013_11_13_बालसाहित्य_साक्षरतेचे_स from "./articles/2013_11_13_बालसाहित्य-साक्षरतेचे-स.js";
+import articleData_2013_11_13_दिवाळी_अंक_२०१३_बालसाहित from "./articles/2013_11_13_दिवाळी-अंक-२०१३-बालसाहित.js";
+import articleData_2013_11_13_चित्रभाषा_चिन्हभाषा from "./articles/2013_11_13_चित्रभाषा-चिन्हभाषा.js";
+import articleData_2013_11_13_का_रे_बालविकासाचा_तुज_न_ये from "./articles/2013_11_13_का-रे-बालविकासाचा-तुज-न-ये.js";
+import articleData_2013_11_13_आमच्या_शाळेतील_वाचनप्रयो from "./articles/2013_11_13_आमच्या-शाळेतील-वाचनप्रयो.js";
+import articleData_2013_09_13_संवादकीय_सप्टेंबर_२०१३ from "./articles/2013_09_13_संवादकीय-सप्टेंबर-२०१३.js";
+import articleData_2013_09_13_सप्टेंबर_२०१३ from "./articles/2013_09_13_सप्टेंबर-२०१३.js";
+import articleData_2013_09_13_शब्दबिंब_सप्टेंबर_२०१३ from "./articles/2013_09_13_शब्दबिंब-सप्टेंबर-२०१३.js";
+import articleData_2013_09_13_मुलांना_रस_वाटेल_असं_थोडं from "./articles/2013_09_13_मुलांना-रस-वाटेल-असं-थोडं.js";
+import articleData_2013_09_13_मुलांच्या_मुक्त_अभिव्यक् from "./articles/2013_09_13_मुलांच्या-मुक्त-अभिव्यक्.js";
+import articleData_2013_09_13_पालकत्वाचा_परीघ_विस्तारत from "./articles/2013_09_13_पालकत्वाचा-परीघ-विस्तारत.js";
+import articleData_2013_09_13_जनसंवाद_शिक्षणहक्काचा from "./articles/2013_09_13_जनसंवाद-शिक्षणहक्काचा.js";
+import articleData_2013_08_13_स्वयंप्रेरणा_यशाच्या_दि from "./articles/2013_08_13_स्वयंप्रेरणा-यशाच्या-दि.js";
+import articleData_2013_08_13_संवादकीय_ऑगस्ट_२०१३ from "./articles/2013_08_13_संवादकीय-ऑगस्ट-२०१३.js";
+import articleData_2013_08_13_या_शाळा_तपासनिसांची_श्रे from "./articles/2013_08_13_या-शाळा-तपासनिसांची-श्रे.js";
+import articleData_2013_08_13_गुणवत्तापूर्ण_शिक्षणासा from "./articles/2013_08_13_गुणवत्तापूर्ण-शिक्षणासा.js";
+import articleData_2013_08_13_ऑगस्ट_२०१३ from "./articles/2013_08_13_ऑगस्ट-२०१३.js";
+import articleData_2013_08_13_आपण_आपला_मार्ग_शोधूया from "./articles/2013_08_13_आपण-आपला-मार्ग-शोधूया.js";
+import articleData_2013_07_30_शब्दबिंब_जुलै_२०१३ from "./articles/2013_07_30_शब्दबिंब-जुलै-२०१३.js";
+import articleData_2013_07_30_बालकांची_लैंगिक_सुरक्षा from "./articles/2013_07_30_बालकांची-लैंगिक-सुरक्षा.js";
+import articleData_2013_07_30_पुस्तक_परिचय_मुक्त_शिक्ष from "./articles/2013_07_30_पुस्तक-परिचय-मुक्त-शिक्ष.js";
+import articleData_2013_07_30_खाकी_वर्दीत_दडलेला_माझा_प from "./articles/2013_07_30_खाकी-वर्दीत-दडलेला-माझा-प.js";
+import articleData_2013_07_30_आई_बाप_व्हायचंय_लेखांक_९_म from "./articles/2013_07_30_आई-बाप-व्हायचंय-लेखांक-९-म.js";
+import articleData_2013_07_30_अस्सं_शिकणं_सुरेख_बाई_लेख from "./articles/2013_07_30_अस्सं-शिकणं-सुरेख-बाई-लेख.js";
+import articleData_2013_07_13_संवादकीय_जुलै_२०१३ from "./articles/2013_07_13_संवादकीय-जुलै-२०१३.js";
+import articleData_2013_07_13_जुलै_२०१३ from "./articles/2013_07_13_जुलै-२०१३.js";
+import articleData_2013_06_16_संवादकीय_जून_२०१३ from "./articles/2013_06_16_संवादकीय-जून-२०१३.js";
+import articleData_2013_06_16_शिक्षण_माध्यमाच्या_आग्रह from "./articles/2013_06_16_शिक्षण-माध्यमाच्या-आग्रह.js";
+import articleData_2013_06_16_शाळेची_सुरुवात from "./articles/2013_06_16_शाळेची-सुरुवात.js";
+import articleData_2013_06_16_शब्दबिंब_जून_२०१३ from "./articles/2013_06_16_शब्दबिंब-जून-२०१३.js";
+import articleData_2013_06_16_मुलांचे_सृजनात्मक_लिखाण from "./articles/2013_06_16_मुलांचे-सृजनात्मक-लिखाण.js";
+import articleData_2013_06_16_निळ्याशार_आकाशाखाली_लालब from "./articles/2013_06_16_निळ्याशार-आकाशाखाली-लालब.js";
+import articleData_2013_06_16_जून_२०१३ from "./articles/2013_06_16_जून-२०१३.js";
+import articleData_2013_06_16_कमलाबाई_निंबकरांविषयी from "./articles/2013_06_16_कमलाबाई-निंबकरांविषयी.js";
+import articleData_2013_06_16_आमचा_आनंददायी_प्रवास from "./articles/2013_06_16_आमचा-आनंददायी-प्रवास.js";
+import articleData_2013_05_16_संवादकीय_मे_२०१३ from "./articles/2013_05_16_संवादकीय-मे-२०१३.js";
+import articleData_2013_05_16_शब्दबिंब_मे_२०१३ from "./articles/2013_05_16_शब्दबिंब-मे-२०१३.js";
+import articleData_2013_05_16_रंगुनि_रंगात_सार्‍या from "./articles/2013_05_16_रंगुनि-रंगात-सार्‍या.js";
+import articleData_2013_05_16_मे_२०१३ from "./articles/2013_05_16_मे-२०१३.js";
+import articleData_2013_05_16_मूल_हवे_अव्यंग_लेखांक_८ from "./articles/2013_05_16_मूल-हवे-अव्यंग-लेखांक-८.js";
+import articleData_2013_05_16_कार्यकर्त्यांची_पाठशाला from "./articles/2013_05_16_कार्यकर्त्यांची-पाठशाला.js";
+import articleData_2013_04_16_संवादकीय_एप्रिल_१३ from "./articles/2013_04_16_संवादकीय-एप्रिल-१३.js";
+import articleData_2013_04_16_शब्दबिंब from "./articles/2013_04_16_शब्दबिंब.js";
+import articleData_2013_04_16_माझा_मुलगा_शाळेत_गेला_नाह from "./articles/2013_04_16_माझा-मुलगा-शाळेत-गेला-नाह.js";
+import articleData_2013_04_16_प्रतिसाद_शिक्षणमाध्यम_व from "./articles/2013_04_16_प्रतिसाद-शिक्षणमाध्यम-व.js";
+import articleData_2013_04_16_पुस्तक_परिचय_भीमायन from "./articles/2013_04_16_पुस्तक-परिचय-भीमायन.js";
+import articleData_2013_04_16_एप्रिल_२०१३ from "./articles/2013_04_16_एप्रिल-२०१३.js";
+import articleData_2013_03_22_पडकई_शाश्वत_विकासासाठी from "./articles/2013_03_22_पडकई-शाश्वत-विकासासाठी.js";
+import articleData_2013_03_16_संवादकीय_मार्च_२०१३ from "./articles/2013_03_16_संवादकीय-मार्च-२०१३.js";
+import articleData_2013_03_16_शब्दबिंब_मार्च_२०१३ from "./articles/2013_03_16_शब्दबिंब-मार्च-२०१३.js";
+import articleData_2013_03_16_मूल_मुलगी_नकोच from "./articles/2013_03_16_मूल-मुलगी-नकोच.js";
+import articleData_2013_03_16_मार्च_२०१३ from "./articles/2013_03_16_मार्च-२०१३.js";
+import articleData_2013_03_16_प्रतिसाद_मार्च_2013 from "./articles/2013_03_16_प्रतिसाद-मार्च-2013.js";
+import articleData_2013_03_16_प्रतिसाद_भाषिक_राजकारणा from "./articles/2013_03_16_प्रतिसाद-भाषिक-राजकारणा.js";
+import articleData_2013_03_16_पडकई_शाश्वत_विकासासाठी_2 from "./articles/2013_03_16_पडकई-शाश्वत-विकासासाठी-2.js";
+import articleData_2013_03_16_ओ_बी_आर_च्या_नंतर from "./articles/2013_03_16_ओ-बी-आर-च्या-नंतर.js";
+import articleData_2013_02_28_संवादकीय_फेब्रुवारी_२० from "./articles/2013_02_28_संवादकीय-फेब्रुवारी-२०.js";
+import articleData_2013_02_16_संवादकीय_फेब्रुवारी_२०१_4 from "./articles/2013_02_16_संवादकीय-फेब्रुवारी-२०१-4.js";
+import articleData_2013_02_16_शिक्षणमाध्यम_विशेषांकाव from "./articles/2013_02_16_शिक्षणमाध्यम-विशेषांकाव.js";
+import articleData_2013_02_16_शब्दबिंब_2 from "./articles/2013_02_16_शब्दबिंब-2.js";
+import articleData_2013_02_16_फेब्रुवारी_२०१३ from "./articles/2013_02_16_फेब्रुवारी-२०१३.js";
+import articleData_2013_02_16_दलित_मातृभाषा_देशभाषा_आण from "./articles/2013_02_16_दलित-मातृभाषा-देशभाषा-आण.js";
+import articleData_2013_02_16_खेळघरातले_कलेचे_प्रयोग from "./articles/2013_02_16_खेळघरातले-कलेचे-प्रयोग.js";
+import articleData_2013_02_16_उन्मेषांची_अब्जावधी from "./articles/2013_02_16_उन्मेषांची-अब्जावधी.js";
+import articleData_2013_02_16_आनंदवनातून_प्रतिसाद from "./articles/2013_02_16_आनंदवनातून-प्रतिसाद.js";
+import articleData_2013_01_30_संवादकीय_जानेवारी_२०१३_2 from "./articles/2013_01_30_संवादकीय-जानेवारी-२०१३-2.js";
+import articleData_2013_01_30_वादे_वादे_जायते_तत्त्वबो from "./articles/2013_01_30_वादे-वादे-जायते-तत्त्वबो.js";
+import articleData_2013_01_16_संवादकीय_जानेवारी_२०१३ from "./articles/2013_01_16_संवादकीय-जानेवारी-२०१३.js";
+import articleData_2013_01_16_माझं_काम_माझं_पालकपण_लेखा from "./articles/2013_01_16_माझं-काम-माझं-पालकपण-लेखा.js";
+import articleData_2013_01_16_प्रतिसाद_४ from "./articles/2013_01_16_प्रतिसाद-४.js";
+import articleData_2013_01_16_प्रतिसाद_१ from "./articles/2013_01_16_प्रतिसाद-१.js";
+import articleData_2013_01_16_जानेवारी_२०१३ from "./articles/2013_01_16_जानेवारी-२०१३.js";
+import articleData_2013_01_16_किशोर_दरक_यांच्या_पत्राल from "./articles/2013_01_16_किशोर-दरक-यांच्या-पत्राल.js";
+import articleData_2013_01_16_आई_बाप_व्हायचंय_लेखांक_६_ल from "./articles/2013_01_16_आई-बाप-व्हायचंय-लेखांक-६-ल.js";
+import articleData_2013_01_13_संवादकीय_डिसेंबर_२०१३ from "./articles/2013_01_13_संवादकीय-डिसेंबर-२०१३.js";
+import articleData_2013_01_13_सर्वायतन from "./articles/2013_01_13_सर्वायतन.js";
+import articleData_2013_01_13_मर्यादांच्या_अंगणात_वाढत from "./articles/2013_01_13_मर्यादांच्या-अंगणात-वाढत.js";
+import articleData_2013_01_13_पालकनीती_मासिक_थांबवण्या from "./articles/2013_01_13_पालकनीती-मासिक-थांबवण्या.js";
+import articleData_2013_01_13_जीवन_सुंदर_आहे_याची_अनुभू from "./articles/2013_01_13_जीवन-सुंदर-आहे-याची-अनुभू.js";
+import articleData_2012_10_01_22774 from "./articles/2012_10_01_22774.js";
+import articleData_2012_10_01_22465 from "./articles/2012_10_01_22465.js";
+import articleData_2012_10_01_22464 from "./articles/2012_10_01_22464.js";
+import articleData_2012_10_01_22463 from "./articles/2012_10_01_22463.js";
+import articleData_2012_10_01_22462 from "./articles/2012_10_01_22462.js";
+import articleData_2012_10_01_22461 from "./articles/2012_10_01_22461.js";
+import articleData_2012_10_01_22460 from "./articles/2012_10_01_22460.js";
+import articleData_2012_10_01_22458 from "./articles/2012_10_01_22458.js";
+import articleData_2012_10_01_22457 from "./articles/2012_10_01_22457.js";
+import articleData_2012_10_01_22456 from "./articles/2012_10_01_22456.js";
+import articleData_2012_10_01_22455 from "./articles/2012_10_01_22455.js";
+import articleData_2012_10_01_22454 from "./articles/2012_10_01_22454.js";
+import articleData_2012_10_01_22453 from "./articles/2012_10_01_22453.js";
+import articleData_2012_10_01_22452 from "./articles/2012_10_01_22452.js";
+import articleData_2012_10_01_22451 from "./articles/2012_10_01_22451.js";
+import articleData_2012_10_01_22450 from "./articles/2012_10_01_22450.js";
+import articleData_2012_10_01_22449 from "./articles/2012_10_01_22449.js";
+import articleData_2012_10_01_22448 from "./articles/2012_10_01_22448.js";
+import articleData_2012_10_01_22447 from "./articles/2012_10_01_22447.js";
+import articleData_2012_10_01_22446 from "./articles/2012_10_01_22446.js";
+import articleData_2012_10_01_22445 from "./articles/2012_10_01_22445.js";
+import articleData_2012_10_01_22444 from "./articles/2012_10_01_22444.js";
+import articleData_2012_09_01_22773 from "./articles/2012_09_01_22773.js";
+import articleData_2012_09_01_22443 from "./articles/2012_09_01_22443.js";
+import articleData_2012_09_01_22442 from "./articles/2012_09_01_22442.js";
+import articleData_2012_09_01_22441 from "./articles/2012_09_01_22441.js";
+import articleData_2012_09_01_22440 from "./articles/2012_09_01_22440.js";
+import articleData_2012_09_01_22439 from "./articles/2012_09_01_22439.js";
+import articleData_2012_09_01_22438 from "./articles/2012_09_01_22438.js";
+import articleData_2012_08_01_22772 from "./articles/2012_08_01_22772.js";
+import articleData_2012_08_01_22437 from "./articles/2012_08_01_22437.js";
+import articleData_2012_08_01_22436 from "./articles/2012_08_01_22436.js";
+import articleData_2012_08_01_22435 from "./articles/2012_08_01_22435.js";
+import articleData_2012_08_01_22434 from "./articles/2012_08_01_22434.js";
+import articleData_2012_08_01_22433 from "./articles/2012_08_01_22433.js";
+import articleData_2012_08_01_22432 from "./articles/2012_08_01_22432.js";
+import articleData_2012_07_01_22771 from "./articles/2012_07_01_22771.js";
+import articleData_2012_07_01_22431 from "./articles/2012_07_01_22431.js";
+import articleData_2012_07_01_22430 from "./articles/2012_07_01_22430.js";
+import articleData_2012_07_01_22429 from "./articles/2012_07_01_22429.js";
+import articleData_2012_07_01_22428 from "./articles/2012_07_01_22428.js";
+import articleData_2012_07_01_22427 from "./articles/2012_07_01_22427.js";
+import articleData_2012_07_01_22426 from "./articles/2012_07_01_22426.js";
+import articleData_2012_07_01_22424 from "./articles/2012_07_01_22424.js";
+import articleData_2012_07_01_22423 from "./articles/2012_07_01_22423.js";
+import articleData_2012_06_01_22770 from "./articles/2012_06_01_22770.js";
+import articleData_2012_06_01_22422 from "./articles/2012_06_01_22422.js";
+import articleData_2012_06_01_22421 from "./articles/2012_06_01_22421.js";
+import articleData_2012_06_01_22420 from "./articles/2012_06_01_22420.js";
+import articleData_2012_06_01_22419 from "./articles/2012_06_01_22419.js";
+import articleData_2012_06_01_22418 from "./articles/2012_06_01_22418.js";
+import articleData_2012_05_01_22769 from "./articles/2012_05_01_22769.js";
+import articleData_2012_05_01_22417 from "./articles/2012_05_01_22417.js";
+import articleData_2012_05_01_22416 from "./articles/2012_05_01_22416.js";
+import articleData_2012_05_01_22415 from "./articles/2012_05_01_22415.js";
+import articleData_2012_05_01_22414 from "./articles/2012_05_01_22414.js";
+import articleData_2012_05_01_22413 from "./articles/2012_05_01_22413.js";
+import articleData_2012_04_01_22768 from "./articles/2012_04_01_22768.js";
+import articleData_2012_04_01_22412 from "./articles/2012_04_01_22412.js";
+import articleData_2012_04_01_22411 from "./articles/2012_04_01_22411.js";
+import articleData_2012_04_01_22410 from "./articles/2012_04_01_22410.js";
+import articleData_2012_04_01_22409 from "./articles/2012_04_01_22409.js";
+import articleData_2012_04_01_22408 from "./articles/2012_04_01_22408.js";
+import articleData_2012_04_01_22407 from "./articles/2012_04_01_22407.js";
+import articleData_2012_03_01_22767 from "./articles/2012_03_01_22767.js";
+import articleData_2012_03_01_22406 from "./articles/2012_03_01_22406.js";
+import articleData_2012_03_01_22405 from "./articles/2012_03_01_22405.js";
+import articleData_2012_03_01_22404 from "./articles/2012_03_01_22404.js";
+import articleData_2012_03_01_22403 from "./articles/2012_03_01_22403.js";
+import articleData_2012_03_01_22402 from "./articles/2012_03_01_22402.js";
+import articleData_2012_02_01_22766 from "./articles/2012_02_01_22766.js";
+import articleData_2012_02_01_22401 from "./articles/2012_02_01_22401.js";
+import articleData_2012_02_01_22400 from "./articles/2012_02_01_22400.js";
+import articleData_2012_02_01_22399 from "./articles/2012_02_01_22399.js";
+import articleData_2012_02_01_22398 from "./articles/2012_02_01_22398.js";
+import articleData_2012_02_01_22397 from "./articles/2012_02_01_22397.js";
+import articleData_2012_02_01_22396 from "./articles/2012_02_01_22396.js";
+import articleData_2012_02_01_22395 from "./articles/2012_02_01_22395.js";
+import articleData_2012_01_01_22765 from "./articles/2012_01_01_22765.js";
+import articleData_2012_01_01_22394 from "./articles/2012_01_01_22394.js";
+import articleData_2012_01_01_22393 from "./articles/2012_01_01_22393.js";
+import articleData_2012_01_01_22392 from "./articles/2012_01_01_22392.js";
+import articleData_2012_01_01_22391 from "./articles/2012_01_01_22391.js";
+import articleData_2012_01_01_22390 from "./articles/2012_01_01_22390.js";
+import articleData_2012_01_01_22389 from "./articles/2012_01_01_22389.js";
+import articleData_2012_01_01_22388 from "./articles/2012_01_01_22388.js";
+import articleData_2012_01_01_22387 from "./articles/2012_01_01_22387.js";
+import articleData_2011_12_01_22763 from "./articles/2011_12_01_22763.js";
+import articleData_2011_12_01_22366 from "./articles/2011_12_01_22366.js";
+import articleData_2011_12_01_22365 from "./articles/2011_12_01_22365.js";
+import articleData_2011_12_01_22364 from "./articles/2011_12_01_22364.js";
+import articleData_2011_12_01_22363 from "./articles/2011_12_01_22363.js";
+import articleData_2011_12_01_22362 from "./articles/2011_12_01_22362.js";
+import articleData_2011_12_01_22361 from "./articles/2011_12_01_22361.js";
+import articleData_2011_12_01_22360 from "./articles/2011_12_01_22360.js";
+import articleData_2011_10_01_22386 from "./articles/2011_10_01_22386.js";
+import articleData_2011_10_01_22385 from "./articles/2011_10_01_22385.js";
+import articleData_2011_10_01_22384 from "./articles/2011_10_01_22384.js";
+import articleData_2011_10_01_22383 from "./articles/2011_10_01_22383.js";
+import articleData_2011_10_01_22382 from "./articles/2011_10_01_22382.js";
+import articleData_2011_10_01_22381 from "./articles/2011_10_01_22381.js";
+import articleData_2011_10_01_22380 from "./articles/2011_10_01_22380.js";
+import articleData_2011_10_01_22379 from "./articles/2011_10_01_22379.js";
+import articleData_2011_10_01_22378 from "./articles/2011_10_01_22378.js";
+import articleData_2011_10_01_22377 from "./articles/2011_10_01_22377.js";
+import articleData_2011_10_01_22376 from "./articles/2011_10_01_22376.js";
+import articleData_2011_10_01_22375 from "./articles/2011_10_01_22375.js";
+import articleData_2011_10_01_22374 from "./articles/2011_10_01_22374.js";
+import articleData_2011_10_01_22373 from "./articles/2011_10_01_22373.js";
+import articleData_2011_10_01_22372 from "./articles/2011_10_01_22372.js";
+import articleData_2011_10_01_22371 from "./articles/2011_10_01_22371.js";
+import articleData_2011_10_01_22370 from "./articles/2011_10_01_22370.js";
+import articleData_2011_10_01_22369 from "./articles/2011_10_01_22369.js";
+import articleData_2011_10_01_22368 from "./articles/2011_10_01_22368.js";
+import articleData_2011_10_01_22367 from "./articles/2011_10_01_22367.js";
+import articleData_2011_09_22_खेळ_विशेषांक_२०११ from "./articles/2011_09_22_खेळ-विशेषांक-२०११.js";
+import articleData_2011_09_01_22762 from "./articles/2011_09_01_22762.js";
+import articleData_2011_09_01_22359 from "./articles/2011_09_01_22359.js";
+import articleData_2011_09_01_22358 from "./articles/2011_09_01_22358.js";
+import articleData_2011_09_01_22357 from "./articles/2011_09_01_22357.js";
+import articleData_2011_09_01_22356 from "./articles/2011_09_01_22356.js";
+import articleData_2011_09_01_22355 from "./articles/2011_09_01_22355.js";
+import articleData_2011_09_01_22354 from "./articles/2011_09_01_22354.js";
+import articleData_2011_08_01_22761 from "./articles/2011_08_01_22761.js";
+import articleData_2011_08_01_22353 from "./articles/2011_08_01_22353.js";
+import articleData_2011_08_01_22352 from "./articles/2011_08_01_22352.js";
+import articleData_2011_08_01_22351 from "./articles/2011_08_01_22351.js";
+import articleData_2011_08_01_22350 from "./articles/2011_08_01_22350.js";
+import articleData_2011_08_01_22349 from "./articles/2011_08_01_22349.js";
+import articleData_2011_08_01_22348 from "./articles/2011_08_01_22348.js";
+import articleData_2011_07_01_22760 from "./articles/2011_07_01_22760.js";
+import articleData_2011_07_01_22347 from "./articles/2011_07_01_22347.js";
+import articleData_2011_07_01_22346 from "./articles/2011_07_01_22346.js";
+import articleData_2011_07_01_22345 from "./articles/2011_07_01_22345.js";
+import articleData_2011_07_01_22344 from "./articles/2011_07_01_22344.js";
+import articleData_2011_07_01_22343 from "./articles/2011_07_01_22343.js";
+import articleData_2011_07_01_22342 from "./articles/2011_07_01_22342.js";
+import articleData_2011_06_01_22759 from "./articles/2011_06_01_22759.js";
+import articleData_2011_06_01_22341 from "./articles/2011_06_01_22341.js";
+import articleData_2011_06_01_22340 from "./articles/2011_06_01_22340.js";
+import articleData_2011_06_01_22339 from "./articles/2011_06_01_22339.js";
+import articleData_2011_06_01_22338 from "./articles/2011_06_01_22338.js";
+import articleData_2011_06_01_22337 from "./articles/2011_06_01_22337.js";
+import articleData_2011_06_01_22336 from "./articles/2011_06_01_22336.js";
+import articleData_2011_05_01_22758 from "./articles/2011_05_01_22758.js";
+import articleData_2011_05_01_22335 from "./articles/2011_05_01_22335.js";
+import articleData_2011_05_01_22334 from "./articles/2011_05_01_22334.js";
+import articleData_2011_05_01_22333 from "./articles/2011_05_01_22333.js";
+import articleData_2011_05_01_22332 from "./articles/2011_05_01_22332.js";
+import articleData_2011_05_01_22331 from "./articles/2011_05_01_22331.js";
+import articleData_2011_05_01_22330 from "./articles/2011_05_01_22330.js";
+import articleData_2011_05_01_22329 from "./articles/2011_05_01_22329.js";
+import articleData_2011_05_01_22328 from "./articles/2011_05_01_22328.js";
+import articleData_2011_04_01_22757 from "./articles/2011_04_01_22757.js";
+import articleData_2011_04_01_22327 from "./articles/2011_04_01_22327.js";
+import articleData_2011_04_01_22326 from "./articles/2011_04_01_22326.js";
+import articleData_2011_04_01_22325 from "./articles/2011_04_01_22325.js";
+import articleData_2011_04_01_22324 from "./articles/2011_04_01_22324.js";
+import articleData_2011_04_01_22323 from "./articles/2011_04_01_22323.js";
+import articleData_2011_04_01_22322 from "./articles/2011_04_01_22322.js";
+import articleData_2011_03_01_22756 from "./articles/2011_03_01_22756.js";
+import articleData_2011_03_01_22319 from "./articles/2011_03_01_22319.js";
+import articleData_2011_03_01_22318 from "./articles/2011_03_01_22318.js";
+import articleData_2011_03_01_22317 from "./articles/2011_03_01_22317.js";
+import articleData_2011_03_01_22316 from "./articles/2011_03_01_22316.js";
+import articleData_2011_03_01_22315 from "./articles/2011_03_01_22315.js";
+import articleData_2011_03_01_22314 from "./articles/2011_03_01_22314.js";
+import articleData_2011_03_01_22313 from "./articles/2011_03_01_22313.js";
+import articleData_2011_03_01_22312 from "./articles/2011_03_01_22312.js";
+import articleData_2011_03_01_22311 from "./articles/2011_03_01_22311.js";
+import articleData_2011_03_01_22310 from "./articles/2011_03_01_22310.js";
+import articleData_2011_03_01_22309 from "./articles/2011_03_01_22309.js";
+import articleData_2011_02_01_22755 from "./articles/2011_02_01_22755.js";
+import articleData_2011_02_01_22306 from "./articles/2011_02_01_22306.js";
+import articleData_2011_02_01_22305 from "./articles/2011_02_01_22305.js";
+import articleData_2011_02_01_22304 from "./articles/2011_02_01_22304.js";
+import articleData_2011_02_01_22303 from "./articles/2011_02_01_22303.js";
+import articleData_2011_01_01_22754 from "./articles/2011_01_01_22754.js";
+import articleData_2011_01_01_22301 from "./articles/2011_01_01_22301.js";
+import articleData_2011_01_01_22299 from "./articles/2011_01_01_22299.js";
+import articleData_2011_01_01_22298 from "./articles/2011_01_01_22298.js";
+import articleData_2011_01_01_22297 from "./articles/2011_01_01_22297.js";
+import articleData_2011_01_01_22296 from "./articles/2011_01_01_22296.js";
+import articleData_2011_01_01_22295 from "./articles/2011_01_01_22295.js";
+import articleData_2010_12_01_22751 from "./articles/2010_12_01_22751.js";
+import articleData_2010_12_01_22272 from "./articles/2010_12_01_22272.js";
+import articleData_2010_12_01_22271 from "./articles/2010_12_01_22271.js";
+import articleData_2010_12_01_22270 from "./articles/2010_12_01_22270.js";
+import articleData_2010_12_01_22269 from "./articles/2010_12_01_22269.js";
+import articleData_2010_12_01_22268 from "./articles/2010_12_01_22268.js";
+import articleData_2010_12_01_22267 from "./articles/2010_12_01_22267.js";
+import articleData_2010_12_01_22266 from "./articles/2010_12_01_22266.js";
+import articleData_2010_12_01_22265 from "./articles/2010_12_01_22265.js";
+import articleData_2010_10_01_22752 from "./articles/2010_10_01_22752.js";
+import articleData_2010_10_01_22287 from "./articles/2010_10_01_22287.js";
+import articleData_2010_10_01_22286 from "./articles/2010_10_01_22286.js";
+import articleData_2010_10_01_22285 from "./articles/2010_10_01_22285.js";
+import articleData_2010_10_01_22284 from "./articles/2010_10_01_22284.js";
+import articleData_2010_10_01_22283 from "./articles/2010_10_01_22283.js";
+import articleData_2010_10_01_22282 from "./articles/2010_10_01_22282.js";
+import articleData_2010_10_01_22281 from "./articles/2010_10_01_22281.js";
+import articleData_2010_10_01_22280 from "./articles/2010_10_01_22280.js";
+import articleData_2010_10_01_22279 from "./articles/2010_10_01_22279.js";
+import articleData_2010_10_01_22278 from "./articles/2010_10_01_22278.js";
+import articleData_2010_10_01_22277 from "./articles/2010_10_01_22277.js";
+import articleData_2010_10_01_22276 from "./articles/2010_10_01_22276.js";
+import articleData_2010_10_01_22275 from "./articles/2010_10_01_22275.js";
+import articleData_2010_10_01_22274 from "./articles/2010_10_01_22274.js";
+import articleData_2010_10_01_22273 from "./articles/2010_10_01_22273.js";
+import articleData_2010_07_01_22750 from "./articles/2010_07_01_22750.js";
+import articleData_2010_07_01_22264 from "./articles/2010_07_01_22264.js";
+import articleData_2010_07_01_22263 from "./articles/2010_07_01_22263.js";
+import articleData_2010_07_01_22262 from "./articles/2010_07_01_22262.js";
+import articleData_2010_07_01_22261 from "./articles/2010_07_01_22261.js";
+import articleData_2010_07_01_22260 from "./articles/2010_07_01_22260.js";
+import articleData_2010_07_01_22259 from "./articles/2010_07_01_22259.js";
+import articleData_2010_07_01_22258 from "./articles/2010_07_01_22258.js";
+import articleData_2010_06_21_जून_२०१० from "./articles/2010_06_21_जून-२०१०.js";
+import articleData_2010_05_01_22749 from "./articles/2010_05_01_22749.js";
+import articleData_2010_05_01_22256 from "./articles/2010_05_01_22256.js";
+import articleData_2010_05_01_22255 from "./articles/2010_05_01_22255.js";
+import articleData_2010_02_01_22748 from "./articles/2010_02_01_22748.js";
+import articleData_2010_02_01_22254 from "./articles/2010_02_01_22254.js";
+import articleData_2010_02_01_22252 from "./articles/2010_02_01_22252.js";
+import articleData_2010_02_01_22251 from "./articles/2010_02_01_22251.js";
+import articleData_2010_02_01_22250 from "./articles/2010_02_01_22250.js";
+import articleData_2010_02_01_22249 from "./articles/2010_02_01_22249.js";
+import articleData_2010_02_01_22248 from "./articles/2010_02_01_22248.js";
+import articleData_2010_01_01_22753 from "./articles/2010_01_01_22753.js";
+import articleData_2010_01_01_22294 from "./articles/2010_01_01_22294.js";
+import articleData_2010_01_01_22293 from "./articles/2010_01_01_22293.js";
+import articleData_2010_01_01_22292 from "./articles/2010_01_01_22292.js";
+import articleData_2010_01_01_22291 from "./articles/2010_01_01_22291.js";
+import articleData_2010_01_01_22290 from "./articles/2010_01_01_22290.js";
+import articleData_2010_01_01_22289 from "./articles/2010_01_01_22289.js";
+import articleData_2010_01_01_22288 from "./articles/2010_01_01_22288.js";
+import articleData_2009_12_01_22744 from "./articles/2009_12_01_22744.js";
+import articleData_2009_12_01_22229 from "./articles/2009_12_01_22229.js";
+import articleData_2009_12_01_22228 from "./articles/2009_12_01_22228.js";
+import articleData_2009_12_01_22227 from "./articles/2009_12_01_22227.js";
+import articleData_2009_12_01_22226 from "./articles/2009_12_01_22226.js";
+import articleData_2009_12_01_22225 from "./articles/2009_12_01_22225.js";
+import articleData_2009_12_01_22224 from "./articles/2009_12_01_22224.js";
+import articleData_2009_12_01_22223 from "./articles/2009_12_01_22223.js";
+import articleData_2009_10_01_22745 from "./articles/2009_10_01_22745.js";
+import articleData_2009_10_01_22230 from "./articles/2009_10_01_22230.js";
+import articleData_2009_08_01_22746 from "./articles/2009_08_01_22746.js";
+import articleData_2009_08_01_22243 from "./articles/2009_08_01_22243.js";
+import articleData_2009_08_01_22242 from "./articles/2009_08_01_22242.js";
+import articleData_2009_08_01_22240 from "./articles/2009_08_01_22240.js";
+import articleData_2009_08_01_22239 from "./articles/2009_08_01_22239.js";
+import articleData_2009_08_01_22238 from "./articles/2009_08_01_22238.js";
+import articleData_2009_08_01_22237 from "./articles/2009_08_01_22237.js";
+import articleData_2009_07_01_22743 from "./articles/2009_07_01_22743.js";
+import articleData_2009_07_01_22222 from "./articles/2009_07_01_22222.js";
+import articleData_2009_07_01_22221 from "./articles/2009_07_01_22221.js";
+import articleData_2009_07_01_22220 from "./articles/2009_07_01_22220.js";
+import articleData_2009_07_01_22219 from "./articles/2009_07_01_22219.js";
+import articleData_2009_07_01_22218 from "./articles/2009_07_01_22218.js";
+import articleData_2009_07_01_22217 from "./articles/2009_07_01_22217.js";
+import articleData_2009_06_01_22742 from "./articles/2009_06_01_22742.js";
+import articleData_2009_06_01_22216 from "./articles/2009_06_01_22216.js";
+import articleData_2009_06_01_22215 from "./articles/2009_06_01_22215.js";
+import articleData_2009_06_01_22214 from "./articles/2009_06_01_22214.js";
+import articleData_2009_06_01_22213 from "./articles/2009_06_01_22213.js";
+import articleData_2009_06_01_22212 from "./articles/2009_06_01_22212.js";
+import articleData_2009_06_01_22211 from "./articles/2009_06_01_22211.js";
+import articleData_2009_06_01_22210 from "./articles/2009_06_01_22210.js";
+import articleData_2009_05_19_मे_२००९ from "./articles/2009_05_19_मे-२००९.js";
+import articleData_2009_05_01_22209 from "./articles/2009_05_01_22209.js";
+import articleData_2009_05_01_22208 from "./articles/2009_05_01_22208.js";
+import articleData_2009_05_01_22207 from "./articles/2009_05_01_22207.js";
+import articleData_2009_05_01_22206 from "./articles/2009_05_01_22206.js";
+import articleData_2009_05_01_22205 from "./articles/2009_05_01_22205.js";
+import articleData_2009_05_01_22204 from "./articles/2009_05_01_22204.js";
+import articleData_2009_04_19_एप्रिल_२००९ from "./articles/2009_04_19_एप्रिल-२००९.js";
+import articleData_2009_04_01_22236 from "./articles/2009_04_01_22236.js";
+import articleData_2009_04_01_22235 from "./articles/2009_04_01_22235.js";
+import articleData_2009_04_01_22234 from "./articles/2009_04_01_22234.js";
+import articleData_2009_04_01_22233 from "./articles/2009_04_01_22233.js";
+import articleData_2009_04_01_22232 from "./articles/2009_04_01_22232.js";
+import articleData_2009_04_01_22231 from "./articles/2009_04_01_22231.js";
+import articleData_2009_03_01_22741 from "./articles/2009_03_01_22741.js";
+import articleData_2009_02_01_22740 from "./articles/2009_02_01_22740.js";
+import articleData_2009_02_01_22202 from "./articles/2009_02_01_22202.js";
+import articleData_2009_02_01_22201 from "./articles/2009_02_01_22201.js";
+import articleData_2009_01_01_22739 from "./articles/2009_01_01_22739.js";
+import articleData_2009_01_01_22200 from "./articles/2009_01_01_22200.js";
+import articleData_2009_01_01_22199 from "./articles/2009_01_01_22199.js";
+import articleData_2009_01_01_22198 from "./articles/2009_01_01_22198.js";
+import articleData_2009_01_01_22197 from "./articles/2009_01_01_22197.js";
+import articleData_2009_01_01_22196 from "./articles/2009_01_01_22196.js";
+import articleData_2009_01_01_22195 from "./articles/2009_01_01_22195.js";
+import articleData_2008_12_01_22737 from "./articles/2008_12_01_22737.js";
+import articleData_2008_12_01_22171 from "./articles/2008_12_01_22171.js";
+import articleData_2008_12_01_22170 from "./articles/2008_12_01_22170.js";
+import articleData_2008_12_01_22169 from "./articles/2008_12_01_22169.js";
+import articleData_2008_12_01_22168 from "./articles/2008_12_01_22168.js";
+import articleData_2008_12_01_22167 from "./articles/2008_12_01_22167.js";
+import articleData_2008_12_01_22166 from "./articles/2008_12_01_22166.js";
+import articleData_2008_12_01_22165 from "./articles/2008_12_01_22165.js";
+import articleData_2008_12_01_22164 from "./articles/2008_12_01_22164.js";
+import articleData_2008_10_01_22738 from "./articles/2008_10_01_22738.js";
+import articleData_2008_10_01_22194 from "./articles/2008_10_01_22194.js";
+import articleData_2008_10_01_22193 from "./articles/2008_10_01_22193.js";
+import articleData_2008_10_01_22192 from "./articles/2008_10_01_22192.js";
+import articleData_2008_10_01_22191 from "./articles/2008_10_01_22191.js";
+import articleData_2008_10_01_22190 from "./articles/2008_10_01_22190.js";
+import articleData_2008_10_01_22189 from "./articles/2008_10_01_22189.js";
+import articleData_2008_10_01_22188 from "./articles/2008_10_01_22188.js";
+import articleData_2008_10_01_22187 from "./articles/2008_10_01_22187.js";
+import articleData_2008_10_01_22186 from "./articles/2008_10_01_22186.js";
+import articleData_2008_10_01_22185 from "./articles/2008_10_01_22185.js";
+import articleData_2008_10_01_22184 from "./articles/2008_10_01_22184.js";
+import articleData_2008_10_01_22183 from "./articles/2008_10_01_22183.js";
+import articleData_2008_10_01_22182 from "./articles/2008_10_01_22182.js";
+import articleData_2008_10_01_22181 from "./articles/2008_10_01_22181.js";
+import articleData_2008_10_01_22180 from "./articles/2008_10_01_22180.js";
+import articleData_2008_10_01_22179 from "./articles/2008_10_01_22179.js";
+import articleData_2008_10_01_22178 from "./articles/2008_10_01_22178.js";
+import articleData_2008_10_01_22177 from "./articles/2008_10_01_22177.js";
+import articleData_2008_10_01_22176 from "./articles/2008_10_01_22176.js";
+import articleData_2008_10_01_22175 from "./articles/2008_10_01_22175.js";
+import articleData_2008_10_01_22174 from "./articles/2008_10_01_22174.js";
+import articleData_2008_10_01_22173 from "./articles/2008_10_01_22173.js";
+import articleData_2008_08_01_22736 from "./articles/2008_08_01_22736.js";
+import articleData_2008_08_01_22163 from "./articles/2008_08_01_22163.js";
+import articleData_2008_08_01_22162 from "./articles/2008_08_01_22162.js";
+import articleData_2008_08_01_22161 from "./articles/2008_08_01_22161.js";
+import articleData_2008_08_01_22160 from "./articles/2008_08_01_22160.js";
+import articleData_2008_08_01_22159 from "./articles/2008_08_01_22159.js";
+import articleData_2008_08_01_22158 from "./articles/2008_08_01_22158.js";
+import articleData_2008_08_01_22157 from "./articles/2008_08_01_22157.js";
+import articleData_2008_08_01_22156 from "./articles/2008_08_01_22156.js";
+import articleData_2008_07_01_22735 from "./articles/2008_07_01_22735.js";
+import articleData_2008_07_01_22155 from "./articles/2008_07_01_22155.js";
+import articleData_2008_07_01_22154 from "./articles/2008_07_01_22154.js";
+import articleData_2008_07_01_22153 from "./articles/2008_07_01_22153.js";
+import articleData_2008_07_01_22152 from "./articles/2008_07_01_22152.js";
+import articleData_2008_06_01_22747 from "./articles/2008_06_01_22747.js";
+import articleData_2008_06_01_22247 from "./articles/2008_06_01_22247.js";
+import articleData_2008_06_01_22246 from "./articles/2008_06_01_22246.js";
+import articleData_2008_06_01_22245 from "./articles/2008_06_01_22245.js";
+import articleData_2008_06_01_22244 from "./articles/2008_06_01_22244.js";
+import articleData_2008_05_01_22734 from "./articles/2008_05_01_22734.js";
+import articleData_2008_05_01_22151 from "./articles/2008_05_01_22151.js";
+import articleData_2008_05_01_22150 from "./articles/2008_05_01_22150.js";
+import articleData_2008_05_01_22149 from "./articles/2008_05_01_22149.js";
+import articleData_2008_05_01_22148 from "./articles/2008_05_01_22148.js";
+import articleData_2008_05_01_22147 from "./articles/2008_05_01_22147.js";
+import articleData_2008_04_01_22733 from "./articles/2008_04_01_22733.js";
+import articleData_2008_04_01_22146 from "./articles/2008_04_01_22146.js";
+import articleData_2008_04_01_22145 from "./articles/2008_04_01_22145.js";
+import articleData_2008_04_01_22144 from "./articles/2008_04_01_22144.js";
+import articleData_2008_04_01_22143 from "./articles/2008_04_01_22143.js";
+import articleData_2008_03_01_22732 from "./articles/2008_03_01_22732.js";
+import articleData_2008_03_01_22141 from "./articles/2008_03_01_22141.js";
+import articleData_2008_03_01_22139 from "./articles/2008_03_01_22139.js";
+import articleData_2008_03_01_22138 from "./articles/2008_03_01_22138.js";
+import articleData_2008_02_16_22721 from "./articles/2008_02_16_22721.js";
+import articleData_2008_01_01_22730 from "./articles/2008_01_01_22730.js";
+import articleData_2008_01_01_22131 from "./articles/2008_01_01_22131.js";
+import articleData_2008_01_01_22130 from "./articles/2008_01_01_22130.js";
+import articleData_2008_01_01_22129 from "./articles/2008_01_01_22129.js";
+import articleData_2008_01_01_22128 from "./articles/2008_01_01_22128.js";
+import articleData_2008_01_01_22127 from "./articles/2008_01_01_22127.js";
+import articleData_2007_09_01_22726 from "./articles/2007_09_01_22726.js";
+import articleData_2007_08_01_22729 from "./articles/2007_08_01_22729.js";
+import articleData_2007_07_07_जुलै_२००७ from "./articles/2007_07_07_जुलै-२००७.js";
+import articleData_2007_06_01_22725 from "./articles/2007_06_01_22725.js";
+import articleData_2007_05_01_22724 from "./articles/2007_05_01_22724.js";
+import articleData_2007_04_01_22723 from "./articles/2007_04_01_22723.js";
+import articleData_2007_03_01_22722 from "./articles/2007_03_01_22722.js";
+import articleData_2007_01_01_22720 from "./articles/2007_01_01_22720.js";
+import articleData_2006_12_01_22719 from "./articles/2006_12_01_22719.js";
+import articleData_2006_09_01_22718 from "./articles/2006_09_01_22718.js";
+import articleData_2006_08_01_22717 from "./articles/2006_08_01_22717.js";
+import articleData_2006_08_01_22038 from "./articles/2006_08_01_22038.js";
+import articleData_2006_07_01_22716 from "./articles/2006_07_01_22716.js";
+import articleData_2006_06_01_22715 from "./articles/2006_06_01_22715.js";
+import articleData_2006_04_01_22714 from "./articles/2006_04_01_22714.js";
+import articleData_2006_03_01_22713 from "./articles/2006_03_01_22713.js";
+import articleData_2006_02_01_22712 from "./articles/2006_02_01_22712.js";
+import articleData_2006_01_01_22711 from "./articles/2006_01_01_22711.js";
+import articleData_2005_12_01_22709 from "./articles/2005_12_01_22709.js";
+import articleData_2005_12_01_21979 from "./articles/2005_12_01_21979.js";
+import articleData_2005_12_01_21978 from "./articles/2005_12_01_21978.js";
+import articleData_2005_12_01_21977 from "./articles/2005_12_01_21977.js";
+import articleData_2005_12_01_21976 from "./articles/2005_12_01_21976.js";
+import articleData_2005_12_01_21975 from "./articles/2005_12_01_21975.js";
+import articleData_2005_12_01_21974 from "./articles/2005_12_01_21974.js";
+import articleData_2005_12_01_21973 from "./articles/2005_12_01_21973.js";
+import articleData_2005_12_01_21972 from "./articles/2005_12_01_21972.js";
+import articleData_2005_12_01_21971 from "./articles/2005_12_01_21971.js";
+import articleData_2005_10_01_22710 from "./articles/2005_10_01_22710.js";
+import articleData_2005_10_01_22006 from "./articles/2005_10_01_22006.js";
+import articleData_2005_10_01_22005 from "./articles/2005_10_01_22005.js";
+import articleData_2005_10_01_22004 from "./articles/2005_10_01_22004.js";
+import articleData_2005_10_01_22003 from "./articles/2005_10_01_22003.js";
+import articleData_2005_10_01_22002 from "./articles/2005_10_01_22002.js";
+import articleData_2005_10_01_22001 from "./articles/2005_10_01_22001.js";
+import articleData_2005_10_01_22000 from "./articles/2005_10_01_22000.js";
+import articleData_2005_10_01_21999 from "./articles/2005_10_01_21999.js";
+import articleData_2005_10_01_21998 from "./articles/2005_10_01_21998.js";
+import articleData_2005_10_01_21997 from "./articles/2005_10_01_21997.js";
+import articleData_2005_10_01_21996 from "./articles/2005_10_01_21996.js";
+import articleData_2005_10_01_21995 from "./articles/2005_10_01_21995.js";
+import articleData_2005_10_01_21994 from "./articles/2005_10_01_21994.js";
+import articleData_2005_10_01_21993 from "./articles/2005_10_01_21993.js";
+import articleData_2005_10_01_21992 from "./articles/2005_10_01_21992.js";
+import articleData_2005_10_01_21990 from "./articles/2005_10_01_21990.js";
+import articleData_2005_10_01_21989 from "./articles/2005_10_01_21989.js";
+import articleData_2005_10_01_21988 from "./articles/2005_10_01_21988.js";
+import articleData_2005_10_01_21986 from "./articles/2005_10_01_21986.js";
+import articleData_2005_10_01_21984 from "./articles/2005_10_01_21984.js";
+import articleData_2005_10_01_21983 from "./articles/2005_10_01_21983.js";
+import articleData_2005_10_01_21982 from "./articles/2005_10_01_21982.js";
+import articleData_2005_10_01_21981 from "./articles/2005_10_01_21981.js";
+import articleData_2005_10_01_21980 from "./articles/2005_10_01_21980.js";
+import articleData_2005_09_01_22708 from "./articles/2005_09_01_22708.js";
+import articleData_2005_09_01_21970 from "./articles/2005_09_01_21970.js";
+import articleData_2005_09_01_21969 from "./articles/2005_09_01_21969.js";
+import articleData_2005_09_01_21968 from "./articles/2005_09_01_21968.js";
+import articleData_2005_09_01_21967 from "./articles/2005_09_01_21967.js";
+import articleData_2005_09_01_21966 from "./articles/2005_09_01_21966.js";
+import articleData_2005_09_01_21965 from "./articles/2005_09_01_21965.js";
+import articleData_2005_08_01_22707 from "./articles/2005_08_01_22707.js";
+import articleData_2005_08_01_21963 from "./articles/2005_08_01_21963.js";
+import articleData_2005_08_01_21962 from "./articles/2005_08_01_21962.js";
+import articleData_2005_08_01_21961 from "./articles/2005_08_01_21961.js";
+import articleData_2005_08_01_21960 from "./articles/2005_08_01_21960.js";
+import articleData_2005_08_01_21959 from "./articles/2005_08_01_21959.js";
+import articleData_2005_08_01_21958 from "./articles/2005_08_01_21958.js";
+import articleData_2005_08_01_21957 from "./articles/2005_08_01_21957.js";
+import articleData_2005_08_01_21956 from "./articles/2005_08_01_21956.js";
+import articleData_2005_07_01_22706 from "./articles/2005_07_01_22706.js";
+import articleData_2005_07_01_21955 from "./articles/2005_07_01_21955.js";
+import articleData_2005_07_01_21954 from "./articles/2005_07_01_21954.js";
+import articleData_2005_07_01_21953 from "./articles/2005_07_01_21953.js";
+import articleData_2005_07_01_21952 from "./articles/2005_07_01_21952.js";
+import articleData_2005_07_01_21951 from "./articles/2005_07_01_21951.js";
+import articleData_2005_07_01_21950 from "./articles/2005_07_01_21950.js";
+import articleData_2005_07_01_21949 from "./articles/2005_07_01_21949.js";
+import articleData_2005_07_01_21948 from "./articles/2005_07_01_21948.js";
+import articleData_2005_07_01_21947 from "./articles/2005_07_01_21947.js";
+import articleData_2005_06_01_22705 from "./articles/2005_06_01_22705.js";
+import articleData_2005_06_01_21946 from "./articles/2005_06_01_21946.js";
+import articleData_2005_06_01_21945 from "./articles/2005_06_01_21945.js";
+import articleData_2005_06_01_21944 from "./articles/2005_06_01_21944.js";
+import articleData_2005_06_01_21943 from "./articles/2005_06_01_21943.js";
+import articleData_2005_06_01_21942 from "./articles/2005_06_01_21942.js";
+import articleData_2005_06_01_21941 from "./articles/2005_06_01_21941.js";
+import articleData_2005_05_01_22704 from "./articles/2005_05_01_22704.js";
+import articleData_2005_05_01_21940 from "./articles/2005_05_01_21940.js";
+import articleData_2005_05_01_21939 from "./articles/2005_05_01_21939.js";
+import articleData_2005_05_01_21938 from "./articles/2005_05_01_21938.js";
+import articleData_2005_05_01_21936 from "./articles/2005_05_01_21936.js";
+import articleData_2005_05_01_21935 from "./articles/2005_05_01_21935.js";
+import articleData_2005_05_01_21934 from "./articles/2005_05_01_21934.js";
+import articleData_2005_05_01_21933 from "./articles/2005_05_01_21933.js";
+import articleData_2005_05_01_21932 from "./articles/2005_05_01_21932.js";
+import articleData_2005_04_01_22703 from "./articles/2005_04_01_22703.js";
+import articleData_2005_04_01_21931 from "./articles/2005_04_01_21931.js";
+import articleData_2005_04_01_21930 from "./articles/2005_04_01_21930.js";
+import articleData_2005_04_01_21929 from "./articles/2005_04_01_21929.js";
+import articleData_2005_04_01_21928 from "./articles/2005_04_01_21928.js";
+import articleData_2005_04_01_21927 from "./articles/2005_04_01_21927.js";
+import articleData_2005_04_01_21926 from "./articles/2005_04_01_21926.js";
+import articleData_2005_04_01_21925 from "./articles/2005_04_01_21925.js";
+import articleData_2005_04_01_21924 from "./articles/2005_04_01_21924.js";
+import articleData_2005_04_01_21923 from "./articles/2005_04_01_21923.js";
+import articleData_2005_04_01_21922 from "./articles/2005_04_01_21922.js";
+import articleData_2005_03_01_22702 from "./articles/2005_03_01_22702.js";
+import articleData_2005_03_01_21921 from "./articles/2005_03_01_21921.js";
+import articleData_2005_03_01_21920 from "./articles/2005_03_01_21920.js";
+import articleData_2005_03_01_21919 from "./articles/2005_03_01_21919.js";
+import articleData_2005_03_01_21918 from "./articles/2005_03_01_21918.js";
+import articleData_2005_03_01_21917 from "./articles/2005_03_01_21917.js";
+import articleData_2005_03_01_21916 from "./articles/2005_03_01_21916.js";
+import articleData_2005_03_01_21915 from "./articles/2005_03_01_21915.js";
+import articleData_2005_03_01_21914 from "./articles/2005_03_01_21914.js";
+import articleData_2005_02_01_22701 from "./articles/2005_02_01_22701.js";
+import articleData_2005_02_01_21913 from "./articles/2005_02_01_21913.js";
+import articleData_2005_02_01_21912 from "./articles/2005_02_01_21912.js";
+import articleData_2005_02_01_21911 from "./articles/2005_02_01_21911.js";
+import articleData_2005_02_01_21910 from "./articles/2005_02_01_21910.js";
+import articleData_2005_02_01_21909 from "./articles/2005_02_01_21909.js";
+import articleData_2005_02_01_21908 from "./articles/2005_02_01_21908.js";
+import articleData_2005_02_01_21907 from "./articles/2005_02_01_21907.js";
+import articleData_2005_01_16_जानेवारी_२००५ from "./articles/2005_01_16_जानेवारी-२००५.js";
+import articleData_2005_01_01_21906 from "./articles/2005_01_01_21906.js";
+import articleData_2005_01_01_21905 from "./articles/2005_01_01_21905.js";
+import articleData_2005_01_01_21904 from "./articles/2005_01_01_21904.js";
+import articleData_2005_01_01_21903 from "./articles/2005_01_01_21903.js";
+import articleData_2005_01_01_21901 from "./articles/2005_01_01_21901.js";
+import articleData_2003_12_20_संवादकीय_डिसेंबर_२००३ from "./articles/2003_12_20_संवादकीय-डिसेंबर-२००३.js";
+import articleData_2003_12_20_सख्खे_भावंड_लेखांक_५लेख from "./articles/2003_12_20_सख्खे-भावंड-लेखांक-५लेख.js";
+import articleData_2003_12_20_बाळा_तूआहेसतसाचमलाआवडतो from "./articles/2003_12_20_बाळा-तूआहेसतसाचमलाआवडतो.js";
+import articleData_2003_12_20_प्रतिसाद_डिसेंबर_२००३ from "./articles/2003_12_20_प्रतिसाद-डिसेंबर-२००३.js";
+import articleData_2003_12_20_धुराचा_राक्षस from "./articles/2003_12_20_धुराचा-राक्षस.js";
+import articleData_2003_12_20_डिसेंबर_२००३ from "./articles/2003_12_20_डिसेंबर-२००३.js";
+import articleData_2003_12_20_चित्रवाचन from "./articles/2003_12_20_चित्रवाचन.js";
+import articleData_2003_12_20_आम्हालाही_खेळायचंय_लेखा from "./articles/2003_12_20_आम्हालाही-खेळायचंय-लेखा.js";
+import articleData_2003_12_01_संवादकीय_डिसेंबर_२००३_2 from "./articles/2003_12_01_संवादकीय-डिसेंबर-२००३-2.js";
+import articleData_2003_09_20_संवादकीय_सप्टेंबर_२००३ from "./articles/2003_09_20_संवादकीय-सप्टेंबर-२००३.js";
+import articleData_2003_09_20_सरूबाईचागुडघा_सुमनमेहे from "./articles/2003_09_20_सरूबाईचागुडघा-सुमनमेहे.js";
+import articleData_2003_09_20_सप्टेंबर_२००३ from "./articles/2003_09_20_सप्टेंबर-२००३.js";
+import articleData_2003_09_20_सख्खेभावंड from "./articles/2003_09_20_सख्खेभावंड.js";
+import articleData_2003_09_20_शिक्षा_वृषालीवैद्य from "./articles/2003_09_20_शिक्षा-वृषालीवैद्य.js";
+import articleData_2003_09_20_शाळा_हिंदीकवी_बंशीमाहेड from "./articles/2003_09_20_शाळा-हिंदीकवी-बंशीमाहेड.js";
+import articleData_2003_09_20_मानवीऊर्जेसाठीप्रयोगशी from "./articles/2003_09_20_मानवीऊर्जेसाठीप्रयोगशी.js";
+import articleData_2003_09_20_तेथेपाहिजेजातीचे from "./articles/2003_09_20_तेथेपाहिजेजातीचे.js";
+import articleData_2003_09_20_काजावंशाळेत_लेखक_के_आर_श from "./articles/2003_09_20_काजावंशाळेत-लेखक-के-आर-श.js";
+import articleData_2003_09_20_अडथळ्यांचीशर्यत_रेणूगा from "./articles/2003_09_20_अडथळ्यांचीशर्यत-रेणूगा.js";
+import articleData_2003_09_01_संवादकीय_सप्टेंबर_२००३_2 from "./articles/2003_09_01_संवादकीय-सप्टेंबर-२००३-2.js";
+import articleData_2003_08_20_स्वधर्म from "./articles/2003_08_20_स्वधर्म.js";
+import articleData_2003_08_20_सख्खे_भावंड from "./articles/2003_08_20_सख्खे-भावंड.js";
+import articleData_2003_08_20_मूल्यशिक्षण from "./articles/2003_08_20_मूल्यशिक्षण.js";
+import articleData_2003_08_20_ऑगस्ट_२००३ from "./articles/2003_08_20_ऑगस्ट-२००३.js";
+import articleData_2003_08_20_एड्सची_साथ_आणि_स्त्रिया from "./articles/2003_08_20_एड्सची-साथ-आणि-स्त्रिया.js";
+import articleData_2003_08_20_आव्हान from "./articles/2003_08_20_आव्हान.js";
+import articleData_2003_08_01_संवादकीय_ऑगस्ट_२००३ from "./articles/2003_08_01_संवादकीय-ऑगस्ट-२००३.js";
+import articleData_2003_07_20_संविधानाची_ऐशीतैशी from "./articles/2003_07_20_संविधानाची-ऐशीतैशी.js";
+import articleData_2003_07_20_संवादकीय_जुलै_२०१३_2 from "./articles/2003_07_20_संवादकीय-जुलै-२०१३-2.js";
+import articleData_2003_07_20_सख्खेभावंड_लेखांक३_लेखक from "./articles/2003_07_20_सख्खेभावंड-लेखांक३-लेखक.js";
+import articleData_2003_07_20_मूल्यशिक्षण_लेखांक_५_सुम from "./articles/2003_07_20_मूल्यशिक्षण-लेखांक-५-सुम.js";
+import articleData_2003_07_20_प्रतिसाद_जुलै_२००३ from "./articles/2003_07_20_प्रतिसाद-जुलै-२००३.js";
+import articleData_2003_07_20_जुलै_२००३ from "./articles/2003_07_20_जुलै-२००३.js";
+import articleData_2003_07_20_एड्सचीसाथआणिस्त्रिया from "./articles/2003_07_20_एड्सचीसाथआणिस्त्रिया.js";
+import articleData_2003_07_20_उमेदवारी_लेखांक_16 from "./articles/2003_07_20_उमेदवारी-लेखांक-16.js";
+import articleData_2003_07_20_असाविद्यार्थीअशीशाळा from "./articles/2003_07_20_असाविद्यार्थीअशीशाळा.js";
+import articleData_2003_07_20_अपयशाचेखापरकुणाच्यामाथ from "./articles/2003_07_20_अपयशाचेखापरकुणाच्यामाथ.js";
+import articleData_2003_07_01_संवादकीय_जुलै_२००३ from "./articles/2003_07_01_संवादकीय-जुलै-२००३.js";
+import articleData_2003_07_01_प्रतिसाद_जुलै_२००३_2 from "./articles/2003_07_01_प्रतिसाद-जुलै-२००३-2.js";
+import articleData_2003_06_20_हेसारंमलामाहीतहवं from "./articles/2003_06_20_हेसारंमलामाहीतहवं.js";
+import articleData_2003_06_20_सामाजिकपालकत्वपुरस्कार from "./articles/2003_06_20_सामाजिकपालकत्वपुरस्कार.js";
+import articleData_2003_06_20_संवादकीय_जून२००३ from "./articles/2003_06_20_संवादकीय-जून२००३.js";
+import articleData_2003_06_20_सख्खेभावंड_लेखांक२_लेख from "./articles/2003_06_20_सख्खेभावंड-लेखांक२-लेख.js";
+import articleData_2003_06_20_वादळ from "./articles/2003_06_20_वादळ.js";
+import articleData_2003_06_20_मूल्यशिक्षण_लेखांक_४ from "./articles/2003_06_20_मूल्यशिक्षण-लेखांक-४.js";
+import articleData_2003_06_20_प्रतिसाद_जून२००३ from "./articles/2003_06_20_प्रतिसाद-जून२००३.js";
+import articleData_2003_06_20_जून२००३ from "./articles/2003_06_20_जून२००३.js";
+import articleData_2003_06_20_औरसदानंदखुशहुआ from "./articles/2003_06_20_औरसदानंदखुशहुआ.js";
+import articleData_2003_06_20_एव्हरेस्टकेवळनिमित्तमा from "./articles/2003_06_20_एव्हरेस्टकेवळनिमित्तमा.js";
+import articleData_2003_06_01_संवादकीय_जून_२००३ from "./articles/2003_06_01_संवादकीय-जून-२००३.js";
+import articleData_2003_06_01_प्रतिसाद_जून_२००३ from "./articles/2003_06_01_प्रतिसाद-जून-२००३.js";
+import articleData_2003_05_20_संवादकीय_मे_२००३ from "./articles/2003_05_20_संवादकीय-मे-२००३.js";
+import articleData_2003_05_20_सख्खेभावंड_लेखांक_१_लेख from "./articles/2003_05_20_सख्खेभावंड-लेखांक-१-लेख.js";
+import articleData_2003_05_20_संक्रमणलेखांक_१६ from "./articles/2003_05_20_संक्रमणलेखांक-१६.js";
+import articleData_2003_05_20_मे_२००३ from "./articles/2003_05_20_मे-२००३.js";
+import articleData_2003_05_20_मूल्यशिक्षण_लेखांक३ from "./articles/2003_05_20_मूल्यशिक्षण-लेखांक३.js";
+import articleData_2003_05_20_परिवर्तन from "./articles/2003_05_20_परिवर्तन.js";
+import articleData_2003_05_20_आगरकरांचास्त्रीविषयकवि from "./articles/2003_05_20_आगरकरांचास्त्रीविषयकवि.js";
+import articleData_2003_05_01_संवादकीय_मे_२००३_2 from "./articles/2003_05_01_संवादकीय-मे-२००३-2.js";
+import articleData_2003_04_20_हार्डटाईम्स_पुस्तक_परिच from "./articles/2003_04_20_हार्डटाईम्स-पुस्तक-परिच.js";
+import articleData_2003_04_20_संवादकीय_एप्रिल_२००३ from "./articles/2003_04_20_संवादकीय-एप्रिल-२००३.js";
+import articleData_2003_04_20_वैचारिकनिर्भयताआणिमानस from "./articles/2003_04_20_वैचारिकनिर्भयताआणिमानस.js";
+import articleData_2003_04_20_मूल्यशिक्षण_लेखांक_२ from "./articles/2003_04_20_मूल्यशिक्षण-लेखांक-२.js";
+import articleData_2003_04_20_प्रतिसाद_एप्रिल_२००३ from "./articles/2003_04_20_प्रतिसाद-एप्रिल-२००३.js";
+import articleData_2003_04_20_परीक्षा_तर_झाल्या_पुढे from "./articles/2003_04_20_परीक्षा-तर-झाल्या-पुढे.js";
+import articleData_2003_04_20_नकळतसारेघडले_दोन_पिढ् from "./articles/2003_04_20_नकळतसारेघडले-दोन-पिढ्.js";
+import articleData_2003_04_20_एप्रिल_२००३ from "./articles/2003_04_20_एप्रिल-२००३.js";
+import articleData_2003_04_20_आम्हीक्रिकेटवेडे from "./articles/2003_04_20_आम्हीक्रिकेटवेडे.js";
+import articleData_2003_04_01_संवादकीय_एप्रिल_२००३_2 from "./articles/2003_04_01_संवादकीय-एप्रिल-२००३-2.js";
+import articleData_2003_03_20_संवादकीय_मार्च_2003 from "./articles/2003_03_20_संवादकीय-मार्च-2003.js";
+import articleData_2003_03_20_राधाचं_घर from "./articles/2003_03_20_राधाचं-घर.js";
+import articleData_2003_03_20_मूल्यशिक्षण_लेखांक_१ from "./articles/2003_03_20_मूल्यशिक्षण-लेखांक-१.js";
+import articleData_2003_03_20_मार्च_२००३ from "./articles/2003_03_20_मार्च-२००३.js";
+import articleData_2003_03_20_बाल्य_करपू_नये_म्हणून from "./articles/2003_03_20_बाल्य-करपू-नये-म्हणून.js";
+import articleData_2003_03_20_प्रतिसाद_मार्च_२००३ from "./articles/2003_03_20_प्रतिसाद-मार्च-२००३.js";
+import articleData_2003_03_20_घर_देता_का_घर_लेखांक_13 from "./articles/2003_03_20_घर-देता-का-घर-लेखांक-13.js";
+import articleData_2003_03_20_अस्तित्व_2 from "./articles/2003_03_20_अस्तित्व-2.js";
+import articleData_2003_03_20_अनुवाद_करताना from "./articles/2003_03_20_अनुवाद-करताना.js";
+import articleData_2003_03_01_संवादकीय_मार्च_2003_2 from "./articles/2003_03_01_संवादकीय-मार्च-2003-2.js";
+import articleData_2003_02_20_संवादकीय_फेब्रुवारी_२०० from "./articles/2003_02_20_संवादकीय-फेब्रुवारी-२००.js";
+import articleData_2003_02_20_शोध_लेखांक_१२_रेणू_गावस् from "./articles/2003_02_20_शोध-लेखांक-१२-रेणू-गावस्.js";
+import articleData_2003_02_20_मुलांचीभाषाआणिशिक्षक_ल_2 from "./articles/2003_02_20_मुलांचीभाषाआणिशिक्षक-ल-2.js";
+import articleData_2003_02_20_बालचित्ररंग from "./articles/2003_02_20_बालचित्ररंग.js";
+import articleData_2003_02_20_फेब्रुवारी_२००३ from "./articles/2003_02_20_फेब्रुवारी-२००३.js";
+import articleData_2003_02_20_प्रतिसाद_फेब्रुवारी_२०० from "./articles/2003_02_20_प्रतिसाद-फेब्रुवारी-२००.js";
+import articleData_2003_02_20_तिरिछआणिइतरकथा_पुस्तकपर from "./articles/2003_02_20_तिरिछआणिइतरकथा-पुस्तकपर.js";
+import articleData_2003_02_20_जिंकणारीमूल्ये_धर्मनिरप from "./articles/2003_02_20_जिंकणारीमूल्ये-धर्मनिरप.js";
+import articleData_2003_02_20_उच्चशिक्षणातमूल्यशिक्ष from "./articles/2003_02_20_उच्चशिक्षणातमूल्यशिक्ष.js";
+import articleData_2003_02_01_संवादकीय_फेब्रुवारी_२००_3 from "./articles/2003_02_01_संवादकीय-फेब्रुवारी-२००-3.js";
+import articleData_2003_01_19_सारंसमजतं_तरीही_च्यान from "./articles/2003_01_19_सारंसमजतं-तरीही-च्यान.js";
+import articleData_2003_01_19_संवादाच्यावाटे from "./articles/2003_01_19_संवादाच्यावाटे.js";
+import articleData_2003_01_19_संवादकीय_जानेवारी_२००३ from "./articles/2003_01_19_संवादकीय-जानेवारी-२००३.js";
+import articleData_2003_01_19_मुलांचीभाषाआणिशिक्षक_ल from "./articles/2003_01_19_मुलांचीभाषाआणिशिक्षक-ल.js";
+import articleData_2003_01_19_प्रतिसाद_दिवाळीअंक२००२ from "./articles/2003_01_19_प्रतिसाद-दिवाळीअंक२००२.js";
+import articleData_2003_01_19_जानेवारी_२००३ from "./articles/2003_01_19_जानेवारी-२००३.js";
+import articleData_2003_01_19_चांगलेप्रश्नकसेविचाराव from "./articles/2003_01_19_चांगलेप्रश्नकसेविचाराव.js";
+import articleData_2003_01_19_चकमक_2 from "./articles/2003_01_19_चकमक-2.js";
+import articleData_2003_01_19_काहीचुन्यागिन्यामुलाखत from "./articles/2003_01_19_काहीचुन्यागिन्यामुलाखत.js";
+import articleData_2003_01_19_उत्तूरचीपालककार्यशाळा from "./articles/2003_01_19_उत्तूरचीपालककार्यशाळा.js";
+import articleData_2003_01_19_इथेकायआहेमुलांसाठी from "./articles/2003_01_19_इथेकायआहेमुलांसाठी.js";
+import articleData_2003_01_01_संवादकीय_जानेवारी_२००३_2 from "./articles/2003_01_01_संवादकीय-जानेवारी-२००३-2.js";
+import articleData_2003_01_01_उत्तूरची_पालक_कार्यशाळा from "./articles/2003_01_01_उत्तूरची-पालक-कार्यशाळा.js";
+import articleData_2002_11_29_सृजनची_रोहिणी_प्राचार from "./articles/2002_11_29_सृजनची-रोहिणी-प्राचार.js";
+import articleData_2002_11_29_सारं_समजतं_तरीही from "./articles/2002_11_29_सारं-समजतं-तरीही.js";
+import articleData_2002_11_29_संभाषणाची_पूर्वतयारी_लेख from "./articles/2002_11_29_संभाषणाची-पूर्वतयारी-लेख.js";
+import articleData_2002_11_29_मुलांची_भाषा_आणि_शिक्षक_ल_6 from "./articles/2002_11_29_मुलांची-भाषा-आणि-शिक्षक-ल-6.js";
+import articleData_2002_11_29_पाठ्यक्रम_काही_पैलू_लेखक from "./articles/2002_11_29_पाठ्यक्रम-काही-पैलू-लेखक.js";
+import articleData_2002_11_29_नोव्हेंबर_डिसेंबर_२००२ from "./articles/2002_11_29_नोव्हेंबर-डिसेंबर-२००२.js";
+import articleData_2002_11_01_संवादकीय_नोव्हेंबर_डिसे from "./articles/2002_11_01_संवादकीय-नोव्हेंबर-डिसे.js";
+import articleData_2002_09_29_स्त्री_शिक्षणासाठीचा_एक from "./articles/2002_09_29_स्त्री-शिक्षणासाठीचा-एक.js";
+import articleData_2002_09_29_सप्टेंबर_२००२ from "./articles/2002_09_29_सप्टेंबर-२००२.js";
+import articleData_2002_09_29_मुलांची_भाषा_आणि_शिक्षक_3 from "./articles/2002_09_29_मुलांची-भाषा-आणि-शिक्षक-3.js";
+import articleData_2002_09_29_प्राथमिक_शाळेतील_वर्ग_अस from "./articles/2002_09_29_प्राथमिक-शाळेतील-वर्ग-अस.js";
+import articleData_2002_09_29_चकमक_सप्टेंबर_२००२_विदुल from "./articles/2002_09_29_चकमक-सप्टेंबर-२००२-विदुल.js";
+import articleData_2002_09_29_कुठं_चुकलं from "./articles/2002_09_29_कुठं-चुकलं.js";
+import articleData_2002_09_29_अनारकोचं_स्वप्न from "./articles/2002_09_29_अनारकोचं-स्वप्न.js";
+import articleData_2002_09_01_संवादकीय_सप्टेंबर_२००२ from "./articles/2002_09_01_संवादकीय-सप्टेंबर-२००२.js";
+import articleData_2002_08_27_मुलांची_भाषा_आणि_शिक्षक_2 from "./articles/2002_08_27_मुलांची-भाषा-आणि-शिक्षक-2.js";
+import articleData_2002_08_27_प्रज्ञांचे_सप्तक from "./articles/2002_08_27_प्रज्ञांचे-सप्तक.js";
+import articleData_2002_08_27_पुस्तकाबाहेरचं_शिकणं_मं from "./articles/2002_08_27_पुस्तकाबाहेरचं-शिकणं-मं.js";
+import articleData_2002_08_27_पाहिजे_एक_आदर्श_आई from "./articles/2002_08_27_पाहिजे-एक-आदर्श-आई.js";
+import articleData_2002_08_27_नकार from "./articles/2002_08_27_नकार.js";
+import articleData_2002_08_27_चोर_चोर from "./articles/2002_08_27_चोर-चोर.js";
+import articleData_2002_08_27_ऑगस्ट_२००२ from "./articles/2002_08_27_ऑगस्ट-२००२.js";
+import articleData_2002_08_01_संवादकीय_ऑगस्ट_२००२ from "./articles/2002_08_01_संवादकीय-ऑगस्ट-२००२.js";
+import articleData_2002_08_01_प्रतिसाद_ऑगस्ट_२००२ from "./articles/2002_08_01_प्रतिसाद-ऑगस्ट-२००२.js";
+import articleData_2002_07_27_हे_विश्‍वाचे_आंगण_आम्हा from "./articles/2002_07_27_हे-विश्‍वाचे-आंगण-आम्हा.js";
+import articleData_2002_07_27_शिक्षणाचे_माध्यम_साहित् from "./articles/2002_07_27_शिक्षणाचे-माध्यम-साहित्.js";
+import articleData_2002_07_27_शिक्षणाची_माध्यमे_आणि_भा from "./articles/2002_07_27_शिक्षणाची-माध्यमे-आणि-भा.js";
+import articleData_2002_07_27_शिक्षणाची_तरतूद_आणि_माध् from "./articles/2002_07_27_शिक्षणाची-तरतूद-आणि-माध्.js";
+import articleData_2002_07_27_शिक्षणाचा_आशय_काव्यकला from "./articles/2002_07_27_शिक्षणाचा-आशय-काव्यकला.js";
+import articleData_2002_07_27_शिक्षण_म्हणजे_काय_कसे_आणि from "./articles/2002_07_27_शिक्षण-म्हणजे-काय-कसे-आणि.js";
+import articleData_2002_07_27_शालेय_शिक्षण_आणि_इंग्रजी from "./articles/2002_07_27_शालेय-शिक्षण-आणि-इंग्रजी.js";
+import articleData_2002_07_27_वैखरी from "./articles/2002_07_27_वैखरी.js";
+import articleData_2002_07_27_वैखरी_2 from "./articles/2002_07_27_वैखरी-2.js";
+import articleData_2002_07_27_लोकशिक्षण_कसे_आणि_कुणासा from "./articles/2002_07_27_लोकशिक्षण-कसे-आणि-कुणासा.js";
+import articleData_2002_07_27_लहान_मुलांसारखे_बोलायला from "./articles/2002_07_27_लहान-मुलांसारखे-बोलायला.js";
+import articleData_2002_07_27_भाषेशी_खेळणे from "./articles/2002_07_27_भाषेशी-खेळणे.js";
+import articleData_2002_07_27_भाषेबरोबर_शिकायची_कलावती from "./articles/2002_07_27_भाषेबरोबर-शिकायची-कलावती.js";
+import articleData_2002_07_27_भाषेचे_प्रेम_आणि_भाषेचा_द from "./articles/2002_07_27_भाषेचे-प्रेम-आणि-भाषेचा-द.js";
+import articleData_2002_07_27_भाषिक_समता_बंधुता_आणि_स्व from "./articles/2002_07_27_भाषिक-समता-बंधुता-आणि-स्व.js";
+import articleData_2002_07_27_भाषा_शिक्षण from "./articles/2002_07_27_भाषा-शिक्षण.js";
+import articleData_2002_07_27_भाषा_शिक्षण_2 from "./articles/2002_07_27_भाषा-शिक्षण-2.js";
+import articleData_2002_07_27_भाषा_वैज्ञानिक_पद्मश्री from "./articles/2002_07_27_भाषा-वैज्ञानिक-पद्मश्री.js";
+import articleData_2002_07_27_भाषा_आणि_शिक्षण from "./articles/2002_07_27_भाषा-आणि-शिक्षण.js";
+import articleData_2002_07_27_भाषा_आणि_जीवन from "./articles/2002_07_27_भाषा-आणि-जीवन.js";
+import articleData_2002_07_27_बहुमानार्थी_बहुवचन from "./articles/2002_07_27_बहुमानार्थी-बहुवचन.js";
+import articleData_2002_07_27_पाहुणे_आले_आणि_घरचे_झाले from "./articles/2002_07_27_पाहुणे-आले-आणि-घरचे-झाले.js";
+import articleData_2002_07_27_दुसरा_डोळा_केव्हा_उघडणार from "./articles/2002_07_27_दुसरा-डोळा-केव्हा-उघडणार.js";
+import articleData_2002_07_27_जुलै_२००२ from "./articles/2002_07_27_जुलै-२००२.js";
+import articleData_2002_07_27_काळाची_एक_शैक्षणिक_गरज from "./articles/2002_07_27_काळाची-एक-शैक्षणिक-गरज.js";
+import articleData_2002_07_27_इंग्लिश_व_मराठी_भाषांचे_श from "./articles/2002_07_27_इंग्लिश-व-मराठी-भाषांचे-श.js";
+import articleData_2002_07_27_इंग्लिश_भाषेचे_भारतीय_जी from "./articles/2002_07_27_इंग्लिश-भाषेचे-भारतीय-जी.js";
+import articleData_2002_07_01_संवादकीय_जुलै_२००२ from "./articles/2002_07_01_संवादकीय-जुलै-२००२.js";
+import articleData_2002_07_01_प्रास्ताविक_जुलै_२००२ from "./articles/2002_07_01_प्रास्ताविक-जुलै-२००२.js";
+import articleData_2002_06_27_वर्गाच्या_आत_जग_लेखक_इलेन from "./articles/2002_06_27_वर्गाच्या-आत-जग-लेखक-इलेन.js";
+import articleData_2002_06_27_मुलांची_भाषा_आणि_शिक्षक_ल_5 from "./articles/2002_06_27_मुलांची-भाषा-आणि-शिक्षक-ल-5.js";
+import articleData_2002_06_27_पालकनीती_परिवारचा_सामाजि from "./articles/2002_06_27_पालकनीती-परिवारचा-सामाजि.js";
+import articleData_2002_06_27_जून_२००२ from "./articles/2002_06_27_जून-२००२.js";
+import articleData_2002_06_27_आमचं_शिबिर_रेणू_गावस्कर_ल from "./articles/2002_06_27_आमचं-शिबिर-रेणू-गावस्कर-ल.js";
+import articleData_2002_06_01_संवादकीय_जून_२००२ from "./articles/2002_06_01_संवादकीय-जून-२००२.js";
+import articleData_2002_06_01_प्रतिसाद_जून_२००२ from "./articles/2002_06_01_प्रतिसाद-जून-२००२.js";
+import articleData_2002_05_27_मैं_रोता_हूँ_लेखांक_6_रेणू from "./articles/2002_05_27_मैं-रोता-हूँ-लेखांक-6-रेणू.js";
+import articleData_2002_05_27_मे_२००२ from "./articles/2002_05_27_मे-२००२.js";
+import articleData_2002_05_27_मुलांची_भाषा_आणि_शिक्षक_ल_4 from "./articles/2002_05_27_मुलांची-भाषा-आणि-शिक्षक-ल-4.js";
+import articleData_2002_05_27_बालशाळांतला_दहशतवाद_रमे from "./articles/2002_05_27_बालशाळांतला-दहशतवाद-रमे.js";
+import articleData_2002_05_27_चाईल्ड_ऑव्ह_अ_लेसर_गॉड_लेख from "./articles/2002_05_27_चाईल्ड-ऑव्ह-अ-लेसर-गॉड-लेख.js";
+import articleData_2002_05_27_आम्ही_आणि_ते_नव्हे_आपण_विद from "./articles/2002_05_27_आम्ही-आणि-ते-नव्हे-आपण-विद.js";
+import articleData_2002_05_27_आमची_मुलं_आम्ही_आणि_शाळा_ह from "./articles/2002_05_27_आमची-मुलं-आम्ही-आणि-शाळा-ह.js";
+import articleData_2002_05_01_संवादकीय_मे_२००२ from "./articles/2002_05_01_संवादकीय-मे-२००२.js";
+import articleData_2002_05_01_प्रतिसाद_मे_२००२ from "./articles/2002_05_01_प्रतिसाद-मे-२००२.js";
+import articleData_2002_04_25_मेरा_सुंदर_सपना_टूट_गया_रे from "./articles/2002_04_25_मेरा-सुंदर-सपना-टूट-गया-रे.js";
+import articleData_2002_04_25_मेरा_सुंदर_सपना_टूट_गया_रे_2 from "./articles/2002_04_25_मेरा-सुंदर-सपना-टूट-गया-रे-2.js";
+import articleData_2002_04_25_मुलांची_भाषा_आणि_शिक्षक_ल_3 from "./articles/2002_04_25_मुलांची-भाषा-आणि-शिक्षक-ल-3.js";
+import articleData_2002_04_25_एप्रिल_२००२ from "./articles/2002_04_25_एप्रिल-२००२.js";
+import articleData_2002_04_25_एकलव्यचा_होविशिका from "./articles/2002_04_25_एकलव्यचा-होविशिका.js";
+import articleData_2002_04_25_अग्निदिव्य_वंदना_पलसाने_2 from "./articles/2002_04_25_अग्निदिव्य-वंदना-पलसाने-2.js";
+import articleData_2002_04_01_संवादकीय_एप्रिल_२००२ from "./articles/2002_04_01_संवादकीय-एप्रिल-२००२.js";
+import articleData_2002_04_01_प्रतिसाद_एप्रिल_२००२ from "./articles/2002_04_01_प्रतिसाद-एप्रिल-२००२.js";
+import articleData_2002_03_25_सोयीस्कर_मतैक्य_लेखक_अनि from "./articles/2002_03_25_सोयीस्कर-मतैक्य-लेखक-अनि.js";
+import articleData_2002_03_25_याला_शिक्षण_ऐसे_नाव_लेखां from "./articles/2002_03_25_याला-शिक्षण-ऐसे-नाव-लेखां.js";
+import articleData_2002_03_25_मुलांची_भाषा_आणि_शिक्षक_ल_2 from "./articles/2002_03_25_मुलांची-भाषा-आणि-शिक्षक-ल-2.js";
+import articleData_2002_03_25_मार्च_२००२ from "./articles/2002_03_25_मार्च-२००२.js";
+import articleData_2002_03_25_मायेचे_हात from "./articles/2002_03_25_मायेचे-हात.js";
+import articleData_2002_03_25_अग्निदिव्य_वंदना_पलसाने from "./articles/2002_03_25_अग्निदिव्य-वंदना-पलसाने.js";
+import articleData_2002_03_01_संवादकीय_मार्च_२००२ from "./articles/2002_03_01_संवादकीय-मार्च-२००२.js";
+import articleData_2002_03_01_प्रतिसाद_मार्च_२००२ from "./articles/2002_03_01_प्रतिसाद-मार्च-२००२.js";
+import articleData_2002_02_25_सक्तीचे_प्राथमिक_शिक्षण from "./articles/2002_02_25_सक्तीचे-प्राथमिक-शिक्षण.js";
+import articleData_2002_02_25_वंचितांच्या_विकासाची_जाण from "./articles/2002_02_25_वंचितांच्या-विकासाची-जाण.js";
+import articleData_2002_02_25_मुलांची_भाषा_आणि_शिक्षक_ल from "./articles/2002_02_25_मुलांची-भाषा-आणि-शिक्षक-ल.js";
+import articleData_2002_02_25_फेब्रुवारी_२००२ from "./articles/2002_02_25_फेब्रुवारी-२००२.js";
+import articleData_2002_02_25_आत्मविश्‍वास_सुलभा_करंब from "./articles/2002_02_25_आत्मविश्‍वास-सुलभा-करंब.js";
+import articleData_2002_02_25_अन्याय_लेखांक_३_रेणू_गावस from "./articles/2002_02_25_अन्याय-लेखांक-३-रेणू-गावस.js";
+import articleData_2002_02_01_संवादकीय_फेब्रुवारी_२००_2 from "./articles/2002_02_01_संवादकीय-फेब्रुवारी-२००-2.js";
+import articleData_2002_01_25_बाळ_वाढताना from "./articles/2002_01_25_बाळ-वाढताना.js";
+import articleData_2002_01_25_पालकांशी_भेटीगाठी_तुलतु from "./articles/2002_01_25_पालकांशी-भेटीगाठी-तुलतु.js";
+import articleData_2002_01_25_जानेवारी_२००२ from "./articles/2002_01_25_जानेवारी-२००२.js";
+import articleData_2002_01_25_चकमक_जानेवारी_२००२ from "./articles/2002_01_25_चकमक-जानेवारी-२००२.js";
+import articleData_2002_01_25_आनंदाचे_डोही_रेणू_गावस्क from "./articles/2002_01_25_आनंदाचे-डोही-रेणू-गावस्क.js";
+import articleData_2002_01_01_संवादकीय_जानेवारी_२००२ from "./articles/2002_01_01_संवादकीय-जानेवारी-२००२.js";
+import articleData_2002_01_01_प्रतिसाद_जानेवारी_२००२ from "./articles/2002_01_01_प्रतिसाद-जानेवारी-२००२.js";
+import articleData_2000_12_16_स्त्री_शिक्षणाचा_प्रारंभ from "./articles/2000_12_16_स्त्री-शिक्षणाचा-प्रारंभ.js";
+import articleData_2000_08_16_शालेय_शिक्षण_कसं_असावं from "./articles/2000_08_16_शालेय-शिक्षण-कसं-असावं.js";
+import articleData_2000_08_16_मुलं_आणि_स्वातंत्र्य from "./articles/2000_08_16_मुलं-आणि-स्वातंत्र्य.js";
+import articleData_2000_08_16_जेन्टल_टीचिंग from "./articles/2000_08_16_जेन्टल-टीचिंग.js";
+import articleData_2000_08_16_ऑगस्ट_2000 from "./articles/2000_08_16_ऑगस्ट-2000.js";
+import articleData_2000_08_16_एक_होती_शिल्पा from "./articles/2000_08_16_एक-होती-शिल्पा.js";
+import articleData_2000_08_16_आमचं_अभिनव_शिबीर from "./articles/2000_08_16_आमचं-अभिनव-शिबीर.js";
+import articleData_2000_06_16_स्वतः_सुधारा_अन् from "./articles/2000_06_16_स्वतः-सुधारा-अन्.js";
+import articleData_2000_06_16_सर्वात_आधी_शिक्षण from "./articles/2000_06_16_सर्वात-आधी-शिक्षण.js";
+import articleData_2000_06_16_विज्ञान_शिक्षणासाठी_कार् from "./articles/2000_06_16_विज्ञान-शिक्षणासाठी-कार्.js";
+import articleData_2000_06_16_वाचन_कौशल्य_तंत्र_आणि_मंत from "./articles/2000_06_16_वाचन-कौशल्य-तंत्र-आणि-मंत.js";
+import articleData_2000_06_16_वंचितांचं_शिक्षण from "./articles/2000_06_16_वंचितांचं-शिक्षण.js";
+import articleData_2000_06_16_दहावी_आणि_शिक्षण from "./articles/2000_06_16_दहावी-आणि-शिक्षण.js";
+import articleData_2000_06_16_जून_2000 from "./articles/2000_06_16_जून-2000.js";
+import articleData_2000_06_16_एक_होता_झरीन from "./articles/2000_06_16_एक-होता-झरीन.js";
+import articleData_2000_04_16_लोकशाहीचे_शिक्षण from "./articles/2000_04_16_लोकशाहीचे-शिक्षण.js";
+import articleData_2000_04_16_जाणता_अजाणता from "./articles/2000_04_16_जाणता-अजाणता.js";
+import articleData_2000_04_16_ओळख_त्यांच्या_जगाची from "./articles/2000_04_16_ओळख-त्यांच्या-जगाची.js";
+import articleData_2000_04_16_एप्रिल_2000 from "./articles/2000_04_16_एप्रिल-2000.js";
+import articleData_2000_04_16_आधुनिक_शिक्षणाचा_प्रारंभ from "./articles/2000_04_16_आधुनिक-शिक्षणाचा-प्रारंभ.js";
+import articleData_2000_04_16_आधुनिक_शिक्षणाचा_प्रारं_2 from "./articles/2000_04_16_आधुनिक-शिक्षणाचा-प्रारं-2.js";
+import articleData_2000_02_16_संवादकीय_फेब्रुवारी_१९ from "./articles/2000_02_16_संवादकीय-फेब्रुवारी-१९.js";
+import articleData_2000_02_16_मुस्लीम_शिक्षण_पद्धती_1 from "./articles/2000_02_16_मुस्लीम-शिक्षण-पद्धती-1.js";
+import articleData_2000_02_16_फेब्रुवारी_2000 from "./articles/2000_02_16_फेब्रुवारी-2000.js";
+import articleData_2000_02_16_पहिलीपासून_इंग्रजी_आणि_इ from "./articles/2000_02_16_पहिलीपासून-इंग्रजी-आणि-इ.js";
+import articleData_2000_02_16_धर्मसंकट from "./articles/2000_02_16_धर्मसंकट.js";
+import articleData_2000_02_16_धर्मसंकट_2 from "./articles/2000_02_16_धर्मसंकट-2.js";
+import articleData_2000_02_16_कायापालटच्या_निमित्ता from "./articles/2000_02_16_कायापालटच्या-निमित्ता.js";
+import articleData_2000_01_16_जानेवारी_२००० from "./articles/2000_01_16_जानेवारी-२०००.js";
+import articleData_2000_01_15_संवादकीय_जानेवारी_२००० from "./articles/2000_01_15_संवादकीय-जानेवारी-२०००.js";
+import articleData_2000_01_15_मला_असे_वाटतं from "./articles/2000_01_15_मला-असे-वाटतं.js";
+import articleData_2000_01_15_बौद्ध_शिक्षणपद्धती from "./articles/2000_01_15_बौद्ध-शिक्षणपद्धती.js";
+import articleData_2000_01_15_दुष्काळात_तेरावा_महिना from "./articles/2000_01_15_दुष्काळात-तेरावा-महिना.js";
+import articleData_2000_01_15_तीस_आणि_तीन_मुलांचे_आई_वडी from "./articles/2000_01_15_तीस-आणि-तीन-मुलांचे-आई-वडी.js";
+import articleData_2000_01_15_इंग्रजी_कोणत्या_वयापासून from "./articles/2000_01_15_इंग्रजी-कोणत्या-वयापासून.js";
+import articleData_1999_12_14_स्वभाषा_आणि_इतर_भाषा_डॉ_नी from "./articles/1999_12_14_स्वभाषा-आणि-इतर-भाषा-डॉ-नी.js";
+import articleData_1999_12_14_संवादकीय_डिसेंबर_१९९९ from "./articles/1999_12_14_संवादकीय-डिसेंबर-१९९९.js";
+import articleData_1999_12_14_वैदिक_शिक्षण_पद्धती_अरवि from "./articles/1999_12_14_वैदिक-शिक्षण-पद्धती-अरवि.js";
+import articleData_1999_12_14_बालपण_सरताना_2 from "./articles/1999_12_14_बालपण-सरताना-2.js";
+import articleData_1999_12_14_प्रयोग from "./articles/1999_12_14_प्रयोग.js";
+import articleData_1999_12_14_पुस्तक_परिचय_नापास_पुढे_क from "./articles/1999_12_14_पुस्तक-परिचय-नापास-पुढे-क.js";
+import articleData_1999_12_14_डिसेंबर_१९९९ from "./articles/1999_12_14_डिसेंबर-१९९९.js";
+import articleData_1999_12_14_आमची_दहावी from "./articles/1999_12_14_आमची-दहावी.js";
+import articleData_1999_09_14_संवादकीय_सप्टेम्बर_१९९ from "./articles/1999_09_14_संवादकीय-सप्टेम्बर-१९९.js";
+import articleData_1999_09_14_सप्टेम्बर_१९९९ from "./articles/1999_09_14_सप्टेम्बर-१९९९.js";
+import articleData_1999_09_14_वाट_शिकण्याची from "./articles/1999_09_14_वाट-शिकण्याची.js";
+import articleData_1999_09_14_बोली_आणि_प्रमाणभाषा from "./articles/1999_09_14_बोली-आणि-प्रमाणभाषा.js";
+import articleData_1999_09_14_बालपण_सरताना from "./articles/1999_09_14_बालपण-सरताना.js";
+import articleData_1999_09_14_जॉन_ड्यूई from "./articles/1999_09_14_जॉन-ड्यूई.js";
+import articleData_1999_09_14_कला_एक_शांतीदूत from "./articles/1999_09_14_कला-एक-शांतीदूत.js";
+import articleData_1999_09_14_आर्यपूर्वकालीन_भारतीय_शि from "./articles/1999_09_14_आर्यपूर्वकालीन-भारतीय-शि.js";
+import articleData_1999_08_14_सांगणं_आणि_विचारणं from "./articles/1999_08_14_सांगणं-आणि-विचारणं.js";
+import articleData_1999_08_14_संवादकीय_ऑगस्ट_१९९९ from "./articles/1999_08_14_संवादकीय-ऑगस्ट-१९९९.js";
+import articleData_1999_08_14_मुलांच्या_हक्कांच्या_जाह from "./articles/1999_08_14_मुलांच्या-हक्कांच्या-जाह.js";
+import articleData_1999_08_14_भाषा_आणि_विकास from "./articles/1999_08_14_भाषा-आणि-विकास.js";
+import articleData_1999_08_14_बालपण_सरतांना from "./articles/1999_08_14_बालपण-सरतांना.js";
+import articleData_1999_08_14_बाल_निरीक्षणगृहाचे_मार्ग from "./articles/1999_08_14_बाल-निरीक्षणगृहाचे-मार्ग.js";
+import articleData_1999_08_14_कारागृहबंदींच्या_मुलांच from "./articles/1999_08_14_कारागृहबंदींच्या-मुलांच.js";
+import articleData_1999_08_14_ऑगस्ट_१९९९ from "./articles/1999_08_14_ऑगस्ट-१९९९.js";
+import articleData_1999_07_13_संवादकीय_जुलै_१९९९ from "./articles/1999_07_13_संवादकीय-जुलै-१९९९.js";
+import articleData_1999_07_13_मला_वाटतं_2 from "./articles/1999_07_13_मला-वाटतं-2.js";
+import articleData_1999_07_13_जुलै_१९९९ from "./articles/1999_07_13_जुलै-१९९९.js";
+import articleData_1999_07_13_एका_डोळस_दिवसाची_गोष्ट_नी from "./articles/1999_07_13_एका-डोळस-दिवसाची-गोष्ट-नी.js";
+import articleData_1999_07_13_अंधांचे_शिक्षण from "./articles/1999_07_13_अंधांचे-शिक्षण.js";
+import articleData_1999_07_13_अंधमित्र from "./articles/1999_07_13_अंधमित्र.js";
+import articleData_1999_07_13_अंध_सहयोग from "./articles/1999_07_13_अंध-सहयोग.js";
+import articleData_1999_07_13_अंध_मित्रांमधील_अंतर्ज् from "./articles/1999_07_13_अंध-मित्रांमधील-अंतर्ज्.js";
+import articleData_1999_07_13_अंध_किती_आणि_का from "./articles/1999_07_13_अंध-किती-आणि-का.js";
+import articleData_1999_06_13_सुसंवाद_साधना_खटी from "./articles/1999_06_13_सुसंवाद-साधना-खटी.js";
+import articleData_1999_06_13_संवादकीय_जून_१९९९ from "./articles/1999_06_13_संवादकीय-जून-१९९९.js";
+import articleData_1999_06_13_माझा_प्रश्न_अनुराधा from "./articles/1999_06_13_माझा-प्रश्न-अनुराधा.js";
+import articleData_1999_06_13_निर्मळ_जगण्यासाठी_सुजात from "./articles/1999_06_13_निर्मळ-जगण्यासाठी-सुजात.js";
+import articleData_1999_06_13_तारुण्यभान_संजीवनी_कुलक from "./articles/1999_06_13_तारुण्यभान-संजीवनी-कुलक.js";
+import articleData_1999_06_13_जून_१९९९ from "./articles/1999_06_13_जून-१९९९.js";
+import articleData_1999_06_13_कम्युनिस्ट_शिक्षण_पद्धती from "./articles/1999_06_13_कम्युनिस्ट-शिक्षण-पद्धती.js";
+import articleData_1999_05_13_मी_मुलीचा_मामा from "./articles/1999_05_13_मी-मुलीचा-मामा.js";
+import articleData_1999_05_13_एकातून_वेगळं_एक from "./articles/1999_05_13_एकातून-वेगळं-एक.js";
+import articleData_1999_05_13_आपण_ह्यांना_विसरलात_का from "./articles/1999_05_13_आपण-ह्यांना-विसरलात-का.js";
+import articleData_1999_05_13_आगळं_वेगळं_वाचनालय from "./articles/1999_05_13_आगळं-वेगळं-वाचनालय.js";
+import articleData_1999_05_12_संवादकीय_मे_1999 from "./articles/1999_05_12_संवादकीय-मे-1999.js";
+import articleData_1999_05_12_समारोप from "./articles/1999_05_12_समारोप.js";
+import articleData_1999_05_12_मे_1999 from "./articles/1999_05_12_मे-1999.js";
+import articleData_1999_05_12_तीही_मुलंच_आपणही_मुलंच from "./articles/1999_05_12_तीही-मुलंच-आपणही-मुलंच.js";
+import articleData_1999_05_12_इतिहास_शिक्षणाचा_युरोपम from "./articles/1999_05_12_इतिहास-शिक्षणाचा-युरोपम.js";
+import articleData_1999_04_12_संवादकीय_एप्रिल_१९९९ from "./articles/1999_04_12_संवादकीय-एप्रिल-१९९९.js";
+import articleData_1999_04_12_रिनेसान्स_आणि_शिक्षणातील from "./articles/1999_04_12_रिनेसान्स-आणि-शिक्षणातील.js";
+import articleData_1999_04_12_मानवी_हक्कांचा_शिक्षणात from "./articles/1999_04_12_मानवी-हक्कांचा-शिक्षणात.js";
+import articleData_1999_04_12_माझे_व्रत_माझे_कर्तव्य_एक from "./articles/1999_04_12_माझे-व्रत-माझे-कर्तव्य-एक.js";
+import articleData_1999_04_12_प्रोब_भारतातील_पायाभू from "./articles/1999_04_12_प्रोब-भारतातील-पायाभू.js";
+import articleData_1999_04_12_एप्रिल_१९९९ from "./articles/1999_04_12_एप्रिल-१९९९.js";
+import articleData_1999_04_12_21277_2 from "./articles/1999_04_12_21277-2.js";
+import articleData_1999_03_12_सांगोवांगीच्या_सत्यकथा_6 from "./articles/1999_03_12_सांगोवांगीच्या-सत्यकथा-6.js";
+import articleData_1999_03_12_मला_हवे_ते_दे_ना_विनया_साठे from "./articles/1999_03_12_मला-हवे-ते-दे-ना-विनया-साठे.js";
+import articleData_1999_03_12_जाणता_अजाणता_वंदना_कुलकर from "./articles/1999_03_12_जाणता-अजाणता-वंदना-कुलकर.js";
+import articleData_1999_03_12_कठीण_समय_येता from "./articles/1999_03_12_कठीण-समय-येता.js";
+import articleData_1999_03_12_असं_सगळं_भयंकर_आहे_तर_आपण_क from "./articles/1999_03_12_असं-सगळं-भयंकर-आहे-तर-आपण-क.js";
+import articleData_1999_03_11_संवादकीय_मार्च_१९९९ from "./articles/1999_03_11_संवादकीय-मार्च-१९९९.js";
+import articleData_1999_03_11_युरोपातील_मध्ययुग_आणि_यु from "./articles/1999_03_11_युरोपातील-मध्ययुग-आणि-यु.js";
+import articleData_1999_03_11_मार्च_१९९९ from "./articles/1999_03_11_मार्च-१९९९.js";
+import articleData_1999_02_11_स्वकार_आणि_स्वीकार from "./articles/1999_02_11_स्वकार-आणि-स्वीकार.js";
+import articleData_1999_02_11_सुजाण_पालकत्वाच्या_दिशेन from "./articles/1999_02_11_सुजाण-पालकत्वाच्या-दिशेन.js";
+import articleData_1999_02_11_सांगोवांगीच्या_सत्यकथा_5 from "./articles/1999_02_11_सांगोवांगीच्या-सत्यकथा-5.js";
+import articleData_1999_02_11_दत्तक_पालकत्व_सनाथ_करण from "./articles/1999_02_11_दत्तक-पालकत्व-सनाथ-करण.js";
+import articleData_1999_02_11_जाणता_अजाणता_श्रुती_तांब from "./articles/1999_02_11_जाणता-अजाणता-श्रुती-तांब.js";
+import articleData_1999_02_10_संवादकीय_फेब्रुवारी_१९९ from "./articles/1999_02_10_संवादकीय-फेब्रुवारी-१९९.js";
+import articleData_1999_02_10_श्री_सामाजिक_पालकत्व_कृत from "./articles/1999_02_10_श्री-सामाजिक-पालकत्व-कृत.js";
+import articleData_1999_02_10_फेब्रुवारी_१९९९ from "./articles/1999_02_10_फेब्रुवारी-१९९९.js";
+import articleData_1999_01_10_सांगोवांगीच्या_सत्यकथा_4 from "./articles/1999_01_10_सांगोवांगीच्या-सत्यकथा-4.js";
+import articleData_1999_01_10_संवादकीय_जानेवारी_१९९९ from "./articles/1999_01_10_संवादकीय-जानेवारी-१९९९.js";
+import articleData_1999_01_10_श्रीमती_इंदुताई_पाटणकर_आ from "./articles/1999_01_10_श्रीमती-इंदुताई-पाटणकर-आ.js";
+import articleData_1999_01_10_लेखांक_8_आमिषांचा_मुका_आणि from "./articles/1999_01_10_लेखांक-8-आमिषांचा-मुका-आणि.js";
+import articleData_1999_01_10_लेखांक_6_इतिहास_शिक्षणाचा from "./articles/1999_01_10_लेखांक-6-इतिहास-शिक्षणाचा.js";
+import articleData_1999_01_10_बापांची_मुले_आणि_मुलांचे from "./articles/1999_01_10_बापांची-मुले-आणि-मुलांचे.js";
+import articleData_1999_01_10_दोस्ती_झिंदाबाद from "./articles/1999_01_10_दोस्ती-झिंदाबाद.js";
+import articleData_1999_01_10_जानेवारी_१९९९ from "./articles/1999_01_10_जानेवारी-१९९९.js";
+import articleData_1999_01_10_चाळीसगावची_मदर_तेरेजा from "./articles/1999_01_10_चाळीसगावची-मदर-तेरेजा.js";
+import articleData_1999_01_10_आपणही_गणपती_बसवायचा from "./articles/1999_01_10_आपणही-गणपती-बसवायचा.js";
+import articleData_1998_12_09_सांगोवांगीच्या_सत्यकथा_2 from "./articles/1998_12_09_सांगोवांगीच्या-सत्यकथा-2.js";
+import articleData_1998_12_09_संपादकीय_डिसेंबर_१९९८ from "./articles/1998_12_09_संपादकीय-डिसेंबर-१९९८.js";
+import articleData_1998_12_09_रोमन_शिक्षणपद्धती from "./articles/1998_12_09_रोमन-शिक्षणपद्धती.js";
+import articleData_1998_12_09_मानवतावादी_अर्थशास्त्रज from "./articles/1998_12_09_मानवतावादी-अर्थशास्त्रज.js";
+import articleData_1998_12_09_प्राथमिक_उर्दू_शाळांमधील from "./articles/1998_12_09_प्राथमिक-उर्दू-शाळांमधील.js";
+import articleData_1998_12_09_प्रतिसाद_डिसेंबर_१९९८ from "./articles/1998_12_09_प्रतिसाद-डिसेंबर-१९९८.js";
+import articleData_1998_12_09_पालकांना_पत्र_2 from "./articles/1998_12_09_पालकांना-पत्र-2.js";
+import articleData_1998_12_09_डिसेंबर_१९९८ from "./articles/1998_12_09_डिसेंबर-१९९८.js";
+import articleData_1998_12_09_आमिषांचा_मुका_आणि_शिक्षे_3 from "./articles/1998_12_09_आमिषांचा-मुका-आणि-शिक्षे-3.js";
+import articleData_1998_12_09_असुरक्षितता_पण_का from "./articles/1998_12_09_असुरक्षितता-पण-का.js";
+import articleData_1998_10_09_सांगोवांगीच्या_सत्यकथा from "./articles/1998_10_09_सांगोवांगीच्या-सत्यकथा.js";
+import articleData_1998_10_09_संपादकीय_ऑक्टोबर_१९९८ from "./articles/1998_10_09_संपादकीय-ऑक्टोबर-१९९८.js";
+import articleData_1998_10_09_प्राथमिक_शाळांची_पाठ्यपु from "./articles/1998_10_09_प्राथमिक-शाळांची-पाठ्यपु.js";
+import articleData_1998_10_09_पालकांना_पत्र_ऑक्टोबर_१९ from "./articles/1998_10_09_पालकांना-पत्र-ऑक्टोबर-१९.js";
+import articleData_1998_10_09_ग्रीक_शिक्षणाचा_विस्तार from "./articles/1998_10_09_ग्रीक-शिक्षणाचा-विस्तार.js";
+import articleData_1998_10_09_काशीचा_विणकर_एका_चरित्रा from "./articles/1998_10_09_काशीचा-विणकर-एका-चरित्रा.js";
+import articleData_1998_10_09_ऑक्टोबर_१९९८ from "./articles/1998_10_09_ऑक्टोबर-१९९८.js";
+import articleData_1998_10_09_एक_अस्थिर_माध्यम_अनिल_झणक from "./articles/1998_10_09_एक-अस्थिर-माध्यम-अनिल-झणक.js";
+import articleData_1998_10_09_आमिषांचा_मुका_आणि_शिक्षे_2 from "./articles/1998_10_09_आमिषांचा-मुका-आणि-शिक्षे-2.js";
+import articleData_1998_08_10_सांगोवांगीच्या_सत्यकथा_3 from "./articles/1998_08_10_सांगोवांगीच्या-सत्यकथा-3.js";
+import articleData_1998_08_10_संवादकीय_ऑगस्ट_१९९८ from "./articles/1998_08_10_संवादकीय-ऑगस्ट-१९९८.js";
+import articleData_1998_08_10_मी_मुसलमान_कसा_झालो from "./articles/1998_08_10_मी-मुसलमान-कसा-झालो.js";
+import articleData_1998_08_10_प्रतिसाद_ऑगस्ट_१९९८ from "./articles/1998_08_10_प्रतिसाद-ऑगस्ट-१९९८.js";
+import articleData_1998_08_10_ग्रीक_अणि_त्यांची_शिक्षण from "./articles/1998_08_10_ग्रीक-अणि-त्यांची-शिक्षण.js";
+import articleData_1998_08_10_ऑगस्ट_१९९८ from "./articles/1998_08_10_ऑगस्ट-१९९८.js";
+import articleData_1998_08_10_उन्हाळी_सुटीतील_खेळघर_भा from "./articles/1998_08_10_उन्हाळी-सुटीतील-खेळघर-भा.js";
+import articleData_1998_07_09_संपादकीय_जुलै_१९९८ from "./articles/1998_07_09_संपादकीय-जुलै-१९९८.js";
+import articleData_1998_07_09_माध्यम_कोणते_असावे_मातृभ from "./articles/1998_07_09_माध्यम-कोणते-असावे-मातृभ.js";
+import articleData_1998_07_09_पालकांना_पत्र_जुलै_१९९८ from "./articles/1998_07_09_पालकांना-पत्र-जुलै-१९९८.js";
+import articleData_1998_07_09_पंतप्रधानांस_पत्र from "./articles/1998_07_09_पंतप्रधानांस-पत्र.js";
+import articleData_1998_07_09_दूरचित्रवाणी_एक_झपाट्या from "./articles/1998_07_09_दूरचित्रवाणी-एक-झपाट्या.js";
+import articleData_1998_07_09_जुलै_१९९८ from "./articles/1998_07_09_जुलै-१९९८.js";
+import articleData_1998_07_09_आमिषांचा_मुका_आणि_शिक्षे from "./articles/1998_07_09_आमिषांचा-मुका-आणि-शिक्षे.js";
+import articleData_1998_07_09_आत्मसंहारक_पोखरण_अणुबाँब from "./articles/1998_07_09_आत्मसंहारक-पोखरण-अणुबाँब.js";
+import articleData_1998_07_09_अणुस्फोटाचे_परिणाम from "./articles/1998_07_09_अणुस्फोटाचे-परिणाम.js";
 
 const ARTICLES = [
   {
@@ -58,10 +2031,4511 @@ const ARTICLES = [
   { "2025_09_15_आनंदशोध": articleData_2025_09_15_आनंदशोध },
   { "2025_09_15_आई-रडतेय": articleData_2025_09_15_आई_रडतेय },
   { "2025_09_03_शिकता-शिकवताना": articleData_2025_09_03_शिकता_शिकवताना },
+  { "2025_08_15_संवादकीय-10": articleData_2025_08_15_संवादकीय_10 },
+  {
+    "2025_08_15_शाळांमधली-भित्तिचित्रं":
+      articleData_2025_08_15_शाळांमधली_भित्तिचित्रं,
+  },
   { "2025_08_15_वॉल्डॉर्फ-जर्नी": articleData_2025_08_15_वॉल्डॉर्फ_जर्नी },
   { "2025_08_15_भिंत-बोलकी-झाली": articleData_2025_08_15_भिंत_बोलकी_झाली },
+  { "2025_08_15_बिनभिंतींची-शाळा": articleData_2025_08_15_बिनभिंतींची_शाळा },
+  { "2025_08_15_तमाशे-थयथयाट": articleData_2025_08_15_तमाशे_थयथयाट },
+  {
+    "2025_08_15_चित्राभोवतीचे-प्रश्न-4":
+      articleData_2025_08_15_चित्राभोवतीचे_प्रश्न_4,
+  },
   { "2025_08_15_ऑगस्ट-२०२५": articleData_2025_08_15_ऑगस्ट_२०२५ },
+  { "2025_08_15_एबीएल": articleData_2025_08_15_एबीएल },
   { "2025_08_15_27675-2": articleData_2025_08_15_27675_2 },
+  { "2025_07_15_संवादकीय-9": articleData_2025_07_15_संवादकीय_9 },
+  { "2025_07_15_मरण": articleData_2025_07_15_मरण },
+  { "2025_07_15_निनू": articleData_2025_07_15_निनू },
+  {
+    "2025_07_15_तू-नको-बाबा-पाहिजे": articleData_2025_07_15_तू_नको_बाबा_पाहिजे,
+  },
+  { "2025_07_15_जुलै-२०२५": articleData_2025_07_15_जुलै_२०२५ },
+  {
+    "2025_07_15_चित्राभोवतीचे-प्रश्न-3":
+      articleData_2025_07_15_चित्राभोवतीचे_प्रश्न_3,
+  },
+  {
+    "2025_07_15_कळावे-लोभ-असावा-ही-विनंती":
+      articleData_2025_07_15_कळावे_लोभ_असावा_ही_विनंती,
+  },
+  {
+    "2025_07_15_इतिहासाचे-अवजड-ओझे": articleData_2025_07_15_इतिहासाचे_अवजड_ओझे,
+  },
+  {
+    "2025_07_15_इतिहासाकडून-शिकताना":
+      articleData_2025_07_15_इतिहासाकडून_शिकताना,
+  },
+  { "2025_07_15_इतिहास-का-वाचायचा": articleData_2025_07_15_इतिहास_का_वाचायचा },
+  { "2025_06_24_बिग-हिस्ट्री": articleData_2025_06_24_बिग_हिस्ट्री },
+  { "2025_06_24_जून-२०२५": articleData_2025_06_24_जून_२०२५ },
+  {
+    "2025_06_24_आदरांजली-डॉ-जयंत-नारळीकर":
+      articleData_2025_06_24_आदरांजली_डॉ_जयंत_नारळीकर,
+  },
+  { "2025_06_15_स्क्रीन-टाइम": articleData_2025_06_15_स्क्रीन_टाइम },
+  { "2025_06_15_संवादकीय-जून-२०२५": articleData_2025_06_15_संवादकीय_जून_२०२५ },
+  {
+    "2025_06_15_चित्राभोवतीचे-प्रश्न-जू":
+      articleData_2025_06_15_चित्राभोवतीचे_प्रश्न_जू,
+  },
+  { "2025_06_15_चष्मा-बदलतो-आहे": articleData_2025_06_15_चष्मा_बदलतो_आहे },
+  {
+    "2025_06_15_इतिहास-आणि-पर्यावरण-शिक्":
+      articleData_2025_06_15_इतिहास_आणि_पर्यावरण_शिक्,
+  },
+  {
+    "2025_06_15_आमचा-दात-घासण्याचा-इतिहा":
+      articleData_2025_06_15_आमचा_दात_घासण्याचा_इतिहा,
+  },
+  {
+    "2025_05_24_एआय-म्हणजे-काय-रे-भाऊ":
+      articleData_2025_05_24_एआय_म्हणजे_काय_रे_भाऊ,
+  },
+  { "2025_05_15_संवादकीय-मे-२०२५": articleData_2025_05_15_संवादकीय_मे_२०२५ },
+  { "2025_05_15_मे-२०२५": articleData_2025_05_15_मे_२०२५ },
+  {
+    "2025_05_15_बदलत्या-जगातील-पालकत्वा":
+      articleData_2025_05_15_बदलत्या_जगातील_पालकत्वा,
+  },
+  {
+    "2025_05_15_नाही-येत-मला-मी-नाही-करणा":
+      articleData_2025_05_15_नाही_येत_मला_मी_नाही_करणा,
+  },
+  {
+    "2025_05_15_डोकं-असेल-तर-ते-वापरा":
+      articleData_2025_05_15_डोकं_असेल_तर_ते_वापरा,
+  },
+  {
+    "2025_05_15_चित्राभोवतीचे-प्रश्न-मे":
+      articleData_2025_05_15_चित्राभोवतीचे_प्रश्न_मे,
+  },
+  { "2025_05_15_काही-आशेचे-किरण": articleData_2025_05_15_काही_आशेचे_किरण },
+  { "2025_05_15_कला-ल्पनाशक्ती": articleData_2025_05_15_कला_ल्पनाशक्ती },
+  {
+    "2025_05_15_एआयला-सामोरे-जाताना":
+      articleData_2025_05_15_एआयला_सामोरे_जाताना,
+  },
+  {
+    "2025_05_15_इतिहासबोध-की-अपराधबोधॽ":
+      articleData_2025_05_15_इतिहासबोध_की_अपराधबोधॽ,
+  },
+  { "2025_05_15_आता-न-मागे-फिरणे": articleData_2025_05_15_आता_न_मागे_फिरणे },
+  {
+    "2025_04_17_संवादकीय-एप्रिल-२०२५":
+      articleData_2025_04_17_संवादकीय_एप्रिल_२०२५,
+  },
+  { "2025_04_17_लहानआहे-ना-ती": articleData_2025_04_17_लहानआहे_ना_ती },
+  {
+    "2025_04_17_फिरुनी-नवी-जन्मेन-मी":
+      articleData_2025_04_17_फिरुनी_नवी_जन्मेन_मी,
+  },
+  {
+    "2025_04_17_चित्राभोवतीचे-प्रश्न-2":
+      articleData_2025_04_17_चित्राभोवतीचे_प्रश्न_2,
+  },
+  { "2025_04_17_आणि-मी-मला-गवसले": articleData_2025_04_17_आणि_मी_मला_गवसले },
+  {
+    "2025_04_15_भीती-नव्हे-स्वीकृती":
+      articleData_2025_04_15_भीती_नव्हे_स्वीकृती,
+  },
+  {
+    "2025_04_15_पेरेंटिंग-फ्रॉम-द-इनसाईड":
+      articleData_2025_04_15_पेरेंटिंग_फ्रॉम_द_इनसाईड,
+  },
+  { "2025_04_15_ची-तोकू-ताई": articleData_2025_04_15_ची_तोकू_ताई },
+  { "2025_04_15_एप्रिल-२०२५": articleData_2025_04_15_एप्रिल_२०२५ },
+  {
+    "2025_03_15_संवादकीय-मार्च-२०२५":
+      articleData_2025_03_15_संवादकीय_मार्च_२०२५,
+  },
+  { "2025_03_15_वा-छान-शाब्बास": articleData_2025_03_15_वा_छान_शाब्बास },
+  { "2025_03_15_मार्च-२०२५": articleData_2025_03_15_मार्च_२०२५ },
+  { "2025_03_15_पूर्वा-आणि-मन्शा": articleData_2025_03_15_पूर्वा_आणि_मन्शा },
+  { "2025_03_15_पालकत्वाचा-पैस": articleData_2025_03_15_पालकत्वाचा_पैस },
+  {
+    "2025_03_15_चित्राभोवतीचे-प्रश्न":
+      articleData_2025_03_15_चित्राभोवतीचे_प्रश्न,
+  },
+  {
+    "2025_03_15_ओझं-खांद्यावरून-उतरताना":
+      articleData_2025_03_15_ओझं_खांद्यावरून_उतरताना,
+  },
+  {
+    "2025_03_15_आयुष्य-म्हणजे-स्वतःचा-शो":
+      articleData_2025_03_15_आयुष्य_म्हणजे_स्वतःचा_शो,
+  },
+  { "2025_03_15_अर्थपूर्ण-पालकत्व": articleData_2025_03_15_अर्थपूर्ण_पालकत्व },
+  { "2025_02_20_poorva-and-mansha": articleData_2025_02_20_poorva_and_mansha },
+  {
+    "2025_02_20_parenting-dimensions":
+      articleData_2025_02_20_parenting_dimensions,
+  },
+  { "2025_02_15_साठ-जीवांची-माय": articleData_2025_02_15_साठ_जीवांची_माय },
+  { "2025_02_15_संवादकीय-8": articleData_2025_02_15_संवादकीय_8 },
+  { "2025_02_15_वर्तमानातला-क्षण": articleData_2025_02_15_वर्तमानातला_क्षण },
+  {
+    "2025_02_15_मी-ओरडते-ह्यात-तुझी-चूक-कध":
+      articleData_2025_02_15_मी_ओरडते_ह्यात_तुझी_चूक_कध,
+  },
+  { "2025_02_15_फेब्रुवारी-२०२५": articleData_2025_02_15_फेब्रुवारी_२०२५ },
+  { "2025_02_15_प्राणी-आणि-प्रेम": articleData_2025_02_15_प्राणी_आणि_प्रेम },
+  { "2025_02_15_चिल्लर-पार्टी": articleData_2025_02_15_चिल्लर_पार्टी },
+  {
+    "2025_02_15_चित्राभोवतीचे-प्रश्र्न-2":
+      articleData_2025_02_15_चित्राभोवतीचे_प्रश्र्न_2,
+  },
+  { "2025_02_15_एका-कुहूमुळे": articleData_2025_02_15_एका_कुहूमुळे },
+  {
+    "2025_02_15_आदरांजली-मोहन-हिराबाई-हि":
+      articleData_2025_02_15_आदरांजली_मोहन_हिराबाई_हि,
+  },
+  { "2025_01_15_संवादकीय-7": articleData_2025_01_15_संवादकीय_7 },
+  {
+    "2025_01_15_लोकविज्ञान-दिनदर्शिका-आण":
+      articleData_2025_01_15_लोकविज्ञान_दिनदर्शिका_आण,
+  },
+  {
+    "2025_01_15_मी-मुलगा-विरूद्ध-टॉवेल":
+      articleData_2025_01_15_मी_मुलगा_विरूद्ध_टॉवेल,
+  },
+  { "2025_01_15_मले": articleData_2025_01_15_मले },
+  {
+    "2025_01_15_फ्री-सायकल-द-फ्री-स्पेस":
+      articleData_2025_01_15_फ्री_सायकल_द_फ्री_स्पेस,
+  },
+  { "2025_01_15_निमित्त": articleData_2025_01_15_निमित्त },
+  {
+    "2025_01_15_दृश्यकला-आणि-पालकत्व":
+      articleData_2025_01_15_दृश्यकला_आणि_पालकत्व,
+  },
+  { "2025_01_15_जानेवारी-२०२५": articleData_2025_01_15_जानेवारी_२०२५ },
+  {
+    "2025_01_15_चित्राभोवतीचे-प्रश्र्न":
+      articleData_2025_01_15_चित्राभोवतीचे_प्रश्र्न,
+  },
+  { "2025_01_15_चित्रांचा-अवकाश": articleData_2025_01_15_चित्रांचा_अवकाश },
+  {
+    "2025_01_15_क्या-करे-क्या-ना-करे":
+      articleData_2025_01_15_क्या_करे_क्या_ना_करे,
+  },
+  { "2025_01_15_आदरांजली-2": articleData_2025_01_15_आदरांजली_2 },
+  {
+    "2024_12_18_मेरी-पहचान-है-इन-लकीरोंमे":
+      articleData_2024_12_18_मेरी_पहचान_है_इन_लकीरोंमे,
+  },
+  {
+    "2024_12_18_दत्तकपार-पालकत्व-एक-परिस":
+      articleData_2024_12_18_दत्तकपार_पालकत्व_एक_परिस,
+  },
+  { "2024_12_18_डिसेंबर-२०२४": articleData_2024_12_18_डिसेंबर_२०२४ },
+  {
+    "2024_12_18_चित्रकलेपासून-दृश्यकलेक":
+      articleData_2024_12_18_चित्रकलेपासून_दृश्यकलेक,
+  },
+  {
+    "2024_12_18_चित्र-काढायला-शिकणं-लहान":
+      articleData_2024_12_18_चित्र_काढायला_शिकणं_लहान,
+  },
+  {
+    "2024_12_18_कहानीमेळ्याची-कहाणी":
+      articleData_2024_12_18_कहानीमेळ्याची_कहाणी,
+  },
+  {
+    "2024_12_18_आर्टस्पार्क्सच्या-निमित":
+      articleData_2024_12_18_आर्टस्पार्क्सच्या_निमित,
+  },
+  { "2024_12_18_25665-2": articleData_2024_12_18_25665_2 },
+  {
+    "2024_12_17_संवादकीय-डिसेंबर-२०२४":
+      articleData_2024_12_17_संवादकीय_डिसेंबर_२०२४,
+  },
+  {
+    "2024_12_17_दीपस्तंभ-डिसेंबर-२०२४":
+      articleData_2024_12_17_दीपस्तंभ_डिसेंबर_२०२४,
+  },
+  {
+    "2024_12_17_अभिव्यक्तीच्या-अंगणात":
+      articleData_2024_12_17_अभिव्यक्तीच्या_अंगणात,
+  },
+  { "2024_11_18_दत्तविधान": articleData_2024_11_18_दत्तविधान },
+  {
+    "2024_11_18_काराच्या-कार्याचे-कारण":
+      articleData_2024_11_18_काराच्या_कार्याचे_कारण,
+  },
+  { "2024_11_15_चिऊची-काऊ": articleData_2024_11_15_चिऊची_काऊ },
+  { "2024_11_12_दिवाळी-अंक-२०२४": articleData_2024_11_12_दिवाळी_अंक_२०२४ },
+  {
+    "2024_10_26_तेव्हापासून-आत्तापर्यंत":
+      articleData_2024_10_26_तेव्हापासून_आत्तापर्यंत,
+  },
+  {
+    "2024_10_26_the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward":
+      articleData_2024_10_26_the_evolving_landscape_of_child_care_institutions_in_india_challenges_processes_and_the_path_forward,
+  },
+  {
+    "2024_10_26_beware-of-the-threats-we-bring-to-our-doors":
+      articleData_2024_10_26_beware_of_the_threats_we_bring_to_our_doors,
+  },
+  { "2024_10_26_adopted": articleData_2024_10_26_adopted },
+  { "2024_10_25_संवादकीय-6": articleData_2024_10_25_संवादकीय_6 },
+  {
+    "2024_10_25_why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt":
+      articleData_2024_10_25_why_do_lakhs_of_children_languish_in_shelters_while_thousands_of_eager_families_wait_to_adopt,
+  },
+  { "2024_09_15_स्मृती-जागवूया": articleData_2024_09_15_स्मृती_जागवूया },
+  { "2024_09_15_संवादकीय-5": articleData_2024_09_15_संवादकीय_5 },
+  { "2024_09_15_सप्टेंबर-२०२४": articleData_2024_09_15_सप्टेंबर_२०२४ },
+  { "2024_09_15_मी-एकल-पालक": articleData_2024_09_15_मी_एकल_पालक },
+  { "2024_09_15_माझी-वाट-वेगळी": articleData_2024_09_15_माझी_वाट_वेगळी },
+  { "2024_09_15_दीपस्तंभ": articleData_2024_09_15_दीपस्तंभ },
+  {
+    "2024_09_15_एकल-पालकत्वाच्या-वाटेवरत":
+      articleData_2024_09_15_एकल_पालकत्वाच्या_वाटेवरत,
+  },
+  {
+    "2024_09_15_एकल-पालकत्वाचे-शिवधनुष्य":
+      articleData_2024_09_15_एकल_पालकत्वाचे_शिवधनुष्य,
+  },
+  { "2024_09_15_उत्सव-2": articleData_2024_09_15_उत्सव_2 },
+  { "2024_09_15_suffer-नव्हे-सफर": articleData_2024_09_15_suffer_नव्हे_सफर },
+  { "2024_09_15_25499-2": articleData_2024_09_15_25499_2 },
+  { "2024_08_16_लहान्याला-समजलं": articleData_2024_08_16_लहान्याला_समजलं },
+  {
+    "2024_08_16_ऑक्टोबर-नोव्हेंबर-२०२४-ज":
+      articleData_2024_08_16_ऑक्टोबर_नोव्हेंबर_२०२४_ज,
+  },
+  {
+    "2024_08_15_संवादकीय-ऑगस्ट-२०२४":
+      articleData_2024_08_15_संवादकीय_ऑगस्ट_२०२४,
+  },
+  { "2024_08_15_वाया-नाही-वायू": articleData_2024_08_15_वाया_नाही_वायू },
+  {
+    "2024_08_15_लिटल-माइकल-अँजेलोज्":
+      articleData_2024_08_15_लिटल_माइकल_अँजेलोज्,
+  },
+  {
+    "2024_08_15_मुक्त-स्रोत-सॉफ्टवेअर-चळ":
+      articleData_2024_08_15_मुक्त_स्रोत_सॉफ्टवेअर_चळ,
+  },
+  { "2024_08_15_ब्राबद्दलचा-ब्र": articleData_2024_08_15_ब्राबद्दलचा_ब्र },
+  { "2024_08_15_ऑगस्ट-२०२४": articleData_2024_08_15_ऑगस्ट_२०२४ },
+  {
+    "2024_08_15_आदरांजली-विद्युत-भागवत":
+      articleData_2024_08_15_आदरांजली_विद्युत_भागवत,
+  },
+  {
+    "2024_07_18_संवादकीय-जुलै-२०२४": articleData_2024_07_18_संवादकीय_जुलै_२०२४,
+  },
+  {
+    "2024_07_18_पर्यावरणव्रती-कुसुम":
+      articleData_2024_07_18_पर्यावरणव्रती_कुसुम,
+  },
+  {
+    "2024_07_18_पर्यावरणपूरक-पालकत्व":
+      articleData_2024_07_18_पर्यावरणपूरक_पालकत्व,
+  },
+  {
+    "2024_07_18_पर्यावरण-विषय-मुलांपर्यं":
+      articleData_2024_07_18_पर्यावरण_विषय_मुलांपर्यं,
+  },
+  { "2024_07_18_निसर्गप्रज्ञा": articleData_2024_07_18_निसर्गप्रज्ञा },
+  {
+    "2024_07_18_दीपस्तंभ-जुलै-२०२४": articleData_2024_07_18_दीपस्तंभ_जुलै_२०२४,
+  },
+  { "2024_07_18_जुलै-२०२४": articleData_2024_07_18_जुलै_२०२४ },
+  { "2024_07_18_कचरा-कशाशी-खातात": articleData_2024_07_18_कचरा_कशाशी_खातात },
+  {
+    "2024_07_15_नवे-बदल-स्वीकारताना":
+      articleData_2024_07_15_नवे_बदल_स्वीकारताना,
+  },
+  {
+    "2024_07_15_उषाताई-खरे-खेळघराची-एक-म":
+      articleData_2024_07_15_उषाताई_खरे_खेळघराची_एक_म,
+  },
+  { "2024_06_15_संवादकीय-जून-२०२४": articleData_2024_06_15_संवादकीय_जून_२०२४ },
+  {
+    "2024_06_15_शास्त्री-विरुद्ध-शास्त्र":
+      articleData_2024_06_15_शास्त्री_विरुद्ध_शास्त्र,
+  },
+  { "2024_06_15_लोक-काय-म्हणतील": articleData_2024_06_15_लोक_काय_म्हणतील },
+  { "2024_06_15_मनातला-शिमगा": articleData_2024_06_15_मनातला_शिमगा },
+  { "2024_06_15_बच्चे-बने-लेखक": articleData_2024_06_15_बच्चे_बने_लेखक },
+  { "2024_06_15_दीपस्तंभ-जून-२०२४": articleData_2024_06_15_दीपस्तंभ_जून_२०२४ },
+  { "2024_06_15_जून-२०२४": articleData_2024_06_15_जून_२०२४ },
+  { "2024_06_15_चला-गोफ-विणू-या": articleData_2024_06_15_चला_गोफ_विणू_या },
+  { "2024_06_15_गणित-सहकार्याचे": articleData_2024_06_15_गणित_सहकार्याचे },
+  {
+    "2024_05_25_खेळघर-मित्र-पुस्तकपेटी":
+      articleData_2024_05_25_खेळघर_मित्र_पुस्तकपेटी,
+  },
+  { "2024_05_15_संवादकीय-मे-२०२४": articleData_2024_05_15_संवादकीय_मे_२०२४ },
+  {
+    "2024_05_15_वाचक-लिहितात-मे-२०२४":
+      articleData_2024_05_15_वाचक_लिहितात_मे_२०२४,
+  },
+  { "2024_05_15_मे-२०२४": articleData_2024_05_15_मे_२०२४ },
+  {
+    "2024_05_15_मुखपृष्ठावरील-कबीराच्या":
+      articleData_2024_05_15_मुखपृष्ठावरील_कबीराच्या,
+  },
+  { "2024_05_15_भूमिका-मे-२०२४": articleData_2024_05_15_भूमिका_मे_२०२४ },
+  {
+    "2024_05_15_फिलॉसफी-फॉर-चिल्ड्रन":
+      articleData_2024_05_15_फिलॉसफी_फॉर_चिल्ड्रन,
+  },
+  {
+    "2024_05_15_फाईनमनच्या-बालपणातील-किस":
+      articleData_2024_05_15_फाईनमनच्या_बालपणातील_किस,
+  },
+  {
+    "2024_05_15_नवनिर्मितीच्या-माध्यमात":
+      articleData_2024_05_15_नवनिर्मितीच्या_माध्यमात,
+  },
+  { "2024_05_15_दीपस्तंभ-मे-२०२४": articleData_2024_05_15_दीपस्तंभ_मे_२०२४ },
+  {
+    "2024_05_15_इन्क्वायरीसाठी-पूरक-वाता":
+      articleData_2024_05_15_इन्क्वायरीसाठी_पूरक_वाता,
+  },
+  {
+    "2024_05_15_इन्क्वायरी-शोधन-आतून-आणि":
+      articleData_2024_05_15_इन्क्वायरी_शोधन_आतून_आणि,
+  },
+  {
+    "2024_05_15_इतिहासासंदर्भात-इन्क्वा":
+      articleData_2024_05_15_इतिहासासंदर्भात_इन्क्वा,
+  },
+  {
+    "2024_04_15_सहजतेने-जगण्यासाठी": articleData_2024_04_15_सहजतेने_जगण्यासाठी,
+  },
+  {
+    "2024_04_15_संवादकीय-एप्रिल-२०२४":
+      articleData_2024_04_15_संवादकीय_एप्रिल_२०२४,
+  },
+  { "2024_04_15_वाचक-लिहितात-3": articleData_2024_04_15_वाचक_लिहितात_3 },
+  {
+    "2024_04_15_लिंगभावाच्या-कलाकलाने":
+      articleData_2024_04_15_लिंगभावाच्या_कलाकलाने,
+  },
+  {
+    "2024_04_15_लिंग-लिंगभाव-आणि-त्याची-अ":
+      articleData_2024_04_15_लिंग_लिंगभाव_आणि_त्याची_अ,
+  },
+  {
+    "2024_04_15_मुलांशी-त्या-विषयावर-ब":
+      articleData_2024_04_15_मुलांशी_त्या_विषयावर_ब,
+  },
+  {
+    "2024_04_15_प्रवास-लैंगिकतेच्या-पूर":
+      articleData_2024_04_15_प्रवास_लैंगिकतेच्या_पूर,
+  },
+  {
+    "2024_04_15_दीपस्तंभ-एप्रिल-२०२४":
+      articleData_2024_04_15_दीपस्तंभ_एप्रिल_२०२४,
+  },
+  { "2024_04_15_एप्रिल-२०२४": articleData_2024_04_15_एप्रिल_२०२४ },
+  {
+    "2024_03_16_दीपस्तंभ-मार्च-२०२४":
+      articleData_2024_03_16_दीपस्तंभ_मार्च_२०२४,
+  },
+  { "2024_03_15_सहज-की-सुंदर": articleData_2024_03_15_सहज_की_सुंदर },
+  {
+    "2024_03_15_संवादकीय-मार्च-२०२४":
+      articleData_2024_03_15_संवादकीय_मार्च_२०२४,
+  },
+  {
+    "2024_03_15_रा-शि-धो-2020-ची-अंमलबजावणी-बि":
+      articleData_2024_03_15_रा_शि_धो_2020_ची_अंमलबजावणी_बि,
+  },
+  { "2024_03_15_मार्च-२०२४": articleData_2024_03_15_मार्च_२०२४ },
+  {
+    "2024_03_15_कारण-तुझं-नि-माझं-बी-लाले-र":
+      articleData_2024_03_15_कारण_तुझं_नि_माझं_बी_लाले_र,
+  },
+  {
+    "2024_03_15_अजब-शिक्षिकेचा-गजब-वर्ग":
+      articleData_2024_03_15_अजब_शिक्षिकेचा_गजब_वर्ग,
+  },
+  { "2024_03_04_विशेष-पालकसभा": articleData_2024_03_04_विशेष_पालकसभा },
+  { "2024_02_23_फेब्रुवारी-२०२४": articleData_2024_02_23_फेब्रुवारी_२०२४ },
+  { "2024_02_19_वारा": articleData_2024_02_19_वारा },
+  { "2024_02_15_संवादी-संगोपन": articleData_2024_02_15_संवादी_संगोपन },
+  {
+    "2024_02_15_संवादकीय-फेब्रुवारी-२०२-4":
+      articleData_2024_02_15_संवादकीय_फेब्रुवारी_२०२_4,
+  },
+  {
+    "2024_02_15_शिक्षक-आणि-मुलं-यांचा-पुस":
+      articleData_2024_02_15_शिक्षक_आणि_मुलं_यांचा_पुस,
+  },
+  { "2024_02_15_वाचक-लिहितात-2": articleData_2024_02_15_वाचक_लिहितात_2 },
+  {
+    "2024_02_15_राष्ट्रीय-उच्चशिक्षण-धो":
+      articleData_2024_02_15_राष्ट्रीय_उच्चशिक्षण_धो,
+  },
+  { "2024_02_15_बिन-गुस्सेवाला": articleData_2024_02_15_बिन_गुस्सेवाला },
+  {
+    "2024_02_15_दीपस्तंभ-फेब्रुवारी-२०२":
+      articleData_2024_02_15_दीपस्तंभ_फेब्रुवारी_२०२,
+  },
+  { "2024_02_15_चम्मत-ग-कणीक": articleData_2024_02_15_चम्मत_ग_कणीक },
+  { "2024_02_15_आत्मपॅम्फ्लेट": articleData_2024_02_15_आत्मपॅम्फ्लेट },
+  { "2024_02_10_रस्ता-2": articleData_2024_02_10_रस्ता_2 },
+  {
+    "2024_01_31_रस्ता-पुस्तक-कलेचा-वर्ग":
+      articleData_2024_01_31_रस्ता_पुस्तक_कलेचा_वर्ग,
+  },
+  {
+    "2024_01_22_मला-भावलेल्या-शोभाताई":
+      articleData_2024_01_22_मला_भावलेल्या_शोभाताई,
+  },
+  { "2024_01_22_जानेवारी-२०२४": articleData_2024_01_22_जानेवारी_२०२४ },
+  {
+    "2024_01_20_संवादकीय-जानेवारी-२०२४":
+      articleData_2024_01_20_संवादकीय_जानेवारी_२०२४,
+  },
+  {
+    "2024_01_20_षट्कोनी-खिडकी-आठवणींची":
+      articleData_2024_01_20_षट्कोनी_खिडकी_आठवणींची,
+  },
+  {
+    "2024_01_20_शब्द-बापुडे-केविलवाणे":
+      articleData_2024_01_20_शब्द_बापुडे_केविलवाणे,
+  },
+  {
+    "2024_01_20_बालभवनच्या-शोभाताई": articleData_2024_01_20_बालभवनच्या_शोभाताई,
+  },
+  { "2024_01_20_बालकारणी-शोभाताई": articleData_2024_01_20_बालकारणी_शोभाताई },
+  {
+    "2024_01_20_बालकारणाचे-क्षितिज-विस्त":
+      articleData_2024_01_20_बालकारणाचे_क्षितिज_विस्त,
+  },
+  { "2024_01_20_प्रिय-शोभाताई": articleData_2024_01_20_प्रिय_शोभाताई },
+  {
+    "2024_01_20_पडद्यामागचा-मृत्यू": articleData_2024_01_20_पडद्यामागचा_मृत्यू,
+  },
+  {
+    "2024_01_20_दीपस्तंभ-जानेवारी-२०२४":
+      articleData_2024_01_20_दीपस्तंभ_जानेवारी_२०२४,
+  },
+  { "2024_01_20_ओजस-आणि-तुहिन": articleData_2024_01_20_ओजस_आणि_तुहिन },
+  {
+    "2024_01_16_प्रकाशनाच्या-निमित्ताने":
+      articleData_2024_01_16_प्रकाशनाच्या_निमित्ताने,
+  },
+  { "2023_12_20_सॅड-बुक": articleData_2023_12_20_सॅड_बुक },
+  { "2023_12_20_संवादकीय-4": articleData_2023_12_20_संवादकीय_4 },
+  {
+    "2023_12_20_शिक्षणात-धर्माचा-शिरकाव":
+      articleData_2023_12_20_शिक्षणात_धर्माचा_शिरकाव,
+  },
+  { "2023_12_20_वाचक-लिहितात": articleData_2023_12_20_वाचक_लिहितात },
+  {
+    "2023_12_20_लोकविज्ञान-दिनदर्शिका-2024-व":
+      articleData_2023_12_20_लोकविज्ञान_दिनदर्शिका_2024_व,
+  },
+  {
+    "2023_12_20_परीक्षेची-मानसिकता": articleData_2023_12_20_परीक्षेची_मानसिकता,
+  },
+  {
+    "2023_12_20_निमित्त-प्रसंगाचे-समारो":
+      articleData_2023_12_20_निमित्त_प्रसंगाचे_समारो,
+  },
+  { "2023_12_20_धर्म-आणि-मुले": articleData_2023_12_20_धर्म_आणि_मुले },
+  { "2023_12_20_डिसेंबर-२०२३": articleData_2023_12_20_डिसेंबर_२०२३ },
+  {
+    "2023_12_20_आदरांजली-शोभा-भागवत":
+      articleData_2023_12_20_आदरांजली_शोभा_भागवत,
+  },
+  {
+    "2023_12_20_आदरांजली-प्रा-शाम-वाघ":
+      articleData_2023_12_20_आदरांजली_प्रा_शाम_वाघ,
+  },
+  { "2023_12_20_24792-2": articleData_2023_12_20_24792_2 },
+  { "2023_11_15_दिवाळी-अंक-२०२३": articleData_2023_11_15_दिवाळी_अंक_२०२३ },
+  {
+    "2023_11_10_खेळघराची-दुकानजत्रा":
+      articleData_2023_11_10_खेळघराची_दुकानजत्रा,
+  },
+  { "2023_11_06_नवदुर्गा-पुरस्कार": articleData_2023_11_06_नवदुर्गा_पुरस्कार },
+  {
+    "2023_10_18_लोकसत्ता-दुर्गा-पुरस्कार":
+      articleData_2023_10_18_लोकसत्ता_दुर्गा_पुरस्कार,
+  },
+  {
+    "2023_09_20_संवादकीय-सप्टेंबर-२०२३":
+      articleData_2023_09_20_संवादकीय_सप्टेंबर_२०२३,
+  },
+  { "2023_09_20_सप्टेंबर-२०२३": articleData_2023_09_20_सप्टेंबर_२०२३ },
+  {
+    "2023_09_20_लांडग्यांना-दुष्ट-का-म्ह":
+      articleData_2023_09_20_लांडग्यांना_दुष्ट_का_म्ह,
+  },
+  {
+    "2023_09_20_पालकांमधील-अप्रत्यक्ष-रा":
+      articleData_2023_09_20_पालकांमधील_अप्रत्यक्ष_रा,
+  },
+  {
+    "2023_09_20_निषेधाचं-निरूपण-सप्टेंब":
+      articleData_2023_09_20_निषेधाचं_निरूपण_सप्टेंब,
+  },
+  {
+    "2023_09_20_निवांत-सप्टेंबर-२०२३":
+      articleData_2023_09_20_निवांत_सप्टेंबर_२०२३,
+  },
+  {
+    "2023_09_20_निमित्त-प्रसंगाचे-सप्टे":
+      articleData_2023_09_20_निमित्त_प्रसंगाचे_सप्टे,
+  },
+  {
+    "2023_09_20_धोरणामागील-धोरण-एनईपी-२०":
+      articleData_2023_09_20_धोरणामागील_धोरण_एनईपी_२०,
+  },
+  {
+    "2023_09_20_उशीर-सप्टेंबर-२०२३": articleData_2023_09_20_उशीर_सप्टेंबर_२०२३,
+  },
+  {
+    "2023_09_20_आदरांजली-सप्टेंबर-२०२३":
+      articleData_2023_09_20_आदरांजली_सप्टेंबर_२०२३,
+  },
+  {
+    "2023_08_25_स्वातंत्र्यानंतर-100-वर्षा":
+      articleData_2023_08_25_स्वातंत्र्यानंतर_100_वर्षा,
+  },
+  { "2023_08_25_स्वातंत्र्य": articleData_2023_08_25_स्वातंत्र्य },
+  { "2023_08_25_स्वतंत्र-मी": articleData_2023_08_25_स्वतंत्र_मी },
+  {
+    "2023_08_25_संवादकीय-ऑगस्ट-२०२३":
+      articleData_2023_08_25_संवादकीय_ऑगस्ट_२०२३,
+  },
+  { "2023_08_25_संघर्षाचा-प्रवास": articleData_2023_08_25_संघर्षाचा_प्रवास },
+  {
+    "2023_08_25_बाळपणीच्या-जडणघडणीत-पा":
+      articleData_2023_08_25_बाळपणीच्या_जडणघडणीत_पा,
+  },
+  {
+    "2023_08_25_निमित्त-प्रसंगाचे-ऑगस्ट":
+      articleData_2023_08_25_निमित्त_प्रसंगाचे_ऑगस्ट,
+  },
+  {
+    "2023_08_25_द-स्टोरी-ऑफ-फर्डिनंड-गोष्":
+      articleData_2023_08_25_द_स्टोरी_ऑफ_फर्डिनंड_गोष्,
+  },
+  { "2023_08_25_ऑगस्ट-२०२३": articleData_2023_08_25_ऑगस्ट_२०२३ },
+  {
+    "2023_08_25_एक-खेलती-हुई-लडकी-को":
+      articleData_2023_08_25_एक_खेलती_हुई_लडकी_को,
+  },
+  {
+    "2023_08_14_थेट-भेट-एक-आनंद-सोहळा":
+      articleData_2023_08_14_थेट_भेट_एक_आनंद_सोहळा,
+  },
+  {
+    "2023_08_07_खेळघराच्या-खिडकीतून-9":
+      articleData_2023_08_07_खेळघराच्या_खिडकीतून_9,
+  },
+  {
+    "2023_07_25_संवादकीय-जुलै-२०२३": articleData_2023_07_25_संवादकीय_जुलै_२०२३,
+  },
+  {
+    "2023_07_25_समलिंगी-विवाह-अधिकार-की-स":
+      articleData_2023_07_25_समलिंगी_विवाह_अधिकार_की_स,
+  },
+  {
+    "2023_07_25_सजग-प्रौढांची-गरज-आहे":
+      articleData_2023_07_25_सजग_प्रौढांची_गरज_आहे,
+  },
+  {
+    "2023_07_25_शाळकरी-लेकरांनी-बालविवाह":
+      articleData_2023_07_25_शाळकरी_लेकरांनी_बालविवाह,
+  },
+  { "2023_07_25_विशेष-मुलांसाठी": articleData_2023_07_25_विशेष_मुलांसाठी },
+  {
+    "2023_07_25_म-मुलांचा-क-कायद्यांचा":
+      articleData_2023_07_25_म_मुलांचा_क_कायद्यांचा,
+  },
+  { "2023_07_25_न्याय": articleData_2023_07_25_न्याय },
+  {
+    "2023_07_25_निमित्त-प्रसंगाचे-जुलै-२":
+      articleData_2023_07_25_निमित्त_प्रसंगाचे_जुलै_२,
+  },
+  { "2023_07_25_जुलै-२०२३": articleData_2023_07_25_जुलै_२०२३ },
+  {
+    "2023_07_25_कुमार-स्वर-एक-गंधर्व-कथा":
+      articleData_2023_07_25_कुमार_स्वर_एक_गंधर्व_कथा,
+  },
+  {
+    "2023_06_30_सहिष्णू-समाजाच्या-दिशेने":
+      articleData_2023_06_30_सहिष्णू_समाजाच्या_दिशेने,
+  },
+  { "2023_06_30_संवादकीय-जून-२०२३": articleData_2023_06_30_संवादकीय_जून_२०२३ },
+  {
+    "2023_06_30_पूर्वप्राथमिक-शिक्षण-पद्":
+      articleData_2023_06_30_पूर्वप्राथमिक_शिक्षण_पद्,
+  },
+  {
+    "2023_06_30_निमित्त-प्रसंगाचे-जून-२०":
+      articleData_2023_06_30_निमित्त_प्रसंगाचे_जून_२०,
+  },
+  {
+    "2023_06_30_धर्मविचार-आणि-शालेय-शिक्":
+      articleData_2023_06_30_धर्मविचार_आणि_शालेय_शिक्,
+  },
+  { "2023_06_30_द-अन-बॉय-बॉय": articleData_2023_06_30_द_अन_बॉय_बॉय },
+  { "2023_06_30_जून-२०२३": articleData_2023_06_30_जून_२०२३ },
+  { "2023_06_30_चष्मा-बदलताना": articleData_2023_06_30_चष्मा_बदलताना },
+  {
+    "2023_06_30_खेळघरातील-पुस्तक-प्रदर्श":
+      articleData_2023_06_30_खेळघरातील_पुस्तक_प्रदर्श,
+  },
+  { "2023_06_30_कितीहास-इतिहास": articleData_2023_06_30_कितीहास_इतिहास },
+  {
+    "2023_06_12_खेळघरातली-इयत्ता-नववीत-अ":
+      articleData_2023_06_12_खेळघरातली_इयत्ता_नववीत_अ,
+  },
+  { "2023_05_20_संवादकीय-मे-२०२३": articleData_2023_05_20_संवादकीय_मे_२०२३ },
+  {
+    "2023_05_20_वाचनसंस्कृती-रुजली-पाहिज":
+      articleData_2023_05_20_वाचनसंस्कृती_रुजली_पाहिज,
+  },
+  { "2023_05_20_वाचकाचे-हक्क": articleData_2023_05_20_वाचकाचे_हक्क },
+  { "2023_05_20_मे-२०२३": articleData_2023_05_20_मे_२०२३ },
+  {
+    "2023_05_20_प्रक्रिया-वाचन-कट्टा":
+      articleData_2023_05_20_प्रक्रिया_वाचन_कट्टा,
+  },
+  { "2023_05_20_निवडोनी-उत्तम": articleData_2023_05_20_निवडोनी_उत्तम },
+  {
+    "2023_05_20_निर्णयाचे-पोटी-जबाबदारीच":
+      articleData_2023_05_20_निर्णयाचे_पोटी_जबाबदारीच,
+  },
+  { "2023_05_20_निमित्त-प्रसंगाचे": articleData_2023_05_20_निमित्त_प्रसंगाचे },
+  {
+    "2023_05_20_तुम्हाला-पुस्तकालयाचा-पत":
+      articleData_2023_05_20_तुम्हाला_पुस्तकालयाचा_पत,
+  },
+  {
+    "2023_05_20_कहानी-किड्स-लायब्ररी":
+      articleData_2023_05_20_कहानी_किड्स_लायब्ररी,
+  },
+  {
+    "2023_05_20_अनोख्या-पुस्तक-मित्रांच्":
+      articleData_2023_05_20_अनोख्या_पुस्तक_मित्रांच्,
+  },
+  {
+    "2023_05_20_अक्षरगंध-खिडक्या-उघडू-ला":
+      articleData_2023_05_20_अक्षरगंध_खिडक्या_उघडू_ला,
+  },
+  {
+    "2023_05_10_निवडक-पालकनीती-पुस्तकाच":
+      articleData_2023_05_10_निवडक_पालकनीती_पुस्तकाच,
+  },
+  {
+    "2023_05_10_डॉ-गीताली-वि-मं-पालकनीती-ब":
+      articleData_2023_05_10_डॉ_गीताली_वि_मं_पालकनीती_ब,
+  },
+  { "2023_05_10_खेळघर-फिल्म": articleData_2023_05_10_खेळघर_फिल्म },
+  {
+    "2023_04_20_संवादकीय-एप्रिल-२०२३":
+      articleData_2023_04_20_संवादकीय_एप्रिल_२०२३,
+  },
+  {
+    "2023_04_20_वर्तन-व्यवस्थापन-महत्त्":
+      articleData_2023_04_20_वर्तन_व्यवस्थापन_महत्त्,
+  },
+  {
+    "2023_04_20_वर्गावर्गांच्या-भिंती":
+      articleData_2023_04_20_वर्गावर्गांच्या_भिंती,
+  },
+  { "2023_04_20_वन-लिटिल-बॅग": articleData_2023_04_20_वन_लिटिल_बॅग },
+  {
+    "2023_04_20_मुलांना-काळ-चाखायला-देणा":
+      articleData_2023_04_20_मुलांना_काळ_चाखायला_देणा,
+  },
+  {
+    "2023_04_20_निसर्गस्नेही-जीवनशैलीती":
+      articleData_2023_04_20_निसर्गस्नेही_जीवनशैलीती,
+  },
+  {
+    "2023_04_20_निसर्गसान्निध्यातून-शां":
+      articleData_2023_04_20_निसर्गसान्निध्यातून_शां,
+  },
+  {
+    "2023_04_20_निमित्त-प्रसंगाचे-एप्र":
+      articleData_2023_04_20_निमित्त_प्रसंगाचे_एप्र,
+  },
+  {
+    "2023_04_20_द-हिडन-लाइफ-ऑफ-ट्रीज":
+      articleData_2023_04_20_द_हिडन_लाइफ_ऑफ_ट्रीज,
+  },
+  { "2023_04_20_एप्रिल-२०२३": articleData_2023_04_20_एप्रिल_२०२३ },
+  {
+    "2023_04_20_आनंदाची-बातमी-शिवाजी-काग":
+      articleData_2023_04_20_आनंदाची_बातमी_शिवाजी_काग,
+  },
+  { "2023_03_15_संवादकीय-3": articleData_2023_03_15_संवादकीय_3 },
+  {
+    "2023_03_15_शिक्षणाचा-मूलभूत-हक्क-वं":
+      articleData_2023_03_15_शिक्षणाचा_मूलभूत_हक्क_वं,
+  },
+  { "2023_03_15_मितवा": articleData_2023_03_15_मितवा },
+  { "2023_03_15_मार्च-२०२३": articleData_2023_03_15_मार्च_२०२३ },
+  {
+    "2023_03_15_माझा-शिक्षणाचा-प्रवास":
+      articleData_2023_03_15_माझा_शिक्षणाचा_प्रवास,
+  },
+  {
+    "2023_03_15_बेटी-बचाओ-बेटी-पढाओ":
+      articleData_2023_03_15_बेटी_बचाओ_बेटी_पढाओ,
+  },
+  {
+    "2023_03_15_ग्रामऊर्जा-फाउंडेशन":
+      articleData_2023_03_15_ग्रामऊर्जा_फाउंडेशन,
+  },
+  {
+    "2023_03_15_गाता-साखरेची-गाणी-पोरांच":
+      articleData_2023_03_15_गाता_साखरेची_गाणी_पोरांच,
+  },
+  { "2023_01_30_संवादकीय-2": articleData_2023_01_30_संवादकीय_2 },
+  {
+    "2023_01_30_मूल-सार्‍या-गावाचं-it-takes-a-village":
+      articleData_2023_01_30_मूल_सार्‍या_गावाचं_it_takes_a_village,
+  },
+  {
+    "2023_01_30_बहुसांस्कृतिक-वर्ग-शिक्":
+      articleData_2023_01_30_बहुसांस्कृतिक_वर्ग_शिक्,
+  },
+  { "2023_01_30_प्रास्ताविक": articleData_2023_01_30_प्रास्ताविक },
+  { "2023_01_30_पालकत्व": articleData_2023_01_30_पालकत्व },
+  { "2023_01_30_जानेवारी-२०२३": articleData_2023_01_30_जानेवारी_२०२३ },
+  {
+    "2023_01_30_कोविडपश्चात-शिक्षणाचे-वा":
+      articleData_2023_01_30_कोविडपश्चात_शिक्षणाचे_वा,
+  },
+  {
+    "2023_01_30_काही-शिकले-काही-चुकले":
+      articleData_2023_01_30_काही_शिकले_काही_चुकले,
+  },
+  {
+    "2023_01_30_करोना-काळातील-मुलांची-भी":
+      articleData_2023_01_30_करोना_काळातील_मुलांची_भी,
+  },
+  {
+    "2023_01_27_बालवर्गातील-मुले-सुलभा-क":
+      articleData_2023_01_27_बालवर्गातील_मुले_सुलभा_क,
+  },
+  {
+    "2023_01_25_मुलांची-भाषा-आणि-शिक्षक":
+      articleData_2023_01_25_मुलांची_भाषा_आणि_शिक्षक,
+  },
+  {
+    "2023_01_25_चकमक-फेब्रुवारी-२००२":
+      articleData_2023_01_25_चकमक_फेब्रुवारी_२००२,
+  },
+  {
+    "2022_12_20_when-daddy-makes-mistakes":
+      articleData_2022_12_20_when_daddy_makes_mistakes,
+  },
+  {
+    "2022_12_20_what_happened_kid_is_crying":
+      articleData_2022_12_20_what_happened_kid_is_crying,
+  },
+  {
+    "2022_12_20_vinod-kumar-shukla": articleData_2022_12_20_vinod_kumar_shukla,
+  },
+  { "2022_12_20_tribute-ila-bhatt": articleData_2022_12_20_tribute_ila_bhatt },
+  {
+    "2022_12_20_tribute-dr-nagnath": articleData_2022_12_20_tribute_dr_nagnath,
+  },
+  { "2022_12_20_tribute-dec-2022": articleData_2022_12_20_tribute_dec_2022 },
+  {
+    "2022_12_20_scientists-series-end":
+      articleData_2022_12_20_scientists_series_end,
+  },
+  { "2022_12_20_library-lec": articleData_2022_12_20_library_lec },
+  {
+    "2022_12_20_jod-ank-2022-feedback":
+      articleData_2022_12_20_jod_ank_2022_feedback,
+  },
+  {
+    "2022_12_20_editorial-december-2022":
+      articleData_2022_12_20_editorial_december_2022,
+  },
+  { "2022_12_20_december-2022": articleData_2022_12_20_december_2022 },
+  {
+    "2022_11_18_संवादकीय-दिवाळी-अंक-२०२२":
+      articleData_2022_11_18_संवादकीय_दिवाळी_अंक_२०२२,
+  },
+  {
+    "2022_11_17_शांतीचा-संदेश-देतात-कथा":
+      articleData_2022_11_17_शांतीचा_संदेश_देतात_कथा,
+  },
+  {
+    "2022_11_17_शांतीकडे-बघण्याचे-वेगवेग":
+      articleData_2022_11_17_शांतीकडे_बघण्याचे_वेगवेग,
+  },
+  {
+    "2022_11_17_बहुसांस्कृतिकता-आणि-शिक्":
+      articleData_2022_11_17_बहुसांस्कृतिकता_आणि_शिक्,
+  },
+  { "2022_11_17_दिवाळी-अंक-२०२२": articleData_2022_11_17_दिवाळी_अंक_२०२२ },
+  {
+    "2022_11_17_अ-हिडन-लाईफ-चित्रपट-परिचय":
+      articleData_2022_11_17_अ_हिडन_लाईफ_चित्रपट_परिचय,
+  },
+  { "2022_11_12_unnati-isec": articleData_2022_11_12_unnati_isec },
+  { "2022_11_01_shala": articleData_2022_11_01_shala },
+  { "2022_11_01_refugee": articleData_2022_11_01_refugee },
+  { "2022_11_01_free-to-learn": articleData_2022_11_01_free_to_learn },
+  {
+    "2022_11_01_editorial-june-2022":
+      articleData_2022_11_01_editorial_june_2022,
+  },
+  { "2022_11_01_an-nashik": articleData_2022_11_01_an_nashik },
+  { "2022_11_01_18823": articleData_2022_11_01_18823 },
+  { "2022_11_01_18795-2": articleData_2022_11_01_18795_2 },
+  { "2022_10_30_the-churn-within": articleData_2022_10_30_the_churn_within },
+  {
+    "2022_10_07_teacher_experience_sharing":
+      articleData_2022_10_07_teacher_experience_sharing,
+  },
+  { "2022_10_05_letter_to_parents": articleData_2022_10_05_letter_to_parents },
+  { "2022_10_05_dushyant_kumar": articleData_2022_10_05_dushyant_kumar },
+  { "2022_09_14_sep2022-editorial": articleData_2022_09_14_sep2022_editorial },
+  { "2022_09_14_bilqis-rabbi": articleData_2022_09_14_bilqis_rabbi },
+  { "2022_09_07_toilet_training": articleData_2022_09_07_toilet_training },
+  { "2022_09_07_sep-2022": articleData_2022_09_07_sep_2022 },
+  { "2022_09_05_v_s_ramchandran": articleData_2022_09_05_v_s_ramchandran },
+  { "2022_09_05_readers_write": articleData_2022_09_05_readers_write },
+  {
+    "2022_09_05_how-daddys-feelings-were-hurt":
+      articleData_2022_09_05_how_daddys_feelings_were_hurt,
+  },
+  { "2022_08_17_ऑगस्ट-२०२२": articleData_2022_08_17_ऑगस्ट_२०२२ },
+  {
+    "2022_08_16_संवादकीय-ऑगस्ट-२०२२":
+      articleData_2022_08_16_संवादकीय_ऑगस्ट_२०२२,
+  },
+  { "2022_08_16_संवाद": articleData_2022_08_16_संवाद },
+  { "2022_08_16_शहतूत-mulberry": articleData_2022_08_16_शहतूत_mulberry },
+  { "2022_08_16_भान-येताना": articleData_2022_08_16_भान_येताना },
+  {
+    "2022_08_16_बाळ-काही-खातच-नाही-उत्तरा":
+      articleData_2022_08_16_बाळ_काही_खातच_नाही_उत्तरा,
+  },
+  {
+    "2022_08_16_बाबा-पाव-जमिनीवर-फेकतो-ते":
+      articleData_2022_08_16_बाबा_पाव_जमिनीवर_फेकतो_ते,
+  },
+  { "2022_08_16_फ्रान्सिस-क्रिक": articleData_2022_08_16_फ्रान्सिस_क्रिक },
+  { "2022_08_16_आदरांजली-नंदा-खरे": articleData_2022_08_16_आदरांजली_नंदा_खरे },
+  { "2022_07_16_जुलै-२०२२": articleData_2022_07_16_जुलै_२०२२ },
+  {
+    "2022_07_15_संवादकीय-जुलै-२०२२": articleData_2022_07_15_संवादकीय_जुलै_२०२२,
+  },
+  {
+    "2022_07_15_लर्निंग-कंपॅनिअन्स-शिक्":
+      articleData_2022_07_15_लर्निंग_कंपॅनिअन्स_शिक्,
+  },
+  {
+    "2022_07_15_रिचर्ड-फाईनमन-या-सम-हा":
+      articleData_2022_07_15_रिचर्ड_फाईनमन_या_सम_हा,
+  },
+  { "2022_07_15_मला-हवंय": articleData_2022_07_15_मला_हवंय },
+  {
+    "2022_07_15_बाळ-काही-खातच-नाही": articleData_2022_07_15_बाळ_काही_खातच_नाही,
+  },
+  {
+    "2022_07_15_बाबा-गाणं-शिकतो-तेव्हा":
+      articleData_2022_07_15_बाबा_गाणं_शिकतो_तेव्हा,
+  },
+  {
+    "2022_07_15_एका-ध्यासाचा-मागोवा":
+      articleData_2022_07_15_एका_ध्यासाचा_मागोवा,
+  },
+  {
+    "2022_07_15_अध्यापनातून-मला-काय-मिळा":
+      articleData_2022_07_15_अध्यापनातून_मला_काय_मिळा,
+  },
+  { "2022_06_21_jun-2022": articleData_2022_06_21_jun_2022 },
+  { "2022_05_21_संवादकीय-मे-२०२२": articleData_2022_05_21_संवादकीय_मे_२०२२ },
+  { "2022_05_21_रिचर्ड-डॉकिन्स": articleData_2022_05_21_रिचर्ड_डॉकिन्स },
+  { "2022_05_21_मे-२०२२": articleData_2022_05_21_मे_२०२२ },
+  {
+    "2022_05_21_बाबा-डॉक्टरांना-चावतो-ते":
+      articleData_2022_05_21_बाबा_डॉक्टरांना_चावतो_ते,
+  },
+  { "2022_05_21_फास्ट-फॉरवर्ड": articleData_2022_05_21_फास्ट_फॉरवर्ड },
+  { "2022_05_21_ग्रीष्म": articleData_2022_05_21_ग्रीष्म },
+  { "2022_05_21_खेळ": articleData_2022_05_21_खेळ },
+  { "2022_05_21_एन्कांटो-एपलरपीें": articleData_2022_05_21_एन्कांटो_एपलरपीें },
+  {
+    "2022_05_21_आहार-आणि-बालविकास-2":
+      articleData_2022_05_21_आहार_आणि_बालविकास_2,
+  },
+  {
+    "2022_04_15_संवादकीय-एप्रिल-२०२२":
+      articleData_2022_04_15_संवादकीय_एप्रिल_२०२२,
+  },
+  {
+    "2022_04_15_लहान-मुलांना-कोडिंग-शिकव":
+      articleData_2022_04_15_लहान_मुलांना_कोडिंग_शिकव,
+  },
+  {
+    "2022_04_15_भाषेच्या-महत्तेची-रुजवण":
+      articleData_2022_04_15_भाषेच्या_महत्तेची_रुजवण,
+  },
+  {
+    "2022_04_15_बालविकासाच्या-सौधावरून":
+      articleData_2022_04_15_बालविकासाच्या_सौधावरून,
+  },
+  {
+    "2022_04_15_बाबा-कविता-लिहितो-तेव्हा":
+      articleData_2022_04_15_बाबा_कविता_लिहितो_तेव्हा,
+  },
+  { "2022_04_15_प्रत्यय": articleData_2022_04_15_प्रत्यय },
+  {
+    "2022_04_15_पुस्तकमैत्री-अभ्यासक्रम":
+      articleData_2022_04_15_पुस्तकमैत्री_अभ्यासक्रम,
+  },
+  { "2022_04_15_क्लॉड-शॅनन": articleData_2022_04_15_क्लॉड_शॅनन },
+  { "2022_04_15_एप्रिल-२०२२": articleData_2022_04_15_एप्रिल_२०२२ },
+  { "2022_04_15_इल्म-बड़ी-दौलत-है": articleData_2022_04_15_इल्म_बड़ी_दौलत_है },
+  { "2022_04_11_खेळघर-मित्र": articleData_2022_04_11_खेळघर_मित्र },
+  { "2022_03_25_शाळा-असते-कशासाठी": articleData_2022_03_25_शाळा_असते_कशासाठी },
+  {
+    "2022_03_17_संवादकीय-मार्च-२०२२":
+      articleData_2022_03_17_संवादकीय_मार्च_२०२२,
+  },
+  {
+    "2022_03_15_शाळा-असते-कशासाठी-भाग-२":
+      articleData_2022_03_15_शाळा_असते_कशासाठी_भाग_२,
+  },
+  { "2022_03_15_मड्डम": articleData_2022_03_15_मड्डम },
+  {
+    "2022_03_15_बाबानं-कुत्र्याला-कसं-मा":
+      articleData_2022_03_15_बाबानं_कुत्र्याला_कसं_मा,
+  },
+  {
+    "2022_03_15_पोटासाठी-की-पाटीसाठी":
+      articleData_2022_03_15_पोटासाठी_की_पाटीसाठी,
+  },
+  {
+    "2022_03_15_तुम-लडकी-हो-तुम्हें-क्यों":
+      articleData_2022_03_15_तुम_लडकी_हो_तुम्हें_क्यों,
+  },
+  { "2022_03_15_आहार-आणि-बालविकास": articleData_2022_03_15_आहार_आणि_बालविकास },
+  { "2022_03_10_डॅनियल-काहनेमन": articleData_2022_03_10_डॅनियल_काहनेमन },
+  {
+    "2022_02_26_संवादकीय-फेब्रुवारी-२०२-3":
+      articleData_2022_02_26_संवादकीय_फेब्रुवारी_२०२_3,
+  },
+  {
+    "2022_02_26_शाळा-असते-कशासाठी-भाग-1":
+      articleData_2022_02_26_शाळा_असते_कशासाठी_भाग_1,
+  },
+  { "2022_02_26_व्हेरियर-एल्विन": articleData_2022_02_26_व्हेरियर_एल्विन },
+  {
+    "2022_02_26_भाषाविकासाचा-सुदृढ-पाया":
+      articleData_2022_02_26_भाषाविकासाचा_सुदृढ_पाया,
+  },
+  {
+    "2022_02_26_बाबा-धावत्या-गाडीखाली-चे":
+      articleData_2022_02_26_बाबा_धावत्या_गाडीखाली_चे,
+  },
+  {
+    "2022_02_26_जेव्हा-बाबा-लहान-होता":
+      articleData_2022_02_26_जेव्हा_बाबा_लहान_होता,
+  },
+  { "2022_02_17_मातृभाषा-की-मौत": articleData_2022_02_17_मातृभाषा_की_मौत },
+  {
+    "2022_02_17_बिलीफ-मनमें-है-विश्वास":
+      articleData_2022_02_17_बिलीफ_मनमें_है_विश्वास,
+  },
+  {
+    "2022_02_17_नका-उगारू-हात-आणखी": articleData_2022_02_17_नका_उगारू_हात_आणखी,
+  },
+  { "2022_02_15_फेब्रुवारी-२०२२": articleData_2022_02_15_फेब्रुवारी_२०२२ },
+  {
+    "2022_01_23_संजीवनातून-की-संगोपनातून":
+      articleData_2022_01_23_संजीवनातून_की_संगोपनातून,
+  },
+  { "2022_01_23_योहान्स-केप्लर": articleData_2022_01_23_योहान्स_केप्लर },
+  {
+    "2022_01_23_भारताची-सामूहिक-कविता":
+      articleData_2022_01_23_भारताची_सामूहिक_कविता,
+  },
+  { "2022_01_23_न-पत्रांचा-गुच्छ": articleData_2022_01_23_न_पत्रांचा_गुच्छ },
+  {
+    "2022_01_23_गोड-साखरेची-कडू-कहाणी":
+      articleData_2022_01_23_गोड_साखरेची_कडू_कहाणी,
+  },
+  {
+    "2022_01_22_हम-लोग-we-the-people":
+      articleData_2022_01_22_हम_लोग_we_the_people,
+  },
+  {
+    "2022_01_22_संवादकीय-जानेवारी-२०२२":
+      articleData_2022_01_22_संवादकीय_जानेवारी_२०२२,
+  },
+  {
+    "2022_01_22_अनुभव-जपून-ठेवावा-असा":
+      articleData_2022_01_22_अनुभव_जपून_ठेवावा_असा,
+  },
+  { "2022_01_19_जानेवारी-२०२२": articleData_2022_01_19_जानेवारी_२०२२ },
+  { "2021_12_15_डिसेंबर-२०२१": articleData_2021_12_15_डिसेंबर_२०२१ },
+  {
+    "2021_12_10_संवादकीय-डिसेंबर-२०२१":
+      articleData_2021_12_10_संवादकीय_डिसेंबर_२०२१,
+  },
+  {
+    "2021_12_10_विळखा-ऑनलाइन-गेमिंगचा":
+      articleData_2021_12_10_विळखा_ऑनलाइन_गेमिंगचा,
+  },
+  { "2021_12_10_पुस्तक-खिडकी": articleData_2021_12_10_पुस्तक_खिडकी },
+  { "2021_12_10_गं-भा": articleData_2021_12_10_गं_भा },
+  {
+    "2021_12_10_1-डिसेंबर-जागतिक-एड्स-दिवस":
+      articleData_2021_12_10_1_डिसेंबर_जागतिक_एड्स_दिवस,
+  },
+  {
+    "2021_11_06_संवादकीय-ऑक्टोबर-नोव्हे-4":
+      articleData_2021_11_06_संवादकीय_ऑक्टोबर_नोव्हे_4,
+  },
+  {
+    "2021_11_05_संवादकीय-ऑगस्ट-२०२१":
+      articleData_2021_11_05_संवादकीय_ऑगस्ट_२०२१,
+  },
+  { "2021_11_05_मुलांचे-मासिक": articleData_2021_11_05_मुलांचे_मासिक },
+  { "2021_11_05_मिझोराम": articleData_2021_11_05_मिझोराम },
+  {
+    "2021_11_05_भांड्यांचा-इतिहास-शिकवता":
+      articleData_2021_11_05_भांड्यांचा_इतिहास_शिकवता,
+  },
+  {
+    "2021_11_05_पूर्वग्रहांवर-मात-करण्या":
+      articleData_2021_11_05_पूर्वग्रहांवर_मात_करण्या,
+  },
+  { "2021_11_05_चौकटीबाहेरचे-मूल": articleData_2021_11_05_चौकटीबाहेरचे_मूल },
+  { "2021_11_05_काहीही-न-बोलता": articleData_2021_11_05_काहीही_न_बोलता },
+  {
+    "2021_11_05_आमच्या-गावातील-लॉकडाऊन-छ":
+      articleData_2021_11_05_आमच्या_गावातील_लॉकडाऊन_छ,
+  },
+  {
+    "2021_11_05_आदरांजली-सतीश-काळसेकर":
+      articleData_2021_11_05_आदरांजली_सतीश_काळसेकर,
+  },
+  {
+    "2021_11_05_आदरांजली-विलासराव-चाफेक":
+      articleData_2021_11_05_आदरांजली_विलासराव_चाफेक,
+  },
+  {
+    "2021_11_05_आदरांजली-बनविहारी-बॉनी-न":
+      articleData_2021_11_05_आदरांजली_बनविहारी_बॉनी_न,
+  },
+  {
+    "2021_11_05_आदरांजली-डॉ-गेल-ऑम्व्हेट":
+      articleData_2021_11_05_आदरांजली_डॉ_गेल_ऑम्व्हेट,
+  },
+  { "2021_11_03_एका-आईचे-मनोगत": articleData_2021_11_03_एका_आईचे_मनोगत },
+  { "2021_09_16_सप्टेंबर-२०२१": articleData_2021_09_16_सप्टेंबर_२०२१ },
+  {
+    "2021_09_15_संवादकीय-सप्टेम्बर-२०२१":
+      articleData_2021_09_15_संवादकीय_सप्टेम्बर_२०२१,
+  },
+  { "2021_09_15_शिराळशेठची-कहाणी": articleData_2021_09_15_शिराळशेठची_कहाणी },
+  {
+    "2021_09_15_टिली-मिली-एक-शैक्षणिक-उपक":
+      articleData_2021_09_15_टिली_मिली_एक_शैक्षणिक_उपक,
+  },
+  { "2021_09_15_चकमक": articleData_2021_09_15_चकमक },
+  {
+    "2021_09_15_ऑनलाईन-स्टोरीटेलिंग-अर्":
+      articleData_2021_09_15_ऑनलाईन_स्टोरीटेलिंग_अर्,
+  },
+  { "2021_09_15_एडा-लवलेस": articleData_2021_09_15_एडा_लवलेस },
+  { "2021_09_15_3373-2": articleData_2021_09_15_3373_2 },
+  { "2021_08_15_ऑगस्ट-२०२१": articleData_2021_08_15_ऑगस्ट_२०२१ },
+  { "2021_08_01_साईकिल": articleData_2021_08_01_साईकिल },
+  { "2021_08_01_विचित्र-भेट": articleData_2021_08_01_विचित्र_भेट },
+  {
+    "2021_08_01_चित्रपट-परिचय-दि-ग्रेट-इं":
+      articleData_2021_08_01_चित्रपट_परिचय_दि_ग्रेट_इं,
+  },
+  {
+    "2021_08_01_आदरांजली-सुंदरलाल-बहुगु":
+      articleData_2021_08_01_आदरांजली_सुंदरलाल_बहुगु,
+  },
+  {
+    "2021_08_01_आदरांजली-गुणेश-डोईफोडे":
+      articleData_2021_08_01_आदरांजली_गुणेश_डोईफोडे,
+  },
+  { "2021_07_15_जुलै-२०२१": articleData_2021_07_15_जुलै_२०२१ },
+  { "2021_07_15_खेळघर-म्हणजे-काय": articleData_2021_07_15_खेळघर_म्हणजे_काय },
+  { "2021_07_09_july-2021": articleData_2021_07_09_july_2021 },
+  { "2021_07_01_हनुमंत-मोहिते": articleData_2021_07_01_हनुमंत_मोहिते },
+  {
+    "2021_07_01_सपना-वाघमारे-travel-and-tourism-कोर्स-दुस":
+      articleData_2021_07_01_सपना_वाघमारे_travel_and_tourism_कोर्स_दुस,
+  },
+  {
+    "2021_07_01_प्रिया-नागेश-वग्गे-१२-वी-क":
+      articleData_2021_07_01_प्रिया_नागेश_वग्गे_१२_वी_क,
+  },
+  {
+    "2021_07_01_परिस्थितीचे-अडथळे-ओलांडत":
+      articleData_2021_07_01_परिस्थितीचे_अडथळे_ओलांडत,
+  },
+  { "2021_07_01_परशुराम-कांबळे": articleData_2021_07_01_परशुराम_कांबळे },
+  {
+    "2021_07_01_आकाश-कोसळले-तरीही-शारदा":
+      articleData_2021_07_01_आकाश_कोसळले_तरीही_शारदा,
+  },
+  { "2021_07_01_अजय-चव्हाण-ty-bsc": articleData_2021_07_01_अजय_चव्हाण_ty_bsc },
+  { "2021_06_29_संवादकीय-जून-२०२१": articleData_2021_06_29_संवादकीय_जून_२०२१ },
+  {
+    "2021_06_29_संमीलन-कॉन्वर्जन्स": articleData_2021_06_29_संमीलन_कॉन्वर्जन्स,
+  },
+  {
+    "2021_06_29_मुले-आणि-प्रोग्रामिंग":
+      articleData_2021_06_29_मुले_आणि_प्रोग्रामिंग,
+  },
+  { "2021_06_15_जून-२०२१": articleData_2021_06_15_जून_२०२१ },
+  { "2021_05_25_आजारी-मनाचा-टाहो": articleData_2021_05_25_आजारी_मनाचा_टाहो },
+  {
+    "2021_05_24_शिकवू-इच्छिणार्‍यांना-आ":
+      articleData_2021_05_24_शिकवू_इच्छिणार्‍यांना_आ,
+  },
+  { "2021_05_23_संवादसेतू": articleData_2021_05_23_संवादसेतू },
+  {
+    "2021_05_22_आदरांजली-विरुपाक्ष-कुलक":
+      articleData_2021_05_22_आदरांजली_विरुपाक्ष_कुलक,
+  },
+  { "2021_05_21_जिद्द-डोळस-बनवते": articleData_2021_05_21_जिद्द_डोळस_बनवते },
+  {
+    "2021_05_17_हे-मावशीच-करू-जाणोत":
+      articleData_2021_05_17_हे_मावशीच_करू_जाणोत,
+  },
+  { "2021_05_16_संवादकीय-मे-२०२१": articleData_2021_05_16_संवादकीय_मे_२०२१ },
+  { "2021_05_15_मे-२०२१": articleData_2021_05_15_मे_२०२१ },
+  { "2021_05_15_चिकूpiku": articleData_2021_05_15_चिकूpiku },
+  {
+    "2021_05_09_पुस्तक-परिचय-अनारको-के-आठ":
+      articleData_2021_05_09_पुस्तक_परिचय_अनारको_के_आठ,
+  },
+  {
+    "2021_05_09_गुजगोष्टी-भाषांच्या":
+      articleData_2021_05_09_गुजगोष्टी_भाषांच्या,
+  },
+  {
+    "2021_05_08_संवादकीय-मार्च-२०२१":
+      articleData_2021_05_08_संवादकीय_मार्च_२०२१,
+  },
+  {
+    "2021_05_08_मूल-नावाचं-सुंदर-कोडं":
+      articleData_2021_05_08_मूल_नावाचं_सुंदर_कोडं,
+  },
+  {
+    "2021_05_08_पाठशाला-भीतर-और-बाहर":
+      articleData_2021_05_08_पाठशाला_भीतर_और_बाहर,
+  },
+  {
+    "2021_05_08_कोविड-एक-संकट-तर-आहेच-पण-त्":
+      articleData_2021_05_08_कोविड_एक_संकट_तर_आहेच_पण_त्,
+  },
+  { "2021_05_08_कोविड-आणि-महिला": articleData_2021_05_08_कोविड_आणि_महिला },
+  { "2021_04_11_एप्रिल-२०२१": articleData_2021_04_11_एप्रिल_२०२१ },
+  {
+    "2021_04_10_संवादकीय-एप्रिल-२०२१":
+      articleData_2021_04_10_संवादकीय_एप्रिल_२०२१,
+  },
+  { "2021_04_10_वयम्": articleData_2021_04_10_वयम् },
+  {
+    "2021_04_10_यात्रेच्या-मार्गावर-पॉल":
+      articleData_2021_04_10_यात्रेच्या_मार्गावर_पॉल,
+  },
+  {
+    "2021_04_10_मुले-झाडांसारखी-असतात":
+      articleData_2021_04_10_मुले_झाडांसारखी_असतात,
+  },
+  {
+    "2021_04_10_प्रदर्शन-आणि-प्रकाशन-रमा":
+      articleData_2021_04_10_प्रदर्शन_आणि_प्रकाशन_रमा,
+  },
+  { "2021_04_10_पान-१६": articleData_2021_04_10_पान_१६ },
+  { "2021_04_10_उद्याबद्दल": articleData_2021_04_10_उद्याबद्दल },
+  {
+    "2021_04_10_आदरांजली-सुधा-साठे-सदा-डु":
+      articleData_2021_04_10_आदरांजली_सुधा_साठे_सदा_डु,
+  },
+  { "2021_03_29_रंग-माझा-वेगळा": articleData_2021_03_29_रंग_माझा_वेगळा },
+  { "2021_03_29_प्लूटो": articleData_2021_03_29_प्लूटो },
+  {
+    "2021_03_29_कृती-कामातून-शालेय-शिक्ष":
+      articleData_2021_03_29_कृती_कामातून_शालेय_शिक्ष,
+  },
+  { "2021_03_29_करकोचा-आणि-कासव": articleData_2021_03_29_करकोचा_आणि_कासव },
+  {
+    "2021_03_22_संवादकीय-मार्च-२०२१-2":
+      articleData_2021_03_22_संवादकीय_मार्च_२०२१_2,
+  },
+  { "2021_03_19_march-2021": articleData_2021_03_19_march_2021 },
+  {
+    "2021_03_13_संवादकीय-फेब्रुवारी-२०२-2":
+      articleData_2021_03_13_संवादकीय_फेब्रुवारी_२०२_2,
+  },
+  { "2021_02_25_फेब्रुवारी-२०२१": articleData_2021_02_25_फेब्रुवारी_२०२१ },
+  { "2021_01_30_जानेवारी-२०२१": articleData_2021_01_30_जानेवारी_२०२१ },
+  {
+    "2021_01_28_शब्द-शब्द-जपून-ठेव-सायली":
+      articleData_2021_01_28_शब्द_शब्द_जपून_ठेव_सायली,
+  },
+  { "2021_01_24_आम्ही-गृहीत-धरलंय": articleData_2021_01_24_आम्ही_गृहीत_धरलंय },
+  {
+    "2021_01_23_संवादकीय-जानेवारी-२०२१":
+      articleData_2021_01_23_संवादकीय_जानेवारी_२०२१,
+  },
+  {
+    "2021_01_23_ग्लोबल-टीचर-पुरस्कारा":
+      articleData_2021_01_23_ग्लोबल_टीचर_पुरस्कारा,
+  },
+  {
+    "2021_01_23_कशासाठी-मराठीप्रेमी-पाल":
+      articleData_2021_01_23_कशासाठी_मराठीप्रेमी_पाल,
+  },
+  { "2021_01_23_अटकमटक": articleData_2021_01_23_अटकमटक },
+  {
+    "2020_12_28_संवादकीय-डिसेंबर-२०२०-मा":
+      articleData_2020_12_28_संवादकीय_डिसेंबर_२०२०_मा,
+  },
+  {
+    "2020_12_26_शिक्षण-राष्ट्र-आणि-राज्य":
+      articleData_2020_12_26_शिक्षण_राष्ट्र_आणि_राज्य,
+  },
+  {
+    "2020_12_24_गोष्टीचं-नाटक-प्रतीक्षा":
+      articleData_2020_12_24_गोष्टीचं_नाटक_प्रतीक्षा,
+  },
+  { "2020_12_20_डिसेंबर-२०२०": articleData_2020_12_20_डिसेंबर_२०२० },
+  {
+    "2020_12_10_पुष्पाताई-गेल्या-सं":
+      articleData_2020_12_10_पुष्पाताई_गेल्या_सं,
+  },
+  {
+    "2020_12_10_दुकानजत्रा-एक-जीवनस्पर्":
+      articleData_2020_12_10_दुकानजत्रा_एक_जीवनस्पर्,
+  },
+  {
+    "2020_12_10_अभिनंदन-रणजितसिंह-डिसले":
+      articleData_2020_12_10_अभिनंदन_रणजितसिंह_डिसले,
+  },
+  {
+    "2020_11_14_भूगोलची-बूक-सापडत-नाही-मु":
+      articleData_2020_11_14_भूगोलची_बूक_सापडत_नाही_मु,
+  },
+  {
+    "2020_11_14_भाषेची-आनंदयात्रा-दिलीप":
+      articleData_2020_11_14_भाषेची_आनंदयात्रा_दिलीप,
+  },
+  { "2020_11_13_स्पार्टाकस": articleData_2020_11_13_स्पार्टाकस },
+  {
+    "2020_11_13_संवादकीय-ऑक्टोबर-नोव्हे-3":
+      articleData_2020_11_13_संवादकीय_ऑक्टोबर_नोव्हे_3,
+  },
+  {
+    "2020_11_13_संदर्भ-हरवलेला-शब्द-डॉ-गण":
+      articleData_2020_11_13_संदर्भ_हरवलेला_शब्द_डॉ_गण,
+  },
+  {
+    "2020_11_13_संज्ञा-काटेकोरपणेच-बनवल्":
+      articleData_2020_11_13_संज्ञा_काटेकोरपणेच_बनवल्,
+  },
+  { "2020_11_13_संगीत-नावाची-जादू": articleData_2020_11_13_संगीत_नावाची_जादू },
+  { "2020_11_13_शहर-की-भाषा": articleData_2020_11_13_शहर_की_भाषा },
+  { "2020_11_13_शब्दांपल्याड": articleData_2020_11_13_शब्दांपल्याड },
+  {
+    "2020_11_13_ये-हृदयीचे-ते-हृदयी":
+      articleData_2020_11_13_ये_हृदयीचे_ते_हृदयी,
+  },
+  { "2020_11_13_मेंदूच्या-भाषेत": articleData_2020_11_13_मेंदूच्या_भाषेत },
+  { "2020_11_13_माडिया-शिकू-या": articleData_2020_11_13_माडिया_शिकू_या },
+  {
+    "2020_11_13_जो-हुआ-करता-हैं-फिल्मों-मे":
+      articleData_2020_11_13_जो_हुआ_करता_हैं_फिल्मों_मे,
+  },
+  { "2020_11_13_गोष्टींची-शाळा": articleData_2020_11_13_गोष्टींची_शाळा },
+  {
+    "2020_11_12_भाषेचे-सांस्कृतिक-राजकार":
+      articleData_2020_11_12_भाषेचे_सांस्कृतिक_राजकार,
+  },
+  { "2020_11_12_भाषा-समजून-घेताना": articleData_2020_11_12_भाषा_समजून_घेताना },
+  { "2020_11_12_टेबल-म्हणजे-टेबल": articleData_2020_11_12_टेबल_म्हणजे_टेबल },
+  {
+    "2020_11_12_छोट्यांचे-भाषाविश्व":
+      articleData_2020_11_12_छोट्यांचे_भाषाविश्व,
+  },
+  { "2020_11_12_ग्रेन्युईची-गोष्ट": articleData_2020_11_12_ग्रेन्युईची_गोष्ट },
+  {
+    "2020_11_12_करक-भाषेचं-पुनरुज्जीवन":
+      articleData_2020_11_12_करक_भाषेचं_पुनरुज्जीवन,
+  },
+  {
+    "2020_11_12_आगामी-पुस्तकाबद्दल": articleData_2020_11_12_आगामी_पुस्तकाबद्दल,
+  },
+  { "2020_11_12_अश्शी-भाषा": articleData_2020_11_12_अश्शी_भाषा },
+  {
+    "2020_11_12_॥आरोग्यसंवादु॥-॥स्वतःला":
+      articleData_2020_11_12_आरोग्यसंवादु_स्वतःला,
+  },
+  { "2020_11_11_मुलात-मूल": articleData_2020_11_11_मुलात_मूल },
+  { "2020_11_11_अक्षरसेतू": articleData_2020_11_11_अक्षरसेतू },
+  {
+    "2020_11_10_कुणी-घर-देता-का-घर-मराठीला":
+      articleData_2020_11_10_कुणी_घर_देता_का_घर_मराठीला,
+  },
+  {
+    "2020_11_09_भाषांची-पौष्टिक-खिचडी":
+      articleData_2020_11_09_भाषांची_पौष्टिक_खिचडी,
+  },
+  {
+    "2020_11_08_राष्ट्रीय-शिक्षण-धोरण-सं":
+      articleData_2020_11_08_राष्ट्रीय_शिक्षण_धोरण_सं,
+  },
+  {
+    "2020_11_07_मराठीचा-अस्सल-गोडवा-ओवी-स":
+      articleData_2020_11_07_मराठीचा_अस्सल_गोडवा_ओवी_स,
+  },
+  {
+    "2020_11_06_मातृभाषेवर-आधारित-बहुभाष":
+      articleData_2020_11_06_मातृभाषेवर_आधारित_बहुभाष,
+  },
+  {
+    "2020_11_06_mother-tongue-based-multilingual-education-and-english-in-india":
+      articleData_2020_11_06_mother_tongue_based_multilingual_education_and_english_in_india,
+  },
+  {
+    "2020_11_05_मित्रहो-पु-ल-देशपांडे":
+      articleData_2020_11_05_मित्रहो_पु_ल_देशपांडे,
+  },
+  {
+    "2020_11_05_ऑक्टोबर-नोव्हेंबर-२०२०-द":
+      articleData_2020_11_05_ऑक्टोबर_नोव्हेंबर_२०२०_द,
+  },
+  { "2020_11_04_मुलांशी-बोलताना": articleData_2020_11_04_मुलांशी_बोलताना },
+  {
+    "2020_11_03_मुलांबरोबर-भाषा-शिकताना":
+      articleData_2020_11_03_मुलांबरोबर_भाषा_शिकताना,
+  },
+  {
+    "2020_10_30_जोडअंक-ऑक्टोबर-नोव्हेंब":
+      articleData_2020_10_30_जोडअंक_ऑक्टोबर_नोव्हेंब,
+  },
+  {
+    "2020_09_14_संपादकीय-ऑगस्ट-सप्टेंबर":
+      articleData_2020_09_14_संपादकीय_ऑगस्ट_सप्टेंबर,
+  },
+  {
+    "2020_09_14_शाळाबंदी-ही-एक-संधीच":
+      articleData_2020_09_14_शाळाबंदी_ही_एक_संधीच,
+  },
+  {
+    "2020_09_14_राष्ट्रीय-शिक्षण-धोरण-2020":
+      articleData_2020_09_14_राष्ट्रीय_शिक्षण_धोरण_2020,
+  },
+  {
+    "2020_09_14_ये-दुख-काहे-खतम-नही-होता-बे-2":
+      articleData_2020_09_14_ये_दुख_काहे_खतम_नही_होता_बे_2,
+  },
+  {
+    "2020_09_14_पुस्तकावरचे-प्रतिसादात्":
+      articleData_2020_09_14_पुस्तकावरचे_प्रतिसादात्,
+  },
+  {
+    "2020_09_14_पुन्हा-घडवूया-रेनायसन्स":
+      articleData_2020_09_14_पुन्हा_घडवूया_रेनायसन्स,
+  },
+  { "2020_09_14_घरच्या-घरी": articleData_2020_09_14_घरच्या_घरी },
+  { "2020_09_14_कोविड-आणि-आपण": articleData_2020_09_14_कोविड_आणि_आपण },
+  { "2020_09_14_ऑनलाईन-शिक्षण": articleData_2020_09_14_ऑनलाईन_शिक्षण },
+  {
+    "2020_09_14_आदरांजली-डॉ-इलीना-सेन":
+      articleData_2020_09_14_आदरांजली_डॉ_इलीना_सेन,
+  },
+  {
+    "2020_09_04_ऑगस्ट-सप्टेंबर-२०२०":
+      articleData_2020_09_04_ऑगस्ट_सप्टेंबर_२०२०,
+  },
+  {
+    "2020_07_28_संवादकीय-जून-जुलै-२०२०":
+      articleData_2020_07_28_संवादकीय_जून_जुलै_२०२०,
+  },
+  {
+    "2020_07_28_लॉक्ड-डाऊन-इन-जम्मू":
+      articleData_2020_07_28_लॉक्ड_डाऊन_इन_जम्मू,
+  },
+  {
+    "2020_07_28_लीलाताई-आनंद-निकेतन-शाळे":
+      articleData_2020_07_28_लीलाताई_आनंद_निकेतन_शाळे,
+  },
+  {
+    "2020_07_28_ये-दुख-काहे-खतम-नही-होता-बे":
+      articleData_2020_07_28_ये_दुख_काहे_खतम_नही_होता_बे,
+  },
+  { "2020_07_28_मुलं-टेकडी-आणि-मी": articleData_2020_07_28_मुलं_टेकडी_आणि_मी },
+  {
+    "2020_07_28_बिकट-वाट-वहिवाट-नसावी":
+      articleData_2020_07_28_बिकट_वाट_वहिवाट_नसावी,
+  },
+  {
+    "2020_07_28_पुस्तकातील-चित्रं-आणि-कल":
+      articleData_2020_07_28_पुस्तकातील_चित्रं_आणि_कल,
+  },
+  {
+    "2020_07_28_ज्योतसे-ज्योत-जलाते-चलो":
+      articleData_2020_07_28_ज्योतसे_ज्योत_जलाते_चलो,
+  },
+  {
+    "2020_07_28_गाणं-ज्याचं-त्याचं-तुमच":
+      articleData_2020_07_28_गाणं_ज्याचं_त्याचं_तुमच,
+  },
+  {
+    "2020_07_28_कचरावेचक-बालमजूर-आर्थिक":
+      articleData_2020_07_28_कचरावेचक_बालमजूर_आर्थिक,
+  },
+  {
+    "2020_07_28_आपण-गिऱ्हाईक-होतोय-का":
+      articleData_2020_07_28_आपण_गिऱ्हाईक_होतोय_का,
+  },
+  { "2020_07_28_आदरांजली-लीलाताई": articleData_2020_07_28_आदरांजली_लीलाताई },
+  { "2020_07_28_2148-2": articleData_2020_07_28_2148_2 },
+  { "2020_07_05_जून-जुलै-२०२०": articleData_2020_07_05_जून_जुलै_२०२० },
+  {
+    "2020_05_28_कुछ-ना-कहो-स्लो-माध्यमे":
+      articleData_2020_05_28_कुछ_ना_कहो_स्लो_माध्यमे,
+  },
+  {
+    "2020_05_26_लॉकडाऊनदरम्यान-अनुभवलेल":
+      articleData_2020_05_26_लॉकडाऊनदरम्यान_अनुभवलेल,
+  },
+  { "2020_05_26_ताकि-थमे-नहीं-कलम": articleData_2020_05_26_ताकि_थमे_नहीं_कलम },
+  {
+    "2020_05_22_संकटातील-संधी-आणि-संधीती":
+      articleData_2020_05_22_संकटातील_संधी_आणि_संधीती,
+  },
+  {
+    "2020_05_20_अत्यावश्यक-ते-अनावश्यकव्":
+      articleData_2020_05_20_अत्यावश्यक_ते_अनावश्यकव्,
+  },
+  {
+    "2020_05_12_संवादकीय-एप्रिल-मे-२०२०":
+      articleData_2020_05_12_संवादकीय_एप्रिल_मे_२०२०,
+  },
+  { "2020_05_11_जजमेंट-डे": articleData_2020_05_11_जजमेंट_डे },
+  {
+    "2020_05_11_कथा-कहाण्यांच्या-परिघापल":
+      articleData_2020_05_11_कथा_कहाण्यांच्या_परिघापल,
+  },
+  { "2020_05_10_बालक-पालक-आणि-मी": articleData_2020_05_10_बालक_पालक_आणि_मी },
+  { "2020_05_05_एप्रिल-मे-२०२०": articleData_2020_05_05_एप्रिल_मे_२०२० },
+  {
+    "2020_05_05_एका-शिक्षकाची-डायरी":
+      articleData_2020_05_05_एका_शिक्षकाची_डायरी,
+  },
+  { "2020_05_04_पालकांना-पत्र": articleData_2020_05_04_पालकांना_पत्र },
+  {
+    "2020_03_23_संवादकीय-मार्च-२०२०":
+      articleData_2020_03_23_संवादकीय_मार्च_२०२०,
+  },
+  { "2020_03_23_वदनी-कवळ-घेता": articleData_2020_03_23_वदनी_कवळ_घेता },
+  {
+    "2020_03_23_फेक-न्यूज-अर्थात-भंपक-भरत":
+      articleData_2020_03_23_फेक_न्यूज_अर्थात_भंपक_भरत,
+  },
+  { "2020_03_23_नेमेचि-येतो": articleData_2020_03_23_नेमेचि_येतो },
+  { "2020_03_23_थंगारी": articleData_2020_03_23_थंगारी },
+  { "2020_03_23_आता-खेळा-नाचा": articleData_2020_03_23_आता_खेळा_नाचा },
+  { "2020_03_05_मार्च-२०२०": articleData_2020_03_05_मार्च_२०२० },
+  {
+    "2020_02_16_संवादकीय-फेब्रुवारी-२०२":
+      articleData_2020_02_16_संवादकीय_फेब्रुवारी_२०२,
+  },
+  { "2020_02_16_वाचक-कळवतात": articleData_2020_02_16_वाचक_कळवतात },
+  { "2020_02_16_मी-कुठे-जाऊ": articleData_2020_02_16_मी_कुठे_जाऊ },
+  {
+    "2020_02_16_नवजाणिवांच्या-प्रसूतिकळ":
+      articleData_2020_02_16_नवजाणिवांच्या_प्रसूतिकळ,
+  },
+  { "2020_02_16_कमी-हळू-खरे": articleData_2020_02_16_कमी_हळू_खरे },
+  {
+    "2020_02_16_कथुली-माझ्या-शेजाऱ्याचा":
+      articleData_2020_02_16_कथुली_माझ्या_शेजाऱ्याचा,
+  },
+  {
+    "2020_02_16_आदरांजली-विमुक्ता-विद्य":
+      articleData_2020_02_16_आदरांजली_विमुक्ता_विद्य,
+  },
+  {
+    "2020_02_16_अभिव्यक्ती-अभिनयाच्या-म":
+      articleData_2020_02_16_अभिव्यक्ती_अभिनयाच्या_म,
+  },
+  { "2020_02_04_फेब्रुवारी-२०२०": articleData_2020_02_04_फेब्रुवारी_२०२० },
+  { "2020_01_16_ही-भूमी-माझी-आहे": articleData_2020_01_16_ही_भूमी_माझी_आहे },
+  {
+    "2020_01_16_संवादकीय-जानेवारी-२०२०":
+      articleData_2020_01_16_संवादकीय_जानेवारी_२०२०,
+  },
+  {
+    "2020_01_16_मुलांना-बोलतं-लिहितं-करत":
+      articleData_2020_01_16_मुलांना_बोलतं_लिहितं_करत,
+  },
+  { "2020_01_16_ढग्रास-सूर्यग्रहण": articleData_2020_01_16_ढग्रास_सूर्यग्रहण },
+  {
+    "2020_01_16_गोष्ट-सांगण्यामागची-गोष्":
+      articleData_2020_01_16_गोष्ट_सांगण्यामागची_गोष्,
+  },
+  {
+    "2020_01_16_आम्ही-भारताचे-नागरिक":
+      articleData_2020_01_16_आम्ही_भारताचे_नागरिक,
+  },
+  { "2020_01_05_जानेवारी-२०२०": articleData_2020_01_05_जानेवारी_२०२० },
+  {
+    "2019_12_22_संवादकीय-डिसेंबर-२०१९":
+      articleData_2019_12_22_संवादकीय_डिसेंबर_२०१९,
+  },
+  { "2019_12_21_सूर्योत्सव": articleData_2019_12_21_सूर्योत्सव },
+  {
+    "2019_12_20_गोष्ट-एक-दृष्टिकोन-अनेक-इ":
+      articleData_2019_12_20_गोष्ट_एक_दृष्टिकोन_अनेक_इ,
+  },
+  { "2019_12_19_सत्याग्रह": articleData_2019_12_19_सत्याग्रह },
+  {
+    "2019_12_18_माझी-शाळा-मराठी-शाळा":
+      articleData_2019_12_18_माझी_शाळा_मराठी_शाळा,
+  },
+  { "2019_12_07_सांगायची-गोष्ट": articleData_2019_12_07_सांगायची_गोष्ट },
+  { "2019_12_07_लगीन-मनीमाऊचं": articleData_2019_12_07_लगीन_मनीमाऊचं },
+  {
+    "2019_12_07_रामायणे-300-की-3000":
+      articleData_2019_12_07_रामायणे_300_की_3000,
+  },
+  { "2019_12_07_रंगीत-गंमत": articleData_2019_12_07_रंगीत_गंमत },
+  {
+    "2019_12_07_म्युझिशिअन-रेनच्या-शोधात":
+      articleData_2019_12_07_म्युझिशिअन_रेनच्या_शोधात,
+  },
+  {
+    "2019_12_07_मुलांच्या-विभागाबद्दल":
+      articleData_2019_12_07_मुलांच्या_विभागाबद्दल,
+  },
+  {
+    "2019_12_07_मी-चोरून-साखर-खातो-तेव्हा":
+      articleData_2019_12_07_मी_चोरून_साखर_खातो_तेव्हा,
+  },
+  { "2019_12_07_भाकर": articleData_2019_12_07_भाकर },
+  {
+    "2019_12_07_बेंजामिन-आणि-फ्रँकलिन":
+      articleData_2019_12_07_बेंजामिन_आणि_फ्रँकलिन,
+  },
+  { "2019_12_07_बहादूर-लंगड्या": articleData_2019_12_07_बहादूर_लंगड्या },
+  { "2019_12_07_पृथ्वीवर-चांदोबा": articleData_2019_12_07_पृथ्वीवर_चांदोबा },
+  {
+    "2019_12_07_पाऊस-दणकून-कोसळत-होता":
+      articleData_2019_12_07_पाऊस_दणकून_कोसळत_होता,
+  },
+  { "2019_12_07_धानाची-निंदणी": articleData_2019_12_07_धानाची_निंदणी },
+  { "2019_12_07_देतो-तो-देव": articleData_2019_12_07_देतो_तो_देव },
+  { "2019_12_07_थरारक-सहल": articleData_2019_12_07_थरारक_सहल },
+  {
+    "2019_12_07_चिऊताईचं-शेतकरीदादाला-पत":
+      articleData_2019_12_07_चिऊताईचं_शेतकरीदादाला_पत,
+  },
+  { "2019_12_07_अंकाबद्दल": articleData_2019_12_07_अंकाबद्दल },
+  { "2019_12_06_झाड-मेले": articleData_2019_12_06_झाड_मेले },
+  {
+    "2019_12_06_जेव्हा-काळ-धावून-येतो":
+      articleData_2019_12_06_जेव्हा_काळ_धावून_येतो,
+  },
+  {
+    "2019_12_06_चांदोबा-रोज-फिरायला-जाता":
+      articleData_2019_12_06_चांदोबा_रोज_फिरायला_जाता,
+  },
+  {
+    "2019_12_06_चंद्राला-हात-लावला": articleData_2019_12_06_चंद्राला_हात_लावला,
+  },
+  {
+    "2019_12_06_गावात-पसरला-आनंदी-आनंद":
+      articleData_2019_12_06_गावात_पसरला_आनंदी_आनंद,
+  },
+  { "2019_12_06_कुठे-गेला-ओप्पो": articleData_2019_12_06_कुठे_गेला_ओप्पो },
+  { "2019_12_04_डिसेंबर-२०१९": articleData_2019_12_04_डिसेंबर_२०१९ },
+  {
+    "2019_11_20_ऑक्टोबर-नोव्हेंबर-२०१९-द":
+      articleData_2019_11_20_ऑक्टोबर_नोव्हेंबर_२०१९_द,
+  },
+  {
+    "2019_11_16_संवादकीय-ऑक्टोबर-नोव्हे-2":
+      articleData_2019_11_16_संवादकीय_ऑक्टोबर_नोव्हे_2,
+  },
+  { "2019_11_16_शेत-विकलं": articleData_2019_11_16_शेत_विकलं },
+  { "2019_11_16_शाळा": articleData_2019_11_16_शाळा },
+  {
+    "2019_11_16_लोककथा-आणि-समाजजीवन":
+      articleData_2019_11_16_लोककथा_आणि_समाजजीवन,
+  },
+  {
+    "2019_11_16_चुचू-मांतूची-चॉकलेटांची":
+      articleData_2019_11_16_चुचू_मांतूची_चॉकलेटांची,
+  },
+  { "2019_11_15_स्वीकार-2": articleData_2019_11_15_स्वीकार_2 },
+  { "2019_11_15_मैत्री": articleData_2019_11_15_मैत्री },
+  { "2019_11_15_मित्र-भेटला": articleData_2019_11_15_मित्र_भेटला },
+  { "2019_11_15_तरी-बरं": articleData_2019_11_15_तरी_बरं },
+  { "2019_11_15_तरंग": articleData_2019_11_15_तरंग },
+  { "2019_11_15_टिंकू": articleData_2019_11_15_टिंकू },
+  { "2019_11_15_झॉपांग-भॉतांग": articleData_2019_11_15_झॉपांग_भॉतांग },
+  { "2019_11_15_खजिना": articleData_2019_11_15_खजिना },
+  { "2019_11_15_उजालेकी-ईद": articleData_2019_11_15_उजालेकी_ईद },
+  { "2019_11_15_आणि-महेश-खूश-झाला": articleData_2019_11_15_आणि_महेश_खूश_झाला },
+  { "2019_11_15_आएशाचं-धाडस": articleData_2019_11_15_आएशाचं_धाडस },
+  { "2019_11_15_अक्कामावशीचं-पत्र": articleData_2019_11_15_अक्कामावशीचं_पत्र },
+  { "2019_11_07_सांभाळ": articleData_2019_11_07_सांभाळ },
+  { "2019_11_07_रायमाचा-राजपुत्र": articleData_2019_11_07_रायमाचा_राजपुत्र },
+  { "2019_11_07_चोर-तर-नसेल": articleData_2019_11_07_चोर_तर_नसेल },
+  { "2019_11_07_चिनी": articleData_2019_11_07_चिनी },
+  {
+    "2019_11_07_चालता-चालता-चंद्र-ढगाला-अ":
+      articleData_2019_11_07_चालता_चालता_चंद्र_ढगाला_अ,
+  },
+  { "2019_11_07_काय-हरकत-आहे": articleData_2019_11_07_काय_हरकत_आहे },
+  { "2019_09_15_स्टोरीटेल": articleData_2019_09_15_स्टोरीटेल },
+  {
+    "2019_09_15_संवादकीय-सप्टेंबर-२०१९":
+      articleData_2019_09_15_संवादकीय_सप्टेंबर_२०१९,
+  },
+  { "2019_09_15_लपलेले-कॅमेरे": articleData_2019_09_15_लपलेले_कॅमेरे },
+  { "2019_09_15_माझे-भारतवाचन": articleData_2019_09_15_माझे_भारतवाचन },
+  {
+    "2019_09_15_बाळाचा-सर्वांगीण-विकास-आ":
+      articleData_2019_09_15_बाळाचा_सर्वांगीण_विकास_आ,
+  },
+  {
+    "2019_09_15_पुस्तक-परिचय-सत्योत्तर-र":
+      articleData_2019_09_15_पुस्तक_परिचय_सत्योत्तर_र,
+  },
+  {
+    "2019_09_15_कोंबडा-विकून-टाकला": articleData_2019_09_15_कोंबडा_विकून_टाकला,
+  },
+  { "2019_09_04_सप्टेंबर-२०१९": articleData_2019_09_04_सप्टेंबर_२०१९ },
+  {
+    "2019_08_27_संवादकीय-ऑगस्ट-२०१९":
+      articleData_2019_08_27_संवादकीय_ऑगस्ट_२०१९,
+  },
+  {
+    "2019_08_27_भारतातील-शिक्षणाचं-वास्त":
+      articleData_2019_08_27_भारतातील_शिक्षणाचं_वास्त,
+  },
+  { "2019_08_27_प्ले-थेरपी": articleData_2019_08_27_प्ले_थेरपी },
+  {
+    "2019_08_27_पालकत्व-खरेच-इतके-महत्त्":
+      articleData_2019_08_27_पालकत्व_खरेच_इतके_महत्त्,
+  },
+  {
+    "2019_08_27_इवलेसे-रोप-लावियले-दारी":
+      articleData_2019_08_27_इवलेसे_रोप_लावियले_दारी,
+  },
+  {
+    "2019_08_27_आदरांजली-निर्मलाताई-पुर":
+      articleData_2019_08_27_आदरांजली_निर्मलाताई_पुर,
+  },
+  { "2019_08_04_ऑगस्ट-२०१९": articleData_2019_08_04_ऑगस्ट_२०१९ },
+  {
+    "2019_07_21_सोविएत-बाल-कुमार-साहित्य":
+      articleData_2019_07_21_सोविएत_बाल_कुमार_साहित्य,
+  },
+  {
+    "2019_07_21_संवादकीय-जुलै-२०१९": articleData_2019_07_21_संवादकीय_जुलै_२०१९,
+  },
+  {
+    "2019_07_21_राष्ट्रीय-शिक्षण-धोरण-२०":
+      articleData_2019_07_21_राष्ट्रीय_शिक्षण_धोरण_२०,
+  },
+  {
+    "2019_07_21_दूरदर्शन-आणि-पालकत्व":
+      articleData_2019_07_21_दूरदर्शन_आणि_पालकत्व,
+  },
+  { "2019_07_21_कविता": articleData_2019_07_21_कविता },
+  { "2019_07_21_आनंदघर-डायरीज-2": articleData_2019_07_21_आनंदघर_डायरीज_2 },
+  { "2019_07_04_जुलै-२०१९": articleData_2019_07_04_जुलै_२०१९ },
+  { "2019_06_19_संवादकीय-जून-२०१९": articleData_2019_06_19_संवादकीय_जून_२०१९ },
+  { "2019_06_19_लोकशाही": articleData_2019_06_19_लोकशाही },
+  {
+    "2019_06_19_पुस्तक-परिचय-डेमोक्रॅटि":
+      articleData_2019_06_19_पुस्तक_परिचय_डेमोक्रॅटि,
+  },
+  { "2019_06_19_गाभार्‍यातला-देव": articleData_2019_06_19_गाभार्‍यातला_देव },
+  { "2019_06_19_कथुली-2": articleData_2019_06_19_कथुली_2 },
+  { "2019_06_19_आनंदघर-डायरीज": articleData_2019_06_19_आनंदघर_डायरीज },
+  {
+    "2019_06_19_अंजू-सैगल-शिक्षणक्षेत्र":
+      articleData_2019_06_19_अंजू_सैगल_शिक्षणक्षेत्र,
+  },
+  {
+    "2019_06_19_अंजू-एक-विलक्षण-व्यक्ती":
+      articleData_2019_06_19_अंजू_एक_विलक्षण_व्यक्ती,
+  },
+  { "2019_06_04_जून-२०१९": articleData_2019_06_04_जून_२०१९ },
+  { "2019_05_16_संवादकीय-मे-२०१९": articleData_2019_05_16_संवादकीय_मे_२०१९ },
+  {
+    "2019_05_16_शैक्षणिक-खेळ-आणि-साधने-नि":
+      articleData_2019_05_16_शैक्षणिक_खेळ_आणि_साधने_नि,
+  },
+  { "2019_05_16_शिक्षण-कशासाठी": articleData_2019_05_16_शिक्षण_कशासाठी },
+  { "2019_05_16_मरायला-वेळ-आहे-ना": articleData_2019_05_16_मरायला_वेळ_आहे_ना },
+  { "2019_05_16_पोरक्या-पोरांसाठी": articleData_2019_05_16_पोरक्या_पोरांसाठी },
+  {
+    "2019_05_16_पुस्तक-परिचय-बॉर्न-अ-क्रा":
+      articleData_2019_05_16_पुस्तक_परिचय_बॉर्न_अ_क्रा,
+  },
+  {
+    "2019_05_16_परीक्षा-निष्पत्ती-शून्य":
+      articleData_2019_05_16_परीक्षा_निष्पत्ती_शून्य,
+  },
+  { "2019_05_16_कथुली": articleData_2019_05_16_कथुली },
+  {
+    "2019_05_16_आवाजी-तंत्रज्ञान-आणि-पाल":
+      articleData_2019_05_16_आवाजी_तंत्रज्ञान_आणि_पाल,
+  },
+  { "2019_05_04_मे-२०१९": articleData_2019_05_04_मे_२०१९ },
+  {
+    "2019_04_22_संवादकीय-एप्रिल-२०१९":
+      articleData_2019_04_22_संवादकीय_एप्रिल_२०१९,
+  },
+  {
+    "2019_04_22_शिक्षणाचे-तीन-मार्ग":
+      articleData_2019_04_22_शिक्षणाचे_तीन_मार्ग,
+  },
+  {
+    "2019_04_22_विरोधी-मतं-नीटपणे-का-ऐकून":
+      articleData_2019_04_22_विरोधी_मतं_नीटपणे_का_ऐकून,
+  },
+  { "2019_04_22_वाचक-प्रतिसाद-2": articleData_2019_04_22_वाचक_प्रतिसाद_2 },
+  {
+    "2019_04_22_मुलांवर-विश्वास-ठेवताना":
+      articleData_2019_04_22_मुलांवर_विश्वास_ठेवताना,
+  },
+  {
+    "2019_04_22_तंत्रज्ञान-समृद्ध-जगण्य":
+      articleData_2019_04_22_तंत्रज्ञान_समृद्ध_जगण्य,
+  },
+  {
+    "2019_04_22_टोमॅटो-आदूकडे-गेला-का":
+      articleData_2019_04_22_टोमॅटो_आदूकडे_गेला_का,
+  },
+  {
+    "2019_04_22_एका-सायकलीने-चळवळ-सुरू-के":
+      articleData_2019_04_22_एका_सायकलीने_चळवळ_सुरू_के,
+  },
+  {
+    "2019_04_22_आदरांजली-अरुण-ठाकूर":
+      articleData_2019_04_22_आदरांजली_अरुण_ठाकूर,
+  },
+  { "2019_04_22_trusting-children": articleData_2019_04_22_trusting_children },
+  { "2019_04_04_एप्रिल-२०१९": articleData_2019_04_04_एप्रिल_२०१९ },
+  {
+    "2019_03_18_स्वातंत्र्य-आणि-सुव्यवस्":
+      articleData_2019_03_18_स्वातंत्र्य_आणि_सुव्यवस्,
+  },
+  { "2019_03_18_संवादातून-स्वर्ग": articleData_2019_03_18_संवादातून_स्वर्ग },
+  {
+    "2019_03_18_संवादकीय-मार्च-२०१९":
+      articleData_2019_03_18_संवादकीय_मार्च_२०१९,
+  },
+  {
+    "2019_03_18_शाळांमध्ये-स्वयंशिस्तीच":
+      articleData_2019_03_18_शाळांमध्ये_स्वयंशिस्तीच,
+  },
+  {
+    "2019_03_18_बरं-झालं-चिऊताई-तू-दार-नाह":
+      articleData_2019_03_18_बरं_झालं_चिऊताई_तू_दार_नाह,
+  },
+  {
+    "2019_03_18_पुस्तक-परिचय-स्ट्रीट-किड":
+      articleData_2019_03_18_पुस्तक_परिचय_स्ट्रीट_किड,
+  },
+  { "2019_03_18_कुत्री-आणि-मी": articleData_2019_03_18_कुत्री_आणि_मी },
+  {
+    "2019_03_18_आपल्या-सैनिकांबद्दलच्या":
+      articleData_2019_03_18_आपल्या_सैनिकांबद्दलच्या,
+  },
+  {
+    "2019_03_18_book-review-street-kid":
+      articleData_2019_03_18_book_review_street_kid,
+  },
+  { "2019_03_04_मार्च-२०१९": articleData_2019_03_04_मार्च_२०१९ },
+  {
+    "2019_02_23_स्वातंत्र्य-एक-शिक्षणसा":
+      articleData_2019_02_23_स्वातंत्र्य_एक_शिक्षणसा,
+  },
+  {
+    "2019_02_23_स्वातंत्र्य-आणि-शिस्त-आम":
+      articleData_2019_02_23_स्वातंत्र्य_आणि_शिस्त_आम,
+  },
+  {
+    "2019_02_23_संवादकीय-फेब्रुवारी-२०१-2":
+      articleData_2019_02_23_संवादकीय_फेब्रुवारी_२०१_2,
+  },
+  { "2019_02_23_भोलूची-गोष्ट": articleData_2019_02_23_भोलूची_गोष्ट },
+  {
+    "2019_02_23_पुस्तक-परिचय-हॅत्तेच्य":
+      articleData_2019_02_23_पुस्तक_परिचय_हॅत्तेच्य,
+  },
+  {
+    "2019_02_23_पालकांचा-ध्यास-मुलांच्य":
+      articleData_2019_02_23_पालकांचा_ध्यास_मुलांच्य,
+  },
+  { "2019_02_23_अशी-ही-बनवाबनवी": articleData_2019_02_23_अशी_ही_बनवाबनवी },
+  {
+    "2019_02_22_freedom-as-a-tool-for-learning":
+      articleData_2019_02_22_freedom_as_a_tool_for_learning,
+  },
+  { "2019_02_04_फेब्रुवारी-२०१९": articleData_2019_02_04_फेब्रुवारी_२०१९ },
+  { "2019_01_27_games-fears-play": articleData_2019_01_27_games_fears_play },
+  { "2019_01_26_संवादकीय": articleData_2019_01_26_संवादकीय },
+  {
+    "2019_01_26_संवादकीय-जानेवारी-२०१९":
+      articleData_2019_01_26_संवादकीय_जानेवारी_२०१९,
+  },
+  { "2019_01_26_श्रद्धांजली": articleData_2019_01_26_श्रद्धांजली },
+  {
+    "2019_01_26_भीतीला-सामोरे-जाताना":
+      articleData_2019_01_26_भीतीला_सामोरे_जाताना,
+  },
+  {
+    "2019_01_26_भीतीच्या-राज्यावर-मात":
+      articleData_2019_01_26_भीतीच्या_राज्यावर_मात,
+  },
+  {
+    "2019_01_26_भय-स्वतला-स्वीकारण्याचं":
+      articleData_2019_01_26_भय_स्वतला_स्वीकारण्याचं,
+  },
+  { "2019_01_26_पुस्तक-परीक्षण": articleData_2019_01_26_पुस्तक_परीक्षण },
+  {
+    "2019_01_26_निश्चय-आणि-कृती-यातील-तफा":
+      articleData_2019_01_26_निश्चय_आणि_कृती_यातील_तफा,
+  },
+  {
+    "2019_01_26_जे-कृष्णमूर्ती-म्हणतात":
+      articleData_2019_01_26_जे_कृष्णमूर्ती_म्हणतात,
+  },
+  { "2019_01_26_आजोबा-होणार": articleData_2019_01_26_आजोबा_होणार },
+  { "2019_01_04_जानेवारी-२०१९": articleData_2019_01_04_जानेवारी_२०१९ },
+  {
+    "2018_12_25_भीतीचे-मानसशास्त्रीय-पैल":
+      articleData_2018_12_25_भीतीचे_मानसशास्त्रीय_पैल,
+  },
+  {
+    "2018_12_23_संवादकीय-डिसेंबर-२०१८":
+      articleData_2018_12_23_संवादकीय_डिसेंबर_२०१८,
+  },
+  { "2018_12_23_वाचक-प्रतिसाद": articleData_2018_12_23_वाचक_प्रतिसाद },
+  { "2018_12_23_भीती-समजून-घेऊया": articleData_2018_12_23_भीती_समजून_घेऊया },
+  {
+    "2018_12_23_भय-इथले-संपायला-हवे":
+      articleData_2018_12_23_भय_इथले_संपायला_हवे,
+  },
+  { "2018_12_23_आदरांजली": articleData_2018_12_23_आदरांजली },
+  {
+    "2018_12_23_अर्थव्यवस्था-निसर्गर्‍":
+      articleData_2018_12_23_अर्थव्यवस्था_निसर्गर्‍,
+  },
+  { "2018_12_23_अभिनंदन": articleData_2018_12_23_अभिनंदन },
+  { "2018_12_03_डिसेंबर-२०१८": articleData_2018_12_03_डिसेंबर_२०१८ },
+  {
+    "2018_11_09_संवादकीय-ऑक्टोबर-नोव्हे":
+      articleData_2018_11_09_संवादकीय_ऑक्टोबर_नोव्हे,
+  },
+  {
+    "2018_11_04_होय-हे-लाड-थांबवलेच-पाह":
+      articleData_2018_11_04_होय_हे_लाड_थांबवलेच_पाह,
+  },
+  {
+    "2018_11_04_सोनेजी-कुटुंबाची-गोष्ट":
+      articleData_2018_11_04_सोनेजी_कुटुंबाची_गोष्ट,
+  },
+  {
+    "2018_11_04_संपत्तीच्या-बळे-एक-झाले-आ":
+      articleData_2018_11_04_संपत्तीच्या_बळे_एक_झाले_आ,
+  },
+  {
+    "2018_11_04_व्याख्या-पैशाची-ज्याची-त":
+      articleData_2018_11_04_व्याख्या_पैशाची_ज्याची_त,
+  },
+  {
+    "2018_11_04_मनी-मानसी-हेमंत-बेलसरे":
+      articleData_2018_11_04_मनी_मानसी_हेमंत_बेलसरे,
+  },
+  {
+    "2018_11_04_मनी-मानसी-सायली-तामणे":
+      articleData_2018_11_04_मनी_मानसी_सायली_तामणे,
+  },
+  {
+    "2018_11_04_मनी-मानसी-नीला-आपटे":
+      articleData_2018_11_04_मनी_मानसी_नीला_आपटे,
+  },
+  {
+    "2018_11_04_मनी-मानसी-कुसुम-कर्णिक":
+      articleData_2018_11_04_मनी_मानसी_कुसुम_कर्णिक,
+  },
+  {
+    "2018_11_04_मनी-मानसी-कल्पना-संचेती":
+      articleData_2018_11_04_मनी_मानसी_कल्पना_संचेती,
+  },
+  {
+    "2018_11_04_बुद्धिप्राय-यंत्रणा-अधीन":
+      articleData_2018_11_04_बुद्धिप्राय_यंत्रणा_अधीन,
+  },
+  {
+    "2018_11_04_बाल-मजुरांच्या-दृष्टीतून":
+      articleData_2018_11_04_बाल_मजुरांच्या_दृष्टीतून,
+  },
+  {
+    "2018_11_04_पैशाचे-नियोजन-मेलजोल-अफल":
+      articleData_2018_11_04_पैशाचे_नियोजन_मेलजोल_अफल,
+  },
+  {
+    "2018_11_04_पुस्तक-परिचय-रुपया-पैसा":
+      articleData_2018_11_04_पुस्तक_परिचय_रुपया_पैसा,
+  },
+  {
+    "2018_11_04_पालकत्वाचे-भौतिक-आधार":
+      articleData_2018_11_04_पालकत्वाचे_भौतिक_आधार,
+  },
+  { "2018_11_04_डज-मनी-मेक-यू-मीन": articleData_2018_11_04_डज_मनी_मेक_यू_मीन },
+  { "2018_11_04_कैफियत": articleData_2018_11_04_कैफियत },
+  {
+    "2018_11_04_का-समजून-घ्यायची-ही-पैशां":
+      articleData_2018_11_04_का_समजून_घ्यायची_ही_पैशां,
+  },
+  {
+    "2018_11_04_आपल्याला-किती-पैसा-लागतो":
+      articleData_2018_11_04_आपल्याला_किती_पैसा_लागतो,
+  },
+  {
+    "2018_11_04_अर्थशिक्षण-आणि-पालक":
+      articleData_2018_11_04_अर्थशिक्षण_आणि_पालक,
+  },
+  {
+    "2018_11_04_अर्थव्यवस्था-निसर्गर्‍ह":
+      articleData_2018_11_04_अर्थव्यवस्था_निसर्गर्‍ह,
+  },
+  {
+    "2018_11_03_ऑक्टोबर-नोव्हेंबर-२०१८-द":
+      articleData_2018_11_03_ऑक्टोबर_नोव्हेंबर_२०१८_द,
+  },
+  {
+    "2018_09_18_संवादकीय-सप्टेंबर-२०१८":
+      articleData_2018_09_18_संवादकीय_सप्टेंबर_२०१८,
+  },
+  {
+    "2018_09_18_शास्त्रीय-संगीत-जगण्याच":
+      articleData_2018_09_18_शास्त्रीय_संगीत_जगण्याच,
+  },
+  { "2018_09_18_नृत्योपचार": articleData_2018_09_18_नृत्योपचार },
+  {
+    "2018_09_18_नृत्यकला-ते-स्वतचा-शोध":
+      articleData_2018_09_18_नृत्यकला_ते_स्वतचा_शोध,
+  },
+  {
+    "2018_09_18_नाट्यकला-जगणे-समृद्ध-करण":
+      articleData_2018_09_18_नाट्यकला_जगणे_समृद्ध_करण,
+  },
+  { "2018_09_18_नाटकाची-जादू": articleData_2018_09_18_नाटकाची_जादू },
+  { "2018_09_18_किस्सा": articleData_2018_09_18_किस्सा },
+  {
+    "2018_09_18_कला-पालक-मुलातील-सेतुबंध":
+      articleData_2018_09_18_कला_पालक_मुलातील_सेतुबंध,
+  },
+  { "2018_09_18_कला-कशासाठी": articleData_2018_09_18_कला_कशासाठी },
+  { "2018_09_18_कला-आणि-बालपण": articleData_2018_09_18_कला_आणि_बालपण },
+  { "2018_09_18_उंच-तिचा-झोका": articleData_2018_09_18_उंच_तिचा_झोका },
+  { "2018_09_03_सप्टेंबर-२०१८": articleData_2018_09_03_सप्टेंबर_२०१८ },
+  {
+    "2018_08_13_सामाजिक-संघर्ष-आणि-लहान-म":
+      articleData_2018_08_13_सामाजिक_संघर्ष_आणि_लहान_म,
+  },
+  {
+    "2018_08_13_संवादकीय-ऑगस्ट-२०१८":
+      articleData_2018_08_13_संवादकीय_ऑगस्ट_२०१८,
+  },
+  { "2018_08_13_मी-आम्ही-आपण": articleData_2018_08_13_मी_आम्ही_आपण },
+  { "2018_08_13_माझी-शाळा-कंची": articleData_2018_08_13_माझी_शाळा_कंची },
+  { "2018_08_13_भूमिका-ऑगस्ट-२०१८": articleData_2018_08_13_भूमिका_ऑगस्ट_२०१८ },
+  {
+    "2018_08_13_पालकत्वाला-धर्माची-साथ":
+      articleData_2018_08_13_पालकत्वाला_धर्माची_साथ,
+  },
+  { "2018_08_13_जरुरी-नही-है": articleData_2018_08_13_जरुरी_नही_है },
+  { "2018_08_13_उत्सव": articleData_2018_08_13_उत्सव },
+  { "2018_08_13_इतिहासाचा-धडा": articleData_2018_08_13_इतिहासाचा_धडा },
+  {
+    "2018_08_13_आमचा-सर्वधर्मसमभाव": articleData_2018_08_13_आमचा_सर्वधर्मसमभाव,
+  },
+  {
+    "2018_08_13_अस्वस्थ-आसमंताचे-आव्हान":
+      articleData_2018_08_13_अस्वस्थ_आसमंताचे_आव्हान,
+  },
+  {
+    "2018_08_13_junk-food-habits-that-harm-our-health":
+      articleData_2018_08_13_junk_food_habits_that_harm_our_health,
+  },
+  {
+    "2018_08_04_the-imperfect-fathers":
+      articleData_2018_08_04_the_imperfect_fathers,
+  },
+  {
+    "2018_08_04_role-of-father-in-child-development":
+      articleData_2018_08_04_role_of_father_in_child_development,
+  },
+  { "2018_08_03_स्वर्वोत्तम-बाबा": articleData_2018_08_03_स्वर्वोत्तम_बाबा },
+  {
+    "2018_08_03_स्टे-अॅट-होम-डॅड्स": articleData_2018_08_03_स्टे_अॅट_होम_डॅड्स,
+  },
+  { "2018_08_03_वडील-नसताना": articleData_2018_08_03_वडील_नसताना },
+  {
+    "2018_08_03_बालसंगोपनातील-वडिलांची-भ":
+      articleData_2018_08_03_बालसंगोपनातील_वडिलांची_भ,
+  },
+  {
+    "2018_08_03_प्रसिद्ध-मुलांचे-अप्रसिद":
+      articleData_2018_08_03_प्रसिद्ध_मुलांचे_अप्रसिद,
+  },
+  {
+    "2018_08_03_पालकत्व-वडिलांच्या-अनुप":
+      articleData_2018_08_03_पालकत्व_वडिलांच्या_अनुप,
+  },
+  { "2018_08_03_ऑगस्ट-२०१८": articleData_2018_08_03_ऑगस्ट_२०१८ },
+  { "2018_08_03_अस्तित्व": articleData_2018_08_03_अस्तित्व },
+  {
+    "2018_07_07_पावलं-रवींद्रनाथ-टागोर-the-feet-ra":
+      articleData_2018_07_07_पावलं_रवींद्रनाथ_टागोर_the_feet_ra,
+  },
+  {
+    "2018_07_07_ऑगस्ट-महिन्याचे-प्रश्न":
+      articleData_2018_07_07_ऑगस्ट_महिन्याचे_प्रश्न,
+  },
+  {
+    "2018_07_07_what-we-can-learn-from-animals":
+      articleData_2018_07_07_what_we_can_learn_from_animals,
+  },
+  {
+    "2018_07_07_salim-mamoo-and-me-book-review":
+      articleData_2018_07_07_salim_mamoo_and_me_book_review,
+  },
+  {
+    "2018_07_07_how-do-children-perceive-nature-in-different-ages":
+      articleData_2018_07_07_how_do_children_perceive_nature_in_different_ages,
+  },
+  { "2018_07_06_संवादकीय-जून-२०१८": articleData_2018_07_06_संवादकीय_जून_२०१८ },
+  {
+    "2018_07_06_सलीममामू-अँड-मी-पुस्तक-पर":
+      articleData_2018_07_06_सलीममामू_अँड_मी_पुस्तक_पर,
+  },
+  {
+    "2018_07_06_शब्दांच्या-पलीकडले": articleData_2018_07_06_शब्दांच्या_पलीकडले,
+  },
+  {
+    "2018_07_06_वाढत्या-वयातील-निसर्ग-आक":
+      articleData_2018_07_06_वाढत्या_वयातील_निसर्ग_आक,
+  },
+  {
+    "2018_07_06_पालकत्वाचं-इको-लॉजिक":
+      articleData_2018_07_06_पालकत्वाचं_इको_लॉजिक,
+  },
+  { "2018_07_06_पाचगाव": articleData_2018_07_06_पाचगाव },
+  {
+    "2018_07_06_निसर्गाची-आवड-की-निसर्गा":
+      articleData_2018_07_06_निसर्गाची_आवड_की_निसर्गा,
+  },
+  {
+    "2018_07_03_संवादकीय-जुलै-२०१८": articleData_2018_07_03_संवादकीय_जुलै_२०१८,
+  },
+  {
+    "2018_07_03_व्युत्पत्तीशास्त्र-etymology":
+      articleData_2018_07_03_व्युत्पत्तीशास्त्र_etymology,
+  },
+  {
+    "2018_07_03_मूल-वाढवण्यात-बाबाचा-सहभ":
+      articleData_2018_07_03_मूल_वाढवण्यात_बाबाचा_सहभ,
+  },
+  { "2018_07_03_जुलै-२०१८": articleData_2018_07_03_जुलै_२०१८ },
+  {
+    "2018_06_07_आजीआजोबा-आई-बाबा-नातवं":
+      articleData_2018_06_07_आजीआजोबा_आई_बाबा_नातवं,
+  },
+  {
+    "2018_06_06_पर्यावरण-शिक्षणातून-काय":
+      articleData_2018_06_06_पर्यावरण_शिक्षणातून_काय,
+  },
+  { "2018_06_03_जून-२०१८": articleData_2018_06_03_जून_२०१८ },
+  {
+    "2018_05_31_positive-parenting-workshop-design-strategies-to-nurture-growth-mindset":
+      articleData_2018_05_31_positive_parenting_workshop_design_strategies_to_nurture_growth_mindset,
+  },
+  {
+    "2018_05_24_saying-goodbye-to-achamma":
+      articleData_2018_05_24_saying_goodbye_to_achamma,
+  },
+  { "2018_05_22_साद-प्रतिसाद": articleData_2018_05_22_साद_प्रतिसाद },
+  { "2018_05_22_संवादकीय-मे-2018": articleData_2018_05_22_संवादकीय_मे_2018 },
+  { "2018_05_22_विनोबा": articleData_2018_05_22_विनोबा },
+  { "2018_05_22_माझ्या-आज्या": articleData_2018_05_22_माझ्या_आज्या },
+  { "2018_05_22_निरोप": articleData_2018_05_22_निरोप },
+  { "2018_05_22_नात-मी-आजी-मी": articleData_2018_05_22_नात_मी_आजी_मी },
+  { "2018_05_22_ग्रॅनी-क्लाऊड": articleData_2018_05_22_ग्रॅनी_क्लाऊड },
+  { "2018_05_22_आजी-तुझं-वय-काय": articleData_2018_05_22_आजी_तुझं_वय_काय },
+  {
+    "2018_05_22_आजी-आजोबा-व्हायचंय": articleData_2018_05_22_आजी_आजोबा_व्हायचंय,
+  },
+  { "2018_05_22_आई-आजी-पणजी": articleData_2018_05_22_आई_आजी_पणजी },
+  { "2018_05_22_अमेरिकेतील-आजीपण": articleData_2018_05_22_अमेरिकेतील_आजीपण },
+  { "2018_05_22_अनुबंध": articleData_2018_05_22_अनुबंध },
+  {
+    "2018_05_03_जुलै-महिन्याचे-प्रश्न":
+      articleData_2018_05_03_जुलै_महिन्याचे_प्रश्न,
+  },
+  {
+    "2018_05_02_शिक्षकाच्या-नजरेतून":
+      articleData_2018_05_02_शिक्षकाच्या_नजरेतून,
+  },
+  { "2018_05_02_मे-२०१८": articleData_2018_05_02_मे_२०१८ },
+  { "2018_05_02_माझा-बाबा": articleData_2018_05_02_माझा_बाबा },
+  {
+    "2018_05_02_जून-महिन्याच्या-अंकासाठी":
+      articleData_2018_05_02_जून_महिन्याच्या_अंकासाठी,
+  },
+  {
+    "2018_05_02_गेल्या-अंकांविषयी-वाचक-म":
+      articleData_2018_05_02_गेल्या_अंकांविषयी_वाचक_म,
+  },
+  { "2018_05_02_एक-मैं-और-एक-तू": articleData_2018_05_02_एक_मैं_और_एक_तू },
+  { "2018_05_02_आकडे-वारी-जेंडर": articleData_2018_05_02_आकडे_वारी_जेंडर },
+  {
+    "2018_04_02_स्टॉप-व्हिस्परिंग-अँड-स्":
+      articleData_2018_04_02_स्टॉप_व्हिस्परिंग_अँड_स्,
+  },
+  {
+    "2018_04_02_संवादकिय-एप्रिल-2018":
+      articleData_2018_04_02_संवादकिय_एप्रिल_2018,
+  },
+  {
+    "2018_04_02_समतेच्या-दिशेनं-जाताना":
+      articleData_2018_04_02_समतेच्या_दिशेनं_जाताना,
+  },
+  {
+    "2018_04_02_मुरिया-गोंड-आदिवासी":
+      articleData_2018_04_02_मुरिया_गोंड_आदिवासी,
+  },
+  { "2018_04_02_मला-वाटतं": articleData_2018_04_02_मला_वाटतं },
+  {
+    "2018_04_02_पण-ह्या-बद्दल-कोण-बोलणार":
+      articleData_2018_04_02_पण_ह्या_बद्दल_कोण_बोलणार,
+  },
+  { "2018_04_02_एप्रिल-२०१८": articleData_2018_04_02_एप्रिल_२०१८ },
+  { "2018_03_09_पुस्तक-समीक्षा": articleData_2018_03_09_पुस्तक_समीक्षा },
+  { "2018_03_09_पुरुषत्वाचं-ओझं": articleData_2018_03_09_पुरुषत्वाचं_ओझं },
+  {
+    "2018_03_09_जगण्याशी-जोडलेलं-तत्वज्ञ":
+      articleData_2018_03_09_जगण्याशी_जोडलेलं_तत्वज्ञ,
+  },
+  { "2018_03_09_कायदा-आणि-लिंगभेद": articleData_2018_03_09_कायदा_आणि_लिंगभेद },
+  { "2018_03_09_आत्मकथा": articleData_2018_03_09_आत्मकथा },
+  { "2018_03_09_आकडे-वारी": articleData_2018_03_09_आकडे_वारी },
+  {
+    "2018_03_09_आई-माणूस-बाप-माणूस": articleData_2018_03_09_आई_माणूस_बाप_माणूस,
+  },
+  {
+    "2018_03_09_book-review-what-a-girl":
+      articleData_2018_03_09_book_review_what_a_girl,
+  },
+  { "2018_03_08_शब्दकोश-वाढतोय": articleData_2018_03_08_शब्दकोश_वाढतोय },
+  {
+    "2018_03_07_संवादकीय-मार्च-२०१८":
+      articleData_2018_03_07_संवादकीय_मार्च_२०१८,
+  },
+  { "2018_03_02_receiving": articleData_2018_03_02_receiving },
+  { "2018_03_02_gift-culture": articleData_2018_03_02_gift_culture },
+  { "2018_03_01_मार्च-२०१८": articleData_2018_03_01_मार्च_२०१८ },
+  { "2018_02_28_फेब्रुवारी-२०१८": articleData_2018_02_28_फेब्रुवारी_२०१८ },
+  {
+    "2018_02_03_तिच्यासाठी-त्याच्यासाठ":
+      articleData_2018_02_03_तिच्यासाठी_त्याच्यासाठ,
+  },
+  {
+    "2018_02_03_activity-for-parents-on-gifts-gifting":
+      articleData_2018_02_03_activity_for_parents_on_gifts_gifting,
+  },
+  { "2018_02_03_99-2": articleData_2018_02_03_99_2 },
+  {
+    "2018_02_02_संवादकीय-फेब्रुवारी-२०१":
+      articleData_2018_02_02_संवादकीय_फेब्रुवारी_२०१,
+  },
+  {
+    "2018_02_02_श्री-अरविंद-गुप्ता-यांना":
+      articleData_2018_02_02_श्री_अरविंद_गुप्ता_यांना,
+  },
+  {
+    "2018_02_02_मुलं-भाषा-आणि-आपले-निर्णय":
+      articleData_2018_02_02_मुलं_भाषा_आणि_आपले_निर्णय,
+  },
+  { "2018_02_02_भय-इथले-संपत-नाही": articleData_2018_02_02_भय_इथले_संपत_नाही },
+  {
+    "2018_02_02_बदलतं-पर्यावरण-बदलतं-पाल":
+      articleData_2018_02_02_बदलतं_पर्यावरण_बदलतं_पाल,
+  },
+  {
+    "2018_02_02_जंक-फूड-एक-आरोग्यबाधक-सवय":
+      articleData_2018_02_02_जंक_फूड_एक_आरोग्यबाधक_सवय,
+  },
+  {
+    "2018_02_02_गोष्ट-जुनीचपंचतंत्रातली":
+      articleData_2018_02_02_गोष्ट_जुनीचपंचतंत्रातली,
+  },
+  {
+    "2018_02_02_आधुनिक-तंत्रज्ञान-आणि-आप":
+      articleData_2018_02_02_आधुनिक_तंत्रज्ञान_आणि_आप,
+  },
+  { "2018_02_02_आता-बाळ-कधी": articleData_2018_02_02_आता_बाळ_कधी },
+  { "2018_01_22_स्वीकार": articleData_2018_01_22_स्वीकार },
+  { "2018_01_22_पत्रास-कारण-की": articleData_2018_01_22_पत्रास_कारण_की },
+  { "2018_01_22_जानेवारी-२०१८": articleData_2018_01_22_जानेवारी_२०१८ },
+  { "2018_01_22_गिफ्ट-कल्चर": articleData_2018_01_22_गिफ्ट_कल्चर },
+  {
+    "2017_08_09_सृजनोत्सव-अर्थात-सर्जनसो":
+      articleData_2017_08_09_सृजनोत्सव_अर्थात_सर्जनसो,
+  },
+  {
+    "2017_08_09_शिक्षा-नसणारी-शाळा": articleData_2017_08_09_शिक्षा_नसणारी_शाळा,
+  },
+  {
+    "2017_08_09_शाळेचा-वैचारिक-प्रवास":
+      articleData_2017_08_09_शाळेचा_वैचारिक_प्रवास,
+  },
+  { "2017_08_09_मुलांची-जडण-घडण": articleData_2017_08_09_मुलांची_जडण_घडण },
+  { "2017_08_09_भाषेची-समृद्धी": articleData_2017_08_09_भाषेची_समृद्धी },
+  {
+    "2017_08_09_प्रकल्प-साध्य-नव्हे-तर-सा":
+      articleData_2017_08_09_प्रकल्प_साध्य_नव्हे_तर_सा,
+  },
+  {
+    "2017_08_09_परीघ-विस्तारण्यासाठी":
+      articleData_2017_08_09_परीघ_विस्तारण्यासाठी,
+  },
+  {
+    "2017_08_09_धर्म-सण-उत्सव-समाज-आणि-शाळ":
+      articleData_2017_08_09_धर्म_सण_उत्सव_समाज_आणि_शाळ,
+  },
+  { "2017_08_09_ताईंची-एकतानता": articleData_2017_08_09_ताईंची_एकतानता },
+  { "2017_08_09_झपाटण्याचे-दिवस": articleData_2017_08_09_झपाटण्याचे_दिवस },
+  {
+    "2017_08_09_जीवनशिक्षणाची-प्रयोगशाळ":
+      articleData_2017_08_09_जीवनशिक्षणाची_प्रयोगशाळ,
+  },
+  { "2017_08_09_गुंतागुंत-उकलताना": articleData_2017_08_09_गुंतागुंत_उकलताना },
+  { "2017_08_09_ऑगस्ट-२०१७": articleData_2017_08_09_ऑगस्ट_२०१७ },
+  {
+    "2017_08_09_आमची-बालवाडी-मुक्ता-पुरा":
+      articleData_2017_08_09_आमची_बालवाडी_मुक्ता_पुरा,
+  },
+  {
+    "2017_08_09_आमची-दुसरी-शाळा-आनंद-निके":
+      articleData_2017_08_09_आमची_दुसरी_शाळा_आनंद_निके,
+  },
+  { "2017_08_09_आत्मभान-शिबिर": articleData_2017_08_09_आत्मभान_शिबिर },
+  {
+    "2017_05_09_संवादकीय-ऑगस्ट-२०१७":
+      articleData_2017_05_09_संवादकीय_ऑगस्ट_२०१७,
+  },
+  {
+    "2017_05_09_बिनभिंतीची-उघडी-शाळा-लाख":
+      articleData_2017_05_09_बिनभिंतीची_उघडी_शाळा_लाख,
+  },
+  {
+    "2015_12_16_संवादकीय-डिसेंबर-२०१५":
+      articleData_2015_12_16_संवादकीय_डिसेंबर_२०१५,
+  },
+  { "2015_12_16_डिसेंबर-२०१५": articleData_2015_12_16_डिसेंबर_२०१५ },
+  {
+    "2015_10_03_हत्तीचं-वजन-मधुरा-राजवंश":
+      articleData_2015_10_03_हत्तीचं_वजन_मधुरा_राजवंश,
+  },
+  { "2015_10_03_सावली": articleData_2015_10_03_सावली },
+  {
+    "2015_10_03_संपादकीय-दिवाली-ऑक्टोबर":
+      articleData_2015_10_03_संपादकीय_दिवाली_ऑक्टोबर,
+  },
+  {
+    "2015_10_03_वंचित-समाजातील-मुलांच्या":
+      articleData_2015_10_03_वंचित_समाजातील_मुलांच्या,
+  },
+  { "2015_10_03_मूल-शंभराचं-आहे": articleData_2015_10_03_मूल_शंभराचं_आहे },
+  {
+    "2015_10_03_मुलांच्या-शंभर-भाषा":
+      articleData_2015_10_03_मुलांच्या_शंभर_भाषा,
+  },
+  {
+    "2015_10_03_मुलांचे-सुप्त-गुण-आभा-भाग":
+      articleData_2015_10_03_मुलांचे_सुप्त_गुण_आभा_भाग,
+  },
+  {
+    "2015_10_03_माझ्या-जन्माचं-चित्र-संज":
+      articleData_2015_10_03_माझ्या_जन्माचं_चित्र_संज,
+  },
+  {
+    "2015_10_03_मज्जेत-शिकण्याचा-जादुई-म":
+      articleData_2015_10_03_मज्जेत_शिकण्याचा_जादुई_म,
+  },
+  { "2015_10_03_बैदा-वसीम-मणेर": articleData_2015_10_03_बैदा_वसीम_मणेर },
+  {
+    "2015_10_03_बाटकीचा-प्रकाश-अनभूले":
+      articleData_2015_10_03_बाटकीचा_प्रकाश_अनभूले,
+  },
+  {
+    "2015_10_03_निसर्गाची-शाळा-सुनील-करक":
+      articleData_2015_10_03_निसर्गाची_शाळा_सुनील_करक,
+  },
+  {
+    "2015_10_03_निळी-भिरभिरी-सुस्सू-आणि-इ":
+      articleData_2015_10_03_निळी_भिरभिरी_सुस्सू_आणि_इ,
+  },
+  {
+    "2015_10_03_दिवाली-आक्टो-नोव्हेंबर-२":
+      articleData_2015_10_03_दिवाली_आक्टो_नोव्हेंबर_२,
+  },
+  {
+    "2015_10_03_टिंबाकडून-अक्षराकडे":
+      articleData_2015_10_03_टिंबाकडून_अक्षराकडे,
+  },
+  {
+    "2015_10_03_जीवाचे-बांधकाम-गीतांजली":
+      articleData_2015_10_03_जीवाचे_बांधकाम_गीतांजली,
+  },
+  {
+    "2015_10_03_जन्माच्या-चित्राची-जन्मक":
+      articleData_2015_10_03_जन्माच्या_चित्राची_जन्मक,
+  },
+  {
+    "2015_10_03_चित्रामागचं-चित्र-यशवंत":
+      articleData_2015_10_03_चित्रामागचं_चित्र_यशवंत,
+  },
+  {
+    "2015_10_03_चंदूचा-मेंदू-आणि-शंभर-शक्":
+      articleData_2015_10_03_चंदूचा_मेंदू_आणि_शंभर_शक्,
+  },
+  { "2015_10_03_गजरा-मालविका-झा": articleData_2015_10_03_गजरा_मालविका_झा },
+  {
+    "2015_10_03_आक्का-करेक्ट-नीलिमा-सहस्":
+      articleData_2015_10_03_आक्का_करेक्ट_नीलिमा_सहस्,
+  },
+  { "2015_06_16_जून-२०१५": articleData_2015_06_16_जून_२०१५ },
+  { "2015_06_03_संवादकीय-जून-२०१५": articleData_2015_06_03_संवादकीय_जून_२०१५ },
+  {
+    "2015_06_03_सकारत्मक-ऊर्जा-देणारे-एट":
+      articleData_2015_06_03_सकारत्मक_ऊर्जा_देणारे_एट,
+  },
+  {
+    "2015_06_03_शाळा-नावाचे-मुग्रजल-कृति":
+      articleData_2015_06_03_शाळा_नावाचे_मुग्रजल_कृति,
+  },
+  {
+    "2015_06_03_शहाणी-वेबपाने-मधुरा-राजव":
+      articleData_2015_06_03_शहाणी_वेबपाने_मधुरा_राजव,
+  },
+  {
+    "2015_06_03_विचार-करून-पाहू-बाळ-निघाल":
+      articleData_2015_06_03_विचार_करून_पाहू_बाळ_निघाल,
+  },
+  {
+    "2015_06_03_मी-मराठी-शाळेत-शिकवतोय-फा":
+      articleData_2015_06_03_मी_मराठी_शाळेत_शिकवतोय_फा,
+  },
+  {
+    "2015_06_03_बंगल्यातली-शाळा-प्रकाश-अ":
+      articleData_2015_06_03_बंगल्यातली_शाळा_प्रकाश_अ,
+  },
+  {
+    "2015_06_03_पुस्तक-परीक्षण-विभा-देशप":
+      articleData_2015_06_03_पुस्तक_परीक्षण_विभा_देशप,
+  },
+  {
+    "2015_06_03_निर्णय-शाळा-प्रवेशाचा-रा":
+      articleData_2015_06_03_निर्णय_शाळा_प्रवेशाचा_रा,
+  },
+  {
+    "2015_06_03_ज्ञानाची-भाषा-नीला-आपटे":
+      articleData_2015_06_03_ज्ञानाची_भाषा_नीला_आपटे,
+  },
+  {
+    "2015_05_16_शहाणी-नसलेली-वेबपाने-प्र":
+      articleData_2015_05_16_शहाणी_नसलेली_वेबपाने_प्र,
+  },
+  {
+    "2015_05_16_विचार-करून-पाहू-अवगड-विषय":
+      articleData_2015_05_16_विचार_करून_पाहू_अवगड_विषय,
+  },
+  {
+    "2015_05_16_मुलांचा-खेळ-धीश्क्याव-आन":
+      articleData_2015_05_16_मुलांचा_खेळ_धीश्क्याव_आन,
+  },
+  {
+    "2015_05_16_मुलं-आणि-अध्ययनात-येणाऱ्":
+      articleData_2015_05_16_मुलं_आणि_अध्ययनात_येणाऱ्,
+  },
+  {
+    "2015_05_16_भीती-कविता-प्रमोद-तिवारी":
+      articleData_2015_05_16_भीती_कविता_प्रमोद_तिवारी,
+  },
+  {
+    "2015_05_16_आंनदाने-शिकण्याच्या-दिशे":
+      articleData_2015_05_16_आंनदाने_शिकण्याच्या_दिशे,
+  },
+  { "2015_04_01_22799": articleData_2015_04_01_22799 },
+  { "2015_04_01_22628": articleData_2015_04_01_22628 },
+  { "2015_04_01_22627": articleData_2015_04_01_22627 },
+  { "2015_04_01_22626": articleData_2015_04_01_22626 },
+  { "2015_04_01_22625": articleData_2015_04_01_22625 },
+  { "2015_04_01_22624": articleData_2015_04_01_22624 },
+  { "2015_04_01_22623": articleData_2015_04_01_22623 },
+  { "2015_04_01_22622": articleData_2015_04_01_22622 },
+  { "2015_03_01_22798": articleData_2015_03_01_22798 },
+  { "2015_03_01_22621": articleData_2015_03_01_22621 },
+  { "2015_03_01_22620": articleData_2015_03_01_22620 },
+  { "2015_03_01_22619": articleData_2015_03_01_22619 },
+  { "2015_03_01_22618": articleData_2015_03_01_22618 },
+  { "2015_03_01_22617": articleData_2015_03_01_22617 },
+  { "2015_03_01_22616": articleData_2015_03_01_22616 },
+  { "2015_01_01_22796": articleData_2015_01_01_22796 },
+  { "2015_01_01_22606": articleData_2015_01_01_22606 },
+  { "2015_01_01_22605": articleData_2015_01_01_22605 },
+  { "2015_01_01_22604": articleData_2015_01_01_22604 },
+  { "2015_01_01_22603": articleData_2015_01_01_22603 },
+  { "2015_01_01_22602": articleData_2015_01_01_22602 },
+  { "2015_01_01_22601": articleData_2015_01_01_22601 },
+  { "2015_01_01_22600": articleData_2015_01_01_22600 },
+  { "2015_01_01_22599": articleData_2015_01_01_22599 },
+  { "2015_01_01_22598": articleData_2015_01_01_22598 },
+  { "2015_01_01_22597": articleData_2015_01_01_22597 },
+  { "2015_01_01_22596": articleData_2015_01_01_22596 },
+  { "2015_01_01_22595": articleData_2015_01_01_22595 },
+  {
+    "2014_11_16_आम्ही-प्रकाशबीजे-रुजवीत":
+      articleData_2014_11_16_आम्ही_प्रकाशबीजे_रुजवीत,
+  },
+  { "2014_10_01_22795": articleData_2014_10_01_22795 },
+  { "2014_10_01_22594": articleData_2014_10_01_22594 },
+  { "2014_10_01_22593": articleData_2014_10_01_22593 },
+  { "2014_10_01_22592": articleData_2014_10_01_22592 },
+  { "2014_10_01_22591": articleData_2014_10_01_22591 },
+  { "2014_10_01_22590": articleData_2014_10_01_22590 },
+  { "2014_10_01_22589": articleData_2014_10_01_22589 },
+  { "2014_10_01_22588": articleData_2014_10_01_22588 },
+  { "2014_10_01_22587": articleData_2014_10_01_22587 },
+  { "2014_10_01_22586": articleData_2014_10_01_22586 },
+  { "2014_10_01_22585": articleData_2014_10_01_22585 },
+  { "2014_10_01_22584": articleData_2014_10_01_22584 },
+  { "2014_10_01_22583": articleData_2014_10_01_22583 },
+  {
+    "2014_09_30_संवादकीय-सप्टेंबर-२०१४-2":
+      articleData_2014_09_30_संवादकीय_सप्टेंबर_२०१४_2,
+  },
+  {
+    "2014_09_16_संवादकीय-सप्टेंबर-२०१४":
+      articleData_2014_09_16_संवादकीय_सप्टेंबर_२०१४,
+  },
+  { "2014_09_16_सप्टेंबर-२०१४-2": articleData_2014_09_16_सप्टेंबर_२०१४_2 },
+  {
+    "2014_09_16_सकारात्मक-शिस्त-लेखांक-६":
+      articleData_2014_09_16_सकारात्मक_शिस्त_लेखांक_६,
+  },
+  {
+    "2014_09_16_शब्दबिंब-सप्टेंबर-२०१४":
+      articleData_2014_09_16_शब्दबिंब_सप्टेंबर_२०१४,
+  },
+  { "2014_09_16_शब्द-वेचताना": articleData_2014_09_16_शब्द_वेचताना },
+  {
+    "2014_08_30_संवादकीय-ऑगस्ट-२०१४-2":
+      articleData_2014_08_30_संवादकीय_ऑगस्ट_२०१४_2,
+  },
+  {
+    "2014_08_09_संवादकीय-ऑगस्ट-२०१४":
+      articleData_2014_08_09_संवादकीय_ऑगस्ट_२०१४,
+  },
+  {
+    "2014_08_09_सकारात्मक-शिस्त-लेखांक-५":
+      articleData_2014_08_09_सकारात्मक_शिस्त_लेखांक_५,
+  },
+  {
+    "2014_08_09_धर्म-धर्मनिरपेक्षता-आणि":
+      articleData_2014_08_09_धर्म_धर्मनिरपेक्षता_आणि,
+  },
+  { "2014_08_09_ऑगस्ट-२०१४": articleData_2014_08_09_ऑगस्ट_२०१४ },
+  {
+    "2014_08_09_आम्हालाही-ग्रामसभेत-आमचे":
+      articleData_2014_08_09_आम्हालाही_ग्रामसभेत_आमचे,
+  },
+  {
+    "2014_07_30_संवादकीय-जुलै-२०१४-2":
+      articleData_2014_07_30_संवादकीय_जुलै_२०१४_2,
+  },
+  {
+    "2014_07_11_संवादकीय-जुलै-२०१४": articleData_2014_07_11_संवादकीय_जुलै_२०१४,
+  },
+  {
+    "2014_07_11_सत्तांतरासाठी-फिरणारं-च":
+      articleData_2014_07_11_सत्तांतरासाठी_फिरणारं_च,
+  },
+  {
+    "2014_07_11_सकारात्मक-शिस्त-उपायांच":
+      articleData_2014_07_11_सकारात्मक_शिस्त_उपायांच,
+  },
+  {
+    "2014_07_11_नवक्षितिज-विशेष-प्रौढ":
+      articleData_2014_07_11_नवक्षितिज_विशेष_प्रौढ,
+  },
+  { "2014_07_11_जुलै-२०१४": articleData_2014_07_11_जुलै_२०१४ },
+  {
+    "2014_07_11_कॉम्पुटर-लॅब-सुरू-झाली":
+      articleData_2014_07_11_कॉम्पुटर_लॅब_सुरू_झाली,
+  },
+  {
+    "2014_06_30_संवादकीय-जून-२०१४-2":
+      articleData_2014_06_30_संवादकीय_जून_२०१४_2,
+  },
+  {
+    "2014_06_11_ही-आहे-उजेडाची-पेरणी":
+      articleData_2014_06_11_ही_आहे_उजेडाची_पेरणी,
+  },
+  { "2014_06_11_संवादकीय-जून-२०१४": articleData_2014_06_11_संवादकीय_जून_२०१४ },
+  {
+    "2014_06_11_शिक्षण-गुणवत्तापूर्ण-होण":
+      articleData_2014_06_11_शिक्षण_गुणवत्तापूर्ण_होण,
+  },
+  {
+    "2014_06_11_मुलं-स्वत-शिकत-आहेत":
+      articleData_2014_06_11_मुलं_स्वत_शिकत_आहेत,
+  },
+  {
+    "2014_06_11_ज्ञानरचनावाद-काय-आहे-आणि":
+      articleData_2014_06_11_ज्ञानरचनावाद_काय_आहे_आणि,
+  },
+  { "2014_06_11_जून-२०१४": articleData_2014_06_11_जून_२०१४ },
+  {
+    "2014_06_11_ऍक्टिव-टीचर्स-फोरमचं-शिक":
+      articleData_2014_06_11_ऍक्टिव_टीचर्स_फोरमचं_शिक,
+  },
+  { "2014_06_11_असं-झालं-संमेलन": articleData_2014_06_11_असं_झालं_संमेलन },
+  {
+    "2014_05_30_संवादकीय-मे-२०१४-2": articleData_2014_05_30_संवादकीय_मे_२०१४_2,
+  },
+  { "2014_05_12_संवादकीय-मे-२०१४": articleData_2014_05_12_संवादकीय_मे_२०१४ },
+  {
+    "2014_05_12_रसिका-एक-प्रकाश-शलाका":
+      articleData_2014_05_12_रसिका_एक_प्रकाश_शलाका,
+  },
+  { "2014_05_12_मे-२०१४": articleData_2014_05_12_मे_२०१४ },
+  {
+    "2014_05_12_बेशिस्तीकडे-बघण्याचा-न":
+      articleData_2014_05_12_बेशिस्तीकडे_बघण्याचा_न,
+  },
+  {
+    "2014_05_12_तंत्रज्ञानाचा-विकास-नव्ह":
+      articleData_2014_05_12_तंत्रज्ञानाचा_विकास_नव्ह,
+  },
+  {
+    "2014_05_12_आदिवासी-संस्कृती-जपण्यास":
+      articleData_2014_05_12_आदिवासी_संस्कृती_जपण्यास,
+  },
+  {
+    "2014_05_12_अदिती-अपूर्वा-तुम्ही-कमा":
+      articleData_2014_05_12_अदिती_अपूर्वा_तुम्ही_कमा,
+  },
+  {
+    "2014_04_30_संवादकीय-एप्रिल-२०१४-3":
+      articleData_2014_04_30_संवादकीय_एप्रिल_२०१४_3,
+  },
+  {
+    "2014_04_16_संवादकीय-एप्रिल-२०१४-2":
+      articleData_2014_04_16_संवादकीय_एप्रिल_२०१४_2,
+  },
+  {
+    "2014_04_12_सांगा-माझ्या-बापानं-नाह":
+      articleData_2014_04_12_सांगा_माझ्या_बापानं_नाह,
+  },
+  {
+    "2014_04_12_संवादकीय-एप्रिल-२०१४":
+      articleData_2014_04_12_संवादकीय_एप्रिल_२०१४,
+  },
+  {
+    "2014_04_12_शब्दबिंब-एप्रिल-२०१४":
+      articleData_2014_04_12_शब्दबिंब_एप्रिल_२०१४,
+  },
+  {
+    "2014_04_12_शब्दबिंब-एप्रिल-२०१४-2":
+      articleData_2014_04_12_शब्दबिंब_एप्रिल_२०१४_2,
+  },
+  { "2014_04_12_मातीचा-सांगाती": articleData_2014_04_12_मातीचा_सांगाती },
+  { "2014_04_12_एप्रिल-२०१४": articleData_2014_04_12_एप्रिल_२०१४ },
+  {
+    "2014_04_12_एक-सहज-आणि-साधं-जगणं-किती-द":
+      articleData_2014_04_12_एक_सहज_आणि_साधं_जगणं_किती_द,
+  },
+  { "2014_04_12_असर-क्या-होता-है": articleData_2014_04_12_असर_क्या_होता_है },
+  {
+    "2014_03_30_संवादकीय-मार्च-२०१४-2":
+      articleData_2014_03_30_संवादकीय_मार्च_२०१४_2,
+  },
+  { "2014_03_12_सांगा-कसं-शिकायचं": articleData_2014_03_12_सांगा_कसं_शिकायचं },
+  {
+    "2014_03_12_संवादकीय-मार्च-२०१४":
+      articleData_2014_03_12_संवादकीय_मार्च_२०१४,
+  },
+  {
+    "2014_03_12_सकारात्मक-शिस्त-मार्च-२०":
+      articleData_2014_03_12_सकारात्मक_शिस्त_मार्च_२०,
+  },
+  { "2014_03_12_मार्च-२०१४": articleData_2014_03_12_मार्च_२०१४ },
+  {
+    "2014_03_12_खेळघर-कादंबरीबद्दल": articleData_2014_03_12_खेळघर_कादंबरीबद्दल,
+  },
+  { "2014_03_12_आश्‍वासक-आधार": articleData_2014_03_12_आश्‍वासक_आधार },
+  {
+    "2014_02_28_संवादकीय-फेब्रुवारी-२०-2":
+      articleData_2014_02_28_संवादकीय_फेब्रुवारी_२०_2,
+  },
+  { "2014_02_28_शब्दबिंब-3": articleData_2014_02_28_शब्दबिंब_3 },
+  {
+    "2014_02_28_खेळघरातले-कलेचे-प्रयोग-2":
+      articleData_2014_02_28_खेळघरातले_कलेचे_प्रयोग_2,
+  },
+  {
+    "2014_02_12_संवादकीय-फेब्रुवारी-२०१-3":
+      articleData_2014_02_12_संवादकीय_फेब्रुवारी_२०१_3,
+  },
+  {
+    "2014_02_12_सकारात्मक-शिस्त-फेब्रुव":
+      articleData_2014_02_12_सकारात्मक_शिस्त_फेब्रुव,
+  },
+  { "2014_02_12_विचार-आणि-भाषा": articleData_2014_02_12_विचार_आणि_भाषा },
+  {
+    "2014_02_12_लीलावती-भागवत-मराठी-बालस":
+      articleData_2014_02_12_लीलावती_भागवत_मराठी_बालस,
+  },
+  { "2014_02_12_माझी-भाषा-कोणती": articleData_2014_02_12_माझी_भाषा_कोणती },
+  { "2014_02_12_मराठीसाठी-जंग-जंग": articleData_2014_02_12_मराठीसाठी_जंग_जंग },
+  { "2014_02_12_फेब्रुवारी-२०१४": articleData_2014_02_12_फेब्रुवारी_२०१४ },
+  {
+    "2014_02_12_गुटखा-खायचाय-अन्-दारूबी-प":
+      articleData_2014_02_12_गुटखा_खायचाय_अन्_दारूबी_प,
+  },
+  {
+    "2014_01_30_संवादकीय-जानेवारी-२०१४-2":
+      articleData_2014_01_30_संवादकीय_जानेवारी_२०१४_2,
+  },
+  {
+    "2014_01_12_संवादकीय-जानेवारी-२०१४":
+      articleData_2014_01_12_संवादकीय_जानेवारी_२०१४,
+  },
+  { "2014_01_12_सकारात्मक-शिस्त": articleData_2014_01_12_सकारात्मक_शिस्त },
+  {
+    "2014_01_12_मुस्कान-एक-हास्य-लोभवणार":
+      articleData_2014_01_12_मुस्कान_एक_हास्य_लोभवणार,
+  },
+  {
+    "2014_01_12_निसर्ग-जोपासनेचे-तत्त्वज":
+      articleData_2014_01_12_निसर्ग_जोपासनेचे_तत्त्वज,
+  },
+  { "2014_01_12_जानेवारी-२०१४": articleData_2014_01_12_जानेवारी_२०१४ },
+  {
+    "2014_01_12_आम्ही-पुस्तक-बनवतो": articleData_2014_01_12_आम्ही_पुस्तक_बनवतो,
+  },
+  { "2013_12_13_डिसेंबर-२०१३": articleData_2013_12_13_डिसेंबर_२०१३ },
+  {
+    "2013_11_13_लळा-लागो-बाळा-पुस्तकांचा":
+      articleData_2013_11_13_लळा_लागो_बाळा_पुस्तकांचा,
+  },
+  {
+    "2013_11_13_बालसाहित्य-साक्षरतेचे-स":
+      articleData_2013_11_13_बालसाहित्य_साक्षरतेचे_स,
+  },
+  {
+    "2013_11_13_दिवाळी-अंक-२०१३-बालसाहित":
+      articleData_2013_11_13_दिवाळी_अंक_२०१३_बालसाहित,
+  },
+  {
+    "2013_11_13_चित्रभाषा-चिन्हभाषा":
+      articleData_2013_11_13_चित्रभाषा_चिन्हभाषा,
+  },
+  {
+    "2013_11_13_का-रे-बालविकासाचा-तुज-न-ये":
+      articleData_2013_11_13_का_रे_बालविकासाचा_तुज_न_ये,
+  },
+  {
+    "2013_11_13_आमच्या-शाळेतील-वाचनप्रयो":
+      articleData_2013_11_13_आमच्या_शाळेतील_वाचनप्रयो,
+  },
+  {
+    "2013_09_13_संवादकीय-सप्टेंबर-२०१३":
+      articleData_2013_09_13_संवादकीय_सप्टेंबर_२०१३,
+  },
+  { "2013_09_13_सप्टेंबर-२०१३": articleData_2013_09_13_सप्टेंबर_२०१३ },
+  {
+    "2013_09_13_शब्दबिंब-सप्टेंबर-२०१३":
+      articleData_2013_09_13_शब्दबिंब_सप्टेंबर_२०१३,
+  },
+  {
+    "2013_09_13_मुलांना-रस-वाटेल-असं-थोडं":
+      articleData_2013_09_13_मुलांना_रस_वाटेल_असं_थोडं,
+  },
+  {
+    "2013_09_13_मुलांच्या-मुक्त-अभिव्यक्":
+      articleData_2013_09_13_मुलांच्या_मुक्त_अभिव्यक्,
+  },
+  {
+    "2013_09_13_पालकत्वाचा-परीघ-विस्तारत":
+      articleData_2013_09_13_पालकत्वाचा_परीघ_विस्तारत,
+  },
+  {
+    "2013_09_13_जनसंवाद-शिक्षणहक्काचा":
+      articleData_2013_09_13_जनसंवाद_शिक्षणहक्काचा,
+  },
+  {
+    "2013_08_13_स्वयंप्रेरणा-यशाच्या-दि":
+      articleData_2013_08_13_स्वयंप्रेरणा_यशाच्या_दि,
+  },
+  {
+    "2013_08_13_संवादकीय-ऑगस्ट-२०१३":
+      articleData_2013_08_13_संवादकीय_ऑगस्ट_२०१३,
+  },
+  {
+    "2013_08_13_या-शाळा-तपासनिसांची-श्रे":
+      articleData_2013_08_13_या_शाळा_तपासनिसांची_श्रे,
+  },
+  {
+    "2013_08_13_गुणवत्तापूर्ण-शिक्षणासा":
+      articleData_2013_08_13_गुणवत्तापूर्ण_शिक्षणासा,
+  },
+  { "2013_08_13_ऑगस्ट-२०१३": articleData_2013_08_13_ऑगस्ट_२०१३ },
+  {
+    "2013_08_13_आपण-आपला-मार्ग-शोधूया":
+      articleData_2013_08_13_आपण_आपला_मार्ग_शोधूया,
+  },
+  {
+    "2013_07_30_शब्दबिंब-जुलै-२०१३": articleData_2013_07_30_शब्दबिंब_जुलै_२०१३,
+  },
+  {
+    "2013_07_30_बालकांची-लैंगिक-सुरक्षा":
+      articleData_2013_07_30_बालकांची_लैंगिक_सुरक्षा,
+  },
+  {
+    "2013_07_30_पुस्तक-परिचय-मुक्त-शिक्ष":
+      articleData_2013_07_30_पुस्तक_परिचय_मुक्त_शिक्ष,
+  },
+  {
+    "2013_07_30_खाकी-वर्दीत-दडलेला-माझा-प":
+      articleData_2013_07_30_खाकी_वर्दीत_दडलेला_माझा_प,
+  },
+  {
+    "2013_07_30_आई-बाप-व्हायचंय-लेखांक-९-म":
+      articleData_2013_07_30_आई_बाप_व्हायचंय_लेखांक_९_म,
+  },
+  {
+    "2013_07_30_अस्सं-शिकणं-सुरेख-बाई-लेख":
+      articleData_2013_07_30_अस्सं_शिकणं_सुरेख_बाई_लेख,
+  },
+  {
+    "2013_07_13_संवादकीय-जुलै-२०१३": articleData_2013_07_13_संवादकीय_जुलै_२०१३,
+  },
+  { "2013_07_13_जुलै-२०१३": articleData_2013_07_13_जुलै_२०१३ },
+  { "2013_06_16_संवादकीय-जून-२०१३": articleData_2013_06_16_संवादकीय_जून_२०१३ },
+  {
+    "2013_06_16_शिक्षण-माध्यमाच्या-आग्रह":
+      articleData_2013_06_16_शिक्षण_माध्यमाच्या_आग्रह,
+  },
+  { "2013_06_16_शाळेची-सुरुवात": articleData_2013_06_16_शाळेची_सुरुवात },
+  { "2013_06_16_शब्दबिंब-जून-२०१३": articleData_2013_06_16_शब्दबिंब_जून_२०१३ },
+  {
+    "2013_06_16_मुलांचे-सृजनात्मक-लिखाण":
+      articleData_2013_06_16_मुलांचे_सृजनात्मक_लिखाण,
+  },
+  {
+    "2013_06_16_निळ्याशार-आकाशाखाली-लालब":
+      articleData_2013_06_16_निळ्याशार_आकाशाखाली_लालब,
+  },
+  { "2013_06_16_जून-२०१३": articleData_2013_06_16_जून_२०१३ },
+  {
+    "2013_06_16_कमलाबाई-निंबकरांविषयी":
+      articleData_2013_06_16_कमलाबाई_निंबकरांविषयी,
+  },
+  {
+    "2013_06_16_आमचा-आनंददायी-प्रवास":
+      articleData_2013_06_16_आमचा_आनंददायी_प्रवास,
+  },
+  { "2013_05_16_संवादकीय-मे-२०१३": articleData_2013_05_16_संवादकीय_मे_२०१३ },
+  { "2013_05_16_शब्दबिंब-मे-२०१३": articleData_2013_05_16_शब्दबिंब_मे_२०१३ },
+  {
+    "2013_05_16_रंगुनि-रंगात-सार्‍या":
+      articleData_2013_05_16_रंगुनि_रंगात_सार्‍या,
+  },
+  { "2013_05_16_मे-२०१३": articleData_2013_05_16_मे_२०१३ },
+  {
+    "2013_05_16_मूल-हवे-अव्यंग-लेखांक-८":
+      articleData_2013_05_16_मूल_हवे_अव्यंग_लेखांक_८,
+  },
+  {
+    "2013_05_16_कार्यकर्त्यांची-पाठशाला":
+      articleData_2013_05_16_कार्यकर्त्यांची_पाठशाला,
+  },
+  {
+    "2013_04_16_संवादकीय-एप्रिल-१३": articleData_2013_04_16_संवादकीय_एप्रिल_१३,
+  },
+  { "2013_04_16_शब्दबिंब": articleData_2013_04_16_शब्दबिंब },
+  {
+    "2013_04_16_माझा-मुलगा-शाळेत-गेला-नाह":
+      articleData_2013_04_16_माझा_मुलगा_शाळेत_गेला_नाह,
+  },
+  {
+    "2013_04_16_प्रतिसाद-शिक्षणमाध्यम-व":
+      articleData_2013_04_16_प्रतिसाद_शिक्षणमाध्यम_व,
+  },
+  {
+    "2013_04_16_पुस्तक-परिचय-भीमायन":
+      articleData_2013_04_16_पुस्तक_परिचय_भीमायन,
+  },
+  { "2013_04_16_एप्रिल-२०१३": articleData_2013_04_16_एप्रिल_२०१३ },
+  {
+    "2013_03_22_पडकई-शाश्वत-विकासासाठी":
+      articleData_2013_03_22_पडकई_शाश्वत_विकासासाठी,
+  },
+  {
+    "2013_03_16_संवादकीय-मार्च-२०१३":
+      articleData_2013_03_16_संवादकीय_मार्च_२०१३,
+  },
+  {
+    "2013_03_16_शब्दबिंब-मार्च-२०१३":
+      articleData_2013_03_16_शब्दबिंब_मार्च_२०१३,
+  },
+  { "2013_03_16_मूल-मुलगी-नकोच": articleData_2013_03_16_मूल_मुलगी_नकोच },
+  { "2013_03_16_मार्च-२०१३": articleData_2013_03_16_मार्च_२०१३ },
+  {
+    "2013_03_16_प्रतिसाद-मार्च-2013":
+      articleData_2013_03_16_प्रतिसाद_मार्च_2013,
+  },
+  {
+    "2013_03_16_प्रतिसाद-भाषिक-राजकारणा":
+      articleData_2013_03_16_प्रतिसाद_भाषिक_राजकारणा,
+  },
+  {
+    "2013_03_16_पडकई-शाश्वत-विकासासाठी-2":
+      articleData_2013_03_16_पडकई_शाश्वत_विकासासाठी_2,
+  },
+  { "2013_03_16_ओ-बी-आर-च्या-नंतर": articleData_2013_03_16_ओ_बी_आर_च्या_नंतर },
+  {
+    "2013_02_28_संवादकीय-फेब्रुवारी-२०":
+      articleData_2013_02_28_संवादकीय_फेब्रुवारी_२०,
+  },
+  {
+    "2013_02_16_संवादकीय-फेब्रुवारी-२०१-4":
+      articleData_2013_02_16_संवादकीय_फेब्रुवारी_२०१_4,
+  },
+  {
+    "2013_02_16_शिक्षणमाध्यम-विशेषांकाव":
+      articleData_2013_02_16_शिक्षणमाध्यम_विशेषांकाव,
+  },
+  { "2013_02_16_शब्दबिंब-2": articleData_2013_02_16_शब्दबिंब_2 },
+  { "2013_02_16_फेब्रुवारी-२०१३": articleData_2013_02_16_फेब्रुवारी_२०१३ },
+  {
+    "2013_02_16_दलित-मातृभाषा-देशभाषा-आण":
+      articleData_2013_02_16_दलित_मातृभाषा_देशभाषा_आण,
+  },
+  {
+    "2013_02_16_खेळघरातले-कलेचे-प्रयोग":
+      articleData_2013_02_16_खेळघरातले_कलेचे_प्रयोग,
+  },
+  {
+    "2013_02_16_उन्मेषांची-अब्जावधी":
+      articleData_2013_02_16_उन्मेषांची_अब्जावधी,
+  },
+  {
+    "2013_02_16_आनंदवनातून-प्रतिसाद":
+      articleData_2013_02_16_आनंदवनातून_प्रतिसाद,
+  },
+  {
+    "2013_01_30_संवादकीय-जानेवारी-२०१३-2":
+      articleData_2013_01_30_संवादकीय_जानेवारी_२०१३_2,
+  },
+  {
+    "2013_01_30_वादे-वादे-जायते-तत्त्वबो":
+      articleData_2013_01_30_वादे_वादे_जायते_तत्त्वबो,
+  },
+  {
+    "2013_01_16_संवादकीय-जानेवारी-२०१३":
+      articleData_2013_01_16_संवादकीय_जानेवारी_२०१३,
+  },
+  {
+    "2013_01_16_माझं-काम-माझं-पालकपण-लेखा":
+      articleData_2013_01_16_माझं_काम_माझं_पालकपण_लेखा,
+  },
+  { "2013_01_16_प्रतिसाद-४": articleData_2013_01_16_प्रतिसाद_४ },
+  { "2013_01_16_प्रतिसाद-१": articleData_2013_01_16_प्रतिसाद_१ },
+  { "2013_01_16_जानेवारी-२०१३": articleData_2013_01_16_जानेवारी_२०१३ },
+  {
+    "2013_01_16_किशोर-दरक-यांच्या-पत्राल":
+      articleData_2013_01_16_किशोर_दरक_यांच्या_पत्राल,
+  },
+  {
+    "2013_01_16_आई-बाप-व्हायचंय-लेखांक-६-ल":
+      articleData_2013_01_16_आई_बाप_व्हायचंय_लेखांक_६_ल,
+  },
+  {
+    "2013_01_13_संवादकीय-डिसेंबर-२०१३":
+      articleData_2013_01_13_संवादकीय_डिसेंबर_२०१३,
+  },
+  { "2013_01_13_सर्वायतन": articleData_2013_01_13_सर्वायतन },
+  {
+    "2013_01_13_मर्यादांच्या-अंगणात-वाढत":
+      articleData_2013_01_13_मर्यादांच्या_अंगणात_वाढत,
+  },
+  {
+    "2013_01_13_पालकनीती-मासिक-थांबवण्या":
+      articleData_2013_01_13_पालकनीती_मासिक_थांबवण्या,
+  },
+  {
+    "2013_01_13_जीवन-सुंदर-आहे-याची-अनुभू":
+      articleData_2013_01_13_जीवन_सुंदर_आहे_याची_अनुभू,
+  },
+  { "2012_10_01_22774": articleData_2012_10_01_22774 },
+  { "2012_10_01_22465": articleData_2012_10_01_22465 },
+  { "2012_10_01_22464": articleData_2012_10_01_22464 },
+  { "2012_10_01_22463": articleData_2012_10_01_22463 },
+  { "2012_10_01_22462": articleData_2012_10_01_22462 },
+  { "2012_10_01_22461": articleData_2012_10_01_22461 },
+  { "2012_10_01_22460": articleData_2012_10_01_22460 },
+  { "2012_10_01_22458": articleData_2012_10_01_22458 },
+  { "2012_10_01_22457": articleData_2012_10_01_22457 },
+  { "2012_10_01_22456": articleData_2012_10_01_22456 },
+  { "2012_10_01_22455": articleData_2012_10_01_22455 },
+  { "2012_10_01_22454": articleData_2012_10_01_22454 },
+  { "2012_10_01_22453": articleData_2012_10_01_22453 },
+  { "2012_10_01_22452": articleData_2012_10_01_22452 },
+  { "2012_10_01_22451": articleData_2012_10_01_22451 },
+  { "2012_10_01_22450": articleData_2012_10_01_22450 },
+  { "2012_10_01_22449": articleData_2012_10_01_22449 },
+  { "2012_10_01_22448": articleData_2012_10_01_22448 },
+  { "2012_10_01_22447": articleData_2012_10_01_22447 },
+  { "2012_10_01_22446": articleData_2012_10_01_22446 },
+  { "2012_10_01_22445": articleData_2012_10_01_22445 },
+  { "2012_10_01_22444": articleData_2012_10_01_22444 },
+  { "2012_09_01_22773": articleData_2012_09_01_22773 },
+  { "2012_09_01_22443": articleData_2012_09_01_22443 },
+  { "2012_09_01_22442": articleData_2012_09_01_22442 },
+  { "2012_09_01_22441": articleData_2012_09_01_22441 },
+  { "2012_09_01_22440": articleData_2012_09_01_22440 },
+  { "2012_09_01_22439": articleData_2012_09_01_22439 },
+  { "2012_09_01_22438": articleData_2012_09_01_22438 },
+  { "2012_08_01_22772": articleData_2012_08_01_22772 },
+  { "2012_08_01_22437": articleData_2012_08_01_22437 },
+  { "2012_08_01_22436": articleData_2012_08_01_22436 },
+  { "2012_08_01_22435": articleData_2012_08_01_22435 },
+  { "2012_08_01_22434": articleData_2012_08_01_22434 },
+  { "2012_08_01_22433": articleData_2012_08_01_22433 },
+  { "2012_08_01_22432": articleData_2012_08_01_22432 },
+  { "2012_07_01_22771": articleData_2012_07_01_22771 },
+  { "2012_07_01_22431": articleData_2012_07_01_22431 },
+  { "2012_07_01_22430": articleData_2012_07_01_22430 },
+  { "2012_07_01_22429": articleData_2012_07_01_22429 },
+  { "2012_07_01_22428": articleData_2012_07_01_22428 },
+  { "2012_07_01_22427": articleData_2012_07_01_22427 },
+  { "2012_07_01_22426": articleData_2012_07_01_22426 },
+  { "2012_07_01_22424": articleData_2012_07_01_22424 },
+  { "2012_07_01_22423": articleData_2012_07_01_22423 },
+  { "2012_06_01_22770": articleData_2012_06_01_22770 },
+  { "2012_06_01_22422": articleData_2012_06_01_22422 },
+  { "2012_06_01_22421": articleData_2012_06_01_22421 },
+  { "2012_06_01_22420": articleData_2012_06_01_22420 },
+  { "2012_06_01_22419": articleData_2012_06_01_22419 },
+  { "2012_06_01_22418": articleData_2012_06_01_22418 },
+  { "2012_05_01_22769": articleData_2012_05_01_22769 },
+  { "2012_05_01_22417": articleData_2012_05_01_22417 },
+  { "2012_05_01_22416": articleData_2012_05_01_22416 },
+  { "2012_05_01_22415": articleData_2012_05_01_22415 },
+  { "2012_05_01_22414": articleData_2012_05_01_22414 },
+  { "2012_05_01_22413": articleData_2012_05_01_22413 },
+  { "2012_04_01_22768": articleData_2012_04_01_22768 },
+  { "2012_04_01_22412": articleData_2012_04_01_22412 },
+  { "2012_04_01_22411": articleData_2012_04_01_22411 },
+  { "2012_04_01_22410": articleData_2012_04_01_22410 },
+  { "2012_04_01_22409": articleData_2012_04_01_22409 },
+  { "2012_04_01_22408": articleData_2012_04_01_22408 },
+  { "2012_04_01_22407": articleData_2012_04_01_22407 },
+  { "2012_03_01_22767": articleData_2012_03_01_22767 },
+  { "2012_03_01_22406": articleData_2012_03_01_22406 },
+  { "2012_03_01_22405": articleData_2012_03_01_22405 },
+  { "2012_03_01_22404": articleData_2012_03_01_22404 },
+  { "2012_03_01_22403": articleData_2012_03_01_22403 },
+  { "2012_03_01_22402": articleData_2012_03_01_22402 },
+  { "2012_02_01_22766": articleData_2012_02_01_22766 },
+  { "2012_02_01_22401": articleData_2012_02_01_22401 },
+  { "2012_02_01_22400": articleData_2012_02_01_22400 },
+  { "2012_02_01_22399": articleData_2012_02_01_22399 },
+  { "2012_02_01_22398": articleData_2012_02_01_22398 },
+  { "2012_02_01_22397": articleData_2012_02_01_22397 },
+  { "2012_02_01_22396": articleData_2012_02_01_22396 },
+  { "2012_02_01_22395": articleData_2012_02_01_22395 },
+  { "2012_01_01_22765": articleData_2012_01_01_22765 },
+  { "2012_01_01_22394": articleData_2012_01_01_22394 },
+  { "2012_01_01_22393": articleData_2012_01_01_22393 },
+  { "2012_01_01_22392": articleData_2012_01_01_22392 },
+  { "2012_01_01_22391": articleData_2012_01_01_22391 },
+  { "2012_01_01_22390": articleData_2012_01_01_22390 },
+  { "2012_01_01_22389": articleData_2012_01_01_22389 },
+  { "2012_01_01_22388": articleData_2012_01_01_22388 },
+  { "2012_01_01_22387": articleData_2012_01_01_22387 },
+  { "2011_12_01_22763": articleData_2011_12_01_22763 },
+  { "2011_12_01_22366": articleData_2011_12_01_22366 },
+  { "2011_12_01_22365": articleData_2011_12_01_22365 },
+  { "2011_12_01_22364": articleData_2011_12_01_22364 },
+  { "2011_12_01_22363": articleData_2011_12_01_22363 },
+  { "2011_12_01_22362": articleData_2011_12_01_22362 },
+  { "2011_12_01_22361": articleData_2011_12_01_22361 },
+  { "2011_12_01_22360": articleData_2011_12_01_22360 },
+  { "2011_10_01_22386": articleData_2011_10_01_22386 },
+  { "2011_10_01_22385": articleData_2011_10_01_22385 },
+  { "2011_10_01_22384": articleData_2011_10_01_22384 },
+  { "2011_10_01_22383": articleData_2011_10_01_22383 },
+  { "2011_10_01_22382": articleData_2011_10_01_22382 },
+  { "2011_10_01_22381": articleData_2011_10_01_22381 },
+  { "2011_10_01_22380": articleData_2011_10_01_22380 },
+  { "2011_10_01_22379": articleData_2011_10_01_22379 },
+  { "2011_10_01_22378": articleData_2011_10_01_22378 },
+  { "2011_10_01_22377": articleData_2011_10_01_22377 },
+  { "2011_10_01_22376": articleData_2011_10_01_22376 },
+  { "2011_10_01_22375": articleData_2011_10_01_22375 },
+  { "2011_10_01_22374": articleData_2011_10_01_22374 },
+  { "2011_10_01_22373": articleData_2011_10_01_22373 },
+  { "2011_10_01_22372": articleData_2011_10_01_22372 },
+  { "2011_10_01_22371": articleData_2011_10_01_22371 },
+  { "2011_10_01_22370": articleData_2011_10_01_22370 },
+  { "2011_10_01_22369": articleData_2011_10_01_22369 },
+  { "2011_10_01_22368": articleData_2011_10_01_22368 },
+  { "2011_10_01_22367": articleData_2011_10_01_22367 },
+  { "2011_09_22_खेळ-विशेषांक-२०११": articleData_2011_09_22_खेळ_विशेषांक_२०११ },
+  { "2011_09_01_22762": articleData_2011_09_01_22762 },
+  { "2011_09_01_22359": articleData_2011_09_01_22359 },
+  { "2011_09_01_22358": articleData_2011_09_01_22358 },
+  { "2011_09_01_22357": articleData_2011_09_01_22357 },
+  { "2011_09_01_22356": articleData_2011_09_01_22356 },
+  { "2011_09_01_22355": articleData_2011_09_01_22355 },
+  { "2011_09_01_22354": articleData_2011_09_01_22354 },
+  { "2011_08_01_22761": articleData_2011_08_01_22761 },
+  { "2011_08_01_22353": articleData_2011_08_01_22353 },
+  { "2011_08_01_22352": articleData_2011_08_01_22352 },
+  { "2011_08_01_22351": articleData_2011_08_01_22351 },
+  { "2011_08_01_22350": articleData_2011_08_01_22350 },
+  { "2011_08_01_22349": articleData_2011_08_01_22349 },
+  { "2011_08_01_22348": articleData_2011_08_01_22348 },
+  { "2011_07_01_22760": articleData_2011_07_01_22760 },
+  { "2011_07_01_22347": articleData_2011_07_01_22347 },
+  { "2011_07_01_22346": articleData_2011_07_01_22346 },
+  { "2011_07_01_22345": articleData_2011_07_01_22345 },
+  { "2011_07_01_22344": articleData_2011_07_01_22344 },
+  { "2011_07_01_22343": articleData_2011_07_01_22343 },
+  { "2011_07_01_22342": articleData_2011_07_01_22342 },
+  { "2011_06_01_22759": articleData_2011_06_01_22759 },
+  { "2011_06_01_22341": articleData_2011_06_01_22341 },
+  { "2011_06_01_22340": articleData_2011_06_01_22340 },
+  { "2011_06_01_22339": articleData_2011_06_01_22339 },
+  { "2011_06_01_22338": articleData_2011_06_01_22338 },
+  { "2011_06_01_22337": articleData_2011_06_01_22337 },
+  { "2011_06_01_22336": articleData_2011_06_01_22336 },
+  { "2011_05_01_22758": articleData_2011_05_01_22758 },
+  { "2011_05_01_22335": articleData_2011_05_01_22335 },
+  { "2011_05_01_22334": articleData_2011_05_01_22334 },
+  { "2011_05_01_22333": articleData_2011_05_01_22333 },
+  { "2011_05_01_22332": articleData_2011_05_01_22332 },
+  { "2011_05_01_22331": articleData_2011_05_01_22331 },
+  { "2011_05_01_22330": articleData_2011_05_01_22330 },
+  { "2011_05_01_22329": articleData_2011_05_01_22329 },
+  { "2011_05_01_22328": articleData_2011_05_01_22328 },
+  { "2011_04_01_22757": articleData_2011_04_01_22757 },
+  { "2011_04_01_22327": articleData_2011_04_01_22327 },
+  { "2011_04_01_22326": articleData_2011_04_01_22326 },
+  { "2011_04_01_22325": articleData_2011_04_01_22325 },
+  { "2011_04_01_22324": articleData_2011_04_01_22324 },
+  { "2011_04_01_22323": articleData_2011_04_01_22323 },
+  { "2011_04_01_22322": articleData_2011_04_01_22322 },
+  { "2011_03_01_22756": articleData_2011_03_01_22756 },
+  { "2011_03_01_22319": articleData_2011_03_01_22319 },
+  { "2011_03_01_22318": articleData_2011_03_01_22318 },
+  { "2011_03_01_22317": articleData_2011_03_01_22317 },
+  { "2011_03_01_22316": articleData_2011_03_01_22316 },
+  { "2011_03_01_22315": articleData_2011_03_01_22315 },
+  { "2011_03_01_22314": articleData_2011_03_01_22314 },
+  { "2011_03_01_22313": articleData_2011_03_01_22313 },
+  { "2011_03_01_22312": articleData_2011_03_01_22312 },
+  { "2011_03_01_22311": articleData_2011_03_01_22311 },
+  { "2011_03_01_22310": articleData_2011_03_01_22310 },
+  { "2011_03_01_22309": articleData_2011_03_01_22309 },
+  { "2011_02_01_22755": articleData_2011_02_01_22755 },
+  { "2011_02_01_22306": articleData_2011_02_01_22306 },
+  { "2011_02_01_22305": articleData_2011_02_01_22305 },
+  { "2011_02_01_22304": articleData_2011_02_01_22304 },
+  { "2011_02_01_22303": articleData_2011_02_01_22303 },
+  { "2011_01_01_22754": articleData_2011_01_01_22754 },
+  { "2011_01_01_22301": articleData_2011_01_01_22301 },
+  { "2011_01_01_22299": articleData_2011_01_01_22299 },
+  { "2011_01_01_22298": articleData_2011_01_01_22298 },
+  { "2011_01_01_22297": articleData_2011_01_01_22297 },
+  { "2011_01_01_22296": articleData_2011_01_01_22296 },
+  { "2011_01_01_22295": articleData_2011_01_01_22295 },
+  { "2010_12_01_22751": articleData_2010_12_01_22751 },
+  { "2010_12_01_22272": articleData_2010_12_01_22272 },
+  { "2010_12_01_22271": articleData_2010_12_01_22271 },
+  { "2010_12_01_22270": articleData_2010_12_01_22270 },
+  { "2010_12_01_22269": articleData_2010_12_01_22269 },
+  { "2010_12_01_22268": articleData_2010_12_01_22268 },
+  { "2010_12_01_22267": articleData_2010_12_01_22267 },
+  { "2010_12_01_22266": articleData_2010_12_01_22266 },
+  { "2010_12_01_22265": articleData_2010_12_01_22265 },
+  { "2010_10_01_22752": articleData_2010_10_01_22752 },
+  { "2010_10_01_22287": articleData_2010_10_01_22287 },
+  { "2010_10_01_22286": articleData_2010_10_01_22286 },
+  { "2010_10_01_22285": articleData_2010_10_01_22285 },
+  { "2010_10_01_22284": articleData_2010_10_01_22284 },
+  { "2010_10_01_22283": articleData_2010_10_01_22283 },
+  { "2010_10_01_22282": articleData_2010_10_01_22282 },
+  { "2010_10_01_22281": articleData_2010_10_01_22281 },
+  { "2010_10_01_22280": articleData_2010_10_01_22280 },
+  { "2010_10_01_22279": articleData_2010_10_01_22279 },
+  { "2010_10_01_22278": articleData_2010_10_01_22278 },
+  { "2010_10_01_22277": articleData_2010_10_01_22277 },
+  { "2010_10_01_22276": articleData_2010_10_01_22276 },
+  { "2010_10_01_22275": articleData_2010_10_01_22275 },
+  { "2010_10_01_22274": articleData_2010_10_01_22274 },
+  { "2010_10_01_22273": articleData_2010_10_01_22273 },
+  { "2010_07_01_22750": articleData_2010_07_01_22750 },
+  { "2010_07_01_22264": articleData_2010_07_01_22264 },
+  { "2010_07_01_22263": articleData_2010_07_01_22263 },
+  { "2010_07_01_22262": articleData_2010_07_01_22262 },
+  { "2010_07_01_22261": articleData_2010_07_01_22261 },
+  { "2010_07_01_22260": articleData_2010_07_01_22260 },
+  { "2010_07_01_22259": articleData_2010_07_01_22259 },
+  { "2010_07_01_22258": articleData_2010_07_01_22258 },
+  { "2010_06_21_जून-२०१०": articleData_2010_06_21_जून_२०१० },
+  { "2010_05_01_22749": articleData_2010_05_01_22749 },
+  { "2010_05_01_22256": articleData_2010_05_01_22256 },
+  { "2010_05_01_22255": articleData_2010_05_01_22255 },
+  { "2010_02_01_22748": articleData_2010_02_01_22748 },
+  { "2010_02_01_22254": articleData_2010_02_01_22254 },
+  { "2010_02_01_22252": articleData_2010_02_01_22252 },
+  { "2010_02_01_22251": articleData_2010_02_01_22251 },
+  { "2010_02_01_22250": articleData_2010_02_01_22250 },
+  { "2010_02_01_22249": articleData_2010_02_01_22249 },
+  { "2010_02_01_22248": articleData_2010_02_01_22248 },
+  { "2010_01_01_22753": articleData_2010_01_01_22753 },
+  { "2010_01_01_22294": articleData_2010_01_01_22294 },
+  { "2010_01_01_22293": articleData_2010_01_01_22293 },
+  { "2010_01_01_22292": articleData_2010_01_01_22292 },
+  { "2010_01_01_22291": articleData_2010_01_01_22291 },
+  { "2010_01_01_22290": articleData_2010_01_01_22290 },
+  { "2010_01_01_22289": articleData_2010_01_01_22289 },
+  { "2010_01_01_22288": articleData_2010_01_01_22288 },
+  { "2009_12_01_22744": articleData_2009_12_01_22744 },
+  { "2009_12_01_22229": articleData_2009_12_01_22229 },
+  { "2009_12_01_22228": articleData_2009_12_01_22228 },
+  { "2009_12_01_22227": articleData_2009_12_01_22227 },
+  { "2009_12_01_22226": articleData_2009_12_01_22226 },
+  { "2009_12_01_22225": articleData_2009_12_01_22225 },
+  { "2009_12_01_22224": articleData_2009_12_01_22224 },
+  { "2009_12_01_22223": articleData_2009_12_01_22223 },
+  { "2009_10_01_22745": articleData_2009_10_01_22745 },
+  { "2009_10_01_22230": articleData_2009_10_01_22230 },
+  { "2009_08_01_22746": articleData_2009_08_01_22746 },
+  { "2009_08_01_22243": articleData_2009_08_01_22243 },
+  { "2009_08_01_22242": articleData_2009_08_01_22242 },
+  { "2009_08_01_22240": articleData_2009_08_01_22240 },
+  { "2009_08_01_22239": articleData_2009_08_01_22239 },
+  { "2009_08_01_22238": articleData_2009_08_01_22238 },
+  { "2009_08_01_22237": articleData_2009_08_01_22237 },
+  { "2009_07_01_22743": articleData_2009_07_01_22743 },
+  { "2009_07_01_22222": articleData_2009_07_01_22222 },
+  { "2009_07_01_22221": articleData_2009_07_01_22221 },
+  { "2009_07_01_22220": articleData_2009_07_01_22220 },
+  { "2009_07_01_22219": articleData_2009_07_01_22219 },
+  { "2009_07_01_22218": articleData_2009_07_01_22218 },
+  { "2009_07_01_22217": articleData_2009_07_01_22217 },
+  { "2009_06_01_22742": articleData_2009_06_01_22742 },
+  { "2009_06_01_22216": articleData_2009_06_01_22216 },
+  { "2009_06_01_22215": articleData_2009_06_01_22215 },
+  { "2009_06_01_22214": articleData_2009_06_01_22214 },
+  { "2009_06_01_22213": articleData_2009_06_01_22213 },
+  { "2009_06_01_22212": articleData_2009_06_01_22212 },
+  { "2009_06_01_22211": articleData_2009_06_01_22211 },
+  { "2009_06_01_22210": articleData_2009_06_01_22210 },
+  { "2009_05_19_मे-२००९": articleData_2009_05_19_मे_२००९ },
+  { "2009_05_01_22209": articleData_2009_05_01_22209 },
+  { "2009_05_01_22208": articleData_2009_05_01_22208 },
+  { "2009_05_01_22207": articleData_2009_05_01_22207 },
+  { "2009_05_01_22206": articleData_2009_05_01_22206 },
+  { "2009_05_01_22205": articleData_2009_05_01_22205 },
+  { "2009_05_01_22204": articleData_2009_05_01_22204 },
+  { "2009_04_19_एप्रिल-२००९": articleData_2009_04_19_एप्रिल_२००९ },
+  { "2009_04_01_22236": articleData_2009_04_01_22236 },
+  { "2009_04_01_22235": articleData_2009_04_01_22235 },
+  { "2009_04_01_22234": articleData_2009_04_01_22234 },
+  { "2009_04_01_22233": articleData_2009_04_01_22233 },
+  { "2009_04_01_22232": articleData_2009_04_01_22232 },
+  { "2009_04_01_22231": articleData_2009_04_01_22231 },
+  { "2009_03_01_22741": articleData_2009_03_01_22741 },
+  { "2009_02_01_22740": articleData_2009_02_01_22740 },
+  { "2009_02_01_22202": articleData_2009_02_01_22202 },
+  { "2009_02_01_22201": articleData_2009_02_01_22201 },
+  { "2009_01_01_22739": articleData_2009_01_01_22739 },
+  { "2009_01_01_22200": articleData_2009_01_01_22200 },
+  { "2009_01_01_22199": articleData_2009_01_01_22199 },
+  { "2009_01_01_22198": articleData_2009_01_01_22198 },
+  { "2009_01_01_22197": articleData_2009_01_01_22197 },
+  { "2009_01_01_22196": articleData_2009_01_01_22196 },
+  { "2009_01_01_22195": articleData_2009_01_01_22195 },
+  { "2008_12_01_22737": articleData_2008_12_01_22737 },
+  { "2008_12_01_22171": articleData_2008_12_01_22171 },
+  { "2008_12_01_22170": articleData_2008_12_01_22170 },
+  { "2008_12_01_22169": articleData_2008_12_01_22169 },
+  { "2008_12_01_22168": articleData_2008_12_01_22168 },
+  { "2008_12_01_22167": articleData_2008_12_01_22167 },
+  { "2008_12_01_22166": articleData_2008_12_01_22166 },
+  { "2008_12_01_22165": articleData_2008_12_01_22165 },
+  { "2008_12_01_22164": articleData_2008_12_01_22164 },
+  { "2008_10_01_22738": articleData_2008_10_01_22738 },
+  { "2008_10_01_22194": articleData_2008_10_01_22194 },
+  { "2008_10_01_22193": articleData_2008_10_01_22193 },
+  { "2008_10_01_22192": articleData_2008_10_01_22192 },
+  { "2008_10_01_22191": articleData_2008_10_01_22191 },
+  { "2008_10_01_22190": articleData_2008_10_01_22190 },
+  { "2008_10_01_22189": articleData_2008_10_01_22189 },
+  { "2008_10_01_22188": articleData_2008_10_01_22188 },
+  { "2008_10_01_22187": articleData_2008_10_01_22187 },
+  { "2008_10_01_22186": articleData_2008_10_01_22186 },
+  { "2008_10_01_22185": articleData_2008_10_01_22185 },
+  { "2008_10_01_22184": articleData_2008_10_01_22184 },
+  { "2008_10_01_22183": articleData_2008_10_01_22183 },
+  { "2008_10_01_22182": articleData_2008_10_01_22182 },
+  { "2008_10_01_22181": articleData_2008_10_01_22181 },
+  { "2008_10_01_22180": articleData_2008_10_01_22180 },
+  { "2008_10_01_22179": articleData_2008_10_01_22179 },
+  { "2008_10_01_22178": articleData_2008_10_01_22178 },
+  { "2008_10_01_22177": articleData_2008_10_01_22177 },
+  { "2008_10_01_22176": articleData_2008_10_01_22176 },
+  { "2008_10_01_22175": articleData_2008_10_01_22175 },
+  { "2008_10_01_22174": articleData_2008_10_01_22174 },
+  { "2008_10_01_22173": articleData_2008_10_01_22173 },
+  { "2008_08_01_22736": articleData_2008_08_01_22736 },
+  { "2008_08_01_22163": articleData_2008_08_01_22163 },
+  { "2008_08_01_22162": articleData_2008_08_01_22162 },
+  { "2008_08_01_22161": articleData_2008_08_01_22161 },
+  { "2008_08_01_22160": articleData_2008_08_01_22160 },
+  { "2008_08_01_22159": articleData_2008_08_01_22159 },
+  { "2008_08_01_22158": articleData_2008_08_01_22158 },
+  { "2008_08_01_22157": articleData_2008_08_01_22157 },
+  { "2008_08_01_22156": articleData_2008_08_01_22156 },
+  { "2008_07_01_22735": articleData_2008_07_01_22735 },
+  { "2008_07_01_22155": articleData_2008_07_01_22155 },
+  { "2008_07_01_22154": articleData_2008_07_01_22154 },
+  { "2008_07_01_22153": articleData_2008_07_01_22153 },
+  { "2008_07_01_22152": articleData_2008_07_01_22152 },
+  { "2008_06_01_22747": articleData_2008_06_01_22747 },
+  { "2008_06_01_22247": articleData_2008_06_01_22247 },
+  { "2008_06_01_22246": articleData_2008_06_01_22246 },
+  { "2008_06_01_22245": articleData_2008_06_01_22245 },
+  { "2008_06_01_22244": articleData_2008_06_01_22244 },
+  { "2008_05_01_22734": articleData_2008_05_01_22734 },
+  { "2008_05_01_22151": articleData_2008_05_01_22151 },
+  { "2008_05_01_22150": articleData_2008_05_01_22150 },
+  { "2008_05_01_22149": articleData_2008_05_01_22149 },
+  { "2008_05_01_22148": articleData_2008_05_01_22148 },
+  { "2008_05_01_22147": articleData_2008_05_01_22147 },
+  { "2008_04_01_22733": articleData_2008_04_01_22733 },
+  { "2008_04_01_22146": articleData_2008_04_01_22146 },
+  { "2008_04_01_22145": articleData_2008_04_01_22145 },
+  { "2008_04_01_22144": articleData_2008_04_01_22144 },
+  { "2008_04_01_22143": articleData_2008_04_01_22143 },
+  { "2008_03_01_22732": articleData_2008_03_01_22732 },
+  { "2008_03_01_22141": articleData_2008_03_01_22141 },
+  { "2008_03_01_22139": articleData_2008_03_01_22139 },
+  { "2008_03_01_22138": articleData_2008_03_01_22138 },
+  { "2008_02_16_22721": articleData_2008_02_16_22721 },
+  { "2008_01_01_22730": articleData_2008_01_01_22730 },
+  { "2008_01_01_22131": articleData_2008_01_01_22131 },
+  { "2008_01_01_22130": articleData_2008_01_01_22130 },
+  { "2008_01_01_22129": articleData_2008_01_01_22129 },
+  { "2008_01_01_22128": articleData_2008_01_01_22128 },
+  { "2008_01_01_22127": articleData_2008_01_01_22127 },
+  { "2007_09_01_22726": articleData_2007_09_01_22726 },
+  { "2007_08_01_22729": articleData_2007_08_01_22729 },
+  { "2007_07_07_जुलै-२००७": articleData_2007_07_07_जुलै_२००७ },
+  { "2007_06_01_22725": articleData_2007_06_01_22725 },
+  { "2007_05_01_22724": articleData_2007_05_01_22724 },
+  { "2007_04_01_22723": articleData_2007_04_01_22723 },
+  { "2007_03_01_22722": articleData_2007_03_01_22722 },
+  { "2007_01_01_22720": articleData_2007_01_01_22720 },
+  { "2006_12_01_22719": articleData_2006_12_01_22719 },
+  { "2006_09_01_22718": articleData_2006_09_01_22718 },
+  { "2006_08_01_22717": articleData_2006_08_01_22717 },
+  { "2006_08_01_22038": articleData_2006_08_01_22038 },
+  { "2006_07_01_22716": articleData_2006_07_01_22716 },
+  { "2006_06_01_22715": articleData_2006_06_01_22715 },
+  { "2006_04_01_22714": articleData_2006_04_01_22714 },
+  { "2006_03_01_22713": articleData_2006_03_01_22713 },
+  { "2006_02_01_22712": articleData_2006_02_01_22712 },
+  { "2006_01_01_22711": articleData_2006_01_01_22711 },
+  { "2005_12_01_22709": articleData_2005_12_01_22709 },
+  { "2005_12_01_21979": articleData_2005_12_01_21979 },
+  { "2005_12_01_21978": articleData_2005_12_01_21978 },
+  { "2005_12_01_21977": articleData_2005_12_01_21977 },
+  { "2005_12_01_21976": articleData_2005_12_01_21976 },
+  { "2005_12_01_21975": articleData_2005_12_01_21975 },
+  { "2005_12_01_21974": articleData_2005_12_01_21974 },
+  { "2005_12_01_21973": articleData_2005_12_01_21973 },
+  { "2005_12_01_21972": articleData_2005_12_01_21972 },
+  { "2005_12_01_21971": articleData_2005_12_01_21971 },
+  { "2005_10_01_22710": articleData_2005_10_01_22710 },
+  { "2005_10_01_22006": articleData_2005_10_01_22006 },
+  { "2005_10_01_22005": articleData_2005_10_01_22005 },
+  { "2005_10_01_22004": articleData_2005_10_01_22004 },
+  { "2005_10_01_22003": articleData_2005_10_01_22003 },
+  { "2005_10_01_22002": articleData_2005_10_01_22002 },
+  { "2005_10_01_22001": articleData_2005_10_01_22001 },
+  { "2005_10_01_22000": articleData_2005_10_01_22000 },
+  { "2005_10_01_21999": articleData_2005_10_01_21999 },
+  { "2005_10_01_21998": articleData_2005_10_01_21998 },
+  { "2005_10_01_21997": articleData_2005_10_01_21997 },
+  { "2005_10_01_21996": articleData_2005_10_01_21996 },
+  { "2005_10_01_21995": articleData_2005_10_01_21995 },
+  { "2005_10_01_21994": articleData_2005_10_01_21994 },
+  { "2005_10_01_21993": articleData_2005_10_01_21993 },
+  { "2005_10_01_21992": articleData_2005_10_01_21992 },
+  { "2005_10_01_21990": articleData_2005_10_01_21990 },
+  { "2005_10_01_21989": articleData_2005_10_01_21989 },
+  { "2005_10_01_21988": articleData_2005_10_01_21988 },
+  { "2005_10_01_21986": articleData_2005_10_01_21986 },
+  { "2005_10_01_21984": articleData_2005_10_01_21984 },
+  { "2005_10_01_21983": articleData_2005_10_01_21983 },
+  { "2005_10_01_21982": articleData_2005_10_01_21982 },
+  { "2005_10_01_21981": articleData_2005_10_01_21981 },
+  { "2005_10_01_21980": articleData_2005_10_01_21980 },
+  { "2005_09_01_22708": articleData_2005_09_01_22708 },
+  { "2005_09_01_21970": articleData_2005_09_01_21970 },
+  { "2005_09_01_21969": articleData_2005_09_01_21969 },
+  { "2005_09_01_21968": articleData_2005_09_01_21968 },
+  { "2005_09_01_21967": articleData_2005_09_01_21967 },
+  { "2005_09_01_21966": articleData_2005_09_01_21966 },
+  { "2005_09_01_21965": articleData_2005_09_01_21965 },
+  { "2005_08_01_22707": articleData_2005_08_01_22707 },
+  { "2005_08_01_21963": articleData_2005_08_01_21963 },
+  { "2005_08_01_21962": articleData_2005_08_01_21962 },
+  { "2005_08_01_21961": articleData_2005_08_01_21961 },
+  { "2005_08_01_21960": articleData_2005_08_01_21960 },
+  { "2005_08_01_21959": articleData_2005_08_01_21959 },
+  { "2005_08_01_21958": articleData_2005_08_01_21958 },
+  { "2005_08_01_21957": articleData_2005_08_01_21957 },
+  { "2005_08_01_21956": articleData_2005_08_01_21956 },
+  { "2005_07_01_22706": articleData_2005_07_01_22706 },
+  { "2005_07_01_21955": articleData_2005_07_01_21955 },
+  { "2005_07_01_21954": articleData_2005_07_01_21954 },
+  { "2005_07_01_21953": articleData_2005_07_01_21953 },
+  { "2005_07_01_21952": articleData_2005_07_01_21952 },
+  { "2005_07_01_21951": articleData_2005_07_01_21951 },
+  { "2005_07_01_21950": articleData_2005_07_01_21950 },
+  { "2005_07_01_21949": articleData_2005_07_01_21949 },
+  { "2005_07_01_21948": articleData_2005_07_01_21948 },
+  { "2005_07_01_21947": articleData_2005_07_01_21947 },
+  { "2005_06_01_22705": articleData_2005_06_01_22705 },
+  { "2005_06_01_21946": articleData_2005_06_01_21946 },
+  { "2005_06_01_21945": articleData_2005_06_01_21945 },
+  { "2005_06_01_21944": articleData_2005_06_01_21944 },
+  { "2005_06_01_21943": articleData_2005_06_01_21943 },
+  { "2005_06_01_21942": articleData_2005_06_01_21942 },
+  { "2005_06_01_21941": articleData_2005_06_01_21941 },
+  { "2005_05_01_22704": articleData_2005_05_01_22704 },
+  { "2005_05_01_21940": articleData_2005_05_01_21940 },
+  { "2005_05_01_21939": articleData_2005_05_01_21939 },
+  { "2005_05_01_21938": articleData_2005_05_01_21938 },
+  { "2005_05_01_21936": articleData_2005_05_01_21936 },
+  { "2005_05_01_21935": articleData_2005_05_01_21935 },
+  { "2005_05_01_21934": articleData_2005_05_01_21934 },
+  { "2005_05_01_21933": articleData_2005_05_01_21933 },
+  { "2005_05_01_21932": articleData_2005_05_01_21932 },
+  { "2005_04_01_22703": articleData_2005_04_01_22703 },
+  { "2005_04_01_21931": articleData_2005_04_01_21931 },
+  { "2005_04_01_21930": articleData_2005_04_01_21930 },
+  { "2005_04_01_21929": articleData_2005_04_01_21929 },
+  { "2005_04_01_21928": articleData_2005_04_01_21928 },
+  { "2005_04_01_21927": articleData_2005_04_01_21927 },
+  { "2005_04_01_21926": articleData_2005_04_01_21926 },
+  { "2005_04_01_21925": articleData_2005_04_01_21925 },
+  { "2005_04_01_21924": articleData_2005_04_01_21924 },
+  { "2005_04_01_21923": articleData_2005_04_01_21923 },
+  { "2005_04_01_21922": articleData_2005_04_01_21922 },
+  { "2005_03_01_22702": articleData_2005_03_01_22702 },
+  { "2005_03_01_21921": articleData_2005_03_01_21921 },
+  { "2005_03_01_21920": articleData_2005_03_01_21920 },
+  { "2005_03_01_21919": articleData_2005_03_01_21919 },
+  { "2005_03_01_21918": articleData_2005_03_01_21918 },
+  { "2005_03_01_21917": articleData_2005_03_01_21917 },
+  { "2005_03_01_21916": articleData_2005_03_01_21916 },
+  { "2005_03_01_21915": articleData_2005_03_01_21915 },
+  { "2005_03_01_21914": articleData_2005_03_01_21914 },
+  { "2005_02_01_22701": articleData_2005_02_01_22701 },
+  { "2005_02_01_21913": articleData_2005_02_01_21913 },
+  { "2005_02_01_21912": articleData_2005_02_01_21912 },
+  { "2005_02_01_21911": articleData_2005_02_01_21911 },
+  { "2005_02_01_21910": articleData_2005_02_01_21910 },
+  { "2005_02_01_21909": articleData_2005_02_01_21909 },
+  { "2005_02_01_21908": articleData_2005_02_01_21908 },
+  { "2005_02_01_21907": articleData_2005_02_01_21907 },
+  { "2005_01_16_जानेवारी-२००५": articleData_2005_01_16_जानेवारी_२००५ },
+  { "2005_01_01_21906": articleData_2005_01_01_21906 },
+  { "2005_01_01_21905": articleData_2005_01_01_21905 },
+  { "2005_01_01_21904": articleData_2005_01_01_21904 },
+  { "2005_01_01_21903": articleData_2005_01_01_21903 },
+  { "2005_01_01_21901": articleData_2005_01_01_21901 },
+  {
+    "2003_12_20_संवादकीय-डिसेंबर-२००३":
+      articleData_2003_12_20_संवादकीय_डिसेंबर_२००३,
+  },
+  {
+    "2003_12_20_सख्खे-भावंड-लेखांक-५लेख":
+      articleData_2003_12_20_सख्खे_भावंड_लेखांक_५लेख,
+  },
+  {
+    "2003_12_20_बाळा-तूआहेसतसाचमलाआवडतो":
+      articleData_2003_12_20_बाळा_तूआहेसतसाचमलाआवडतो,
+  },
+  {
+    "2003_12_20_प्रतिसाद-डिसेंबर-२००३":
+      articleData_2003_12_20_प्रतिसाद_डिसेंबर_२००३,
+  },
+  { "2003_12_20_धुराचा-राक्षस": articleData_2003_12_20_धुराचा_राक्षस },
+  { "2003_12_20_डिसेंबर-२००३": articleData_2003_12_20_डिसेंबर_२००३ },
+  { "2003_12_20_चित्रवाचन": articleData_2003_12_20_चित्रवाचन },
+  {
+    "2003_12_20_आम्हालाही-खेळायचंय-लेखा":
+      articleData_2003_12_20_आम्हालाही_खेळायचंय_लेखा,
+  },
+  {
+    "2003_12_01_संवादकीय-डिसेंबर-२००३-2":
+      articleData_2003_12_01_संवादकीय_डिसेंबर_२००३_2,
+  },
+  {
+    "2003_09_20_संवादकीय-सप्टेंबर-२००३":
+      articleData_2003_09_20_संवादकीय_सप्टेंबर_२००३,
+  },
+  {
+    "2003_09_20_सरूबाईचागुडघा-सुमनमेहे":
+      articleData_2003_09_20_सरूबाईचागुडघा_सुमनमेहे,
+  },
+  { "2003_09_20_सप्टेंबर-२००३": articleData_2003_09_20_सप्टेंबर_२००३ },
+  { "2003_09_20_सख्खेभावंड": articleData_2003_09_20_सख्खेभावंड },
+  {
+    "2003_09_20_शिक्षा-वृषालीवैद्य": articleData_2003_09_20_शिक्षा_वृषालीवैद्य,
+  },
+  {
+    "2003_09_20_शाळा-हिंदीकवी-बंशीमाहेड":
+      articleData_2003_09_20_शाळा_हिंदीकवी_बंशीमाहेड,
+  },
+  {
+    "2003_09_20_मानवीऊर्जेसाठीप्रयोगशी":
+      articleData_2003_09_20_मानवीऊर्जेसाठीप्रयोगशी,
+  },
+  { "2003_09_20_तेथेपाहिजेजातीचे": articleData_2003_09_20_तेथेपाहिजेजातीचे },
+  {
+    "2003_09_20_काजावंशाळेत-लेखक-के-आर-श":
+      articleData_2003_09_20_काजावंशाळेत_लेखक_के_आर_श,
+  },
+  {
+    "2003_09_20_अडथळ्यांचीशर्यत-रेणूगा":
+      articleData_2003_09_20_अडथळ्यांचीशर्यत_रेणूगा,
+  },
+  {
+    "2003_09_01_संवादकीय-सप्टेंबर-२००३-2":
+      articleData_2003_09_01_संवादकीय_सप्टेंबर_२००३_2,
+  },
+  { "2003_08_20_स्वधर्म": articleData_2003_08_20_स्वधर्म },
+  { "2003_08_20_सख्खे-भावंड": articleData_2003_08_20_सख्खे_भावंड },
+  { "2003_08_20_मूल्यशिक्षण": articleData_2003_08_20_मूल्यशिक्षण },
+  { "2003_08_20_ऑगस्ट-२००३": articleData_2003_08_20_ऑगस्ट_२००३ },
+  {
+    "2003_08_20_एड्सची-साथ-आणि-स्त्रिया":
+      articleData_2003_08_20_एड्सची_साथ_आणि_स्त्रिया,
+  },
+  { "2003_08_20_आव्हान": articleData_2003_08_20_आव्हान },
+  {
+    "2003_08_01_संवादकीय-ऑगस्ट-२००३":
+      articleData_2003_08_01_संवादकीय_ऑगस्ट_२००३,
+  },
+  {
+    "2003_07_20_संविधानाची-ऐशीतैशी": articleData_2003_07_20_संविधानाची_ऐशीतैशी,
+  },
+  {
+    "2003_07_20_संवादकीय-जुलै-२०१३-2":
+      articleData_2003_07_20_संवादकीय_जुलै_२०१३_2,
+  },
+  {
+    "2003_07_20_सख्खेभावंड-लेखांक३-लेखक":
+      articleData_2003_07_20_सख्खेभावंड_लेखांक३_लेखक,
+  },
+  {
+    "2003_07_20_मूल्यशिक्षण-लेखांक-५-सुम":
+      articleData_2003_07_20_मूल्यशिक्षण_लेखांक_५_सुम,
+  },
+  {
+    "2003_07_20_प्रतिसाद-जुलै-२००३": articleData_2003_07_20_प्रतिसाद_जुलै_२००३,
+  },
+  { "2003_07_20_जुलै-२००३": articleData_2003_07_20_जुलै_२००३ },
+  {
+    "2003_07_20_एड्सचीसाथआणिस्त्रिया":
+      articleData_2003_07_20_एड्सचीसाथआणिस्त्रिया,
+  },
+  {
+    "2003_07_20_उमेदवारी-लेखांक-16": articleData_2003_07_20_उमेदवारी_लेखांक_16,
+  },
+  {
+    "2003_07_20_असाविद्यार्थीअशीशाळा":
+      articleData_2003_07_20_असाविद्यार्थीअशीशाळा,
+  },
+  {
+    "2003_07_20_अपयशाचेखापरकुणाच्यामाथ":
+      articleData_2003_07_20_अपयशाचेखापरकुणाच्यामाथ,
+  },
+  {
+    "2003_07_01_संवादकीय-जुलै-२००३": articleData_2003_07_01_संवादकीय_जुलै_२००३,
+  },
+  {
+    "2003_07_01_प्रतिसाद-जुलै-२००३-2":
+      articleData_2003_07_01_प्रतिसाद_जुलै_२००३_2,
+  },
+  { "2003_06_20_हेसारंमलामाहीतहवं": articleData_2003_06_20_हेसारंमलामाहीतहवं },
+  {
+    "2003_06_20_सामाजिकपालकत्वपुरस्कार":
+      articleData_2003_06_20_सामाजिकपालकत्वपुरस्कार,
+  },
+  { "2003_06_20_संवादकीय-जून२००३": articleData_2003_06_20_संवादकीय_जून२००३ },
+  {
+    "2003_06_20_सख्खेभावंड-लेखांक२-लेख":
+      articleData_2003_06_20_सख्खेभावंड_लेखांक२_लेख,
+  },
+  { "2003_06_20_वादळ": articleData_2003_06_20_वादळ },
+  {
+    "2003_06_20_मूल्यशिक्षण-लेखांक-४":
+      articleData_2003_06_20_मूल्यशिक्षण_लेखांक_४,
+  },
+  { "2003_06_20_प्रतिसाद-जून२००३": articleData_2003_06_20_प्रतिसाद_जून२००३ },
+  { "2003_06_20_जून२००३": articleData_2003_06_20_जून२००३ },
+  { "2003_06_20_औरसदानंदखुशहुआ": articleData_2003_06_20_औरसदानंदखुशहुआ },
+  {
+    "2003_06_20_एव्हरेस्टकेवळनिमित्तमा":
+      articleData_2003_06_20_एव्हरेस्टकेवळनिमित्तमा,
+  },
+  { "2003_06_01_संवादकीय-जून-२००३": articleData_2003_06_01_संवादकीय_जून_२००३ },
+  { "2003_06_01_प्रतिसाद-जून-२००३": articleData_2003_06_01_प्रतिसाद_जून_२००३ },
+  { "2003_05_20_संवादकीय-मे-२००३": articleData_2003_05_20_संवादकीय_मे_२००३ },
+  {
+    "2003_05_20_सख्खेभावंड-लेखांक-१-लेख":
+      articleData_2003_05_20_सख्खेभावंड_लेखांक_१_लेख,
+  },
+  { "2003_05_20_संक्रमणलेखांक-१६": articleData_2003_05_20_संक्रमणलेखांक_१६ },
+  { "2003_05_20_मे-२००३": articleData_2003_05_20_मे_२००३ },
+  {
+    "2003_05_20_मूल्यशिक्षण-लेखांक३":
+      articleData_2003_05_20_मूल्यशिक्षण_लेखांक३,
+  },
+  { "2003_05_20_परिवर्तन": articleData_2003_05_20_परिवर्तन },
+  {
+    "2003_05_20_आगरकरांचास्त्रीविषयकवि":
+      articleData_2003_05_20_आगरकरांचास्त्रीविषयकवि,
+  },
+  {
+    "2003_05_01_संवादकीय-मे-२००३-2": articleData_2003_05_01_संवादकीय_मे_२००३_2,
+  },
+  {
+    "2003_04_20_हार्डटाईम्स-पुस्तक-परिच":
+      articleData_2003_04_20_हार्डटाईम्स_पुस्तक_परिच,
+  },
+  {
+    "2003_04_20_संवादकीय-एप्रिल-२००३":
+      articleData_2003_04_20_संवादकीय_एप्रिल_२००३,
+  },
+  {
+    "2003_04_20_वैचारिकनिर्भयताआणिमानस":
+      articleData_2003_04_20_वैचारिकनिर्भयताआणिमानस,
+  },
+  {
+    "2003_04_20_मूल्यशिक्षण-लेखांक-२":
+      articleData_2003_04_20_मूल्यशिक्षण_लेखांक_२,
+  },
+  {
+    "2003_04_20_प्रतिसाद-एप्रिल-२००३":
+      articleData_2003_04_20_प्रतिसाद_एप्रिल_२००३,
+  },
+  {
+    "2003_04_20_परीक्षा-तर-झाल्या-पुढे":
+      articleData_2003_04_20_परीक्षा_तर_झाल्या_पुढे,
+  },
+  {
+    "2003_04_20_नकळतसारेघडले-दोन-पिढ्":
+      articleData_2003_04_20_नकळतसारेघडले_दोन_पिढ्,
+  },
+  { "2003_04_20_एप्रिल-२००३": articleData_2003_04_20_एप्रिल_२००३ },
+  { "2003_04_20_आम्हीक्रिकेटवेडे": articleData_2003_04_20_आम्हीक्रिकेटवेडे },
+  {
+    "2003_04_01_संवादकीय-एप्रिल-२००३-2":
+      articleData_2003_04_01_संवादकीय_एप्रिल_२००३_2,
+  },
+  {
+    "2003_03_20_संवादकीय-मार्च-2003":
+      articleData_2003_03_20_संवादकीय_मार्च_2003,
+  },
+  { "2003_03_20_राधाचं-घर": articleData_2003_03_20_राधाचं_घर },
+  {
+    "2003_03_20_मूल्यशिक्षण-लेखांक-१":
+      articleData_2003_03_20_मूल्यशिक्षण_लेखांक_१,
+  },
+  { "2003_03_20_मार्च-२००३": articleData_2003_03_20_मार्च_२००३ },
+  {
+    "2003_03_20_बाल्य-करपू-नये-म्हणून":
+      articleData_2003_03_20_बाल्य_करपू_नये_म्हणून,
+  },
+  {
+    "2003_03_20_प्रतिसाद-मार्च-२००३":
+      articleData_2003_03_20_प्रतिसाद_मार्च_२००३,
+  },
+  {
+    "2003_03_20_घर-देता-का-घर-लेखांक-13":
+      articleData_2003_03_20_घर_देता_का_घर_लेखांक_13,
+  },
+  { "2003_03_20_अस्तित्व-2": articleData_2003_03_20_अस्तित्व_2 },
+  { "2003_03_20_अनुवाद-करताना": articleData_2003_03_20_अनुवाद_करताना },
+  {
+    "2003_03_01_संवादकीय-मार्च-2003-2":
+      articleData_2003_03_01_संवादकीय_मार्च_2003_2,
+  },
+  {
+    "2003_02_20_संवादकीय-फेब्रुवारी-२००":
+      articleData_2003_02_20_संवादकीय_फेब्रुवारी_२००,
+  },
+  {
+    "2003_02_20_शोध-लेखांक-१२-रेणू-गावस्":
+      articleData_2003_02_20_शोध_लेखांक_१२_रेणू_गावस्,
+  },
+  {
+    "2003_02_20_मुलांचीभाषाआणिशिक्षक-ल-2":
+      articleData_2003_02_20_मुलांचीभाषाआणिशिक्षक_ल_2,
+  },
+  { "2003_02_20_बालचित्ररंग": articleData_2003_02_20_बालचित्ररंग },
+  { "2003_02_20_फेब्रुवारी-२००३": articleData_2003_02_20_फेब्रुवारी_२००३ },
+  {
+    "2003_02_20_प्रतिसाद-फेब्रुवारी-२००":
+      articleData_2003_02_20_प्रतिसाद_फेब्रुवारी_२००,
+  },
+  {
+    "2003_02_20_तिरिछआणिइतरकथा-पुस्तकपर":
+      articleData_2003_02_20_तिरिछआणिइतरकथा_पुस्तकपर,
+  },
+  {
+    "2003_02_20_जिंकणारीमूल्ये-धर्मनिरप":
+      articleData_2003_02_20_जिंकणारीमूल्ये_धर्मनिरप,
+  },
+  {
+    "2003_02_20_उच्चशिक्षणातमूल्यशिक्ष":
+      articleData_2003_02_20_उच्चशिक्षणातमूल्यशिक्ष,
+  },
+  {
+    "2003_02_01_संवादकीय-फेब्रुवारी-२००-3":
+      articleData_2003_02_01_संवादकीय_फेब्रुवारी_२००_3,
+  },
+  {
+    "2003_01_19_सारंसमजतं-तरीही-च्यान":
+      articleData_2003_01_19_सारंसमजतं_तरीही_च्यान,
+  },
+  { "2003_01_19_संवादाच्यावाटे": articleData_2003_01_19_संवादाच्यावाटे },
+  {
+    "2003_01_19_संवादकीय-जानेवारी-२००३":
+      articleData_2003_01_19_संवादकीय_जानेवारी_२००३,
+  },
+  {
+    "2003_01_19_मुलांचीभाषाआणिशिक्षक-ल":
+      articleData_2003_01_19_मुलांचीभाषाआणिशिक्षक_ल,
+  },
+  {
+    "2003_01_19_प्रतिसाद-दिवाळीअंक२००२":
+      articleData_2003_01_19_प्रतिसाद_दिवाळीअंक२००२,
+  },
+  { "2003_01_19_जानेवारी-२००३": articleData_2003_01_19_जानेवारी_२००३ },
+  {
+    "2003_01_19_चांगलेप्रश्नकसेविचाराव":
+      articleData_2003_01_19_चांगलेप्रश्नकसेविचाराव,
+  },
+  { "2003_01_19_चकमक-2": articleData_2003_01_19_चकमक_2 },
+  {
+    "2003_01_19_काहीचुन्यागिन्यामुलाखत":
+      articleData_2003_01_19_काहीचुन्यागिन्यामुलाखत,
+  },
+  {
+    "2003_01_19_उत्तूरचीपालककार्यशाळा":
+      articleData_2003_01_19_उत्तूरचीपालककार्यशाळा,
+  },
+  {
+    "2003_01_19_इथेकायआहेमुलांसाठी": articleData_2003_01_19_इथेकायआहेमुलांसाठी,
+  },
+  {
+    "2003_01_01_संवादकीय-जानेवारी-२००३-2":
+      articleData_2003_01_01_संवादकीय_जानेवारी_२००३_2,
+  },
+  {
+    "2003_01_01_उत्तूरची-पालक-कार्यशाळा":
+      articleData_2003_01_01_उत्तूरची_पालक_कार्यशाळा,
+  },
+  {
+    "2002_11_29_सृजनची-रोहिणी-प्राचार":
+      articleData_2002_11_29_सृजनची_रोहिणी_प्राचार,
+  },
+  { "2002_11_29_सारं-समजतं-तरीही": articleData_2002_11_29_सारं_समजतं_तरीही },
+  {
+    "2002_11_29_संभाषणाची-पूर्वतयारी-लेख":
+      articleData_2002_11_29_संभाषणाची_पूर्वतयारी_लेख,
+  },
+  {
+    "2002_11_29_मुलांची-भाषा-आणि-शिक्षक-ल-6":
+      articleData_2002_11_29_मुलांची_भाषा_आणि_शिक्षक_ल_6,
+  },
+  {
+    "2002_11_29_पाठ्यक्रम-काही-पैलू-लेखक":
+      articleData_2002_11_29_पाठ्यक्रम_काही_पैलू_लेखक,
+  },
+  {
+    "2002_11_29_नोव्हेंबर-डिसेंबर-२००२":
+      articleData_2002_11_29_नोव्हेंबर_डिसेंबर_२००२,
+  },
+  {
+    "2002_11_01_संवादकीय-नोव्हेंबर-डिसे":
+      articleData_2002_11_01_संवादकीय_नोव्हेंबर_डिसे,
+  },
+  {
+    "2002_09_29_स्त्री-शिक्षणासाठीचा-एक":
+      articleData_2002_09_29_स्त्री_शिक्षणासाठीचा_एक,
+  },
+  { "2002_09_29_सप्टेंबर-२००२": articleData_2002_09_29_सप्टेंबर_२००२ },
+  {
+    "2002_09_29_मुलांची-भाषा-आणि-शिक्षक-3":
+      articleData_2002_09_29_मुलांची_भाषा_आणि_शिक्षक_3,
+  },
+  {
+    "2002_09_29_प्राथमिक-शाळेतील-वर्ग-अस":
+      articleData_2002_09_29_प्राथमिक_शाळेतील_वर्ग_अस,
+  },
+  {
+    "2002_09_29_चकमक-सप्टेंबर-२००२-विदुल":
+      articleData_2002_09_29_चकमक_सप्टेंबर_२००२_विदुल,
+  },
+  { "2002_09_29_कुठं-चुकलं": articleData_2002_09_29_कुठं_चुकलं },
+  { "2002_09_29_अनारकोचं-स्वप्न": articleData_2002_09_29_अनारकोचं_स्वप्न },
+  {
+    "2002_09_01_संवादकीय-सप्टेंबर-२००२":
+      articleData_2002_09_01_संवादकीय_सप्टेंबर_२००२,
+  },
+  {
+    "2002_08_27_मुलांची-भाषा-आणि-शिक्षक-2":
+      articleData_2002_08_27_मुलांची_भाषा_आणि_शिक्षक_2,
+  },
+  { "2002_08_27_प्रज्ञांचे-सप्तक": articleData_2002_08_27_प्रज्ञांचे_सप्तक },
+  {
+    "2002_08_27_पुस्तकाबाहेरचं-शिकणं-मं":
+      articleData_2002_08_27_पुस्तकाबाहेरचं_शिकणं_मं,
+  },
+  {
+    "2002_08_27_पाहिजे-एक-आदर्श-आई": articleData_2002_08_27_पाहिजे_एक_आदर्श_आई,
+  },
+  { "2002_08_27_नकार": articleData_2002_08_27_नकार },
+  { "2002_08_27_चोर-चोर": articleData_2002_08_27_चोर_चोर },
+  { "2002_08_27_ऑगस्ट-२००२": articleData_2002_08_27_ऑगस्ट_२००२ },
+  {
+    "2002_08_01_संवादकीय-ऑगस्ट-२००२":
+      articleData_2002_08_01_संवादकीय_ऑगस्ट_२००२,
+  },
+  {
+    "2002_08_01_प्रतिसाद-ऑगस्ट-२००२":
+      articleData_2002_08_01_प्रतिसाद_ऑगस्ट_२००२,
+  },
+  {
+    "2002_07_27_हे-विश्‍वाचे-आंगण-आम्हा":
+      articleData_2002_07_27_हे_विश्‍वाचे_आंगण_आम्हा,
+  },
+  {
+    "2002_07_27_शिक्षणाचे-माध्यम-साहित्":
+      articleData_2002_07_27_शिक्षणाचे_माध्यम_साहित्,
+  },
+  {
+    "2002_07_27_शिक्षणाची-माध्यमे-आणि-भा":
+      articleData_2002_07_27_शिक्षणाची_माध्यमे_आणि_भा,
+  },
+  {
+    "2002_07_27_शिक्षणाची-तरतूद-आणि-माध्":
+      articleData_2002_07_27_शिक्षणाची_तरतूद_आणि_माध्,
+  },
+  {
+    "2002_07_27_शिक्षणाचा-आशय-काव्यकला":
+      articleData_2002_07_27_शिक्षणाचा_आशय_काव्यकला,
+  },
+  {
+    "2002_07_27_शिक्षण-म्हणजे-काय-कसे-आणि":
+      articleData_2002_07_27_शिक्षण_म्हणजे_काय_कसे_आणि,
+  },
+  {
+    "2002_07_27_शालेय-शिक्षण-आणि-इंग्रजी":
+      articleData_2002_07_27_शालेय_शिक्षण_आणि_इंग्रजी,
+  },
+  { "2002_07_27_वैखरी": articleData_2002_07_27_वैखरी },
+  { "2002_07_27_वैखरी-2": articleData_2002_07_27_वैखरी_2 },
+  {
+    "2002_07_27_लोकशिक्षण-कसे-आणि-कुणासा":
+      articleData_2002_07_27_लोकशिक्षण_कसे_आणि_कुणासा,
+  },
+  {
+    "2002_07_27_लहान-मुलांसारखे-बोलायला":
+      articleData_2002_07_27_लहान_मुलांसारखे_बोलायला,
+  },
+  { "2002_07_27_भाषेशी-खेळणे": articleData_2002_07_27_भाषेशी_खेळणे },
+  {
+    "2002_07_27_भाषेबरोबर-शिकायची-कलावती":
+      articleData_2002_07_27_भाषेबरोबर_शिकायची_कलावती,
+  },
+  {
+    "2002_07_27_भाषेचे-प्रेम-आणि-भाषेचा-द":
+      articleData_2002_07_27_भाषेचे_प्रेम_आणि_भाषेचा_द,
+  },
+  {
+    "2002_07_27_भाषिक-समता-बंधुता-आणि-स्व":
+      articleData_2002_07_27_भाषिक_समता_बंधुता_आणि_स्व,
+  },
+  { "2002_07_27_भाषा-शिक्षण": articleData_2002_07_27_भाषा_शिक्षण },
+  { "2002_07_27_भाषा-शिक्षण-2": articleData_2002_07_27_भाषा_शिक्षण_2 },
+  {
+    "2002_07_27_भाषा-वैज्ञानिक-पद्मश्री":
+      articleData_2002_07_27_भाषा_वैज्ञानिक_पद्मश्री,
+  },
+  { "2002_07_27_भाषा-आणि-शिक्षण": articleData_2002_07_27_भाषा_आणि_शिक्षण },
+  { "2002_07_27_भाषा-आणि-जीवन": articleData_2002_07_27_भाषा_आणि_जीवन },
+  {
+    "2002_07_27_बहुमानार्थी-बहुवचन": articleData_2002_07_27_बहुमानार्थी_बहुवचन,
+  },
+  {
+    "2002_07_27_पाहुणे-आले-आणि-घरचे-झाले":
+      articleData_2002_07_27_पाहुणे_आले_आणि_घरचे_झाले,
+  },
+  {
+    "2002_07_27_दुसरा-डोळा-केव्हा-उघडणार":
+      articleData_2002_07_27_दुसरा_डोळा_केव्हा_उघडणार,
+  },
+  { "2002_07_27_जुलै-२००२": articleData_2002_07_27_जुलै_२००२ },
+  {
+    "2002_07_27_काळाची-एक-शैक्षणिक-गरज":
+      articleData_2002_07_27_काळाची_एक_शैक्षणिक_गरज,
+  },
+  {
+    "2002_07_27_इंग्लिश-व-मराठी-भाषांचे-श":
+      articleData_2002_07_27_इंग्लिश_व_मराठी_भाषांचे_श,
+  },
+  {
+    "2002_07_27_इंग्लिश-भाषेचे-भारतीय-जी":
+      articleData_2002_07_27_इंग्लिश_भाषेचे_भारतीय_जी,
+  },
+  {
+    "2002_07_01_संवादकीय-जुलै-२००२": articleData_2002_07_01_संवादकीय_जुलै_२००२,
+  },
+  {
+    "2002_07_01_प्रास्ताविक-जुलै-२००२":
+      articleData_2002_07_01_प्रास्ताविक_जुलै_२००२,
+  },
+  {
+    "2002_06_27_वर्गाच्या-आत-जग-लेखक-इलेन":
+      articleData_2002_06_27_वर्गाच्या_आत_जग_लेखक_इलेन,
+  },
+  {
+    "2002_06_27_मुलांची-भाषा-आणि-शिक्षक-ल-5":
+      articleData_2002_06_27_मुलांची_भाषा_आणि_शिक्षक_ल_5,
+  },
+  {
+    "2002_06_27_पालकनीती-परिवारचा-सामाजि":
+      articleData_2002_06_27_पालकनीती_परिवारचा_सामाजि,
+  },
+  { "2002_06_27_जून-२००२": articleData_2002_06_27_जून_२००२ },
+  {
+    "2002_06_27_आमचं-शिबिर-रेणू-गावस्कर-ल":
+      articleData_2002_06_27_आमचं_शिबिर_रेणू_गावस्कर_ल,
+  },
+  { "2002_06_01_संवादकीय-जून-२००२": articleData_2002_06_01_संवादकीय_जून_२००२ },
+  { "2002_06_01_प्रतिसाद-जून-२००२": articleData_2002_06_01_प्रतिसाद_जून_२००२ },
+  {
+    "2002_05_27_मैं-रोता-हूँ-लेखांक-6-रेणू":
+      articleData_2002_05_27_मैं_रोता_हूँ_लेखांक_6_रेणू,
+  },
+  { "2002_05_27_मे-२००२": articleData_2002_05_27_मे_२००२ },
+  {
+    "2002_05_27_मुलांची-भाषा-आणि-शिक्षक-ल-4":
+      articleData_2002_05_27_मुलांची_भाषा_आणि_शिक्षक_ल_4,
+  },
+  {
+    "2002_05_27_बालशाळांतला-दहशतवाद-रमे":
+      articleData_2002_05_27_बालशाळांतला_दहशतवाद_रमे,
+  },
+  {
+    "2002_05_27_चाईल्ड-ऑव्ह-अ-लेसर-गॉड-लेख":
+      articleData_2002_05_27_चाईल्ड_ऑव्ह_अ_लेसर_गॉड_लेख,
+  },
+  {
+    "2002_05_27_आम्ही-आणि-ते-नव्हे-आपण-विद":
+      articleData_2002_05_27_आम्ही_आणि_ते_नव्हे_आपण_विद,
+  },
+  {
+    "2002_05_27_आमची-मुलं-आम्ही-आणि-शाळा-ह":
+      articleData_2002_05_27_आमची_मुलं_आम्ही_आणि_शाळा_ह,
+  },
+  { "2002_05_01_संवादकीय-मे-२००२": articleData_2002_05_01_संवादकीय_मे_२००२ },
+  { "2002_05_01_प्रतिसाद-मे-२००२": articleData_2002_05_01_प्रतिसाद_मे_२००२ },
+  {
+    "2002_04_25_मेरा-सुंदर-सपना-टूट-गया-रे":
+      articleData_2002_04_25_मेरा_सुंदर_सपना_टूट_गया_रे,
+  },
+  {
+    "2002_04_25_मेरा-सुंदर-सपना-टूट-गया-रे-2":
+      articleData_2002_04_25_मेरा_सुंदर_सपना_टूट_गया_रे_2,
+  },
+  {
+    "2002_04_25_मुलांची-भाषा-आणि-शिक्षक-ल-3":
+      articleData_2002_04_25_मुलांची_भाषा_आणि_शिक्षक_ल_3,
+  },
+  { "2002_04_25_एप्रिल-२००२": articleData_2002_04_25_एप्रिल_२००२ },
+  { "2002_04_25_एकलव्यचा-होविशिका": articleData_2002_04_25_एकलव्यचा_होविशिका },
+  {
+    "2002_04_25_अग्निदिव्य-वंदना-पलसाने-2":
+      articleData_2002_04_25_अग्निदिव्य_वंदना_पलसाने_2,
+  },
+  {
+    "2002_04_01_संवादकीय-एप्रिल-२००२":
+      articleData_2002_04_01_संवादकीय_एप्रिल_२००२,
+  },
+  {
+    "2002_04_01_प्रतिसाद-एप्रिल-२००२":
+      articleData_2002_04_01_प्रतिसाद_एप्रिल_२००२,
+  },
+  {
+    "2002_03_25_सोयीस्कर-मतैक्य-लेखक-अनि":
+      articleData_2002_03_25_सोयीस्कर_मतैक्य_लेखक_अनि,
+  },
+  {
+    "2002_03_25_याला-शिक्षण-ऐसे-नाव-लेखां":
+      articleData_2002_03_25_याला_शिक्षण_ऐसे_नाव_लेखां,
+  },
+  {
+    "2002_03_25_मुलांची-भाषा-आणि-शिक्षक-ल-2":
+      articleData_2002_03_25_मुलांची_भाषा_आणि_शिक्षक_ल_2,
+  },
+  { "2002_03_25_मार्च-२००२": articleData_2002_03_25_मार्च_२००२ },
+  { "2002_03_25_मायेचे-हात": articleData_2002_03_25_मायेचे_हात },
+  {
+    "2002_03_25_अग्निदिव्य-वंदना-पलसाने":
+      articleData_2002_03_25_अग्निदिव्य_वंदना_पलसाने,
+  },
+  {
+    "2002_03_01_संवादकीय-मार्च-२००२":
+      articleData_2002_03_01_संवादकीय_मार्च_२००२,
+  },
+  {
+    "2002_03_01_प्रतिसाद-मार्च-२००२":
+      articleData_2002_03_01_प्रतिसाद_मार्च_२००२,
+  },
+  {
+    "2002_02_25_सक्तीचे-प्राथमिक-शिक्षण":
+      articleData_2002_02_25_सक्तीचे_प्राथमिक_शिक्षण,
+  },
+  {
+    "2002_02_25_वंचितांच्या-विकासाची-जाण":
+      articleData_2002_02_25_वंचितांच्या_विकासाची_जाण,
+  },
+  {
+    "2002_02_25_मुलांची-भाषा-आणि-शिक्षक-ल":
+      articleData_2002_02_25_मुलांची_भाषा_आणि_शिक्षक_ल,
+  },
+  { "2002_02_25_फेब्रुवारी-२००२": articleData_2002_02_25_फेब्रुवारी_२००२ },
+  {
+    "2002_02_25_आत्मविश्‍वास-सुलभा-करंब":
+      articleData_2002_02_25_आत्मविश्‍वास_सुलभा_करंब,
+  },
+  {
+    "2002_02_25_अन्याय-लेखांक-३-रेणू-गावस":
+      articleData_2002_02_25_अन्याय_लेखांक_३_रेणू_गावस,
+  },
+  {
+    "2002_02_01_संवादकीय-फेब्रुवारी-२००-2":
+      articleData_2002_02_01_संवादकीय_फेब्रुवारी_२००_2,
+  },
+  { "2002_01_25_बाळ-वाढताना": articleData_2002_01_25_बाळ_वाढताना },
+  {
+    "2002_01_25_पालकांशी-भेटीगाठी-तुलतु":
+      articleData_2002_01_25_पालकांशी_भेटीगाठी_तुलतु,
+  },
+  { "2002_01_25_जानेवारी-२००२": articleData_2002_01_25_जानेवारी_२००२ },
+  {
+    "2002_01_25_चकमक-जानेवारी-२००२": articleData_2002_01_25_चकमक_जानेवारी_२००२,
+  },
+  {
+    "2002_01_25_आनंदाचे-डोही-रेणू-गावस्क":
+      articleData_2002_01_25_आनंदाचे_डोही_रेणू_गावस्क,
+  },
+  {
+    "2002_01_01_संवादकीय-जानेवारी-२००२":
+      articleData_2002_01_01_संवादकीय_जानेवारी_२००२,
+  },
+  {
+    "2002_01_01_प्रतिसाद-जानेवारी-२००२":
+      articleData_2002_01_01_प्रतिसाद_जानेवारी_२००२,
+  },
+  {
+    "2000_12_16_स्त्री-शिक्षणाचा-प्रारंभ":
+      articleData_2000_12_16_स्त्री_शिक्षणाचा_प्रारंभ,
+  },
+  {
+    "2000_08_16_शालेय-शिक्षण-कसं-असावं":
+      articleData_2000_08_16_शालेय_शिक्षण_कसं_असावं,
+  },
+  {
+    "2000_08_16_मुलं-आणि-स्वातंत्र्य":
+      articleData_2000_08_16_मुलं_आणि_स्वातंत्र्य,
+  },
+  { "2000_08_16_जेन्टल-टीचिंग": articleData_2000_08_16_जेन्टल_टीचिंग },
+  { "2000_08_16_ऑगस्ट-2000": articleData_2000_08_16_ऑगस्ट_2000 },
+  { "2000_08_16_एक-होती-शिल्पा": articleData_2000_08_16_एक_होती_शिल्पा },
+  { "2000_08_16_आमचं-अभिनव-शिबीर": articleData_2000_08_16_आमचं_अभिनव_शिबीर },
+  { "2000_06_16_स्वतः-सुधारा-अन्": articleData_2000_06_16_स्वतः_सुधारा_अन् },
+  { "2000_06_16_सर्वात-आधी-शिक्षण": articleData_2000_06_16_सर्वात_आधी_शिक्षण },
+  {
+    "2000_06_16_विज्ञान-शिक्षणासाठी-कार्":
+      articleData_2000_06_16_विज्ञान_शिक्षणासाठी_कार्,
+  },
+  {
+    "2000_06_16_वाचन-कौशल्य-तंत्र-आणि-मंत":
+      articleData_2000_06_16_वाचन_कौशल्य_तंत्र_आणि_मंत,
+  },
+  { "2000_06_16_वंचितांचं-शिक्षण": articleData_2000_06_16_वंचितांचं_शिक्षण },
+  { "2000_06_16_दहावी-आणि-शिक्षण": articleData_2000_06_16_दहावी_आणि_शिक्षण },
+  { "2000_06_16_जून-2000": articleData_2000_06_16_जून_2000 },
+  { "2000_06_16_एक-होता-झरीन": articleData_2000_06_16_एक_होता_झरीन },
+  { "2000_04_16_लोकशाहीचे-शिक्षण": articleData_2000_04_16_लोकशाहीचे_शिक्षण },
+  { "2000_04_16_जाणता-अजाणता": articleData_2000_04_16_जाणता_अजाणता },
+  {
+    "2000_04_16_ओळख-त्यांच्या-जगाची":
+      articleData_2000_04_16_ओळख_त्यांच्या_जगाची,
+  },
+  { "2000_04_16_एप्रिल-2000": articleData_2000_04_16_एप्रिल_2000 },
+  {
+    "2000_04_16_आधुनिक-शिक्षणाचा-प्रारंभ":
+      articleData_2000_04_16_आधुनिक_शिक्षणाचा_प्रारंभ,
+  },
+  {
+    "2000_04_16_आधुनिक-शिक्षणाचा-प्रारं-2":
+      articleData_2000_04_16_आधुनिक_शिक्षणाचा_प्रारं_2,
+  },
+  {
+    "2000_02_16_संवादकीय-फेब्रुवारी-१९":
+      articleData_2000_02_16_संवादकीय_फेब्रुवारी_१९,
+  },
+  {
+    "2000_02_16_मुस्लीम-शिक्षण-पद्धती-1":
+      articleData_2000_02_16_मुस्लीम_शिक्षण_पद्धती_1,
+  },
+  { "2000_02_16_फेब्रुवारी-2000": articleData_2000_02_16_फेब्रुवारी_2000 },
+  {
+    "2000_02_16_पहिलीपासून-इंग्रजी-आणि-इ":
+      articleData_2000_02_16_पहिलीपासून_इंग्रजी_आणि_इ,
+  },
+  { "2000_02_16_धर्मसंकट": articleData_2000_02_16_धर्मसंकट },
+  { "2000_02_16_धर्मसंकट-2": articleData_2000_02_16_धर्मसंकट_2 },
+  {
+    "2000_02_16_कायापालटच्या-निमित्ता":
+      articleData_2000_02_16_कायापालटच्या_निमित्ता,
+  },
+  { "2000_01_16_जानेवारी-२०००": articleData_2000_01_16_जानेवारी_२००० },
+  {
+    "2000_01_15_संवादकीय-जानेवारी-२०००":
+      articleData_2000_01_15_संवादकीय_जानेवारी_२०००,
+  },
+  { "2000_01_15_मला-असे-वाटतं": articleData_2000_01_15_मला_असे_वाटतं },
+  {
+    "2000_01_15_बौद्ध-शिक्षणपद्धती": articleData_2000_01_15_बौद्ध_शिक्षणपद्धती,
+  },
+  {
+    "2000_01_15_दुष्काळात-तेरावा-महिना":
+      articleData_2000_01_15_दुष्काळात_तेरावा_महिना,
+  },
+  {
+    "2000_01_15_तीस-आणि-तीन-मुलांचे-आई-वडी":
+      articleData_2000_01_15_तीस_आणि_तीन_मुलांचे_आई_वडी,
+  },
+  {
+    "2000_01_15_इंग्रजी-कोणत्या-वयापासून":
+      articleData_2000_01_15_इंग्रजी_कोणत्या_वयापासून,
+  },
+  {
+    "1999_12_14_स्वभाषा-आणि-इतर-भाषा-डॉ-नी":
+      articleData_1999_12_14_स्वभाषा_आणि_इतर_भाषा_डॉ_नी,
+  },
+  {
+    "1999_12_14_संवादकीय-डिसेंबर-१९९९":
+      articleData_1999_12_14_संवादकीय_डिसेंबर_१९९९,
+  },
+  {
+    "1999_12_14_वैदिक-शिक्षण-पद्धती-अरवि":
+      articleData_1999_12_14_वैदिक_शिक्षण_पद्धती_अरवि,
+  },
+  { "1999_12_14_बालपण-सरताना-2": articleData_1999_12_14_बालपण_सरताना_2 },
+  { "1999_12_14_प्रयोग": articleData_1999_12_14_प्रयोग },
+  {
+    "1999_12_14_पुस्तक-परिचय-नापास-पुढे-क":
+      articleData_1999_12_14_पुस्तक_परिचय_नापास_पुढे_क,
+  },
+  { "1999_12_14_डिसेंबर-१९९९": articleData_1999_12_14_डिसेंबर_१९९९ },
+  { "1999_12_14_आमची-दहावी": articleData_1999_12_14_आमची_दहावी },
+  {
+    "1999_09_14_संवादकीय-सप्टेम्बर-१९९":
+      articleData_1999_09_14_संवादकीय_सप्टेम्बर_१९९,
+  },
+  { "1999_09_14_सप्टेम्बर-१९९९": articleData_1999_09_14_सप्टेम्बर_१९९९ },
+  { "1999_09_14_वाट-शिकण्याची": articleData_1999_09_14_वाट_शिकण्याची },
+  {
+    "1999_09_14_बोली-आणि-प्रमाणभाषा":
+      articleData_1999_09_14_बोली_आणि_प्रमाणभाषा,
+  },
+  { "1999_09_14_बालपण-सरताना": articleData_1999_09_14_बालपण_सरताना },
+  { "1999_09_14_जॉन-ड्यूई": articleData_1999_09_14_जॉन_ड्यूई },
+  { "1999_09_14_कला-एक-शांतीदूत": articleData_1999_09_14_कला_एक_शांतीदूत },
+  {
+    "1999_09_14_आर्यपूर्वकालीन-भारतीय-शि":
+      articleData_1999_09_14_आर्यपूर्वकालीन_भारतीय_शि,
+  },
+  {
+    "1999_08_14_सांगणं-आणि-विचारणं": articleData_1999_08_14_सांगणं_आणि_विचारणं,
+  },
+  {
+    "1999_08_14_संवादकीय-ऑगस्ट-१९९९":
+      articleData_1999_08_14_संवादकीय_ऑगस्ट_१९९९,
+  },
+  {
+    "1999_08_14_मुलांच्या-हक्कांच्या-जाह":
+      articleData_1999_08_14_मुलांच्या_हक्कांच्या_जाह,
+  },
+  { "1999_08_14_भाषा-आणि-विकास": articleData_1999_08_14_भाषा_आणि_विकास },
+  { "1999_08_14_बालपण-सरतांना": articleData_1999_08_14_बालपण_सरतांना },
+  {
+    "1999_08_14_बाल-निरीक्षणगृहाचे-मार्ग":
+      articleData_1999_08_14_बाल_निरीक्षणगृहाचे_मार्ग,
+  },
+  {
+    "1999_08_14_कारागृहबंदींच्या-मुलांच":
+      articleData_1999_08_14_कारागृहबंदींच्या_मुलांच,
+  },
+  { "1999_08_14_ऑगस्ट-१९९९": articleData_1999_08_14_ऑगस्ट_१९९९ },
+  {
+    "1999_07_13_संवादकीय-जुलै-१९९९": articleData_1999_07_13_संवादकीय_जुलै_१९९९,
+  },
+  { "1999_07_13_मला-वाटतं-2": articleData_1999_07_13_मला_वाटतं_2 },
+  { "1999_07_13_जुलै-१९९९": articleData_1999_07_13_जुलै_१९९९ },
+  {
+    "1999_07_13_एका-डोळस-दिवसाची-गोष्ट-नी":
+      articleData_1999_07_13_एका_डोळस_दिवसाची_गोष्ट_नी,
+  },
+  { "1999_07_13_अंधांचे-शिक्षण": articleData_1999_07_13_अंधांचे_शिक्षण },
+  { "1999_07_13_अंधमित्र": articleData_1999_07_13_अंधमित्र },
+  { "1999_07_13_अंध-सहयोग": articleData_1999_07_13_अंध_सहयोग },
+  {
+    "1999_07_13_अंध-मित्रांमधील-अंतर्ज्":
+      articleData_1999_07_13_अंध_मित्रांमधील_अंतर्ज्,
+  },
+  { "1999_07_13_अंध-किती-आणि-का": articleData_1999_07_13_अंध_किती_आणि_का },
+  { "1999_06_13_सुसंवाद-साधना-खटी": articleData_1999_06_13_सुसंवाद_साधना_खटी },
+  { "1999_06_13_संवादकीय-जून-१९९९": articleData_1999_06_13_संवादकीय_जून_१९९९ },
+  {
+    "1999_06_13_माझा-प्रश्न-अनुराधा":
+      articleData_1999_06_13_माझा_प्रश्न_अनुराधा,
+  },
+  {
+    "1999_06_13_निर्मळ-जगण्यासाठी-सुजात":
+      articleData_1999_06_13_निर्मळ_जगण्यासाठी_सुजात,
+  },
+  {
+    "1999_06_13_तारुण्यभान-संजीवनी-कुलक":
+      articleData_1999_06_13_तारुण्यभान_संजीवनी_कुलक,
+  },
+  { "1999_06_13_जून-१९९९": articleData_1999_06_13_जून_१९९९ },
+  {
+    "1999_06_13_कम्युनिस्ट-शिक्षण-पद्धती":
+      articleData_1999_06_13_कम्युनिस्ट_शिक्षण_पद्धती,
+  },
+  { "1999_05_13_मी-मुलीचा-मामा": articleData_1999_05_13_मी_मुलीचा_मामा },
+  { "1999_05_13_एकातून-वेगळं-एक": articleData_1999_05_13_एकातून_वेगळं_एक },
+  {
+    "1999_05_13_आपण-ह्यांना-विसरलात-का":
+      articleData_1999_05_13_आपण_ह्यांना_विसरलात_का,
+  },
+  {
+    "1999_05_13_आगळं-वेगळं-वाचनालय": articleData_1999_05_13_आगळं_वेगळं_वाचनालय,
+  },
+  { "1999_05_12_संवादकीय-मे-1999": articleData_1999_05_12_संवादकीय_मे_1999 },
+  { "1999_05_12_समारोप": articleData_1999_05_12_समारोप },
+  { "1999_05_12_मे-1999": articleData_1999_05_12_मे_1999 },
+  {
+    "1999_05_12_तीही-मुलंच-आपणही-मुलंच":
+      articleData_1999_05_12_तीही_मुलंच_आपणही_मुलंच,
+  },
+  {
+    "1999_05_12_इतिहास-शिक्षणाचा-युरोपम":
+      articleData_1999_05_12_इतिहास_शिक्षणाचा_युरोपम,
+  },
+  {
+    "1999_04_12_संवादकीय-एप्रिल-१९९९":
+      articleData_1999_04_12_संवादकीय_एप्रिल_१९९९,
+  },
+  {
+    "1999_04_12_रिनेसान्स-आणि-शिक्षणातील":
+      articleData_1999_04_12_रिनेसान्स_आणि_शिक्षणातील,
+  },
+  {
+    "1999_04_12_मानवी-हक्कांचा-शिक्षणात":
+      articleData_1999_04_12_मानवी_हक्कांचा_शिक्षणात,
+  },
+  {
+    "1999_04_12_माझे-व्रत-माझे-कर्तव्य-एक":
+      articleData_1999_04_12_माझे_व्रत_माझे_कर्तव्य_एक,
+  },
+  {
+    "1999_04_12_प्रोब-भारतातील-पायाभू":
+      articleData_1999_04_12_प्रोब_भारतातील_पायाभू,
+  },
+  { "1999_04_12_एप्रिल-१९९९": articleData_1999_04_12_एप्रिल_१९९९ },
+  { "1999_04_12_21277-2": articleData_1999_04_12_21277_2 },
+  {
+    "1999_03_12_सांगोवांगीच्या-सत्यकथा-6":
+      articleData_1999_03_12_सांगोवांगीच्या_सत्यकथा_6,
+  },
+  {
+    "1999_03_12_मला-हवे-ते-दे-ना-विनया-साठे":
+      articleData_1999_03_12_मला_हवे_ते_दे_ना_विनया_साठे,
+  },
+  {
+    "1999_03_12_जाणता-अजाणता-वंदना-कुलकर":
+      articleData_1999_03_12_जाणता_अजाणता_वंदना_कुलकर,
+  },
+  { "1999_03_12_कठीण-समय-येता": articleData_1999_03_12_कठीण_समय_येता },
+  {
+    "1999_03_12_असं-सगळं-भयंकर-आहे-तर-आपण-क":
+      articleData_1999_03_12_असं_सगळं_भयंकर_आहे_तर_आपण_क,
+  },
+  {
+    "1999_03_11_संवादकीय-मार्च-१९९९":
+      articleData_1999_03_11_संवादकीय_मार्च_१९९९,
+  },
+  {
+    "1999_03_11_युरोपातील-मध्ययुग-आणि-यु":
+      articleData_1999_03_11_युरोपातील_मध्ययुग_आणि_यु,
+  },
+  { "1999_03_11_मार्च-१९९९": articleData_1999_03_11_मार्च_१९९९ },
+  {
+    "1999_02_11_स्वकार-आणि-स्वीकार": articleData_1999_02_11_स्वकार_आणि_स्वीकार,
+  },
+  {
+    "1999_02_11_सुजाण-पालकत्वाच्या-दिशेन":
+      articleData_1999_02_11_सुजाण_पालकत्वाच्या_दिशेन,
+  },
+  {
+    "1999_02_11_सांगोवांगीच्या-सत्यकथा-5":
+      articleData_1999_02_11_सांगोवांगीच्या_सत्यकथा_5,
+  },
+  {
+    "1999_02_11_दत्तक-पालकत्व-सनाथ-करण":
+      articleData_1999_02_11_दत्तक_पालकत्व_सनाथ_करण,
+  },
+  {
+    "1999_02_11_जाणता-अजाणता-श्रुती-तांब":
+      articleData_1999_02_11_जाणता_अजाणता_श्रुती_तांब,
+  },
+  {
+    "1999_02_10_संवादकीय-फेब्रुवारी-१९९":
+      articleData_1999_02_10_संवादकीय_फेब्रुवारी_१९९,
+  },
+  {
+    "1999_02_10_श्री-सामाजिक-पालकत्व-कृत":
+      articleData_1999_02_10_श्री_सामाजिक_पालकत्व_कृत,
+  },
+  { "1999_02_10_फेब्रुवारी-१९९९": articleData_1999_02_10_फेब्रुवारी_१९९९ },
+  {
+    "1999_01_10_सांगोवांगीच्या-सत्यकथा-4":
+      articleData_1999_01_10_सांगोवांगीच्या_सत्यकथा_4,
+  },
+  {
+    "1999_01_10_संवादकीय-जानेवारी-१९९९":
+      articleData_1999_01_10_संवादकीय_जानेवारी_१९९९,
+  },
+  {
+    "1999_01_10_श्रीमती-इंदुताई-पाटणकर-आ":
+      articleData_1999_01_10_श्रीमती_इंदुताई_पाटणकर_आ,
+  },
+  {
+    "1999_01_10_लेखांक-8-आमिषांचा-मुका-आणि":
+      articleData_1999_01_10_लेखांक_8_आमिषांचा_मुका_आणि,
+  },
+  {
+    "1999_01_10_लेखांक-6-इतिहास-शिक्षणाचा":
+      articleData_1999_01_10_लेखांक_6_इतिहास_शिक्षणाचा,
+  },
+  {
+    "1999_01_10_बापांची-मुले-आणि-मुलांचे":
+      articleData_1999_01_10_बापांची_मुले_आणि_मुलांचे,
+  },
+  { "1999_01_10_दोस्ती-झिंदाबाद": articleData_1999_01_10_दोस्ती_झिंदाबाद },
+  { "1999_01_10_जानेवारी-१९९९": articleData_1999_01_10_जानेवारी_१९९९ },
+  {
+    "1999_01_10_चाळीसगावची-मदर-तेरेजा":
+      articleData_1999_01_10_चाळीसगावची_मदर_तेरेजा,
+  },
+  {
+    "1999_01_10_आपणही-गणपती-बसवायचा":
+      articleData_1999_01_10_आपणही_गणपती_बसवायचा,
+  },
+  {
+    "1998_12_09_सांगोवांगीच्या-सत्यकथा-2":
+      articleData_1998_12_09_सांगोवांगीच्या_सत्यकथा_2,
+  },
+  {
+    "1998_12_09_संपादकीय-डिसेंबर-१९९८":
+      articleData_1998_12_09_संपादकीय_डिसेंबर_१९९८,
+  },
+  { "1998_12_09_रोमन-शिक्षणपद्धती": articleData_1998_12_09_रोमन_शिक्षणपद्धती },
+  {
+    "1998_12_09_मानवतावादी-अर्थशास्त्रज":
+      articleData_1998_12_09_मानवतावादी_अर्थशास्त्रज,
+  },
+  {
+    "1998_12_09_प्राथमिक-उर्दू-शाळांमधील":
+      articleData_1998_12_09_प्राथमिक_उर्दू_शाळांमधील,
+  },
+  {
+    "1998_12_09_प्रतिसाद-डिसेंबर-१९९८":
+      articleData_1998_12_09_प्रतिसाद_डिसेंबर_१९९८,
+  },
+  { "1998_12_09_पालकांना-पत्र-2": articleData_1998_12_09_पालकांना_पत्र_2 },
+  { "1998_12_09_डिसेंबर-१९९८": articleData_1998_12_09_डिसेंबर_१९९८ },
+  {
+    "1998_12_09_आमिषांचा-मुका-आणि-शिक्षे-3":
+      articleData_1998_12_09_आमिषांचा_मुका_आणि_शिक्षे_3,
+  },
+  { "1998_12_09_असुरक्षितता-पण-का": articleData_1998_12_09_असुरक्षितता_पण_का },
+  {
+    "1998_10_09_सांगोवांगीच्या-सत्यकथा":
+      articleData_1998_10_09_सांगोवांगीच्या_सत्यकथा,
+  },
+  {
+    "1998_10_09_संपादकीय-ऑक्टोबर-१९९८":
+      articleData_1998_10_09_संपादकीय_ऑक्टोबर_१९९८,
+  },
+  {
+    "1998_10_09_प्राथमिक-शाळांची-पाठ्यपु":
+      articleData_1998_10_09_प्राथमिक_शाळांची_पाठ्यपु,
+  },
+  {
+    "1998_10_09_पालकांना-पत्र-ऑक्टोबर-१९":
+      articleData_1998_10_09_पालकांना_पत्र_ऑक्टोबर_१९,
+  },
+  {
+    "1998_10_09_ग्रीक-शिक्षणाचा-विस्तार":
+      articleData_1998_10_09_ग्रीक_शिक्षणाचा_विस्तार,
+  },
+  {
+    "1998_10_09_काशीचा-विणकर-एका-चरित्रा":
+      articleData_1998_10_09_काशीचा_विणकर_एका_चरित्रा,
+  },
+  { "1998_10_09_ऑक्टोबर-१९९८": articleData_1998_10_09_ऑक्टोबर_१९९८ },
+  {
+    "1998_10_09_एक-अस्थिर-माध्यम-अनिल-झणक":
+      articleData_1998_10_09_एक_अस्थिर_माध्यम_अनिल_झणक,
+  },
+  {
+    "1998_10_09_आमिषांचा-मुका-आणि-शिक्षे-2":
+      articleData_1998_10_09_आमिषांचा_मुका_आणि_शिक्षे_2,
+  },
+  {
+    "1998_08_10_सांगोवांगीच्या-सत्यकथा-3":
+      articleData_1998_08_10_सांगोवांगीच्या_सत्यकथा_3,
+  },
+  {
+    "1998_08_10_संवादकीय-ऑगस्ट-१९९८":
+      articleData_1998_08_10_संवादकीय_ऑगस्ट_१९९८,
+  },
+  {
+    "1998_08_10_मी-मुसलमान-कसा-झालो":
+      articleData_1998_08_10_मी_मुसलमान_कसा_झालो,
+  },
+  {
+    "1998_08_10_प्रतिसाद-ऑगस्ट-१९९८":
+      articleData_1998_08_10_प्रतिसाद_ऑगस्ट_१९९८,
+  },
+  {
+    "1998_08_10_ग्रीक-अणि-त्यांची-शिक्षण":
+      articleData_1998_08_10_ग्रीक_अणि_त्यांची_शिक्षण,
+  },
+  { "1998_08_10_ऑगस्ट-१९९८": articleData_1998_08_10_ऑगस्ट_१९९८ },
+  {
+    "1998_08_10_उन्हाळी-सुटीतील-खेळघर-भा":
+      articleData_1998_08_10_उन्हाळी_सुटीतील_खेळघर_भा,
+  },
+  {
+    "1998_07_09_संपादकीय-जुलै-१९९८": articleData_1998_07_09_संपादकीय_जुलै_१९९८,
+  },
+  {
+    "1998_07_09_माध्यम-कोणते-असावे-मातृभ":
+      articleData_1998_07_09_माध्यम_कोणते_असावे_मातृभ,
+  },
+  {
+    "1998_07_09_पालकांना-पत्र-जुलै-१९९८":
+      articleData_1998_07_09_पालकांना_पत्र_जुलै_१९९८,
+  },
+  { "1998_07_09_पंतप्रधानांस-पत्र": articleData_1998_07_09_पंतप्रधानांस_पत्र },
+  {
+    "1998_07_09_दूरचित्रवाणी-एक-झपाट्या":
+      articleData_1998_07_09_दूरचित्रवाणी_एक_झपाट्या,
+  },
+  { "1998_07_09_जुलै-१९९८": articleData_1998_07_09_जुलै_१९९८ },
+  {
+    "1998_07_09_आमिषांचा-मुका-आणि-शिक्षे":
+      articleData_1998_07_09_आमिषांचा_मुका_आणि_शिक्षे,
+  },
+  {
+    "1998_07_09_आत्मसंहारक-पोखरण-अणुबाँब":
+      articleData_1998_07_09_आत्मसंहारक_पोखरण_अणुबाँब,
+  },
+  {
+    "1998_07_09_अणुस्फोटाचे-परिणाम": articleData_1998_07_09_अणुस्फोटाचे_परिणाम,
+  },
 ];
 
 export default ARTICLES;

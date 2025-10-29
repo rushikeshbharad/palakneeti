@@ -17,34 +17,25 @@ const articleData = {
   <div class="entry-content-wrapper">
     <div class="entry-content gsp_dc">
       <p>
-        <a
-          href="/%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%95%E0%A5%80%E0%A4%AF-%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B3%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%A8%E0%A5%AB/"
-          target="_blank"
-        >
+        <a href="/संवादकीय-दिवाळी-२०२५/" target="_blank">
           <strong>संवादकीय </strong></a
         >
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%AA%E0%A5%88%E0%A4%B8%E0%A5%87-%E0%A4%86%E0%A4%A3%E0%A4%BF-%E0%A4%AC%E0%A4%B0%E0%A4%82%E0%A4%9A-%E0%A4%95%E0%A4%BE%E0%A4%B9%E0%A5%80/"
-          target="_blank"
+        <a href="/पैसे-आणि-बरंच-काही/" target="_blank"
           >१. पैसे आणि बरंच काही – मुक्ता चैतन्य</a
         >
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A3-%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A5%87-%E0%A4%AE%E0%A4%9C-%E0%A4%B9%E0%A4%BE/"
-          target="_blank"
+        <a href="/अर्थपूर्ण-भासे-मज-हा/" target="_blank"
           >२. अर्थपूर्ण भासे मज हा – डॉ. नंदू मुलमुले</a
         >
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%AE%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%80/"
-          target="_blank"
+        <a href="/मालकी/" target="_blank"
           >३. मालकी (कविता) – प्रियदर्शन सहस्रबुद्धे</a
         >
       </p>

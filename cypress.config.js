@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress")
 const fs = require("fs")
 const path = require("path")
+const http = require("http")
 const https = require("https")
 const { JSDOM } = require("jsdom")
 const prettier = require("prettier")
@@ -25,10 +26,11 @@ module.exports = defineConfig({
           const filePath = path.join(dir, `${slug}.js`)
 
           // Check if the file already exists. If so, skip it.
-          if (fs.existsSync(filePath)) {
-            console.log(`SKIPPED: File already exists at ${filePath}`);
-            return { skipped: true, path: filePath };
-          }
+          // TODO: uncomment
+        //   if (fs.existsSync(filePath)) {
+        //     console.log(`SKIPPED: File already exists at ${filePath}`);
+        //     return { skipped: true, path: filePath };
+        //   }
 
           // Separate the HTML content to handle it as a special case
           const { content, ...restOfData } = articleData
@@ -61,6 +63,20 @@ export default articleData;
         },
         downloadFile({ url, folder, fileName }) {
           return new Promise((resolve, reject) => {
+            if (!url || !url.startsWith("http")) {
+                return resolve('');
+            }
+
+            if (url.split('http').length > 2) {
+                url = `http${url.split('http').pop()}`
+            }
+
+            // If the URL is external (not on palakneeti.in), resolve with the original URL.
+            if (!url.startsWith("http://palakneeti") && !url.startsWith("https://palakneeti")) {
+              console.log(`SKIPPED download for external image: ${url}`);
+              return resolve(url);
+            }
+
             const fullFolderPath = path.join(config.projectRoot, folder)
             if (!fs.existsSync(fullFolderPath)) {
               fs.mkdirSync(fullFolderPath, { recursive: true })
@@ -68,8 +84,18 @@ export default articleData;
             const filePath = path.join(fullFolderPath, fileName)
             const file = fs.createWriteStream(filePath)
 
-            https
-              .get(url, (response) => {
+            // Add a User-Agent header to mimic a browser request, which can prevent "socket hang up" errors.
+            const options = {
+              headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+              }
+            };
+
+            // Choose the correct module (http or https) based on the URL protocol
+            const protocol = url.startsWith("https") ? https : http;
+
+            protocol
+              .get(url, options, response => {
                 response.pipe(file)
                 file.on("finish", () => {
                   file.close()
@@ -104,9 +130,9 @@ export default articleData;
           anchors.forEach((a) => {
             a.setAttribute("target", "_blank") // Add target="_blank"
             let href = decodeURI(a.getAttribute("href") || "")
-            if (href && href.startsWith("https://palakneeti.in")) {
+            if (href && (href.startsWith("https://palakneeti.in") || href.startsWith("http://palakneeti.in"))) {
               // Keep only the relative path
-              a.setAttribute("href", new URL(href).pathname)
+              a.setAttribute("href", decodeURI(new URL(href).pathname))
             }
           })
 
@@ -117,6 +143,19 @@ export default articleData;
           images.forEach((img, index) => {
             const src = img.getAttribute("src") || ""
             if (!src) return
+
+            if (src.split('http').length > 2) {
+                src = `http${src.split('http').pop()}`
+            }
+
+            // If the image is from an external domain, leave it as is.
+            // We only want to process images hosted on the original palakneeti.in site.
+            if (!src.startsWith("http://palakneeti") && !src.startsWith("https://palakneeti")) {
+              if (!src.startsWith("http")) {
+                img.remove();
+              }
+              return; // Skip this image
+            }
 
             const originalFileName = decodeURI(src).split("/").pop().split("?")[0]
             const newFileName = `${slug}-${index}-${originalFileName}`
@@ -138,6 +177,15 @@ export default articleData;
               img.setAttribute("alt", title);
             }
           })
+
+          // Remove attributes with no value assigned
+          document.querySelectorAll('img').forEach((img) => {
+            Object.values(img.attributes).forEach(attr => {
+                if(!attr.value) {
+                    img.removeAttribute(attr.name)
+                }
+            })
+          });
 
           const rawCleanedHtml = document.body.innerHTML
 

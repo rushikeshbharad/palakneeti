@@ -17,57 +17,35 @@ const articleData = {
   <div class="entry-content-wrapper">
     <div class="entry-content gsp_dc">
       <p>
-        <a
-          href="/%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%95%E0%A5%80%E0%A4%AF-11/"
-          target="_blank"
-          >१. संवादकीय सप्टेंबर २०२५
-        </a>
+        <a href="/संवादकीय-11/" target="_blank">१. संवादकीय सप्टेंबर २०२५ </a>
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%86%E0%A4%88-%E0%A4%B0%E0%A4%A1%E0%A4%A4%E0%A5%87%E0%A4%AF/"
-          target="_blank"
-          >२. आई रडतेय – रुबी रमा प्रवीण
-        </a>
+        <a href="/आई-रडतेय/" target="_blank">२. आई रडतेय – रुबी रमा प्रवीण </a>
       </p>
 
-      <p>
-        <a
-          href="/%E0%A4%86%E0%A4%A8%E0%A4%82%E0%A4%A6%E0%A4%B6%E0%A5%8B%E0%A4%A7/"
-          target="_blank"
-          >३. #आनंदशोध – विवेक मराठे
-        </a>
-      </p>
+      <p><a href="/आनंदशोध/" target="_blank">३. #आनंदशोध – विवेक मराठे </a></p>
 
       <p>
-        <a
-          href="/%E0%A4%86%E0%A4%A8%E0%A4%82%E0%A4%A6%E0%A4%BE%E0%A4%9A%E0%A5%87-%E0%A4%A1%E0%A5%8B%E0%A4%B9%E0%A5%80/"
-          target="_blank"
+        <a href="/आनंदाचे-डोही/" target="_blank"
           >४. आनंदाचे डोही – नीलम ओसवाल
         </a>
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AD%E0%A5%8B%E0%A4%B5%E0%A4%A4%E0%A5%80%E0%A4%9A%E0%A5%87-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A5%8D%E0%A4%A8-%E0%A4%B8%E0%A4%AA/"
-          target="_blank"
+        <a href="/चित्राभोवतीचे-प्रश्न-सप/" target="_blank"
           >५. चित्राभोवतीचे प्रश्न – सप्टेंबर २०२५ – श्रीनिवास बाळकृष्ण
         </a>
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%97%E0%A5%8B%E0%A4%B7%E0%A5%8D%E0%A4%9F-%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%82%E0%A4%A4%E0%A4%B0-%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%9A%E0%A5%80/"
-          target="_blank"
+        <a href="/गोष्ट-निरंतर-ध्यासाची/" target="_blank"
           >६. गोष्ट निरंतर ध्यासाची – अरुणा बुरटे
         </a>
       </p>
 
       <p>
-        <a
-          href="/%E0%A4%86%E0%A4%A8%E0%A4%82%E0%A4%A6%E0%A5%80-%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%95%E0%A4%BE%E0%A4%B0/"
-          target="_blank"
+        <a href="/आनंदी-कलाकार/" target="_blank"
           >७. आनंदी कलाकार – वंदना भागवत
         </a>
       </p>
