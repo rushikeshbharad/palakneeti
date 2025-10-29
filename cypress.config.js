@@ -26,11 +26,10 @@ module.exports = defineConfig({
           const filePath = path.join(dir, `${slug}.js`)
 
           // Check if the file already exists. If so, skip it.
-          // TODO: uncomment
-        //   if (fs.existsSync(filePath)) {
-        //     console.log(`SKIPPED: File already exists at ${filePath}`);
-        //     return { skipped: true, path: filePath };
-        //   }
+          if (fs.existsSync(filePath)) {
+            console.log(`SKIPPED: File already exists at ${filePath}`);
+            return { skipped: true, path: filePath };
+          }
 
           // Separate the HTML content to handle it as a special case
           const { content, ...restOfData } = articleData

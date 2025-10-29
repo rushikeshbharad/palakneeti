@@ -20,6 +20,10 @@ module.exports = {
         exclude: /node_modules/,
         use: "babel-loader", // Use Babel to transpile JS
       },
+      {
+        test: /\.css$/, // Apply this rule to .css files
+        use: ["style-loader", "css-loader"], // Use these loaders
+      },
     ],
   },
 
@@ -35,5 +39,8 @@ module.exports = {
     static: path.join(__dirname, "blogs", "dist"),
     port: 3000,
     hot: true, // Enable Hot Module Replacement
+    // This is crucial for single-page applications with routing
+    historyApiFallback: true,
+    open: true, // Automatically open the browser on server start
   },
 };

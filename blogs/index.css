@@ -1,0 +1,72 @@
+.article-grid {
+  /* This overrides Material-UI's default 'display: flex' on the Grid container */
+  display: grid;
+
+  /* 1. Default to a 1-column layout for small screens */
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* 2. Switch to a 2-column layout for medium screens (>= 600px) */
+@media (min-width: 600px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3. Switch to a 3-column layout for normal screens (>= 900px) */
+@media (min-width: 1000px) {
+  .article-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 4. Switch to a 4-column layout for very large screens (>= 1200px) */
+@media (min-width: 1500px) {
+  .article-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.wp-post-image {
+    width: 40% !important;
+    height: auto;
+    float: left;
+    margin: 0em 2em 2em 0em;
+}
+
+@media only screen and (max-width: 600px) {
+    .wp-post-image {
+        width: 100% !important;
+        float: none;
+        margin: auto;
+    }
+}
+
+.article-page {
+    max-width: 880px;
+    margin: 8em auto 0;
+}
+
+.wp-block-pullquote {
+    border-left: 0;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #568c11;
+    color: inherit;
+    margin: 1.25em 0 1.75em;
+    padding: 0;
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+blockquote {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 24px 0;
+}
+
+blockquote p {
+    margin: 0;
+    text-align: center;
+}
