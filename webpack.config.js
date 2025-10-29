@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "blogs", "dist"),
     filename: "bundle.js",
+    publicPath: "/",
     clean: true, // Cleans the dist folder before each build
   },
 
