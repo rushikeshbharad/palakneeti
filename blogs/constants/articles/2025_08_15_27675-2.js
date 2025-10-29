@@ -5,7 +5,7 @@ const articleData = {
   class="post-27675 post type-post status-publish format-standard hentry category-676 category-masik-article category-palakneeti category---august-2025 category-671"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p><strong>हम्सा अय्यर</strong></p>
 
       <p>
@@ -173,7 +173,7 @@ const articleData = {
           decoding="async"
           width="768"
           height="1024"
-          src="/assets/article-images/27675-2-0-Hamsa-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27675-2-0-Hamsa-768x1024.jpg"
           alt="पालकत्व – थोडा आनंद, थोडा गोंधळ आणि थोडं&nbsp; ‘हे असंच असतं का?’ असं गूगलणं!"
           class="wp-image-27678"
           style="width: 70px; height: auto"
@@ -201,11 +201,7 @@ const articleData = {
         class="wp-block-embed is-type-wp-embed is-provider-garbage-gyaan wp-block-embed-garbage-gyaan"
       >
         <div class="wp-block-embed__wrapper">
-          <blockquote
-            class="wp-embedded-content"
-            data-secret="znVLTy5ljj"
-            style="display: none"
-          >
+          <blockquote class="wp-embedded-content" data-secret="znVLTy5ljj">
             <a
               href="https://hamsaiyereconut.wordpress.com/2025/06/25/simplifying-parenting-finding-rhythm-at-home/"
               target="_blank"
@@ -216,11 +212,12 @@ const articleData = {
             class="wp-embedded-content"
             sandbox="allow-scripts"
             security="restricted"
+            style="position: absolute; visibility: hidden"
             title="“Simplifying Parenting: Finding Rhythm at&nbsp;Home” — Garbage Gyaan"
             src="https://hamsaiyereconut.wordpress.com/2025/06/25/simplifying-parenting-finding-rhythm-at-home/embed/#?secret=u6GcDeln1w#?secret=znVLTy5ljj"
             data-secret="znVLTy5ljj"
             width="600"
-            height="238"
+            height="338"
             frameborder="0"
             marginwidth="0"
             marginheight="0"
@@ -266,7 +263,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/27675-2.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27675-2.jpg",
   verified: {
     marathi: true,
     english: false,

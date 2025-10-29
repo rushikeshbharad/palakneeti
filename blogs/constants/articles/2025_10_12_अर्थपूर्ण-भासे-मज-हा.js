@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="796"
     height="1024"
-    src="/assets/article-images/अर्थपूर्ण-भासे-मज-हा-0-arthapurna-bhase-maj-796x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-भासे-मज-हा-0-arthapurna-bhase-maj-796x1024.jpg"
     class="aligncenter wp-post-image"
     alt="अर्थपूर्ण भासे मज हा…"
     decoding="async"
@@ -341,7 +341,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="/assets/article-images/अर्थपूर्ण-भासे-मज-हा-1-nandu-mulmule.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-भासे-मज-हा-1-nandu-mulmule.jpg"
           alt="अर्थपूर्ण भासे मज हा…"
           class="wp-image-27768"
           style="width: 86px; height: auto"
@@ -392,7 +392,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/अर्थपूर्ण-भासे-मज-हा.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-भासे-मज-हा.jpg",
   verified: {
     marathi: true,
     english: false,

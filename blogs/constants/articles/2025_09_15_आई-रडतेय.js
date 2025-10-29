@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="300"
     height="243"
-    src="/assets/article-images/आई-रडतेय-0-me-oradate-300x243-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-रडतेय-0-me-oradate-300x243-1.jpg"
     class="aligncenter wp-post-image"
     alt="“आई रडतेय!”"
     decoding="async"
@@ -81,7 +81,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="/assets/article-images/आई-रडतेय-1-rubi-rama-pravin.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-रडतेय-1-rubi-rama-pravin.jpg"
           alt="“आई रडतेय!”"
           class="wp-image-27545"
           style="width: 71px; height: auto"
@@ -126,7 +126,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/आई-रडतेय.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-रडतेय.jpg",
   verified: {
     marathi: true,
     english: false,

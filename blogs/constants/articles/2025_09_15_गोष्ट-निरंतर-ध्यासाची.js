@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="683"
     height="909"
-    src="/assets/article-images/गोष्ट-निरंतर-ध्यासाची-0-gosht-nirantar-dhyasachi.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-निरंतर-ध्यासाची-0-gosht-nirantar-dhyasachi.jpg"
     class="aligncenter wp-post-image"
     alt="गोष्ट निरंतर ध्यासाची"
     decoding="async"
@@ -163,7 +163,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/गोष्ट-निरंतर-ध्यासाची.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-निरंतर-ध्यासाची.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="803"
     height="1024"
-    src="/assets/article-images/palakneeti-diwali-anka-2025-announcement-0-cover-2025a-803x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/palakneeti-diwali-anka-2025-announcement-0-cover-2025a-803x1024.jpg"
     class="aligncenter wp-post-image"
     alt="पालकनीती दिवाळी अंक २०२५."
     decoding="async"
@@ -21,7 +21,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="720"
-          src="/assets/article-images/palakneeti-diwali-anka-2025-announcement-1-WhatsApp-Image-2025-10-03-at-2.38.04-PM-1024x720.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/palakneeti-diwali-anka-2025-announcement-1-WhatsApp-Image-2025-10-03-at-2.38.04-PM-1024x720.jpeg"
           alt="पालकनीती दिवाळी अंक २०२५."
           class="wp-image-27733"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -80,7 +80,7 @@ const articleData = {
   conceptualists: [],
   tags: [],
   image:
-    "blogs/assets/article-images/palakneeti-diwali-anka-2025-announcement.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/palakneeti-diwali-anka-2025-announcement.jpg",
   verified: {
     marathi: true,
     english: false,

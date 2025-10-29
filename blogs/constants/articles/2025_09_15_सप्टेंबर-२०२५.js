@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="791"
     height="1024"
-    src="/assets/article-images/सप्टेंबर-२०२५-0-Palak-Niti-Sept-2025-cover-1-791x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सप्टेंबर-२०२५-0-Palak-Niti-Sept-2025-cover-1-791x1024.jpg"
     class="aligncenter wp-post-image"
     alt="सप्टेंबर २०२५"
     decoding="async"
@@ -125,7 +125,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/सप्टेंबर-२०२५.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सप्टेंबर-२०२५.jpg",
   verified: {
     marathi: true,
     english: false,

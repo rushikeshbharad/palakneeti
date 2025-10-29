@@ -215,7 +215,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="/assets/article-images/आनंदाचे-डोही-0-neelam-oswal.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदाचे-डोही-0-neelam-oswal.jpg"
           alt="आनंदाचे डोही"
           class="wp-image-27703"
           style="width: 61px; height: auto"
@@ -263,7 +263,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/आनंदाचे-डोही.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदाचे-डोही.jpg",
   verified: {
     marathi: true,
     english: false,

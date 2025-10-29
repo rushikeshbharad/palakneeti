@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="531"
     height="1024"
-    src="/assets/article-images/पैसे-आणि-बरंच-काही-0-paise-ani-barech-kahi-531x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही-0-paise-ani-barech-kahi-531x1024.jpg"
     class="aligncenter wp-post-image"
     alt="पैसे आणि बरंच काही…"
     decoding="async"
@@ -291,7 +291,7 @@ const articleData = {
           decoding="async"
           width="220"
           height="263"
-          src="/assets/article-images/पैसे-आणि-बरंच-काही-1-mukta-chaitanya.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही-1-mukta-chaitanya.jpg"
           alt="पैसे आणि बरंच काही…"
           class="wp-image-27772"
           style="width: 101px; height: auto"
@@ -340,7 +340,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/पैसे-आणि-बरंच-काही.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही.jpg",
   verified: {
     marathi: true,
     english: false,

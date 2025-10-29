@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="300"
     height="226"
-    src="/assets/article-images/संवादकीय-दिवाळी-२०२५-0-sanwadkiya-300x226-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-दिवाळी-२०२५-0-sanwadkiya-300x226-1.jpg"
     class="aligncenter wp-post-image"
     alt="संवादकीय – दिवाळी २०२५"
     decoding="async"
@@ -189,7 +189,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/संवादकीय-दिवाळी-२०२५.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-दिवाळी-२०२५.jpg",
   verified: {
     marathi: true,
     english: false,

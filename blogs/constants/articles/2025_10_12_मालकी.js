@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="564"
     height="1024"
-    src="/assets/article-images/मालकी-0-malki-564x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी-0-malki-564x1024.jpg"
     class="aligncenter wp-post-image"
     alt="मालकी"
     decoding="async"
@@ -59,7 +59,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="/assets/article-images/मालकी-1-priyadarshan-sahrabudhe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी-1-priyadarshan-sahrabudhe.jpg"
           alt="मालकी"
           class="wp-image-27776"
           style="width: 83px; height: auto"
@@ -107,7 +107,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/मालकी.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी.jpg",
   verified: {
     marathi: true,
     english: false,

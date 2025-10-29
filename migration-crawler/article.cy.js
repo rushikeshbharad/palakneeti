@@ -61,7 +61,7 @@ describe('Article Migration Crawler', () => {
         if (tile.imageUrl) {
           const extension = tile.imageUrl.split('.').pop().split('?')[0];
           const fileName = `${slug}.${extension}`;
-          const folder = 'blogs/assets/article-images';
+          const folder = 'assets/article-images';
           cy.task('downloadFile', { url: tile.imageUrl, folder, fileName }).then(filePath => {
             cy.log(`Main image downloaded to: ${filePath}`);
             cy.wrap(filePath).as('imageUrl');

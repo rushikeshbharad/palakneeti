@@ -13,6 +13,9 @@ module.exports = defineConfig({
     // Increase timeout for longer operations like file downloads
     defaultCommandTimeout: 10000,
     setupNodeEvents(on, config) {
+      // Define your GitHub repo details for jsDelivr
+      const GITHUB_REPO = "rushikeshbharad/palakneeti";
+
       on("task", {
         async saveArticle({ slug, articleData }) {
           const dir = path.join(config.projectRoot, "blogs", "constants", "articles")
@@ -70,8 +73,9 @@ export default articleData;
                 response.pipe(file)
                 file.on("finish", () => {
                   file.close()
-                  // Return the relative path for use in the test
-                  resolve(path.join(folder, fileName).replace(/\\/g, "/"))
+                  // Return the full jsDelivr URL for the downloaded file
+                  const cdnPath = path.join(folder, fileName).replace(/\\/g, "/");
+                  resolve(`https://cdn.jsdelivr.net/gh/${GITHUB_REPO}/${cdnPath}`);
                 })
               })
               .on("error", (err) => {
@@ -115,19 +119,19 @@ export default articleData;
             if (!src) return
 
             const originalFileName = decodeURI(src).split("/").pop().split("?")[0]
-            const extension = originalFileName.split(".").pop() || "jpg"
             const newFileName = `${slug}-${index}-${originalFileName}`
-            const newImagePath = `assets/article-images/${newFileName}`
+            const localFolderPath = "assets/article-images";
+            const cdnPath = `${localFolderPath}/${newFileName}`;
 
             // Add to list of downloads to be performed by Cypress
             imageDownloads.push({
               url: src,
-              folder: "assets/article-images",
+              folder: localFolderPath,
               fileName: newFileName,
             })
 
             // Update the src in the HTML
-            img.setAttribute("src", `/${newImagePath}`)
+            img.setAttribute("src", `https://cdn.jsdelivr.net/gh/${GITHUB_REPO}/${cdnPath}`);
             img.removeAttribute("srcset")
             // Add alt = title if alt is empty
             if (!img.getAttribute("alt")) {

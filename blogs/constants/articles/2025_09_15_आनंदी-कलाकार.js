@@ -7,7 +7,7 @@ const articleData = {
   <img
     width="831"
     height="1024"
-    src="/assets/article-images/आनंदी-कलाकार-0-anandi-kalakar6-831x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-0-anandi-kalakar6-831x1024.jpg"
     class="aligncenter wp-post-image"
     alt="आनंदी कलाकार"
     decoding="async"
@@ -64,7 +64,7 @@ const articleData = {
           decoding="async"
           width="648"
           height="380"
-          src="/assets/article-images/आनंदी-कलाकार-1-anandi-kalakar2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-1-anandi-kalakar2.jpg"
           alt="आनंदी कलाकार"
           class="wp-image-27714"
           style="width: 305px; height: auto"
@@ -77,7 +77,7 @@ const articleData = {
           decoding="async"
           width="648"
           height="518"
-          src="/assets/article-images/आनंदी-कलाकार-2-anandi-kalakar3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-2-anandi-kalakar3.jpg"
           alt="आनंदी कलाकार"
           class="wp-image-27715"
           style="width: 306px; height: auto"
@@ -136,7 +136,7 @@ const articleData = {
           decoding="async"
           width="650"
           height="641"
-          src="/assets/article-images/आनंदी-कलाकार-3-anandi-kalakar5.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-3-anandi-kalakar5.jpg"
           alt="आनंदी कलाकार"
           class="wp-image-27716"
           style="width: 251px; height: auto"
@@ -177,7 +177,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="720"
-          src="/assets/article-images/आनंदी-कलाकार-4-anandi-kalakar1-1024x720.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-4-anandi-kalakar1-1024x720.jpg"
           alt="आनंदी कलाकार"
           class="wp-image-27713"
           style="width: 412px; height: auto"
@@ -249,7 +249,7 @@ const articleData = {
           height="1024"
           class="wp-block-cover__image-background wp-image-27718"
           alt="आनंदी कलाकार"
-          src="/assets/article-images/आनंदी-कलाकार-5-Palak-Niti-Sept-2025-Page-16-790x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-5-Palak-Niti-Sept-2025-Page-16-790x1024.jpg"
           data-object-fit="cover"
           sizes="auto, (max-width: 790px) 100vw, 790px"
         /><span
@@ -299,7 +299,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="/assets/article-images/आनंदी-कलाकार-6-vandana-bhagat.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार-6-vandana-bhagat.jpg"
           alt="आनंदी कलाकार"
           class="wp-image-27712"
           style="width: 78px; height: auto"
@@ -349,7 +349,8 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [],
-  image: "blogs/assets/article-images/आनंदी-कलाकार.jpg",
+  image:
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदी-कलाकार.jpg",
   verified: {
     marathi: true,
     english: false,
