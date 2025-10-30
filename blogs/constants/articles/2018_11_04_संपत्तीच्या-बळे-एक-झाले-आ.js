@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -385,7 +386,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ.png",
   verified: {

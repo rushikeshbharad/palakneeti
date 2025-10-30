@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -233,7 +234,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["masik-article"]],
   image:
     "https://lh6.googleusercontent.com/57U5FWS5G-B2Q9u3qQHStxyzhx9_Tg5eJKLAKuT0heFui8w9RzZ2cjw4yXUJ_MmKUtDuzUsdrx2Lx6U147Djw9bDoH7uyFLK1pb00L7PbiOFERLktIvXj-M4M32xKuABrnhBW_Pu",
   verified: {

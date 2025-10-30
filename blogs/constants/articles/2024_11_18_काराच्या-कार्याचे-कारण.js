@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -405,7 +406,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
+    TAGS["दिवाळी-२०२४-लेख"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSCXslnYYSUeJiSVUd9btpd67quT3JNmikomnT_lEkgQlwkQa77Ou4Rc7mVz6fb_c4CMojexkF7U5LBcoDte82KMo90n5nO0D2fFTYnBVq6Ramv5jV1ymNpxEW1GHI-6GVJbUM9NkX2J7aIlUZlKmB91M-oJYC1UporsPuYQ?key=4MlNpaZrhkxnY4nFQdDW8g",
   verified: {

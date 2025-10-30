@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -216,7 +217,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोविएत-बाल-कुमार-साहित्य.png",
   verified: {

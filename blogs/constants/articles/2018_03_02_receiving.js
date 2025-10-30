@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: ``,
@@ -187,7 +188,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2018"],
+    TAGS["english"],
+    TAGS["january-जानेवारी-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://lh3.googleusercontent.com/vOXYuV0y-R9XRc8O2geJ48XaBYo9tP1-7-85HuA9CMH1ZDpW5KidwFfKa4w9LQRJDaQAfH0ENT3z2-Vq195YHeazapdaQRFUoMIRFIxXbsqD1V2NzTAjVc_JP1Udhr25xq0JhLrp",
   verified: {

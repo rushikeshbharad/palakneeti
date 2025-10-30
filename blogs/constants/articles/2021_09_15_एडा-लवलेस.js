@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -251,7 +252,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२१"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एडा-लवलेस.jpg",
   verified: {

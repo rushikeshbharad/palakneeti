@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -74,7 +75,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["announcement-news"],
+    TAGS["khelghar"],
+    TAGS["khelghar-news"],
+    TAGS["khelghar-video"],
+    TAGS["news"],
+    TAGS["palakneeti"],
+    TAGS["video"],
+  ],
   image: null,
   verified: {
     marathi: true,

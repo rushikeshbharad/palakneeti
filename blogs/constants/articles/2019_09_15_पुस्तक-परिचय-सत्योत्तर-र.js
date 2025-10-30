@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -159,7 +160,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["2019"], TAGS["masik-article"], TAGS["september-सप्टेम्बर-२०१९"]],
   image: null,
   verified: {
     marathi: true,

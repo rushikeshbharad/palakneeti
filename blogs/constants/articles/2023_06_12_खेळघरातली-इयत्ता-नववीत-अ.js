@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -186,7 +187,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["khelghar"], TAGS["khelghar-news"], TAGS["palakneeti"]],
   image: "https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f97a.png",
   verified: {
     marathi: true,

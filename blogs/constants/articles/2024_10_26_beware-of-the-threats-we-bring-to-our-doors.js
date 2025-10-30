@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: ``,
@@ -292,7 +293,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2024"],
+    TAGS["english"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/beware-of-the-threats-we-bring-to-our-doors.jpg",
   verified: {

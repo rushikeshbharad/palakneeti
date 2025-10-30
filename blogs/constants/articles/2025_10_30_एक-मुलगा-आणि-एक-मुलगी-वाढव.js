@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -415,7 +416,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
+    TAGS["दिवाळी-२०२४-लेख"],
+    TAGS["दिवाळी-अंक-2"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव.jpg",
   verified: {

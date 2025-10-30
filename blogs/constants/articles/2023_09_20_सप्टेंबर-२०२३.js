@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -122,7 +123,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2023"],
+    TAGS["masik"],
+    TAGS["masik-monthly"],
+    TAGS["सप्टेंबर-२०२३"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सप्टेंबर-२०२३.jpg",
   verified: {

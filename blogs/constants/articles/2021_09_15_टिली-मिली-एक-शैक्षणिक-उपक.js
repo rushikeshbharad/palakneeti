@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -219,7 +220,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["2021"], TAGS["june-जून-२०२१"], TAGS["masik-article"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टिली-मिली-एक-शैक्षणिक-उपक.jpg",
   verified: {

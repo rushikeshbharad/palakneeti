@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -204,7 +205,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
   image:
     "https://www.prhspeakers.com/wp-content/uploads/2018/02/Zachary-Wood_940_529_72ppi.jpg",
   verified: {

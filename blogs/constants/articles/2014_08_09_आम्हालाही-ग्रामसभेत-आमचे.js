@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -225,7 +226,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["masik-article"]],
   image:
     "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/bhau (1).jpg",
   verified: {

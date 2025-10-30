@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: ``,
@@ -255,7 +256,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2025"],
+    TAGS["english"],
+    TAGS["original-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/poorva-and-mansha.jpg",
   verified: {

@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -118,7 +119,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["announcement"],
+    TAGS["announcement-news"],
+    TAGS["khelghar"],
+    TAGS["khelghar-news"],
+    TAGS["news"],
+    TAGS["palakneeti"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवदुर्गा-पुरस्कार.jpg",
   verified: {

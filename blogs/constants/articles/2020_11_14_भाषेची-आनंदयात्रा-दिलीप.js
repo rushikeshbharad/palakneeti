@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -135,7 +136,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2020"],
+    TAGS["masik-article"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेची-आनंदयात्रा-दिलीप.jpg",
   verified: {

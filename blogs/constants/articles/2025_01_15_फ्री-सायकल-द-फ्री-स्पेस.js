@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -247,7 +248,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2025"],
+    TAGS["january-जानेवारी-२०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस.jpg",
   verified: {

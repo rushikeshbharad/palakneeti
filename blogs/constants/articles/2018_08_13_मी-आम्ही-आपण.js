@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -243,7 +244,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["masik-article"],
+    TAGS["uncategorized"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-आम्ही-आपण.png",
   verified: {

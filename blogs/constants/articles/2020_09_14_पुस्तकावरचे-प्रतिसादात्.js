@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -322,7 +323,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2020"],
+    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्.jpg",
   verified: {

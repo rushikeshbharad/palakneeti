@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -243,7 +244,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
   image:
     "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/John_Holt_(educator).jpg/220px-John_Holt_(educator).jpg",
   verified: {

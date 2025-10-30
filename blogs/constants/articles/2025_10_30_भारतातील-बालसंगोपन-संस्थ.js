@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -288,7 +289,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2024"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
+    TAGS["दिवाळी-२०२४-लेख"],
+    TAGS["पालकनीती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-बालसंगोपन-संस्थ.jpg",
   verified: {

@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -244,7 +245,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2022"],
+    TAGS["december-डिसेंबर-२०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022.png",
   verified: {

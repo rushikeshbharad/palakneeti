@@ -1,3 +1,4 @@
+import TAGS from "../tags.js";
 const articleData = {
   content: {
     marathi: `<article
@@ -179,7 +180,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [],
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-diwali"],
+    TAGS["masik-monthly"],
+    TAGS["jodank-2022"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दिवाळी-अंक-२०२२.jpg",
   verified: {
