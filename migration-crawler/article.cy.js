@@ -1,6 +1,6 @@
-describe('Article Migration Crawler', () => {
+describe.skip('Article Migration Crawler', () => {
   // Use a function() test body to have access to `this` for aliases
-  for (let i = 1; i <= 1; i += 1) {
+  for (let i = 1; i <= 101; i += 1) {
     it(`Process all articles from the "Masik Blog" page ${i}`, function() {
         cy.log('Visiting the Masik Blog page...');
         cy.visit(`/all-about-palakneeti-parivar/masik-blog/page/${i}/`);
@@ -97,42 +97,44 @@ describe('Article Migration Crawler', () => {
 
                 // Wrap the native Promise in a cy.wrap() to make Cypress wait for it to resolve
                 cy.wrap(Promise.all(downloadPromises)).then(() => {
-                cy.log('All embedded images downloaded.');
-                cy.log('Assembling final article data...');
-                // --- 4. Assemble and save the data ---
-                const articleData = {
-                    content: { marathi: ``, english: `` },
-                    title: { marathi: "", english: "" },
-                    short: { marathi: "", english: "" },
-                    authors: [],
-                    translators: [],
-                    verbalizers: [],
-                    conceptualists: [],
-                    tags: [],
-                    image: this.imageUrl,
-                    verified: { marathi: false, english: false }
-                };
+                  cy.log('All embedded images downloaded.');
+                  cy.log('Assembling final article data...');
+                  const finalSlug = `${this.date}_${this.slug}`;
 
-                if (this.isMarathi) {
-                    articleData.content.marathi = cleanedHtml;
-                    articleData.title.marathi = this.title;
-                    articleData.short.marathi = this.short;
-                    articleData.verified.marathi = true;
-                } else {
-                    articleData.content.english = cleanedHtml;
-                    articleData.title.english = this.title;
-                    articleData.short.english = this.short;
-                    articleData.verified.english = true;
-                }
+                  // --- 4. Assemble and save the data ---
+                  // First, try to get existing article data to avoid overwriting.
+                  cy.task('getArticleData', finalSlug).then(existingData => {
+                    const articleData = existingData || {
+                        content: { marathi: ``, english: `` },
+                        title: { marathi: "", english: "" },
+                        short: { marathi: "", english: "" },
+                        authors: [],
+                        translators: [],
+                        verbalizers: [],
+                        conceptualists: [],
+                        tags: [],
+                        image: null,
+                        verified: { marathi: false, english: false }
+                    };
 
-                const finalSlug = `${this.date}_${this.slug}`;
-                cy.task('saveArticle', { slug: finalSlug, articleData }).then(result => {
-                    if (result.skipped) {
-                    cy.log(`SKIPPED: Article already exists at ${result.path}`);
+                    // Update the data with newly crawled information
+                    articleData.image = this.imageUrl;
+
+                    if (this.isMarathi) {
+                        articleData.content.marathi = cleanedHtml;
+                        articleData.title.marathi = this.title;
+                        articleData.short.marathi = this.short;
+                        articleData.verified.marathi = true;
                     } else {
-                    cy.log(`SUCCESS: Saved article to ${result.path}`);
+                        articleData.content.english = cleanedHtml;
+                        articleData.title.english = this.title;
+                        articleData.short.english = this.short;
+                        articleData.verified.english = true;
                     }
-                });
+
+                    cy.task('saveArticle', { slug: finalSlug, articleData })
+                      .then(result => cy.log(`SUCCESS: Saved article to ${result.path}`));
+                  });
                 });
             });
             });
@@ -140,4 +142,194 @@ describe('Article Migration Crawler', () => {
         });
     });
   }
+});
+
+describe.skip('Tag Migration Crawler 1', () => {
+  const allTags = {};
+  const articlesWithTags = [];
+
+  // Phase 1: Collect all tags and article tag mappings from all pages
+  for (let i = 1; i <= 101; i += 1) {
+    it(`Phase 1: Collect tags from page ${i}`, () => {
+      cy.visit(`/all-about-palakneeti-parivar/masik-blog/page/${i}/`);
+
+      cy.get('body').then($body => {
+        // If the main content area doesn't exist, the page is likely a 404 or empty.
+        if ($body.find('.bdpp-post-grid-content').length === 0) {
+          cy.log(`No articles found on page ${i}, skipping.`);
+          return;
+        }
+
+        const pageArticles = [];
+        cy.get('.bdpp-post-grid-content').each(($tile) => {
+          const articleInfo = {};
+          cy.wrap($tile).find('h2 a').invoke('attr', 'href').then(url => {
+            articleInfo.url = url;
+          });
+          cy.wrap($tile).find('.bdpp-post-meta-up').invoke('text').then(dateText => {
+            articleInfo.dateText = dateText.trim();
+          }).then(() => {
+            pageArticles.push(articleInfo);
+          });
+        }).then(() => {
+          // Now that we have all article info, we can visit each one without breaking the .each() loop.
+          cy.wrap(pageArticles).each(article => {
+            const slug = decodeURI(article.url.split('/').filter(Boolean).pop());
+            const parsedDate = new Date(article.dateText);
+            const year = parsedDate.getFullYear();
+            const month = String(parsedDate.getMonth() + 1).padStart(2, '0');
+            const day = String(parsedDate.getDate()).padStart(2, '0');
+            const date = `${year}_${month}_${day}`;
+            const finalSlug = `${date}_${slug}`;
+
+            // Visit each article to get its tags
+            cy.visit(article.url);
+            cy.get('body').then($articleBody => {
+              if ($articleBody.find('.cat-links a').length > 0) {
+                const articleTagKeys = [];
+                cy.get('.cat-links a').each($tagLink => {
+                  const tagHref = $tagLink.attr('href');
+                  const tagKey = decodeURI(tagHref.replace(/\/$/, '').split('/').pop());
+                  const tagValue = $tagLink.text().trim();
+
+                  if (tagKey && tagValue) {
+                    allTags[tagKey] = tagValue;
+                    articleTagKeys.push(tagKey);
+                  }
+                }).then(() => {
+                  if (articleTagKeys.length > 0) {
+                    articlesWithTags.push({ slug: finalSlug, tags: articleTagKeys });
+                  }
+                });
+              }
+            });
+          });
+        });
+      });
+    });
+  }
+
+  // Phase 2: Save all collected data
+  it('Phase 2: Save all collected tags and update article files', () => {
+    // 1. Save the master tags file
+    cy.log('Saving all collected tags...');
+    cy.task('saveTagsFile', allTags).then(result => {
+      if (result.success) {
+        cy.log(`SUCCESS: Saved tags to ${result.path}`);
+      } else {
+        cy.log(`ERROR: Failed to save tags file: ${result.error}`);
+      }
+    });
+
+    // 2. Update each article that has tags
+    cy.log(`Found ${articlesWithTags.length} articles with tags to update.`);
+    articlesWithTags.forEach(article => {
+      cy.task('updateArticleTags', { slug: article.slug, tags: article.tags }).then(result => {
+        if (result.success) {
+          cy.log(`SUCCESS: Updated tags for ${article.slug} at ${result.path}`);
+        } else {
+          cy.log(`SKIPPED/ERROR updating ${article.slug}: ${result.error}`);
+        }
+      });
+    });
+  });
+});
+
+describe.skip('Tag Migration Crawler 2', () => {
+  let allTags = {};
+  const articlesWithTags = [];
+
+  before(() => {
+    cy.task('getExistingTags').then(tags => {
+      allTags = tags || {};
+      cy.log(`Loaded ${Object.keys(allTags).length} existing tags.`);
+    });
+  });
+
+  // Phase 1: Collect all tags and article tag mappings from all pages
+  for (let i = 1; i <= 101; i += 1) {
+    it(`Phase 1: Collect tags from page ${i}`, () => {
+      cy.visit(`/all-about-palakneeti-parivar/masik-blog/page/${i}/`);
+
+      cy.get('body').then($body => {
+        // If the main content area doesn't exist, the page is likely a 404 or empty.
+        if ($body.find('.bdpp-post-grid-content').length === 0) {
+          cy.log(`No articles found on page ${i}, skipping.`);
+          return;
+        }
+
+        const pageArticles = [];
+        cy.get('.bdpp-post-grid-content').each(($tile) => {
+          const articleInfo = {};
+          cy.wrap($tile).find('h2 a').invoke('attr', 'href').then(url => {
+            articleInfo.url = url;
+          });
+          cy.wrap($tile).find('.bdpp-post-meta-up').invoke('text').then(dateText => {
+            articleInfo.dateText = dateText.trim();
+          }).then(() => {
+            pageArticles.push(articleInfo);
+          });
+        }).then(() => {
+          // Now that we have all article info, we can visit each one without breaking the .each() loop.
+          cy.wrap(pageArticles).each(article => {
+            const slug = decodeURI(article.url.split('/').filter(Boolean).pop());
+            const parsedDate = new Date(article.dateText);
+            const year = parsedDate.getFullYear();
+            const month = String(parsedDate.getMonth() + 1).padStart(2, '0');
+            const day = String(parsedDate.getDate()).padStart(2, '0');
+            const date = `${year}_${month}_${day}`;
+            const finalSlug = `${date}_${slug}`;
+
+            // Visit each article to get its tags
+            cy.visit(article.url);
+            cy.get('body').then($articleBody => {
+              if ($articleBody.find('.tags-links a').length > 0) {
+                const articleTagKeys = [];
+                cy.get('.tags-links a').each($tagLink => {
+                  const tagHref = $tagLink.attr('href');
+                  const tagKey = decodeURI(tagHref.replace(/\/$/, '').split('/').pop());
+                  const tagValue = $tagLink.text().trim();
+
+                  if (tagKey && tagValue) {
+                    allTags[tagKey] = tagValue;
+                    articleTagKeys.push(tagKey);
+                  }
+                }).then(() => {
+                  if (articleTagKeys.length > 0) {
+                    articlesWithTags.push({ slug: finalSlug, tags: articleTagKeys });
+                  }
+                });
+              }
+            });
+          });
+        });
+      });
+    });
+  }
+
+  // Phase 2: Save all collected data
+  it('Phase 2: Save all collected tags and update article files', () => {
+    // 1. Save the master tags file
+    cy.log('Saving all collected tags...');
+    cy.task('saveTagsFile', allTags).then(result => {
+      if (result.success) {
+        cy.log(`SUCCESS: Saved tags to ${result.path}`);
+      } else {
+        cy.log(`ERROR: Failed to save tags file: ${result.error}`);
+      }
+    });
+
+    // 2. Update each article that has tags
+    cy.log(`Found ${articlesWithTags.length} articles with tags to update.`);
+    articlesWithTags.forEach(article => {
+      cy.log("article => ", article)
+      cy.task('updateArticleTags', { slug: article.slug, tags: article.tags }).then(result => {
+        if (result.success) {
+          cy.log(`SUCCESS: Updated tags for ${article.slug} at ${result.path}`);
+        } else {
+          cy.log(`SKIPPED/ERROR updating ${article.slug}: ${result.error}`);
+        }
+      });
+    });
+  });
 });

@@ -1,10 +1,12 @@
 const { defineConfig } = require("cypress")
 const fs = require("fs")
 const path = require("path")
+const { pipeline } = require("stream/promises");
 const http = require("http")
 const https = require("https")
 const { JSDOM } = require("jsdom")
 const prettier = require("prettier")
+const recast = require("recast")
 
 module.exports = defineConfig({
   e2e: {
@@ -24,41 +26,51 @@ module.exports = defineConfig({
             fs.mkdirSync(dir, { recursive: true })
           }
           const filePath = path.join(dir, `${slug}.js`)
-
-          // Check if the file already exists. If so, skip it.
-          if (fs.existsSync(filePath)) {
-            console.log(`SKIPPED: File already exists at ${filePath}`);
-            return { skipped: true, path: filePath };
-          }
-
           // Separate the HTML content to handle it as a special case
           const { content, ...restOfData } = articleData
-
-          // Stringify the non-HTML parts of the data
           const restOfDataString = JSON.stringify(restOfData, null, 2)
-            // We'll insert this inside the final object, so remove the outer braces
             .slice(1, -1)
             .trim()
 
-          // Manually construct the file content, using template literals for the HTML
-          // This preserves all newlines and indentation from Prettier
-          const fileContent = `const articleData = {
-  content: {
-    marathi: \`${content.marathi.replace(/`/g, "\\`")}\`,
-    english: \`${content.english.replace(/`/g, "\\`")}\`,
-  },
-  ${restOfDataString}
-};
+          const newArticleDataObjectString = `{
+            content: {
+              marathi: \`${content.marathi.replace(/`/g, "\\`")}\`,
+              english: \`${content.english.replace(/`/g, "\\`")}\`,
+            },
+            ${restOfDataString}
+          }`;
+
+          let finalFileContent;
+
+          if (fs.existsSync(filePath)) {
+            // File exists: Read, replace, and write back to preserve imports.
+            const existingContent = fs.readFileSync(filePath, 'utf-8');
+            const articleDataRegex = /const\s+articleData\s*=\s*({[\s\S]*?});/;
+            if (articleDataRegex.test(existingContent)) {
+              finalFileContent = existingContent.replace(
+                articleDataRegex,
+                `const articleData = ${newArticleDataObjectString};`
+              );
+            } else {
+              // Fallback if regex fails, though it shouldn't.
+              console.error(`Could not find articleData object in ${slug}.js to replace.`);
+              return { error: `Failed to update ${slug}.js` };
+            }
+          } else {
+            // File doesn't exist: Create it from scratch.
+            finalFileContent = `const articleData = ${newArticleDataObjectString};
 
 export default articleData;
-`
+`;
+          }
 
-          // Format the entire JS file for consistency
-          const finalFormattedContent = await prettier.format(fileContent, {
+          const finalFormattedContent = await prettier.format(finalFileContent, {
             parser: "babel",
-          })
+            ...(await prettier.resolveConfig(config.projectRoot)),
+          });
+
           fs.writeFileSync(filePath, finalFormattedContent);
-          return { skipped: false, path: filePath };
+          return { path: filePath };
         },
         downloadFile({ url, folder, fileName }) {
           return new Promise((resolve, reject) => {
@@ -90,22 +102,23 @@ export default articleData;
               }
             };
 
-            // Choose the correct module (http or https) based on the URL protocol
-            const protocol = url.startsWith("https") ? https : http;
-
-            protocol
-              .get(url, options, response => {
-                response.pipe(file)
-                file.on("finish", () => {
-                  file.close()
-                  // Return the full jsDelivr URL for the downloaded file
+            // Use native fetch to handle downloads and redirects in the Node.js environment.
+            fetch(url, { ...options, redirect: 'follow' })
+              .then(res => {
+                if (!res.ok) {
+                  throw new Error(`Failed to download file: ${res.status} ${res.statusText}`);
+                }
+                // res.body is a Web ReadableStream. We use stream.pipeline to correctly pipe it to a Node.js WritableStream.
+                const dest = fs.createWriteStream(filePath);
+                // Use pipeline to handle the stream and automatically close it on completion or error.
+                return pipeline(res.body, dest).then(() => {
                   const cdnPath = path.join(folder, fileName).replace(/\\/g, "/");
                   resolve(`https://cdn.jsdelivr.net/gh/${GITHUB_REPO}/${cdnPath}`);
-                })
+                });
               })
-              .on("error", (err) => {
-                fs.unlink(filePath, () => reject(err))
-              })
+              .catch(() => {
+                fs.unlink(filePath, () => {});
+              });
           })
         },
         async processHtml({ htmlString, slug, title }) {
@@ -197,6 +210,149 @@ export default articleData;
             cleanedHtml: formattedHtml,
             imageDownloads,
           }
+        },
+        getArticleData(slug) {
+          const articlePath = path.join(config.projectRoot, "blogs", "constants", "articles", `${slug}.js`);
+          if (!fs.existsSync(articlePath)) {
+            return null; // File doesn't exist, so no data to return
+          }
+          try {
+            const fileContent = fs.readFileSync(articlePath, "utf-8");
+            // This is a safe way to extract the object without using eval()
+            // It finds the start of the object `{` and its corresponding end `}`
+            const startIndex = fileContent.indexOf('{');
+            const endIndex = fileContent.lastIndexOf('}');
+            if (startIndex === -1 || endIndex === -1) {
+              return null;
+            }
+            const objectString = fileContent.substring(startIndex, endIndex + 1);
+            // The string is essentially a JSON object, but keys are not quoted. We can use a trick.
+            const articleData = new Function(`return ${objectString}`)();
+            return articleData;
+          } catch (error) {
+            console.error(`Error reading or parsing ${articlePath}:`, error);
+            return null;
+          }
+        },
+        getExistingTags() {
+          const tagsPath = path.join(config.projectRoot, "blogs", "constants", "tags.js");
+          if (!fs.existsSync(tagsPath)) {
+            console.log('No existing tags.js file found. Starting fresh.');
+            return {}; // File doesn't exist, return empty object
+          }
+          try {
+            const fileContent = fs.readFileSync(tagsPath, "utf-8");
+            // Safely extract the object by finding the first '{' and last '}'
+            const startIndex = fileContent.indexOf('{');
+            const endIndex = fileContent.lastIndexOf('}');
+            if (startIndex === -1 || endIndex === -1) {
+              return {};
+            }
+            const objectString = fileContent.substring(startIndex, endIndex + 1);
+            return new Function(`return ${objectString}`)();
+          } catch (error) {
+            console.error(`Error reading or parsing ${tagsPath}:`, error);
+            return {}; // Return empty object on error
+          }
+        },
+        async saveTagsFile(tags) {
+          const tagsPath = path.join(config.projectRoot, "blogs", "constants", "tags.js");
+          try {
+            // Sort tags by key for consistent order
+            const sortedTags = Object.fromEntries(Object.entries(tags).sort());
+
+            const fileContent = `// This file is auto-generated by the Cypress migration crawler. Do not edit manually.
+
+const TAGS = ${JSON.stringify(sortedTags, null, 2)};
+
+export default TAGS;
+`;
+            const formattedContent = await prettier.format(fileContent, {
+              parser: "babel",
+            });
+
+            fs.writeFileSync(tagsPath, formattedContent);
+            return { success: true, path: tagsPath };
+          } catch (error) {
+            return { success: false, error: error.message };
+          }
+        },
+        async updateArticleTags({ slug, tags: newTags }) {
+          const articlePath = path.join(config.projectRoot, "blogs", "constants", "articles", `${slug}.js`);
+          if (!fs.existsSync(articlePath)) {
+            return { success: false, error: "Article file not found." };
+          }
+
+          let fileContent = fs.readFileSync(articlePath, "utf-8");
+
+          const ast = recast.parse(fileContent, { parser: require("recast/parsers/babel") });
+          const b = recast.types.builders;
+
+          let articleDataNode;
+          recast.visit(ast, {
+            visitVariableDeclarator(path) {
+              if (path.node.id.name === 'articleData') {
+                articleDataNode = path.node.init;
+                return false; // Stop traversal
+              }
+              this.traverse(path);
+            }
+          });
+
+          if (!articleDataNode || articleDataNode.type !== 'ObjectExpression') {
+            return { success: false, error: "Could not find articleData object in file." };
+          }
+
+          const tagsProperty = articleDataNode.properties.find(
+            p => p.key.name === 'tags'
+          );
+
+          const existingTagKeys = new Set();
+          if (tagsProperty && tagsProperty.value.type === 'ArrayExpression') {
+            tagsProperty.value.elements.forEach(el => {
+              if (el.type === 'MemberExpression' && el.object.name === 'TAGS' && el.property.type === 'StringLiteral') {
+                existingTagKeys.add(el.property.value);
+              }
+            });
+          }
+
+          newTags.forEach(tag => existingTagKeys.add(tag));
+          const combinedTags = Array.from(existingTagKeys).sort();
+
+          const newTagsArray = b.arrayExpression(
+            combinedTags.map(tagKey =>
+              b.memberExpression(b.identifier('TAGS'), b.stringLiteral(tagKey), true)
+            )
+          );
+
+          if (tagsProperty) {
+            tagsProperty.value = newTagsArray;
+          } else {
+            articleDataNode.properties.push(b.property('init', b.identifier('tags'), newTagsArray));
+          }
+
+          // Ensure the import exists
+          const hasTagsImport = ast.program.body.some(node => node.type === 'ImportDeclaration' && node.source.value === '../tags.js');
+          if (!hasTagsImport) {
+            ast.program.body.unshift(b.importDeclaration([b.importDefaultSpecifier(b.identifier('TAGS'))], b.literal('../tags.js')));
+          }
+
+          const newFileContent = recast.print(ast).code;
+
+          // If no tags to add/update, we can skip writing the file.
+          if (!combinedTags || combinedTags.length === 0) {
+            return { success: true, path: articlePath, message: "No tags to update." };
+          }
+
+          const formattedContent = await prettier.format(newFileContent, {
+            parser: "babel",
+            // Resolve config to ensure it uses your project's prettier settings
+            ...(await prettier.resolveConfig(config.projectRoot)),
+          });
+
+          fs.writeFileSync(articlePath, formattedContent);
+
+          return { success: true, path: articlePath };
         },
       })
     },
