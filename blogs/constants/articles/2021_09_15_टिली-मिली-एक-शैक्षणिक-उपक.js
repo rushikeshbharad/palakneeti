@@ -220,7 +220,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["june-जून-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["education"],
+    TAGS["june-जून-२०२१"],
+    TAGS["masik-article"],
+    TAGS["online-education"],
+    TAGS["reflections"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टिली-मिली-एक-शैक्षणिक-उपक.jpg",
   verified: {

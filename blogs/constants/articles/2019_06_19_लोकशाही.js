@@ -139,7 +139,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["democracy"],
+    TAGS["democratic-practices"],
+    TAGS["june-जून-२०१९"],
+    TAGS["masik-article"],
+  ],
   image: null,
   verified: {
     marathi: true,

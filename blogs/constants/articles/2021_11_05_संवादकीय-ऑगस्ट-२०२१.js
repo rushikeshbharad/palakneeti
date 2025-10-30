@@ -118,7 +118,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
+  tags: [TAGS["editorial"], TAGS["masik-article"], TAGS["samvaadkiya"]],
   image: null,
   verified: {
     marathi: true,

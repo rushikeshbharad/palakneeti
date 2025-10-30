@@ -69,7 +69,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["may-मे-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०२१"],
+    TAGS["readers-response"],
+    TAGS["teachers-initiative"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादसेतू.jpg",
   verified: {

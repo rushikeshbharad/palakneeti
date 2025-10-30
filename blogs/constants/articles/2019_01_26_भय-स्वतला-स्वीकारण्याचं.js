@@ -249,7 +249,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["acceptance"],
+    TAGS["fear"],
+    TAGS["fear-of-self-acceptance"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भय-स्वतला-स्वीकारण्याचं.jpg",
   verified: {

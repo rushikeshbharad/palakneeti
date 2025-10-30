@@ -305,7 +305,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["february-फेब्रुवारी-२०२०"],
+    TAGS["masik-article"],
+    TAGS["violence"],
+    TAGS["violence-against-woman"],
+    TAGS["woman"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवजाणिवांच्या-प्रसूतिकळ.jpg",
   verified: {

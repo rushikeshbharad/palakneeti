@@ -153,7 +153,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["environment-education"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-शिक्षणातून-काय.png",
   verified: {

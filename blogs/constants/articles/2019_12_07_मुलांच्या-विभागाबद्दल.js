@@ -88,8 +88,11 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2019"],
+    TAGS["about-childrens-section"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
+    TAGS["story"],
+    TAGS["story-for-children"],
   ],
   image: null,
   verified: {

@@ -287,7 +287,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
+  tags: [
+    TAGS["child-development"],
+    TAGS["food"],
+    TAGS["masik-article"],
+    TAGS["nutrition"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आहार-आणि-बालविकास.jpg",
   verified: {

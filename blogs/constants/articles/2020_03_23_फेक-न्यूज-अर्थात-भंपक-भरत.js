@@ -419,7 +419,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
+  tags: [TAGS["fake-news"], TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फेक-न्यूज-अर्थात-भंपक-भरत.jpg",
   verified: {

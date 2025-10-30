@@ -283,7 +283,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2019"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2019"],
+    TAGS["fear"],
+    TAGS["masik-article"],
+    TAGS["psychology-of-fear"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल.png",
   verified: {

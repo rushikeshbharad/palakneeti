@@ -105,7 +105,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१९"],
+    TAGS["death"],
+    TAGS["diary-of-a-mother"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टोमॅटो-आदूकडे-गेला-का.jpg",
   verified: {

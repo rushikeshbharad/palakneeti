@@ -86,7 +86,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१९"],
+    TAGS["masik-article"],
+    TAGS["readers-feedback"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाचक-प्रतिसाद-2.jpg",
   verified: {

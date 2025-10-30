@@ -207,6 +207,8 @@ const articleData = {
     TAGS["masik"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["russian"],
+    TAGS["when-daddy-was-a-little-boy"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/when-daddy-makes-mistakes.jpg",

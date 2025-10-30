@@ -220,7 +220,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["january-जानेवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["constitution"],
+    TAGS["january-जानेवारी-२०२२"],
+    TAGS["loknaad"],
+    TAGS["masik-article"],
+    TAGS["song"],
+    TAGS["we-the-people"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हम-लोग-we-the-people.png",
   verified: {

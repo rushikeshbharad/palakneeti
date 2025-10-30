@@ -234,6 +234,7 @@ const articleData = {
     TAGS["2020"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["story"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टींची-शाळा.jpg",

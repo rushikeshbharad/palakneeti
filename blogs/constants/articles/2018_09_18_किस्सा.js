@@ -113,7 +113,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["can-art-of-be-forced"],
+    TAGS["force"],
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०१८"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/किस्सा.jpg",
   verified: {

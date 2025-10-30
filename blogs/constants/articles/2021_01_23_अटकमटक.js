@@ -86,7 +86,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["january-जानेवारी-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["childrens-literature"],
+    TAGS["education-resource"],
+    TAGS["january-जानेवारी-२०२१"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अटकमटक.png",
   verified: {

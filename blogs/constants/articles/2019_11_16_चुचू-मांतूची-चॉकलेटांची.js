@@ -220,7 +220,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
+    TAGS["story"],
+    TAGS["story-for-children"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची.png",
   verified: {

@@ -151,7 +151,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [
+    TAGS["editorial"],
+    TAGS["masik-article"],
+    TAGS["oct-nov-२०१८"],
+    TAGS["संवादकीय"],
+  ],
   image: null,
   verified: {
     marathi: true,

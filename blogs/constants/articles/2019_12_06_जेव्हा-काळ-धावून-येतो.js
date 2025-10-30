@@ -110,7 +110,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
+    TAGS["story"],
+    TAGS["story-by-children"],
+    TAGS["story-for-children"],
+  ],
   image: null,
   verified: {
     marathi: true,

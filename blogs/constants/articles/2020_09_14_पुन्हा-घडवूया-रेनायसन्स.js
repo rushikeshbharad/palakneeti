@@ -322,7 +322,11 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
+    TAGS["ecology"],
+    TAGS["economy"],
+    TAGS["environment"],
     TAGS["masik-article"],
+    TAGS["nature"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुन्हा-घडवूया-रेनायसन्स.jpg",

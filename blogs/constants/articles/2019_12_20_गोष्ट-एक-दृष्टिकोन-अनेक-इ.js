@@ -301,7 +301,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-डिसेंबर-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["december-डिसेंबर-२०१९"],
+    TAGS["masik-article"],
+    TAGS["perspective"],
+    TAGS["religion"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-एक-दृष्टिकोन-अनेक-इ.jpg",
   verified: {

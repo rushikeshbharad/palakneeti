@@ -142,7 +142,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["book-review"],
+    TAGS["gender"],
+    TAGS["gender-identity"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-समीक्षा.jpg",
   verified: {

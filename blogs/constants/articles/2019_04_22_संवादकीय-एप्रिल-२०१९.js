@@ -141,6 +141,7 @@ const articleData = {
   tags: [
     TAGS["april-एप्रिल-२०१९"],
     TAGS["masik-article"],
+    TAGS["samvaadkiya"],
     TAGS["uncategorized"],
   ],
   image: null,

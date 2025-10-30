@@ -309,7 +309,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-२०१८"],
+    TAGS["अर्थव्यवस्था"],
+    TAGS["ग्राहक"],
+    TAGS["निसर्ग"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह.png",
   verified: {

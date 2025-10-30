@@ -187,7 +187,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["father"],
+    TAGS["fatherhood"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+    TAGS["role-of-father-in-child-development"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बालसंगोपनातील-वडिलांची-भ.png",
   verified: {

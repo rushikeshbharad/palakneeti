@@ -155,8 +155,10 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["editorial"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["samvaadkiya"],
   ],
   image: null,
   verified: {

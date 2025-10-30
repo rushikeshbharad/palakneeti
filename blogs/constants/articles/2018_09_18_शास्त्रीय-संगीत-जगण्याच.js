@@ -187,7 +187,17 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["carnatic-music"],
+    TAGS["classical-music"],
+    TAGS["masik-article"],
+    TAGS["music"],
+    TAGS["music-as-way-of-life"],
+    TAGS["september-सप्टेंबर-२०१८"],
+    TAGS["singing"],
+    TAGS["t-m-krishna"],
+    TAGS["way-of-life"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्रीय-संगीत-जगण्याच.jpg",
   verified: {

@@ -82,7 +82,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["art-education"],
+    TAGS["artist"],
+    TAGS["arts"],
+    TAGS["dance"],
+    TAGS["masik-article"],
+    TAGS["music"],
+    TAGS["samvaadkiya"],
+    TAGS["september-सप्टेंबर-२०१८"],
+  ],
   image: null,
   verified: {
     marathi: true,

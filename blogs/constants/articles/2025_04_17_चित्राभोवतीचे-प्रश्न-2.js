@@ -218,8 +218,10 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2025"],
+    TAGS["art-education"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["parenting"],
     TAGS["पालकनीती"],
   ],
   image:

@@ -118,7 +118,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["bonding"],
+    TAGS["masik-article"],
+    TAGS["parent-child-relationship"],
+    TAGS["relationship"],
+    TAGS["september-सप्टेंबर-२०१८"],
+  ],
   image: null,
   verified: {
     marathi: true,

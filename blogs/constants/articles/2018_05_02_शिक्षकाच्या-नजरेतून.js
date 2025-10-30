@@ -220,7 +220,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["gender"],
+    TAGS["gender-and-education"],
+    TAGS["gender-education"],
+    TAGS["masik-article"],
+    TAGS["teacher"],
+    TAGS["teachers-perspective"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षकाच्या-नजरेतून.jpg",
   verified: {

@@ -163,7 +163,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["march-मार्च-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["covid19"],
+    TAGS["female"],
+    TAGS["gender"],
+    TAGS["march-मार्च-२०२१"],
+    TAGS["masik-article"],
+    TAGS["women"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-आणि-महिला.png",
   verified: {

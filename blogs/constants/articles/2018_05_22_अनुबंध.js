@@ -110,7 +110,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [TAGS["grandparents"], TAGS["masik-article"], TAGS["may-मे-२०१८"]],
   image: null,
   verified: {
     marathi: true,

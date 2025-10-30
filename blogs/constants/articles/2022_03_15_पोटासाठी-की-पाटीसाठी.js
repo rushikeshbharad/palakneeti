@@ -114,7 +114,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
+  tags: [TAGS["civil-society-organisation"], TAGS["masik-article"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पोटासाठी-की-पाटीसाठी.jpg",
   verified: {

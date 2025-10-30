@@ -283,7 +283,15 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["english"],
+    TAGS["language"],
     TAGS["masik-article"],
+    TAGS["mle"],
+    TAGS["mother-tongue"],
+    TAGS["mother-tongue-based-multi-lingual-education"],
+    TAGS["mtb-mle"],
+    TAGS["multi-lingual-education"],
+    TAGS["nep-2020"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
   ],
   image:

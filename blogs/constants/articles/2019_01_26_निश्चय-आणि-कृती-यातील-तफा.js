@@ -247,7 +247,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["action"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["new-year-resolution"],
+    TAGS["resolution"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निश्चय-आणि-कृती-यातील-तफा.jpg",
   verified: {

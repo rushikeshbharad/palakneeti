@@ -119,7 +119,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [
+    TAGS["age"],
+    TAGS["grandmother"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१८"],
+    TAGS["young-grandmothers"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजी-तुझं-वय-काय.png",
   verified: {

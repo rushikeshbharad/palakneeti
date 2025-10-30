@@ -238,7 +238,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["june-जून-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["june-जून-२०२२"],
+    TAGS["masik-article"],
+    TAGS["russian"],
+    TAGS["story-for-children"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18795-2.jpg",
   verified: {

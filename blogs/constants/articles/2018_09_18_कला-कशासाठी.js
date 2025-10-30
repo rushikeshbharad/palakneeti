@@ -144,7 +144,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["art-for-what"],
+    TAGS["masik-article"],
+    TAGS["perspectives-on-arts"],
+    TAGS["september-सप्टेंबर-२०१८"],
+    TAGS["teacher-plus"],
+  ],
   image: null,
   verified: {
     marathi: true,

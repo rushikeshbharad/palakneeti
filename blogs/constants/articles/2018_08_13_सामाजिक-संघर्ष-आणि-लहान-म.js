@@ -265,7 +265,16 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["children"],
+    TAGS["children-and-conflict"],
+    TAGS["conflict"],
+    TAGS["constitution"],
+    TAGS["education"],
+    TAGS["krishna-kumar"],
     TAGS["masik-article"],
+    TAGS["peace"],
+    TAGS["religion"],
+    TAGS["social-conflict"],
     TAGS["uncategorized"],
   ],
   image:

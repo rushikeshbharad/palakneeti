@@ -228,7 +228,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["childs-development"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["observations"],
+    TAGS["understanding-nature"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाढत्या-वयातील-निसर्ग-आक.jpg",
   verified: {

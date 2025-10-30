@@ -125,6 +125,7 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["february-फेब्रुवारी-२०१९"],
+    TAGS["language"],
     TAGS["masik-article"],
     TAGS["uncategorized"],
   ],

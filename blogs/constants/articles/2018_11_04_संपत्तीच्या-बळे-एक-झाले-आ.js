@@ -386,7 +386,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-२०१८"],
+    TAGS["अतुल-देऊळगावकर"],
+    TAGS["संपत्ती"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ.png",
   verified: {

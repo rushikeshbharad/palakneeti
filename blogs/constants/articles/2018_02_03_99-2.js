@@ -110,7 +110,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2018"], TAGS["january-जानेवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2018"],
+    TAGS["january-जानेवारी-२०१८"],
+    TAGS["masik-article"],
+    TAGS["unwanted-gifts"],
+  ],
   image: null,
   verified: {
     marathi: true,

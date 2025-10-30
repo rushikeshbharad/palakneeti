@@ -217,7 +217,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["childrens-literature"],
+    TAGS["july-जुलै-२०१९"],
+    TAGS["masik-article"],
+    TAGS["russian"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोविएत-बाल-कुमार-साहित्य.png",
   verified: {

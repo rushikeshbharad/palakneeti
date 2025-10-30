@@ -175,7 +175,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"]],
+  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"], TAGS["story"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बरं-झालं-चिऊताई-तू-दार-नाह.png",
   verified: {

@@ -81,7 +81,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"], TAGS["uncategorized"]],
+  tags: [
+    TAGS["etymology"],
+    TAGS["fatherhood"],
+    TAGS["history-of-father-words"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+    TAGS["uncategorized"],
+  ],
   image: null,
   verified: {
     marathi: true,

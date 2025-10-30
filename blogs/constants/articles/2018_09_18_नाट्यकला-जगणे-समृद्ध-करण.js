@@ -178,7 +178,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["life-journey"],
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०१८"],
+    TAGS["theatre"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाट्यकला-जगणे-समृद्ध-करण.jpg",
   verified: {

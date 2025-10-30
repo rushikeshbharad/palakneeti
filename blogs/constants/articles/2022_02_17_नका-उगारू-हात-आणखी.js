@@ -109,7 +109,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["february-फेब्रुवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["february-फेब्रुवारी-२०२२"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+    TAGS["श्रद्धांजली"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नका-उगारू-हात-आणखी.jpg",
   verified: {

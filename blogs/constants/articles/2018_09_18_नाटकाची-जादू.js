@@ -91,7 +91,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०१८"],
+    TAGS["theatre"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाटकाची-जादू.jpg",
   verified: {

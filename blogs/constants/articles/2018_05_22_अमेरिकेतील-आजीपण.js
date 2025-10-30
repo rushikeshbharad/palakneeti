@@ -163,7 +163,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [
+    TAGS["grandmother"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१८"],
+    TAGS["united-states"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अमेरिकेतील-आजीपण.jpg",
   verified: {

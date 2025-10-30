@@ -210,7 +210,10 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["language"],
+    TAGS["marathi"],
     TAGS["masik-article"],
+    TAGS["mother-tongue"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
   ],
   image: null,

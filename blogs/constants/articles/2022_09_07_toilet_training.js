@@ -410,7 +410,10 @@ const articleData = {
     TAGS["2022"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["potty"],
     TAGS["september-सप्टेंबर-२०२२"],
+    TAGS["toilet"],
+    TAGS["toilet-training"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/toilet_training.png",

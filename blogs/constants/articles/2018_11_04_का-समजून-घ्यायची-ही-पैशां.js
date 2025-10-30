@@ -445,7 +445,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"], TAGS["पैशांची-भाषा"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/का-समजून-घ्यायची-ही-पैशां.png",
   verified: {

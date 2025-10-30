@@ -72,7 +72,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२१"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०२१"],
+    TAGS["tribute"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-डॉ-गेल-ऑम्व्हेट.png",
   verified: {

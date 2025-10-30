@@ -249,6 +249,7 @@ const articleData = {
     TAGS["masik"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["scientist"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/scientists-series-end.jpg",

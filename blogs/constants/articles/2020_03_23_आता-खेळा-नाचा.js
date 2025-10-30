@@ -262,7 +262,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["free-play"],
+    TAGS["game-a-thon"],
+    TAGS["march-मार्च-२०२०"],
+    TAGS["masik-article"],
+    TAGS["play"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-खेळा-नाचा.jpg",
   verified: {

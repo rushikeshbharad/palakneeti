@@ -139,7 +139,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["festival"],
+    TAGS["ganesh"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+  ],
   image: null,
   verified: {
     marathi: true,

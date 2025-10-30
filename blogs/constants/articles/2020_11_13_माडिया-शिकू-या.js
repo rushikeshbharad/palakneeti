@@ -751,8 +751,12 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["german"],
+    TAGS["language"],
+    TAGS["madiya"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["tribal"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या.jpg",

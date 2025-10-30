@@ -153,7 +153,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["february-फेब्रुवारी-२०२०"],
+    TAGS["masik-article"],
+    TAGS["आदरांजली"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-विमुक्ता-विद्य.jpg",
   verified: {

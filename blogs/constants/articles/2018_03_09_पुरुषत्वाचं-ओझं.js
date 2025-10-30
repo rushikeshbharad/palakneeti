@@ -170,7 +170,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["gender-equality"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masculinity"],
+    TAGS["masik-article"],
+  ],
   image: null,
   verified: {
     marathi: true,

@@ -384,7 +384,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["january-जानेवारी-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["january-जानेवारी-२०२१"],
+    TAGS["language"],
+    TAGS["marathi"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल.jpg",
   verified: {

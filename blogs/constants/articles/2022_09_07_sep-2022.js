@@ -140,6 +140,7 @@ const articleData = {
   tags: [
     TAGS["2022"],
     TAGS["masik-monthly"],
+    TAGS["monthly"],
     TAGS["palakneeti"],
     TAGS["september-सप्टेंबर-२०२२"],
   ],

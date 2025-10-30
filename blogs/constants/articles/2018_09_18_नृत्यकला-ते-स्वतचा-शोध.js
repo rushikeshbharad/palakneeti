@@ -153,7 +153,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["dance"],
+    TAGS["dance-movement"],
+    TAGS["masik-article"],
+    TAGS["self-discovery"],
+    TAGS["september-सप्टेंबर-२०१८"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्यकला-ते-स्वतचा-शोध.jpg",
   verified: {

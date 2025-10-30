@@ -190,7 +190,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०२१"],
+    TAGS["story"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिराळशेठची-कहाणी.jpg",
   verified: {

@@ -602,8 +602,12 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["cultural-politics-of-language"],
+    TAGS["language"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["politics"],
+    TAGS["politics-of-language"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेचे-सांस्कृतिक-राजकार.jpg",

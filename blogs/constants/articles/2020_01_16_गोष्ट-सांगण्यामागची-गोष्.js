@@ -214,7 +214,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["january-जानेवारी-२०२०"],
+    TAGS["masik-article"],
+    TAGS["story"],
+    TAGS["story-behind-story-telling"],
+    TAGS["story-telling"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-सांगण्यामागची-गोष्.jpg",
   verified: {

@@ -585,6 +585,7 @@ const articleData = {
   tags: [
     TAGS["2025"],
     TAGS["masik-article"],
+    TAGS["money"],
     TAGS["palakneeti"],
     TAGS["दिवाळी-अंक-2"],
     TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],

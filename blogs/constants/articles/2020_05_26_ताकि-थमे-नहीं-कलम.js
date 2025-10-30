@@ -170,7 +170,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["april-may-एप्रिल-मे-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["april-may-एप्रिल-मे-२०२०"],
+    TAGS["children"],
+    TAGS["childrens-experiences"],
+    TAGS["childrens-writing"],
+    TAGS["corona"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ताकि-थमे-नहीं-कलम.jpg",
   verified: {

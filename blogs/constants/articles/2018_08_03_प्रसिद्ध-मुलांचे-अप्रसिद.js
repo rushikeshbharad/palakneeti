@@ -280,7 +280,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["famous-personalities"],
+    TAGS["fatherhood"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7jhRTe1AhBTc9Az1hs3ZekQ4bXAthm3SazxpdHtOmNSw9xfxD",
   verified: {

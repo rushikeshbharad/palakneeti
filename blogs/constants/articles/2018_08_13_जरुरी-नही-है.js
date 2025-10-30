@@ -76,7 +76,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["co-existence"],
+    TAGS["diversity"],
+    TAGS["masik-article"],
+    TAGS["multiplicity"],
+    TAGS["religion"],
+    TAGS["right"],
+    TAGS["truth"],
+  ],
   image: null,
   verified: {
     marathi: true,

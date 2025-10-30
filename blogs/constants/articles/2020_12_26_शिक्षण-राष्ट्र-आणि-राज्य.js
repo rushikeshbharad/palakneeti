@@ -204,7 +204,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["december-डिसेंबर-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["december-डिसेंबर-२०२०"],
+    TAGS["education"],
+    TAGS["masik-article"],
+    TAGS["nation"],
+    TAGS["state"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षण-राष्ट्र-आणि-राज्य.jpg",
   verified: {

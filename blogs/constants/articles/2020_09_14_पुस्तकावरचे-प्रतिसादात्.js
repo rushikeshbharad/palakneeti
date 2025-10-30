@@ -327,6 +327,8 @@ const articleData = {
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
     TAGS["masik-article"],
+    TAGS["teachers-reflection"],
+    TAGS["writing"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्.jpg",

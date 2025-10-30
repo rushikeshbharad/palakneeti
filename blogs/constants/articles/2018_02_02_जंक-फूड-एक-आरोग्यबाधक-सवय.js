@@ -263,7 +263,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["changing-time"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["food"],
+    TAGS["health"],
+    TAGS["junkfood"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जंक-फूड-एक-आरोग्यबाधक-सवय.jpg",
   verified: {

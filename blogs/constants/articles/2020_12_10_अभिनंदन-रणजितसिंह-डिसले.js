@@ -75,7 +75,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["december-डिसेंबर-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["congratulations"],
+    TAGS["december-डिसेंबर-२०२०"],
+    TAGS["global-teacher-award"],
+    TAGS["masik-article"],
+  ],
   image: null,
   verified: {
     marathi: true,

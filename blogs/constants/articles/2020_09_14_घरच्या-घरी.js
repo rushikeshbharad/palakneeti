@@ -385,7 +385,10 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
+    TAGS["home"],
+    TAGS["home-learning"],
     TAGS["masik-article"],
+    TAGS["resource"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/घरच्या-घरी.jpeg",

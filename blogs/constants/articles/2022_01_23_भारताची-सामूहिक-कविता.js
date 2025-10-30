@@ -262,7 +262,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["january-जानेवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["constitution"],
+    TAGS["january-जानेवारी-२०२२"],
+    TAGS["masik-article"],
+    TAGS["preamble-of-indian-constitution"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारताची-सामूहिक-कविता.jpg",
   verified: {

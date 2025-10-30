@@ -261,7 +261,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["march-मार्च-२०२०"],
+    TAGS["masik-article"],
+    TAGS["slow-food"],
+    TAGS["slow-movement"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वदनी-कवळ-घेता.jpg",
   verified: {

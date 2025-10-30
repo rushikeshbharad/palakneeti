@@ -259,7 +259,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["discussion-group"],
+    TAGS["english"],
+    TAGS["fatherhood"],
+    TAGS["gender"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-imperfect-fathers.jpeg",
   verified: {

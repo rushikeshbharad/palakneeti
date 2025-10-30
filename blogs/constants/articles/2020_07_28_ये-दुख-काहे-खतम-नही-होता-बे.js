@@ -357,7 +357,17 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["june-july-जून-जुलै-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["covid19"],
+    TAGS["june-july-जून-जुलै-२०२०"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["migrant-workers"],
+    TAGS["migration"],
+    TAGS["relief-work"],
+    TAGS["suffering"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे.png",
   verified: {

@@ -328,7 +328,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["childrens-perspective-on-gender"],
+    TAGS["masik-article"],
+  ],
   image: null,
   verified: {
     marathi: true,

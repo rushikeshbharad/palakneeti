@@ -89,7 +89,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["atrocity"],
+    TAGS["dalit"],
+    TAGS["july-जुलै-२०१९"],
+    TAGS["masik-article"],
+    TAGS["poem"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कविता.jpeg",
   verified: {

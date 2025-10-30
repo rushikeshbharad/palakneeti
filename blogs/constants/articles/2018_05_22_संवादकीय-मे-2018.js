@@ -124,7 +124,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [TAGS["editorial"], TAGS["masik-article"], TAGS["may-मे-२०१८"]],
   image: null,
   verified: {
     marathi: true,

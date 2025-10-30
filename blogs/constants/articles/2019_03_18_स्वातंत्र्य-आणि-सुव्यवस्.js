@@ -195,7 +195,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["discipline"],
+    TAGS["discipline-and-order"],
+    TAGS["freedom"],
+    TAGS["krishnamurti"],
+    TAGS["march-मार्च-२०१९"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-सुव्यवस्.jpg",
   verified: {

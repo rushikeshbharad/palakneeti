@@ -118,7 +118,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2019"], TAGS["june-जून-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2019"],
+    TAGS["editorial"],
+    TAGS["june-जून-२०१९"],
+    TAGS["masik-article"],
+    TAGS["samvaadkiya"],
+  ],
   image: null,
   verified: {
     marathi: true,

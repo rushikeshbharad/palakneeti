@@ -112,7 +112,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["february-फेब्रुवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["book-introduction"],
+    TAGS["childrens-literature"],
+    TAGS["february-फेब्रुवारी-२०२२"],
+    TAGS["masik-article"],
+    TAGS["story"],
+    TAGS["story-for-children"],
+  ],
   image: null,
   verified: {
     marathi: true,

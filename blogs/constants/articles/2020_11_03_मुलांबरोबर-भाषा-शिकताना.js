@@ -207,7 +207,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"]],
+  tags: [
+    TAGS["language"],
+    TAGS["language-learning"],
+    TAGS["masik-article"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांबरोबर-भाषा-शिकताना.jpg",
   verified: {

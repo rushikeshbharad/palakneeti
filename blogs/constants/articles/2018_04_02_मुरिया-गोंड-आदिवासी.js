@@ -140,7 +140,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["adivasi"],
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["gender-in-tribal-society"],
+    TAGS["masik-article"],
+    TAGS["tribal"],
+  ],
   image: null,
   verified: {
     marathi: true,

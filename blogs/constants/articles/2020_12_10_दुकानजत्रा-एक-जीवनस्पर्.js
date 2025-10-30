@@ -259,7 +259,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["december-डिसेंबर-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["december-डिसेंबर-२०२०"],
+    TAGS["experience"],
+    TAGS["masik-article"],
+    TAGS["mela"],
+    TAGS["project"],
+    TAGS["school"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्.jpg",
   verified: {

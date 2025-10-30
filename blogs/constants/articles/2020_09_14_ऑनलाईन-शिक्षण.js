@@ -191,6 +191,9 @@ const articleData = {
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
     TAGS["masik-article"],
+    TAGS["online-classes"],
+    TAGS["online-education"],
+    TAGS["online-learning"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-शिक्षण.jpg",

@@ -76,7 +76,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["khelghar"], TAGS["palakneeti"]],
+  tags: [
+    TAGS["khelghar"],
+    TAGS["new_challenges"],
+    TAGS["new_normal"],
+    TAGS["palakneeti"],
+  ],
   image: null,
   verified: {
     marathi: true,

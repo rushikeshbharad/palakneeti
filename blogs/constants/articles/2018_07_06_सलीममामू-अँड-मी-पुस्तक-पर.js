@@ -147,7 +147,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["bird-watching"],
+    TAGS["birds"],
+    TAGS["book-review"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["salim-ali"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर.jpg",
   verified: {

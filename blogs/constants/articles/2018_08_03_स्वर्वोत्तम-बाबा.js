@@ -187,7 +187,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["discussion-group"],
+    TAGS["fatherhood"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वर्वोत्तम-बाबा.jpeg",
   verified: {

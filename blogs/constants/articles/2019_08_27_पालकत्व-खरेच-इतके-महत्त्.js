@@ -332,7 +332,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१९"],
+    TAGS["importance"],
+    TAGS["importance-of-parenting"],
+    TAGS["masik-article"],
+    TAGS["parenting"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-खरेच-इतके-महत्त्.jpg",
   verified: {

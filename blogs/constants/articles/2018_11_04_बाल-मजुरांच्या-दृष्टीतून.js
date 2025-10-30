@@ -216,7 +216,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"], TAGS["बाल-मजुर"]],
   image: null,
   verified: {
     marathi: true,

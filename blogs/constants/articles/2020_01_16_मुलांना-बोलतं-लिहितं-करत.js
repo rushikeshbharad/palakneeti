@@ -310,7 +310,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["january-जानेवारी-२०२०"],
+    TAGS["language"],
+    TAGS["language-learning"],
+    TAGS["literacy"],
+    TAGS["masik-article"],
+    TAGS["speaking"],
+    TAGS["writing"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांना-बोलतं-लिहितं-करत.jpg",
   verified: {

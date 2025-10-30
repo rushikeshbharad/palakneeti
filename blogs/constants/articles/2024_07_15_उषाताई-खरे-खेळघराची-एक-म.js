@@ -72,7 +72,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"]],
+  tags: [
+    TAGS["gratitude"],
+    TAGS["happy_sharing"],
+    TAGS["khelghar_volunteers"],
+    TAGS["palakneeti"],
+    TAGS["खेळघर_स्वयंसेवक"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उषाताई-खरे-खेळघराची-एक-म.jpeg",
   verified: {

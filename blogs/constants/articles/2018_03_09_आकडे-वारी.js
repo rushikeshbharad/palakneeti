@@ -153,7 +153,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["female-literacy"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+    TAGS["water-availability"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी.png",
   verified: {

@@ -487,7 +487,13 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
+    TAGS["covid19"],
+    TAGS["lockdown"],
     TAGS["masik-article"],
+    TAGS["migrant-workers"],
+    TAGS["migration"],
+    TAGS["relief-work"],
+    TAGS["suffering"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-2.jpg",

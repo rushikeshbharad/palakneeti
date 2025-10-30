@@ -146,7 +146,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["january-जानेवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["child-development"],
+    TAGS["january-जानेवारी-२०२२"],
+    TAGS["masik-article"],
+    TAGS["nature-vs-nurture"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संजीवनातून-की-संगोपनातून.jpg",
   verified: {

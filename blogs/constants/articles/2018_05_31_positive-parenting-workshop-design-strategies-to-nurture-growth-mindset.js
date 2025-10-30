@@ -108,7 +108,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["parenting-workshops"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["parenting-workshops"],
+    TAGS["positive-parenting"],
+  ],
   image: null,
   verified: {
     marathi: false,

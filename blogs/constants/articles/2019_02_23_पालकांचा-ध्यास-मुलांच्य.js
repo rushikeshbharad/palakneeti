@@ -190,7 +190,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["february-फेब्रुवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["parental-pressure"],
+    TAGS["student-suicide"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकांचा-ध्यास-मुलांच्य.png",
   verified: {

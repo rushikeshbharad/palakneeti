@@ -78,7 +78,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-दिसम्बर-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["december-दिसम्बर-२०१८"],
+    TAGS["masik-article"],
+    TAGS["आदरांजली"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली.jpg",
   verified: {

@@ -140,7 +140,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-may-एप्रिल-मे-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-may-एप्रिल-मे-२०२०"],
+    TAGS["guthali"],
+    TAGS["masik-article"],
+    TAGS["stories"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कथा-कहाण्यांच्या-परिघापल.jpg",
   verified: {

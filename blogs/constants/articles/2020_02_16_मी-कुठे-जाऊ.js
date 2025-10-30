@@ -144,7 +144,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["february-फेब्रुवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["diversity"],
+    TAGS["february-फेब्रुवारी-२०२०"],
+    TAGS["india"],
+    TAGS["masik-article"],
+    TAGS["nation"],
+    TAGS["religion"],
+    TAGS["secularism"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-कुठे-जाऊ.jpg",
   verified: {

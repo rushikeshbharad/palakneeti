@@ -210,7 +210,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-may-एप्रिल-मे-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-may-एप्रिल-मे-२०२०"],
+    TAGS["letter"],
+    TAGS["masik-article"],
+    TAGS["parents"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकांना-पत्र.jpg",
   verified: {

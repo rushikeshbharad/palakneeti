@@ -249,6 +249,7 @@ const articleData = {
     TAGS["2020"],
     TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
     TAGS["masik-article"],
+    TAGS["nep-2020"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-2020.jpg",

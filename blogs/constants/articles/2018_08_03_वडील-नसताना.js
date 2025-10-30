@@ -140,7 +140,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["absence-of-father"],
+    TAGS["fatherhood"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वडील-नसताना.jpg",
   verified: {

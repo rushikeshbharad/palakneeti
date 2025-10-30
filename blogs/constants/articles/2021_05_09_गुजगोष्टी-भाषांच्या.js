@@ -225,7 +225,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["march-मार्च-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["dialect"],
+    TAGS["language"],
+    TAGS["language-learning"],
+    TAGS["march-मार्च-२०२१"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गुजगोष्टी-भाषांच्या.jpg",
   verified: {

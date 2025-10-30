@@ -218,7 +218,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०१८"]],
+  tags: [
+    TAGS["art-and-childhood"],
+    TAGS["masik-article"],
+    TAGS["september-सप्टेंबर-२०१८"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कला-आणि-बालपण.jpg",
   verified: {

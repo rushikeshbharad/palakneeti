@@ -79,7 +79,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["grandfather"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["आजोबा"],
+  ],
   image: null,
   verified: {
     marathi: true,

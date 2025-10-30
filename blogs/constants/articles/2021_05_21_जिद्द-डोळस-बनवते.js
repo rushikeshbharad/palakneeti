@@ -287,7 +287,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["may-मे-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["determination"],
+    TAGS["life-journey"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०२१"],
+    TAGS["visual-impairment"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जिद्द-डोळस-बनवते.jpg",
   verified: {

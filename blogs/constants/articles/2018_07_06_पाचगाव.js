@@ -112,7 +112,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["cfr"],
+    TAGS["collective-action"],
+    TAGS["community"],
+    TAGS["community-forest-conservation"],
+    TAGS["gram-sabha"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["paachgaav"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाचगाव.jpg",
   verified: {

@@ -238,7 +238,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-२०१८"],
+    TAGS["गुजरात"],
+    TAGS["धीरेंद्रभाई"],
+    TAGS["नैसर्गिक-जीवनपद्धती"],
+    TAGS["साकवा"],
+    TAGS["सोनेजी"],
+    TAGS["स्मिताबेन"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट.jpg",
   verified: {

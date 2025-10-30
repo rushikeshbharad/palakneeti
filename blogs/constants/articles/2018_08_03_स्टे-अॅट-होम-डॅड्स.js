@@ -98,7 +98,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["fatherhood"],
+    TAGS["july-जुलै-२०१८"],
+    TAGS["masik-article"],
+    TAGS["paternity"],
+    TAGS["stay-at-home-dads"],
+  ],
   image: null,
   verified: {
     marathi: true,

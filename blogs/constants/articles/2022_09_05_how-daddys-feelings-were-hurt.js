@@ -192,7 +192,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२२"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["russian"],
+    TAGS["september-सप्टेंबर-२०२२"],
+    TAGS["story"],
+    TAGS["when-daddy-was-a-little-boy"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-daddys-feelings-were-hurt.jpg",
   verified: {

@@ -216,7 +216,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["gender-identity"],
+    TAGS["masik-article"],
+    TAGS["menstrual-taboo"],
+    TAGS["menstruation"],
+    TAGS["stigma"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्.jpg",
   verified: {

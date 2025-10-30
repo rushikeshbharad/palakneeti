@@ -161,7 +161,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["april-may-एप्रिल-मे-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["april-may-एप्रिल-मे-२०२०"],
+    TAGS["childhood"],
+    TAGS["masik-article"],
+    TAGS["mental-health"],
+    TAGS["mental-illness"],
+  ],
   image: "https://images.indianexpress.com/2018/10/vikram-patel.jpg?w=400",
   verified: {
     marathi: true,

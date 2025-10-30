@@ -314,6 +314,9 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2022"],
+    TAGS["brain"],
+    TAGS["child-development"],
+    TAGS["cognitive-development"],
     TAGS["june-जून-२०२२"],
     TAGS["masik-article"],
     TAGS["palakneeti"],

@@ -97,6 +97,7 @@ const articleData = {
   tags: [
     TAGS["april-एप्रिल-२०१८"],
     TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["feedback"],
     TAGS["january-जानेवारी-२०१८"],
     TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],

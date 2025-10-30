@@ -250,7 +250,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"], TAGS["vinoba"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विनोबा.jpg",
   verified: {

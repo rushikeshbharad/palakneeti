@@ -273,7 +273,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-डिसेंबर-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["december-डिसेंबर-२०१९"],
+    TAGS["government-school"],
+    TAGS["marathi-as-medium-of-instruction"],
+    TAGS["marathi-medium-school"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझी-शाळा-मराठी-शाळा.jpg",
   verified: {

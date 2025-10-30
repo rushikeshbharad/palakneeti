@@ -205,7 +205,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["intersex"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+    TAGS["saptrang"],
+    TAGS["transgender"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आत्मकथा.jpg",
   verified: {

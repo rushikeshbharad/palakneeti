@@ -128,7 +128,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["gender"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+    TAGS["sexuality"],
+    TAGS["vocabulary"],
+  ],
   image: null,
   verified: {
     marathi: true,

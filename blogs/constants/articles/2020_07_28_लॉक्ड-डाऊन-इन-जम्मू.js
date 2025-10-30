@@ -392,7 +392,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["june-july-जून-जुलै-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["june-july-जून-जुलै-२०२०"],
+    TAGS["kashmir"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू.jpeg",
   verified: {

@@ -104,6 +104,7 @@ const articleData = {
   verbalizers: [],
   conceptualists: [],
   tags: [
+    TAGS["editorial"],
     TAGS["february-फेब्रुवारी-२०१९"],
     TAGS["masik-article"],
     TAGS["uncategorized"],

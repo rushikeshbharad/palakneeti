@@ -205,7 +205,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१९"],
+    TAGS["disgreement"],
+    TAGS["masik-article"],
+    TAGS["opposite"],
+    TAGS["opposite-views"],
+    TAGS["perspectives"],
+    TAGS["ted-talk"],
+    TAGS["uncomfortable-learning"],
+  ],
   image:
     "https://www.prhspeakers.com/wp-content/uploads/2018/02/Zachary-Wood_940_529_72ppi.jpg",
   verified: {

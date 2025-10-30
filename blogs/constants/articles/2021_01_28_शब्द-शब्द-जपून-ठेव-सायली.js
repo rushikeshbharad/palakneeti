@@ -282,7 +282,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["january-जानेवारी-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["january-जानेवारी-२०२१"],
+    TAGS["masik-article"],
+    TAGS["slow-language"],
+    TAGS["slow-movement"],
+    TAGS["कमी-हळू-खरे"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली.jpg",
   verified: {

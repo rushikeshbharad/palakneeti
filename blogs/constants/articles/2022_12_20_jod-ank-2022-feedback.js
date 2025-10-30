@@ -130,7 +130,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["december-डिसेंबर-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["december-डिसेंबर-२०२२"],
+    TAGS["feedback"],
+    TAGS["masik-article"],
+    TAGS["readers-feedback"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/jod-ank-2022-feedback.jpg",
   verified: {

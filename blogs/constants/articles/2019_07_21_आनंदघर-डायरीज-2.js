@@ -290,7 +290,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["anandghar"],
+    TAGS["children"],
+    TAGS["july-जुलै-२०१९"],
+    TAGS["masik-article"],
+    TAGS["story"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-2.png",
   verified: {

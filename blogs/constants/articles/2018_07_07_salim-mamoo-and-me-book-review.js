@@ -198,7 +198,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["bird-watching"],
+    TAGS["birds"],
+    TAGS["book-review"],
+    TAGS["english"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["salim-ali"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/salim-mamoo-and-me-book-review.jpg",
   verified: {

@@ -290,7 +290,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["december-डिसेंबर-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["carl-sagan"],
+    TAGS["december-डिसेंबर-२०२१"],
+    TAGS["masik-article"],
+    TAGS["scientist"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/3373-2.png",
   verified: {

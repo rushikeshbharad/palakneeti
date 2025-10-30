@@ -148,8 +148,11 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2025"],
+    TAGS["conversation-around-money"],
     TAGS["masik"],
+    TAGS["money"],
     TAGS["palakneeti"],
+    TAGS["parenting"],
     TAGS["दिवाळी-अंक-2"],
     TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
     TAGS["पालकनीती"],

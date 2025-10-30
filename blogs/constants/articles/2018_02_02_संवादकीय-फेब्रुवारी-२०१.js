@@ -94,7 +94,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2018"], TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2018"],
+    TAGS["changing-times"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["masik-article"],
+    TAGS["parenting-strategy"],
+  ],
   image: null,
   verified: {
     marathi: true,

@@ -93,7 +93,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["questions"],
+  ],
   image: null,
   verified: {
     marathi: true,

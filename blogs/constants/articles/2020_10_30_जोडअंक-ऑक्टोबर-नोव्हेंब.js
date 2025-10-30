@@ -70,7 +70,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["masik-article"]],
+  tags: [TAGS["2020"], TAGS["jod-ank"], TAGS["masik-article"], TAGS["जोडअंक"]],
   image: null,
   verified: {
     marathi: true,

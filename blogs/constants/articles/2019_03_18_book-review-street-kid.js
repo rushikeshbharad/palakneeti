@@ -151,7 +151,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["march-मार्च-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["book-introduction"],
+    TAGS["book-review"],
+    TAGS["english"],
+    TAGS["march-मार्च-२०१९"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-street-kid.jpg",
   verified: {

@@ -248,6 +248,7 @@ const articleData = {
   tags: [
     TAGS["2018"],
     TAGS["english"],
+    TAGS["gift-culture"],
     TAGS["january-जानेवारी-२०१८"],
     TAGS["masik-article"],
   ],

@@ -250,7 +250,10 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["brain"],
+    TAGS["language"],
     TAGS["masik-article"],
+    TAGS["neuroscience"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
   ],
   image:

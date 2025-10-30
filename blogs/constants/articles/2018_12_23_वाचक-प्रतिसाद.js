@@ -87,7 +87,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-दिसम्बर-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["december-दिसम्बर-२०१८"],
+    TAGS["masik-article"],
+    TAGS["readers-feedback"],
+  ],
   image: null,
   verified: {
     marathi: true,

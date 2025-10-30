@@ -216,6 +216,8 @@ const articleData = {
     TAGS["april-2025-एप्रिल-२०२५"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["parenting"],
+    TAGS["self-discovery"],
     TAGS["पालकनीती"],
   ],
   image:

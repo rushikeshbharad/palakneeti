@@ -111,7 +111,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["june-जून-२०२२"], TAGS["palakneeti"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["civil-society-organisation"],
+    TAGS["june-जून-२०२२"],
+    TAGS["mle"],
+    TAGS["mtb-mle"],
+    TAGS["palakneeti"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/unnati-isec.jpg",
   verified: {

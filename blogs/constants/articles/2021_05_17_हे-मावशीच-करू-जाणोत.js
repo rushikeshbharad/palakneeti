@@ -165,7 +165,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["may-मे-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०२१"],
+    TAGS["आदरांजली"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हे-मावशीच-करू-जाणोत.jpg",
   verified: {

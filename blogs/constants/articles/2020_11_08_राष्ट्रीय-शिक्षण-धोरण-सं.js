@@ -392,7 +392,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["nep-2020"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-सं.jpg",
   verified: {

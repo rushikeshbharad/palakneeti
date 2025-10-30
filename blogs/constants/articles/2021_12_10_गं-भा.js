@@ -203,7 +203,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["december-डिसेंबर-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["cultural-politics-of-language"],
+    TAGS["december-डिसेंबर-२०२१"],
+    TAGS["gender"],
+    TAGS["language"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गं-भा.png",
   verified: {

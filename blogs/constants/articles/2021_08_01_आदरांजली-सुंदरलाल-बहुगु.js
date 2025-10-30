@@ -109,7 +109,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["june-जून-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["june-जून-२०२१"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-सुंदरलाल-बहुगु.jpg",
   verified: {

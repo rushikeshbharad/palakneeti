@@ -69,7 +69,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2019"], TAGS["masik-article"], TAGS["may-मे-२०१९"]],
+  tags: [
+    TAGS["2019"],
+    TAGS["aim-of-education"],
+    TAGS["holocaust"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१९"],
+  ],
   image: null,
   verified: {
     marathi: true,

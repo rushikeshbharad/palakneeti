@@ -159,7 +159,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-डिसेंबर-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["december-डिसेंबर-२०१९"],
+    TAGS["masik-article"],
+    TAGS["solar-eclipse"],
+  ],
   image: null,
   verified: {
     marathi: true,

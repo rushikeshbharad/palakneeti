@@ -166,7 +166,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["history"],
+    TAGS["masik-article"],
+    TAGS["memories"],
+    TAGS["religion"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासाचा-धडा.png",
   verified: {

@@ -270,7 +270,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["internet"],
+    TAGS["masik-article"],
+    TAGS["technology"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप.jpg",
   verified: {

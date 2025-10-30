@@ -369,7 +369,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["फेब्रुवारी-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["experiential-education"],
+    TAGS["learning-by-doing"],
+    TAGS["masik-article"],
+    TAGS["nai-talim"],
+    TAGS["work-and-education"],
+    TAGS["फेब्रुवारी-२०२१"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष.png",
   verified: {

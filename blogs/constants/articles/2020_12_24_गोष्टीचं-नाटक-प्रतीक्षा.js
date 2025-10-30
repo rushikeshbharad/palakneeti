@@ -530,7 +530,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["december-डिसेंबर-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["december-डिसेंबर-२०२०"],
+    TAGS["masik-article"],
+    TAGS["stories"],
+    TAGS["story-telling"],
+    TAGS["tales"],
+    TAGS["theatre"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा.jpg",
   verified: {

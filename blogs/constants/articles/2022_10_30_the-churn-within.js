@@ -345,10 +345,15 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2022"],
+    TAGS["culture"],
     TAGS["english"],
-    TAGS["masik-article"],
+    TAGS["interfaith"],
     TAGS["jodank-2022"],
+    TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["parenting-experience"],
+    TAGS["personal-experiences"],
+    TAGS["raising-a-child"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-churn-within.jpg",

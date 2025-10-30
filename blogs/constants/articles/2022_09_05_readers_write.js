@@ -104,7 +104,12 @@ image source: dainik bhaskar newspaper / internet</pre
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२२"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["readers-response"],
+    TAGS["september-सप्टेंबर-२०२२"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/readers_write.jpg",
   verified: {

@@ -187,7 +187,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["june-जून-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["june-जून-२०२१"],
+    TAGS["masik-article"],
+    TAGS["movie-review"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं.jpg",
   verified: {

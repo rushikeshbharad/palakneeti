@@ -191,6 +191,7 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2025"],
+    TAGS["editorial"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
     TAGS["दिवाळी-अंक-2"],

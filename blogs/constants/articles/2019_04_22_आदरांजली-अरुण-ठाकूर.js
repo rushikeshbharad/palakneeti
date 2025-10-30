@@ -90,7 +90,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
+  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"], TAGS["आदरांजली"]],
   image: null,
   verified: {
     marathi: true,

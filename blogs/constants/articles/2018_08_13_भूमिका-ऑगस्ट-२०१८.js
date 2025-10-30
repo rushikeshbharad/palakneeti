@@ -136,7 +136,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["bhumika"],
+    TAGS["context"],
+    TAGS["identity"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+    TAGS["religious-enmity"],
+    TAGS["religious-identity"],
+  ],
   image: null,
   verified: {
     marathi: true,

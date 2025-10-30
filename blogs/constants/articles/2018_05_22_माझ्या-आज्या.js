@@ -202,7 +202,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [TAGS["grandmother"], TAGS["masik-article"], TAGS["may-मे-२०१८"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझ्या-आज्या.jpg",
   verified: {

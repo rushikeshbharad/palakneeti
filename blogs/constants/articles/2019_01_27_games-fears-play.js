@@ -299,7 +299,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["acceptance"],
+    TAGS["english"],
+    TAGS["fear"],
+    TAGS["fear-of-self-acceptance"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/games-fears-play.jpg",
   verified: {

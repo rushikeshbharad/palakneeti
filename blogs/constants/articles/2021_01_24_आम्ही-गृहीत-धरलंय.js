@@ -125,7 +125,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["january-जानेवारी-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["january-जानेवारी-२०२१"],
+    TAGS["masik-article"],
+    TAGS["poem"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-गृहीत-धरलंय.jpg",
   verified: {

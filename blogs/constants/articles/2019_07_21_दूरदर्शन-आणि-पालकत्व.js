@@ -236,7 +236,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["july-जुलै-२०१९"],
+    TAGS["masik-article"],
+    TAGS["television"],
+    TAGS["tv"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दूरदर्शन-आणि-पालकत्व.png",
   verified: {

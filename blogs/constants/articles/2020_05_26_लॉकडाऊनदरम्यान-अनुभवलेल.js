@@ -194,7 +194,10 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["april-may-एप्रिल-मे-२०२०"],
+    TAGS["lockdown"],
     TAGS["masik-article"],
+    TAGS["mothering"],
+    TAGS["mothers-experiences"],
     TAGS["uncategorized"],
   ],
   image: null,

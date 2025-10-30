@@ -67,7 +67,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["march-8"],
+    TAGS["march-मार्च-२०२०"],
+    TAGS["masik-article"],
+    TAGS["womens-day"],
+  ],
   image: null,
   verified: {
     marathi: true,

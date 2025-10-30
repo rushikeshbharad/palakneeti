@@ -223,7 +223,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["animals"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["parenting-in-animal-world"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्दांच्या-पलीकडले.jpg",
   verified: {

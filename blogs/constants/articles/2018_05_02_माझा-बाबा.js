@@ -72,7 +72,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["masik-article"],
+    TAGS["menstrual-stigma"],
+    TAGS["menstrual-taboo"],
+  ],
   image: null,
   verified: {
     marathi: true,

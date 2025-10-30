@@ -322,7 +322,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["july-जुलै-२०१९"],
+    TAGS["masik-article"],
+    TAGS["national-education-policy-draft-2019"],
+    TAGS["nep-draft"],
+  ],
   image: null,
   verified: {
     marathi: true,

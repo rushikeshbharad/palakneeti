@@ -213,7 +213,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["book-review"],
+    TAGS["health"],
+    TAGS["health-for-all"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परीक्षण.jpg",
   verified: {

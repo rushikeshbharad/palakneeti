@@ -277,7 +277,18 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["june-जून-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["convergence"],
+    TAGS["environment"],
+    TAGS["equity"],
+    TAGS["human-rights"],
+    TAGS["june-जून-२०२१"],
+    TAGS["martin-luther-king-jr"],
+    TAGS["masik-article"],
+    TAGS["rachel-carson"],
+    TAGS["social-movement"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संमीलन-कॉन्वर्जन्स.jpg",
   verified: {

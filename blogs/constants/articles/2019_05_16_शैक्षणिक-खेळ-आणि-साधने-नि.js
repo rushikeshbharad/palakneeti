@@ -316,7 +316,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१९"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१९"],
+    TAGS["teaching-aid"],
+    TAGS["teaching-learning-material"],
+    TAGS["tlm"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि.png",
   verified: {

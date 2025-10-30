@@ -284,6 +284,8 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2025"],
+    TAGS["environment-education"],
+    TAGS["history"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
     TAGS["जून-२०२५-june-2025"],

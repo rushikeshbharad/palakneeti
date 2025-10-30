@@ -74,7 +74,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["questions"],
+  ],
   image: null,
   verified: {
     marathi: true,

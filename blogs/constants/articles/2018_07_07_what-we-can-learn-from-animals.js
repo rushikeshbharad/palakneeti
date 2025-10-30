@@ -248,7 +248,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["animals"],
+    TAGS["english"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["parenting-in-animals"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what-we-can-learn-from-animals.jpg",
   verified: {

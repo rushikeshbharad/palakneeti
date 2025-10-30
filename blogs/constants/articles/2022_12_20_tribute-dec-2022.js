@@ -250,6 +250,7 @@ const articleData = {
     TAGS["december-डिसेंबर-२०२२"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["tribute"],
   ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022.png",

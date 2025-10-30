@@ -166,7 +166,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["oct-nov-२०१८"],
+    TAGS["पुस्तक-परिचय"],
+    TAGS["रुपया-पैसा"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा.jpg",
   verified: {

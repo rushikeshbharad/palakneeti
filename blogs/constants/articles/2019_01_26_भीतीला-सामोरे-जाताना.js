@@ -180,7 +180,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["fear"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["parental-fear"],
+  ],
   image: null,
   verified: {
     marathi: true,

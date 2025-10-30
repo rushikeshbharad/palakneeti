@@ -102,7 +102,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+  ],
   image: null,
   verified: {
     marathi: true,

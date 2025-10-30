@@ -98,7 +98,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["february-फेब्रुवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["civil-society-organisation"],
+    TAGS["ecce"],
+    TAGS["february-फेब्रुवारी-२०२२"],
+    TAGS["masik-article"],
+  ],
   image: null,
   verified: {
     marathi: true,

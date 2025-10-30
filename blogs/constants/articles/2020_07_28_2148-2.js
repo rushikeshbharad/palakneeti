@@ -160,7 +160,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-july-जून-जुलै-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["book-introduction"],
+    TAGS["june-july-जून-जुलै-२०२०"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/2148-2.jpg",
   verified: {

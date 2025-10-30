@@ -187,7 +187,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"], TAGS["single-mother"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-वडिलांच्या-अनुप.jpg",
   verified: {

@@ -124,7 +124,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [
+    TAGS["goodbye"],
+    TAGS["grandmother"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१८"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निरोप.png",
   verified: {

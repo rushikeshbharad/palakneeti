@@ -325,7 +325,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२१"]],
+  tags: [
+    TAGS["masik-article"],
+    TAGS["online"],
+    TAGS["online-story-telling"],
+    TAGS["september-सप्टेंबर-२०२१"],
+    TAGS["story-telling"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-स्टोरीटेलिंग-अर्.jpg",
   verified: {

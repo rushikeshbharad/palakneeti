@@ -159,7 +159,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["festival-celebration"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+    TAGS["school"],
+    TAGS["secular"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-सर्वधर्मसमभाव.png",
   verified: {

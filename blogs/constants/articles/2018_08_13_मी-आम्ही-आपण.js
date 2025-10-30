@@ -246,7 +246,12 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["collective-identity"],
+    TAGS["identity"],
+    TAGS["individual-identity"],
     TAGS["masik-article"],
+    TAGS["nationality"],
+    TAGS["religion"],
     TAGS["uncategorized"],
   ],
   image:

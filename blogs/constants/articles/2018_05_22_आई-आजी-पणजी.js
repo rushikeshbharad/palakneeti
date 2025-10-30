@@ -130,7 +130,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["may-मे-२०१८"]],
+  tags: [
+    TAGS["grandmother"],
+    TAGS["great-grandmother"],
+    TAGS["joint-family"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१८"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-आजी-पणजी.jpeg",
   verified: {

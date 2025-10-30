@@ -146,7 +146,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["english"],
+    TAGS["gender"],
+    TAGS["gender-identity"],
+    TAGS["girl"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-what-a-girl.png",
   verified: {

@@ -188,7 +188,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
+  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"], TAGS["पैशाची-व्याख्या"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्याख्या-पैशाची-ज्याची-त.png",
   verified: {

@@ -162,7 +162,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["december-डिसेंबर-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["december-डिसेंबर-२०२१"],
+    TAGS["editorial"],
+    TAGS["masik-article"],
+    TAGS["samvaadkiya"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-डिसेंबर-२०२१.jpg",
   verified: {

@@ -275,7 +275,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["march-मार्च-२०१९"],
+    TAGS["masik-article"],
+    TAGS["school"],
+    TAGS["self-discipline"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच.png",
   verified: {

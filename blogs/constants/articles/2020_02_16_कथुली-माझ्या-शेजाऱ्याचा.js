@@ -76,7 +76,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["february-फेब्रुवारी-२०२०"],
+    TAGS["masik-article"],
+    TAGS["short-story"],
+  ],
   image: null,
   verified: {
     marathi: true,

@@ -292,7 +292,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०२१"],
+    TAGS["home-learning"],
+    TAGS["homeschooling"],
+    TAGS["masik-article"],
+    TAGS["mother"],
+    TAGS["mothers-experiences"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-आईचे-मनोगत.jpg",
   verified: {

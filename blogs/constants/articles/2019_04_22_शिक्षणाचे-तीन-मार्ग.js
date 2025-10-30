@@ -244,7 +244,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["april-एप्रिल-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["april-एप्रिल-२०१९"],
+    TAGS["discipline"],
+    TAGS["john-holt"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/John_Holt_(educator).jpg/220px-John_Holt_(educator).jpg",
   verified: {

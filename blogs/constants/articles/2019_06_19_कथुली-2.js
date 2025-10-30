@@ -104,7 +104,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१९"], TAGS["masik-article"]],
+  tags: [TAGS["june-जून-२०१९"], TAGS["masik-article"], TAGS["story"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कथुली-2.png",
   verified: {

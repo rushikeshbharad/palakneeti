@@ -278,7 +278,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["june-जून-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["child-development"],
+    TAGS["children"],
+    TAGS["english"],
+    TAGS["june-जून-२०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["perception"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-do-children-perceive-nature-in-different-ages.jpg",
   verified: {

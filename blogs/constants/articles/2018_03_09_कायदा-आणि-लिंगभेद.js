@@ -231,7 +231,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["gender-discrimination-and-law"],
+    TAGS["legal-history-of-gender-equity"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कायदा-आणि-लिंगभेद.jpeg",
   verified: {

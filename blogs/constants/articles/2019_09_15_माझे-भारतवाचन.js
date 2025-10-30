@@ -273,7 +273,9 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2019"],
+    TAGS["books"],
     TAGS["masik-article"],
+    TAGS["reading"],
     TAGS["september-सप्टेम्बर-२०१९"],
     TAGS["uncategorized"],
   ],

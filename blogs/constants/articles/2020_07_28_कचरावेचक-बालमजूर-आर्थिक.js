@@ -316,7 +316,16 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2020"], TAGS["june-july-जून-जुलै-२०२०"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2020"],
+    TAGS["children"],
+    TAGS["covid19"],
+    TAGS["june-july-जून-जुलै-२०२०"],
+    TAGS["lockdown"],
+    TAGS["marginalized-communities"],
+    TAGS["masik-article"],
+    TAGS["school-during-lockdown"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरावेचक-बालमजूर-आर्थिक.jpg",
   verified: {

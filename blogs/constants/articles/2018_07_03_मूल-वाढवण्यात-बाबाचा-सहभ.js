@@ -165,7 +165,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
+  tags: [TAGS["fatherhood"], TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-वाढवण्यात-बाबाचा-सहभ.jpg",
   verified: {

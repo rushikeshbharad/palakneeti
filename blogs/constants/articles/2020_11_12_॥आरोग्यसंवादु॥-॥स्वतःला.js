@@ -460,8 +460,12 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2020"],
+    TAGS["gender"],
+    TAGS["health"],
+    TAGS["health-education"],
     TAGS["masik-article"],
     TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["sex-education"],
   ],
   image: null,
   verified: {

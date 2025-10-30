@@ -51,7 +51,11 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["श्रद्धांजली"],
+  ],
   image: null,
   verified: {
     marathi: true,

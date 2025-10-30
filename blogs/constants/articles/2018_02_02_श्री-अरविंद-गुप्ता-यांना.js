@@ -84,7 +84,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["arvind-gupta"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["masik-article"],
+    TAGS["padmashree"],
+    TAGS["science-toys"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/श्री-अरविंद-गुप्ता-यांना.jpg",
   verified: {

@@ -185,6 +185,8 @@ const articleData = {
     TAGS["2022"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["poet"],
+    TAGS["poetry"],
     TAGS["september-सप्टेंबर-२०२२"],
   ],
   image:

@@ -331,7 +331,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["autonomy"],
+    TAGS["childrens-perspective-on-freedom"],
+    TAGS["experiences"],
+    TAGS["february-फेब्रुवारी-२०१९"],
+    TAGS["freedom"],
+    TAGS["freedom-at-school"],
+    TAGS["masik-article"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम.jpeg",
   verified: {

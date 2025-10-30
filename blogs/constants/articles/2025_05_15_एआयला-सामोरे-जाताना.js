@@ -182,8 +182,10 @@ const articleData = {
   conceptualists: [],
   tags: [
     TAGS["2025"],
+    TAGS["ai"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
+    TAGS["technology"],
     TAGS["पालकनीती"],
     TAGS["मे-२०२५-may-2025"],
   ],

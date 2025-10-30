@@ -226,7 +226,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"]],
+  tags: [
+    TAGS["books"],
+    TAGS["childrens-literature"],
+    TAGS["library"],
+    TAGS["palakneeti"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/library-lec.jpg",
   verified: {

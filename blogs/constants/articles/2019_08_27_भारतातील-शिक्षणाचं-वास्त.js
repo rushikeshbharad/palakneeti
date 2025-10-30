@@ -237,7 +237,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१९"],
+    TAGS["education-system"],
+    TAGS["india"],
+    TAGS["indian-education"],
+    TAGS["masik-article"],
+    TAGS["reality"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-शिक्षणाचं-वास्त.jpg",
   verified: {

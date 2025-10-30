@@ -193,7 +193,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2019"], TAGS["masik-article"], TAGS["may-मे-२०१९"]],
+  tags: [
+    TAGS["2019"],
+    TAGS["exams"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१९"],
+    TAGS["tests"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/परीक्षा-निष्पत्ती-शून्य.jpg",
   verified: {

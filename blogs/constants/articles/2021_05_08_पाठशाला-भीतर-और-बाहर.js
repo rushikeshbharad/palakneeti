@@ -93,7 +93,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०२१"], TAGS["masik-article"]],
+  tags: [
+    TAGS["education-resource"],
+    TAGS["march-मार्च-२०२१"],
+    TAGS["masik-article"],
+    TAGS["readers-response"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठशाला-भीतर-और-बाहर.jpg",
   verified: {

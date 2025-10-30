@@ -289,7 +289,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2019"], TAGS["masik-article"], TAGS["may-मे-२०१९"]],
+  tags: [
+    TAGS["2019"],
+    TAGS["masik-article"],
+    TAGS["may-मे-२०१९"],
+    TAGS["personal-voice-assistant"],
+    TAGS["technology"],
+    TAGS["voice-technology"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल.png",
   verified: {

@@ -224,7 +224,13 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["gender"],
+    TAGS["gender-in-parents"],
+    TAGS["march-मार्च-२०१८"],
+    TAGS["masik-article"],
+    TAGS["parenting-role-and-gender"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-माणूस-बाप-माणूस.jpeg",
   verified: {

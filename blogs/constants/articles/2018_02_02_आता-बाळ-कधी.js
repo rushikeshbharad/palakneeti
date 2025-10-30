@@ -175,7 +175,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["children"],
+    TAGS["early-childhood"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["masik-article"],
+    TAGS["no-child"],
+    TAGS["when-to-have-a-child"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-बाळ-कधी.jpg",
   verified: {

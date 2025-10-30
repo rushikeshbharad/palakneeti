@@ -166,7 +166,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["january-जानेवारी-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["fear"],
+    TAGS["january-जानेवारी-२०१९"],
+    TAGS["masik-article"],
+    TAGS["story"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीच्या-राज्यावर-मात.jpg",
   verified: {

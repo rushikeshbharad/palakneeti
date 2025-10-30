@@ -73,7 +73,12 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०१९"], TAGS["masik-article"]],
+  tags: [
+    TAGS["august-ऑगस्ट-२०१९"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+    TAGS["आदरांजली"],
+  ],
   image: null,
   verified: {
     marathi: true,

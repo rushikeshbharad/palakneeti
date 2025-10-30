@@ -292,7 +292,14 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2022"], TAGS["february-फेब्रुवारी-२०२२"], TAGS["masik-article"]],
+  tags: [
+    TAGS["2022"],
+    TAGS["adivasi"],
+    TAGS["february-फेब्रुवारी-२०२२"],
+    TAGS["masik-article"],
+    TAGS["scientist"],
+    TAGS["tribal"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्हेरियर-एल्विन.jpg",
   verified: {

@@ -272,7 +272,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["फेब्रुवारी-२०२१"]],
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["slow"],
+    TAGS["slow-fashion"],
+    TAGS["slow-movement"],
+    TAGS["कमी-हळू-खरे"],
+    TAGS["फेब्रुवारी-२०२१"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा.jpg",
   verified: {

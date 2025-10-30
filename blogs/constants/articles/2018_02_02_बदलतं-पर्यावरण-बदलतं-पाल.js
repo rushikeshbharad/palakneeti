@@ -266,7 +266,15 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["changing-times"],
+    TAGS["ecology"],
+    TAGS["environment"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["masik-article"],
+    TAGS["money"],
+    TAGS["nature"],
+  ],
   image:
     "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल.jpg",
   verified: {

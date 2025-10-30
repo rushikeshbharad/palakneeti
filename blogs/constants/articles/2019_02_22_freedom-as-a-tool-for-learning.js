@@ -654,6 +654,8 @@ const articleData = {
   tags: [
     TAGS["english"],
     TAGS["february-फेब्रुवारी-२०१९"],
+    TAGS["freedom"],
+    TAGS["learning-tool"],
     TAGS["masik-article"],
   ],
   image:

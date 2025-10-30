@@ -230,6 +230,7 @@ const articleData = {
   tags: [
     TAGS["2025"],
     TAGS["masik-article"],
+    TAGS["movie-review"],
     TAGS["palakneeti"],
     TAGS["पालकनीती"],
     TAGS["मे-२०२५-may-2025"],

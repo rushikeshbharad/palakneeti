@@ -276,7 +276,17 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["february-फेब्रुवारी-२०१८"], TAGS["masik-article"]],
+  tags: [
+    TAGS["control"],
+    TAGS["fear"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["juvenile"],
+    TAGS["masik-article"],
+    TAGS["newspaper"],
+    TAGS["nonjudgmental"],
+    TAGS["safe-environment"],
+    TAGS["violence"],
+  ],
   image: null,
   verified: {
     marathi: true,
