@@ -10,21 +10,31 @@ import {
   Link,
 } from "@mui/material";
 
-const ArticleTile = ({ slug, data }) => {
+const ArticleTile = ({ slug, data, date }) => {
   const title = data.title.marathi || data.title.english;
   const shortDescription = data.short.marathi || data.short.english;
 
-  return ( <
-    Card sx = {
-      {
+  return (
+    <Card
+      sx={{
         display: "flex",
         flexDirection: "column",
         height: "100%",
         "&:hover .MuiCardMedia-root": {
           transform: "scale(1.1)",
         },
-      }
-    } >
+        "&:hover .article-title": {
+            color: "#1976d2",
+            textDecoration: "underline"
+        },
+        border: "4px solid transparent",
+        transition: "all 0.3s ease-in-out",
+        "&:hover": {
+            border: "4px solid #1976d2"
+        }
+      }}
+      elevation={5}
+    >
       <CardActionArea
         component={RouterLink}
         to={`/${slug}`}
@@ -44,11 +54,14 @@ const ArticleTile = ({ slug, data }) => {
           />
         </Box>
         <CardContent sx={{ flexGrow: 1 }}>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography className="article-title" gutterBottom variant="h5" component="div">
             {title}
           </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ color: '#49616b', fontWeight: 'bold' }}>
+            {date}
+          </Typography>
           {shortDescription && (
-            <Box>
+            <Box sx={{ mt: 1 }}>
               <Typography variant="body2" color="text.secondary" component="span">
                 {shortDescription}
               </Typography>

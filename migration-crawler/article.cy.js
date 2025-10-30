@@ -1,6 +1,6 @@
 describe('Article Migration Crawler', () => {
   // Use a function() test body to have access to `this` for aliases
-  for (let i = 88; i <= 88; i += 1) {
+  for (let i = 1; i <= 1; i += 1) {
     it(`Process all articles from the "Masik Blog" page ${i}`, function() {
         cy.log('Visiting the Masik Blog page...');
         cy.visit(`/all-about-palakneeti-parivar/masik-blog/page/${i}/`);
