@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22603"
@@ -33,7 +34,7 @@ const articleData = {
           आणि शिकणे नशिबावर सोडून देता कामा नये.<br />
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22603-0-brain circuits.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22603-0-brain circuits.png"
             alt="brain circuits.png"
             width="450"
             height="300"
@@ -160,9 +161,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22603.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22603.png",
   verified: {
     marathi: true,
     english: false,

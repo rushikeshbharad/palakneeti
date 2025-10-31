@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["Book Introduction"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-18797"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="333"
     height="499"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/free-to-learn-0-FreeToLearn_PeterGray.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/free-to-learn-0-FreeToLearn_PeterGray.jpg"
     class="aligncenter wp-post-image"
     alt="फ्री टु लर्न"
     decoding="async"
@@ -194,7 +201,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18810"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/free-to-learn-1-ChetanPriti-300x274.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/free-to-learn-1-ChetanPriti-300x274.jpg"
           alt="फ्री टु लर्न"
           width="158"
           height="144"
@@ -249,15 +256,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["book-introduction"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/free-to-learn.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/free-to-learn.jpg",
   verified: {
     marathi: true,
     english: false,

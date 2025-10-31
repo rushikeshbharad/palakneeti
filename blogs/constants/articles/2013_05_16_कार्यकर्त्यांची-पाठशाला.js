@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19492"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/14-17h09m18s138.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कार्यकर्त्यांची-पाठशाला-0-14-17h09m18s138.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -128,7 +128,7 @@ const articleData = {
         येणारा प्रत्येक कार्यकर्ता, प्रत्येक व्यक्ती विचार करायला कशी शिकेल यावर
         ते भर देत. खर्या अर्थाने ते लोकचळवळींचे शिक्षक होते.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Dattaji%20and%20workers.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कार्यकर्त्यांची-पाठशाला-1-Dattaji and workers.jpg"
           width="448"
           height="336"
           alt="Dattaji and workers.jpg"
@@ -260,9 +260,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/14-17h09m18s138.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

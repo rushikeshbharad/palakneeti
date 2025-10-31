@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22418"
@@ -82,7 +83,7 @@ const articleData = {
             align="left"
             alt="cartoon-1.jpg"
             height="220"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22418-0-cartoon-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22418-0-cartoon-1.jpg"
             width="168"
           /><br />
           अभ्यासक्रमात विस्तारत जाणार्‍या वर्तुळाकारांचा सिद्धांत मानला जातो.
@@ -162,9 +163,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22418.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22418.jpg",
   verified: {
     marathi: true,
     english: false,

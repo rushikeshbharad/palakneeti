@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2403"
@@ -211,7 +217,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2555"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स-0-130.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स-0-130.jpg"
           alt="130"
           width="106"
           height="131"
@@ -230,7 +236,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2632"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स-1-abhabhagwat.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स-1-abhabhagwat.png"
           alt="AbhaBhagwat"
           width="110"
           height="121"
@@ -272,14 +278,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मराठीचा-अस्सल-गोडवा-ओवी-स.jpg",
   verified: {
     marathi: true,
     english: false,

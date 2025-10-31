@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["December - दिसम्बर २०१८"], TAGS["fear"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-1040"
@@ -87,7 +88,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1069 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-समजून-घेऊया-0-ApporvaVikas.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-समजून-घेऊया-0-ApporvaVikas.png"
           alt="ApporvaVikas.png"
           width="470"
           height="457"
@@ -198,7 +199,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-1067 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-समजून-घेऊया-1-ApporvaVikas.jpeg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-समजून-घेऊया-1-ApporvaVikas.jpeg"
             alt="ApporvaVikas"
             width="90"
             height="90"
@@ -242,9 +243,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["december-दिसम्बर-२०१८"], TAGS["fear"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-समजून-घेऊया.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-समजून-घेऊया.png",
   verified: {
     marathi: true,
     english: false,

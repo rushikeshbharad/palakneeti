@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Discipline"],
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["Freedom"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1150"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="706"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट-0-bholu-3-e1550947243463-1024x808.jpeg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट-0-bholu-3-e1550947243463-1024x808.jpeg"
     class="aligncenter wp-post-image"
     alt="भोलूची गोष्ट"
     decoding="async"
@@ -93,7 +99,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1166"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट-1-whatsapp-image-2019-02-02-at-6.22.30-pm.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट-1-whatsapp-image-2019-02-02-at-6.22.30-pm.jpeg"
           alt="WhatsApp Image 2019-02-02 at 6.22.30 PM"
           width="1280"
           height="898"
@@ -236,7 +242,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1170"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट-2-bholu-2.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट-2-bholu-2.jpeg"
           alt="Bholu-2"
           width="1280"
           height="868"
@@ -340,7 +346,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-1171"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट-3-bholu-3-e1550947243463.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट-3-bholu-3-e1550947243463.jpeg"
           alt="bholu-3.jpeg"
           width="1093"
           height="862"
@@ -354,7 +360,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-thumbnail wp-image-1128 alignnone"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट-4-aditi-ratnesh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट-4-aditi-ratnesh.jpg"
           alt="aditi-ratnesh"
           width="150"
           height="109"
@@ -414,14 +420,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["discipline"],
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["freedom"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भोलूची-गोष्ट.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भोलूची-गोष्ट.jpeg",
   verified: {
     marathi: true,
     english: false,

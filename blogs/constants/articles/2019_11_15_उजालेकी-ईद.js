@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Eid"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1515"
@@ -87,7 +94,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1647"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उजालेकी-ईद-0-ujalekieid1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उजालेकी-ईद-0-ujalekieid1.png"
           alt="UjaleKiEid1"
           width="553"
           height="765"
@@ -116,7 +123,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1648"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उजालेकी-ईद-1-ujalekieid2-e1573832004327.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उजालेकी-ईद-1-ujalekieid2-e1573832004327.jpg"
           alt="ujalekieid2.jpg"
           width="594"
           height="931"
@@ -155,7 +162,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1692"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उजालेकी-ईद-2-faruk_kazi-e1573832537823.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उजालेकी-ईद-2-faruk_kazi-e1573832537823.jpg"
           alt="Faruk_Kazi"
           width="95"
           height="101"
@@ -205,15 +212,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["eid"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उजालेकी-ईद.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उजालेकी-ईद.png",
   verified: {
     marathi: true,
     english: false,

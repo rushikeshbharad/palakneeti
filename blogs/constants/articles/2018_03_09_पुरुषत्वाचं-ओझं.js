@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Gender Equality"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["Masculinity"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-313"
@@ -170,12 +176,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["gender-equality"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masculinity"],
-    TAGS["masik-article"],
-  ],
   image: null,
   verified: {
     marathi: true,

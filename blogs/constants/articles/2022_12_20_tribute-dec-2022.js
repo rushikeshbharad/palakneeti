@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["tribute"],
+  ],
   content: {
     marathi: `<article
   id="post-19157"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="298"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022-0-Tribute-Dec-2022-1024x341.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dec-2022-0-Tribute-Dec-2022-1024x341.png"
     class="aligncenter wp-post-image"
     alt="आम्ही तुम्हाला विसरलो नाही…"
     decoding="async"
@@ -22,7 +29,7 @@ const articleData = {
           ><img
             decoding="async"
             class="alignleft wp-image-19165"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022-1-SujitPatwardhan-e1671556924410-300x238.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dec-2022-1-SujitPatwardhan-e1671556924410-300x238.jpg"
             alt="आम्ही तुम्हाला विसरलो नाही…"
             width="192"
             height="152"
@@ -85,7 +92,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-19122 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022-2-kusum-karnik-300x300.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dec-2022-2-kusum-karnik-300x300.jpg"
             alt="आम्ही तुम्हाला विसरलो नाही…"
             width="123"
             height="123"
@@ -152,7 +159,7 @@ const articleData = {
             loading="lazy"
             decoding="async"
             class="wp-image-19121 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022-3-kumar-shirlkar-272x300.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dec-2022-3-kumar-shirlkar-272x300.jpg"
             alt="आम्ही तुम्हाला विसरलो नाही…"
             width="127"
             height="140"
@@ -245,15 +252,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["tribute"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dec-2022.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dec-2022.png",
   verified: {
     marathi: true,
     english: false,

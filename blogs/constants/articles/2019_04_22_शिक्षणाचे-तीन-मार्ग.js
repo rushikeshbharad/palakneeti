@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१९"],
+    TAGS["Discipline"],
+    TAGS["John Holt"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1261"
@@ -201,7 +207,6 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
           src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/John_Holt_%28educator%29.jpg/220px-John_Holt_%28educator%29.jpg"
           width="124"
           height="122"
@@ -244,12 +249,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१९"],
-    TAGS["discipline"],
-    TAGS["john-holt"],
-    TAGS["masik-article"],
-  ],
   image:
     "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/John_Holt_(educator).jpg/220px-John_Holt_(educator).jpg",
   verified: {

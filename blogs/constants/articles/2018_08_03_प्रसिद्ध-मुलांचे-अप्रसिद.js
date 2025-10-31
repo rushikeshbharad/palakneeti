@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["famous personalities"],
+    TAGS["fatherhood"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-652"
@@ -112,7 +118,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright wp-image-683"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-2-ns.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-2-ns.png"
           alt="NS"
           width="128"
           height="167"
@@ -145,7 +151,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-682 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-3-vb.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-3-vb.png"
           alt="VB"
           width="210"
           height="142"
@@ -176,7 +182,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-680 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-4-sm.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-4-sm.png"
           alt="SM"
           width="181"
           height="196"
@@ -200,7 +206,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignright size-thumbnail wp-image-681"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-5-nj.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्रसिद्ध-मुलांचे-अप्रसिद-5-nj.png"
           alt="NJ"
           width="134"
           height="150"
@@ -280,12 +286,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["famous-personalities"],
-    TAGS["fatherhood"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7jhRTe1AhBTc9Az1hs3ZekQ4bXAthm3SazxpdHtOmNSw9xfxD",
   verified: {

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25773"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="768"
           height="400"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-पालकत्व-0-arthpurna-palaktwa-768x400-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थपूर्ण-पालकत्व-0-arthpurna-palaktwa-768x400-1.jpg"
           alt="अर्थपूर्ण पालकत्व"
           class="wp-image-26989"
           style="width: 328px; height: 171px"
@@ -349,7 +356,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-पालकत्व-1-vipul-shah-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थपूर्ण-पालकत्व-1-vipul-shah-1.jpg"
           alt="अर्थपूर्ण पालकत्व"
           class="wp-image-25776"
           style="width: 86px; height: 107px"
@@ -397,15 +404,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थपूर्ण-पालकत्व.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थपूर्ण-पालकत्व.jpg",
   verified: {
     marathi: true,
     english: false,

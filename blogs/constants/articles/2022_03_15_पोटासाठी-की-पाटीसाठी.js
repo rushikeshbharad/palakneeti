@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["Civil Society Organisation"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-18878"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="895"
     height="644"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पोटासाठी-की-पाटीसाठी-0-sajag1-1024x737.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पोटासाठी-की-पाटीसाठी-0-sajag1-1024x737.jpg"
     class="aligncenter wp-post-image"
     alt="पोटासाठी की पाटीसाठी"
     decoding="async"
@@ -114,9 +115,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["civil-society-organisation"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पोटासाठी-की-पाटीसाठी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पोटासाठी-की-पाटीसाठी.jpg",
   verified: {
     marathi: true,
     english: false,

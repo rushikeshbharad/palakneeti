@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१८"],
+    TAGS["masik-article"],
+    TAGS["Menstrual Stigma"],
+    TAGS["Menstrual Taboo"],
+  ],
   content: {
     marathi: `<article
   id="post-388"
@@ -72,12 +78,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१८"],
-    TAGS["masik-article"],
-    TAGS["menstrual-stigma"],
-    TAGS["menstrual-taboo"],
-  ],
   image: null,
   verified: {
     marathi: true,

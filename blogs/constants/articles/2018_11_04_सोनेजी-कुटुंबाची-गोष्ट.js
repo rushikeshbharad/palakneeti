@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov २०१८"],
+    TAGS["गुजरात"],
+    TAGS["धीरेंद्रभाई"],
+    TAGS["नैसर्गिक जीवनपद्धती"],
+    TAGS["साकवा"],
+    TAGS["सोनेजी"],
+    TAGS["स्मिताबेन"],
+  ],
   content: {
     marathi: `<article
   id="post-891"
@@ -122,7 +132,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-956 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट-0-img_1666.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट-0-img_1666.jpg"
           alt="IMG_1666"
           width="912"
           height="684"
@@ -173,7 +183,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-957"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट-1-dsc00081.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट-1-dsc00081.jpg"
           alt="DSC00081"
           width="4320"
           height="3240"
@@ -238,18 +248,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-२०१८"],
-    TAGS["गुजरात"],
-    TAGS["धीरेंद्रभाई"],
-    TAGS["नैसर्गिक-जीवनपद्धती"],
-    TAGS["साकवा"],
-    TAGS["सोनेजी"],
-    TAGS["स्मिताबेन"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोनेजी-कुटुंबाची-गोष्ट.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1551"
   class="post-1551 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         मोबाईल आता स्विच ऑफ झाला होता. चार्जर आत होतं, त्यामुळे इच्छा नसताना
         नीरव उठला आणि आत गेला. आई स्वयंपाकघरातच राधाचा अभ्यास घेत होती. नुकतीच
@@ -58,7 +64,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1663"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरंग-0-tarang1-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरंग-0-tarang1-1.jpg"
           alt="Tarang1"
           width="2493"
           height="1923"
@@ -117,7 +123,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1664"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरंग-1-tarang2-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरंग-1-tarang2-1.jpg"
           alt="Tarang2"
           width="2196"
           height="1395"
@@ -155,7 +161,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1697"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरंग-2-owee.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरंग-2-owee.jpg"
           alt="Owee"
           width="90"
           height="93"
@@ -199,14 +205,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरंग.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरंग.jpg",
   verified: {
     marathi: true,
     english: false,

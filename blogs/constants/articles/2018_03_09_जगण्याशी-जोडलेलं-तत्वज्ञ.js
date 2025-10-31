@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Life Wisdom"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+    TAGS["Philosophy of Life"],
+  ],
   content: {
     marathi: `<article
   id="post-17889"
@@ -425,7 +431,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-357"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जगण्याशी-जोडलेलं-तत्वज्ञ-0-e0a5ad-ikram_khan_hina-e1520748847490.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जगण्याशी-जोडलेलं-तत्वज्ञ-0-e0a5ad-ikram_khan_hina-e1520748847490.png"
           alt="७. Ikram_Khan_Hina"
           width="150"
           height="135"
@@ -468,14 +474,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["life-wisdom"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-    TAGS["philosophy-of-life"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जगण्याशी-जोडलेलं-तत्वज्ञ.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जगण्याशी-जोडलेलं-तत्वज्ञ.png",
   verified: {
     marathi: true,
     english: false,

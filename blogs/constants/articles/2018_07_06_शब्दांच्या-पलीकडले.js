@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["animals"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["parenting in animal world"],
+  ],
   content: {
     marathi: `<article
   id="post-523"
@@ -121,7 +127,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-588"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्दांच्या-पलीकडले-0-ccf29018.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्दांच्या-पलीकडले-0-ccf29018.jpg"
           alt="CCF29018"
           width="3484"
           height="2237"
@@ -174,7 +180,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-556"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्दांच्या-पलीकडले-1-arun.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्दांच्या-पलीकडले-1-arun.jpg"
           alt="Arun"
           width="86"
           height="112"
@@ -223,14 +229,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["animals"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["parenting-in-animal-world"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्दांच्या-पलीकडले.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्दांच्या-पलीकडले.jpg",
   verified: {
     marathi: true,
     english: false,

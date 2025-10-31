@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22410"
@@ -44,7 +45,7 @@ const articleData = {
             align="left"
             alt="Shukra-3.jpg"
             height="341"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22410-0-Shukra-3.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22410-0-Shukra-3.jpg"
             width="336"
           /><br />
           हे इतकं सोपं आहे, तर पृथ्वीचा व्यास शोधल्यानंतर सुमारे 1900 वर्षांचा
@@ -90,7 +91,7 @@ const articleData = {
             decoding="async"
             alt="Shukra-1.jpg"
             height="336"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22410-1-Shukra-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22410-1-Shukra-1.jpg"
             width="448"
           />
         </p>
@@ -172,9 +173,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22410.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22410.jpg",
   verified: {
     marathi: true,
     english: false,

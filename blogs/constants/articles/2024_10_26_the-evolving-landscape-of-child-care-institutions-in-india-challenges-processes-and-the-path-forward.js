@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["English"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर २०२४ जोडअंक"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -384,7 +392,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward-0-Lucy-Matthews-1024x683.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward-0-Lucy-Matthews-1024x683.jpg"
           alt="The Evolving Landscape of Child Care Institutions in India: Challenges, Processes, and the Path Forward"
           class="wp-image-25527"
           width="102"
@@ -428,16 +436,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["english"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-evolving-landscape-of-child-care-institutions-in-india-challenges-processes-and-the-path-forward.jpg",
   verified: {
     marathi: false,
     english: true,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-1517"
@@ -11,7 +18,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1745 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गावात-पसरला-आनंदी-आनंद-0-gavat_pasarla_aanand1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गावात-पसरला-आनंदी-आनंद-0-gavat_pasarla_aanand1.png"
           alt="Gavat_Pasarla_Aanand1"
           width="353"
           height="307"
@@ -36,7 +43,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1746 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गावात-पसरला-आनंदी-आनंद-1-gavat_pasarla_aanand2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गावात-पसरला-आनंदी-आनंद-1-gavat_pasarla_aanand2.png"
           alt="Gavat_Pasarla_Aanand2"
           width="323"
           height="266"
@@ -87,15 +94,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-by-children"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गावात-पसरला-आनंदी-आनंद.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गावात-पसरला-आनंदी-आनंद.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१८"],
+    TAGS["Gender Parity"],
+    TAGS["Gender Parity Index"],
+    TAGS["Gender Statistics"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-398"
@@ -27,7 +34,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-399 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-जेंडर-0-gender_parity-e1525288161288.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-जेंडर-0-gender_parity-e1525288161288.png"
           alt="gender_parity.png"
           width="1092"
           height="849"
@@ -89,15 +96,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१८"],
-    TAGS["gender-parity"],
-    TAGS["gender-parity-index"],
-    TAGS["gender-statistics"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-जेंडर.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-जेंडर.png",
   verified: {
     marathi: true,
     english: false,

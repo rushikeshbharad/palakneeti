@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["2021"], TAGS["March - मार्च २०२१"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-2954"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="895"
     height="505"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-नावाचं-सुंदर-कोडं-0-puzzle.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मूल-नावाचं-सुंदर-कोडं-0-puzzle.jpg"
     class="aligncenter wp-post-image"
     alt="मूल नावाचं सुंदर कोडं"
     decoding="async"
@@ -189,7 +190,7 @@ const articleData = {
         <figure class="alignleft is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-नावाचं-सुंदर-कोडं-1-sanjutai.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मूल-नावाचं-सुंदर-कोडं-1-sanjutai.jpg"
             alt="Sanjutai"
             class="wp-image-1787"
             width="87"
@@ -244,9 +245,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["march-मार्च-२०२१"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-नावाचं-सुंदर-कोडं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मूल-नावाचं-सुंदर-कोडं.jpg",
   verified: {
     marathi: true,
     english: false,

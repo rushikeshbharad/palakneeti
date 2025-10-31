@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["January - जानेवारी २०२१"],
+    TAGS["Language"],
+    TAGS["Marathi"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2791"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="403"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-0-dsc_0055-1-1024x461.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-0-dsc_0055-1-1024x461.jpg"
     class="aligncenter wp-post-image"
     alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
     decoding="async"
@@ -38,7 +45,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2826 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-1-marathiprem_1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-1-marathiprem_1.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="367"
           height="287"
@@ -79,7 +86,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2833 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-2-marathiprem2-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-2-marathiprem2-2.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="736"
           height="393"
@@ -130,7 +137,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2836 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-3-dsc_0055.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-3-dsc_0055.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="480"
           height="320"
@@ -243,7 +250,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2830 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-4-marathiprem3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-4-marathiprem3.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="350"
           height="234"
@@ -327,7 +334,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2821"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-5-sadhana-gore.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-5-sadhana-gore.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="117"
           height="117"
@@ -336,7 +343,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2823"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-6-aanad-bhandare.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल-6-aanad-bhandare.jpg"
           alt="कशासाठी – मराठीप्रेमी पालकांच्या सक्षमीकरणाठी!"
           width="124"
           height="117"
@@ -384,15 +391,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["january-जानेवारी-२०२१"],
-    TAGS["language"],
-    TAGS["marathi"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कशासाठी-मराठीप्रेमी-पाल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कशासाठी-मराठीप्रेमी-पाल.jpg",
   verified: {
     marathi: true,
     english: false,

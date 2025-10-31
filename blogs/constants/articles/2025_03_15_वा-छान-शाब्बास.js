@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25771"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="243"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वा-छान-शाब्बास-0-me-oradate-300x243-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वा-छान-शाब्बास-0-me-oradate-300x243-1.jpg"
           alt="“वा! छान! शाब्बास!”"
           class="wp-image-26975"
           style="width: 179px; height: 145px"
@@ -83,7 +90,7 @@ const articleData = {
           decoding="async"
           width="254"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वा-छान-शाब्बास-1-ruby-254x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वा-छान-शाब्बास-1-ruby-254x300-1.jpg"
           alt="“वा! छान! शाब्बास!”"
           class="wp-image-26976"
           style="width: 93px; height: 109px"
@@ -129,15 +136,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वा-छान-शाब्बास.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वा-छान-शाब्बास.jpg",
   verified: {
     marathi: true,
     english: false,

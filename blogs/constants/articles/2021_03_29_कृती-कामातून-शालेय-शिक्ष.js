@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Experiential Education"],
+    TAGS["Learning by DOing"],
+    TAGS["masik-article"],
+    TAGS["Nai Talim"],
+    TAGS["work and education"],
+    TAGS["फेब्रुवारी २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-2881"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="705"
     height="459"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-0-sujit_sinha_swanirvar_c_first_aid_training_by_senior_youth.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-0-sujit_sinha_swanirvar_c_first_aid_training_by_senior_youth.png"
     class="aligncenter wp-post-image"
     alt="कृती-कामातून शालेय शिक्षण"
     decoding="async"
@@ -42,7 +51,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2933 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-1-chitra-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-1-chitra-1.png"
           alt="chitra 1"
           width="674"
           height="491"
@@ -79,7 +88,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2927 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-2-chitra-2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-2-chitra-2.png"
           alt="chitra 2"
           width="674"
           height="468"
@@ -187,7 +196,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-2929 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-3-chitra-3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-3-chitra-3.png"
           alt="chitra 3"
           width="717"
           height="433"
@@ -289,7 +298,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-2930 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-4-chitra-4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-4-chitra-4.png"
           alt="chitra 4"
           width="729"
           height="479"
@@ -322,7 +331,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2934"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष-5-sujit-sinha.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष-5-sujit-sinha.jpg"
           alt="sujit-sinha"
           width="119"
           height="119"
@@ -369,17 +378,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["experiential-education"],
-    TAGS["learning-by-doing"],
-    TAGS["masik-article"],
-    TAGS["nai-talim"],
-    TAGS["work-and-education"],
-    TAGS["फेब्रुवारी-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कृती-कामातून-शालेय-शिक्ष.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कृती-कामातून-शालेय-शिक्ष.png",
   verified: {
     marathi: true,
     english: false,

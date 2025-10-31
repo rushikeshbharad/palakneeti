@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19444"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/100_0262.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपण-आपला-मार्ग-शोधूया-0-100_0262.JPG"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -119,7 +119,7 @@ const articleData = {
         व्यवस्थेतही लहानसा बदल होतो. हा सगळा विचार करून आमच्या गटानं आपापली नावं
         बदलली. संघर्षवाहिनीचं काम करणं म्हणजे जग पाहण्याची एक नवी खिडकी होती.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSCN1385.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपण-आपला-मार्ग-शोधूया-1-DSCN1385.JPG"
           width="448"
           height="336"
           alt="DSCN1385.JPG"
@@ -202,7 +202,7 @@ const articleData = {
         समजून घेत, वर्तमानाची सखोल चिकित्सा करत, भविष्यातील माझ्या कामाची दिशा
         ठरवण्यात व ती कायम तपासत राहण्यात मला या दोघांची खूप मदत झाली.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/IMG_3976.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपण-आपला-मार्ग-शोधूया-2-IMG_3976.JPG"
           width="448"
           height="336"
           alt="IMG_3976.JPG"
@@ -517,9 +517,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/100_0262.JPG",
+  image: "",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["Guthali"],
+    TAGS["masik-article"],
+    TAGS["Stories"],
+  ],
   content: {
     marathi: `<article
   id="post-1946"
@@ -88,7 +94,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1966"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कथा-कहाण्यांच्या-परिघापल-0-brajesh-verma.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कथा-कहाण्यांच्या-परिघापल-0-brajesh-verma.jpg"
           alt="कथा-कहाण्यांच्या परिघापलीकडे"
           width="85"
           height="103"
@@ -140,14 +146,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["guthali"],
-    TAGS["masik-article"],
-    TAGS["stories"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कथा-कहाण्यांच्या-परिघापल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कथा-कहाण्यांच्या-परिघापल.jpg",
   verified: {
     marathi: true,
     english: false,

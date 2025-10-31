@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["March - मार्च २०२०"],
+    TAGS["masik-article"],
+    TAGS["Slow Food"],
+    TAGS["Slow Movement"],
+  ],
   content: {
     marathi: `<article
   id="post-1917"
@@ -215,7 +221,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वदनी-कवळ-घेता-0-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वदनी-कवळ-घेता-0-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="111"
           height="105"
@@ -261,14 +267,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["march-मार्च-२०२०"],
-    TAGS["masik-article"],
-    TAGS["slow-food"],
-    TAGS["slow-movement"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वदनी-कवळ-घेता.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वदनी-कवळ-घेता.jpg",
   verified: {
     marathi: true,
     english: false,

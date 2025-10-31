@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19236"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Cover_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सत्तांतरासाठी-फिरणारं-च-0-Cover_0.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -40,7 +40,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/86.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सत्तांतरासाठी-फिरणारं-च-1-86.jpg"
           alt="86.jpg"
         />
       </figure>
@@ -98,7 +98,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/45.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सत्तांतरासाठी-फिरणारं-च-2-45.jpg"
           alt="45.jpg"
         />
       </figure>
@@ -136,7 +136,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/81.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सत्तांतरासाठी-फिरणारं-च-3-81.jpg"
           alt="81.jpg"
         />
       </figure>
@@ -248,9 +248,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Cover_0.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

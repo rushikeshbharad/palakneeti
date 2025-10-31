@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["media"],
+    TAGS["palakneeti"],
+    TAGS["parenting"],
+    TAGS["दिवाळी अंक"],
+    TAGS["दिवाळी अंक २०२५ - ऑक्टो.-नोव्हें. २०२५ - oct.-nov.2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27762"
@@ -8,7 +18,7 @@ const articleData = {
   <img
     width="531"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही-0-paise-ani-barech-kahi-531x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पैसे-आणि-बरंच-काही-0-paise-ani-barech-kahi-531x1024.jpg"
     class="aligncenter wp-post-image"
     alt="पैसे आणि बरंच काही…"
     decoding="async"
@@ -292,7 +302,7 @@ const articleData = {
           decoding="async"
           width="220"
           height="263"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही-1-mukta-chaitanya.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पैसे-आणि-बरंच-काही-1-mukta-chaitanya.jpg"
           alt="पैसे आणि बरंच काही…"
           class="wp-image-27772"
           style="width: 101px; height: auto"
@@ -340,18 +350,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["media"],
-    TAGS["palakneeti"],
-    TAGS["parenting"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पैसे-आणि-बरंच-काही.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पैसे-आणि-बरंच-काही.jpg",
   verified: {
     marathi: true,
     english: false,

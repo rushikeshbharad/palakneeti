@@ -1,12 +1,19 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["linguistics"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2374"
   class="post-2374 post type-post status-publish format-standard has-post-thumbnail hentry category-422 category-masik-article category-oct-nov--- tag-language tag-linguistics"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p><strong>किती भाषा आहेत?</strong></p>
       <p>
         बॅबेलच्या मनोऱ्याची कथा ही ख्रिस्ती लोककथांमधील एक. या कथेनुसार, सगळ्या
@@ -103,7 +110,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2434"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषा-समजून-घेताना-0-8.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषा-समजून-घेताना-0-8.jpg"
           alt="8"
           width="695"
           height="509"
@@ -368,7 +375,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2435"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषा-समजून-घेताना-1-9.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषा-समजून-घेताना-1-9.jpg"
           alt="9"
           width="101"
           height="125"
@@ -386,7 +393,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2628"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषा-समजून-घेताना-2-rameshdhanokar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषा-समजून-घेताना-2-rameshdhanokar.jpg"
           alt="RameshDhanokar"
           width="99"
           height="109"
@@ -429,15 +436,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["linguistics"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषा-समजून-घेताना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषा-समजून-घेताना.jpg",
   verified: {
     marathi: true,
     english: false,

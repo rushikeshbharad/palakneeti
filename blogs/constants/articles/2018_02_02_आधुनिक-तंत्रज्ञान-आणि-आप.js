@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["Internet"],
+    TAGS["masik-article"],
+    TAGS["Technology"],
+  ],
   content: {
     marathi: `<article
   id="post-17878"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="542"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप-0-adhunik_trantragyan1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप-0-adhunik_trantragyan1.jpg"
     class="aligncenter wp-post-image"
     alt="आधुनिक तंत्रज्ञान आणि आपण"
     decoding="async"
@@ -226,7 +232,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-203"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप-1-4-udayan-kanade1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप-1-4-udayan-kanade1.jpg"
           alt="4. Udayan Kanade"
           width="88"
           height="88"
@@ -270,14 +276,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["internet"],
-    TAGS["masik-article"],
-    TAGS["technology"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आधुनिक-तंत्रज्ञान-आणि-आप.jpg",
   verified: {
     marathi: true,
     english: false,

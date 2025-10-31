@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["absence of father"],
+    TAGS["fatherhood"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-695"
@@ -22,7 +28,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright size-medium wp-image-663"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वडील-नसताना-0-new-doc-2018-06-27-2_3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वडील-नसताना-0-new-doc-2018-06-27-2_3.jpg"
           alt="New Doc 2018-06-27 (2)_3"
           width="222"
           height="300"
@@ -96,7 +102,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-666"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वडील-नसताना-1-e0a486e0a4b6e0a580e0a4b7-e0a49ce0a4bee0a49ce0a582.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वडील-नसताना-1-e0a486e0a4b6e0a580e0a4b7-e0a49ce0a4bee0a49ce0a582.jpg"
           alt="आशीष जाजू"
           width="95"
           height="98"
@@ -140,14 +146,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["absence-of-father"],
-    TAGS["fatherhood"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वडील-नसताना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वडील-नसताना.jpg",
   verified: {
     marathi: true,
     english: false,

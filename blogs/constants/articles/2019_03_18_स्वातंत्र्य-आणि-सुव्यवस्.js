@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Discipline"],
+    TAGS["Discipline and Order"],
+    TAGS["Freedom"],
+    TAGS["Krishnamurti"],
+    TAGS["March - मार्च २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1210"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="322"
     height="420"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-सुव्यवस्-0-freedom_jk.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-सुव्यवस्-0-freedom_jk.jpg"
     class="aligncenter wp-post-image"
     alt="स्वातंत्र्य आणि सुव्यवस्था"
     decoding="async"
@@ -195,16 +203,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["discipline"],
-    TAGS["discipline-and-order"],
-    TAGS["freedom"],
-    TAGS["krishnamurti"],
-    TAGS["march-मार्च-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-सुव्यवस्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-सुव्यवस्.jpg",
   verified: {
     marathi: true,
     english: false,

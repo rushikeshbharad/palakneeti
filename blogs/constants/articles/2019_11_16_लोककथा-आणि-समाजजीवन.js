@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Folktales"],
+    TAGS["Folktales and Social Life"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+  ],
   content: {
     marathi: `<article
   id="post-1603"
@@ -203,12 +209,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["folktales"],
-    TAGS["folktales-and-social-life"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-  ],
   image: null,
   verified: {
     marathi: true,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Changing Time"],
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["Food"],
+    TAGS["Health"],
+    TAGS["Junkfood"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-17879"
@@ -215,7 +223,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-204"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जंक-फूड-एक-आरोग्यबाधक-सवय-0-7-rinchen-dolma1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जंक-फूड-एक-आरोग्यबाधक-सवय-0-7-rinchen-dolma1.jpg"
           alt="7. Rinchen Dolma"
           width="100"
           height="150"
@@ -263,16 +271,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["changing-time"],
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["food"],
-    TAGS["health"],
-    TAGS["junkfood"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जंक-फूड-एक-आरोग्यबाधक-सवय.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जंक-फूड-एक-आरोग्यबाधक-सवय.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["masik-article"],
+    TAGS["आदरांजली"],
+  ],
   content: {
     marathi: `<article
   id="post-1845"
@@ -11,7 +16,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1894 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-विमुक्ता-विद्य-0-vidya_bal-e1583734814837.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-विमुक्ता-विद्य-0-vidya_bal-e1583734814837.jpg"
           alt="Vidya_Bal"
           width="212"
           height="300"
@@ -153,13 +158,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["masik-article"],
-    TAGS["आदरांजली"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-विमुक्ता-विद्य.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-विमुक्ता-विद्य.jpg",
   verified: {
     marathi: true,
     english: false,

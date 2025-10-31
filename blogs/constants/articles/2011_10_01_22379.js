@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22379"
@@ -32,7 +33,7 @@ const articleData = {
             decoding="async"
             alt="n hota mana sarikhe.jpg"
             height="303"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22379-0-n hota mana sarikhe.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22379-0-n hota mana sarikhe.jpg"
             width="400"
           />
         </p>
@@ -442,9 +443,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22379.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22379.jpg",
   verified: {
     marathi: true,
     english: false,

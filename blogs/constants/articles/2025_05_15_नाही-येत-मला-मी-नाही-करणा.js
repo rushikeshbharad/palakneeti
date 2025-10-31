@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["मे २०२५ - May 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27502"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="300"
     height="243"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाही-येत-मला-मी-नाही-करणा-0-me-oradate-300x243-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाही-येत-मला-मी-नाही-करणा-0-me-oradate-300x243-1.jpg"
     class="aligncenter wp-post-image"
     alt="“नाही येत मला, मी नाही करणार!”"
     decoding="async"
@@ -90,7 +97,7 @@ const articleData = {
           decoding="async"
           width="254"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाही-येत-मला-मी-नाही-करणा-1-ruby-254x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाही-येत-मला-मी-नाही-करणा-1-ruby-254x300-1.jpg"
           alt="“नाही येत मला, मी नाही करणार!”"
           class="wp-image-26976"
           style="width: 111px; height: auto"
@@ -136,15 +143,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मे-२०२५-may-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाही-येत-मला-मी-नाही-करणा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाही-येत-मला-मी-नाही-करणा.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25401"
@@ -45,7 +51,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="767"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-0-little-micle-anjeloj2-1024x767.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-0-little-micle-anjeloj2-1024x767.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25393"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -102,7 +108,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-1-little-micle-anjeloj-qr1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-1-little-micle-anjeloj-qr1.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25394"
           width="110"
@@ -162,7 +168,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-2-little-micle-anjeloj3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-2-little-micle-anjeloj3.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25395"
           width="422"
@@ -182,7 +188,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-3-little-micle-anjeloj4-1024x766.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-3-little-micle-anjeloj4-1024x766.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25396"
           width="376"
@@ -214,7 +220,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-4-little-micle-anjeloj5-1024x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-4-little-micle-anjeloj5-1024x1024.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25397"
           width="386"
@@ -261,7 +267,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-5-little-micle-anjeloj6.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-5-little-micle-anjeloj6.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25398"
           width="471"
@@ -304,7 +310,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्-6-little-micle-anjeloj-qr2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्-6-little-micle-anjeloj-qr2.jpg"
           alt="लिटल माइकल अँजेलोज्"
           class="wp-image-25399"
           width="104"
@@ -362,14 +368,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लिटल-माइकल-अँजेलोज्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लिटल-माइकल-अँजेलोज्.jpg",
   verified: {
     marathi: true,
     english: false,

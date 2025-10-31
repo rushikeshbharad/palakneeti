@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Parenting Workshops"],
+    TAGS["Positive Parenting"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -108,11 +113,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["parenting-workshops"],
-    TAGS["positive-parenting"],
-  ],
   image: null,
   verified: {
     marathi: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["child development"],
+    TAGS["Food"],
+    TAGS["masik-article"],
+    TAGS["Nutrition"],
+  ],
   content: {
     marathi: `<article
   id="post-18883"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="356"
     height="504"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आहार-आणि-बालविकास-0-BalVikas.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आहार-आणि-बालविकास-0-BalVikas.jpg"
     class="aligncenter wp-post-image"
     alt="आहार आणि बालविकास"
     decoding="async"
@@ -224,7 +230,7 @@ const articleData = {
           ><img
             decoding="async"
             class="alignnone wp-image-3440"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आहार-आणि-बालविकास-1-pallavi_bapat_pinge.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आहार-आणि-बालविकास-1-pallavi_bapat_pinge.png"
             sizes="(max-width: 88px) 100vw, 88px"
             alt="Pallavi_Bapat_Pinge"
             width="88"
@@ -236,8 +242,6 @@ const articleData = {
             data-comments-opened="0"
             data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
             data-image-title="Pallavi_Bapat_Pinge"
-            data-image-description=""
-            data-image-caption=""
             data-medium-file="https://palakneeti.files.wordpress.com/2022/01/pallavi_bapat_pinge.png?w=261"
             data-large-file="https://palakneeti.files.wordpress.com/2022/01/pallavi_bapat_pinge.png?w=396"
         /></strong>
@@ -287,14 +291,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["child-development"],
-    TAGS["food"],
-    TAGS["masik-article"],
-    TAGS["nutrition"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आहार-आणि-बालविकास.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आहार-आणि-बालविकास.jpg",
   verified: {
     marathi: true,
     english: false,

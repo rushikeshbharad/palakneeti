@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19423"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/DSC04033_0.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांना-रस-वाटेल-असं-थोडं-0-DSC04033_0.JPG"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -45,7 +45,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSC04040.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांना-रस-वाटेल-असं-थोडं-1-DSC04040.JPG"
           alt="DSC04040.JPG"
         />
       </figure>
@@ -91,7 +91,7 @@ const articleData = {
         घ्यायचो. त्यातले कुठले शब्द एखाद्या पुस्तकवाचनाच्या वेळी आले तर
         एकमेकांना आठवण करून द्यायचो.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSC04688.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांना-रस-वाटेल-असं-थोडं-2-DSC04688.JPG"
           width="443"
           height="336"
           alt="DSC04688.JPG"
@@ -152,9 +152,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/DSC04033_0.JPG",
+  image: "",
   verified: {
     marathi: true,
     english: false,

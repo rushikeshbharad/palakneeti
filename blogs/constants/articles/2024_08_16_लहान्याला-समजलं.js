@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25371"
@@ -10,7 +16,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहान्याला-समजलं-0-lahangyala-samajal-3-1-1024x551.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहान्याला-समजलं-0-lahangyala-samajal-3-1-1024x551.jpg"
           alt="लहान्याला समजलं"
           class="wp-image-25407"
           width="375"
@@ -37,7 +43,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहान्याला-समजलं-1-lahangyala-samajal-1-645x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहान्याला-समजलं-1-lahangyala-samajal-1-645x1024.jpg"
           alt="लहान्याला समजलं"
           class="wp-image-25404"
           width="316"
@@ -58,7 +64,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहान्याला-समजलं-2-lahangyala-samajal-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहान्याला-समजलं-2-lahangyala-samajal-2.jpg"
           alt="लहान्याला समजलं"
           class="wp-image-25405"
           width="296"
@@ -137,7 +143,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहान्याला-समजलं-3-lahangyala-samajal-4-763x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहान्याला-समजलं-3-lahangyala-samajal-4-763x1024.jpg"
           alt="लहान्याला समजलं"
           class="wp-image-25406"
           width="379"
@@ -221,14 +227,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहान्याला-समजलं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहान्याला-समजलं.jpg",
   verified: {
     marathi: true,
     english: false,

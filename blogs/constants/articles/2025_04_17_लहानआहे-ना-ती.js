@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April 2025 - एप्रिल २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27300"
@@ -12,7 +18,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="243"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहानआहे-ना-ती-0-me-oradate-300x243-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहानआहे-ना-ती-0-me-oradate-300x243-1.jpg"
           alt="“लहानआहे ना ती!”"
           class="wp-image-26975"
           style="width: 152px; height: auto"
@@ -107,7 +113,7 @@ const articleData = {
           decoding="async"
           width="254"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहानआहे-ना-ती-1-ruby-254x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहानआहे-ना-ती-1-ruby-254x300-1.jpg"
           alt="“लहानआहे ना ती!”"
           class="wp-image-26976"
           style="width: 95px; height: auto"
@@ -153,14 +159,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-2025-एप्रिल-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लहानआहे-ना-ती.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लहानआहे-ना-ती.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22371"
@@ -29,7 +30,7 @@ const articleData = {
                   align="left"
                   alt="sarjanshilta_0.jpg"
                   height="400"
-                  src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-0-sarjanshilta_0.jpg"
+                  src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-0-sarjanshilta_0.jpg"
                   width="600"
                 />
               </p>
@@ -60,7 +61,7 @@ const articleData = {
             align="right"
             alt="DSC_1919.JPG"
             height="268"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-1-DSC_1919.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-1-DSC_1919.JPG"
             width="400"
           />
         </p>
@@ -116,7 +117,7 @@ const articleData = {
             align="right"
             alt="IMG_3061_0.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-2-IMG_3061_0.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-2-IMG_3061_0.JPG"
             width="267"
           />
         </p>
@@ -159,7 +160,7 @@ const articleData = {
             align="left"
             alt="100_0872_0.JPG"
             height="300"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-3-100_0872_0.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-3-100_0872_0.JPG"
             width="400"
           />
         </p>
@@ -201,7 +202,7 @@ const articleData = {
             align="right"
             alt="DSC_0249.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-4-DSC_0249.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-4-DSC_0249.JPG"
             width="268"
           />
         </p>
@@ -272,7 +273,7 @@ const articleData = {
             align="left"
             alt="DSC_1917.JPG"
             height="268"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371-5-DSC_1917.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371-5-DSC_1917.JPG"
             width="400"
           />
         </p>
@@ -337,9 +338,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22371.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22371.jpg",
   verified: {
     marathi: true,
     english: false,

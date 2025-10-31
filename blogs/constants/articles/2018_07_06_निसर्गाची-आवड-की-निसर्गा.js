@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["conservation"],
+    TAGS["eco-tourism"],
+    TAGS["environment"],
+    TAGS["environment awareness"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["nisarg"],
+  ],
   content: {
     marathi: `<article
   id="post-515"
@@ -100,7 +110,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-585 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गाची-आवड-की-निसर्गा-0-nirsargachi_aavad1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गाची-आवड-की-निसर्गा-0-nirsargachi_aavad1.jpg"
           alt="nirsargachi_aavad"
           width="307"
           height="344"
@@ -146,7 +156,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-558"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गाची-आवड-की-निसर्गा-1-ketaki-ghate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गाची-आवड-की-निसर्गा-1-ketaki-ghate.jpg"
           alt="Ketaki Ghate"
           width="104"
           height="134"
@@ -195,18 +205,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["conservation"],
-    TAGS["eco-tourism"],
-    TAGS["environment"],
-    TAGS["environment-awareness"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-    TAGS["nisarg"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गाची-आवड-की-निसर्गा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गाची-आवड-की-निसर्गा.jpg",
   verified: {
     marathi: true,
     english: false,

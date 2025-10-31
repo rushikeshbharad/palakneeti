@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["mother tongue"],
+    TAGS["multi-lingual environment"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2390"
@@ -92,7 +100,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2678"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषांची-पौष्टिक-खिचडी-0-114-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषांची-पौष्टिक-खिचडी-0-114-1.jpg"
           alt="114"
           width="2047"
           height="1430"
@@ -156,7 +164,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2540"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषांची-पौष्टिक-खिचडी-1-115.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषांची-पौष्टिक-खिचडी-1-115.jpg"
           alt="115"
           width="115"
           height="143"
@@ -175,7 +183,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2630"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषांची-पौष्टिक-खिचडी-2-swetha.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषांची-पौष्टिक-खिचडी-2-swetha.png"
           alt="Swetha"
           width="101"
           height="111"
@@ -216,16 +224,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["mother-tongue"],
-    TAGS["multi-lingual-environment"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषांची-पौष्टिक-खिचडी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषांची-पौष्टिक-खिचडी.jpg",
   verified: {
     marathi: true,
     english: false,

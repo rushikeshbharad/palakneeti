@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27881"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="808"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आईच्या-कुशीतली-बाळं-0-aaichya-kushitil-bal.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आईच्या-कुशीतली-बाळं-0-aaichya-kushitil-bal.jpg"
     class="aligncenter wp-post-image"
     alt="आईच्या कुशीतली बाळं"
     decoding="async"
@@ -178,7 +187,7 @@ const articleData = {
           decoding="async"
           width="1007"
           height="992"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आईच्या-कुशीतली-बाळं-1-aaichya-kushitil-bal2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आईच्या-कुशीतली-बाळं-1-aaichya-kushitil-bal2.jpg"
           alt="आईच्या कुशीतली बाळं"
           class="wp-image-27884"
           style="width: 346px; height: auto"
@@ -308,7 +317,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आईच्या-कुशीतली-बाळं-2-amita-marathe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आईच्या-कुशीतली-बाळं-2-amita-marathe.jpg"
           alt="आईच्या कुशीतली बाळं"
           class="wp-image-27882"
           style="width: 81px; height: auto"
@@ -322,7 +331,7 @@ const articleData = {
         class="gsp_post_data"
         data-post_type="post"
         data-cat="2024,masik-article,palakneeti,%e0%a4%91%e0%a4%95%e0%a5%8d%e0%a4%9f%e0%a5%8b%e0%a4%ac%e0%a4%b0-%e0%a4%a8%e0%a5%8b%e0%a4%b5%e0%a5%8d%e0%a4%b9%e0%a5%87%e0%a4%82%e0%a4%ac%e0%a4%b0-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%9c,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%b2%e0%a5%87%e0%a4%96,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a4%85%e0%a4%82%e0%a4%95-2,%e0%a4%aa%e0%a4%be%e0%a4%b2%e0%a4%95%e0%a4%a8%e0%a5%80%e0%a4%a4%e0%a5%80"
-        data-modified="66"
+        data-modified="120"
         data-title="आईच्या कुशीतली बाळं"
         data-home="https://palakneeti.in"
       ></div>
@@ -352,17 +361,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आईच्या-कुशीतली-बाळं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आईच्या-कुशीतली-बाळं.jpg",
   verified: {
     marathi: true,
     english: false,

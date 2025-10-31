@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Korku"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Tribal Education"],
+  ],
   content: {
     marathi: `<article
   id="post-2360"
@@ -136,7 +144,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2517"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-0-91.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-0-91.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="551"
@@ -202,7 +210,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2518"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-1-92.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-1-92.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="479"
@@ -254,7 +262,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2519"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-2-93.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-2-93.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="474"
@@ -283,7 +291,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2520"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-3-94.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-3-94.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="583"
@@ -306,7 +314,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2521"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-4-95.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-4-95.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="611"
@@ -341,7 +349,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2522"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-5-96.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-5-96.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="627"
@@ -375,7 +383,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2523"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-6-97.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-6-97.jpg"
           alt="अक्षरसेतू"
           width="736"
           height="553"
@@ -476,7 +484,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2524"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू-7-98.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू-7-98.jpg"
           alt="अक्षरसेतू"
           width="114"
           height="142"
@@ -528,16 +536,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["korku"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["tribal-education"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्षरसेतू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्षरसेतू.jpg",
   verified: {
     marathi: true,
     english: false,

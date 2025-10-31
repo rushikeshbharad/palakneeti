@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["inequality"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+  ],
   content: {
     marathi: `<article
   id="post-742"
@@ -184,7 +190,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-764 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अस्वस्थ-आसमंताचे-आव्हान-0-minaj_sayyad.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अस्वस्थ-आसमंताचे-आव्हान-0-minaj_sayyad.png"
             alt="Minaj_Sayyad"
             width="119"
             height="159"
@@ -230,14 +236,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["inequality"],
-    TAGS["masik-article"],
-    TAGS["religion"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अस्वस्थ-आसमंताचे-आव्हान.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अस्वस्थ-आसमंताचे-आव्हान.png",
   verified: {
     marathi: true,
     english: false,

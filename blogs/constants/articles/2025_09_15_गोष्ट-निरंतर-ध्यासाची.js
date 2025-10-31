@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["Book Introduction"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["सप्टेंबर २०२५ - September 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27708"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="683"
     height="909"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-निरंतर-ध्यासाची-0-gosht-nirantar-dhyasachi.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्ट-निरंतर-ध्यासाची-0-gosht-nirantar-dhyasachi.jpg"
     class="aligncenter wp-post-image"
     alt="गोष्ट निरंतर ध्यासाची"
     decoding="async"
@@ -163,16 +171,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["book-introduction"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["सप्टेंबर-२०२५-september-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-निरंतर-ध्यासाची.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्ट-निरंतर-ध्यासाची.jpg",
   verified: {
     marathi: true,
     english: false,

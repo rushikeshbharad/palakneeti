@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Changing Time"],
+    TAGS["English"],
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["Food"],
+    TAGS["Health"],
+    TAGS["Junkfood"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -236,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-204"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/junk-food-habits-that-harm-our-health-0-7-rinchen-dolma1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/junk-food-habits-that-harm-our-health-0-7-rinchen-dolma1.jpg"
           alt="7. Rinchen Dolma"
           width="82"
           height="124"
@@ -316,17 +325,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["changing-time"],
-    TAGS["english"],
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["food"],
-    TAGS["health"],
-    TAGS["junkfood"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/junk-food-habits-that-harm-our-health.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/junk-food-habits-that-harm-our-health.jpg",
   verified: {
     marathi: false,
     english: true,

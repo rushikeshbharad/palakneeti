@@ -1,12 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22441"
   class="post-22441 post type-post status-publish format-standard hentry category-masik-article"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <div class="content">
         <div class="field field-type-text field-field-byline">
           <div class="field-items">
@@ -37,7 +38,7 @@ const articleData = {
             decoding="async"
             alt="Shivaji_2.jpg"
             height="200"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22441-0-Shivaji_2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22441-0-Shivaji_2.jpg"
             width="300"
           /><br />
           ज्ञानार्जन आणि ज्ञानदानासारख्या मोठमोठ्या शब्दांच्या अवजड अलंकारांनी
@@ -179,9 +180,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22441.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22441.jpg",
   verified: {
     marathi: true,
     english: false,

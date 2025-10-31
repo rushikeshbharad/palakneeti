@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+    TAGS["श्रद्धांजली"],
+  ],
   content: {
     marathi: `<article
   id="post-3472"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="361"
     height="442"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नका-उगारू-हात-आणखी-0-anil-awachat.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नका-उगारू-हात-आणखी-0-anil-awachat.jpg"
     class="aligncenter wp-post-image"
     alt="नका उगारू हात आणखी…"
     decoding="async"
@@ -109,15 +116,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["february-फेब्रुवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["tribute"],
-    TAGS["श्रद्धांजली"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नका-उगारू-हात-आणखी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नका-उगारू-हात-आणखी.jpg",
   verified: {
     marathi: true,
     english: false,

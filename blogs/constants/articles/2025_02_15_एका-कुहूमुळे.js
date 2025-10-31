@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25759"
@@ -52,7 +59,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-कुहूमुळे-0-jyoti-dalvi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एका-कुहूमुळे-0-jyoti-dalvi.jpg"
           alt="एका ‘कुहू’मुळे…"
           class="wp-image-25732"
           width="95"
@@ -119,7 +126,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-कुहूमुळे-1-preeti-pushpa-prakash.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एका-कुहूमुळे-1-preeti-pushpa-prakash.jpg"
           alt="एका ‘कुहू’मुळे…"
           class="wp-image-25723"
           width="111"
@@ -162,15 +169,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["फेब्रुवारी-२०२५"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-कुहूमुळे.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

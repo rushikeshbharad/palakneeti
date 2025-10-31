@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["2022"], TAGS["null"], TAGS["masik-article"], TAGS["null"]],
   content: {
     marathi: `<article
   id="post-3435"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="745"
     height="1023"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/योहान्स-केप्लर-0-johannes_kepler.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/योहान्स-केप्लर-0-johannes_kepler.jpg"
     class="aligncenter wp-post-image"
     alt="योहान्स केप्लर"
     decoding="async"
@@ -264,7 +265,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/योहान्स-केप्लर-1-pranjal_k.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/योहान्स-केप्लर-1-pranjal_k.jpg"
           alt="Pranjal_K"
           width="127"
           height="126"
@@ -318,14 +319,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["scientist"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/योहान्स-केप्लर.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/योहान्स-केप्लर.jpg",
   verified: {
     marathi: true,
     english: false,

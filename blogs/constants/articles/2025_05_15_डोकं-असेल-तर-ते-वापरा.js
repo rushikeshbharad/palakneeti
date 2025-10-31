@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["AI"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["मे २०२५ - May 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27515"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="580"
     height="632"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/डोकं-असेल-तर-ते-वापरा-0-dok-asel-tar-te-vapara.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/डोकं-असेल-तर-ते-वापरा-0-dok-asel-tar-te-vapara.jpg"
     class="aligncenter wp-post-image"
     alt="डोकं असेल तर ते वापरा"
     decoding="async"
@@ -190,16 +198,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["ai"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मे-२०२५-may-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/डोकं-असेल-तर-ते-वापरा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/डोकं-असेल-तर-ते-वापरा.jpg",
   verified: {
     marathi: true,
     english: false,

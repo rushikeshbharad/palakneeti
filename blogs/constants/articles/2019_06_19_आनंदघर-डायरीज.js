@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Anand Ghar"],
+    TAGS["Diary of a Practitioner"],
+    TAGS["June - जून २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1365"
@@ -22,7 +28,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1376 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-0-pratiksha.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-0-pratiksha.png"
           alt="Pratiksha"
           width="239"
           height="222"
@@ -58,7 +64,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1377 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-1-roshni.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-1-roshni.png"
           alt="Roshni"
           width="210"
           height="282"
@@ -192,14 +198,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["anand-ghar"],
-    TAGS["diary-of-a-practitioner"],
-    TAGS["june-जून-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज.png",
   verified: {
     marathi: true,
     english: false,

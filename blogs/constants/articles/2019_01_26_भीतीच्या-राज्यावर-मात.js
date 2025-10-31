@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["fear"],
+    TAGS["January - जानेवारी २०१९"],
+    TAGS["masik-article"],
+    TAGS["Story"],
+  ],
   content: {
     marathi: `<article
   id="post-1092"
@@ -109,7 +115,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1128"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीच्या-राज्यावर-मात-0-aditi-ratnesh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीतीच्या-राज्यावर-मात-0-aditi-ratnesh.jpg"
           alt="aditi-ratnesh"
           width="119"
           height="86"
@@ -166,14 +172,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["fear"],
-    TAGS["january-जानेवारी-२०१९"],
-    TAGS["masik-article"],
-    TAGS["story"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीच्या-राज्यावर-मात.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीतीच्या-राज्यावर-मात.jpg",
   verified: {
     marathi: true,
     english: false,

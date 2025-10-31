@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25178"
@@ -14,7 +20,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="768"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-0-PHOTO-2024-05-12-11-44-37-1024x768.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-0-PHOTO-2024-05-12-11-44-37-1024x768.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25243"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -66,7 +72,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-1-PHOTO-2024-05-17-12-09-07-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-1-PHOTO-2024-05-17-12-09-07-768x1024.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25231"
           width="304"
@@ -88,7 +94,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-2-PHOTO-2024-05-07-01-16-20-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-2-PHOTO-2024-05-07-01-16-20-768x1024.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25232"
           width="301"
@@ -113,7 +119,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-3-PHOTO-2024-04-29-00-36-28-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-3-PHOTO-2024-04-29-00-36-28-768x1024.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25233"
           width="264"
@@ -137,7 +143,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-4-PHOTO-2024-05-13-17-13-39-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-4-PHOTO-2024-05-13-17-13-39-768x1024.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25234"
           width="335"
@@ -160,7 +166,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-5-PHOTO-2024-05-17-12-06-46-edited.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-5-PHOTO-2024-05-17-12-06-46-edited.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25236"
           width="429"
@@ -181,7 +187,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-6-PHOTO-2024-05-17-23-44-04-1-1024x768.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-6-PHOTO-2024-05-17-23-44-04-1-1024x768.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25238"
           width="452"
@@ -209,7 +215,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक-7-41881396-0686-4a79-ad0b-7ba0eea9dd7a-788x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक-7-41881396-0686-4a79-ad0b-7ba0eea9dd7a-788x1024.jpg"
           alt="बच्चे बने लेखक"
           class="wp-image-25240"
           width="83"
@@ -255,14 +261,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बच्चे-बने-लेखक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बच्चे-बने-लेखक.jpg",
   verified: {
     marathi: true,
     english: false,

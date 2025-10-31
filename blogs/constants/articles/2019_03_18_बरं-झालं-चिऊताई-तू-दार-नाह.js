@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["March - मार्च २०१९"], TAGS["masik-article"], TAGS["Story"]],
   content: {
     marathi: `<article
   id="post-1204"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="704"
     height="293"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बरं-झालं-चिऊताई-तू-दार-नाह-0-chiutai.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बरं-झालं-चिऊताई-तू-दार-नाह-0-chiutai.png"
     class="aligncenter wp-post-image"
     alt="बरं झालं चिऊताई, तू दार नाही उघडलंस"
     decoding="async"
@@ -16,7 +17,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         सहजच म्हणजे अगदी निर्हेतुकपणे फिरताफिरता कावळ्याला चिऊताईंचा मेणवाडा
         दिसला. का कुणास ठाऊक, कावळ्याचे पंख नकळत तिकडे वळले. कित्तीऽऽऽ वर्षांनी
@@ -175,9 +176,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"], TAGS["story"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बरं-झालं-चिऊताई-तू-दार-नाह.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बरं-झालं-चिऊताई-तू-दार-नाह.png",
   verified: {
     marathi: true,
     english: false,

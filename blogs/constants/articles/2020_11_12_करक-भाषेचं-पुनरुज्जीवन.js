@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["language conservation"],
+    TAGS["language revival"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2368"
@@ -225,7 +233,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2527"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करक-भाषेचं-पुनरुज्जीवन-0-102.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करक-भाषेचं-पुनरुज्जीवन-0-102.jpg"
           alt="102"
           width="110"
           height="137"
@@ -242,7 +250,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2634"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करक-भाषेचं-पुनरुज्जीवन-1-bhargav.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करक-भाषेचं-पुनरुज्जीवन-1-bhargav.png"
           alt="Bhargav"
           width="116"
           height="128"
@@ -284,16 +292,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["language-conservation"],
-    TAGS["language-revival"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करक-भाषेचं-पुनरुज्जीवन.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करक-भाषेचं-पुनरुज्जीवन.jpg",
   verified: {
     marathi: true,
     english: false,

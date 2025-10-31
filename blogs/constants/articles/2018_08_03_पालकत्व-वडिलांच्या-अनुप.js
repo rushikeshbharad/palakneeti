@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+    TAGS["single mother"],
+  ],
   content: {
     marathi: `<article
   id="post-661"
@@ -59,7 +64,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-664 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-वडिलांच्या-अनुप-0-new-doc-2018-06-27-2_1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्व-वडिलांच्या-अनुप-0-new-doc-2018-06-27-2_1.jpg"
           alt="New Doc 2018-06-27 (2)_1"
           width="277"
           height="385"
@@ -139,7 +144,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-668"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-वडिलांच्या-अनुप-1-e0a4aee0a4a8e0a580e0a4b7e0a4be-e0a4b9e0a4bee0a482e0a4a1e0a587-e1533290527961.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्व-वडिलांच्या-अनुप-1-e0a4aee0a4a8e0a580e0a4b7e0a4be-e0a4b9e0a4bee0a482e0a4a1e0a587-e1533290527961.jpg"
           alt="मनीषा हांडे"
           width="100"
           height="111"
@@ -187,9 +192,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["july-जुलै-२०१८"], TAGS["masik-article"], TAGS["single-mother"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-वडिलांच्या-अनुप.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्व-वडिलांच्या-अनुप.jpg",
   verified: {
     marathi: true,
     english: false,

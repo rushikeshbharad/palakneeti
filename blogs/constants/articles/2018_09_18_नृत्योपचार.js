@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["dance movement therapy"],
+    TAGS["dance therapy"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-800"
@@ -24,7 +30,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-868 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्योपचार-0-dance_therapy.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्योपचार-0-dance_therapy.png"
           alt="Dance_Therapy"
           width="173"
           height="318"
@@ -87,7 +93,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-825"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्योपचार-1-janhavi_pathak.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्योपचार-1-janhavi_pathak.jpg"
           alt="Janhavi_Pathak"
           width="109"
           height="128"
@@ -140,14 +146,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["dance-movement-therapy"],
-    TAGS["dance-therapy"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०१८"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्योपचार.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्योपचार.png",
   verified: {
     marathi: true,
     english: false,

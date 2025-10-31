@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-1563"
@@ -98,7 +105,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1754"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाऊस-दणकून-कोसळत-होता-0-paaus.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाऊस-दणकून-कोसळत-होता-0-paaus.png"
           alt="Paaus"
           width="1158"
           height="595"
@@ -138,15 +145,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-by-children"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाऊस-दणकून-कोसळत-होता.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाऊस-दणकून-कोसळत-होता.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19407"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/nilesh%20nimkar%20(6)_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसाहित्य-साक्षरतेचे-स-0-nilesh nimkar (6)_0.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -76,7 +76,7 @@ const articleData = {
         शोधण्याची. मात्र आज बर्याच मुलांसाठी वाचन-लेखन ही ताकद न होता ओझे होऊन
         बसलेले दिसते. माझ्या मते याचे कारण आर्थिक आणि सामाजिक परिस्थितीत आहे.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh%20nimkar%20%282%29.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसाहित्य-साक्षरतेचे-स-1-nilesh nimkar (2).jpg"
           width="320"
           height="214"
           alt="nilesh nimkar (2).jpg"
@@ -148,7 +148,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh%20nimkar%20%283%29.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसाहित्य-साक्षरतेचे-स-2-nilesh nimkar (3).jpg"
           width="320"
           height="240"
           alt="nilesh nimkar (3).jpg"
@@ -175,7 +175,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh%20nimkar%20%284%29.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसाहित्य-साक्षरतेचे-स-3-nilesh nimkar (4).jpg"
           alt="nilesh nimkar (4).jpg"
         />
       </figure>
@@ -213,9 +213,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/nilesh nimkar (6)_0.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

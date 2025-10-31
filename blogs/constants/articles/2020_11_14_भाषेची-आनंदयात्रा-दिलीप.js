@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["experience"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Reader's Response"],
+  ],
   content: {
     marathi: `<article
   id="post-2384"
@@ -86,7 +94,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2557"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेची-आनंदयात्रा-दिलीप-0-132.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषेची-आनंदयात्रा-दिलीप-0-132.jpg"
           alt="132"
           width="104"
           height="129"
@@ -136,16 +144,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["experience"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["readers-response"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेची-आनंदयात्रा-दिलीप.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषेची-आनंदयात्रा-दिलीप.jpg",
   verified: {
     marathi: true,
     english: false,

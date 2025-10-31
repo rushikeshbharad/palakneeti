@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["khelghar-news"], TAGS["news"], TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-18435"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="895"
     height="671"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-0-पालक-मित्र-गट--1024x768.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-0-पालक-मित्र-गट--1024x768.jpg"
     class="aligncenter wp-post-image"
     alt="खेळघर मित्र"
     decoding="async"
@@ -76,9 +77,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["khelghar-news"], TAGS["news"], TAGS["palakneeti"]],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Changing times"],
+    TAGS["ecology"],
+    TAGS["environment"],
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["masik-article"],
+    TAGS["money"],
+    TAGS["nature"],
+  ],
   content: {
     marathi: `<article
   id="post-17881"
@@ -202,7 +211,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-0-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-0-12-preetee-oswal1.jpg"
           alt="12. Preetee Oswal"
           width="150"
           height="150"
@@ -218,14 +227,14 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-212"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-1-12_bottom1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-1-12_bottom1.jpg"
           alt="12_bottom"
           width="1024"
           height="421"
         /><img
           decoding="async"
           class="alignnone size-full wp-image-210"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-2-13_bottom1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल-2-13_bottom1.jpg"
           alt="13_bottom"
           width="1024"
           height="453"
@@ -266,17 +275,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["changing-times"],
-    TAGS["ecology"],
-    TAGS["environment"],
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["masik-article"],
-    TAGS["money"],
-    TAGS["nature"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलतं-पर्यावरण-बदलतं-पाल.jpg",
   verified: {
     marathi: true,
     english: false,

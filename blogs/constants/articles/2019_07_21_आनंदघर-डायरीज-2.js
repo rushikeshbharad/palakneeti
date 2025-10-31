@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Anandghar"],
+    TAGS["Children"],
+    TAGS["July - जुलै २०१९"],
+    TAGS["masik-article"],
+    TAGS["Story"],
+  ],
   content: {
     marathi: `<article
   id="post-1411"
@@ -18,7 +25,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1420 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-2-0-anandghar_neha.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-2-0-anandghar_neha.png"
           alt="ANandghar_Neha"
           width="300"
           height="215"
@@ -127,7 +134,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignleft size-medium wp-image-1419"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-2-1-anandghar_harshal.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-2-1-anandghar_harshal.png"
           alt="Anandghar_Harshal"
           width="300"
           height="293"
@@ -238,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1422"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-2-2-adwait-dhandwate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-2-2-adwait-dhandwate.jpg"
           alt="adwait-dhandwate"
           width="88"
           height="89"
@@ -290,15 +297,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["anandghar"],
-    TAGS["children"],
-    TAGS["july-जुलै-२०१९"],
-    TAGS["masik-article"],
-    TAGS["story"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदघर-डायरीज-2.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदघर-डायरीज-2.png",
   verified: {
     marathi: true,
     english: false,

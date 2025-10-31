@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["age"],
+    TAGS["Grandmother"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१८"],
+    TAGS["young grandmothers"],
+  ],
   content: {
     marathi: `<article
   id="post-431"
@@ -46,9 +53,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजी-तुझं-वय-काय-0-null.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आजी-तुझं-वय-काय-0-null.png"
           alt="आजी तुझं वय काय ?"
           width="676"
           height="380"
@@ -119,15 +124,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["age"],
-    TAGS["grandmother"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१८"],
-    TAGS["young-grandmothers"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजी-तुझं-वय-काय.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आजी-तुझं-वय-काय.png",
   verified: {
     marathi: true,
     english: false,

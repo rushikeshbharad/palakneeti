@@ -1,5 +1,17 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Convergence"],
+    TAGS["environment"],
+    TAGS["Equity"],
+    TAGS["Human Rights"],
+    TAGS["June - जून २०२१"],
+    TAGS["Martin Luther King Jr."],
+    TAGS["masik-article"],
+    TAGS["Rachel Carson"],
+    TAGS["Social Movement"],
+  ],
   content: {
     marathi: `<article
   id="post-3085"
@@ -8,7 +20,7 @@ const articleData = {
   <img
     width="895"
     height="508"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संमीलन-कॉन्वर्जन्स-0-carson-mlk-final-0203_web-2048x1161-1-1024x581-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संमीलन-कॉन्वर्जन्स-0-carson-mlk-final-0203_web-2048x1161-1-1024x581-1.jpg"
     class="aligncenter wp-post-image"
     alt="संमीलन (कॉन्वर्जन्स)"
     decoding="async"
@@ -277,20 +289,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["convergence"],
-    TAGS["environment"],
-    TAGS["equity"],
-    TAGS["human-rights"],
-    TAGS["june-जून-२०२१"],
-    TAGS["martin-luther-king-jr"],
-    TAGS["masik-article"],
-    TAGS["rachel-carson"],
-    TAGS["social-movement"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संमीलन-कॉन्वर्जन्स.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संमीलन-कॉन्वर्जन्स.jpg",
   verified: {
     marathi: true,
     english: false,

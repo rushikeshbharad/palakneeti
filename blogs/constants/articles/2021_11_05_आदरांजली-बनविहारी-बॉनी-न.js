@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०२१"],
+    TAGS["tribute"],
+  ],
   content: {
     marathi: `<article
   id="post-3249"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="251"
     height="201"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-बनविहारी-बॉनी-न-0-bv-nimbkar.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-बनविहारी-बॉनी-न-0-bv-nimbkar.jpg"
     class="aligncenter wp-post-image"
     alt="आदरांजली – बनविहारी (बॉनी) निंबकर"
     decoding="async"
@@ -68,14 +74,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०२१"],
-    TAGS["tribute"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-बनविहारी-बॉनी-न.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-बनविहारी-बॉनी-न.jpg",
   verified: {
     marathi: true,
     english: false,

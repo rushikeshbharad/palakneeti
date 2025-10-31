@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19495"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/002_AAKRUTIcover_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंगुनि-रंगात-सार्‍या-0-002_AAKRUTIcover_0.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -53,7 +53,7 @@ const articleData = {
         म्हणूनच रंगलेली जमीन आणि रंगलेली मोरी, बेसिन, रंगलेले कपडे अशा
         सगळ्यांकडे मी कानाडोळा करू शकले.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/015_aarasachitra.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंगुनि-रंगात-सार्‍या-1-015_aarasachitra.jpg"
           width="448"
           height="290"
           alt="015_aarasachitra.jpg"
@@ -134,7 +134,7 @@ const articleData = {
         कडेवरून तो आडवा जोरात दाबून फिरवत गडद किनार काढायची म्हणजे फ्रेम
         केल्यासारखं चित्र उठून दिसतं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/005_baatali2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंगुनि-रंगात-सार्‍या-2-005_baatali2.jpg"
           width="182"
           height="448"
           alt="005_baatali2.jpg"
@@ -193,7 +193,7 @@ const articleData = {
         पार्श्वभूमीवर चित्रं काढायची गंमतही मुलांनी अनुभवली पाहिजे, असा प्रयत्न
         आम्ही केला.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/006_VanGogh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंगुनि-रंगात-सार्‍या-3-006_VanGogh.jpg"
           width="425"
           height="336"
           alt="006_VanGogh.jpg"
@@ -279,7 +279,7 @@ const articleData = {
         होतात.<br /><img
           loading="lazy"
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/008_Stencil.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंगुनि-रंगात-सार्‍या-4-008_Stencil.jpg"
           width="448"
           height="292"
           alt="008_Stencil.jpg"
@@ -400,9 +400,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/002_AAKRUTIcover_0.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

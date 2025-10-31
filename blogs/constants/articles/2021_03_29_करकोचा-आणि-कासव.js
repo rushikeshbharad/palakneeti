@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["Story"],
+    TAGS["फेब्रुवारी २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-2878"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="604"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करकोचा-आणि-कासव-0-chitra-1-604x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करकोचा-आणि-कासव-0-chitra-1-604x1024.jpg"
     class="aligncenter wp-post-image"
     alt="करकोचा आणि कासव"
     decoding="async"
@@ -61,7 +67,7 @@ const articleData = {
             decoding="async"
             width="1280"
             height="1005"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करकोचा-आणि-कासव-1-chitra-2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करकोचा-आणि-कासव-1-chitra-2.jpg"
             alt="करकोचा आणि कासव"
             class="wp-image-2926"
             sizes="(max-width: 1280px) 100vw, 1280px"
@@ -221,7 +227,7 @@ const articleData = {
             decoding="async"
             width="1280"
             height="960"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करकोचा-आणि-कासव-2-chitra-3.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करकोचा-आणि-कासव-2-chitra-3.jpg"
             alt="करकोचा आणि कासव"
             class="wp-image-2928"
             sizes="(max-width: 1280px) 100vw, 1280px"
@@ -256,7 +262,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करकोचा-आणि-कासव-3-madhura_joshi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करकोचा-आणि-कासव-3-madhura_joshi.jpg"
           alt="करकोचा आणि कासव"
           class="wp-image-2936"
           width="104"
@@ -304,14 +310,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["story"],
-    TAGS["फेब्रुवारी-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/करकोचा-आणि-कासव.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/करकोचा-आणि-कासव.jpg",
   verified: {
     marathi: true,
     english: false,

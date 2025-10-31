@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story by Children"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1533"
@@ -37,7 +44,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1738 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-0-chand2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-0-chand2.png"
           alt="Chand2"
           width="526"
           height="322"
@@ -68,7 +75,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1739"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-1-chand3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-1-chand3.png"
           alt="Chand3"
           width="619"
           height="620"
@@ -111,7 +118,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1740 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-2-chand4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ-2-chand4.png"
           alt="Chand4"
           width="511"
           height="338"
@@ -173,15 +180,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-by-children"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चालता-चालता-चंद्र-ढगाला-अ.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["masik-article"],
+    TAGS["Slow Media"],
+    TAGS["Slow Movement"],
+  ],
   content: {
     marathi: `<article
   id="post-1954"
@@ -78,7 +84,7 @@ const articleData = {
         <figure class="aligncenter">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे-0-slowmedia_manifesto.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे-0-slowmedia_manifesto.jpg"
             alt="कुछ ना कहो: स्लो माध्यमे"
             class="wp-image-1967"
           />
@@ -324,7 +330,7 @@ const articleData = {
         <figure class="alignleft is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे-1-sayali-e1560967288474.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे-1-sayali-e1560967288474.jpg"
             alt="कुछ ना कहो: स्लो माध्यमे"
             class="wp-image-1167"
             width="139"
@@ -385,14 +391,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["masik-article"],
-    TAGS["slow-media"],
-    TAGS["slow-movement"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुछ-ना-कहो-स्लो-माध्यमे.jpg",
   verified: {
     marathi: true,
     english: false,

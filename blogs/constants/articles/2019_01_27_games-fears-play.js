@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Acceptance"],
+    TAGS["English"],
+    TAGS["fear"],
+    TAGS["fear of self-acceptance"],
+    TAGS["January - जानेवारी २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -249,7 +257,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1125"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/games-fears-play-0-img-20180826-wa0011.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/games-fears-play-0-img-20180826-wa0011.jpg"
           alt="SwatiSambrani"
           width="80"
           height="80"
@@ -299,16 +307,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["acceptance"],
-    TAGS["english"],
-    TAGS["fear"],
-    TAGS["fear-of-self-acceptance"],
-    TAGS["january-जानेवारी-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/games-fears-play.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/games-fears-play.jpg",
   verified: {
     marathi: false,
     english: true,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["coverpage"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-18604"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="798"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/bilqis-rabbi-0-Palakneeti_Coverpage_Sep2022-798x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/bilqis-rabbi-0-Palakneeti_Coverpage_Sep2022-798x1024.jpg"
     class="aligncenter wp-post-image"
     alt="Sep 2022"
     decoding="async"
@@ -108,9 +109,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["coverpage"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/bilqis-rabbi.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/bilqis-rabbi.jpg",
   verified: {
     marathi: true,
     english: false,

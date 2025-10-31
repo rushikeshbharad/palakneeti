@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["June - जून २०१९"], TAGS["masik-article"], TAGS["व्यक्ति परिचय"]],
   content: {
     marathi: `<article
   id="post-1359"
@@ -42,7 +43,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1390 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-0-anju_0-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-0-anju_0-1.png"
           alt="Anju_0"
           width="228"
           height="180"
@@ -64,7 +65,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1391 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-1-anju_1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-1-anju_1.png"
           alt="Anju_1"
           width="286"
           height="348"
@@ -165,7 +166,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1392"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-2-anju_2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-2-anju_2.png"
           alt="Anju_2"
           width="666"
           height="500"
@@ -403,7 +404,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1384"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-3-varsha-sahasrabuddhe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-3-varsha-sahasrabuddhe.jpg"
           alt="varsha-sahasrabuddhe"
           width="112"
           height="112"
@@ -418,7 +419,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-4-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र-4-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="115"
           height="109"
@@ -470,9 +471,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["june-जून-२०१९"], TAGS["masik-article"], TAGS["व्यक्ति-परिचय"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अंजू-सैगल-शिक्षणक्षेत्र.png",
   verified: {
     marathi: true,
     english: false,

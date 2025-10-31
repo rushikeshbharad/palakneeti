@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Environment Education"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-517"
@@ -65,7 +70,7 @@ const articleData = {
               चित्र 1<img
                 decoding="async"
                 class="alignnone wp-image-608"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-शिक्षणातून-काय-0-picture1.png"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-शिक्षणातून-काय-0-picture1.png"
                 alt="Picture1"
                 width="304"
                 height="300"
@@ -76,7 +81,7 @@ const articleData = {
               चित्र 2<img
                 decoding="async"
                 class="alignnone wp-image-607"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-शिक्षणातून-काय-1-picture2.png"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-शिक्षणातून-काय-1-picture2.png"
                 alt="Picture2"
                 width="315"
                 height="314"
@@ -105,7 +110,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-582"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-शिक्षणातून-काय-2-priyadarshini_karve.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-शिक्षणातून-काय-2-priyadarshini_karve.png"
           alt="Priyadarshini_Karve"
           width="99"
           height="119"
@@ -153,13 +158,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["environment-education"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-शिक्षणातून-काय.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-शिक्षणातून-काय.png",
   verified: {
     marathi: true,
     english: false,

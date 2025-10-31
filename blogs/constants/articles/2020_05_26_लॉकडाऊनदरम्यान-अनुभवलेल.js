@@ -1,12 +1,21 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Mothering"],
+    TAGS["Mother's Experiences"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-2062"
   class="post-2062 post type-post status-publish format-standard hentry category-422 category-april-may--- category-masik-article category-uncategorized tag-lockdown tag-mothers-experiences tag-mothering"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <pre>
 मुस्कान ही भोपाळमधील उपेक्षित समाजघटकांसाठी काम करणारी स्वयंसेवी संस्था आहे. काही वर्षांच्या अनुभवानंतर आपल्या कामाची दिशा ठरवून घेत संस्थेनेदोन कार्यक्षेत्रे निश्चित केली आहेत. संपूर्ण कुटुंबात पहिल्यांदाच शाळेत जाणाऱ्या मुलांना अर्थपूर्ण शिक्षण उपलब्ध करून देणे, आणि समाजातील उपेक्षित वर्गाला दारिद्र्य, पिळवणूक, सामाजिक विषमता ह्यांवर मात करून आत्मसन्मानाने जगता यावे, म्हणून त्यांचे सक्षमीकरण करणे.</pre
       >
@@ -191,15 +200,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["mothering"],
-    TAGS["mothers-experiences"],
-    TAGS["uncategorized"],
-  ],
   image: null,
   verified: {
     marathi: true,

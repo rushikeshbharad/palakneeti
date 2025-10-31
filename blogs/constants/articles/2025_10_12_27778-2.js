@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["money"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27778"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="821"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27778-2-0-paishane-asurakshitata-vadhate-821x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/27778-2-0-paishane-asurakshitata-vadhate-821x1024.jpg"
     class="aligncenter wp-post-image"
     alt="पैशाने असुरक्षितता वाढते!"
     decoding="async"
@@ -533,7 +542,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27778-2-1-prajakta-atul.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/27778-2-1-prajakta-atul.jpg"
           alt="पैशाने असुरक्षितता वाढते!"
           class="wp-image-27779"
           style="width: 73px; height: auto"
@@ -582,17 +591,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["money"],
-    TAGS["palakneeti"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27778-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/27778-2.jpg",
   verified: {
     marathi: true,
     english: false,

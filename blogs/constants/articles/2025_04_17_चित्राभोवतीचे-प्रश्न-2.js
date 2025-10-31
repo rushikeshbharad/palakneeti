@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["Art Education"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["parenting"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27310"
@@ -12,7 +20,7 @@ const articleData = {
           decoding="async"
           width="719"
           height="573"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-2-0-chitrabhovticha-prashna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-2-0-chitrabhovticha-prashna.jpg"
           alt="चित्राभोवतीचे प्रश्न"
           class="wp-image-27311"
           style="width: 194px; height: auto"
@@ -165,7 +173,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-2-1-shriniwas-balkrishna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-2-1-shriniwas-balkrishna.jpg"
           alt="चित्राभोवतीचे प्रश्न"
           class="wp-image-26996"
           style="width: 85px; height: auto"
@@ -216,16 +224,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["art-education"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["parenting"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-2.jpg",
   verified: {
     marathi: true,
     english: false,

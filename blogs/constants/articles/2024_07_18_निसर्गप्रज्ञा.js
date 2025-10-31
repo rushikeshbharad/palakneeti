@@ -1,16 +1,22 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जुलै २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25282"
   class="post-25282 post type-post status-publish format-standard hentry category-647 category-masik-article category-palakneeti category-665"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गप्रज्ञा-0-title-2-edited.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गप्रज्ञा-0-title-2-edited.jpg"
           alt="निसर्गप्रज्ञा"
           class="wp-image-25284"
           width="241"
@@ -252,7 +258,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गप्रज्ञा-1-nisargapradnya1-800x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गप्रज्ञा-1-nisargapradnya1-800x1024.jpg"
           alt="निसर्गप्रज्ञा"
           class="wp-image-25253"
           width="292"
@@ -377,14 +383,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जुलै-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निसर्गप्रज्ञा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निसर्गप्रज्ञा.jpg",
   verified: {
     marathi: true,
     english: false,

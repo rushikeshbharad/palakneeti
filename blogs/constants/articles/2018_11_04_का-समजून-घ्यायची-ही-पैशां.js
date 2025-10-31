@@ -1,12 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"], TAGS["Oct-Nov २०१८"], TAGS["पैशांची भाषा"]],
   content: {
     marathi: `<article
   id="post-907"
   class="post-907 post type-post status-publish format-standard hentry category-masik-article category-oct-nov- tag-408"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <blockquote>
         <p>
           अर्थकारणाने संपूर्ण मानवी जीवन व्यापून राहिले आहे, याला मानवी
@@ -194,7 +195,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1000 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/का-समजून-घ्यायची-ही-पैशां-0-yamaji_0.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/का-समजून-घ्यायची-ही-पैशां-0-yamaji_0.png"
           alt="yamaji_0"
           width="299"
           height="300"
@@ -289,7 +290,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1001"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/का-समजून-घ्यायची-ही-पैशां-1-yamaji_1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/का-समजून-घ्यायची-ही-पैशां-1-yamaji_1.png"
           alt="Yamaji_1"
           width="521"
           height="519"
@@ -445,9 +446,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"], TAGS["पैशांची-भाषा"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/का-समजून-घ्यायची-ही-पैशां.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/का-समजून-घ्यायची-ही-पैशां.png",
   verified: {
     marathi: true,
     english: false,

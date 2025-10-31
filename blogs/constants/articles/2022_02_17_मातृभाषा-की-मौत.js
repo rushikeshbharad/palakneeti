@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["2022"], TAGS["null"], TAGS["masik-article"], TAGS["null"]],
   content: {
     marathi: `<article
   id="post-3477"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="300"
     height="168"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषा-की-मौत-0-jacinta.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषा-की-मौत-0-jacinta.jpg"
     class="aligncenter wp-post-image"
     alt="मातृभाषा की मौत"
     decoding="async"
@@ -69,7 +70,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3481"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषा-की-मौत-1-ishwar_aur_bazar_front_2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषा-की-मौत-1-ishwar_aur_bazar_front_2.jpg"
           alt="ishwar_aur_bazar_front_2"
           width="150"
           height="229"
@@ -110,14 +111,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["february-फेब्रुवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["mother-tongue"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषा-की-मौत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषा-की-मौत.jpg",
   verified: {
     marathi: true,
     english: false,

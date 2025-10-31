@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["Book Review"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१९"],
+  ],
   content: {
     marathi: `<article
   id="post-1317"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="183"
     height="275"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-बॉर्न-अ-क्रा-0-bornacrime.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-बॉर्न-अ-क्रा-0-bornacrime.jpg"
     class="aligncenter wp-post-image"
     alt="पुस्तक परिचय – बॉर्न अ क्राईम : स्टोरीज फ्रॉम अ साऊथ आफ्रिकन चाइल्डहूड"
     decoding="async"
@@ -147,14 +153,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["book-review"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१९"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-बॉर्न-अ-क्रा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-बॉर्न-अ-क्रा.jpg",
   verified: {
     marathi: true,
     english: false,

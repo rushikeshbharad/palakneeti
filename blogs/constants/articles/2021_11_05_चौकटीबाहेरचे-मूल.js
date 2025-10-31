@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०२१"],
+    TAGS["Children"],
+    TAGS["Children's Literature"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3159"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="768"
     height="511"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-0-jane_pic_11-768x511-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-0-jane_pic_11-768x511-1.jpg"
     class="aligncenter wp-post-image"
     alt="चौकटीबाहेरचे मूल"
     decoding="async"
@@ -16,7 +22,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <p>
         बालसाहित्यातील मुलांच्या प्रतिमेचा विचार केला, तर त्यामागे मुलांच्या
         स्वायत्त आणि स्वतंत्रतेची जाणीव लेखकांना नसते. ‘मुले लहान आहेत, त्यांना
@@ -83,7 +89,7 @@ const articleData = {
                 decoding="async"
                 width="150"
                 height="150"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-1-jane_pic_1-150x150-1.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-1-jane_pic_1-150x150-1.jpg"
                 class="attachment-large size-large"
                 alt="चौकटीबाहेरचे मूल"
                 aria-describedby="gallery-1-3174"
@@ -105,7 +111,7 @@ const articleData = {
                 decoding="async"
                 width="150"
                 height="150"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-2-jane_pic_2-150x150-1.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-2-jane_pic_2-150x150-1.jpg"
                 class="attachment-large size-large"
                 alt="चौकटीबाहेरचे मूल"
                 aria-describedby="gallery-1-3173"
@@ -151,7 +157,7 @@ const articleData = {
                 decoding="async"
                 width="768"
                 height="583"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-3-jane_pic_5-768x583-1.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-3-jane_pic_5-768x583-1.jpg"
                 class="attachment-large size-large"
                 alt="चौकटीबाहेरचे मूल"
                 aria-describedby="gallery-2-3172"
@@ -218,7 +224,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-3171"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-4-jane_pic_6-242x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-4-jane_pic_6-242x300-1.jpg"
           alt="Jane_pic_6-242x300"
           width="242"
           height="300"
@@ -255,7 +261,7 @@ const articleData = {
                 decoding="async"
                 width="300"
                 height="212"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-5-jane_pic_8-300x212.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-5-jane_pic_8-300x212.jpg"
                 class="attachment-medium size-medium"
                 alt="चौकटीबाहेरचे मूल"
                 sizes="auto, (max-width: 300px) 100vw, 300px"
@@ -270,7 +276,7 @@ const articleData = {
                 decoding="async"
                 width="300"
                 height="212"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-6-jane_pic_7-300x212.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-6-jane_pic_7-300x212.jpg"
                 class="attachment-medium size-medium"
                 alt="चौकटीबाहेरचे मूल"
                 sizes="auto, (max-width: 300px) 100vw, 300px"
@@ -301,7 +307,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-3177 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-7-jane_pic_9-768x385-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-7-jane_pic_9-768x385-1.jpg"
           alt="Jane_pic_9-768x385"
           width="768"
           height="385"
@@ -339,7 +345,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-3176 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-8-jane_pic_10-768x323-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-8-jane_pic_10-768x323-1.jpg"
           alt="Jane_pic_10-768x323"
           width="768"
           height="323"
@@ -401,7 +407,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-3161"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल-9-jane.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल-9-jane.jpg"
           alt="चौकटीबाहेरचे मूल"
           width="131"
           height="131"
@@ -459,14 +465,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०२१"],
-    TAGS["children"],
-    TAGS["childrens-literature"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चौकटीबाहेरचे-मूल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चौकटीबाहेरचे-मूल.jpg",
   verified: {
     marathi: true,
     english: false,

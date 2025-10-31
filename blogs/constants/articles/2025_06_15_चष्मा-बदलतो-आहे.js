@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["Perspective"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27572"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="843"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चष्मा-बदलतो-आहे-0-chasma-badalto-ahe-843x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चष्मा-बदलतो-आहे-0-chasma-badalto-ahe-843x1024.jpg"
     class="aligncenter wp-post-image"
     alt="चष्मा बदलतो आहे"
     decoding="async"
@@ -201,7 +209,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चष्मा-बदलतो-आहे-1-deepa-palshikar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चष्मा-बदलतो-आहे-1-deepa-palshikar.jpg"
           alt="चष्मा बदलतो आहे"
           class="wp-image-27573"
           style="width: 98px; height: auto"
@@ -245,16 +253,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["perspective"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चष्मा-बदलतो-आहे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चष्मा-बदलतो-आहे.jpg",
   verified: {
     marathi: true,
     english: false,

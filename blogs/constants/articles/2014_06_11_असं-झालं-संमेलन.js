@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19258"
@@ -17,7 +18,7 @@ const articleData = {
         प्रोफाइल फोटो इंटरनेटवर नाहीत, त्यांना भेटताक्षणी ओळखण्यातली मजाही काही
         और होती.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sammelan-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/असं-झालं-संमेलन-0-sammelan-1.jpg"
           width="100"
           height="150"
           alt="sammelan-1.jpg"
@@ -27,7 +28,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sammelan-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/असं-झालं-संमेलन-1-sammelan-2.jpg"
           alt="sammelan-2.jpg"
         />
       </figure>
@@ -35,7 +36,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sammelan-3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/असं-झालं-संमेलन-2-sammelan-3.jpg"
           alt="sammelan-3.jpg"
         />
       </figure>
@@ -369,9 +370,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sammelan-1.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/असं-झालं-संमेलन.jpg",
   verified: {
     marathi: true,
     english: false,

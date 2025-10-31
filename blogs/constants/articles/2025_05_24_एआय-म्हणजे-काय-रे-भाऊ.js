@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["मे २०२५ - May 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27507"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="721"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ-0-ai-mhanje.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ-0-ai-mhanje.jpg"
     class="aligncenter wp-post-image"
     alt="‘एआय’ म्हणजे काय रे भाऊ?"
     decoding="async"
@@ -183,7 +190,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="243"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ-1-virinchi-joglekar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ-1-virinchi-joglekar.jpg"
           alt="‘एआय’ म्हणजे काय रे भाऊ?"
           class="wp-image-27510"
           style="width: 92px; height: auto"
@@ -227,15 +234,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मे-२०२५-may-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एआय-म्हणजे-काय-रे-भाऊ.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["education resource"],
+    TAGS["June - जून २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3103"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="201"
     height="251"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/साईकिल-0-cycle-cover-2.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/साईकिल-0-cycle-cover-2.jpg"
     class="aligncenter wp-post-image"
     alt="साईकिल"
     decoding="async"
@@ -104,14 +110,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["education-resource"],
-    TAGS["june-जून-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/साईकिल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/साईकिल.jpg",
   verified: {
     marathi: true,
     english: false,

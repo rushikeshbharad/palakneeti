@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25706"
@@ -24,7 +31,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्र्न-0-chitrabhowatiche-prashna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्र्न-0-chitrabhowatiche-prashna.jpg"
           alt="चित्राभोवतीचे प्रश्र्न"
           class="wp-image-25707"
           width="336"
@@ -87,7 +94,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्र्न-1-चित्राभोवतीचे-प्रश्न.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्र्न-1-चित्राभोवतीचे-प्रश्न.jpg"
           alt="चित्राभोवतीचे प्रश्र्न"
           class="wp-image-25708"
           width="278"
@@ -205,7 +212,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्र्न-2-shriniwas-balkrishna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्र्न-2-shriniwas-balkrishna.jpg"
           alt="चित्राभोवतीचे प्रश्र्न"
           class="wp-image-25733"
           width="100"
@@ -248,15 +255,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्र्न.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

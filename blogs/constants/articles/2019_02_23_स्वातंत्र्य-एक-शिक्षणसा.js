@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["Freedom"],
+    TAGS["Learning Tool"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1148"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="600"
     height="591"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-0-cage1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-0-cage1.jpg"
     class="aligncenter wp-post-image"
     alt="स्वातंत्र्य : एक शिक्षणसाधन"
     decoding="async"
@@ -245,7 +251,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1164"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-1-unnamed1-e1550947342100.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-1-unnamed1-e1550947342100.jpg"
           alt="unnamed(1)"
           width="1980"
           height="2342"
@@ -418,7 +424,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1174"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-2-meenakshi-e1550947431812.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा-2-meenakshi-e1550947431812.jpg"
           alt="meenakshi"
           width="150"
           height="124"
@@ -471,14 +477,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["freedom"],
-    TAGS["learning-tool"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-एक-शिक्षणसा.jpg",
   verified: {
     marathi: true,
     english: false,

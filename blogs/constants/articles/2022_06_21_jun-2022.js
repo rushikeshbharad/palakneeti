@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-monthly"],
+    TAGS["monthly"],
+  ],
   content: {
     marathi: `<article
   id="post-18886"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="465"
     height="573"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/jun-2022-0-Coverpage_Palakneeti_June_2022.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/jun-2022-0-Coverpage_Palakneeti_June_2022.png"
     class="aligncenter wp-post-image"
     alt="जून २०२२"
     decoding="async"
@@ -124,14 +130,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-monthly"],
-    TAGS["monthly"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/jun-2022.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/jun-2022.png",
   verified: {
     marathi: true,
     english: false,

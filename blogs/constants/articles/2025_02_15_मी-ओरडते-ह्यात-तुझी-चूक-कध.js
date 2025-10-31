@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["फेब्रुवारी २०२५"],
+  ],
   content: {
     marathi: `<article
   id="post-25743"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="243"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध-0-me-oradate-300x243-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध-0-me-oradate-300x243-1.jpg"
           alt="मी ओरडते ह्यात तुझी चूक कधीच नसते!"
           class="wp-image-26975"
           style="width: 153px; height: 124px"
@@ -84,7 +91,7 @@ const articleData = {
           decoding="async"
           width="254"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध-1-ruby-254x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध-1-ruby-254x300-1.jpg"
           alt="मी ओरडते ह्यात तुझी चूक कधीच नसते!"
           class="wp-image-26976"
           style="width: 85px; height: 100px"
@@ -128,15 +135,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["फेब्रुवारी-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-ओरडते-ह्यात-तुझी-चूक-कध.jpg",
   verified: {
     marathi: true,
     english: false,

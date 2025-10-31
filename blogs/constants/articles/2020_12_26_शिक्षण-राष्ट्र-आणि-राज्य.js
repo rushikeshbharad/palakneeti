@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["December - डिसेंबर २०२०"],
+    TAGS["education"],
+    TAGS["masik-article"],
+    TAGS["Nation"],
+    TAGS["State"],
+  ],
   content: {
     marathi: `<article
   id="post-2701"
@@ -158,7 +166,7 @@ const articleData = {
           decoding="async"
           width="100"
           height="142"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षण-राष्ट्र-आणि-राज्य-0-krishna-kumar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिक्षण-राष्ट्र-आणि-राज्य-0-krishna-kumar.jpg"
           alt="शिक्षण राष्ट्र आणि राज्ये    |   कृष्णकुमार"
           class="wp-image-760"
         />
@@ -204,16 +212,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["december-डिसेंबर-२०२०"],
-    TAGS["education"],
-    TAGS["masik-article"],
-    TAGS["nation"],
-    TAGS["state"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षण-राष्ट्र-आणि-राज्य.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिक्षण-राष्ट्र-आणि-राज्य.jpg",
   verified: {
     marathi: true,
     english: false,

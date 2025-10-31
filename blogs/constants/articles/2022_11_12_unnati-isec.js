@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["Civil Society Organisation"],
+    TAGS["June - जून २०२२"],
+    TAGS["MLE"],
+    TAGS["MTB-MLE"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-18891"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="524"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/unnati-isec-0-Unnati_Photo2-1024x600.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/unnati-isec-0-Unnati_Photo2-1024x600.jpg"
     class="aligncenter wp-post-image"
     alt="शाळेची माध्यम-भाषा एकच नको!"
     decoding="async"
@@ -111,16 +119,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["civil-society-organisation"],
-    TAGS["june-जून-२०२२"],
-    TAGS["mle"],
-    TAGS["mtb-mle"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/unnati-isec.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/unnati-isec.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१८"],
+    TAGS["Gender Identity"],
+    TAGS["masik-article"],
+    TAGS["Menstrual Taboo"],
+    TAGS["Menstruation"],
+    TAGS["Stigma"],
+  ],
   content: {
     marathi: `<article
   id="post-385"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="593"
     height="876"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्-0-menstrupedia_marathi.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्-0-menstrupedia_marathi.jpg"
     class="aligncenter wp-post-image"
     alt="स्टॉप व्हिस्परिंग अँड स्टे फ्री!"
     decoding="async"
@@ -166,7 +174,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-306"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्-1-null4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्-1-null4.png"
           alt="null"
           width="78"
           height="81"
@@ -216,16 +224,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१८"],
-    TAGS["gender-identity"],
-    TAGS["masik-article"],
-    TAGS["menstrual-taboo"],
-    TAGS["menstruation"],
-    TAGS["stigma"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्टॉप-व्हिस्परिंग-अँड-स्.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["English"],
+    TAGS["Gender"],
+    TAGS["Gender Identity"],
+    TAGS["Girl"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +17,7 @@ const articleData = {
   <img
     width="718"
     height="605"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-what-a-girl-0-image.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-what-a-girl-0-image.png"
     class="aligncenter wp-post-image"
     alt="BOOK REVIEW: What A Girl!"
     decoding="async"
@@ -96,7 +104,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-306"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-what-a-girl-1-null4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-what-a-girl-1-null4.png"
           alt="null"
           width="79"
           height="82"
@@ -146,16 +154,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["english"],
-    TAGS["gender"],
-    TAGS["gender-identity"],
-    TAGS["girl"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-what-a-girl.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-what-a-girl.png",
   verified: {
     marathi: false,
     english: true,

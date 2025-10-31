@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["action"],
+    TAGS["January - जानेवारी २०१९"],
+    TAGS["masik-article"],
+    TAGS["new year resolution"],
+    TAGS["Resolution"],
+  ],
   content: {
     marathi: `<article
   id="post-1100"
@@ -201,7 +208,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निश्चय-आणि-कृती-यातील-तफा-0-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निश्चय-आणि-कृती-यातील-तफा-0-anandi-e1548608007148.jpg"
           alt="anandi"
           width="94"
           height="128"
@@ -247,15 +254,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["action"],
-    TAGS["january-जानेवारी-२०१९"],
-    TAGS["masik-article"],
-    TAGS["new-year-resolution"],
-    TAGS["resolution"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निश्चय-आणि-कृती-यातील-तफा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निश्चय-आणि-कृती-यातील-तफा.jpg",
   verified: {
     marathi: true,
     english: false,

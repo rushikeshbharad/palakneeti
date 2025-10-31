@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-24655"
@@ -24,7 +25,7 @@ const articleData = {
           decoding="async"
           width="576"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लोकसत्ता-दुर्गा-पुरस्कार-0-WhatsApp-Image-2023-10-18-at-10.43.31-AM-576x1024.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लोकसत्ता-दुर्गा-पुरस्कार-0-WhatsApp-Image-2023-10-18-at-10.43.31-AM-576x1024.jpeg"
           alt="लोकसत्ता दुर्गा पुरस्कार 2023"
           class="wp-image-24656"
           sizes="(max-width: 576px) 100vw, 576px"
@@ -66,9 +67,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लोकसत्ता-दुर्गा-पुरस्कार.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लोकसत्ता-दुर्गा-पुरस्कार.jpeg",
   verified: {
     marathi: true,
     english: false,

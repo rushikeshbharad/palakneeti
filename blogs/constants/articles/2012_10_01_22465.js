@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22465"
@@ -21,8 +22,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22465-0-sudhir_gadgil-1.jpg"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22465-0-sudhir_gadgil-1.jpg"
                 width="150"
               />
             </div>
@@ -78,7 +78,7 @@ const articleData = {
             decoding="async"
             alt="Corrected_SamwaadachaPool.jpg"
             height="350"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22465-1-Corrected_SamwaadachaPool.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22465-1-Corrected_SamwaadachaPool.jpg"
             width="650"
           />
         </p>
@@ -275,9 +275,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22465.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22465.jpg",
   verified: {
     marathi: true,
     english: false,

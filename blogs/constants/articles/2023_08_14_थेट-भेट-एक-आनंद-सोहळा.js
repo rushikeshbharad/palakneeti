@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["announcement"],
+    TAGS["Khelghar"],
+    TAGS["khelghar-news"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-24570"
   class="post-24570 post type-post status-publish format-standard hentry category-announcement-news category-khelghar category-khelghar-news category-palakneeti"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         ११ ऑगस्ट संध्याकाळ! युवक गटाची ३५ मुले – मुली, १०-१२ शिक्षिका आणि
         चाळीसेक पाहुणे असे आम्ही सगळे एकत्र जमलो होतो. खेळघराच्या कामाबद्दल
@@ -37,7 +43,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="766"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/थेट-भेट-एक-आनंद-सोहळा-0-1-1024x766.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/थेट-भेट-एक-आनंद-सोहळा-0-1-1024x766.jpeg"
           alt="थेट भेट एक आनंद सोहळा"
           class="wp-image-24572"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -77,14 +83,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["announcement-news"],
-    TAGS["khelghar"],
-    TAGS["khelghar-news"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/थेट-भेट-एक-आनंद-सोहळा.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/थेट-भेट-एक-आनंद-सोहळा.jpeg",
   verified: {
     marathi: true,
     english: false,

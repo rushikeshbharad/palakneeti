@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Adivasi"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Tribal"],
+  ],
   content: {
     marathi: `<article
   id="post-2420"
@@ -40,7 +48,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2515 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शहर-की-भाषा-0-89.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शहर-की-भाषा-0-89.jpg"
           alt="शहर की भाषा    |    जसिंता केरकेट्टा"
           width="93"
           height="115"
@@ -86,16 +94,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["adivasi"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["tribal"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शहर-की-भाषा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शहर-की-भाषा.jpg",
   verified: {
     marathi: true,
     english: false,

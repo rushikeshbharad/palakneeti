@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27813"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="334"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लायन-चित्रपटाच्या-निमित्-0-lion-chitrapatachya-nimitane-1024x382.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लायन-चित्रपटाच्या-निमित्-0-lion-chitrapatachya-nimitane-1024x382.jpg"
     class="aligncenter wp-post-image"
     alt="लायन चित्रपटाच्या निमित्ताने"
     decoding="async"
@@ -115,7 +123,7 @@ const articleData = {
           decoding="async"
           width="781"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लायन-चित्रपटाच्या-निमित्-1-lion-chitrapatachya-nimitane1-781x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लायन-चित्रपटाच्या-निमित्-1-lion-chitrapatachya-nimitane1-781x1024.jpg"
           alt="लायन चित्रपटाच्या निमित्ताने"
           class="wp-image-27815"
           style="width: 246px; height: auto"
@@ -179,7 +187,7 @@ const articleData = {
           decoding="async"
           width="991"
           height="843"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लायन-चित्रपटाच्या-निमित्-2-lion-chitrapatachya-nimitane2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लायन-चित्रपटाच्या-निमित्-2-lion-chitrapatachya-nimitane2.jpg"
           alt="लायन चित्रपटाच्या निमित्ताने"
           class="wp-image-27816"
           style="width: 355px; height: auto"
@@ -237,7 +245,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लायन-चित्रपटाच्या-निमित्-3-adwait-dandwate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लायन-चित्रपटाच्या-निमित्-3-adwait-dandwate.jpg"
           alt="लायन चित्रपटाच्या निमित्ताने"
           class="wp-image-27012"
           style="width: 95px; height: auto"
@@ -286,16 +294,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लायन-चित्रपटाच्या-निमित्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लायन-चित्रपटाच्या-निमित्.jpg",
   verified: {
     marathi: true,
     english: false,

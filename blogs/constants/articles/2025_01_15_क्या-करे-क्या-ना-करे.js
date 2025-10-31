@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25717"
@@ -21,7 +28,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/क्या-करे-क्या-ना-करे-0-kya-kare-na-kya-kare1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/क्या-करे-क्या-ना-करे-0-kya-kare-na-kya-kare1.jpg"
           alt="क्या करे क्या ना करे…"
           class="wp-image-25719"
           width="318"
@@ -45,7 +52,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/क्या-करे-क्या-ना-करे-1-kya-kare-na-kya-kare2-1024x727.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/क्या-करे-क्या-ना-करे-1-kya-kare-na-kya-kare2-1024x727.jpg"
           alt="क्या करे क्या ना करे…"
           class="wp-image-25718"
           width="314"
@@ -186,7 +193,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/क्या-करे-क्या-ना-करे-2-sayali-tamne.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/क्या-करे-क्या-ना-करे-2-sayali-tamne.jpg"
           alt="क्या करे क्या ना करे…"
           class="wp-image-25720"
           width="73"
@@ -234,15 +241,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/क्या-करे-क्या-ना-करे.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

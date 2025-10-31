@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["डिसेंबर २०२४"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25649"
@@ -67,7 +74,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कहानीमेळ्याची-कहाणी-0-kahani-melyachi-kahani-1024x664.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कहानीमेळ्याची-कहाणी-0-kahani-melyachi-kahani-1024x664.jpg"
           alt="कहानीमेळ्याची कहाणी"
           class="wp-image-25650"
           width="378"
@@ -156,7 +163,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कहानीमेळ्याची-कहाणी-1-kahani-melyachi-kahani1-1024x602.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कहानीमेळ्याची-कहाणी-1-kahani-melyachi-kahani1-1024x602.jpg"
           alt="कहानीमेळ्याची कहाणी"
           class="wp-image-25651"
           width="400"
@@ -246,7 +253,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कहानीमेळ्याची-कहाणी-2-kahani-melyachi-kahani2-1024x576.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कहानीमेळ्याची-कहाणी-2-kahani-melyachi-kahani2-1024x576.jpg"
           alt="कहानीमेळ्याची कहाणी"
           class="wp-image-25652"
           width="457"
@@ -280,7 +287,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कहानीमेळ्याची-कहाणी-3-krutarth-shevgaonkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कहानीमेळ्याची-कहाणी-3-krutarth-shevgaonkar.jpg"
           alt="कहानीमेळ्याची कहाणी"
           class="wp-image-25653"
           width="73"
@@ -327,15 +334,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["डिसेंबर-२०२४"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कहानीमेळ्याची-कहाणी.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

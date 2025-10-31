@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०२१"],
+    TAGS["Suicide"],
+  ],
   content: {
     marathi: `<article
   id="post-3026"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="560"
     height="292"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजारी-मनाचा-टाहो-0-istock-1190016586_0.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आजारी-मनाचा-टाहो-0-istock-1190016586_0.jpg"
     class="aligncenter wp-post-image"
     alt="आजारी मनाचा टाहो"
     decoding="async"
@@ -253,7 +259,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1787"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजारी-मनाचा-टाहो-1-sanjutai.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आजारी-मनाचा-टाहो-1-sanjutai.jpg"
           alt="Sanjutai"
           width="88"
           height="115"
@@ -302,14 +308,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०२१"],
-    TAGS["suicide"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आजारी-मनाचा-टाहो.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आजारी-मनाचा-टाहो.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["diversity"],
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["India"],
+    TAGS["masik-article"],
+    TAGS["Nation"],
+    TAGS["religion"],
+    TAGS["Secularism"],
+  ],
   content: {
     marathi: `<article
   id="post-1849"
@@ -93,7 +103,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1787"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-कुठे-जाऊ-0-sanjutai.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-कुठे-जाऊ-0-sanjutai.jpg"
           alt="Sanjutai"
           width="92"
           height="120"
@@ -144,18 +154,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["diversity"],
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["india"],
-    TAGS["masik-article"],
-    TAGS["nation"],
-    TAGS["religion"],
-    TAGS["secularism"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-कुठे-जाऊ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-कुठे-जाऊ.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Global Teacher Award"],
+    TAGS["ICT"],
+    TAGS["January - जानेवारी २०२१"],
+    TAGS["masik-article"],
+    TAGS["Technology"],
+  ],
   content: {
     marathi: `<article
   id="post-2794"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="400"
     height="250"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-0-tech-book-qr-code.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-0-tech-book-qr-code.png"
     class="aligncenter wp-post-image"
     alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…"
     decoding="async"
@@ -45,7 +53,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2807 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-1-ss_textbook_1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-1-ss_textbook_1.jpg"
           alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…"
           width="303"
           height="397"
@@ -67,7 +75,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2809 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-2-textbook2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-2-textbook2.jpg"
           alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…"
           width="381"
           height="517"
@@ -113,7 +121,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2811 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-3-textbook3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-3-textbook3.jpg"
           alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…"
           width="337"
           height="442"
@@ -157,7 +165,7 @@ const articleData = {
 
 क्यू.आर.हे ‘क्विक रिस्पॉन्स’ ह्या शब्दाचे लघुरूप (short form) आहे.जो कोड क्विक रिस्पॉन्स देतो तो क्यू.आर.कोड. एखाद्या वस्तूबद्दलची माहिती आणि तिचे नोंदणीकरण ह्यासाठी केलेले हे सांकेतिक नोंदणीकरण असते.क्यूआर कोडसाठी वेगळा ऑप्टिकल रीडर लागत नाही.स्मार्ट मोबाइलमध्ये असणारा साधा कॅमेरा हा रीडर म्हणून वापरला जातो.कॅमेर्‍याने घेतलेल्या फोटोला वाचून त्या क्यूआर कोडमधली सांकेतिक माहिती वाचली जाते. स्मार्टफोन वापरणारे कुणीही अ‍ॅप वापरून स्वत:चा क्यूआर कोड अगदी काही सेकंदात बनवू शकतात.
 
-<img loading="lazy" decoding="async" class="alignnone  wp-image-2815" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-4-priya_barbhai.jpg" alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…" width="119" height="127" sizes="auto, (max-width: 119px) 100vw, 119px"></pre>
+<img loading="lazy" decoding="async" class="alignnone  wp-image-2815" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा-4-priya_barbhai.jpg" alt="‘ग्लोबल टीचर&nbsp; पुरस्कारा’च्या निमित्ताने…" width="119" height="127" sizes="auto, (max-width: 119px) 100vw, 119px"></pre>
       <p>
         <strong>प्रियंवदा बारभाई&nbsp;</strong> |&nbsp;&nbsp;
         priyanvada@gmail.com
@@ -201,16 +209,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["global-teacher-award"],
-    TAGS["ict"],
-    TAGS["january-जानेवारी-२०२१"],
-    TAGS["masik-article"],
-    TAGS["technology"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ग्लोबल-टीचर-पुरस्कारा.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ग्लोबल-टीचर-पुरस्कारा.png",
   verified: {
     marathi: true,
     english: false,

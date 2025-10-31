@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["Russian"],
+    TAGS["September – सप्टेम्बर २०२२"],
+    TAGS["Story"],
+    TAGS["when daddy was a little boy"],
+  ],
   content: {
     marathi: `<article
   id="post-18750"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="265"
     height="416"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-daddys-feelings-were-hurt-0-when-daddy-was-a-little-boy-original.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-daddys-feelings-were-hurt-0-when-daddy-was-a-little-boy-original.jpg"
     class="aligncenter wp-post-image"
     alt="बाबा रागवायचा तेव्हा | व्हेन डॅडी वॉज अ लिटिल बॉय"
     decoding="async"
@@ -139,7 +147,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-17904"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-daddys-feelings-were-hurt-1-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-daddys-feelings-were-hurt-1-12-preetee-oswal1.jpg"
           alt="बाबा रागवायचा तेव्हा | व्हेन डॅडी वॉज अ लिटिल बॉय"
           width="137"
           height="137"
@@ -192,16 +200,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["masik-article"],
-    TAGS["russian"],
-    TAGS["september-सप्टेंबर-२०२२"],
-    TAGS["story"],
-    TAGS["when-daddy-was-a-little-boy"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-daddys-feelings-were-hurt.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-daddys-feelings-were-hurt.jpg",
   verified: {
     marathi: true,
     english: false,

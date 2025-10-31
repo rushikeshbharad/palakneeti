@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22350"
@@ -102,7 +103,7 @@ const articleData = {
             decoding="async"
             alt="01.jpg"
             height="275"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22350-0-01.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22350-0-01.jpg"
             width="400"
           />त्यातून तो खूप उंच आहे त्यामुळे त्याला शेवटच्या बाकावर बसावं लागतं.
           शेजारची मुलं रिपीटर्स आहेत. फार त्रास देतात त्याला, कोणी टपली मारतात,
@@ -268,9 +269,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22350.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22350.jpg",
   verified: {
     marathi: true,
     english: false,

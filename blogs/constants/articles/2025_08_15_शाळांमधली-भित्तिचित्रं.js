@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२५ - August 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27654"
@@ -85,7 +92,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="769"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-0-shalamadhil-bhittichitra-1024x769.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-0-shalamadhil-bhittichitra-1024x769.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27655"
           style="width: 344px; height: auto"
@@ -163,7 +170,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="646"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-1-shalamadhil-bhittichitra1-1024x646.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-1-shalamadhil-bhittichitra1-1024x646.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27656"
           style="width: 504px; height: auto"
@@ -220,7 +227,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="768"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-2-shalamadhil-bhittichitra3-1024x768.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-2-shalamadhil-bhittichitra3-1024x768.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27657"
           style="width: 473px; height: auto"
@@ -251,7 +258,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="768"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-3-shalamadhil-bhittichitra2-1024x768.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-3-shalamadhil-bhittichitra2-1024x768.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27658"
           style="width: 483px; height: auto"
@@ -280,7 +287,7 @@ const articleData = {
           decoding="async"
           width="768"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-4-shalamadhil-bhittichitra4-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-4-shalamadhil-bhittichitra4-768x1024.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27659"
           style="width: 380px; height: auto"
@@ -308,7 +315,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं-5-abha-bhagwat.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं-5-abha-bhagwat.jpg"
           alt="शाळांमधली भित्तिचित्रं…&nbsp; सुशोभनाच्या पलीकडे!"
           class="wp-image-27660"
         />
@@ -355,15 +362,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२५-august-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमधली-भित्तिचित्रं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमधली-भित्तिचित्रं.jpg",
   verified: {
     marathi: true,
     english: false,

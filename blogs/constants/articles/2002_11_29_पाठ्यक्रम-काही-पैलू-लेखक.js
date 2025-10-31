@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-20344"
@@ -28,7 +29,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="734"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठ्यक्रम-काही-पैलू-लेखक-0-oneo-1024x734.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाठ्यक्रम-काही-पैलू-लेखक-0-oneo-1024x734.jpg"
           alt="पाठ्यक्रम : काही पैलू लेखक – रश्मि पालीवाल अनुवाद – मीना कर्वे"
           class="wp-image-20495"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -370,9 +371,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठ्यक्रम-काही-पैलू-लेखक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाठ्यक्रम-काही-पैलू-लेखक.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["discussion group"],
+    TAGS["English"],
+    TAGS["fatherhood"],
+    TAGS["Gender"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -209,8 +217,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-imperfect-fathers-0-null.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-imperfect-fathers-0-null.jpeg"
           alt="The I’mperfect fathers"
           width="97"
           height="108"
@@ -259,16 +266,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["discussion-group"],
-    TAGS["english"],
-    TAGS["fatherhood"],
-    TAGS["gender"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-imperfect-fathers.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-imperfect-fathers.jpeg",
   verified: {
     marathi: false,
     english: true,

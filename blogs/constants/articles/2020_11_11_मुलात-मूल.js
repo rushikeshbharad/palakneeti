@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Children"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2395"
@@ -31,7 +38,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2542"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-0-117.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-0-117.jpg"
           alt="117"
           width="1351"
           height="734"
@@ -104,7 +111,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2543"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-1-118.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-1-118.jpg"
           alt="118"
           width="1272"
           height="935"
@@ -180,7 +187,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2544"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-2-119.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-2-119.jpg"
           alt="119"
           width="1365"
           height="951"
@@ -241,7 +248,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2545"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-3-120.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-3-120.jpg"
           alt="120"
           width="1351"
           height="892"
@@ -372,7 +379,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2546"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-4-121.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-4-121.jpg"
           alt="121"
           width="111"
           height="137"
@@ -390,7 +397,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2629"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल-5-sangnya_pendse.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल-5-sangnya_pendse.png"
           alt="Sangnya_Pendse"
           width="112"
           height="124"
@@ -433,15 +440,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["children"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलात-मूल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलात-मूल.jpg",
   verified: {
     marathi: true,
     english: false,

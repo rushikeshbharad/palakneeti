@@ -1,17 +1,22 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["December - दिसम्बर २०१८"],
+    TAGS["masik-article"],
+    TAGS["आदरांजली"],
+  ],
   content: {
     marathi: `<article
   id="post-1042"
   class="post-1042 post type-post status-publish format-standard hentry category-december-- category-masik-article tag-319"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         <img
           decoding="async"
           class="wp-image-1072 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-0-4Pune_Comrade_Shanta_Ranade_-e1545739798602.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-0-4Pune_Comrade_Shanta_Ranade_-e1545739798602.jpg"
           alt="Shantabai_Ranade"
           width="197"
           height="214"
@@ -31,7 +36,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1082 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-1-anil-bhagavat-e1545740898446.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-1-anil-bhagavat-e1545740898446.jpg"
           alt="anil-bhagavat"
           width="167"
           height="179"
@@ -78,13 +83,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["december-दिसम्बर-२०१८"],
-    TAGS["masik-article"],
-    TAGS["आदरांजली"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली.jpg",
   verified: {
     marathi: true,
     english: false,

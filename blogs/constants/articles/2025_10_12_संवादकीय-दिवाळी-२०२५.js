@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["editorial"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["दिवाळी अंक"],
+    TAGS["दिवाळी अंक २०२५ - ऑक्टो.-नोव्हें. २०२५ - oct.-nov.2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27759"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="300"
     height="226"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-दिवाळी-२०२५-0-sanwadkiya-300x226-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-दिवाळी-२०२५-0-sanwadkiya-300x226-1.jpg"
     class="aligncenter wp-post-image"
     alt="संवादकीय – दिवाळी २०२५"
     decoding="async"
@@ -189,17 +198,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["editorial"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-दिवाळी-२०२५.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-दिवाळी-२०२५.jpg",
   verified: {
     marathi: true,
     english: false,

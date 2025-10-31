@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Can art of be forced?"],
+    TAGS["force"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-806"
@@ -46,7 +52,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-857 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/किस्सा-0-kissaa.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/किस्सा-0-kissaa.jpg"
           alt="kissaa"
           width="591"
           height="360"
@@ -113,14 +119,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["can-art-of-be-forced"],
-    TAGS["force"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०१८"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/किस्सा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/किस्सा.jpg",
   verified: {
     marathi: true,
     english: false,

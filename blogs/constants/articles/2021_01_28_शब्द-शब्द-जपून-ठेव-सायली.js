@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["January - जानेवारी २०२१"],
+    TAGS["masik-article"],
+    TAGS["Slow Language"],
+    TAGS["Slow Movement"],
+    TAGS["कमी-हळू-खरे"],
+  ],
   content: {
     marathi: `<article
   id="post-2788"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="800"
     height="800"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-0-slowlanguage.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-0-slowlanguage.jpg"
     class="aligncenter wp-post-image"
     alt="शब्द शब्द जपून ठेव"
     decoding="async"
@@ -63,7 +71,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2860 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-1-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-1-1.jpg"
           alt="शब्द शब्द जपून ठेव"
           width="225"
           height="225"
@@ -103,7 +111,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2864 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-2-smileys.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-2-smileys.jpg"
           alt="शब्द शब्द जपून ठेव"
           width="417"
           height="196"
@@ -169,7 +177,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2858 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-3-3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-3-3.jpg"
           alt="शब्द शब्द जपून ठेव"
           width="229"
           height="364"
@@ -233,7 +241,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-4-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली-4-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="109"
           height="103"
@@ -282,16 +290,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["january-जानेवारी-२०२१"],
-    TAGS["masik-article"],
-    TAGS["slow-language"],
-    TAGS["slow-movement"],
-    TAGS["कमी-हळू-खरे"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शब्द-शब्द-जपून-ठेव-सायली.jpg",
   verified: {
     marathi: true,
     english: false,

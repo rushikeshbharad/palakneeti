@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["May - मे २०१९"],
+    TAGS["Teaching Aid"],
+    TAGS["Teaching Learning Material"],
+    TAGS["TLM"],
+  ],
   content: {
     marathi: `<article
   id="post-1323"
@@ -40,7 +47,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1330"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-0-tlm1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-0-tlm1.png"
           alt="TLM1"
           width="677"
           height="277"
@@ -95,7 +102,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-medium wp-image-1332"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-1-tlm3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-1-tlm3.png"
           alt="TLM3"
           width="300"
           height="185"
@@ -122,7 +129,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1331 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-2-tlm2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-2-tlm2.png"
           alt="TLM2"
           width="300"
           height="167"
@@ -265,7 +272,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-3-sayali.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि-3-sayali.jpg"
           alt="Sayali"
           width="108"
           height="90"
@@ -316,15 +323,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१९"],
-    TAGS["teaching-aid"],
-    TAGS["teaching-learning-material"],
-    TAGS["tlm"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शैक्षणिक-खेळ-आणि-साधने-नि.png",
   verified: {
     marathi: true,
     english: false,

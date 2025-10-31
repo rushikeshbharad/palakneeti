@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["Dialogue"], TAGS["March - मार्च २०१९"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-1208"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="274"
     height="301"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादातून-स्वर्ग-0-samvaad.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादातून-स्वर्ग-0-samvaad.png"
     class="aligncenter wp-post-image"
     alt="संवादातून स्वर्ग"
     decoding="async"
@@ -194,7 +195,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादातून-स्वर्ग-1-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादातून-स्वर्ग-1-12-preetee-oswal1.jpg"
           alt="12. Preetee Oswal"
           width="108"
           height="108"
@@ -239,9 +240,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["dialogue"], TAGS["march-मार्च-२०१९"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादातून-स्वर्ग.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादातून-स्वर्ग.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Autonomy"],
+    TAGS["Children's perspective on freedom"],
+    TAGS["Experiences"],
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["Freedom"],
+    TAGS["Freedom at School"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1156"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="618"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-0-whatsapp-image-2019-02-02-at-6.22.29-pm-1024x707.jpeg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-0-whatsapp-image-2019-02-02-at-6.22.29-pm-1024x707.jpeg"
     class="aligncenter wp-post-image"
     alt="स्वातंत्र्य आणि शिस्त … आमच्या दृष्टिकोनातून"
     decoding="async"
@@ -147,7 +156,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1177"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-1-img_0381-1-e1550947538391.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-1-img_0381-1-e1550947538391.jpg"
           alt="IMG_0381"
           width="1662"
           height="1264"
@@ -281,7 +290,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-2-sayali.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम-2-sayali.jpg"
           alt="Sayali"
           width="150"
           height="125"
@@ -331,17 +340,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["autonomy"],
-    TAGS["childrens-perspective-on-freedom"],
-    TAGS["experiences"],
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["freedom"],
-    TAGS["freedom-at-school"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वातंत्र्य-आणि-शिस्त-आम.jpeg",
   verified: {
     marathi: true,
     english: false,

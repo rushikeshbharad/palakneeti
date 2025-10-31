@@ -1,12 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22422"
   class="post-22422 post type-post status-publish format-standard hentry category-masik-article"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <div class="content">
         <div class="field field-type-text field-field-byline">
           <div class="field-items">
@@ -19,7 +20,7 @@ const articleData = {
             align="”left”"
             alt="SandhyaTaksale_01.jpg"
             height="348"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22422-0-SandhyaTaksale_01.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22422-0-SandhyaTaksale_01.jpg"
             width="229"
           />
         </p>
@@ -140,7 +141,7 @@ const articleData = {
             align="”right”"
             alt="Kallu 01 Marathi cover.jpg"
             height="348"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22422-1-Kallu 01 Marathi cover.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22422-1-Kallu 01 Marathi cover.jpg"
             width="218"
           />
           सुरुवातीलाच, भारतात प्रकाशित होणारी बहुसंख्य पुस्तकं इंग्रजी आणि हिंदी
@@ -178,7 +179,7 @@ const articleData = {
             align="”left”"
             alt="Laxman Questions Marathi.JPG"
             height="220"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22422-2-Laxman Questions Marathi.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22422-2-Laxman Questions Marathi.JPG"
             width="120"
           />
           उदाहरण दिलं तर हे जरा अधिक स्पष्ट होईल. ‘लक्ष्मणचे प्रश्न’ हे सात ते
@@ -235,9 +236,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22422.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22422.jpg",
   verified: {
     marathi: true,
     english: false,

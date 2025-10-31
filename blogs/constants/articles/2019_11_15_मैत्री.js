@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1579"
   class="post-1579 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         ‘‘आपली जमीन जाते, घर तुटतं तेव्हा आत काय काय मोडतं ते तुला नाही कळणार,’’
         हे बोलताना अनुपाचा गळा दाटून आला. शेजारी बसलेली रजनी, होस्टेलमध्ये
@@ -91,7 +97,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1687"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मैत्री-0-maitri1-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मैत्री-0-maitri1-1.png"
           alt="Maitri1"
           width="1171"
           height="581"
@@ -153,7 +159,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1688"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मैत्री-1-maitri2-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मैत्री-1-maitri2-1.png"
           alt="Maitri2"
           width="1165"
           height="735"
@@ -279,7 +285,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1709 alignnone"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मैत्री-2-shilpa.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मैत्री-2-shilpa.jpg"
           alt="Shilpa"
           width="92"
           height="69"
@@ -326,14 +332,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मैत्री.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मैत्री.png",
   verified: {
     marathi: true,
     english: false,

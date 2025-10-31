@@ -1,5 +1,16 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["conversation around money"],
+    TAGS["masik"],
+    TAGS["money"],
+    TAGS["palakneeti"],
+    TAGS["parenting"],
+    TAGS["दिवाळी अंक"],
+    TAGS["दिवाळी अंक २०२५ - ऑक्टो.-नोव्हें. २०२५ - oct.-nov.2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27757"
@@ -8,7 +19,7 @@ const articleData = {
   <img
     width="803"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अनुक्रमणिका-दिवाळी-२०२५-0-cover-2025a-803x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अनुक्रमणिका-दिवाळी-२०२५-0-cover-2025a-803x1024.jpg"
     class="aligncenter wp-post-image"
     alt="अनुक्रमणिका – दिवाळी २०२५"
     decoding="async"
@@ -49,7 +60,7 @@ const articleData = {
 
       <p>५. नोकरी सोडताना – ऋषिकेश दाभोळकर</p>
 
-      <p>६. पैसा! पैसा!! आहे मनोगर तरी – डॉ. गीताली वि. मं.</p>
+      <p>६. पैसा! पैसा!! आहे मनोहर तरी – डॉ. गीताली वि. मं.</p>
 
       <p>७. किती म्हणजे पुरे – विक्रांत पाटील</p>
 
@@ -101,7 +112,13 @@ const articleData = {
 
       <p>२९. छोट्यांच्या डायरीतून… – अथर्व खंडू औटे</p>
 
-      <p>Download this limited edition (first 21 pages only) in PDF format.</p>
+      <p>
+        <a
+          href="https://drive.google.com/file/d/1_9_P5ikVWY3fpVoxCWlRY0FWG-Yww_1S/view?usp=drive_link"
+          target="_blank"
+          >Download this limited edition (first 21 pages only) in PDF format.</a
+        >
+      </p>
 
       <p>
         एकंदरीत अंकाबद्दलची तुमची प्रतिक्रिया जाणून घ्यायला आम्हाला खूप आवडेल.
@@ -146,19 +163,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["conversation-around-money"],
-    TAGS["masik"],
-    TAGS["money"],
-    TAGS["palakneeti"],
-    TAGS["parenting"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अनुक्रमणिका-दिवाळी-२०२५.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अनुक्रमणिका-दिवाळी-२०२५.jpg",
   verified: {
     marathi: true,
     english: false,

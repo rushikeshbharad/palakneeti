@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Dialect"],
+    TAGS["Language"],
+    TAGS["Language Learning"],
+    TAGS["March - मार्च २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2977"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="400"
     height="400"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गुजगोष्टी-भाषांच्या-0-ramakant.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गुजगोष्टी-भाषांच्या-0-ramakant.jpg"
     class="aligncenter wp-post-image"
     alt="गुजगोष्टी भाषांच्या"
     decoding="async"
@@ -179,7 +187,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2979"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गुजगोष्टी-भाषांच्या-1-ramakant.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गुजगोष्टी-भाषांच्या-1-ramakant.jpg"
           alt="ramakant"
           width="93"
           height="93"
@@ -225,16 +233,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["dialect"],
-    TAGS["language"],
-    TAGS["language-learning"],
-    TAGS["march-मार्च-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गुजगोष्टी-भाषांच्या.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गुजगोष्टी-भाषांच्या.jpg",
   verified: {
     marathi: true,
     english: false,

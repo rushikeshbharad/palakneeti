@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["cultural politics of language"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["politics"],
+    TAGS["politics of language"],
+  ],
   content: {
     marathi: `<article
   id="post-2386"
@@ -543,7 +552,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2569"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेचे-सांस्कृतिक-राजकार-0-144.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषेचे-सांस्कृतिक-राजकार-0-144.jpg"
           alt="144"
           width="111"
           height="138"
@@ -600,17 +609,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["cultural-politics-of-language"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["politics"],
-    TAGS["politics-of-language"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषेचे-सांस्कृतिक-राजकार.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषेचे-सांस्कृतिक-राजकार.jpg",
   verified: {
     marathi: true,
     english: false,

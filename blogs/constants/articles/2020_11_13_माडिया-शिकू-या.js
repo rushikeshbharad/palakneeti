@@ -1,12 +1,21 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["German"],
+    TAGS["Language"],
+    TAGS["Madiya"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Tribal"],
+  ],
   content: {
     marathi: `<article
   id="post-2401"
   class="post-2401 post type-post status-publish format-standard hentry category-422 category-masik-article category-oct-nov--- tag-german tag-language tag-madiya tag-tribal"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <blockquote>
         <p style="text-align: justify">
           मराठी ते जर्मन, जर्मन ते माडिया: एक प्रवास
@@ -279,7 +288,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2495"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-0-69.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-0-69.jpg"
           alt="69"
           width="2142"
           height="749"
@@ -304,8 +313,7 @@ const articleData = {
         रेकॉर्ड केला आहे. पाठातील जो भाग या पेन-ड्राइव्हवर आहे, तेथे
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-1-null.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-1-null.png"
           alt="माडिया शिकू या"
           width="25"
           height="18"
@@ -338,7 +346,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2496"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-2-70.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-2-70.jpg"
           alt="70"
           width="368"
           height="562"
@@ -348,7 +356,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2497"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-3-71.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-3-71.jpg"
           alt="71"
           width="392"
           height="337"
@@ -384,7 +392,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2498 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-4-72.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-4-72.jpg"
           alt="72"
           width="448"
           height="366"
@@ -399,7 +407,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2685 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-5-madiya2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-5-madiya2.png"
           alt="Madiya2"
           width="503"
           height="397"
@@ -421,7 +429,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2501 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-6-75.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-6-75.jpg"
           alt="75"
           width="539"
           height="218"
@@ -438,7 +446,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2502 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-7-76.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-7-76.jpg"
           alt="76"
           width="598"
           height="183"
@@ -450,7 +458,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2503 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-8-77.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-8-77.jpg"
           alt="77"
           width="497"
           height="242"
@@ -479,7 +487,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2504 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-9-78.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-9-78.jpg"
           alt="78"
           width="576"
           height="736"
@@ -496,7 +504,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2505 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-10-79.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-10-79.jpg"
           alt="79"
           width="492"
           height="330"
@@ -513,7 +521,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2506"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-11-80.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-11-80.jpg"
           alt="80"
           width="979"
           height="501"
@@ -527,7 +535,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2689 alignnone"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-12-madiya_days.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-12-madiya_days.png"
           alt="Madiya_Days"
           width="491"
           height="332"
@@ -563,7 +571,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2507"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-13-81.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-13-81.jpg"
           alt="81"
           width="596"
           height="195"
@@ -575,7 +583,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2508"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-14-82.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-14-82.jpg"
           alt="82"
           width="606"
           height="207"
@@ -591,7 +599,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2690 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-15-madiya3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-15-madiya3.png"
           alt="Madiya3"
           width="587"
           height="375"
@@ -614,7 +622,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2692"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-16-madiya_house.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-16-madiya_house.png"
           alt="Madiya_House"
           width="209"
           height="202"
@@ -626,7 +634,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2510"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-17-84.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-17-84.jpg"
           alt="84"
           width="993"
           height="289"
@@ -670,7 +678,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2511 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-18-85.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-18-85.jpg"
           alt="85"
           width="569"
           height="637"
@@ -699,7 +707,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2512"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या-19-86.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माडिया-शिकू-या-19-86.jpg"
           alt="86"
           width="114"
           height="142"
@@ -749,17 +757,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["german"],
-    TAGS["language"],
-    TAGS["madiya"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["tribal"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माडिया-शिकू-या.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

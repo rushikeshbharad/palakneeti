@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["masik-article"],
+    TAGS["Parental Pressure"],
+    TAGS["Student Suicide"],
+  ],
   content: {
     marathi: `<article
   id="post-1152"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="503"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकांचा-ध्यास-मुलांच्य-0-kota_suicide-1024x576.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकांचा-ध्यास-मुलांच्य-0-kota_suicide-1024x576.png"
     class="aligncenter wp-post-image"
     alt="पालकांचा ध्यास… मुलांच्या गळ्याला फास"
     decoding="async"
@@ -190,14 +196,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["masik-article"],
-    TAGS["parental-pressure"],
-    TAGS["student-suicide"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकांचा-ध्यास-मुलांच्य.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकांचा-ध्यास-मुलांच्य.png",
   verified: {
     marathi: true,
     english: false,

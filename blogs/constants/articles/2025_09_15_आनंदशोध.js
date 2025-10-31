@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["Art for what"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["सप्टेंबर २०२५ - September 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27692"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="790"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-0-Palak-Niti-Sept-2025-cover-2-790x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-0-Palak-Niti-Sept-2025-cover-2-790x1024.jpg"
     class="aligncenter wp-post-image"
     alt="आनंदशोध!!"
     decoding="async"
@@ -67,7 +75,7 @@ const articleData = {
           decoding="async"
           width="768"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-1-चित्र-१०-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-1-चित्र-१०-768x1024.jpg"
           alt="आनंदशोध!!"
           class="wp-image-27698"
           style="width: 293px; height: auto"
@@ -101,7 +109,7 @@ const articleData = {
           decoding="async"
           width="742"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-2-चित्र-८-742x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-2-चित्र-८-742x1024.jpg"
           alt="आनंदशोध!!"
           class="wp-image-27694"
           style="width: 172px; height: auto"
@@ -122,7 +130,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="613"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-3-चित्र-९-1024x613.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-3-चित्र-९-1024x613.jpg"
           alt="आनंदशोध!!"
           class="wp-image-27695"
           style="width: 364px; height: auto"
@@ -304,7 +312,7 @@ const articleData = {
               decoding="async"
               width="742"
               height="1024"
-              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-4-इयरबडचे-ठसे-742x1024.jpeg"
+              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-4-इयरबडचे-ठसे-742x1024.jpeg"
               alt="आनंदशोध!!"
               class="wp-image-27696"
               style="width: 345px; height: auto"
@@ -318,7 +326,7 @@ const articleData = {
               decoding="async"
               width="768"
               height="1024"
-              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-5-बोटांचे-ठसे-768x1024.jpeg"
+              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-5-बोटांचे-ठसे-768x1024.jpeg"
               alt="आनंदशोध!!"
               class="wp-image-27697"
               style="width: 337px; height: auto"
@@ -407,7 +415,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="262"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध-6-vivek-marathe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध-6-vivek-marathe.jpg"
           alt="आनंदशोध!!"
           class="wp-image-27699"
           style="width: 77px; height: auto"
@@ -458,16 +466,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["art-for-what"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["सप्टेंबर-२०२५-september-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आनंदशोध.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आनंदशोध.jpg",
   verified: {
     marathi: true,
     english: false,

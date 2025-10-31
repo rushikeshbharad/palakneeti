@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Gender"],
+    TAGS["Health"],
+    TAGS["Health Education"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Sex Education"],
+  ],
   content: {
     marathi: `<article
   id="post-2358"
@@ -458,15 +467,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["gender"],
-    TAGS["health"],
-    TAGS["health-education"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["sex-education"],
-  ],
   image: null,
   verified: {
     marathi: true,

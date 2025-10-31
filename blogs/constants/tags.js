@@ -546,7 +546,7 @@ const TAGS = {
   "war-orphans": "War Orphans",
   "water-availability": "Water availability",
   "way-of-life": "way of life",
-  "we-the-people": '"we the people"',
+  "we-the-people": "we the people",
   "we-the-people-of-india": "We the people of India",
   "when-daddy-was-a-little-boy": "when daddy was a little boy",
   "when-to-have-a-child": "When to have a child",

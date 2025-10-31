@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["education resource"],
+    TAGS["March - मार्च २०२१"],
+    TAGS["masik-article"],
+    TAGS["Reader's Response"],
+  ],
   content: {
     marathi: `<article
   id="post-2944"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="745"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठशाला-भीतर-और-बाहर-0-e0a4aae0a4bee0a4a0e0a4b6e0a4bee0a4b2e0a4be-e0a4ade0a580e0a4a4e0a4b0-e0a494e0a4b0-e0a4ace0a4bee0a4b9e0a4b0-e0a4a6e0a4bfe0a4b8e0a482e0a4ace0a4b0-2020_page_001.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाठशाला-भीतर-और-बाहर-0-e0a4aae0a4bee0a4a0e0a4b6e0a4bee0a4b2e0a4be-e0a4ade0a580e0a4a4e0a4b0-e0a494e0a4b0-e0a4ace0a4bee0a4b9e0a4b0-e0a4a6e0a4bfe0a4b8e0a482e0a4ace0a4b0-2020_page_001.jpg"
     class="aligncenter wp-post-image"
     alt="पाठशाला भीतर और बाहर"
     decoding="async"
@@ -53,7 +59,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2946"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठशाला-भीतर-और-बाहर-1-paathshala_cover1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाठशाला-भीतर-और-बाहर-1-paathshala_cover1.png"
           alt="Paathshala_Cover1"
           width="159"
           height="220"
@@ -93,14 +99,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["education-resource"],
-    TAGS["march-मार्च-२०२१"],
-    TAGS["masik-article"],
-    TAGS["readers-response"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाठशाला-भीतर-और-बाहर.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाठशाला-भीतर-और-बाहर.jpg",
   verified: {
     marathi: true,
     english: false,

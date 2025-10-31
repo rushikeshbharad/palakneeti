@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25777"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="275"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वा-आणि-मन्शा-0-purva-ani-mansha-275x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वा-आणि-मन्शा-0-purva-ani-mansha-275x300-1.jpg"
           alt="पूर्वा आणि मन्शा"
           class="wp-image-26991"
           style="width: 137px; height: 150px"
@@ -198,7 +205,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वा-आणि-मन्शा-1-purva-khandelwal.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वा-आणि-मन्शा-1-purva-khandelwal.jpg"
           alt="पूर्वा आणि मन्शा"
           class="wp-image-26993"
           style="width: 92px; height: 114px"
@@ -248,15 +255,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वा-आणि-मन्शा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वा-आणि-मन्शा.jpg",
   verified: {
     marathi: true,
     english: false,

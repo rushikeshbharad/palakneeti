@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["dharm"],
+    TAGS["identity"],
+    TAGS["masik-article"],
+    TAGS["perspectives on religion"],
+    TAGS["religion"],
+  ],
   content: {
     marathi: `<article
   id="post-755"
@@ -88,14 +96,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["dharm"],
-    TAGS["identity"],
-    TAGS["masik-article"],
-    TAGS["perspectives-on-religion"],
-    TAGS["religion"],
-  ],
   image: null,
   verified: {
     marathi: true,

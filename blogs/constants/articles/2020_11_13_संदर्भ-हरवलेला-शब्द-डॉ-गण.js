@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2414"
@@ -204,7 +211,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2445"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संदर्भ-हरवलेला-शब्द-डॉ-गण-0-19.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संदर्भ-हरवलेला-शब्द-डॉ-गण-0-19.jpg"
           alt="संदर्भ हरवलेला शब्द!   |  डॉ. गणेश देवी"
           width="96"
           height="119"
@@ -256,15 +263,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संदर्भ-हरवलेला-शब्द-डॉ-गण.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संदर्भ-हरवलेला-शब्द-डॉ-गण.jpg",
   verified: {
     marathi: true,
     english: false,

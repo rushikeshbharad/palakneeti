@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["December - डिसेंबर २०१९"],
+    TAGS["masik-article"],
+    TAGS["Perspective"],
+    TAGS["religion"],
+  ],
   content: {
     marathi: `<article
   id="post-1803"
@@ -228,7 +234,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1822"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-एक-दृष्टिकोन-अनेक-इ-0-neetu_yadav-e1578371667883.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्ट-एक-दृष्टिकोन-अनेक-इ-0-neetu_yadav-e1578371667883.jpg"
           alt="Neetu_Yadav"
           width="83"
           height="99"
@@ -301,14 +307,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["december-डिसेंबर-२०१९"],
-    TAGS["masik-article"],
-    TAGS["perspective"],
-    TAGS["religion"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्ट-एक-दृष्टिकोन-अनेक-इ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्ट-एक-दृष्टिकोन-अनेक-इ.jpg",
   verified: {
     marathi: true,
     english: false,

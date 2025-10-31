@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27558"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="382"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-दात-घासण्याचा-इतिहा-0-amcha-dat-ghanyacha-Itihas-1024x437.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमचा-दात-घासण्याचा-इतिहा-0-amcha-dat-ghanyacha-Itihas-1024x437.jpg"
     class="aligncenter wp-post-image"
     alt="आमचा दात घासण्याचा इतिहास"
     decoding="async"
@@ -86,7 +93,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-दात-घासण्याचा-इतिहा-1-shubham-shirsale.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमचा-दात-घासण्याचा-इतिहा-1-shubham-shirsale.jpg"
           alt="आमचा दात घासण्याचा इतिहास"
           class="wp-image-27560"
           style="width: 86px; height: auto"
@@ -133,15 +140,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-दात-घासण्याचा-इतिहा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमचा-दात-घासण्याचा-इतिहा.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-20393"
@@ -18,7 +19,7 @@ const articleData = {
         घ्यावेत असं ठरलं. माझ्यासाठी हे आव्हानच होतं. पण मी ते स्वीकारलं आणि
         कामाला लागले.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/SPM_A0272.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघरातले-कलेचे-प्रयोग-2-0-SPM_A0272.jpg"
           width="320"
           height="240"
           alt="SPM_A0272.jpg"
@@ -61,7 +62,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/SPM_A0218.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघरातले-कलेचे-प्रयोग-2-1-SPM_A0218.jpg"
           alt="SPM_A0218.jpg"
         />
       </figure>
@@ -100,7 +101,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSC_0928.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघरातले-कलेचे-प्रयोग-2-2-DSC_0928.JPG"
           alt="DSC_0928.JPG"
         />
       </figure>
@@ -150,7 +151,7 @@ const articleData = {
         मुलांना आवडलं आणि त्यांनी खूप वेगवेगळ्या वस्तू बनवल्या. चष्मा, चेहरा,
         बाटली, सायकल, बाहुली, कानातलं अशा अनेक ! एकानं तर दहीहंडी बनवली.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/20-8-12%20076.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघरातले-कलेचे-प्रयोग-2-3-20-8-12 076.jpg"
           width="336"
           height="448"
           alt="20-8-12 076.jpg"
@@ -215,9 +216,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/SPM_A0272.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघरातले-कलेचे-प्रयोग-2.jpg",
   verified: {
     marathi: true,
     english: false,

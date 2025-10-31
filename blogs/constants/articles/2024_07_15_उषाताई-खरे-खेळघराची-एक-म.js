@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["#gratitude"],
+    TAGS["#happy_sharing"],
+    TAGS["#khelghar_volunteers"],
+    TAGS["palakneeti"],
+    TAGS["#खेळघर_स्वयंसेवक"],
+  ],
   content: {
     marathi: `<article
   id="post-25218"
@@ -32,7 +39,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="936"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उषाताई-खरे-खेळघराची-एक-म-0-IMG_2783-1-1024x936.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उषाताई-खरे-खेळघराची-एक-म-0-IMG_2783-1-1024x936.jpeg"
           alt="उषाताई खरे… खेळघराची एक मनमिळाऊ कार्यकर्ती!"
           class="wp-image-25219"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -72,15 +79,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["gratitude"],
-    TAGS["happy_sharing"],
-    TAGS["khelghar_volunteers"],
-    TAGS["palakneeti"],
-    TAGS["खेळघर_स्वयंसेवक"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/उषाताई-खरे-खेळघराची-एक-म.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/उषाताई-खरे-खेळघराची-एक-म.jpeg",
   verified: {
     marathi: true,
     english: false,

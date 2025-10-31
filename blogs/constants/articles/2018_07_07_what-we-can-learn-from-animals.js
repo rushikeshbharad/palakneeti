@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["animals"],
+    TAGS["English"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["parenting in animals"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="574"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what-we-can-learn-from-animals-0-ccf29018-1024x657.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what-we-can-learn-from-animals-0-ccf29018-1024x657.jpg"
     class="aligncenter wp-post-image"
     alt="What we can learn from animals…"
     decoding="async"
@@ -202,8 +210,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what-we-can-learn-from-animals-1-null.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what-we-can-learn-from-animals-1-null.jpeg"
           alt="What we can learn from animals…"
           width="70"
           height="93"
@@ -248,16 +255,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["animals"],
-    TAGS["english"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-    TAGS["parenting-in-animals"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what-we-can-learn-from-animals.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what-we-can-learn-from-animals.jpg",
   verified: {
     marathi: false,
     english: true,

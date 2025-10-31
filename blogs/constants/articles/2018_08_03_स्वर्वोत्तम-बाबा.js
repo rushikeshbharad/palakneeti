@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["discussion group"],
+    TAGS["fatherhood"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-650"
@@ -139,8 +145,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वर्वोत्तम-बाबा-0-null.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वर्वोत्तम-बाबा-0-null.jpeg"
           alt="‘स्व’र्वोत्तम बाबा"
           width="97"
           height="108"
@@ -187,14 +192,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["discussion-group"],
-    TAGS["fatherhood"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वर्वोत्तम-बाबा.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वर्वोत्तम-बाबा.jpeg",
   verified: {
     marathi: true,
     english: false,

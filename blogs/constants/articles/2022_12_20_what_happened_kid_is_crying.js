@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["child development"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-19103"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="356"
     height="504"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what_happened_kid_is_crying-0-BalVikas.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what_happened_kid_is_crying-0-BalVikas.jpg"
     class="aligncenter wp-post-image"
     alt="काय झालं?… बाळ रडतंय…"
     decoding="async"
@@ -166,7 +172,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-19113 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what_happened_kid_is_crying-1-bal-radatay-300x200.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what_happened_kid_is_crying-1-bal-radatay-300x200.jpg"
           alt="काय झालं?… बाळ रडतंय…"
           width="300"
           height="200"
@@ -331,7 +337,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18766"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what_happened_kid_is_crying-2-DrSuhas_Nene.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what_happened_kid_is_crying-2-DrSuhas_Nene.png"
           alt="काय झालं?… बाळ रडतंय…"
           width="110"
           height="166"
@@ -383,14 +389,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["child-development"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/what_happened_kid_is_crying.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/what_happened_kid_is_crying.jpg",
   verified: {
     marathi: true,
     english: false,

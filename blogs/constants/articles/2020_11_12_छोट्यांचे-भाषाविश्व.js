@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Early Childhood"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2372"
@@ -114,7 +121,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2481"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/छोट्यांचे-भाषाविश्व-0-55.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/छोट्यांचे-भाषाविश्व-0-55.jpg"
           alt="55"
           width="110"
           height="137"
@@ -131,7 +138,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2632 alignnone"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/छोट्यांचे-भाषाविश्व-1-abhabhagwat.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/छोट्यांचे-भाषाविश्व-1-abhabhagwat.png"
           alt="AbhaBhagwat"
           width="106"
           height="117"
@@ -172,15 +179,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["early-childhood"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/छोट्यांचे-भाषाविश्व.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/छोट्यांचे-भाषाविश्व.jpg",
   verified: {
     marathi: true,
     english: false,

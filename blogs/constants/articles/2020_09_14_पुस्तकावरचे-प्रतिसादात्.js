@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Aug-Sep - ऑगस्ट- सप्टेंबर २०२०"],
+    TAGS["masik-article"],
+    TAGS["teachers reflection"],
+    TAGS["Writing"],
+  ],
   content: {
     marathi: `<article
   id="post-2276"
@@ -57,7 +64,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2327"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्-0-img-1-e1600257572425.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकावरचे-प्रतिसादात्-0-img-1-e1600257572425.jpg"
           alt="पुस्तकावरचे प्रतिसादात्मक लेखन"
           width="736"
           height="981"
@@ -101,7 +108,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2329 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्-1-paus-image.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकावरचे-प्रतिसादात्-1-paus-image.jpg"
           alt="पुस्तकावरचे प्रतिसादात्मक लेखन"
           width="263"
           height="266"
@@ -176,7 +183,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2328"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्-2-img-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकावरचे-प्रतिसादात्-2-img-2.jpg"
           alt="पुस्तकावरचे प्रतिसादात्मक लेखन"
           width="736"
           height="552"
@@ -275,7 +282,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2326"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्-3-balasaheb-photo.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकावरचे-प्रतिसादात्-3-balasaheb-photo.jpg"
           alt="पुस्तकावरचे प्रतिसादात्मक लेखन"
           width="104"
           height="105"
@@ -323,15 +330,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
-    TAGS["masik-article"],
-    TAGS["teachers-reflection"],
-    TAGS["writing"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकावरचे-प्रतिसादात्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकावरचे-प्रतिसादात्.jpg",
   verified: {
     marathi: true,
     english: false,

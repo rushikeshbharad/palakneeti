@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1547"
@@ -59,7 +65,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1677"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/झॉपांग-भॉतांग-0-jhapangbhautang-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/झॉपांग-भॉतांग-0-jhapangbhautang-1.jpg"
           alt="JhapangBhautang (1)"
           width="2422"
           height="1748"
@@ -113,7 +119,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1678"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/झॉपांग-भॉतांग-1-jhapangbhautang-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/झॉपांग-भॉतांग-1-jhapangbhautang-2.jpg"
           alt="JhapangBhautang (2)"
           width="2450"
           height="1748"
@@ -187,14 +193,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/झॉपांग-भॉतांग.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/झॉपांग-भॉतांग.jpg",
   verified: {
     marathi: true,
     english: false,

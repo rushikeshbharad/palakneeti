@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["masik-article"],
+    TAGS["Short Story"],
+  ],
   content: {
     marathi: `<article
   id="post-1841"
@@ -76,11 +81,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["masik-article"],
-    TAGS["short-story"],
-  ],
   image: null,
   verified: {
     marathi: true,

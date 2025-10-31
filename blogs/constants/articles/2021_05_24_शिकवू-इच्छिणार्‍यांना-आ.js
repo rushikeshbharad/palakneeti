@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Book Review"],
+    TAGS["Handbook"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-3034"
@@ -165,7 +172,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3038"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिकवू-इच्छिणार्‍यांना-आ-0-sujata_lohkare-e1621958101222.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिकवू-इच्छिणार्‍यांना-आ-0-sujata_lohkare-e1621958101222.jpg"
           alt="Sujata_Lohkare"
           width="94"
           height="116"
@@ -215,15 +222,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["book-review"],
-    TAGS["handbook"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिकवू-इच्छिणार्‍यांना-आ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिकवू-इच्छिणार्‍यांना-आ.jpg",
   verified: {
     marathi: true,
     english: false,

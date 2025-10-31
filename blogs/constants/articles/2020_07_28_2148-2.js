@@ -1,12 +1,17 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Introduction"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2148"
   class="post-2148 post type-post status-publish format-standard has-post-thumbnail hentry category-june-july--- category-masik-article tag-book-introduction"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         एखाद्या गोष्टीकडे बघण्याची प्रत्येकाची वेगळी तर्‍हा असते. त्या बघण्याकडे
         बघण्याच्या तर्‍हा तर आणखी कितीतरी!&nbsp;
@@ -26,7 +31,7 @@ const articleData = {
       <figure class="wp-block-image size-large">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/2148-2-0-theyallsaw4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/2148-2-0-theyallsaw4.jpg"
           alt="पुस्तक परिचय- दे ऑल सॉ अ कॅट"
           class="wp-image-2191"
         />
@@ -71,7 +76,7 @@ const articleData = {
       <figure class="wp-block-image size-large">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/2148-2-1-9781452150130_03-e1598608617824.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/2148-2-1-9781452150130_03-e1598608617824.png"
           alt="पुस्तक परिचय- दे ऑल सॉ अ कॅट"
           class="wp-image-2190"
         />
@@ -117,7 +122,7 @@ const articleData = {
       <figure class="wp-block-image size-medium">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/2148-2-2-swetha.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/2148-2-2-swetha.jpg"
           alt="पुस्तक परिचय- दे ऑल सॉ अ कॅट"
           class="wp-image-2188"
         />
@@ -160,13 +165,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-introduction"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/2148-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/2148-2.jpg",
   verified: {
     marathi: true,
     english: false,

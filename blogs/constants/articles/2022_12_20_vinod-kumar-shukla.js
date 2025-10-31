@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik-article"],
+    TAGS["Poetry"],
+  ],
   content: {
     marathi: `<article
   id="post-19139"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="200"
     height="200"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/vinod-kumar-shukla-0-Vinod-Kumar_Shukla.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/vinod-kumar-shukla-0-Vinod-Kumar_Shukla.png"
     class="aligncenter wp-post-image"
     alt="हताशा से एक व्यक्ति बैठ गया था"
     decoding="async"
@@ -174,14 +180,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik-article"],
-    TAGS["poetry"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/vinod-kumar-shukla.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/vinod-kumar-shukla.png",
   verified: {
     marathi: true,
     english: false,

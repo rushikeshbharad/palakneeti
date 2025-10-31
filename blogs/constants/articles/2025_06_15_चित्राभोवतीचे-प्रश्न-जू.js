@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27562"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="719"
     height="573"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-0-chitrabhovticha-prashna.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-0-chitrabhovticha-prashna.jpg"
     class="aligncenter wp-post-image"
     alt="चित्राभोवतीचे प्रश्न – जून २०२५"
     decoding="async"
@@ -117,7 +124,7 @@ const articleData = {
           decoding="async"
           width="384"
           height="577"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-1-chitrabhovtiche-prashna3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-1-chitrabhovtiche-prashna3.jpg"
           alt="चित्राभोवतीचे प्रश्न – जून २०२५"
           class="wp-image-27566"
           style="width: 202px; height: auto"
@@ -130,7 +137,7 @@ const articleData = {
           decoding="async"
           width="647"
           height="577"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-2-chitrabhovtiche-prashna4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-2-chitrabhovtiche-prashna4.jpg"
           alt="चित्राभोवतीचे प्रश्न – जून २०२५"
           class="wp-image-27568"
           style="width: 204px; height: auto"
@@ -144,7 +151,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="532"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-3-chitrabhovtiche-prashna5-1024x532.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-3-chitrabhovtiche-prashna5-1024x532.jpg"
           alt="चित्राभोवतीचे प्रश्न – जून २०२५"
           class="wp-image-27569"
           sizes="auto, (max-width: 1024px) 100vw, 1024px"
@@ -162,7 +169,7 @@ const articleData = {
           decoding="async"
           width="551"
           height="742"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-4-chitrabhovtiche-prashna6.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू-4-chitrabhovtiche-prashna6.jpg"
           alt="चित्राभोवतीचे प्रश्न – जून २०२५"
           class="wp-image-27570"
           style="width: 275px; height: auto"
@@ -292,15 +299,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-जू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-जू.jpg",
   verified: {
     marathi: true,
     english: false,

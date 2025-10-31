@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25782"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="256"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ओझं-खांद्यावरून-उतरताना-0-oza-khandyawarun-utartana-256x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ओझं-खांद्यावरून-उतरताना-0-oza-khandyawarun-utartana-256x300-1.jpg"
           alt="ओझं खांद्यावरून उतरताना!"
           class="wp-image-26999"
           style="width: 161px; height: 189px"
@@ -269,7 +276,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ओझं-खांद्यावरून-उतरताना-1-asawari-gupchup.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ओझं-खांद्यावरून-उतरताना-1-asawari-gupchup.jpg"
           alt="ओझं खांद्यावरून उतरताना!"
           class="wp-image-27001"
           style="width: 87px; height: 108px"
@@ -314,15 +321,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ओझं-खांद्यावरून-उतरताना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ओझं-खांद्यावरून-उतरताना.jpg",
   verified: {
     marathi: true,
     english: false,

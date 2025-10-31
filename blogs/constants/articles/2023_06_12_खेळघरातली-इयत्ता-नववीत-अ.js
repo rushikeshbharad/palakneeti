@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["Khelghar"], TAGS["khelghar-news"], TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-24509"
@@ -187,7 +188,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["khelghar"], TAGS["khelghar-news"], TAGS["palakneeti"]],
   image: "https://static.xx.fbcdn.net/images/emoji.php/v9/t9b/1/16/1f97a.png",
   verified: {
     marathi: true,

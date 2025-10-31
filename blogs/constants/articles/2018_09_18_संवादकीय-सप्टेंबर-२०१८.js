@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Art Education"],
+    TAGS["Artist"],
+    TAGS["Arts"],
+    TAGS["Dance"],
+    TAGS["masik-article"],
+    TAGS["music"],
+    TAGS["Samvaadkiya"],
+    TAGS["September - सप्टेंबर २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-796"
@@ -82,16 +92,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["art-education"],
-    TAGS["artist"],
-    TAGS["arts"],
-    TAGS["dance"],
-    TAGS["masik-article"],
-    TAGS["music"],
-    TAGS["samvaadkiya"],
-    TAGS["september-सप्टेंबर-२०१८"],
-  ],
   image: null,
   verified: {
     marathi: true,

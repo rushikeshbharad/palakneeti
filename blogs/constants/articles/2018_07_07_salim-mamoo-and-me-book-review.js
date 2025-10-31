@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Bird-watching"],
+    TAGS["Birds"],
+    TAGS["Book Review"],
+    TAGS["English"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["Salim Ali"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +18,7 @@ const articleData = {
   <img
     width="458"
     height="458"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/salim-mamoo-and-me-book-review-0-bookcover.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/salim-mamoo-and-me-book-review-0-bookcover.jpg"
     class="aligncenter wp-post-image"
     alt="Salim Mamoo and Me – Book Review"
     decoding="async"
@@ -25,7 +34,7 @@ const articleData = {
             ><img
               decoding="async"
               class="wp-image-564 alignright"
-              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/salim-mamoo-and-me-book-review-1-bookreview.jpg"
+              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/salim-mamoo-and-me-book-review-1-bookreview.jpg"
               alt="BookReview"
               width="400"
               height="455"
@@ -148,7 +157,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-554"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/salim-mamoo-and-me-book-review-2-roshni-ravi-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/salim-mamoo-and-me-book-review-2-roshni-ravi-1.jpg"
           alt="Roshni Ravi (1)"
           width="84"
           height="101"
@@ -198,17 +207,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["bird-watching"],
-    TAGS["birds"],
-    TAGS["book-review"],
-    TAGS["english"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["salim-ali"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/salim-mamoo-and-me-book-review.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/salim-mamoo-and-me-book-review.jpg",
   verified: {
     marathi: false,
     english: true,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["child development"],
+    TAGS["Children"],
+    TAGS["English"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["perception"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -180,7 +189,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-573"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-do-children-perceive-nature-in-different-ages-0-how_children_perceive_nature-e1530936099927.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-do-children-perceive-nature-in-different-ages-0-how_children_perceive_nature-e1530936099927.jpg"
           alt="How_Children_Perceive_Nature"
           width="1655"
           height="1108"
@@ -213,9 +222,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-do-children-perceive-nature-in-different-ages-1-image.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-do-children-perceive-nature-in-different-ages-1-image.jpeg"
           alt="How do children perceive nature in different ages?"
           width="89"
           height="84"
@@ -230,9 +237,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-do-children-perceive-nature-in-different-ages-2-image1.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-do-children-perceive-nature-in-different-ages-2-image1.jpeg"
           alt="How do children perceive nature in different ages?"
           width="104"
           height="96"
@@ -278,17 +283,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["child-development"],
-    TAGS["children"],
-    TAGS["english"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-    TAGS["perception"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/how-do-children-perceive-nature-in-different-ages.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/how-do-children-perceive-nature-in-different-ages.jpg",
   verified: {
     marathi: false,
     english: true,

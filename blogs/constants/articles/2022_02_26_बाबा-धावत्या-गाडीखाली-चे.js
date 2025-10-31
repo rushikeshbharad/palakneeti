@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3519"
@@ -112,7 +120,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3521"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बाबा-धावत्या-गाडीखाली-चे-0-priti-prakash.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बाबा-धावत्या-गाडीखाली-चे-0-priti-prakash.jpg"
           alt="priti prakash"
           width="121"
           height="150"
@@ -157,16 +165,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["childrens-literature"],
-    TAGS["february-फेब्रुवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बाबा-धावत्या-गाडीखाली-चे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बाबा-धावत्या-गाडीखाली-चे.jpg",
   verified: {
     marathi: true,
     english: false,

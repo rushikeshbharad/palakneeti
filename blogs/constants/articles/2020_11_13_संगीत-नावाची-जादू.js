@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["music"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2419"
@@ -94,7 +101,7 @@ const articleData = {
         खरेच असतील; पण तरीही आणखी जे काही आपल्या मनात संगीतानं निर्माण होतं ते
         सगळं यात आलेलं नाही.
       </p>
-      <pre><img decoding="async" class="wp-image-2565 alignleft" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संगीत-नावाची-जादू-0-140.jpg" alt="संगीत नावाची जादू    |   संजीवनी कुलकर्णी, कुलदीप बर्वे आणि डॉ. मोहन देस" width="197" height="187"><img decoding="async" class="wp-image-2564 alignleft" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संगीत-नावाची-जादू-1-139.jpg" alt="संगीत नावाची जादू    |   संजीवनी कुलकर्णी, कुलदीप बर्वे आणि डॉ. मोहन देस" width="230" height="174">
+      <pre><img decoding="async" class="wp-image-2565 alignleft" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संगीत-नावाची-जादू-0-140.jpg" alt="संगीत नावाची जादू    |   संजीवनी कुलकर्णी, कुलदीप बर्वे आणि डॉ. मोहन देस" width="197" height="187"><img decoding="async" class="wp-image-2564 alignleft" src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संगीत-नावाची-जादू-1-139.jpg" alt="संगीत नावाची जादू    |   संजीवनी कुलकर्णी, कुलदीप बर्वे आणि डॉ. मोहन देस" width="230" height="174">
 
 
 
@@ -266,15 +273,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["music"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संगीत-नावाची-जादू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संगीत-नावाची-जादू.jpg",
   verified: {
     marathi: true,
     english: false,

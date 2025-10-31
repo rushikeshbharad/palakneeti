@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Review"],
+    TAGS["Health"],
+    TAGS["health for all"],
+    TAGS["January - जानेवारी २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1104"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="458"
     height="458"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परीक्षण-0-sarvansathi-arogya-hoy-shakya-ahe-dr-anant-phadke.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परीक्षण-0-sarvansathi-arogya-hoy-shakya-ahe-dr-anant-phadke.jpg"
     class="aligncenter wp-post-image"
     alt="पुस्तक परीक्षण"
     decoding="async"
@@ -166,7 +173,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1129"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परीक्षण-1-mohandes.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परीक्षण-1-mohandes.jpg"
           alt="mohandes"
           width="90"
           height="124"
@@ -213,15 +220,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-review"],
-    TAGS["health"],
-    TAGS["health-for-all"],
-    TAGS["january-जानेवारी-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परीक्षण.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परीक्षण.jpg",
   verified: {
     marathi: true,
     english: false,

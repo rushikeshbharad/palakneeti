@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["father"],
+    TAGS["fatherhood"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+    TAGS["role of father in child development"],
+  ],
   content: {
     marathi: `<article
   id="post-647"
@@ -98,7 +105,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-790 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बालसंगोपनातील-वडिलांची-भ-0-role_of_father.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसंगोपनातील-वडिलांची-भ-0-role_of_father.png"
           alt="Role_of_father"
           width="282"
           height="231"
@@ -139,8 +146,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बालसंगोपनातील-वडिलांची-भ-1-null.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसंगोपनातील-वडिलांची-भ-1-null.png"
           alt="बालसंगोपनातील वडिलांची भूमिका"
           width="90"
           height="96"
@@ -187,15 +193,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["father"],
-    TAGS["fatherhood"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-    TAGS["role-of-father-in-child-development"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बालसंगोपनातील-वडिलांची-भ.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालसंगोपनातील-वडिलांची-भ.png",
   verified: {
     marathi: true,
     english: false,

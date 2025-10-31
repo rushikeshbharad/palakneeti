@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["Poet"],
+    TAGS["Poetry"],
+    TAGS["September – सप्टेम्बर २०२२"],
+  ],
   content: {
     marathi: `<article
   id="post-18735"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="673"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/dushyant_kumar-0-Dushyant_Kumar_2009_stamp_of_India.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/dushyant_kumar-0-Dushyant_Kumar_2009_stamp_of_India.jpg"
     class="aligncenter wp-post-image"
     alt="हो गई है पीर पर्वत-सी पिघलनी चाहिए…"
     decoding="async"
@@ -110,7 +118,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-18744 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/dushyant_kumar-1-Dushyant_Kumar-300x300.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/dushyant_kumar-1-Dushyant_Kumar-300x300.jpg"
           alt="हो गई है पीर पर्वत-सी पिघलनी चाहिए…"
           width="151"
           height="151"
@@ -181,16 +189,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["poet"],
-    TAGS["poetry"],
-    TAGS["september-सप्टेंबर-२०२२"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/dushyant_kumar.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/dushyant_kumar.jpg",
   verified: {
     marathi: true,
     english: false,

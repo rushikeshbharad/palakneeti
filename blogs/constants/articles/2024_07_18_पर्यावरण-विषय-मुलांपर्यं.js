@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जुलै २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25262"
@@ -10,7 +16,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-0-paryavaran-vishay-1024x352.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-0-paryavaran-vishay-1024x352.jpg"
           alt="पर्यावरण विषय मुलांपर्यंत नेण्याचा प्रवास"
           class="wp-image-25268"
           width="440"
@@ -80,7 +86,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-1-paryavaran-vishay1-743x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-1-paryavaran-vishay1-743x1024.jpg"
           alt="पर्यावरण विषय मुलांपर्यंत नेण्याचा प्रवास"
           class="wp-image-25264"
           width="269"
@@ -137,7 +143,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-2-paryavaran-vishay2-1024x578.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-2-paryavaran-vishay2-1024x578.jpg"
           alt="पर्यावरण विषय मुलांपर्यंत नेण्याचा प्रवास"
           class="wp-image-25265"
           width="427"
@@ -178,7 +184,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-3-paryavaran-vishay3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-विषय-मुलांपर्यं-3-paryavaran-vishay3.jpg"
           alt="पर्यावरण विषय मुलांपर्यंत नेण्याचा प्रवास"
           class="wp-image-25266"
           width="380"
@@ -220,14 +226,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जुलै-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरण-विषय-मुलांपर्यं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरण-विषय-मुलांपर्यं.jpg",
   verified: {
     marathi: true,
     english: false,

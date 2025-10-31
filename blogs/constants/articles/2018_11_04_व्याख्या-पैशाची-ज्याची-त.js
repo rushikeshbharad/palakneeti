@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"], TAGS["Oct-Nov २०१८"], TAGS["पैशाची व्याख्या"]],
   content: {
     marathi: `<article
   id="post-917"
@@ -26,7 +27,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-985 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्याख्या-पैशाची-ज्याची-त-0-asmita_0.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्याख्या-पैशाची-ज्याची-त-0-asmita_0.png"
           alt="Asmita_0"
           width="205"
           height="300"
@@ -60,7 +61,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright wp-image-986"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्याख्या-पैशाची-ज्याची-त-1-asmita_1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्याख्या-पैशाची-ज्याची-त-1-asmita_1.png"
           alt="Asmita_1"
           width="359"
           height="248"
@@ -96,7 +97,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-988 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्याख्या-पैशाची-ज्याची-त-2-asmita_2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्याख्या-पैशाची-ज्याची-त-2-asmita_2.png"
           alt="Asmita_2"
           width="300"
           height="227"
@@ -188,9 +189,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"], TAGS["पैशाची-व्याख्या"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्याख्या-पैशाची-ज्याची-त.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्याख्या-पैशाची-ज्याची-त.png",
   verified: {
     marathi: true,
     english: false,

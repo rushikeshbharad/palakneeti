@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-3143"
@@ -8,7 +13,7 @@ const articleData = {
   <img
     width="236"
     height="324"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एडा-लवलेस-0-ada-lovelace.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एडा-लवलेस-0-ada-lovelace.jpg"
     class="aligncenter wp-post-image"
     alt="एडा लवलेस"
     decoding="async"
@@ -202,7 +207,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एडा-लवलेस-1-pranjal_k.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एडा-लवलेस-1-pranjal_k.jpg"
           alt="Pranjal_K"
           width="112"
           height="111"
@@ -252,9 +257,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["2021"], TAGS["masik-article"], TAGS["september-सप्टेंबर-२०२१"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एडा-लवलेस.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एडा-लवलेस.jpg",
   verified: {
     marathi: true,
     english: false,

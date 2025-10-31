@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1573"
   class="post-1573 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         संजू आणि राजू हे दोघं पाठचे भाऊ होते हे त्यांच्या नावांवरूनच लक्षात
         यायचं. दोघांमध्ये जेमतेम दीडेक वर्षाचं अंतर असेल. संजूला उशिरा, म्हणजे
@@ -78,7 +84,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-large wp-image-1690"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मित्र-भेटला-0-mitra2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मित्र-भेटला-0-mitra2.jpg"
           alt="Mitra2"
           width="1024"
           height="774"
@@ -251,7 +257,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-large wp-image-1689"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मित्र-भेटला-1-mitra1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मित्र-भेटला-1-mitra1.jpg"
           alt="Mitra1"
           width="1024"
           height="740"
@@ -329,7 +335,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter wp-image-1691"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मित्र-भेटला-2-mitra3-e1573836692301.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मित्र-भेटला-2-mitra3-e1573836692301.jpg"
           alt="mitra3.jpg"
           width="372"
           height="470"
@@ -340,7 +346,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1704"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मित्र-भेटला-3-shubhada_joshi-e1573837119453.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मित्र-भेटला-3-shubhada_joshi-e1573837119453.jpg"
           alt="shubhada_joshi.jpg"
           width="112"
           height="116"
@@ -385,14 +391,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मित्र-भेटला.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मित्र-भेटला.jpg",
   verified: {
     marathi: true,
     english: false,

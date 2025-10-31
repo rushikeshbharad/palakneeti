@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27793"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="265"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जवळीक-ए-जादू-0-javlik-a-jadu-1024x303.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जवळीक-ए-जादू-0-javlik-a-jadu-1024x303.jpg"
     class="aligncenter wp-post-image"
     alt="जवळीक-ए-जादू"
     decoding="async"
@@ -111,7 +120,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="566"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जवळीक-ए-जादू-1-javlik-a-jadu1-1024x566.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जवळीक-ए-जादू-1-javlik-a-jadu1-1024x566.jpg"
           alt="जवळीक-ए-जादू"
           class="wp-image-27796"
           style="width: 396px; height: auto"
@@ -203,7 +212,7 @@ const articleData = {
           decoding="async"
           width="217"
           height="271"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जवळीक-ए-जादू-2-anagha-jaltare.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जवळीक-ए-जादू-2-anagha-jaltare.jpg"
           alt="जवळीक-ए-जादू"
           class="wp-image-27794"
           style="width: 83px; height: auto"
@@ -291,17 +300,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जवळीक-ए-जादू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जवळीक-ए-जादू.jpg",
   verified: {
     marathi: true,
     english: false,

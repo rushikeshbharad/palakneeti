@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -20,7 +27,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/poorva-and-mansha-0-purva-ani-mansha.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/poorva-and-mansha-0-purva-ani-mansha.jpg"
           alt="Poorva and Mansha"
           class="wp-image-25769"
           width="200"
@@ -208,7 +215,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/poorva-and-mansha-1-purva-khandelwal.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/poorva-and-mansha-1-purva-khandelwal.jpg"
           alt="Poorva and Mansha"
           class="wp-image-25764"
           width="73"
@@ -256,15 +263,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["english"],
-    TAGS["original-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/poorva-and-mansha.jpg",
+  image: "",
   verified: {
     marathi: false,
     english: true,

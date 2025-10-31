@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["AIDS"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="537"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस-0-world-aids-day-2020-history-theme-and-facts-about-hiv-and-aids.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस-0-world-aids-day-2020-history-theme-and-facts-about-hiv-and-aids.jpg"
     class="aligncenter wp-post-image"
     alt="1 डिसेंबर : जागतिक एड्स दिवस"
     decoding="async"
@@ -209,7 +215,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1787"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस-1-sanjutai.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस-1-sanjutai.jpg"
           alt="1 डिसेंबर : जागतिक एड्स दिवस"
           width="93"
           height="121"
@@ -267,14 +273,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["aids"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/1-डिसेंबर-जागतिक-एड्स-दिवस.jpg",
   verified: {
     marathi: false,
     english: true,

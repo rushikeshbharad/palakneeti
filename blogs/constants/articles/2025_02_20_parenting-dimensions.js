@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["null"], TAGS["null"], TAGS["palakneeti"]],
   content: {
     marathi: ``,
     english: `<article
@@ -289,7 +290,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/parenting-dimensions-0-praniti-deshpande.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/parenting-dimensions-0-praniti-deshpande.jpg"
           alt="Parenting Dimensions"
           class="wp-image-25766"
           width="77"
@@ -337,9 +338,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["original-article"], TAGS["palakneeti"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/parenting-dimensions.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/parenting-dimensions.jpg",
   verified: {
     marathi: false,
     english: true,

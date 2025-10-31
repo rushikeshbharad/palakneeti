@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27843"
@@ -239,7 +246,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-बालसंगोपन-संस्थ-0-lucy-mathews.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारतातील-बालसंगोपन-संस्थ-0-lucy-mathews.jpg"
           alt="भारतातील बालसंगोपन संस्था"
           class="wp-image-27844"
           style="width: 72px; height: auto"
@@ -259,7 +266,7 @@ const articleData = {
         class="gsp_post_data"
         data-post_type="post"
         data-cat="2024,palakneeti,%e0%a4%91%e0%a4%95%e0%a5%8d%e0%a4%9f%e0%a5%8b%e0%a4%ac%e0%a4%b0-%e0%a4%a8%e0%a5%8b%e0%a4%b5%e0%a5%8d%e0%a4%b9%e0%a5%87%e0%a4%82%e0%a4%ac%e0%a4%b0-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%9c,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%b2%e0%a5%87%e0%a4%96,%e0%a4%aa%e0%a4%be%e0%a4%b2%e0%a4%95%e0%a4%a8%e0%a5%80%e0%a4%a4%e0%a5%80"
-        data-modified="107"
+        data-modified="120"
         data-title="भारतातील बालसंगोपन संस्था"
         data-home="https://palakneeti.in"
       ></div>
@@ -289,15 +296,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-बालसंगोपन-संस्थ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारतातील-बालसंगोपन-संस्थ.jpg",
   verified: {
     marathi: true,
     english: false,

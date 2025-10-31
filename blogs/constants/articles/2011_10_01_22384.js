@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22384"
@@ -36,7 +37,7 @@ const articleData = {
             align="“left”"
             alt="sanganakiy.jpg"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22384-0-sanganakiy.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22384-0-sanganakiy.jpg"
             width="400"
           />
           संगणकाच्या पडद्याकडे थेट नजर लावून अंगात आल्यासारखं, वेगानं त्याच्या
@@ -150,7 +151,7 @@ const articleData = {
             align="“right”"
             alt="sanganak-2.jpg"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22384-1-sanganak-2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22384-1-sanganak-2.jpg"
             width="400"
           /><br />
           हा सगळाच प्रकार न-वास्तव असतो हे मानलं तरी अतिशय भयंकर शस्त्रे –
@@ -400,9 +401,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22384.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22384.jpg",
   verified: {
     marathi: true,
     english: false,

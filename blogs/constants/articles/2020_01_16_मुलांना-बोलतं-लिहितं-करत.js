@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["January - जानेवारी २०२०"],
+    TAGS["Language"],
+    TAGS["Language Learning"],
+    TAGS["Literacy"],
+    TAGS["masik-article"],
+    TAGS["Speaking"],
+    TAGS["Writing"],
+  ],
   content: {
     marathi: `<article
   id="post-1863"
@@ -262,7 +271,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1875"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांना-बोलतं-लिहितं-करत-0-shubhradi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांना-बोलतं-लिहितं-करत-0-shubhradi.jpg"
           alt="ShubhraDi"
           width="109"
           height="109"
@@ -310,17 +319,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["january-जानेवारी-२०२०"],
-    TAGS["language"],
-    TAGS["language-learning"],
-    TAGS["literacy"],
-    TAGS["masik-article"],
-    TAGS["speaking"],
-    TAGS["writing"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांना-बोलतं-लिहितं-करत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांना-बोलतं-लिहितं-करत.jpg",
   verified: {
     marathi: true,
     english: false,

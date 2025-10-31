@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19233"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Neelima_Pic.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-0-Neelima_Pic.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -55,7 +55,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/desai-family.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-1-desai-family.JPG"
           alt="desai-family.JPG"
         />
       </figure>
@@ -111,7 +111,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Campus_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-2-Campus_0.jpg"
           alt="Campus_0.jpg"
         />
       </figure>
@@ -154,7 +154,7 @@ const articleData = {
         म्हणतो, ‘‘मुले जन्माला घातली असतील तरी त्यांच्याशी मालकीहक्काने वागू
         नका. त्यांना विचार<br />करायला शिकवा. तुमचेच विचार त्यांना देऊ नका.’’<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Himalaya_Trek.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-3-Himalaya_Trek.JPG"
           width="308"
           height="231"
           alt="Himalaya_Trek.JPG"
@@ -224,7 +224,7 @@ const articleData = {
         पालकांचं अपयश आहे असं वाटतं. मुलांना मदत करावी पण त्यांचे निर्णय
         त्यांनाच घेऊ द्यावेत, असं मी मानते.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/trekking.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-4-trekking.JPG"
           width="400"
           height="200"
           alt="trekking.JPG"
@@ -314,7 +314,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/street_play.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-5-street_play.JPG"
           alt="street_play.JPG"
         />
       </figure>
@@ -355,7 +355,7 @@ const articleData = {
         तयारी व सहकार्‍यांशी सुसंवाद ठेवला तर आव्हानांना तोंड देत पुढं जाता
         येतं, असं मला वाटतं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/workshop.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवक्षितिज-विशेष-प्रौढ-6-workshop.jpg"
           width="428"
           height="285"
           alt="workshop.jpg"
@@ -436,9 +436,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Neelima_Pic.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

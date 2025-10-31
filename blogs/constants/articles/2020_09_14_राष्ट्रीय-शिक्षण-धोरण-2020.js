@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Aug-Sep - ऑगस्ट- सप्टेंबर २०२०"],
+    TAGS["masik-article"],
+    TAGS["NEP 2020"],
+  ],
   content: {
     marathi: `<article
   id="post-2296"
@@ -183,7 +189,7 @@ const articleData = {
         <figure class="alignleft size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-2020-0-sanjutai.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-2020-0-sanjutai.jpg"
             alt="राष्ट्रीय शिक्षण धोरण 2020"
             class="wp-image-1787"
             width="121"
@@ -245,14 +251,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
-    TAGS["masik-article"],
-    TAGS["nep-2020"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-2020.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/राष्ट्रीय-शिक्षण-धोरण-2020.jpg",
   verified: {
     marathi: true,
     english: false,

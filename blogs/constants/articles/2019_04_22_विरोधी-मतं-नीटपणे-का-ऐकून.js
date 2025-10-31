@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१९"],
+    TAGS["disgreement"],
+    TAGS["masik-article"],
+    TAGS["Opposite"],
+    TAGS["Opposite Views"],
+    TAGS["Perspectives"],
+    TAGS["TED Talk"],
+    TAGS["uncomfortable learning"],
+  ],
   content: {
     marathi: `<article
   id="post-1262"
@@ -158,7 +168,6 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
           src="https://www.prhspeakers.com/wp-content/uploads/2018/02/Zachary-Wood_940_529_72ppi.jpg"
           alt="Image result for zachary r wood"
           width="139"
@@ -205,16 +214,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१९"],
-    TAGS["disgreement"],
-    TAGS["masik-article"],
-    TAGS["opposite"],
-    TAGS["opposite-views"],
-    TAGS["perspectives"],
-    TAGS["ted-talk"],
-    TAGS["uncomfortable-learning"],
-  ],
   image:
     "https://www.prhspeakers.com/wp-content/uploads/2018/02/Zachary-Wood_940_529_72ppi.jpg",
   verified: {

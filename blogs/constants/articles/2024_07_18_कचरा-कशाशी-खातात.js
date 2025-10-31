@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जुलै २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25287"
@@ -10,7 +16,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरा-कशाशी-खातात-0-kachara-kashashi-khatat-1024x297.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरा-कशाशी-खातात-0-kachara-kashashi-khatat-1024x297.jpg"
           alt="कचरा कशाशी खातात?"
           class="wp-image-25249"
           width="235"
@@ -24,7 +30,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरा-कशाशी-खातात-1-kachara-kashashi-khatat1-1024x883.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरा-कशाशी-खातात-1-kachara-kashashi-khatat1-1024x883.jpg"
           alt="कचरा कशाशी खातात?"
           class="wp-image-25250"
           width="266"
@@ -152,7 +158,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरा-कशाशी-खातात-2-kachara-kashashi-khatat2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरा-कशाशी-खातात-2-kachara-kashashi-khatat2.jpg"
           alt="कचरा कशाशी खातात?"
           class="wp-image-25251"
           width="285"
@@ -266,14 +272,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जुलै-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरा-कशाशी-खातात.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरा-कशाशी-खातात.jpg",
   verified: {
     marathi: true,
     english: false,

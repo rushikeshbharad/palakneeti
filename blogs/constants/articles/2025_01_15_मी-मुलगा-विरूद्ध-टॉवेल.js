@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25695"
@@ -69,7 +76,7 @@ const articleData = {
           decoding="async"
           width="254"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-मुलगा-विरूद्ध-टॉवेल-0-ruby-254x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-मुलगा-विरूद्ध-टॉवेल-0-ruby-254x300-1.jpg"
           alt="मी + मुलगा विरुद्ध टॉवेल"
           class="wp-image-26976"
           style="width: 76px; height: 90px"
@@ -115,15 +122,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-मुलगा-विरूद्ध-टॉवेल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-मुलगा-विरूद्ध-टॉवेल.jpg",
   verified: {
     marathi: true,
     english: false,

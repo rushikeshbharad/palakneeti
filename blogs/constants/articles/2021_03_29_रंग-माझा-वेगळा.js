@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["Slow"],
+    TAGS["Slow Fashion"],
+    TAGS["Slow Movement"],
+    TAGS["कमी-हळू-खरे"],
+    TAGS["फेब्रुवारी २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-2884"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="562"
     height="374"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-0-slow-fashion-374x562-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-0-slow-fashion-374x562-1.jpg"
     class="aligncenter wp-post-image"
     alt="रंग माझा वेगळा"
     decoding="async"
@@ -16,7 +25,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         कमी, हळू, खरे या मालिकेतील हा शेवटचा लेख. आपल्या आयुष्यातील विविध
         पैलूंना ही त्रिसूत्री कशी लागू पडते हे आपण गेले काही महिने पाहिलेच
@@ -35,7 +44,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2924 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-1-dd9a70163781729057c4568fb8286862.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-1-dd9a70163781729057c4568fb8286862.png"
           alt="dd9a70163781729057c4568fb8286862"
           width="329"
           height="493"
@@ -85,7 +94,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2922 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-2-slow-fashion.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-2-slow-fashion.jpg"
           alt="Slow-Fashion"
           width="600"
           height="360"
@@ -147,7 +156,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2920 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-3-slowfashion.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-3-slowfashion.png"
           alt="SlowFashion"
           width="570"
           height="379"
@@ -205,7 +214,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2918 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-4-slowfashion.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-4-slowfashion.jpg"
           alt="SlowFashion"
           width="619"
           height="619"
@@ -226,7 +235,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा-5-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा-5-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="107"
           height="102"
@@ -272,17 +281,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["slow"],
-    TAGS["slow-fashion"],
-    TAGS["slow-movement"],
-    TAGS["कमी-हळू-खरे"],
-    TAGS["फेब्रुवारी-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रंग-माझा-वेगळा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रंग-माझा-वेगळा.jpg",
   verified: {
     marathi: true,
     english: false,

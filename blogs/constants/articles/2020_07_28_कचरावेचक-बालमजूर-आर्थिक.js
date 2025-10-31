@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Children"],
+    TAGS["Covid19"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["lockdown"],
+    TAGS["Marginalized Communities"],
+    TAGS["masik-article"],
+    TAGS["school during lockdown"],
+  ],
   content: {
     marathi: `<article
   id="post-2131"
@@ -259,7 +269,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1422"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरावेचक-बालमजूर-आर्थिक-0-adwait-dhandwate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरावेचक-बालमजूर-आर्थिक-0-adwait-dhandwate.jpg"
           alt="adwait-dhandwate"
           width="108"
           height="109"
@@ -316,18 +326,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["children"],
-    TAGS["covid19"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["lockdown"],
-    TAGS["marginalized-communities"],
-    TAGS["masik-article"],
-    TAGS["school-during-lockdown"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कचरावेचक-बालमजूर-आर्थिक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कचरावेचक-बालमजूर-आर्थिक.jpg",
   verified: {
     marathi: true,
     english: false,

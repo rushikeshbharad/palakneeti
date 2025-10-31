@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1519"
@@ -116,7 +122,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1774 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काय-हरकत-आहे-0-kaaharkataahe2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काय-हरकत-आहे-0-kaaharkataahe2.png"
           alt="KaaharkatAahe2"
           width="531"
           height="414"
@@ -235,7 +241,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1782 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काय-हरकत-आहे-1-kaayharkataahe3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काय-हरकत-आहे-1-kaayharkataahe3.png"
           alt="KaayHarkatAahe3"
           width="642"
           height="507"
@@ -274,7 +280,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1787"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काय-हरकत-आहे-2-sanjutai.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काय-हरकत-आहे-2-sanjutai.jpg"
           alt="Sanjutai.jpg"
           width="84"
           height="110"
@@ -323,14 +329,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काय-हरकत-आहे.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काय-हरकत-आहे.png",
   verified: {
     marathi: true,
     english: false,

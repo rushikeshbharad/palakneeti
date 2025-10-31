@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27857"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="549"
     height="593"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-मायलेकी-0-amhi-mayleki1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-मायलेकी-0-amhi-mayleki1.jpg"
     class="aligncenter wp-post-image"
     alt="आम्ही मायलेकी"
     decoding="async"
@@ -140,7 +149,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-मायलेकी-1-shital-kadgaonkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-मायलेकी-1-shital-kadgaonkar.jpg"
           alt="आम्ही मायलेकी"
           class="wp-image-27859"
           style="width: 86px; height: auto"
@@ -253,7 +262,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-मायलेकी-2-avni-kadgaonkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-मायलेकी-2-avni-kadgaonkar.jpg"
           alt="आम्ही मायलेकी"
           class="wp-image-27860"
           style="width: 92px; height: auto"
@@ -270,7 +279,7 @@ const articleData = {
         class="gsp_post_data"
         data-post_type="post"
         data-cat="2024,masik-article,palakneeti,%e0%a4%91%e0%a4%95%e0%a5%8d%e0%a4%9f%e0%a5%8b%e0%a4%ac%e0%a4%b0-%e0%a4%a8%e0%a5%8b%e0%a4%b5%e0%a5%8d%e0%a4%b9%e0%a5%87%e0%a4%82%e0%a4%ac%e0%a4%b0-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%9c,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%b2%e0%a5%87%e0%a4%96,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a4%85%e0%a4%82%e0%a4%95-2,%e0%a4%aa%e0%a4%be%e0%a4%b2%e0%a4%95%e0%a4%a8%e0%a5%80%e0%a4%a4%e0%a5%80"
-        data-modified="90"
+        data-modified="120"
         data-title="आम्ही मायलेकी"
         data-home="https://palakneeti.in"
       ></div>
@@ -300,17 +309,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-मायलेकी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-मायलेकी.jpg",
   verified: {
     marathi: true,
     english: false,

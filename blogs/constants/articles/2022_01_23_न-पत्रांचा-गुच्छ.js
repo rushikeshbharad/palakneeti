@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3428"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="576"
     height="233"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/न-पत्रांचा-गुच्छ-0-aarohi_life.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/न-पत्रांचा-गुच्छ-0-aarohi_life.jpg"
     class="aligncenter wp-post-image"
     alt="न-पत्रांचा गुच्छ"
     decoding="async"
@@ -260,7 +269,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1128"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/न-पत्रांचा-गुच्छ-1-aditi-ratnesh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/न-पत्रांचा-गुच्छ-1-aditi-ratnesh.jpg"
           alt="aditi-ratnesh"
           width="170"
           height="123"
@@ -324,17 +333,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["honesty"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["letters"],
-    TAGS["masik-article"],
-    TAGS["responsibility"],
-    TAGS["trust"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/न-पत्रांचा-गुच्छ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/न-पत्रांचा-गुच्छ.jpg",
   verified: {
     marathi: true,
     english: false,

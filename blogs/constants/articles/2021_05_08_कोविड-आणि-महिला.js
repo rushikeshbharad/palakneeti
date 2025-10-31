@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Covid19"],
+    TAGS["Female"],
+    TAGS["Gender"],
+    TAGS["March - मार्च २०२१"],
+    TAGS["masik-article"],
+    TAGS["Women"],
+  ],
   content: {
     marathi: `<article
   id="post-2974"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="255"
     height="198"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-आणि-महिला-0-download-1.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-आणि-महिला-0-download-1.png"
     class="aligncenter wp-post-image"
     alt="कोविड आणि महिला"
     decoding="async"
@@ -117,7 +126,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-आणि-महिला-1-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-आणि-महिला-1-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="132"
           height="125"
@@ -163,17 +172,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["covid19"],
-    TAGS["female"],
-    TAGS["gender"],
-    TAGS["march-मार्च-२०२१"],
-    TAGS["masik-article"],
-    TAGS["women"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-आणि-महिला.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-आणि-महिला.png",
   verified: {
     marathi: true,
     english: false,

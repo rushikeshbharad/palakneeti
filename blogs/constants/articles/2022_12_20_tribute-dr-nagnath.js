@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+  ],
   content: {
     marathi: `<article
   id="post-19169"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="221"
     height="267"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dr-nagnath-0-nagnath-kotapale.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dr-nagnath-0-nagnath-kotapale.jpg"
     class="aligncenter wp-post-image"
     alt="आदरांजली – डॉ. नागनाथ कोत्तापल्ले"
     decoding="async"
@@ -93,14 +99,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik-article"],
-    TAGS["tribute"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-dr-nagnath.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-dr-nagnath.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19390"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/sarvayatan%20(1)_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सर्वायतन-0-sarvayatan (1)_0.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -153,7 +153,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sarvayatan%20%282%29.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सर्वायतन-1-sarvayatan (2).jpg"
           alt="sarvayatan (2).jpg"
         />
       </figure>
@@ -295,7 +295,7 @@ const articleData = {
         सोसायटी किंवा संस्था, शाळा, वर्ग अशा कुठल्याही समूहाला सक्षम होण्यासाठी
         उपयोगी ठरू शकते, म्हणून इथे एवढ्या विस्तारानं मांडली आहे.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sarvayatan%20%285%29.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सर्वायतन-2-sarvayatan (5).jpg"
           width="320"
           height="176"
           alt="sarvayatan (5).jpg"
@@ -438,9 +438,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/sarvayatan (1)_0.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

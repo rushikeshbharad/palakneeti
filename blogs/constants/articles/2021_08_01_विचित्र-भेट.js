@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["June - जून २०२१"],
+    TAGS["masik-article"],
+    TAGS["Story"],
+  ],
   content: {
     marathi: `<article
   id="post-3104"
@@ -228,7 +234,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3121"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विचित्र-भेट-0-slawomir-mrozek-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विचित्र-भेट-0-slawomir-mrozek-1.jpg"
           alt="विचित्र भेट"
           width="121"
           height="82"
@@ -283,14 +289,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["june-जून-२०२१"],
-    TAGS["masik-article"],
-    TAGS["story"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विचित्र-भेट.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विचित्र-भेट.jpg",
   verified: {
     marathi: true,
     english: false,

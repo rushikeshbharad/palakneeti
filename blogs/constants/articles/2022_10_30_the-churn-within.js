@@ -1,5 +1,17 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["culture"],
+    TAGS["English"],
+    TAGS["interfaith"],
+    TAGS["Oct-Nov – ऑक्टोबर – नोव्हेंबर २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["parenting experience"],
+    TAGS["personal experiences"],
+    TAGS["raising a child"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +21,7 @@ const articleData = {
   <img
     width="895"
     height="895"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-churn-within-0-image_6487327-1024x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-churn-within-0-image_6487327-1024x1024.jpg"
     class="aligncenter wp-post-image"
     alt="The Churn Within"
     decoding="async"
@@ -295,7 +307,7 @@ const articleData = {
             ><img
               decoding="async"
               class="wp-image-18789 alignleft"
-              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-churn-within-1-J-and-U-225x300.jpg"
+              src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-churn-within-1-J-and-U-225x300.jpg"
               alt="The Churn Within"
               width="142"
               height="189"
@@ -343,20 +355,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["culture"],
-    TAGS["english"],
-    TAGS["interfaith"],
-    TAGS["jodank-2022"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["parenting-experience"],
-    TAGS["personal-experiences"],
-    TAGS["raising-a-child"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/the-churn-within.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/the-churn-within.jpg",
   verified: {
     marathi: false,
     english: true,

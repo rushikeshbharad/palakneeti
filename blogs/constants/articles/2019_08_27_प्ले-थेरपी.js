@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१९"],
+    TAGS["masik-article"],
+    TAGS["Play"],
+    TAGS["Play Therapy"],
+  ],
   content: {
     marathi: `<article
   id="post-1443"
@@ -207,7 +213,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1465"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्ले-थेरपी-0-35-special-play-time.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्ले-थेरपी-0-35-special-play-time.jpg"
           alt="35-SPECIAL-PLAY-TIME"
           width="1000"
           height="717"
@@ -454,7 +460,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्ले-थेरपी-1-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्ले-थेरपी-1-anandi-e1548608007148.jpg"
           alt="anandi"
           width="110"
           height="150"
@@ -504,14 +510,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१९"],
-    TAGS["masik-article"],
-    TAGS["play"],
-    TAGS["play-therapy"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्ले-थेरपी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्ले-थेरपी.jpg",
   verified: {
     marathi: true,
     english: false,

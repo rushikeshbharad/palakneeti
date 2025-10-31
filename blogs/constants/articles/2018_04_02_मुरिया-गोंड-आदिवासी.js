@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Adivasi"],
+    TAGS["April - एप्रिल २०१८"],
+    TAGS["Gender in Tribal Society"],
+    TAGS["masik-article"],
+    TAGS["Tribal"],
+  ],
   content: {
     marathi: `<article
   id="post-392"
@@ -140,13 +147,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["adivasi"],
-    TAGS["april-एप्रिल-२०१८"],
-    TAGS["gender-in-tribal-society"],
-    TAGS["masik-article"],
-    TAGS["tribal"],
-  ],
   image: null,
   verified: {
     marathi: true,

@@ -1,17 +1,27 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["CFR"],
+    TAGS["collective action"],
+    TAGS["Community"],
+    TAGS["community forest conservation"],
+    TAGS["gram-sabha"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["Paachgaav"],
+  ],
   content: {
     marathi: `<article
   id="post-528"
   class="post-528 post type-post status-publish format-standard hentry category-june-- category-masik-article tag-cfr tag-collective-action tag-community tag-community-forest-conservation tag-gram-sabha tag-paachgaav"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         <img
           decoding="async"
           class="alignright wp-image-541"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाचगाव-0-gramdan.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाचगाव-0-gramdan.jpg"
           alt="gramdan.jpg"
           width="375"
           height="312"
@@ -112,18 +122,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["cfr"],
-    TAGS["collective-action"],
-    TAGS["community"],
-    TAGS["community-forest-conservation"],
-    TAGS["gram-sabha"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["paachgaav"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पाचगाव.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पाचगाव.jpg",
   verified: {
     marathi: true,
     english: false,

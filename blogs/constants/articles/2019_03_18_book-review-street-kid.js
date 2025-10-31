@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Introduction"],
+    TAGS["Book Review"],
+    TAGS["English"],
+    TAGS["March - मार्च २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +16,7 @@ const articleData = {
   <img
     width="181"
     height="278"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-street-kid-0-streetkid.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-street-kid-0-streetkid.jpg"
     class="aligncenter wp-post-image"
     alt="Book Review – Street Kid"
     decoding="async"
@@ -103,7 +110,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-306"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-street-kid-1-null4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-street-kid-1-null4.png"
           alt="null"
           width="92"
           height="96"
@@ -151,15 +158,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-introduction"],
-    TAGS["book-review"],
-    TAGS["english"],
-    TAGS["march-मार्च-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/book-review-street-kid.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/book-review-street-kid.jpg",
   verified: {
     marathi: false,
     english: true,

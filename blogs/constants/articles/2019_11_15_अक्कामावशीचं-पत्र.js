@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1527"
@@ -102,7 +108,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1695"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्कामावशीचं-पत्र-0-tuhin.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्कामावशीचं-पत्र-0-tuhin.png"
           alt="Tuhin.png"
           width="543"
           height="635"
@@ -128,7 +134,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्कामावशीचं-पत्र-1-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्कामावशीचं-पत्र-1-anandi-e1548608007148.jpg"
           alt="anandi"
           width="110"
           height="150"
@@ -172,14 +178,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अक्कामावशीचं-पत्र.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अक्कामावशीचं-पत्र.png",
   verified: {
     marathi: true,
     english: false,

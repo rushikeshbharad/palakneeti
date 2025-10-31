@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जुलै २०२५ - July 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27613"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="300"
     height="243"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तू-नको-बाबा-पाहिजे-0-me-oradate-300x243-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तू-नको-बाबा-पाहिजे-0-me-oradate-300x243-1.jpg"
     class="aligncenter wp-post-image"
     alt="“तू नको! बाबा पाहिजे!”"
     decoding="async"
@@ -84,7 +91,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तू-नको-बाबा-पाहिजे-1-rubi-rama-pravin.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तू-नको-बाबा-पाहिजे-1-rubi-rama-pravin.jpg"
           alt="“तू नको! बाबा पाहिजे!”"
           class="wp-image-27545"
           style="width: 95px; height: auto"
@@ -128,15 +135,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जुलै-२०२५-july-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तू-नको-बाबा-पाहिजे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तू-नको-बाबा-पाहिजे.jpg",
   verified: {
     marathi: true,
     english: false,

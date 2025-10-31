@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19420"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/anna%20small.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-परीघ-विस्तारत-0-anna small.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -76,7 +76,7 @@ const articleData = {
         वर्षं अखंडपणे सोबत करणारे भीमराव पाटील (तात्या) आणि ज्ञा. तु. गायकवाड
         (अण्णा) यांचा आवर्जून उल्लेख करावा लागेल.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/3.9.134.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-परीघ-विस्तारत-1-3.9.134.jpg"
           width="448"
           height="293"
           alt="3.9.134.jpg"
@@ -195,7 +195,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/3.9.13.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-परीघ-विस्तारत-2-3.9.13.jpg"
           alt="3.9.13.jpg"
         />
       </figure>
@@ -262,7 +262,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/3.9.135.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-परीघ-विस्तारत-3-3.9.135.jpg"
           alt="3.9.135.jpg"
         />
       </figure>
@@ -491,9 +491,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/anna small.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

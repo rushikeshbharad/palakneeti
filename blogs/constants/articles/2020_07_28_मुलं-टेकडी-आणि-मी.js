@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Hill"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["masik-article"],
+    TAGS["Seeds"],
+    TAGS["Trees"],
+    TAGS["Trekking"],
+  ],
   content: {
     marathi: `<article
   id="post-1990"
@@ -67,7 +76,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1998"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलं-टेकडी-आणि-मी-0-plasticcollection_02.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलं-टेकडी-आणि-मी-0-plasticcollection_02.jpg"
           alt="PlasticCollection_02"
           width="4128"
           height="2006"
@@ -103,7 +112,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1999"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलं-टेकडी-आणि-मी-1-boriseeds.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलं-टेकडी-आणि-मी-1-boriseeds.jpg"
           alt="BoriSeeds"
           width="4128"
           height="2006"
@@ -158,7 +167,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1997"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलं-टेकडी-आणि-मी-2-20191006_090459.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलं-टेकडी-आणि-मी-2-20191006_090459.jpg"
           alt="20191006_090459"
           width="3264"
           height="2448"
@@ -186,7 +195,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1996"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलं-टेकडी-आणि-मी-3-abha-bhagwat.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलं-टेकडी-आणि-मी-3-abha-bhagwat.png"
           alt="Abha-Bhagwat"
           width="104"
           height="118"
@@ -237,17 +246,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["hill"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["masik-article"],
-    TAGS["seeds"],
-    TAGS["trees"],
-    TAGS["trekking"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलं-टेकडी-आणि-मी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलं-टेकडी-आणि-मी.jpg",
   verified: {
     marathi: true,
     english: false,

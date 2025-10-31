@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Aug-Sep - ऑगस्ट- सप्टेंबर २०२०"],
+    TAGS["ecology"],
+    TAGS["economy"],
+    TAGS["environment"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+  ],
   content: {
     marathi: `<article
   id="post-2271"
@@ -264,7 +273,7 @@ const articleData = {
         <figure class="alignleft size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुन्हा-घडवूया-रेनायसन्स-0-gurudas-nulkar.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुन्हा-घडवूया-रेनायसन्स-0-gurudas-nulkar.jpg"
             alt="पुन्हा घडवूया रेनायसन्स"
             class="wp-image-2290"
             width="117"
@@ -319,17 +328,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
-    TAGS["ecology"],
-    TAGS["economy"],
-    TAGS["environment"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुन्हा-घडवूया-रेनायसन्स.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुन्हा-घडवूया-रेनायसन्स.jpg",
   verified: {
     marathi: true,
     english: false,

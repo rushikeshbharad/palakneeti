@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27494"
@@ -261,7 +270,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-नव्हे-स्वीकृती-0-shirish-darak.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-नव्हे-स्वीकृती-0-shirish-darak.jpg"
           alt="भीती नव्हे… स्वीकृती!"
           class="wp-image-27495"
           style="width: 95px; height: auto"
@@ -277,7 +286,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-नव्हे-स्वीकृती-1-trupti-darak.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-नव्हे-स्वीकृती-1-trupti-darak.jpg"
           alt="भीती नव्हे… स्वीकृती!"
           class="wp-image-27496"
           style="width: 91px; height: auto"
@@ -325,17 +334,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["april-2025-एप्रिल-२०२५"],
-    TAGS["gender"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["parenting-experience"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीती-नव्हे-स्वीकृती.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीती-नव्हे-स्वीकृती.jpg",
   verified: {
     marathi: true,
     english: false,

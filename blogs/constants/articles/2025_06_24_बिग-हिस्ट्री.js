@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27582"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="762"
     height="741"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिग-हिस्ट्री-0-big-history.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिग-हिस्ट्री-0-big-history.jpg"
     class="aligncenter wp-post-image"
     alt="बिग हिस्ट्री"
     decoding="async"
@@ -193,7 +200,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिग-हिस्ट्री-1-priyadarshini-karve.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिग-हिस्ट्री-1-priyadarshini-karve.jpg"
           alt="बिग हिस्ट्री"
           class="wp-image-27583"
           style="width: 104px; height: auto"
@@ -212,7 +219,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिग-हिस्ट्री-2-afshan-majid.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिग-हिस्ट्री-2-afshan-majid.jpg"
           alt="बिग हिस्ट्री"
           class="wp-image-27585"
           style="width: 86px; height: auto"
@@ -230,7 +237,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिग-हिस्ट्री-3-karishma-modi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिग-हिस्ट्री-3-karishma-modi.jpg"
           alt="बिग हिस्ट्री"
           class="wp-image-27584"
           style="width: 78px; height: auto"
@@ -270,15 +277,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिग-हिस्ट्री.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिग-हिस्ट्री.jpg",
   verified: {
     marathi: true,
     english: false,

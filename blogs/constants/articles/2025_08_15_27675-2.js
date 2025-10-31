@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२५ - August 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27675"
@@ -174,7 +181,7 @@ const articleData = {
           decoding="async"
           width="768"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27675-2-0-Hamsa-768x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/27675-2-0-Hamsa-768x1024.jpg"
           alt="पालकत्व – थोडा आनंद, थोडा गोंधळ आणि थोडं&nbsp; ‘हे असंच असतं का?’ असं गूगलणं!"
           class="wp-image-27678"
           style="width: 70px; height: auto"
@@ -263,15 +270,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२५-august-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/27675-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/27675-2.jpg",
   verified: {
     marathi: true,
     english: false,

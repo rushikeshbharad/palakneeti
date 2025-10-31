@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22367"
@@ -21,8 +22,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-0-DSC_1862_0.JPG"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-0-DSC_1862_0.JPG"
                 width="150"
               />
             </div>
@@ -60,7 +60,7 @@ const articleData = {
             align="right"
             alt="IMG_9432.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-1-IMG_9432.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-1-IMG_9432.JPG"
             width="400"
           />
         </p>
@@ -104,7 +104,7 @@ const articleData = {
             align="left"
             alt="DSC_0222.JPG"
             height="268"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-2-DSC_0222.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-2-DSC_0222.JPG"
             width="400"
           />
         </p>
@@ -137,7 +137,7 @@ const articleData = {
             decoding="async"
             alt="IMG_9596.JPG"
             height="267"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-3-IMG_9596.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-3-IMG_9596.JPG"
             width="400"
           />
         </p>
@@ -174,7 +174,7 @@ const articleData = {
             align="right"
             alt="IMG_9346.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-4-IMG_9346.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-4-IMG_9346.JPG"
             width="400"
           />
         </p>
@@ -227,7 +227,7 @@ const articleData = {
             align="left"
             alt="IMG_9063.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-5-IMG_9063.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-5-IMG_9063.JPG"
             width="400"
           />
         </p>
@@ -313,7 +313,7 @@ const articleData = {
             align="right"
             alt="DSC_0283.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-6-DSC_0283.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-6-DSC_0283.JPG"
             width="150"
           /><br />
           हॉवर्ड गार्डनर यांचा ‘बहुविध बुद्धिमत्तांचा (प्रज्ञांचा) सिद्धांत’
@@ -371,7 +371,7 @@ const articleData = {
             align="left"
             alt="IMG_9518.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-7-IMG_9518.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-7-IMG_9518.JPG"
             width="250"
           />
         </p>
@@ -452,7 +452,7 @@ const articleData = {
             decoding="async"
             alt="IMG_9536.JPG"
             height="267"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-8-IMG_9536.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-8-IMG_9536.JPG"
             width="400"
           />
         </p>
@@ -521,7 +521,7 @@ const articleData = {
             decoding="async"
             alt="1_0.jpg"
             height="350"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-9-1_0.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-9-1_0.jpg"
             width="600"
           />
         </p>
@@ -585,7 +585,7 @@ const articleData = {
             decoding="async"
             alt="sanu-bhubhu.jpg"
             height="375"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367-10-sanu-bhubhu.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367-10-sanu-bhubhu.jpg"
             width="600"
           />
         </p>
@@ -690,9 +690,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22367.JPG",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22367.JPG",
   verified: {
     marathi: true,
     english: false,

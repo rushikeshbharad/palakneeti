@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["Book Introduction"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-18796"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="493"
     height="500"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/an-nashik-0-AN_Nashik_Book_Cover.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/an-nashik-0-AN_Nashik_Book_Cover.jpg"
     class="aligncenter wp-post-image"
     alt="आनंदाचा अर्थपूर्ण प्रवास"
     decoding="async"
@@ -112,7 +119,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18802"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/an-nashik-1-Ganesh-devi-297x300.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/an-nashik-1-Ganesh-devi-297x300.jpg"
           alt="आनंदाचा अर्थपूर्ण प्रवास"
           width="119"
           height="120"
@@ -164,15 +171,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["book-introduction"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/an-nashik.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/an-nashik.jpg",
   verified: {
     marathi: true,
     english: false,

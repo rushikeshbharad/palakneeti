@@ -1,12 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22606"
   class="post-22606 post type-post status-publish format-standard hentry category-masik-article"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <div class="content">
         <p>
           मध्यंतरी इंटरनेटवर एक व्हीडिओ प्रचंड लोकप्रिय झाला. याला वेबभाषेमध्ये
@@ -23,7 +24,7 @@ const articleData = {
         <p>
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22606-0-Picture1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22606-0-Picture1.jpg"
             alt="Picture1.jpg"
             width="450"
             height="150"
@@ -125,9 +126,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22606.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22606.jpg",
   verified: {
     marathi: true,
     english: false,

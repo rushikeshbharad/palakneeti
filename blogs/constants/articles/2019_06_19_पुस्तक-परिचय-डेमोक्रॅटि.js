@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Review"],
+    TAGS["democratic school"],
+    TAGS["June - जून २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1370"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="500"
     height="500"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-डेमोक्रॅटि-0-democratic_school-500x500-1.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-डेमोक्रॅटि-0-democratic_school-500x500-1.png"
     class="aligncenter wp-post-image"
     alt="पुस्तक परिचय : डेमोक्रॅटिक स्कूल्स – लेसन्स फ्रॉम द चॉक फेस"
     decoding="async"
@@ -183,14 +189,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-review"],
-    TAGS["democratic-school"],
-    TAGS["june-जून-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-डेमोक्रॅटि.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-डेमोक्रॅटि.png",
   verified: {
     marathi: true,
     english: false,

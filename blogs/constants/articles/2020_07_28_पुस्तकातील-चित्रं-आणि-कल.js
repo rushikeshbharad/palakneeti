@@ -1,12 +1,20 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Art"],
+    TAGS["Illustrations"],
+    TAGS["Illustrations and Art"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1948"
   class="post-1948 post type-post status-publish format-standard has-post-thumbnail hentry category-422 category-june-july--- category-masik-article tag-art tag-illustrations tag-illustrations-and-art"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         मुलांना वाचनाची गोडी लावण्यात शाळेच्या वाचनालयातली चित्रपुस्तकं
         महत्त्वाची भूमिका बजावतात. ही चित्रं वाचणा-याला कल्पनेच्या भराऱ्या
@@ -63,7 +71,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1962 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-0-e0a4b0e0a587e0a4b2e0a497e0a4bee0a4a1e0a580-e0a49ae0a4b2e0a587.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-0-e0a4b0e0a587e0a4b2e0a497e0a4bee0a4a1e0a580-e0a49ae0a4b2e0a587.jpg"
           alt="पुस्तकातील चित्रं आणि कला"
           width="350"
           height="258"
@@ -133,7 +141,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1960 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-1-ismatchi-id.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-1-ismatchi-id.jpg"
           alt="पुस्तकातील चित्रं आणि कला"
           width="241"
           height="270"
@@ -160,7 +168,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1959 alignnone"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-2-gaon_ka_bachcha.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-2-gaon_ka_bachcha.png"
           alt="पुस्तकातील चित्रं आणि कला"
           width="228"
           height="228"
@@ -169,7 +177,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1961"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-3-ju-s-story-ju-chi-gosht-marathi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-3-ju-s-story-ju-chi-gosht-marathi.jpg"
           alt="पुस्तकातील चित्रं आणि कला"
           width="231"
           height="231"
@@ -214,7 +222,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-1957"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-4-kamalesh-chandrajoshi.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल-4-kamalesh-chandrajoshi.png"
           alt="पुस्तकातील चित्रं आणि कला"
           width="113"
           height="113"
@@ -260,16 +268,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["art"],
-    TAGS["illustrations"],
-    TAGS["illustrations-and-art"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तकातील-चित्रं-आणि-कल.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तकातील-चित्रं-आणि-कल.jpg",
   verified: {
     marathi: true,
     english: false,

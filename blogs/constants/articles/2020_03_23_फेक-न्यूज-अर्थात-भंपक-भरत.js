@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["Fake News"], TAGS["March - मार्च २०२०"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-1919"
@@ -372,7 +373,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1934"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फेक-न्यूज-अर्थात-भंपक-भरत-0-sanatganu.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/फेक-न्यूज-अर्थात-भंपक-भरत-0-sanatganu.jpg"
           alt="SanatGanu"
           width="127"
           height="127"
@@ -419,9 +420,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["fake-news"], TAGS["march-मार्च-२०२०"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फेक-न्यूज-अर्थात-भंपक-भरत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/फेक-न्यूज-अर्थात-भंपक-भरत.jpg",
   verified: {
     marathi: true,
     english: false,

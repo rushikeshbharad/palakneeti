@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["education resource"],
+    TAGS["masik-article"],
+    TAGS["फेब्रुवारी २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-2887"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="759"
     height="759"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्लूटो-0-pluto-2.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्लूटो-0-pluto-2.jpg"
     class="aligncenter wp-post-image"
     alt="प्लूटो"
     decoding="async"
@@ -16,7 +22,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <figure
         class="wp-block-gallery columns-2 is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex"
       >
@@ -25,7 +31,7 @@ const articleData = {
             <figure>
               <img
                 decoding="async"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्लूटो-1-pluto-cover-1.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्लूटो-1-pluto-cover-1.jpg"
                 alt="प्लूटो"
                 data-id="2891"
                 data-link="https://palakneeti.wordpress.com/pluto-cover-1/"
@@ -37,7 +43,7 @@ const articleData = {
             <figure>
               <img
                 decoding="async"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्लूटो-2-pluto-2-1.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्लूटो-2-pluto-2-1.jpg"
                 alt="प्लूटो"
                 data-id="2893"
                 data-link="https://palakneeti.wordpress.com/pluto-2-1/"
@@ -131,14 +137,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["education-resource"],
-    TAGS["masik-article"],
-    TAGS["फेब्रुवारी-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्लूटो.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्लूटो.jpg",
   verified: {
     marathi: true,
     english: false,

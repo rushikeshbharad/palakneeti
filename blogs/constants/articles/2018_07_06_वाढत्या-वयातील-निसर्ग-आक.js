@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["child's development"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["observations"],
+    TAGS["understanding nature"],
+  ],
   content: {
     marathi: `<article
   id="post-525"
@@ -136,7 +144,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-573"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-0-how_children_perceive_nature-e1530936099927.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-0-how_children_perceive_nature-e1530936099927.jpg"
           alt="how_children_perceive_nature.jpg"
           width="1655"
           height="1108"
@@ -164,7 +172,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-557"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-1-leela-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-1-leela-1.jpg"
           alt="Leela (1)"
           width="96"
           height="90"
@@ -181,7 +189,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-555"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-2-poornima-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वाढत्या-वयातील-निसर्ग-आक-2-poornima-1.jpg"
           alt="Poornima (1)"
           width="91"
           height="84"
@@ -228,16 +236,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["childs-development"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-    TAGS["observations"],
-    TAGS["understanding-nature"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/वाढत्या-वयातील-निसर्ग-आक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/वाढत्या-वयातील-निसर्ग-आक.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-monthly"], TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-18695"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="791"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जून-जुलै-२०२०-0-July-2020-791x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जून-जुलै-२०२०-0-July-2020-791x1024.jpg"
     class="aligncenter wp-post-image"
     alt="जून-जुलै २०२०"
     decoding="async"
@@ -16,7 +17,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <h2 class="wp-block-heading"><strong>या अंकात…</strong></h2>
 
       <h2 class="wp-block-heading"></h2>
@@ -127,9 +128,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-monthly"], TAGS["palakneeti"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जून-जुलै-२०२०.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जून-जुलै-२०२०.jpg",
   verified: {
     marathi: true,
     english: false,

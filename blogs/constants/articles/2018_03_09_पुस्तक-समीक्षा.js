@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Review"],
+    TAGS["Gender"],
+    TAGS["Gender Identity"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-304"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="450"
     height="450"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-समीक्षा-0-5-kya_ladki_hai.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-समीक्षा-0-5-kya_ladki_hai.jpg"
     class="aligncenter wp-post-image"
     alt="पुस्तक समीक्षा"
     decoding="async"
@@ -94,8 +101,7 @@ const articleData = {
         &nbsp;<b
           ><img
             decoding="async"
-            title=""
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-समीक्षा-1-null4.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-समीक्षा-1-null4.png"
             alt="पुस्तक समीक्षा"
             width="64"
             height="68"
@@ -142,15 +148,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-review"],
-    TAGS["gender"],
-    TAGS["gender-identity"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-समीक्षा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-समीक्षा.jpg",
   verified: {
     marathi: true,
     english: false,

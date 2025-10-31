@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Children"],
+    TAGS["Early Childhood"],
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["masik-article"],
+    TAGS["No Child"],
+    TAGS["When to have a child"],
+  ],
   content: {
     marathi: `<article
   id="post-17882"
@@ -122,7 +130,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-202"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-बाळ-कधी-0-15-soonrita-sahasrabuddhe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-बाळ-कधी-0-15-soonrita-sahasrabuddhe.jpg"
           alt="15. Soonrita Sahasrabuddhe"
           width="150"
           height="150"
@@ -175,16 +183,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["children"],
-    TAGS["early-childhood"],
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["masik-article"],
-    TAGS["no-child"],
-    TAGS["when-to-have-a-child"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-बाळ-कधी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-बाळ-कधी.jpg",
   verified: {
     marathi: true,
     english: false,

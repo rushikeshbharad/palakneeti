@@ -69,8 +69,12 @@ describe.skip('Article Migration Crawler', () => {
                 cy.task('downloadFile', { url: tile.imageUrl, folder, fileName })
                   .then(
                     (filePath) => { // onFulfilled
-                      cy.log(`Main image downloaded to: ${filePath}`);
-                      return filePath; // Pass the value to the next command in the chain
+                        if (filePath) {
+                            cy.log(`Main image downloaded to: ${filePath}`);
+                            return filePath; // Pass the value to the next command in the chain
+                        } else {
+                            return '';
+                        }
                     },
                     (err) => { // onRejected
                       cy.log(`⚠️ Main image download failed for ${tile.imageUrl}: ${err.message}`);

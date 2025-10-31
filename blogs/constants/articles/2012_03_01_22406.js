@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22406"
@@ -21,8 +22,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22406-0-Feb_1-2.jpg"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22406-0-Feb_1-2.jpg"
                 width="150"
               />
             </div>
@@ -51,7 +51,7 @@ const articleData = {
             align="right"
             alt="Feb_3.jpg"
             height="234"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22406-1-Feb_3.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22406-1-Feb_3.jpg"
             width="305"
           />
         </p>
@@ -65,7 +65,7 @@ const articleData = {
             align="left"
             alt="Feb_1-1.jpg"
             height="232"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22406-2-Feb_1-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22406-2-Feb_1-1.jpg"
             width="194"
           /><br />
           लहान सुट्टी – झाडावर चढणं, कट्ट्यावरून / व्हरांड्यातून उड्या,
@@ -115,7 +115,7 @@ const articleData = {
             align="right"
             alt="Feb_2.jpg"
             height="325"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22406-3-Feb_2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22406-3-Feb_2.jpg"
             width="395"
           />
         </p>
@@ -174,9 +174,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22406.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22406.jpg",
   verified: {
     marathi: true,
     english: false,

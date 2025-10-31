@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["Diary of a Mother"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१९"],
+    TAGS["Pet"],
+  ],
   content: {
     marathi: `<article
   id="post-1319"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="756"
     height="474"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मरायला-वेळ-आहे-ना-0-rustam.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मरायला-वेळ-आहे-ना-0-rustam.png"
     class="aligncenter wp-post-image"
     alt="मरायला वेळ आहे ना!"
     decoding="async"
@@ -82,7 +89,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मरायला-वेळ-आहे-ना-1-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मरायला-वेळ-आहे-ना-1-12-preetee-oswal1.jpg"
           alt="12. Preetee Oswal"
           width="110"
           height="110"
@@ -129,15 +136,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["diary-of-a-mother"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१९"],
-    TAGS["pet"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मरायला-वेळ-आहे-ना.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मरायला-वेळ-आहे-ना.png",
   verified: {
     marathi: true,
     english: false,

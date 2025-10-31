@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["Covid19"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Project"],
+    TAGS["school during lockdown"],
+    TAGS["Self-directed learning"],
+  ],
   content: {
     marathi: `<article
   id="post-2121"
@@ -87,7 +97,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2125 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळाबंदी-ही-एक-संधीच-0-e0a4b8e0a587e0a482e0a4a6e0a58de0a4b0e0a580e0a4af-e0a495e0a580e0a49fe0a495e0a4a8e0a4bee0a4b6e0a495e0a4bee0a49ae0a580-e0a4abe0a4b5e0a4bee0a4b0e0a4a3e0a580.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळाबंदी-ही-एक-संधीच-0-e0a4b8e0a587e0a482e0a4a6e0a58de0a4b0e0a580e0a4af-e0a495e0a580e0a49fe0a495e0a4a8e0a4bee0a4b6e0a495e0a4bee0a49ae0a580-e0a4abe0a4b5e0a4bee0a4b0e0a4a3e0a580.jpg"
           alt="सेंद्रीय कीटकनाशकाची फवारणी"
           width="1280"
           height="960"
@@ -144,7 +154,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2123 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळाबंदी-ही-एक-संधीच-1-e0a497e0a4bee0a4a1e0a580e0a4a6e0a581e0a4b0e0a581e0a4b8e0a58de0a4a4e0a580.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळाबंदी-ही-एक-संधीच-1-e0a497e0a4bee0a4a1e0a580e0a4a6e0a581e0a4b0e0a581e0a4b8e0a58de0a4a4e0a580.jpg"
           alt="गाडीदुरुस्ती"
           width="960"
           height="1280"
@@ -193,7 +203,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2124 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळाबंदी-ही-एक-संधीच-2-e0a4ace0a4bfe0a4b8e0a4b2e0a587e0a4b0e0a580-e0a4ace0a4bee0a49fe0a4b2e0a580e0a4aae0a4bee0a4b8e0a582e0a4a8-e0a4ace0a4bee0a482e0a497e0a4a1e0a58de0a4afe0a4be.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळाबंदी-ही-एक-संधीच-2-e0a4ace0a4bfe0a4b8e0a4b2e0a587e0a4b0e0a580-e0a4ace0a4bee0a49fe0a4b2e0a580e0a4aae0a4bee0a4b8e0a582e0a4a8-e0a4ace0a4bee0a482e0a497e0a4a1e0a58de0a4afe0a4be.jpg"
           alt="बिसलेरी बाटलीपासून बांगड्या"
           width="780"
           height="1040"
@@ -321,7 +331,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2134"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळाबंदी-ही-एक-संधीच-3-sarita_an-e1596275062473.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळाबंदी-ही-एक-संधीच-3-sarita_an-e1596275062473.jpg"
           alt="Sarita_AN"
           width="107"
           height="123"
@@ -366,18 +376,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["covid19"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["project"],
-    TAGS["school-during-lockdown"],
-    TAGS["self-directed-learning"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळाबंदी-ही-एक-संधीच.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळाबंदी-ही-एक-संधीच.jpg",
   verified: {
     marathi: true,
     english: false,

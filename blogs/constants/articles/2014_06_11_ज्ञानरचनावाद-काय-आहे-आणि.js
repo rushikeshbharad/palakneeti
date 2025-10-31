@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19252"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/nilesh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ज्ञानरचनावाद-काय-आहे-आणि-0-nilesh.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -39,7 +39,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh-wm.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ज्ञानरचनावाद-काय-आहे-आणि-1-nilesh-wm.jpg"
           alt="nilesh-wm.jpg"
         />
       </figure>
@@ -123,7 +123,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh-1.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ज्ञानरचनावाद-काय-आहे-आणि-2-nilesh-1.JPG"
           alt="nilesh-1.JPG"
         />
       </figure>
@@ -170,7 +170,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nilesh-4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ज्ञानरचनावाद-काय-आहे-आणि-3-nilesh-4.jpg"
           alt="nilesh-4.jpg"
         />
       </figure>
@@ -342,9 +342,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/nilesh.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

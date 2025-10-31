@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["editorial"],
+    TAGS["masik-article"],
+    TAGS["Samvaadkiya"],
+  ],
   content: {
     marathi: `<article
   id="post-3349"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="657"
     height="413"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-डिसेंबर-२०२१-0-youthinaction.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-डिसेंबर-२०२१-0-youthinaction.jpg"
     class="aligncenter wp-post-image"
     alt="संवादकीय – डिसेंबर २०२१"
     decoding="async"
@@ -162,15 +169,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["editorial"],
-    TAGS["masik-article"],
-    TAGS["samvaadkiya"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-डिसेंबर-२०२१.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-डिसेंबर-२०२१.jpg",
   verified: {
     marathi: true,
     english: false,

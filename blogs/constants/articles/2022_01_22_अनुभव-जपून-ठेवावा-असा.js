@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["2022"], TAGS["null"], TAGS["null"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-3418"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="895"
     height="416"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अनुभव-जपून-ठेवावा-असा-0-vardhishnu-1024x476.jpeg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अनुभव-जपून-ठेवावा-असा-0-vardhishnu-1024x476.jpeg"
     class="aligncenter wp-post-image"
     alt="अनुभव – जपून ठेवावा असा"
     decoding="async"
@@ -151,7 +152,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3421"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अनुभव-जपून-ठेवावा-असा-1-pranali-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अनुभव-जपून-ठेवावा-असा-1-pranali-1.jpg"
           alt="Pranali"
           width="129"
           height="130"
@@ -203,14 +204,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["civil-society-organisation"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अनुभव-जपून-ठेवावा-असा.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अनुभव-जपून-ठेवावा-असा.jpeg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Book Introduction"],
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1154"
@@ -8,7 +13,7 @@ const articleData = {
   <img
     width="729"
     height="513"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-हॅत्तेच्य-0-book_intro_madhuri_purandhare.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-हॅत्तेच्य-0-book_intro_madhuri_purandhare.png"
     class="aligncenter wp-post-image"
     alt="पुस्तक परिचय : ‘हॅत्तेच्या!!’ आणि ‘किती काम केलं!’"
     decoding="async"
@@ -123,13 +128,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["book-introduction"],
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-हॅत्तेच्य.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-हॅत्तेच्य.png",
   verified: {
     marathi: true,
     english: false,

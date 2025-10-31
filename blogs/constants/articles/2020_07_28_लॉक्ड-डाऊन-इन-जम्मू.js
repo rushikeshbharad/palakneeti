@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["kashmir"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2168"
@@ -118,7 +125,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2198"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-0-31.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-0-31.jpeg"
           alt="3(1)"
           width="1280"
           height="962"
@@ -257,7 +264,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2196"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-1-11.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-1-11.jpeg"
           alt="1(1)"
           width="1280"
           height="960"
@@ -340,7 +347,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2187"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-2-skulkarni.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू-2-skulkarni.jpg"
           alt="skulkarni"
           width="88"
           height="126"
@@ -392,15 +399,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["kashmir"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लॉक्ड-डाऊन-इन-जम्मू.jpeg",
   verified: {
     marathi: true,
     english: false,

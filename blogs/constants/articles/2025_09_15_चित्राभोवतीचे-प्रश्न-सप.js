@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["Art and Childhood"],
+    TAGS["Art Education"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["सप्टेंबर २०२५ - September 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27705"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="354"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-0-chitrabhovatiche-prashna2-1024x405.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-0-chitrabhovatiche-prashna2-1024x405.jpg"
     class="aligncenter wp-post-image"
     alt="चित्राभोवतीचे प्रश्न – सप्टेंबर २०२५"
     decoding="async"
@@ -149,7 +158,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="852"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-1-बालचित्रकार-_-वल्लभ-चव्हाण--1024x852.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-1-बालचित्रकार-_-वल्लभ-चव्हाण--1024x852.jpg"
           alt="चित्राभोवतीचे प्रश्न – सप्टेंबर २०२५"
           class="wp-image-27706"
           style="width: 369px; height: auto"
@@ -191,7 +200,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-2-shriniwas-balkrishna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-सप-2-shriniwas-balkrishna.jpg"
           alt="चित्राभोवतीचे प्रश्न – सप्टेंबर २०२५"
           class="wp-image-26996"
           style="width: 76px; height: auto"
@@ -242,17 +251,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["art-and-childhood"],
-    TAGS["art-education"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["सप्टेंबर-२०२५-september-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्राभोवतीचे-प्रश्न-सप.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्राभोवतीचे-प्रश्न-सप.jpg",
   verified: {
     marathi: true,
     english: false,

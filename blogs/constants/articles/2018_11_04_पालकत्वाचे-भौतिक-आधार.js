@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"], TAGS["Oct-Nov २०१८"]],
   content: {
     marathi: `<article
   id="post-887"
@@ -137,7 +138,7 @@ const articleData = {
           ><img
             decoding="async"
             class="size-medium wp-image-972 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचे-भौतिक-आधार-0-chandolkar_1.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचे-भौतिक-आधार-0-chandolkar_1.png"
             alt="Chandolkar_1"
             width="181"
             height="300"
@@ -244,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-medium wp-image-971"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचे-भौतिक-आधार-1-chandolkar_0-e1541599660196.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचे-भौतिक-आधार-1-chandolkar_0-e1541599660196.png"
           alt="Chandolkar_0"
           width="300"
           height="221"
@@ -341,7 +342,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-medium wp-image-973"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचे-भौतिक-आधार-2-chandolkar_2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचे-भौतिक-आधार-2-chandolkar_2.png"
           alt="Chandolkar_2"
           width="300"
           height="197"
@@ -447,9 +448,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["oct-nov-२०१८"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचे-भौतिक-आधार.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचे-भौतिक-आधार.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Books"],
+    TAGS["Children's Literature"],
+    TAGS["Library"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-19129"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="394"
     height="489"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/library-lec-0-pustakanchya-vatevar.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/library-lec-0-pustakanchya-vatevar.jpg"
     class="aligncenter wp-post-image"
     alt="पुस्तकांच्या वाटेवर"
     decoding="async"
@@ -156,7 +162,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-19115"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/library-lec-1-deepti-deshpande.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/library-lec-1-deepti-deshpande.jpg"
           alt="पुस्तकांच्या वाटेवर"
           width="90"
           height="111"
@@ -226,14 +232,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["books"],
-    TAGS["childrens-literature"],
-    TAGS["library"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/library-lec.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/library-lec.jpg",
   verified: {
     marathi: true,
     english: false,

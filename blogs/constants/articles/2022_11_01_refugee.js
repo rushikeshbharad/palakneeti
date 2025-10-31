@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["Poem"],
+    TAGS["Poetry"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +16,7 @@ const articleData = {
   <img
     width="199"
     height="253"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/refugee-0-Tenzin.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/refugee-0-Tenzin.jpg"
     class="aligncenter wp-post-image"
     alt="REFUGEE"
     decoding="async"
@@ -169,15 +176,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["poem"],
-    TAGS["poetry"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/refugee.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/refugee.jpg",
   verified: {
     marathi: false,
     english: true,

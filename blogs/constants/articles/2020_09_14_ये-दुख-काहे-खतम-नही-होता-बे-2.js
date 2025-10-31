@@ -1,5 +1,16 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Aug-Sep - ऑगस्ट- सप्टेंबर २०२०"],
+    TAGS["Covid19"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Migrant Workers"],
+    TAGS["Migration"],
+    TAGS["Relief Work"],
+    TAGS["Suffering"],
+  ],
   content: {
     marathi: `<article
   id="post-2278"
@@ -434,7 +445,7 @@ const articleData = {
         <figure class="alignleft size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-2-0-sayali-e1560967288474.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-2-0-sayali-e1560967288474.jpg"
             alt="ये दुख काहे खतम नही होता बे – भाग 2"
             class="wp-image-1167"
             width="154"
@@ -484,19 +495,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
-    TAGS["covid19"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["migrant-workers"],
-    TAGS["migration"],
-    TAGS["relief-work"],
-    TAGS["suffering"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-2.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["Brain"],
+    TAGS["child development"],
+    TAGS["cognitive development"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-18823"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="356"
     height="504"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18823-0-BalVikas.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18823-0-BalVikas.jpg"
     class="aligncenter wp-post-image"
     alt="बौद्धिक क्षमतांचा विकास"
     decoding="async"
@@ -259,7 +268,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18825"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18823-1-pallavi-pinge.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18823-1-pallavi-pinge.jpg"
           alt="बौद्धिक क्षमतांचा विकास"
           width="105"
           height="130"
@@ -312,17 +321,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["brain"],
-    TAGS["child-development"],
-    TAGS["cognitive-development"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18823.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18823.jpg",
   verified: {
     marathi: true,
     english: false,

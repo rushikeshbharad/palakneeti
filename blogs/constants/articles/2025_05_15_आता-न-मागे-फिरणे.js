@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["मे २०२५ - May 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27522"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="234"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-न-मागे-फिरणे-0-ata-mage-n-firane-1024x268.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-न-मागे-फिरणे-0-ata-mage-n-firane-1024x268.jpg"
     class="aligncenter wp-post-image"
     alt="आता न मागे फिरणे…"
     decoding="async"
@@ -316,15 +323,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मे-२०२५-may-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-न-मागे-फिरणे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-न-मागे-फिरणे.jpg",
   verified: {
     marathi: true,
     english: false,

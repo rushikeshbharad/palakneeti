@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["फेब्रुवारी २०२५"],
+  ],
   content: {
     marathi: `<article
   id="post-25747"
@@ -58,7 +65,7 @@ const articleData = {
           decoding="async"
           width="550"
           height="550"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्राणी-आणि-प्रेम-0-prani-ani-prem-550x550-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्राणी-आणि-प्रेम-0-prani-ani-prem-550x550-1.jpg"
           alt="प्राणी आणि प्रेम"
           class="wp-image-26978"
           style="width: 325px; height: 325px"
@@ -259,7 +266,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्राणी-आणि-प्रेम-1-anandi-herlekar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्राणी-आणि-प्रेम-1-anandi-herlekar.jpg"
           alt="प्राणी आणि प्रेम"
           class="wp-image-25558"
           style="width: 101px; height: 126px"
@@ -306,15 +313,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["फेब्रुवारी-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/प्राणी-आणि-प्रेम.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/प्राणी-आणि-प्रेम.jpg",
   verified: {
     marathi: true,
     english: false,

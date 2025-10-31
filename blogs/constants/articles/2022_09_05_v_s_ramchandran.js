@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["Scientist"],
+    TAGS["September – सप्टेम्बर २०२२"],
+  ],
   content: {
     marathi: `<article
   id="post-18754"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="190"
     height="245"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/v_s_ramchandran-0-V_S_Ramchandran.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/v_s_ramchandran-0-V_S_Ramchandran.jpg"
     class="aligncenter wp-post-image"
     alt="व्ही. एस. रामचंद्रन"
     decoding="async"
@@ -228,7 +234,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/v_s_ramchandran-1-pranjal_k-300x297.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/v_s_ramchandran-1-pranjal_k-300x297.jpg"
           alt="व्ही. एस. रामचंद्रन"
           width="106"
           height="105"
@@ -282,14 +288,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["masik-article"],
-    TAGS["scientist"],
-    TAGS["september-सप्टेंबर-२०२२"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/v_s_ramchandran.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/v_s_ramchandran.jpg",
   verified: {
     marathi: true,
     english: false,

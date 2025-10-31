@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-diwali"],
+    TAGS["masik-monthly"],
+    TAGS["palakneeti"],
+    TAGS["दिवाळी अंक"],
+  ],
   content: {
     marathi: `<article
   id="post-18699"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="791"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑक्टोबर-नोव्हेंबर-२०२०-द-0-Nov-2020-791x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑक्टोबर-नोव्हेंबर-२०२०-द-0-Nov-2020-791x1024.jpg"
     class="aligncenter wp-post-image"
     alt="ऑक्टोबर-नोव्हेंबर २०२०(दिवाळी अंक )"
     decoding="async"
@@ -221,14 +227,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-diwali"],
-    TAGS["masik-monthly"],
-    TAGS["palakneeti"],
-    TAGS["दिवाळी-अंक"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑक्टोबर-नोव्हेंबर-२०२०-द.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑक्टोबर-नोव्हेंबर-२०२०-द.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["Russian"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-18795"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="265"
     height="416"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18795-2-0-when-daddy-was-a-little-boy-original.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18795-2-0-when-daddy-was-a-little-boy-original.jpg"
     class="aligncenter wp-post-image"
     alt="बाबा मोठेपणी कोण व्हायचं हे ठरवतो तेव्हा…"
     decoding="async"
@@ -184,7 +191,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-17904"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18795-2-1-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18795-2-1-12-preetee-oswal1.jpg"
           alt="बाबा मोठेपणी कोण व्हायचं हे ठरवतो तेव्हा…"
           width="151"
           height="151"
@@ -238,15 +245,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["russian"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/18795-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/18795-2.jpg",
   verified: {
     marathi: true,
     english: false,

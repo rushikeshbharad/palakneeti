@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2018"],
+    TAGS["January - जानेवारी २०१८"],
+    TAGS["masik-article"],
+    TAGS["unwanted gifts"],
+  ],
   content: {
     marathi: `<article
   id="post-17875"
@@ -13,29 +19,15 @@ const articleData = {
       >
         <figure class="gallery-item">
           <div class="gallery-icon portrait">
-            <a href="/99-2/pn10/" target="_blank"
+            <a href="/99-2/pn11/" target="_blank"
               ><img
                 decoding="async"
-                width="424"
-                height="541"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/99-2-0-pn10.png"
+                width="490"
+                height="635"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/99-2-0-pn11.png"
                 class="attachment-large size-large"
                 alt="भेटी लागी जीवा !!"
-                sizes="(max-width: 424px) 100vw, 424px"
-            /></a>
-          </div>
-        </figure>
-        <figure class="gallery-item">
-          <div class="gallery-icon portrait">
-            <a href="/99-2/pn8/" target="_blank"
-              ><img
-                decoding="async"
-                width="722"
-                height="1024"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/99-2-1-pn8-722x1024.jpg"
-                class="attachment-large size-large"
-                alt="भेटी लागी जीवा !!"
-                sizes="(max-width: 722px) 100vw, 722px"
+                sizes="(max-width: 490px) 100vw, 490px"
             /></a>
           </div>
         </figure>
@@ -46,7 +38,7 @@ const articleData = {
                 decoding="async"
                 width="895"
                 height="356"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/99-2-2-pn9-1024x407.jpg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/99-2-1-pn9-1024x407.jpg"
                 class="attachment-large size-large"
                 alt="भेटी लागी जीवा !!"
                 sizes="(max-width: 895px) 100vw, 895px"
@@ -55,16 +47,30 @@ const articleData = {
         </figure>
         <figure class="gallery-item">
           <div class="gallery-icon portrait">
-            <a href="/99-2/pn11/" target="_blank"
+            <a href="/99-2/pn10/" target="_blank"
+              ><img
+                decoding="async"
+                width="424"
+                height="541"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/99-2-2-pn10.png"
+                class="attachment-large size-large"
+                alt="भेटी लागी जीवा !!"
+                sizes="(max-width: 424px) 100vw, 424px"
+            /></a>
+          </div>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-icon portrait">
+            <a href="/99-2/pn8/" target="_blank"
               ><img
                 loading="lazy"
                 decoding="async"
-                width="490"
-                height="635"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/99-2-3-pn11.png"
+                width="722"
+                height="1024"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/99-2-3-pn8-722x1024.jpg"
                 class="attachment-large size-large"
                 alt="भेटी लागी जीवा !!"
-                sizes="auto, (max-width: 490px) 100vw, 490px"
+                sizes="auto, (max-width: 722px) 100vw, 722px"
             /></a>
           </div>
         </figure>
@@ -110,12 +116,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2018"],
-    TAGS["january-जानेवारी-२०१८"],
-    TAGS["masik-article"],
-    TAGS["unwanted-gifts"],
-  ],
   image: null,
   verified: {
     marathi: true,

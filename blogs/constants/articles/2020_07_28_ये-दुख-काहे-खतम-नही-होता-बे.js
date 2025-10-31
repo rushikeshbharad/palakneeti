@@ -1,5 +1,16 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Covid19"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Migrant Workers"],
+    TAGS["Migration"],
+    TAGS["Relief Work"],
+    TAGS["Suffering"],
+  ],
   content: {
     marathi: `<article
   id="post-2112"
@@ -196,7 +207,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2115"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-0-e0a4b8e0a4bee0a4a6-e0a4aae0a58de0a4b0e0a4a4e0a4bfe0a4b7e0a58de0a4a0e0a4bee0a4a8.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-0-e0a4b8e0a4bee0a4a6-e0a4aae0a58de0a4b0e0a4a4e0a4bfe0a4b7e0a58de0a4a0e0a4bee0a4a8.png"
           alt="साद प्रतिष्ठान"
           width="903"
           height="510"
@@ -299,7 +310,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-1-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे-1-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="96"
           height="91"
@@ -357,19 +368,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["covid19"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["migrant-workers"],
-    TAGS["migration"],
-    TAGS["relief-work"],
-    TAGS["suffering"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-दुख-काहे-खतम-नही-होता-बे.png",
   verified: {
     marathi: true,
     english: false,

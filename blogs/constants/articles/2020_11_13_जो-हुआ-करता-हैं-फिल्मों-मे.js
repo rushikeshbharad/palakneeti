@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Cinema"],
+    TAGS["Film"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2382"
@@ -74,7 +82,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2712 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-0-damini-ajoba-e1609175569690.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-0-damini-ajoba-e1609175569690.jpg"
           alt="Damini Ajoba"
           width="628"
           height="350"
@@ -97,7 +105,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2713 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-1-insaf-ka-taraju-mandir-.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-1-insaf-ka-taraju-mandir-.jpg"
           alt="insaf ka taraju mandir"
           width="1372"
           height="768"
@@ -171,7 +179,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-2707 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-2-patita.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-2-patita.jpg"
           alt="patita"
           width="842"
           height="534"
@@ -227,7 +235,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-2714 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-3-damini-sunny.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-3-damini-sunny.png"
           alt="damini sunny"
           width="800"
           height="376"
@@ -258,7 +266,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-full wp-image-2708 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-4-pink.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-4-pink.jpg"
           alt="pink"
           width="300"
           height="412"
@@ -325,7 +333,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2705 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-5-insaf-ka-taraju.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-5-insaf-ka-taraju.jpg"
           alt="insaf ka taraju"
           width="642"
           height="482"
@@ -363,7 +371,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2709 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-6-prem-granth.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-6-prem-granth.jpg"
           alt="prem granth"
           width="583"
           height="313"
@@ -396,7 +404,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2715"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-7-nishant-birds-eye.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-7-nishant-birds-eye.png"
           alt="nishant birds eye"
           width="1225"
           height="679"
@@ -441,7 +449,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2710"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-8-bavandar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-8-bavandar.jpg"
           alt="bavandar"
           width="1600"
           height="696"
@@ -508,7 +516,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2711"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-9-meghana-bhuskute-photo-e1609175291686.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे-9-meghana-bhuskute-photo-e1609175291686.jpg"
           alt="meghana bhuskute photo"
           width="112"
           height="127"
@@ -558,16 +566,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["cinema"],
-    TAGS["film"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जो-हुआ-करता-हैं-फिल्मों-मे.jpg",
   verified: {
     marathi: true,
     english: false,

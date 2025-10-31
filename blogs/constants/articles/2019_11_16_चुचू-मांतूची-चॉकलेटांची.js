@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1539"
@@ -12,7 +18,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1721 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-0-chu-chu1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-0-chu-chu1.png"
           alt="Chu-Chu1"
           width="300"
           height="183"
@@ -29,7 +35,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter wp-image-1725"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-1-chuchu5.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-1-chuchu5.png"
           alt="ChuCHu5"
           width="491"
           height="409"
@@ -52,7 +58,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1726 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-2-chuchu6.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-2-chuchu6.png"
           alt="ChuChu6"
           width="535"
           height="421"
@@ -91,7 +97,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-1727 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-3-chuchu7.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-3-chuchu7.png"
           alt="ChuChu7"
           width="461"
           height="359"
@@ -133,7 +139,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-thumbnail wp-image-1724 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-4-chu-chu4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-4-chu-chu4.png"
           alt="Chu-Chu4"
           width="111"
           height="150"
@@ -155,7 +161,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-1723"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची-5-chuchu4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची-5-chuchu4.png"
           alt="ChuChu4"
           width="1354"
           height="1002"
@@ -220,14 +226,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चुचू-मांतूची-चॉकलेटांची.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चुचू-मांतूची-चॉकलेटांची.png",
   verified: {
     marathi: true,
     english: false,

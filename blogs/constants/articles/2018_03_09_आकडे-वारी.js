@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Female Literacy"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+    TAGS["Water availability"],
+  ],
   content: {
     marathi: `<article
   id="post-298"
@@ -28,8 +34,7 @@ const articleData = {
         चित्र १:
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-0-null.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-0-null.png"
           alt="आकडे-वारी !"
           width="601"
           height="406"
@@ -44,8 +49,7 @@ const articleData = {
       <p>
         चित्र २:<img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-1-null1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-1-null1.png"
           alt="आकडे-वारी !"
           width="601"
           height="406"
@@ -79,7 +83,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-301"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-2-null2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-2-null2.png"
           alt="आकडे-वारी !"
           width="768"
           height="410"
@@ -99,7 +103,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-302"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी-3-null3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी-3-null3.png"
           alt="आकडे-वारी !"
           width="736"
           height="393"
@@ -153,14 +157,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["female-literacy"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-    TAGS["water-availability"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आकडे-वारी.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आकडे-वारी.png",
   verified: {
     marathi: true,
     english: false,

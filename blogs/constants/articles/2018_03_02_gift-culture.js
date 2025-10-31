@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2018"],
+    TAGS["English"],
+    TAGS["Gift Culture"],
+    TAGS["January - जानेवारी २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -190,7 +197,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-75"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/gift-culture-0-vinod_sreedhar.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/gift-culture-0-vinod_sreedhar.png"
           alt="Vinod_Sreedhar"
           width="85"
           height="95"
@@ -245,15 +252,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2018"],
-    TAGS["english"],
-    TAGS["gift-culture"],
-    TAGS["january-जानेवारी-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/gift-culture.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/gift-culture.png",
   verified: {
     marathi: false,
     english: true,

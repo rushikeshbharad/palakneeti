@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०२१"],
+    TAGS["Story"],
+  ],
   content: {
     marathi: `<article
   id="post-3244"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="174"
     height="134"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिराळशेठची-कहाणी-0-shiral_sheth-e1636131913834.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिराळशेठची-कहाणी-0-shiral_sheth-e1636131913834.jpg"
     class="aligncenter wp-post-image"
     alt="शिराळशेठची कहाणी"
     decoding="async"
@@ -140,7 +146,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-3246"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिराळशेठची-कहाणी-1-anaghajaltare.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिराळशेठची-कहाणी-1-anaghajaltare.png"
           alt="AnaghaJaltare"
           width="104"
           height="129"
@@ -190,14 +196,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०२१"],
-    TAGS["story"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिराळशेठची-कहाणी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिराळशेठची-कहाणी.jpg",
   verified: {
     marathi: true,
     english: false,

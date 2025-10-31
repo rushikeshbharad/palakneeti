@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["August - ऑगस्ट २०२१"], TAGS["masik-article"], TAGS["tribute"]],
   content: {
     marathi: `<article
   id="post-3218"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="895"
     height="885"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-विलासराव-चाफेक-0-chaphekar-1024x1013.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-विलासराव-चाफेक-0-chaphekar-1024x1013.jpg"
     class="aligncenter wp-post-image"
     alt="आदरांजली – विलासराव चाफेकर"
     decoding="async"
@@ -80,9 +81,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["masik-article"], TAGS["tribute"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-विलासराव-चाफेक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-विलासराव-चाफेक.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19069"
@@ -81,7 +82,7 @@ const articleData = {
         प्लंबर, साधा इलेक्ट्रिशियन याचं काम करू शकतो. थोडं शिक्षण घेतलं की त्या
         यंत्रणेतले बारकावे समजतील, ती त्यांना चालवता येईल.<br /><img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत-0-bw sahdevan (4).jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत-0-bw sahdevan (4).jpg"
           width="320"
           height="213"
           alt="bw sahdevan (4).jpg"
@@ -138,7 +139,7 @@ const articleData = {
         करता येईल. पर्यावरण चळवळीतही सामाजिक न्यायासाठी प्रथम लढायला हवं, बाकी
         नंतर होऊ शकेल.<br /><img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत-1-bw sahdevan (3).jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत-1-bw sahdevan (3).jpg"
           width="320"
           height="188"
           alt="bw sahdevan (3).jpg"
@@ -443,9 +444,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-प्रकाशबीजे-रुजवीत.jpg",
   verified: {
     marathi: true,
     english: false,

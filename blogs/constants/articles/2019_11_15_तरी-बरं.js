@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1555"
   class="post-1555 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p><strong>यहुदी लोककथा</strong></p>
       <p>
         गोष्ट जुनी आहे. एका खेड्यात एका छोट्याशा झोपडीत एक गरीब माणूस आपली आई,
@@ -109,7 +115,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1643 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरी-बरं-0-tari-bara-chitra-1-e1573837874245.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरी-बरं-0-tari-bara-chitra-1-e1573837874245.jpg"
           alt="tari-bara-chitra-1.jpg"
           width="2103"
           height="1398"
@@ -138,7 +144,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-full wp-image-1666"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरी-बरं-1-tari-bare-chitra-2-1-e1573837915440.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरी-बरं-1-tari-bare-chitra-2-1-e1573837915440.jpg"
           alt="tari-bare-chitra-2-1.jpg"
           width="2095"
           height="1419"
@@ -187,14 +193,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/तरी-बरं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/तरी-बरं.jpg",
   verified: {
     marathi: true,
     english: false,

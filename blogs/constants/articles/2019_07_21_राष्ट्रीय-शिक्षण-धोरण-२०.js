@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["July - जुलै २०१९"],
+    TAGS["masik-article"],
+    TAGS["National Education Policy Draft 2019"],
+    TAGS["NEP Draft"],
+  ],
   content: {
     marathi: `<article
   id="post-1407"
@@ -322,12 +328,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["july-जुलै-२०१९"],
-    TAGS["masik-article"],
-    TAGS["national-education-policy-draft-2019"],
-    TAGS["nep-draft"],
-  ],
   image: null,
   verified: {
     marathi: true,

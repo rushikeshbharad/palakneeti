@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Gender Discrimination and Law"],
+    TAGS["Legal History of Gender Equity"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-17888"
@@ -179,9 +185,7 @@ const articleData = {
       <p style="text-align: justify">
         <img
           decoding="async"
-          class=""
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कायदा-आणि-लिंगभेद-0-null1.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कायदा-आणि-लिंगभेद-0-null1.jpeg"
           alt="कायदा आणि लिंगभेद"
           width="76"
           height="96"
@@ -231,14 +235,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["gender-discrimination-and-law"],
-    TAGS["legal-history-of-gender-equity"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कायदा-आणि-लिंगभेद.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कायदा-आणि-लिंगभेद.jpeg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["Childhood"],
+    TAGS["masik-article"],
+    TAGS["Mental Health"],
+    TAGS["Mental Illness"],
+  ],
   content: {
     marathi: `<article
   id="post-2054"
@@ -107,7 +115,6 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
           style="color: var(--color-text); font-size: 1rem"
           src="https://images.indianexpress.com/2018/10/vikram-patel.jpg?w=400"
           width="104"
@@ -161,14 +168,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["childhood"],
-    TAGS["masik-article"],
-    TAGS["mental-health"],
-    TAGS["mental-illness"],
-  ],
   image: "https://images.indianexpress.com/2018/10/vikram-patel.jpg?w=400",
   verified: {
     marathi: true,

@@ -17,7 +17,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     setupNodeEvents(on, config) {
       // Define your GitHub repo details for jsDelivr
-      const GITHUB_REPO = "rushikeshbharad/palakneeti";
+      const GITHUB_REPO = "rushikeshbharad/palakneeti@main";
 
       on("task", {
         async saveArticle({ slug, articleData }) {
@@ -26,20 +26,27 @@ module.exports = defineConfig({
             fs.mkdirSync(dir, { recursive: true })
           }
           const filePath = path.join(dir, `${slug}.js`)
-          // Separate the HTML content to handle it as a special case
-          const { content, ...restOfData } = articleData
+          // Separate special properties: content and tags, which need custom formatting.
+          const { content, tags, ...restOfData } = articleData;
+
+          // Format the tags array into the desired `TAGS["key"]` format.
+          const tagsString = tags && tags.length > 0
+            ? `tags: [${tags.map(tag => `TAGS["${tag}"]`).join(", ")}],`
+            : "";
+
+          // Stringify the rest of the data, which is safe for JSON.
           const restOfDataString = JSON.stringify(restOfData, null, 2)
             .slice(1, -1)
             .trim()
 
           const newArticleDataObjectString = `{
+            ${tagsString}
             content: {
               marathi: \`${content.marathi.replace(/`/g, "\\`")}\`,
               english: \`${content.english.replace(/`/g, "\\`")}\`,
             },
             ${restOfDataString}
           }`;
-
           let finalFileContent;
 
           if (fs.existsSync(filePath)) {
@@ -57,8 +64,10 @@ module.exports = defineConfig({
               return { error: `Failed to update ${slug}.js` };
             }
           } else {
-            // File doesn't exist: Create it from scratch.
-            finalFileContent = `const articleData = ${newArticleDataObjectString};
+            // File doesn't exist: Create it from scratch with the necessary import.
+            finalFileContent = `import TAGS from '../tags';
+
+const articleData = ${newArticleDataObjectString};
 
 export default articleData;
 `;
@@ -106,7 +115,8 @@ export default articleData;
             fetch(url, { ...options, redirect: 'follow' })
               .then(res => {
                 if (!res.ok) {
-                  throw new Error(`Failed to download file: ${res.status} ${res.statusText}`);
+                  fs.unlink(filePath, () => resolve(''));
+                  return;
                 }
                 // res.body is a Web ReadableStream. We use stream.pipeline to correctly pipe it to a Node.js WritableStream.
                 const dest = fs.createWriteStream(filePath);
@@ -117,7 +127,7 @@ export default articleData;
                 });
               })
               .catch(() => {
-                fs.unlink(filePath, () => {});
+                fs.unlink(filePath, () => resolve(''));
               });
           })
         },
@@ -153,7 +163,7 @@ export default articleData;
           const imageDownloads = []
 
           images.forEach((img, index) => {
-            const src = img.getAttribute("src") || ""
+            let src = img.getAttribute("src") || ""
             if (!src) return
 
             if (src.split('http').length > 2) {
@@ -217,17 +227,25 @@ export default articleData;
             return null; // File doesn't exist, so no data to return
           }
           try {
+            // Read the tags file to make the TAGS constant available.
+            const tagsPath = path.join(config.projectRoot, "blogs", "constants", "tags.js");
+            const tagsFileContent = fs.readFileSync(tagsPath, "utf-8");
+            const tagsObjectString = tagsFileContent.substring(tagsFileContent.indexOf('{'), tagsFileContent.lastIndexOf('}') + 1);
+            const TAGS = new Function(`return ${tagsObjectString}`)();
+
             const fileContent = fs.readFileSync(articlePath, "utf-8");
             // This is a safe way to extract the object without using eval()
             // It finds the start of the object `{` and its corresponding end `}`
             const startIndex = fileContent.indexOf('{');
             const endIndex = fileContent.lastIndexOf('}');
             if (startIndex === -1 || endIndex === -1) {
+              console.error(`Could not find a valid object in ${articlePath}`);
               return null;
             }
             const objectString = fileContent.substring(startIndex, endIndex + 1);
-            // The string is essentially a JSON object, but keys are not quoted. We can use a trick.
-            const articleData = new Function(`return ${objectString}`)();
+            // Create a new function, passing TAGS into its scope, to safely evaluate the object string.
+            // This prevents the "TAGS is not defined" error.
+            const articleData = new Function('TAGS', `return ${objectString}`)(TAGS);
             return articleData;
           } catch (error) {
             console.error(`Error reading or parsing ${articlePath}:`, error);

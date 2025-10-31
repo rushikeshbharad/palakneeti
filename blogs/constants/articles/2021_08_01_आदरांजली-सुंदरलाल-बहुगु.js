@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["June - जून २०२१"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+  ],
   content: {
     marathi: `<article
   id="post-3102"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="294"
     height="172"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-सुंदरलाल-बहुगु-0-bahugunaa-photo.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-सुंदरलाल-बहुगु-0-bahugunaa-photo.jpg"
     class="aligncenter wp-post-image"
     alt="आदरांजली – सुंदरलाल बहुगुणा"
     decoding="async"
@@ -109,14 +115,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["june-जून-२०२१"],
-    TAGS["masik-article"],
-    TAGS["tribute"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आदरांजली-सुंदरलाल-बहुगु.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आदरांजली-सुंदरलाल-बहुगु.jpg",
   verified: {
     marathi: true,
     english: false,

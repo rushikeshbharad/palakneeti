@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Citizenship"],
+    TAGS["constitution"],
+    TAGS["India"],
+    TAGS["January - जानेवारी २०२०"],
+    TAGS["masik-article"],
+    TAGS["My Country"],
+    TAGS["Nation"],
+  ],
   content: {
     marathi: `<article
   id="post-1865"
@@ -149,7 +158,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1872"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ही-भूमी-माझी-आहे-0-harshmander1-e1583732592286.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ही-भूमी-माझी-आहे-0-harshmander1-e1583732592286.jpg"
           alt="HarshMander1"
           width="104"
           height="119"
@@ -196,17 +205,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["citizenship"],
-    TAGS["constitution"],
-    TAGS["india"],
-    TAGS["january-जानेवारी-२०२०"],
-    TAGS["masik-article"],
-    TAGS["my-country"],
-    TAGS["nation"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ही-भूमी-माझी-आहे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ही-भूमी-माझी-आहे.jpg",
   verified: {
     marathi: true,
     english: false,

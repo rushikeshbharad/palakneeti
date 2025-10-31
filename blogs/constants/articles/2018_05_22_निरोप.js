@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["goodbye"],
+    TAGS["Grandmother"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-441"
@@ -19,8 +25,7 @@ const articleData = {
         आत्मीयतेनं माझं पूर्ण हृदय व्यापून टाकणारं प्रेम!<img
           decoding="async"
           class="alignright"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निरोप-0-image.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निरोप-0-image.png"
           alt="निरोप"
           width="261"
           height="414"
@@ -77,8 +82,7 @@ const articleData = {
         <i
           ><img
             decoding="async"
-            title=""
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निरोप-1-null1.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निरोप-1-null1.png"
             alt="निरोप"
             width="89"
             height="94"
@@ -124,14 +128,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["goodbye"],
-    TAGS["grandmother"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१८"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निरोप.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निरोप.png",
   verified: {
     marathi: true,
     english: false,

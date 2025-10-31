@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25786"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="268"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचा-पैस-0-palaktwacha-pais-4-300x268-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-पैस-0-palaktwacha-pais-4-300x268-1.jpg"
           alt="पालकत्वाचा पैस"
           class="wp-image-27003"
         />
@@ -240,7 +247,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचा-पैस-1-praniti-deshpande.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-पैस-1-praniti-deshpande.jpg"
           alt="पालकत्वाचा पैस"
           class="wp-image-27004"
           style="width: 70px; height: 87px"
@@ -292,15 +299,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचा-पैस.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचा-पैस.jpg",
   verified: {
     marathi: true,
     english: false,

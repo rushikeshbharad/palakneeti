@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["July - जुलै २०१९"],
+    TAGS["masik-article"],
+    TAGS["Television"],
+    TAGS["TV"],
+  ],
   content: {
     marathi: `<article
   id="post-1401"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="403"
     height="554"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दूरदर्शन-आणि-पालकत्व-0-tv.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दूरदर्शन-आणि-पालकत्व-0-tv.png"
     class="aligncenter wp-post-image"
     alt="दूरदर्शन आणि पालकत्व"
     decoding="async"
@@ -193,7 +199,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दूरदर्शन-आणि-पालकत्व-1-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दूरदर्शन-आणि-पालकत्व-1-anandi-e1548608007148.jpg"
           alt="anandi"
           width="73"
           height="100"
@@ -236,14 +242,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["july-जुलै-२०१९"],
-    TAGS["masik-article"],
-    TAGS["television"],
-    TAGS["tv"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दूरदर्शन-आणि-पालकत्व.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दूरदर्शन-आणि-पालकत्व.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Books"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["education resource"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3363"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="500"
     height="500"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-खिडकी-0-e0a4aae0a581e0a4b8e0a58de0a4a4e0a495-e0a496e0a4bfe0a4a1e0a495e0a580-3.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-खिडकी-0-e0a4aae0a581e0a4b8e0a58de0a4a4e0a495-e0a496e0a4bfe0a4a1e0a495e0a580-3.png"
     class="aligncenter wp-post-image"
     alt="पुस्तक खिडकी"
     decoding="async"
@@ -87,7 +94,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-3353 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-खिडकी-1-pk5.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-खिडकी-1-pk5.png"
           alt="पुस्तक खिडकी"
           width="610"
           height="612"
@@ -152,15 +159,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["books"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["education-resource"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-खिडकी.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-खिडकी.png",
   verified: {
     marathi: true,
     english: false,

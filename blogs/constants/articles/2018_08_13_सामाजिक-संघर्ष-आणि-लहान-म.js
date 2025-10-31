@@ -1,5 +1,19 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["Children"],
+    TAGS["children and conflict"],
+    TAGS["conflict"],
+    TAGS["constitution"],
+    TAGS["education"],
+    TAGS["Krishna Kumar"],
+    TAGS["masik-article"],
+    TAGS["peace"],
+    TAGS["religion"],
+    TAGS["social conflict"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-757"
@@ -100,7 +114,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-761"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म-0-kk_article.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म-0-kk_article.png"
           alt="KK_article"
           width="993"
           height="684"
@@ -217,7 +231,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-760 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म-1-krishna-kumar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म-1-krishna-kumar.jpg"
           alt="krishna-kumar"
           width="100"
           height="142"
@@ -263,22 +277,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["children"],
-    TAGS["children-and-conflict"],
-    TAGS["conflict"],
-    TAGS["constitution"],
-    TAGS["education"],
-    TAGS["krishna-kumar"],
-    TAGS["masik-article"],
-    TAGS["peace"],
-    TAGS["religion"],
-    TAGS["social-conflict"],
-    TAGS["uncategorized"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सामाजिक-संघर्ष-आणि-लहान-म.png",
   verified: {
     marathi: true,
     english: false,

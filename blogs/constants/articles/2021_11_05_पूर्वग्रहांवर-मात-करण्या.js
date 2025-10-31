@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०२१"],
+    TAGS["Black lives matter"],
+    TAGS["education"],
+    TAGS["masik-article"],
+    TAGS["Prejudice"],
+  ],
   content: {
     marathi: `<article
   id="post-3194"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="245"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वग्रहांवर-मात-करण्या-0-prejudice-1-1024x280.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वग्रहांवर-मात-करण्या-0-prejudice-1-1024x280.jpg"
     class="aligncenter wp-post-image"
     alt="पूर्वग्रहांवर मात करण्यात शिक्षणाची भूमिका"
     decoding="async"
@@ -128,7 +135,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-760"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वग्रहांवर-मात-करण्या-1-krishna-kumar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वग्रहांवर-मात-करण्या-1-krishna-kumar.jpg"
           alt="krishna-kumar"
           width="100"
           height="142"
@@ -180,15 +187,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०२१"],
-    TAGS["black-lives-matter"],
-    TAGS["education"],
-    TAGS["masik-article"],
-    TAGS["prejudice"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पूर्वग्रहांवर-मात-करण्या.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पूर्वग्रहांवर-मात-करण्या.jpg",
   verified: {
     marathi: true,
     english: false,

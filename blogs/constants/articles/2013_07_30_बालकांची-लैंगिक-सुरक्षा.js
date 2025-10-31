@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-20441"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/DSC_0125_0.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालकांची-लैंगिक-सुरक्षा-0-DSC_0125_0.JPG"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -44,7 +44,7 @@ const articleData = {
         वर्षांपुढचा. सात ते अकरा या वयोगटातलं प्रमाण तुलनेनं थोडं कमी आहे. कारणं
         वेगवेगळी असतील.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSC00259.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालकांची-लैंगिक-सुरक्षा-1-DSC00259.jpg"
           width="448"
           height="336"
           alt="DSC00259.jpg"
@@ -152,7 +152,7 @@ const articleData = {
         त्यामुळे अगदी टोकाचं काही घडल्याशिवाय बालकांचे काळजीवाहक न्यायासनाकडे
         दाद मागण्याची तयारी सहसा दाखवत नसत.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/DSC01416.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बालकांची-लैंगिक-सुरक्षा-2-DSC01416.JPG"
           width="448"
           height="336"
           alt="DSC01416.JPG"
@@ -324,9 +324,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/DSC_0125_0.JPG",
+  image: "",
   verified: {
     marathi: true,
     english: false,

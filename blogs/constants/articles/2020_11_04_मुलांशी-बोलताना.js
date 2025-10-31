@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Speaking"],
+  ],
   content: {
     marathi: `<article
   id="post-2392"
@@ -240,7 +247,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2478"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांशी-बोलताना-0-52.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांशी-बोलताना-0-52.jpg"
           alt="52"
           width="114"
           height="142"
@@ -258,7 +265,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2634"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांशी-बोलताना-1-bhargav.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांशी-बोलताना-1-bhargav.png"
           alt="Bhargav"
           width="113"
           height="124"
@@ -301,15 +308,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["speaking"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांशी-बोलताना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांशी-बोलताना.jpg",
   verified: {
     marathi: true,
     english: false,

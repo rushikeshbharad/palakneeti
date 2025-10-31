@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27809"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="732"
     height="536"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/समृद्ध-मी-झाले-0-samrudha-me-zale.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/समृद्ध-मी-झाले-0-samrudha-me-zale.jpg"
     class="aligncenter wp-post-image"
     alt="समृद्ध मी झाले"
     decoding="async"
@@ -187,7 +195,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/समृद्ध-मी-झाले-1-sunita-tagare.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/समृद्ध-मी-झाले-1-sunita-tagare.jpg"
           alt="समृद्ध मी झाले"
           class="wp-image-27810"
           style="width: 78px; height: auto"
@@ -236,16 +244,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/समृद्ध-मी-झाले.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/समृद्ध-मी-झाले.jpg",
   verified: {
     marathi: true,
     english: false,

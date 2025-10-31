@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27830"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="771"
     height="648"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव-0-mulanchya-pratikshet-aaivadil.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव-0-mulanchya-pratikshet-aaivadil.jpg"
     class="aligncenter wp-post-image"
     alt="मुलांच्या प्रतीक्षेत आईवडील"
     decoding="async"
@@ -342,7 +350,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="271"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव-1-smruti-gupta.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव-1-smruti-gupta.jpg"
           alt="मुलांच्या प्रतीक्षेत आईवडील"
           class="wp-image-27831"
           style="width: 102px; height: auto"
@@ -394,16 +402,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांच्या-प्रतीक्षेत-आईव.jpg",
   verified: {
     marathi: true,
     english: false,

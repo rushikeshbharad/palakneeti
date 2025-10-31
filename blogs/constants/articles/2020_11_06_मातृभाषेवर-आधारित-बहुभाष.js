@@ -1,5 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["English"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["MLE"],
+    TAGS["mother tongue"],
+    TAGS["mother tongue based multi-lingual education"],
+    TAGS["MTB-MLE"],
+    TAGS["multi-lingual education"],
+    TAGS["NEP 2020"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2399"
@@ -8,7 +21,7 @@ const articleData = {
   <img
     width="895"
     height="524"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-0-21.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-0-21.jpg"
     class="aligncenter wp-post-image"
     alt="मातृभाषेवर आधारित बहुभाषिक शिक्षण आणि इंग्रजी"
     decoding="async"
@@ -210,7 +223,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2448"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-1-22.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-1-22.jpg"
           alt="22"
           width="116"
           height="144"
@@ -232,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2630"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-2-swetha.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषेवर-आधारित-बहुभाष-2-swetha.png"
           alt="Swetha"
           width="112"
           height="123"
@@ -281,21 +294,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["english"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["mle"],
-    TAGS["mother-tongue"],
-    TAGS["mother-tongue-based-multi-lingual-education"],
-    TAGS["mtb-mle"],
-    TAGS["multi-lingual-education"],
-    TAGS["nep-2020"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मातृभाषेवर-आधारित-बहुभाष.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मातृभाषेवर-आधारित-बहुभाष.jpg",
   verified: {
     marathi: true,
     english: false,

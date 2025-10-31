@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["constitution"],
+    TAGS["India"],
+    TAGS["January - जानेवारी २०२०"],
+    TAGS["masik-article"],
+    TAGS["We the people of India"],
+  ],
   content: {
     marathi: `<article
   id="post-1855"
@@ -276,7 +283,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1870"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-भारताचे-नागरिक-0-bhakti_bhave-e1583733289368.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-भारताचे-नागरिक-0-bhakti_bhave-e1583733289368.jpg"
           alt="Bhakti_Bhave"
           width="120"
           height="114"
@@ -383,15 +390,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["constitution"],
-    TAGS["india"],
-    TAGS["january-जानेवारी-२०२०"],
-    TAGS["masik-article"],
-    TAGS["we-the-people-of-india"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-भारताचे-नागरिक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-भारताचे-नागरिक.jpg",
   verified: {
     marathi: true,
     english: false,

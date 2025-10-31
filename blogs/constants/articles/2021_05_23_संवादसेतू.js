@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०२१"],
+    TAGS["Reader's Response"],
+    TAGS["Teacher's Initiative"],
+  ],
   content: {
     marathi: `<article
   id="post-3050"
@@ -28,7 +35,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-3052 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादसेतू-0-8.-e0a4b8e0a482e0a4b5e0a4bee0a4a6e0a58de0a4b8e0a587e0a4a4e0a582.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादसेतू-0-8.-e0a4b8e0a482e0a4b5e0a4bee0a4a6e0a58de0a4b8e0a587e0a4a4e0a582.jpg"
           alt="8. संवाद्सेतू"
           width="696"
           height="976"
@@ -69,15 +76,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०२१"],
-    TAGS["readers-response"],
-    TAGS["teachers-initiative"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादसेतू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादसेतू.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["Environment Education"],
+    TAGS["history"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27576"
@@ -93,7 +102,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="551"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-0-itihas-ani-paryavaran-shikshan1-1024x551.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-0-itihas-ani-paryavaran-shikshan1-1024x551.jpg"
           alt="इतिहास आणि पर्यावरण शिक्षण"
           class="wp-image-27578"
           style="width: 454px; height: auto"
@@ -124,7 +133,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="627"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-1-itihas-ani-paryavaran-shikshan-1024x627.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-1-itihas-ani-paryavaran-shikshan-1024x627.jpg"
           alt="इतिहास आणि पर्यावरण शिक्षण"
           class="wp-image-27579"
           style="width: 519px; height: auto"
@@ -217,7 +226,7 @@ const articleData = {
           decoding="async"
           width="964"
           height="542"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-2-itihas-ani-paryavaran-shikshan2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-2-itihas-ani-paryavaran-shikshan2.jpg"
           alt="इतिहास आणि पर्यावरण शिक्षण"
           class="wp-image-27580"
           style="width: 493px; height: auto"
@@ -233,7 +242,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-3-baswant-babarao.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्-3-baswant-babarao.jpg"
           alt="इतिहास आणि पर्यावरण शिक्षण"
           class="wp-image-27577"
           style="width: 113px; height: auto"
@@ -282,17 +291,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["environment-education"],
-    TAGS["history"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहास-आणि-पर्यावरण-शिक्.jpg",
   verified: {
     marathi: true,
     english: false,

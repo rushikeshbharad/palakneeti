@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Expression through Theater"],
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["Khelghar"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1838"
@@ -159,7 +165,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1704"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्ती-अभिनयाच्या-म-0-shubhada_joshi-e1573837119453.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अभिव्यक्ती-अभिनयाच्या-म-0-shubhada_joshi-e1573837119453.jpg"
           alt="Shubhada_Joshi"
           width="111"
           height="115"
@@ -216,14 +222,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["expression-through-theater"],
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["khelghar"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्ती-अभिनयाच्या-म.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अभिव्यक्ती-अभिनयाच्या-म.jpg",
   verified: {
     marathi: true,
     english: false,

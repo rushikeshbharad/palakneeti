@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19471"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/IMG_3442Cutout.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळेची-सुरुवात-0-IMG_3442Cutout.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -132,7 +132,7 @@ const articleData = {
         आव्हानांबद्दल स्वतंत्रपणे बोलावं लागेल, कारण ती बरीच आहेत. संपूर्ण
         भारतामध्येच शिक्षणमाध्यम आणि इंग्रजीचं आव्हान हा खूप मोठा प्रश्न आहे.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/8.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळेची-सुरुवात-1-8.jpg"
           width="280"
           height="150"
           alt="8.jpg"
@@ -222,7 +222,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/9.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळेची-सुरुवात-2-9.jpg"
           alt="9.jpg"
         />
       </figure>
@@ -290,9 +290,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/IMG_3442Cutout.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

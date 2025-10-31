@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["fear"],
+    TAGS["masik-article"],
+    TAGS["Psychology of Fear"],
+  ],
   content: {
     marathi: `<article
   id="post-1038"
@@ -80,7 +86,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1060 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल-0-psychology_of_fear_brain.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल-0-psychology_of_fear_brain.png"
           alt="psychology_of_fear_brain"
           width="489"
           height="428"
@@ -208,7 +214,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-1061 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल-1-Kamala-Mukunda-w-399x600-e1545738183839.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल-1-Kamala-Mukunda-w-399x600-e1545738183839.jpg"
             alt="Kamala-Mukunda-w-399x600"
             width="86"
             height="93"
@@ -283,14 +289,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["fear"],
-    TAGS["masik-article"],
-    TAGS["psychology-of-fear"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भीतीचे-मानसशास्त्रीय-पैल.png",
   verified: {
     marathi: true,
     english: false,

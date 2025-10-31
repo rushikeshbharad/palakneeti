@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०२१"],
+    TAGS["home-learning"],
+    TAGS["homeschooling"],
+    TAGS["masik-article"],
+    TAGS["mother"],
+    TAGS["Mother's Experiences"],
+  ],
   content: {
     marathi: `<article
   id="post-3154"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="597"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-आईचे-मनोगत-0-soulify-1024x683.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एका-आईचे-मनोगत-0-soulify-1024x683.jpg"
     class="aligncenter wp-post-image"
     alt="एका आईचे मनोगत"
     decoding="async"
@@ -238,7 +246,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3156"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-आईचे-मनोगत-1-smriti_raj-e1635960950414.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एका-आईचे-मनोगत-1-smriti_raj-e1635960950414.jpg"
           alt="Smriti_Raj"
           width="98"
           height="123"
@@ -292,16 +300,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०२१"],
-    TAGS["home-learning"],
-    TAGS["homeschooling"],
-    TAGS["masik-article"],
-    TAGS["mother"],
-    TAGS["mothers-experiences"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एका-आईचे-मनोगत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एका-आईचे-मनोगत.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Book Introduction"],
+    TAGS["Children's Literature"],
+    TAGS["March - मार्च २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2981"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="333"
     height="499"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ-0-anarko.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ-0-anarko.jpg"
     class="aligncenter wp-post-image"
     alt="पुस्तक परिचय – अनारको के आठ दिन"
     decoding="async"
@@ -190,7 +197,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2994"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ-1-manasee_mahajan.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ-1-manasee_mahajan.jpg"
           alt="Manasee_Mahajan"
           width="106"
           height="124"
@@ -240,15 +247,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["book-introduction"],
-    TAGS["childrens-literature"],
-    TAGS["march-मार्च-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-अनारको-के-आठ.jpg",
   verified: {
     marathi: true,
     english: false,

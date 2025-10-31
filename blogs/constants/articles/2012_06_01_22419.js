@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22419"
@@ -24,8 +25,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22419-0-KrushnaKumar_01.jpg"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22419-0-KrushnaKumar_01.jpg"
                 width="150"
               />
             </div>
@@ -80,7 +80,7 @@ const articleData = {
             align="left"
             alt="KrushnaKumar_02.jpg"
             height="162"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22419-1-KrushnaKumar_02.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22419-1-KrushnaKumar_02.jpg"
             width="224"
           />
         </p>
@@ -202,7 +202,7 @@ const articleData = {
             align="left"
             alt="KrushnaKumar_06.jpg"
             height="160"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22419-2-KrushnaKumar_06.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22419-2-KrushnaKumar_06.jpg"
             width="224"
           />
         </p>
@@ -300,7 +300,7 @@ const articleData = {
             align="right"
             alt="KrushnaKumar_05.jpg"
             height="140"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22419-3-KrushnaKumar_05.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22419-3-KrushnaKumar_05.jpg"
             width="224"
           />आपल्या समाजात ‘मूल’ ही संकल्पना, विशेषतः ‘बालपण’ ही संकल्पना आणि
           त्याविषयीची एक व्यापक जाण निर्माण व्हावी, समज वाढावी म्हणून सतत संवाद
@@ -488,9 +488,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22419.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22419.jpg",
   verified: {
     marathi: true,
     english: false,

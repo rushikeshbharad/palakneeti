@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1523"
   class="post-1523 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         महेशच्या डोक्याआधी त्याचे हात चालतात, मग डोकं चालतं आणि नंतर त्या
         दोन्हीमागे त्याचे पाय जातात. म्हणजे असं, की त्याचे हात सारखं काहीतरी
@@ -26,7 +32,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignleft size-thumbnail wp-image-1682"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला-0-mahesh-3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला-0-mahesh-3.jpg"
           alt="Mahesh (3)"
           width="150"
           height="130"
@@ -48,7 +54,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1683 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला-1-mahesh-4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला-1-mahesh-4.jpg"
           alt="Mahesh (4)"
           width="117"
           height="80"
@@ -227,7 +233,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1685"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला-2-mahesh-6.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला-2-mahesh-6.jpg"
           alt="Mahesh (6)"
           width="6200"
           height="3489"
@@ -302,7 +308,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-1680 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला-3-mahesh-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला-3-mahesh-1.jpg"
           alt="Mahesh (1)"
           width="178"
           height="179"
@@ -317,7 +323,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-1686"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला-4-mahesh-7.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला-4-mahesh-7.jpg"
           alt="Mahesh (7)"
           width="7501"
           height="5156"
@@ -370,14 +376,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-महेश-खूश-झाला.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-महेश-खूश-झाला.jpg",
   verified: {
     marathi: true,
     english: false,

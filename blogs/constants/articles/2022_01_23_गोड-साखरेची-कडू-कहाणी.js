@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3424"
@@ -211,7 +219,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-3426"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोड-साखरेची-कडू-कहाणी-0-vinayak_mali.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोड-साखरेची-कडू-कहाणी-0-vinayak_mali.jpg"
           alt="Vinayak_Mali"
           width="107"
           height="137"
@@ -264,16 +272,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["migration"],
-    TAGS["sugarcane-workers"],
-    TAGS["sugarschool"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोड-साखरेची-कडू-कहाणी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोड-साखरेची-कडू-कहाणी.jpg",
   verified: {
     marathi: true,
     english: false,

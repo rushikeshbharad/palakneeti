@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१९"],
+    TAGS["personal voice assistant"],
+    TAGS["Technology"],
+    TAGS["Voice Technology"],
+  ],
   content: {
     marathi: `<article
   id="post-1311"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="428"
     height="463"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल-0-alexa.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल-0-alexa.png"
     class="aligncenter wp-post-image"
     alt="आवाजी तंत्रज्ञान आणि पालकत्व"
     decoding="async"
@@ -237,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल-1-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल-1-anandi-e1548608007148.jpg"
           alt="anandi"
           width="80"
           height="109"
@@ -289,16 +297,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१९"],
-    TAGS["personal-voice-assistant"],
-    TAGS["technology"],
-    TAGS["voice-technology"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आवाजी-तंत्रज्ञान-आणि-पाल.png",
   verified: {
     marathi: true,
     english: false,

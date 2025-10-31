@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["डिसेंबर २०२४"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25640"
@@ -10,7 +17,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दत्तकपार-पालकत्व-एक-परिस-0-photo-2-571x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दत्तकपार-पालकत्व-एक-परिस-0-photo-2-571x1024.jpg"
           alt="दत्तकपार पालकत्व : एक परिसंवाद"
           class="wp-image-25645"
           width="183"
@@ -43,7 +50,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="461"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दत्तकपार-पालकत्व-एक-परिस-1-photo-for-website-1024x461.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दत्तकपार-पालकत्व-एक-परिस-1-photo-for-website-1024x461.jpg"
           alt="दत्तकपार पालकत्व : एक परिसंवाद"
           class="wp-image-25644"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -244,15 +251,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["डिसेंबर-२०२४"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दत्तकपार-पालकत्व-एक-परिस.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

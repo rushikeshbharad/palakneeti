@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["Camera"],
+    TAGS["CCTV"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेम्बर २०१९"],
+    TAGS["Surveillance"],
+  ],
   content: {
     marathi: `<article
   id="post-1483"
@@ -185,7 +193,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लपलेले-कॅमेरे-0-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लपलेले-कॅमेरे-0-anandi-e1548608007148.jpg"
           alt="anandi"
           width="110"
           height="150"
@@ -229,16 +237,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["camera"],
-    TAGS["cctv"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेम्बर-२०१९"],
-    TAGS["surveillance"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लपलेले-कॅमेरे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लपलेले-कॅमेरे.jpg",
   verified: {
     marathi: true,
     english: false,

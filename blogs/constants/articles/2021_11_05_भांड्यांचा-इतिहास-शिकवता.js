@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["August - ऑगस्ट २०२१"], TAGS["history"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-3163"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="159"
     height="166"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भांड्यांचा-इतिहास-शिकवता-0-utensil_robot.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भांड्यांचा-इतिहास-शिकवता-0-utensil_robot.jpg"
     class="aligncenter wp-post-image"
     alt="भांड्यांचा इतिहास शिकवताना"
     decoding="async"
@@ -90,7 +91,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-3185 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भांड्यांचा-इतिहास-शिकवता-1-historyofutensils1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भांड्यांचा-इतिहास-शिकवता-1-historyofutensils1.png"
           alt="HistoryOfUtensils1"
           width="532"
           height="386"
@@ -182,7 +183,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-3165"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भांड्यांचा-इतिहास-शिकवता-2-anaghakusum.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भांड्यांचा-इतिहास-शिकवता-2-anaghakusum.jpg"
           alt="AnaghaKusum"
           width="117"
           height="117"
@@ -234,9 +235,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["history"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भांड्यांचा-इतिहास-शिकवता.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भांड्यांचा-इतिहास-शिकवता.jpg",
   verified: {
     marathi: true,
     english: false,

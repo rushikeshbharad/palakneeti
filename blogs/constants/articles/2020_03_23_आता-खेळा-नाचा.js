@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Free Play"],
+    TAGS["Game-a-thon"],
+    TAGS["March - मार्च २०२०"],
+    TAGS["masik-article"],
+    TAGS["Play"],
+  ],
   content: {
     marathi: `<article
   id="post-1925"
@@ -215,7 +222,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1928"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-खेळा-नाचा-0-manish_freeman.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-खेळा-नाचा-0-manish_freeman.jpg"
           alt="Manish_Freeman"
           width="112"
           height="112"
@@ -262,15 +269,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["free-play"],
-    TAGS["game-a-thon"],
-    TAGS["march-मार्च-२०२०"],
-    TAGS["masik-article"],
-    TAGS["play"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आता-खेळा-नाचा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आता-खेळा-नाचा.jpg",
   verified: {
     marathi: true,
     english: false,

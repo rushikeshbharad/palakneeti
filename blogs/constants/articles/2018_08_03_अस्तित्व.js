@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["existence"],
+    TAGS["fatherhood"],
+    TAGS["growing up without father"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-644"
@@ -67,8 +74,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अस्तित्व-0-image.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अस्तित्व-0-image.jpeg"
           alt="अस्तित्व"
           width="85"
           height="110"
@@ -113,15 +119,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["existence"],
-    TAGS["fatherhood"],
-    TAGS["growing-up-without-father"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अस्तित्व.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अस्तित्व.jpeg",
   verified: {
     marathi: true,
     english: false,

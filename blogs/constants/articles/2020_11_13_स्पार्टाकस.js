@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-2411"
@@ -12,7 +20,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2442 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-0-16.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-0-16.jpg"
           alt="स्पार्टाकस    |    मिलिंद बोकील"
           width="293"
           height="176"
@@ -51,7 +59,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2439"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-1-13.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-1-13.jpg"
           alt="स्पार्टाकस    |    मिलिंद बोकील"
           width="736"
           height="688"
@@ -227,7 +235,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2441"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-2-15.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-2-15.jpg"
           alt="स्पार्टाकस    |    मिलिंद बोकील"
           width="736"
           height="759"
@@ -330,7 +338,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone size-full wp-image-2440"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-3-14.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-3-14.jpg"
           alt="स्पार्टाकस    |    मिलिंद बोकील"
           width="430"
           height="473"
@@ -450,7 +458,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="alignnone wp-image-2443"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-4-17.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-4-17.jpg"
           alt="स्पार्टाकस    |    मिलिंद बोकील"
           width="105"
           height="131"
@@ -470,7 +478,7 @@ const articleData = {
           <img
             loading="lazy"
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस-5-bhargav.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस-5-bhargav.png"
             alt="स्पार्टाकस    |    मिलिंद बोकील"
             class="wp-image-2634"
             width="116"
@@ -516,16 +524,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्पार्टाकस.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्पार्टाकस.jpg",
   verified: {
     marathi: true,
     english: false,

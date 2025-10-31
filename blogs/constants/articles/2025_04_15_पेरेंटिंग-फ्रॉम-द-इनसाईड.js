@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27490"
@@ -175,7 +182,7 @@ const articleData = {
           decoding="async"
           width="682"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड-0-parenting-from-the-inside-out-682x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड-0-parenting-from-the-inside-out-682x1024.jpg"
           alt="पेरेंटिंग फ्रॉम द इनसाईड आउट"
           class="wp-image-27491"
           style="width: 245px; height: auto"
@@ -242,7 +249,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड-1-hema-honwad.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड-1-hema-honwad.jpg"
           alt="पेरेंटिंग फ्रॉम द इनसाईड आउट"
           class="wp-image-27492"
           style="width: 82px; height: auto"
@@ -291,15 +298,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["april-2025-एप्रिल-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पेरेंटिंग-फ्रॉम-द-इनसाईड.jpg",
   verified: {
     marathi: true,
     english: false,

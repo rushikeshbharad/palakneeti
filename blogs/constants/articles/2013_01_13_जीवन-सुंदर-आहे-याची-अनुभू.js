@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19385"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Meera.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-0-Meera.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -38,7 +38,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Suno%20Gourase%20Dance.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-1-Suno Gourase Dance.JPG"
           alt="Suno Gourase Dance.JPG"
         />
       </figure>
@@ -82,7 +82,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/12th%20batch1.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-2-12th batch1.JPG"
           alt="12th batch1.JPG"
         />
       </figure>
@@ -168,7 +168,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Drawing%202.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-3-Drawing 2.JPG"
           alt="Drawing 2.JPG"
         />
       </figure>
@@ -203,13 +203,13 @@ const articleData = {
         झालं. घर मुलांनी गजबजून गेलं. त्यांचे प्रश्‍न माझे झाले. घरातच ‘निवांत
         अंध मुक्तविकासालय’ सुरू झालं. अगदी कळत-नकळत.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/IMG_0336.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-4-IMG_0336.JPG"
           width="320"
           height="214"
           alt="IMG_0336.JPG"
         /><br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/IMG_0339.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-5-IMG_0339.JPG"
           width="320"
           height="214"
           alt="IMG_0339.JPG"
@@ -320,7 +320,7 @@ const articleData = {
         झाले. खेड्यापाड्यातल्या लेकरांसाठी<br />लायब्ररीच्या सतरा शाखा
         महाराष्ट्रभर उभ्या राहिल्या.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Shivaji%20Conducts%20a%20Class%2011th%20Std_1.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-6-Shivaji Conducts a Class 11th Std_1.JPG"
           width="320"
           height="214"
           alt="Shivaji Conducts a Class 11th Std_1.JPG"
@@ -409,7 +409,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/Wrapping3.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जीवन-सुंदर-आहे-याची-अनुभू-7-Wrapping3.JPG"
           alt="Wrapping3.JPG"
         />
       </figure>
@@ -502,9 +502,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Meera.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["festival celebration"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+    TAGS["school"],
+    TAGS["secular"],
+  ],
   content: {
     marathi: `<article
   id="post-744"
@@ -114,7 +122,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-769 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-सर्वधर्मसमभाव-0-sujata_patil.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमचा-सर्वधर्मसमभाव-0-sujata_patil.png"
           alt="Sujata_Patil"
           width="94"
           height="125"
@@ -159,16 +167,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["festival-celebration"],
-    TAGS["masik-article"],
-    TAGS["religion"],
-    TAGS["school"],
-    TAGS["secular"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमचा-सर्वधर्मसमभाव.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमचा-सर्वधर्मसमभाव.png",
   verified: {
     marathi: true,
     english: false,

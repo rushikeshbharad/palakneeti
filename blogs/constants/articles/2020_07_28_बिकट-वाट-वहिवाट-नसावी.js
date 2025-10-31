@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["be the change"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["masik-article"],
+    TAGS["parenting through modeling"],
+  ],
   content: {
     marathi: `<article
   id="post-2003"
@@ -179,7 +186,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-2008"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिकट-वाट-वहिवाट-नसावी-0-paresh-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिकट-वाट-वहिवाट-नसावी-0-paresh-1.jpg"
           alt="Paresh"
           width="150"
           height="113"
@@ -226,15 +233,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["be-the-change"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["masik-article"],
-    TAGS["parenting-through-modeling"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिकट-वाट-वहिवाट-नसावी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिकट-वाट-वहिवाट-नसावी.jpg",
   verified: {
     marathi: true,
     english: false,

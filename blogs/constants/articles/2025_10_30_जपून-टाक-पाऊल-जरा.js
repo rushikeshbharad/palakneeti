@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27804"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="646"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जपून-टाक-पाऊल-जरा-0-japun-tak-paul-jara-1024x739.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जपून-टाक-पाऊल-जरा-0-japun-tak-paul-jara-1024x739.jpg"
     class="aligncenter wp-post-image"
     alt="जपून टाक पाऊल जरा"
     decoding="async"
@@ -135,7 +143,7 @@ const articleData = {
           decoding="async"
           width="976"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जपून-टाक-पाऊल-जरा-1-japun-tak-paul-jara1-976x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जपून-टाक-पाऊल-जरा-1-japun-tak-paul-jara1-976x1024.jpg"
           alt="जपून टाक पाऊल जरा"
           class="wp-image-27805"
           style="width: 310px; height: auto"
@@ -259,7 +267,7 @@ const articleData = {
           decoding="async"
           width="219"
           height="272"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जपून-टाक-पाऊल-जरा-2-sugandha-agarwal.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जपून-टाक-पाऊल-जरा-2-sugandha-agarwal.jpg"
           alt="जपून टाक पाऊल जरा"
           class="wp-image-27806"
           style="width: 83px; height: auto"
@@ -309,16 +317,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जपून-टाक-पाऊल-जरा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जपून-टाक-पाऊल-जरा.jpg",
   verified: {
     marathi: true,
     english: false,

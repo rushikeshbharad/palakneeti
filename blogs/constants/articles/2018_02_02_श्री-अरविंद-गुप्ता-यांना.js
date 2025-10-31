@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Arvind Gupta"],
+    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["masik-article"],
+    TAGS["Padmashree"],
+    TAGS["Science Toys"],
+  ],
   content: {
     marathi: `<article
   id="post-17885"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="503"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/श्री-अरविंद-गुप्ता-यांना-0-7fbb738688f92e81445885b0375e17d290012ba8_2880x1620-1024x576.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/श्री-अरविंद-गुप्ता-यांना-0-7fbb738688f92e81445885b0375e17d290012ba8_2880x1620-1024x576.jpg"
     class="aligncenter wp-post-image"
     alt="श्री. अरविंद गुप्ता यांना पद्मश्री पुरस्कार"
     decoding="async"
@@ -16,7 +23,7 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <p>
         या वर्षीच्या 26 जानेवारीला एक आनंदाची बातमी मिळाली… श्री. अरविंद गुप्ता
         यांना पद्मश्री पुरस्कार मिळाला. काही दिवसांपूर्वीच महाराष्ट्र
@@ -84,15 +91,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["arvind-gupta"],
-    TAGS["february-फेब्रुवारी-२०१८"],
-    TAGS["masik-article"],
-    TAGS["padmashree"],
-    TAGS["science-toys"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/श्री-अरविंद-गुप्ता-यांना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/श्री-अरविंद-गुप्ता-यांना.jpg",
   verified: {
     marathi: true,
     english: false,

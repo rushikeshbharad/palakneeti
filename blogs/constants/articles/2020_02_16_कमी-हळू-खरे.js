@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["Less"],
+    TAGS["masik-article"],
+    TAGS["right"],
+    TAGS["Slow"],
+    TAGS["Slow Movement"],
+  ],
   content: {
     marathi: `<article
   id="post-1843"
@@ -70,7 +78,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1897"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कमी-हळू-खरे-0-2732-slow.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कमी-हळू-खरे-0-2732-slow.jpg"
           alt="2732-Slow"
           width="762"
           height="720"
@@ -211,7 +219,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-1899 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कमी-हळू-खरे-1-images-e1583735295481.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कमी-हळू-खरे-1-images-e1583735295481.jpg"
           alt="images"
           width="175"
           height="175"
@@ -262,7 +270,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कमी-हळू-खरे-2-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कमी-हळू-खरे-2-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="121"
           height="115"
@@ -313,16 +321,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["less"],
-    TAGS["masik-article"],
-    TAGS["right"],
-    TAGS["slow"],
-    TAGS["slow-movement"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कमी-हळू-खरे.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कमी-हळू-खरे.jpg",
   verified: {
     marathi: true,
     english: false,

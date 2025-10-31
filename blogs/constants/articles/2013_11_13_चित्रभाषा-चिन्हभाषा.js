@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19404"
@@ -31,7 +32,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/IMG_0338.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा-0-IMG_0338.JPG"
           alt="IMG_0338.JPG"
         />
       </figure>
@@ -80,7 +81,7 @@ const articleData = {
         म्हणजे त्या लिखाणातले काही तुकडे उचलून त्याचं चित्र काढणं, इतयया
         मर्यादित अर्थानं या विषयाचा विचार करायला नको.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/img101.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा-1-img101.jpg"
           width="249"
           height="320"
           alt="img101.jpg"
@@ -148,7 +149,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/russian.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा-2-russian.jpg"
           alt="russian.jpg"
         />
       </figure>
@@ -156,7 +157,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/english.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा-3-english.jpg"
           alt="english.jpg"
         />
       </figure>
@@ -197,7 +198,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/nbt.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा-4-nbt.jpg"
           alt="nbt.jpg"
         />
       </figure>
@@ -261,9 +262,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/IMG_0338.JPG",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रभाषा-चिन्हभाषा.JPG",
   verified: {
     marathi: true,
     english: false,

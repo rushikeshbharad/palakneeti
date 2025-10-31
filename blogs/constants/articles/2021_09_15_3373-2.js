@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Carl Sagan"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["masik-article"],
+    TAGS["Scientist"],
+  ],
   content: {
     marathi: `<article
   id="post-3373"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="220"
     height="263"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/3373-2-0-carl_sagan-photo.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/3373-2-0-carl_sagan-photo.png"
     class="aligncenter wp-post-image"
     alt="कार्ल सेगन"
     decoding="async"
@@ -55,7 +62,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-3354"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/3373-2-1-e0a4aae0a587e0a4b2-e0a4ace0a58de0a4b2e0a582-e0a4a1e0a589e0a49f.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/3373-2-1-e0a4aae0a587e0a4b2-e0a4ace0a58de0a4b2e0a582-e0a4a1e0a589e0a49f.jpg"
           alt="कार्ल सेगन"
           width="736"
           height="368"
@@ -234,7 +241,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/3373-2-2-pranjal_k.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/3373-2-2-pranjal_k.jpg"
           alt="कार्ल सेगन"
           width="102"
           height="101"
@@ -290,15 +297,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["carl-sagan"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["masik-article"],
-    TAGS["scientist"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/3373-2.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/3373-2.png",
   verified: {
     marathi: true,
     english: false,

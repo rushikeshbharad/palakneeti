@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19410"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/narhare%20(3)_0.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-शाळेतील-वाचनप्रयो-0-narhare (3)_0.JPG"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -34,7 +34,7 @@ const articleData = {
         बालशिक्षणात ज्ञानप्रकाशनं जे विविधांगी प्रयोग केले, त्यातीलच एक म्हणजे
         मुलांचं वाचन.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/narhare%20%281%29.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-शाळेतील-वाचनप्रयो-1-narhare (1).JPG"
           width="320"
           height="213"
           alt="narhare (1).JPG"
@@ -67,7 +67,7 @@ const articleData = {
         वेगवेगळे दाखवू लागल्या. तेव्हा मुलं प्रत्येक कार्डावरील नावं अगदी बरोबर
         सांगू लागली.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/narhare%20%282%29.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-शाळेतील-वाचनप्रयो-2-narhare (2).JPG"
           width="213"
           height="320"
           alt="narhare (2).JPG"
@@ -129,7 +129,7 @@ const articleData = {
         केला व त्यातच नकाशावाचनही झालं. सर्वात जास्त नावं आणलेल्या पोरस कोलगणेनं
         280 नावांची भली मोठी यादी केली.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/narhare%20%285%29.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-शाळेतील-वाचनप्रयो-3-narhare (5).JPG"
           width="320"
           height="213"
           alt="narhare (5).JPG"
@@ -245,9 +245,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/narhare (3)_0.JPG",
+  image: "",
   verified: {
     marathi: true,
     english: false,

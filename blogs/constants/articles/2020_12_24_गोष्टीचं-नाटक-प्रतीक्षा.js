@@ -1,12 +1,21 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["December - डिसेंबर २०२०"],
+    TAGS["masik-article"],
+    TAGS["Stories"],
+    TAGS["Story-telling"],
+    TAGS["Tales"],
+    TAGS["Theatre"],
+  ],
   content: {
     marathi: `<article
   id="post-2723"
   class="post-2723 post type-post status-publish format-standard has-post-thumbnail hentry category-422 category-december-- category-masik-article tag-stories tag-story-telling tag-tales tag-theatre"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         गेली 3 वर्षं आम्ही सातत्यानं टायनी टेल्स (Tiny Tales) या आमच्या
         प्रकल्पांतर्गत नाटकाच्या माध्यमातून बालसाहित्य मुलांपर्यंत पोहोचवण्याचं
@@ -44,7 +53,7 @@ const articleData = {
         <figure class="aligncenter size-large">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-0-tinytales-4.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-0-tinytales-4.jpg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2726"
           />
@@ -116,7 +125,7 @@ const articleData = {
         <figure class="aligncenter size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-1-tinytales-7.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-1-tinytales-7.jpg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2729"
             width="517"
@@ -171,7 +180,7 @@ const articleData = {
         <figure class="aligncenter size-large">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-2-tinytales-3.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-2-tinytales-3.jpg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2732"
           />
@@ -226,7 +235,7 @@ const articleData = {
         <figure class="aligncenter size-large">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-3-tinytales-2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-3-tinytales-2.jpg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2735"
           />
@@ -419,7 +428,7 @@ const articleData = {
         <figure class="aligncenter size-large">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-4-tinytales-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-4-tinytales-1.jpg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2730"
           />
@@ -469,7 +478,7 @@ const articleData = {
         <figure class="alignleft size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-5-pratiksha_khasnis.jpeg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा-5-pratiksha_khasnis.jpeg"
             alt="गोष्टीचं नाटक   |   प्रतीक्षा खासनीस"
             class="wp-image-2731"
             width="123"
@@ -530,17 +539,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["december-डिसेंबर-२०२०"],
-    TAGS["masik-article"],
-    TAGS["stories"],
-    TAGS["story-telling"],
-    TAGS["tales"],
-    TAGS["theatre"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गोष्टीचं-नाटक-प्रतीक्षा.jpg",
   verified: {
     marathi: true,
     english: false,

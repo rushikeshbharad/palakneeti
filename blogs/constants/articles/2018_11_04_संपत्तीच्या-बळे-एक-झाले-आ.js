@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov २०१८"],
+    TAGS["अतुल देऊळगावकर"],
+    TAGS["संपत्ती"],
+  ],
   content: {
     marathi: `<article
   id="post-885"
   class="post-885 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov- tag-393 tag-394"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         सत्यजित राय यांच्या ‘शाखा प्रशाखा’ चित्रपटात गावाकडे राहणार्‍या वडिलांना
         भेटायच्या निमित्ताने ‘वीक एंड’ घालवायला मुलं, सुना, नातवंडं जातात आणि
@@ -96,7 +102,7 @@ const articleData = {
           ><img
             decoding="async"
             class="size-medium wp-image-992 alignright"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ-0-atul_1.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ-0-atul_1.png"
             alt="atul_1"
             width="300"
             height="219"
@@ -295,7 +301,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright size-medium wp-image-993"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ-1-atul_2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ-1-atul_2.png"
           alt="atul_2"
           width="266"
           height="300"
@@ -386,14 +392,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-२०१८"],
-    TAGS["अतुल-देऊळगावकर"],
-    TAGS["संपत्ती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संपत्तीच्या-बळे-एक-झाले-आ.png",
   verified: {
     marathi: true,
     english: false,

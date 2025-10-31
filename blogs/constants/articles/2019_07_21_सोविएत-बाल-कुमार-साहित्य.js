@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Children's Literature"],
+    TAGS["July - जुलै २०१९"],
+    TAGS["masik-article"],
+    TAGS["Russian"],
+  ],
   content: {
     marathi: `<article
   id="post-1403"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="263"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोविएत-बाल-कुमार-साहित्य-0-russian_books-1024x301.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोविएत-बाल-कुमार-साहित्य-0-russian_books-1024x301.png"
     class="aligncenter wp-post-image"
     alt="सोविएत बाल-कुमार साहित्य : स्मरणरंजन"
     decoding="async"
@@ -166,7 +172,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1417"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोविएत-बाल-कुमार-साहित्य-1-devdutt.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोविएत-बाल-कुमार-साहित्य-1-devdutt.jpg"
           alt="Devdutt"
           width="85"
           height="85"
@@ -217,14 +223,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["childrens-literature"],
-    TAGS["july-जुलै-२०१९"],
-    TAGS["masik-article"],
-    TAGS["russian"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सोविएत-बाल-कुमार-साहित्य.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सोविएत-बाल-कुमार-साहित्य.png",
   verified: {
     marathi: true,
     english: false,

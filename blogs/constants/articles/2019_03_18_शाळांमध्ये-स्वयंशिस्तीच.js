@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["March - मार्च २०१९"],
+    TAGS["masik-article"],
+    TAGS["school"],
+    TAGS["self-discipline"],
+  ],
   content: {
     marathi: `<article
   id="post-1198"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="230"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-0-self-discipline-1024x263.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-0-self-discipline-1024x263.png"
     class="aligncenter wp-post-image"
     alt="शाळांमध्ये स्वयंशिस्तीचे तेज यायला हवे…"
     decoding="async"
@@ -35,7 +41,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1226 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-1-panopticon-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-1-panopticon-1.jpg"
           alt="Panopticon"
           width="451"
           height="329"
@@ -220,7 +226,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1224"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-2-avijit_pathak.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच-2-avijit_pathak.jpg"
           alt="Avijit_Pathak"
           width="130"
           height="150"
@@ -275,14 +281,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["march-मार्च-२०१९"],
-    TAGS["masik-article"],
-    TAGS["school"],
-    TAGS["self-discipline"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळांमध्ये-स्वयंशिस्तीच.png",
   verified: {
     marathi: true,
     english: false,

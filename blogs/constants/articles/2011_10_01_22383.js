@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22383"
@@ -31,7 +32,7 @@ const articleData = {
             decoding="async"
             alt="IMG_9478.JPG"
             height="300"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22383-0-IMG_9478.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22383-0-IMG_9478.JPG"
             width="500"
           />
         </p>
@@ -67,7 +68,7 @@ const articleData = {
             align="right"
             alt="IMG_5297.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22383-1-IMG_5296.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22383-1-IMG_5296.JPG"
             width="350"
           />
         </p>
@@ -115,7 +116,7 @@ const articleData = {
             decoding="async"
             alt="IMG_5296.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22383-2-IMG_5297.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22383-2-IMG_5297.JPG"
             width="400"
           />
         </p>
@@ -177,7 +178,7 @@ const articleData = {
             align="right"
             alt="IMG_9573.JPG"
             height="300"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22383-3-IMG_9573.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22383-3-IMG_9573.JPG"
             width="400"
           />
         </p>
@@ -294,9 +295,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22383.JPG",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22383.JPG",
   verified: {
     marathi: true,
     english: false,

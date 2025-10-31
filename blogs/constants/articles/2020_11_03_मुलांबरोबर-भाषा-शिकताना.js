@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Language"],
+    TAGS["Language Learning"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2393"
@@ -85,7 +91,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2535"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांबरोबर-भाषा-शिकताना-0-110.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांबरोबर-भाषा-शिकताना-0-110.jpg"
           alt="110"
           width="1284"
           height="1483"
@@ -158,7 +164,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2536"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांबरोबर-भाषा-शिकताना-1-111.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांबरोबर-भाषा-शिकताना-1-111.jpg"
           alt="111"
           width="107"
           height="132"
@@ -207,14 +213,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["language"],
-    TAGS["language-learning"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुलांबरोबर-भाषा-शिकताना.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुलांबरोबर-भाषा-शिकताना.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["Russian"],
+    TAGS["when daddy was a little boy"],
+  ],
   content: {
     marathi: `<article
   id="post-19130"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="517"
     height="370"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/when-daddy-makes-mistakes-0-jevha-baba-lahan-hota.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/when-daddy-makes-mistakes-0-jevha-baba-lahan-hota.jpg"
     class="aligncenter wp-post-image"
     alt="बाबा चूक करतो तेव्हा…"
     decoding="async"
@@ -147,7 +156,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-19136"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/when-daddy-makes-mistakes-1-preeti-pushpa-prakash.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/when-daddy-makes-mistakes-1-preeti-pushpa-prakash.jpg"
           alt="बाबा चूक करतो तेव्हा…"
           width="100"
           height="124"
@@ -201,17 +210,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["russian"],
-    TAGS["when-daddy-was-a-little-boy"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/when-daddy-makes-mistakes.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/when-daddy-makes-mistakes.jpg",
   verified: {
     marathi: true,
     english: false,

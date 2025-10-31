@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१९"],
+    TAGS["Education System"],
+    TAGS["India"],
+    TAGS["Indian Education"],
+    TAGS["masik-article"],
+    TAGS["Reality"],
+  ],
   content: {
     marathi: `<article
   id="post-1445"
@@ -185,7 +193,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1224"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-शिक्षणाचं-वास्त-0-avijit_pathak.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारतातील-शिक्षणाचं-वास्त-0-avijit_pathak.jpg"
           alt="Avijit_Pathak"
           width="130"
           height="150"
@@ -237,16 +245,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१९"],
-    TAGS["education-system"],
-    TAGS["india"],
-    TAGS["indian-education"],
-    TAGS["masik-article"],
-    TAGS["reality"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारतातील-शिक्षणाचं-वास्त.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारतातील-शिक्षणाचं-वास्त.jpg",
   verified: {
     marathi: true,
     english: false,

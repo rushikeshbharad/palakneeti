@@ -1,5 +1,16 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["covid"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+    TAGS["Online Classes"],
+    TAGS["online learning"],
+    TAGS["कोरोना"],
+    TAGS["संकट"],
+  ],
   content: {
     marathi: `<article
   id="post-2014"
@@ -334,7 +345,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-2016"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संकटातील-संधी-आणि-संधीती-0-shobhana-bhide.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संकटातील-संधी-आणि-संधीती-0-shobhana-bhide.jpg"
           alt="Shobhana Bhide"
           width="119"
           height="150"
@@ -376,19 +387,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["covid"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-    TAGS["online-classes"],
-    TAGS["online-learning"],
-    TAGS["कोरोना"],
-    TAGS["संकट"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संकटातील-संधी-आणि-संधीती.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संकटातील-संधी-आणि-संधीती.jpg",
   verified: {
     marathi: true,
     english: false,

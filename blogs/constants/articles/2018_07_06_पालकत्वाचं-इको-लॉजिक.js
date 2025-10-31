@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["eco-logic"],
+    TAGS["ecology"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-527"
@@ -11,7 +17,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-572 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचं-इको-लॉजिक-0-ecologic_1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचं-इको-लॉजिक-0-ecologic_1.jpg"
           alt="ecologic_1"
           width="344"
           height="393"
@@ -188,7 +194,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-309"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचं-इको-लॉजिक-1-null.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचं-इको-लॉजिक-1-null.jpeg"
           alt="null"
           width="109"
           height="109"
@@ -235,14 +241,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["eco-logic"],
-    TAGS["ecology"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्वाचं-इको-लॉजिक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्वाचं-इको-लॉजिक.jpg",
   verified: {
     marathi: true,
     english: false,

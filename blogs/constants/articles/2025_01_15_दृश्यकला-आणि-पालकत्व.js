@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25697"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="192"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व-0-drushkala-ani-palktwa-300x192-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व-0-drushkala-ani-palktwa-300x192-1.jpg"
           alt="दृश्यकला आणि पालकत्व"
           class="wp-image-27017"
           style="width: 188px; height: 119px"
@@ -79,7 +86,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="792"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व-1-drushkala-ani-palktwa3-1-1024x792.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व-1-drushkala-ani-palktwa3-1-1024x792.jpg"
           alt="दृश्यकला आणि पालकत्व"
           class="wp-image-25703"
           style="width: 332px; height: 256px"
@@ -115,7 +122,7 @@ const articleData = {
           decoding="async"
           width="300"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व-2-drushkala-ani-palktwa2-300x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व-2-drushkala-ani-palktwa2-300x300-1.jpg"
           alt="दृश्यकला आणि पालकत्व"
           class="wp-image-27018"
           style="width: 236px; height: 236px"
@@ -151,7 +158,7 @@ const articleData = {
           decoding="async"
           width="498"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व-3-drushkala-ani-palktwa4-498x1024-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व-3-drushkala-ani-palktwa4-498x1024-1.jpg"
           alt="दृश्यकला आणि पालकत्व"
           class="wp-image-27019"
           style="width: 195px; height: 400px"
@@ -246,7 +253,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व-4-jai-dewalalkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व-4-jai-dewalalkar.jpg"
           alt="दृश्यकला आणि पालकत्व"
           class="wp-image-25735"
           style="width: 94px; height: 117px"
@@ -295,15 +302,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दृश्यकला-आणि-पालकत्व.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दृश्यकला-आणि-पालकत्व.jpg",
   verified: {
     marathi: true,
     english: false,

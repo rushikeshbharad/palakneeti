@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Gender"],
+    TAGS["Gender in Parents"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+    TAGS["Parenting Role and Gender"],
+  ],
   content: {
     marathi: `<article
   id="post-17886"
@@ -175,8 +182,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-माणूस-बाप-माणूस-0-null.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आई-माणूस-बाप-माणूस-0-null.jpeg"
           alt="आई माणूस – बाप माणूस"
           width="90"
           height="90"
@@ -224,15 +230,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["gender"],
-    TAGS["gender-in-parents"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-    TAGS["parenting-role-and-gender"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आई-माणूस-बाप-माणूस.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आई-माणूस-बाप-माणूस.jpeg",
   verified: {
     marathi: true,
     english: false,

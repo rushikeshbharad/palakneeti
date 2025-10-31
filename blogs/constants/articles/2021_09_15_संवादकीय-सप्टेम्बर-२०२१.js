@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["editorial"],
+    TAGS["masik-article"],
+    TAGS["Samvaadkiya"],
+    TAGS["September - सप्टेंबर २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-3239"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="597"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-सप्टेम्बर-२०२१-0-a_savage_future-1024x683.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-सप्टेम्बर-२०२१-0-a_savage_future-1024x683.jpg"
     class="aligncenter wp-post-image"
     alt="Photo Credit: https://images.newindianexpress.com/uploads/user/imagelibrary/2021/8/20/w1200X800/A_Savage_Future.jpg"
     decoding="async"
@@ -135,15 +142,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["editorial"],
-    TAGS["masik-article"],
-    TAGS["samvaadkiya"],
-    TAGS["september-सप्टेंबर-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-सप्टेम्बर-२०२१.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-सप्टेम्बर-२०२१.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["cultural politics of language"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["Gender"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3366"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="631"
     height="298"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गं-भा-0-g.b.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गं-भा-0-g.b.png"
     class="aligncenter wp-post-image"
     alt="गं. भा."
     decoding="async"
@@ -152,7 +160,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-3206"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गं-भा-1-anjanikher.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गं-भा-1-anjanikher.png"
           alt="गं. भा."
           width="101"
           height="126"
@@ -203,16 +211,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["cultural-politics-of-language"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["gender"],
-    TAGS["language"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गं-भा.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गं-भा.png",
   verified: {
     marathi: true,
     english: false,

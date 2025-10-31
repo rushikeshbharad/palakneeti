@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["Feedback"],
+    TAGS["masik-article"],
+    TAGS["Reader's Feedback"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -9,7 +16,7 @@ const articleData = {
   <img
     width="641"
     height="272"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/jod-ank-2022-feedback-0-jod-ankabadal.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/jod-ank-2022-feedback-0-jod-ankabadal.jpg"
     class="aligncenter wp-post-image"
     alt="2022 जोडअंकाबद्दल वाचक लिहितात"
     decoding="async"
@@ -130,15 +137,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["feedback"],
-    TAGS["masik-article"],
-    TAGS["readers-feedback"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/jod-ank-2022-feedback.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/jod-ank-2022-feedback.jpg",
   verified: {
     marathi: false,
     english: true,

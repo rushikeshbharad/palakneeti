@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Bird-watching"],
+    TAGS["Birds"],
+    TAGS["Book Review"],
+    TAGS["June - जून २०१८"],
+    TAGS["masik-article"],
+    TAGS["Salim Ali"],
+  ],
   content: {
     marathi: `<article
   id="post-521"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="458"
     height="458"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-0-bookcover.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-0-bookcover.jpg"
     class="aligncenter wp-post-image"
     alt="सलीममामू अँड मी – पुस्तक परिचय"
     decoding="async"
@@ -16,13 +24,13 @@ const articleData = {
   />
 
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         <strong
           ><img
             decoding="async"
             class="wp-image-564 alignright"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-1-bookreview.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-1-bookreview.jpg"
             alt="BookReview"
             width="296"
             height="337"
@@ -99,7 +107,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-554"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-2-roshni-ravi-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर-2-roshni-ravi-1.jpg"
           alt="Roshni Ravi (1)"
           width="84"
           height="101"
@@ -147,16 +155,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["bird-watching"],
-    TAGS["birds"],
-    TAGS["book-review"],
-    TAGS["june-जून-२०१८"],
-    TAGS["masik-article"],
-    TAGS["salim-ali"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सलीममामू-अँड-मी-पुस्तक-पर.jpg",
   verified: {
     marathi: true,
     english: false,

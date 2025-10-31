@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik"],
+    TAGS["masik-article"],
+    TAGS["tribute"],
+  ],
   content: {
     marathi: `<article
   id="post-19173"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="236"
     height="310"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-ila-bhatt-0-ela-bhat.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-ila-bhatt-0-ela-bhat.jpg"
     class="aligncenter wp-post-image"
     alt="आदरांजली – पद्मभूषण इला भट्ट"
     decoding="async"
@@ -78,15 +85,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik"],
-    TAGS["masik-article"],
-    TAGS["tribute"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/tribute-ila-bhatt.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/tribute-ila-bhatt.jpg",
   verified: {
     marathi: true,
     english: false,

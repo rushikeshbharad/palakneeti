@@ -1,12 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["palakneeti"], TAGS["video"]],
   content: {
     marathi: `<article
   id="post-24398"
   class="post-24398 post type-post status-publish format-standard hentry category-palakneeti category-video"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <p>‘<strong>निवडक पालकनीती’&nbsp; पुस्तकाचा प्रकाशन सोहळा – </strong></p>
 
       <p>
@@ -80,7 +81,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"], TAGS["video"]],
   image: null,
   verified: {
     marathi: true,

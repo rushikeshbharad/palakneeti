@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["June - जून २०२२"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-18799"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="427"
     height="412"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/shala-0-Sudhir_Bedekar.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/shala-0-Sudhir_Bedekar.png"
     class="aligncenter wp-post-image"
     alt="शाळा"
     decoding="async"
@@ -260,7 +266,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18820"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/shala-1-Sudhir_Bedekar-300x289.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/shala-1-Sudhir_Bedekar-300x289.png"
           alt="शाळा"
           width="120"
           height="116"
@@ -302,14 +308,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["june-जून-२०२२"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/shala.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/shala.png",
   verified: {
     marathi: true,
     english: false,

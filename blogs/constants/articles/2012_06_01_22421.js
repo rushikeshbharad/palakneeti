@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22421"
@@ -21,8 +22,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22421-0-baba-cover.jpg"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22421-0-baba-cover.jpg"
                 width="150"
               />
             </div>
@@ -43,7 +43,7 @@ const articleData = {
             align="”right”"
             alt="Kaku-bal-cover.jpg"
             height="236"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22421-1-Kaku-bal-cover.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22421-1-Kaku-bal-cover.jpg"
             width="305"
           />
         </p>
@@ -69,7 +69,7 @@ const articleData = {
             align="”right”"
             alt="baba-2.gif"
             height="175"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22421-2-baba-2.gif"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22421-2-baba-2.gif"
             width="136"
           />‘काकूचं बाळ’ या पुस्तकात बाळ आणि लहानगी ताई आहे. घरी आलेल्या
           बाळामुळे बदललेलं वातावरण, बाळाभोवती मोठ्यांचं केंद्रित झालेलं लक्ष,
@@ -115,9 +115,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22421.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22421.jpg",
   verified: {
     marathi: true,
     english: false,

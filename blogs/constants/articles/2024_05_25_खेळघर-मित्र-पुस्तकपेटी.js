@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["Khelghar"], TAGS["khelghar-news"], TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-25111"
@@ -77,7 +78,7 @@ const articleData = {
                 decoding="async"
                 width="1024"
                 height="768"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-0-PHOTO-2024-05-24-12-43-10-2-1024x768.jpeg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-0-PHOTO-2024-05-24-12-43-10-2-1024x768.jpeg"
                 alt="खेळघर मित्र – पुस्तकपेटी"
                 data-id="25112"
                 class="wp-image-25112"
@@ -91,7 +92,7 @@ const articleData = {
                 decoding="async"
                 width="1024"
                 height="768"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-1-PHOTO-2024-05-24-12-43-10-1024x768.jpeg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-1-PHOTO-2024-05-24-12-43-10-1024x768.jpeg"
                 alt="खेळघर मित्र – पुस्तकपेटी"
                 data-id="25114"
                 data-full-url="https://palakneeti.in/wp-content/uploads/2024/05/PHOTO-2024-05-24-12-43-10.jpeg"
@@ -107,7 +108,7 @@ const articleData = {
                 decoding="async"
                 width="1024"
                 height="768"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-2-PHOTO-2024-05-24-12-43-09-2-1024x768.jpeg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-2-PHOTO-2024-05-24-12-43-09-2-1024x768.jpeg"
                 alt="खेळघर मित्र – पुस्तकपेटी"
                 data-id="25115"
                 data-full-url="https://palakneeti.in/wp-content/uploads/2024/05/PHOTO-2024-05-24-12-43-09-2.jpeg"
@@ -124,7 +125,7 @@ const articleData = {
                 decoding="async"
                 width="1024"
                 height="768"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-3-PHOTO-2024-05-24-12-43-09-1024x768.jpeg"
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-पुस्तकपेटी-3-PHOTO-2024-05-24-12-43-09-1024x768.jpeg"
                 alt="खेळघर मित्र – पुस्तकपेटी"
                 data-id="25116"
                 data-full-url="https://palakneeti.in/wp-content/uploads/2024/05/PHOTO-2024-05-24-12-43-09.jpeg"
@@ -170,9 +171,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["khelghar"], TAGS["khelghar-news"], TAGS["palakneeti"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/खेळघर-मित्र-पुस्तकपेटी.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/खेळघर-मित्र-पुस्तकपेटी.jpeg",
   verified: {
     marathi: true,
     english: false,

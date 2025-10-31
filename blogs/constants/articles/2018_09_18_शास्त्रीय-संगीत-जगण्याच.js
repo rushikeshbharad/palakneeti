@@ -1,5 +1,16 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["carnatic music"],
+    TAGS["classical music"],
+    TAGS["masik-article"],
+    TAGS["music"],
+    TAGS["music as way of life"],
+    TAGS["September - सप्टेंबर २०१८"],
+    TAGS["singing"],
+    TAGS["T M Krishna"],
+    TAGS["way of life"],
+  ],
   content: {
     marathi: `<article
   id="post-798"
@@ -101,7 +112,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-823"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्रीय-संगीत-जगण्याच-0-prema.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शास्त्रीय-संगीत-जगण्याच-0-prema.jpg"
           alt="Prema"
           width="98"
           height="146"
@@ -126,7 +137,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-860 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्रीय-संगीत-जगण्याच-1-tmk.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शास्त्रीय-संगीत-जगण्याच-1-tmk.jpg"
           alt="TMK"
           width="238"
           height="179"
@@ -187,19 +198,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["carnatic-music"],
-    TAGS["classical-music"],
-    TAGS["masik-article"],
-    TAGS["music"],
-    TAGS["music-as-way-of-life"],
-    TAGS["september-सप्टेंबर-२०१८"],
-    TAGS["singing"],
-    TAGS["t-m-krishna"],
-    TAGS["way-of-life"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्रीय-संगीत-जगण्याच.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शास्त्रीय-संगीत-जगण्याच.jpg",
   verified: {
     marathi: true,
     english: false,

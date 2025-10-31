@@ -1,12 +1,19 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov २०१८"],
+    TAGS["अर्थव्यवस्था"],
+    TAGS["ग्राहक"],
+    TAGS["निसर्ग"],
+  ],
   content: {
     marathi: `<article
   id="post-889"
   class="post-889 post type-post status-publish format-standard hentry category-masik-article category-oct-nov- tag-395 tag-396 tag-397"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         ‘शाश्वत विकास’ ही संज्ञा सध्या वारंवार कानावर पडते. आधुनिक जीवनशैली
         शाश्वत नाही हे आता सर्वांनाच जाणवते. जगाला भेडसावणार्‍या पर्यावरणीय
@@ -70,7 +77,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-964"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-0-gurudas_image1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-0-gurudas_image1.png"
           alt="Gurudas_image1.png"
           width="679"
           height="477"
@@ -126,7 +133,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-large wp-image-965"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-1-gurudas_image2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-1-gurudas_image2.png"
           alt="Gurudas_image2"
           width="1024"
           height="639"
@@ -152,7 +159,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-967 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-2-gurudas_image4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह-2-gurudas_image4.png"
           alt="Gurudas_image4"
           width="726"
           height="447"
@@ -309,15 +316,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-२०१८"],
-    TAGS["अर्थव्यवस्था"],
-    TAGS["ग्राहक"],
-    TAGS["निसर्ग"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अर्थव्यवस्था-निसर्गर्‍ह.png",
   verified: {
     marathi: true,
     english: false,

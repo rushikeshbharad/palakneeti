@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["डिसेंबर २०२४"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25634"
@@ -68,7 +75,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="488"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्तीच्या-अंगणात-0-श्रीबा-1024x488-1.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अभिव्यक्तीच्या-अंगणात-0-श्रीबा-1024x488-1.jpeg"
           alt="अभिव्यक्तीच्या अंगणात"
           class="wp-image-26982"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -274,7 +281,7 @@ const articleData = {
           decoding="async"
           width="563"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्तीच्या-अंगणात-1-abhivyktichya-anganat1-563x1024-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अभिव्यक्तीच्या-अंगणात-1-abhivyktichya-anganat1-563x1024-1.jpg"
           alt="अभिव्यक्तीच्या अंगणात"
           class="wp-image-26984"
           style="width: 236px; height: 429px"
@@ -359,7 +366,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्तीच्या-अंगणात-2-shriniwas-balkrishna.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अभिव्यक्तीच्या-अंगणात-2-shriniwas-balkrishna.jpg"
           alt="अभिव्यक्तीच्या अंगणात"
           class="wp-image-26996"
           style="width: 82px; height: 101px"
@@ -401,15 +408,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["डिसेंबर-२०२४"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अभिव्यक्तीच्या-अंगणात.jpeg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["Letter to parents"],
+    TAGS["masik-article"],
+    TAGS["September – सप्टेम्बर २०२२"],
+    TAGS["teenager"],
+  ],
   content: {
     marathi: `<article
   id="post-18749"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="426"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/letter_to_parents-0-woman-writing-1135x540-1-1024x487.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/letter_to_parents-0-woman-writing-1135x540-1-1024x487.jpg"
     class="aligncenter wp-post-image"
     alt="प्रिय आईबाबा…"
     decoding="async"
@@ -206,15 +213,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["letter-to-parents"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०२२"],
-    TAGS["teenager"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/letter_to_parents.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/letter_to_parents.jpg",
   verified: {
     marathi: true,
     english: false,

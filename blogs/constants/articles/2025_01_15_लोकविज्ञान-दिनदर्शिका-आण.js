@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25709"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="512"
           height="512"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण-0-cropped-logo-black-and-white.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण-0-cropped-logo-black-and-white.png"
           alt="लोकविज्ञान दिनदर्शिका आणि सह-पुस्तिका २०२५"
           class="wp-image-25872"
           style="width: 246px"
@@ -36,7 +43,7 @@ const articleData = {
           decoding="async"
           width="512"
           height="512"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण-1-cropped-logo-black-and-white.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण-1-cropped-logo-black-and-white.png"
           alt="लोकविज्ञान दिनदर्शिका आणि सह-पुस्तिका २०२५"
           class="wp-image-25872"
           style="width: 221px"
@@ -101,15 +108,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लोकविज्ञान-दिनदर्शिका-आण.png",
   verified: {
     marathi: true,
     english: false,

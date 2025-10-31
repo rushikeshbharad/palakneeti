@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3486"
@@ -305,7 +312,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3440"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषाविकासाचा-सुदृढ-पाया-0-pallavi_bapat_pinge.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषाविकासाचा-सुदृढ-पाया-0-pallavi_bapat_pinge.png"
           alt="Pallavi_Bapat_Pinge"
           width="85"
           height="98"
@@ -357,15 +364,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["february-फेब्रुवारी-२०२२"],
-    TAGS["language"],
-    TAGS["language-development"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भाषाविकासाचा-सुदृढ-पाया.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भाषाविकासाचा-सुदृढ-पाया.png",
   verified: {
     marathi: true,
     english: false,

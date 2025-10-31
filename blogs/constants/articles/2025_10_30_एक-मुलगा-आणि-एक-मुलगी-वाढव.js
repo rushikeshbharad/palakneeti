@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27886"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="279"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-0-ek-mulga-ek-mulgi-wadhawtana-1024x319.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-0-ek-mulga-ek-mulgi-wadhawtana-1024x319.jpg"
     class="aligncenter wp-post-image"
     alt="एक मुलगा आणि एक मुलगी वाढवताना"
     decoding="async"
@@ -142,7 +151,7 @@ const articleData = {
           decoding="async"
           width="995"
           height="995"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-1-ek-mulga-ek-mulgi-wadhawtana2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-1-ek-mulga-ek-mulgi-wadhawtana2.jpg"
           alt="एक मुलगा आणि एक मुलगी वाढवताना"
           class="wp-image-27887"
           style="width: 307px; height: auto"
@@ -189,7 +198,7 @@ const articleData = {
           decoding="async"
           width="885"
           height="932"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-2-ek-mulga-ek-mulgi-wadhawtana3.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-2-ek-mulga-ek-mulgi-wadhawtana3.jpg"
           alt="एक मुलगा आणि एक मुलगी वाढवताना"
           class="wp-image-27888"
           style="width: 214px; height: auto"
@@ -315,7 +324,7 @@ const articleData = {
           decoding="async"
           width="955"
           height="712"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-3-ek-mulga-ek-mulgi-wadhawtana4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-3-ek-mulga-ek-mulgi-wadhawtana4.jpg"
           alt="एक मुलगा आणि एक मुलगी वाढवताना"
           class="wp-image-27889"
           style="width: 282px; height: auto"
@@ -359,7 +368,7 @@ const articleData = {
             decoding="async"
             width="219"
             height="271"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-4-kshama-rahirkar.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव-4-kshama-rahirkar.jpg"
             alt="एक मुलगा आणि एक मुलगी वाढवताना"
             class="wp-image-27890"
             style="width: 82px; height: auto"
@@ -386,7 +395,7 @@ const articleData = {
         class="gsp_post_data"
         data-post_type="post"
         data-cat="2024,masik-article,palakneeti,%e0%a4%91%e0%a4%95%e0%a5%8d%e0%a4%9f%e0%a5%8b%e0%a4%ac%e0%a4%b0-%e0%a4%a8%e0%a5%8b%e0%a4%b5%e0%a5%8d%e0%a4%b9%e0%a5%87%e0%a4%82%e0%a4%ac%e0%a4%b0-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%9c,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a5%a8%e0%a5%a6%e0%a5%a8%e0%a5%aa-%e0%a4%b2%e0%a5%87%e0%a4%96,%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b3%e0%a5%80-%e0%a4%85%e0%a4%82%e0%a4%95-2,%e0%a4%aa%e0%a4%be%e0%a4%b2%e0%a4%95%e0%a4%a8%e0%a5%80%e0%a4%a4%e0%a5%80"
-        data-modified="59"
+        data-modified="120"
         data-title="एक मुलगा आणि एक मुलगी वाढवताना"
         data-home="https://palakneeti.in"
       ></div>
@@ -416,17 +425,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/एक-मुलगा-आणि-एक-मुलगी-वाढव.jpg",
   verified: {
     marathi: true,
     english: false,

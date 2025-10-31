@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["editorial"],
+    TAGS["February - फेब्रुवारी २०१९"],
+    TAGS["masik-article"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-1144"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="385"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-फेब्रुवारी-२०१-2-0-img_0380-e1550947707874-385x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-फेब्रुवारी-२०१-2-0-img_0380-e1550947707874-385x1024.jpg"
     class="aligncenter wp-post-image"
     alt="संवादकीय – फेब्रुवारी २०१९"
     decoding="async"
@@ -103,14 +109,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["editorial"],
-    TAGS["february-फेब्रुवारी-२०१९"],
-    TAGS["masik-article"],
-    TAGS["uncategorized"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संवादकीय-फेब्रुवारी-२०१-2.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संवादकीय-फेब्रुवारी-२०१-2.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19514"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/scan0001.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-भीमायन-0-scan0001.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -42,7 +42,7 @@ const articleData = {
         अर्थवाही बनवायला मदत करते. आपण पानापानात दीर्घकाळ रेंगाळतो, घुटमळतो आणि
         नकळत प्रश्नात शिरतो.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/News-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-भीमायन-1-News-2.jpg"
           width="218"
           height="348"
           alt="News-2.jpg"
@@ -86,7 +86,7 @@ const articleData = {
         आहेत, तसे आंबेडकरांचे आणि भारतातील लाखो दलितांचे अनुभव समोर यायला हवेत.
         तरच पुस्तक काढण्यामागचा हेतू साध्य होईल.’<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/News-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-भीमायन-2-News-1.jpg"
           width="200"
           height="300"
           alt="News-1.jpg"
@@ -109,7 +109,7 @@ const articleData = {
         आंबेडकरांच्या जन्मसाली घेऊन जाते. तेव्हाची सामाजिक परिस्थिती आणि
         दलितांचं जिणं याविषयी सांगते.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/scan0005.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-भीमायन-3-scan0005.jpg"
           width="290"
           height="448"
           alt="scan0005.jpg"
@@ -206,9 +206,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/scan0001.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

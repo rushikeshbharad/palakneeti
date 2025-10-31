@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१९"],
+    TAGS["English"],
+    TAGS["masik-article"],
+    TAGS["Trusting Children"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -53,7 +59,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1276 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/trusting-children-0-trusting_children.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/trusting-children-0-trusting_children.png"
           alt="Trusting_Children"
           width="469"
           height="364"
@@ -162,7 +168,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1278"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/trusting-children-1-nikhil_bangera.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/trusting-children-1-nikhil_bangera.jpg"
           alt="Nikhil_Bangera"
           width="88"
           height="108"
@@ -219,14 +225,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१९"],
-    TAGS["english"],
-    TAGS["masik-article"],
-    TAGS["trusting-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/trusting-children.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/trusting-children.png",
   verified: {
     marathi: false,
     english: true,

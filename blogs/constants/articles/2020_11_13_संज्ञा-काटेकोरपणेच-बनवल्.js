@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2416"
@@ -296,7 +302,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2437"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संज्ञा-काटेकोरपणेच-बनवल्-0-11.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संज्ञा-काटेकोरपणेच-बनवल्-0-11.jpg"
           alt="संज्ञा काटेकोरपणेच बनवल्या पाहिजेत    |   राजीव साने"
           width="83"
           height="103"
@@ -345,14 +351,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संज्ञा-काटेकोरपणेच-बनवल्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संज्ञा-काटेकोरपणेच-बनवल्.jpg",
   verified: {
     marathi: true,
     english: false,

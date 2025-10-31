@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Brain"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Neuroscience"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2423"
@@ -120,7 +128,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2529"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेंदूच्या-भाषेत-0-104.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेंदूच्या-भाषेत-0-104.jpg"
           alt="मेंदूच्या भाषेत    |    डॉ. श्रुती पानसे"
           width="736"
           height="363"
@@ -192,7 +200,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2530"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेंदूच्या-भाषेत-1-105.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेंदूच्या-भाषेत-1-105.jpg"
           alt="मेंदूच्या भाषेत    |    डॉ. श्रुती पानसे"
           width="106"
           height="131"
@@ -206,7 +214,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2628"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेंदूच्या-भाषेत-2-rameshdhanokar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेंदूच्या-भाषेत-2-rameshdhanokar.jpg"
           alt="RameshDhanokar"
           width="104"
           height="114"
@@ -248,16 +256,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["brain"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["neuroscience"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेंदूच्या-भाषेत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेंदूच्या-भाषेत.jpg",
   verified: {
     marathi: true,
     english: false,

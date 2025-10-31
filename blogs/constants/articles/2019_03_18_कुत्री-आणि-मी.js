@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["March - मार्च २०१९"], TAGS["masik-article"], TAGS["Pet Animal"]],
   content: {
     marathi: `<article
   id="post-1212"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="473"
     height="485"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुत्री-आणि-मी-0-kutra_aani_mi.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुत्री-आणि-मी-0-kutra_aani_mi.png"
     class="aligncenter wp-post-image"
     alt="कुत्री आणि मी"
     decoding="async"
@@ -172,7 +173,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1227"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुत्री-आणि-मी-1-prasanna_dabholkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुत्री-आणि-मी-1-prasanna_dabholkar.jpg"
           alt="Prasanna_dabholkar"
           width="106"
           height="122"
@@ -219,9 +220,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["march-मार्च-२०१९"], TAGS["masik-article"], TAGS["pet-animal"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुत्री-आणि-मी.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुत्री-आणि-मी.png",
   verified: {
     marathi: true,
     english: false,

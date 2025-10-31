@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["announcement"],
+    TAGS["announcement"],
+    TAGS["Khelghar"],
+    TAGS["khelghar-news"],
+    TAGS["news"],
+    TAGS["palakneeti"],
+  ],
   content: {
     marathi: `<article
   id="post-24671"
@@ -14,7 +22,7 @@ const articleData = {
           decoding="async"
           width="802"
           height="604"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवदुर्गा-पुरस्कार-0-397995062_6752135208201391_3426637794741649094_n.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवदुर्गा-पुरस्कार-0-397995062_6752135208201391_3426637794741649094_n.jpg"
           alt="नवदुर्गा पुरस्कार…."
           class="wp-image-24673"
           sizes="(max-width: 802px) 100vw, 802px"
@@ -26,7 +34,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="456"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवदुर्गा-पुरस्कार-1-WhatsApp-Image-2023-11-04-at-9.37.29-AM-1024x456.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवदुर्गा-पुरस्कार-1-WhatsApp-Image-2023-11-04-at-9.37.29-AM-1024x456.jpeg"
           alt="नवदुर्गा पुरस्कार…."
           class="wp-image-24674"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -119,16 +127,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["announcement"],
-    TAGS["announcement-news"],
-    TAGS["khelghar"],
-    TAGS["khelghar-news"],
-    TAGS["news"],
-    TAGS["palakneeti"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवदुर्गा-पुरस्कार.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवदुर्गा-पुरस्कार.jpg",
   verified: {
     marathi: true,
     english: false,

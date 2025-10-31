@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["online"],
+    TAGS["online story-telling"],
+    TAGS["September - सप्टेंबर २०२१"],
+    TAGS["Story-telling"],
+  ],
   content: {
     marathi: `<article
   id="post-3235"
@@ -275,7 +282,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2994"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-स्टोरीटेलिंग-अर्-0-manasee_mahajan.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑनलाईन-स्टोरीटेलिंग-अर्-0-manasee_mahajan.jpg"
           alt="Manasee_Mahajan"
           width="91"
           height="106"
@@ -325,15 +332,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["online"],
-    TAGS["online-story-telling"],
-    TAGS["september-सप्टेंबर-२०२१"],
-    TAGS["story-telling"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-स्टोरीटेलिंग-अर्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑनलाईन-स्टोरीटेलिंग-अर्.jpg",
   verified: {
     marathi: true,
     english: false,

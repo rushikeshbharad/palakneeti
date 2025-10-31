@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२५ - June 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27550"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="401"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-0-itihas-bodh-ki-apradh-2-1024x459.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-0-itihas-bodh-ki-apradh-2-1024x459.jpg"
     class="aligncenter wp-post-image"
     alt="इतिहासबोध की अपराधबोधॽ"
     decoding="async"
@@ -309,7 +316,7 @@ const articleData = {
           decoding="async"
           width="853"
           height="683"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-1-itihas-bodh-ki-apradh-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-1-itihas-bodh-ki-apradh-1.jpg"
           alt="इतिहासबोध की अपराधबोधॽ"
           class="wp-image-27552"
           style="width: 284px; height: auto"
@@ -324,7 +331,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-2-maithili-dekhane-joshi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासबोध-की-अपराधबोधॽ-2-maithili-dekhane-joshi.jpg"
           alt="इतिहासबोध की अपराधबोधॽ"
           class="wp-image-27553"
           style="width: 99px; height: auto"
@@ -371,15 +378,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२५-june-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासबोध-की-अपराधबोधॽ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासबोध-की-अपराधबोधॽ.jpg",
   verified: {
     marathi: true,
     english: false,

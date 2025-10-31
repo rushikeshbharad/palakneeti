@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["history"],
+    TAGS["masik-article"],
+    TAGS["memories"],
+    TAGS["religion"],
+  ],
   content: {
     marathi: `<article
   id="post-746"
@@ -125,7 +132,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-765 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासाचा-धडा-0-mohib_kadri.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासाचा-धडा-0-mohib_kadri.png"
           alt="Mohib_Kadri"
           width="88"
           height="121"
@@ -166,15 +173,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["history"],
-    TAGS["masik-article"],
-    TAGS["memories"],
-    TAGS["religion"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/इतिहासाचा-धडा.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/इतिहासाचा-धडा.png",
   verified: {
     marathi: true,
     english: false,

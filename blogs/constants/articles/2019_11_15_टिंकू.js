@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1549"
   class="post-1549 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         सकाळी असो की दुपारी असो, झोपेतून उठल्यावर डोळे उघडण्याआधी पहिलं भोकाड
         पसरायचं असतं, असं टिंकूला वाटतं. त्याशिवाय तो जागाच होत नाही.
@@ -53,7 +59,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-large wp-image-1667"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टिंकू-0-tinku1-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/टिंकू-0-tinku1-1.png"
           alt="Tinku1"
           width="591"
           height="1024"
@@ -111,7 +117,7 @@ const articleData = {
         <img
           decoding="async"
           class="aligncenter size-large wp-image-1646"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टिंकू-1-tinku2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/टिंकू-1-tinku2.png"
           alt="Tinku2"
           width="1024"
           height="667"
@@ -159,14 +165,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टिंकू.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/टिंकू.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["April 2025 - एप्रिल २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["parenting"],
+    TAGS["Self-discovery"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27306"
@@ -12,7 +21,7 @@ const articleData = {
           decoding="async"
           width="699"
           height="571"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-मी-मला-गवसले-0-ani-me-mala-gavasale.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-मी-मला-गवसले-0-ani-me-mala-gavasale.jpg"
           alt="…आणि मी मला गवसले!"
           class="wp-image-27308"
           style="width: 213px; height: auto"
@@ -160,7 +169,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-मी-मला-गवसले-1-kavita-elango.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-मी-मला-गवसले-1-kavita-elango.jpg"
           alt="…आणि मी मला गवसले!"
           class="wp-image-27307"
           style="width: 93px; height: auto"
@@ -211,17 +220,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["april-2025-एप्रिल-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["parenting"],
-    TAGS["self-discovery"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आणि-मी-मला-गवसले.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आणि-मी-मला-गवसले.jpg",
   verified: {
     marathi: true,
     english: false,

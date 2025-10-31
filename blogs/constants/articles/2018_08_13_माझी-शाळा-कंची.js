@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["education"],
+    TAGS["masik-article"],
+    TAGS["religion"],
+    TAGS["school"],
+    TAGS["secular"],
+  ],
   content: {
     marathi: `<article
   id="post-752"
@@ -88,7 +96,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-762 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझी-शाळा-कंची-0-amar_habib.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझी-शाळा-कंची-0-amar_habib.png"
             alt="Amar_Habib"
             width="104"
             height="138"
@@ -134,16 +142,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["education"],
-    TAGS["masik-article"],
-    TAGS["religion"],
-    TAGS["school"],
-    TAGS["secular"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझी-शाळा-कंची.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझी-शाळा-कंची.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Life Journey"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०१८"],
+    TAGS["Theatre"],
+  ],
   content: {
     marathi: `<article
   id="post-804"
@@ -128,7 +134,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-858"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाट्यकला-जगणे-समृद्ध-करण-0-dr-nitin-jadhav.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाट्यकला-जगणे-समृद्ध-करण-0-dr-nitin-jadhav.jpg"
           alt="Dr. Nitin Jadhav"
           width="91"
           height="96"
@@ -178,14 +184,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["life-journey"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०१८"],
-    TAGS["theatre"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाट्यकला-जगणे-समृद्ध-करण.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाट्यकला-जगणे-समृद्ध-करण.jpg",
   verified: {
     marathi: true,
     english: false,

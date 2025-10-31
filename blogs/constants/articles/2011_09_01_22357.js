@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22357"
@@ -50,7 +51,7 @@ const articleData = {
             align="right"
             alt="Anna-3.jpg"
             height="150"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22357-0-Anna-3.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22357-0-Anna-3.jpg"
             width="400"
           /><br />
           ‘मजा येते’, ‘मी इंग्रजीत बोलायला लागलो की आईला लै भारी वाटतं’, अशी
@@ -87,7 +88,7 @@ const articleData = {
             align="left"
             alt="Anna-1.jpg"
             height="200"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22357-1-Anna-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22357-1-Anna-1.jpg"
             width="400"
           />
         </p>
@@ -155,9 +156,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22357.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22357.jpg",
   verified: {
     marathi: true,
     english: false,

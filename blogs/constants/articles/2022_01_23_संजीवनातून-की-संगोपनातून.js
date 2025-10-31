@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3439"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="541"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संजीवनातून-की-संगोपनातून-0-nature-vs-nurture-1024x619.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संजीवनातून-की-संगोपनातून-0-nature-vs-nurture-1024x619.jpg"
     class="aligncenter wp-post-image"
     alt="संजीवनातून की संगोपनातून?"
     decoding="async"
@@ -93,7 +100,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3440"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संजीवनातून-की-संगोपनातून-1-pallavi_bapat_pinge.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संजीवनातून-की-संगोपनातून-1-pallavi_bapat_pinge.png"
           alt="Pallavi_Bapat_Pinge"
           width="114"
           height="131"
@@ -146,15 +153,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["child-development"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["nature-vs-nurture"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/संजीवनातून-की-संगोपनातून.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/संजीवनातून-की-संगोपनातून.jpg",
   verified: {
     marathi: true,
     english: false,

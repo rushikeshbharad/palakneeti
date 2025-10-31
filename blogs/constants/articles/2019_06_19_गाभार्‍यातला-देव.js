@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Diary of a Mother"],
+    TAGS["June - जून २०१९"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1363"
@@ -8,7 +13,7 @@ const articleData = {
   <img
     width="382"
     height="467"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गाभार्‍यातला-देव-0-preetio.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गाभार्‍यातला-देव-0-preetio.png"
     class="aligncenter wp-post-image"
     alt="गाभार्‍यातला देव"
     decoding="async"
@@ -76,7 +81,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गाभार्‍यातला-देव-1-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गाभार्‍यातला-देव-1-12-preetee-oswal1.jpg"
           alt="12. Preetee Oswal"
           width="89"
           height="89"
@@ -123,13 +128,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["diary-of-a-mother"],
-    TAGS["june-जून-२०१९"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/गाभार्‍यातला-देव.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/गाभार्‍यातला-देव.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1587"
@@ -37,7 +43,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1792"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रायमाचा-राजपुत्र-0-raymacha3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रायमाचा-राजपुत्र-0-raymacha3.png"
           alt="RayMacha3.png"
           width="957"
           height="500"
@@ -61,7 +67,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-1777 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रायमाचा-राजपुत्र-1-raumacha2.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रायमाचा-राजपुत्र-1-raumacha2.png"
           alt="RauMacha2"
           width="255"
           height="338"
@@ -140,7 +146,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1779 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रायमाचा-राजपुत्र-2-raymacha4.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रायमाचा-राजपुत्र-2-raymacha4.png"
           alt="RayMacha4"
           width="286"
           height="300"
@@ -222,14 +228,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रायमाचा-राजपुत्र.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रायमाचा-राजपुत्र.png",
   verified: {
     marathi: true,
     english: false,

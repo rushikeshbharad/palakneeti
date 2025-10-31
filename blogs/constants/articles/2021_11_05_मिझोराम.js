@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["August - ऑगस्ट २०२१"], TAGS["masik-article"], TAGS["Mizoram"]],
   content: {
     marathi: `<article
   id="post-3204"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="800"
     height="445"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मिझोराम-0-india-languages.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मिझोराम-0-india-languages.jpg"
     class="aligncenter wp-post-image"
     alt="मिझोराम"
     decoding="async"
@@ -95,7 +96,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-3206"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मिझोराम-1-anjanikher.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मिझोराम-1-anjanikher.png"
           alt="AnjaniKher"
           width="101"
           height="126"
@@ -147,9 +148,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["masik-article"], TAGS["mizoram"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मिझोराम.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मिझोराम.jpg",
   verified: {
     marathi: true,
     english: false,

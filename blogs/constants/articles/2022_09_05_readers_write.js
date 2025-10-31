@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["Reader's Response"],
+    TAGS["September – सप्टेम्बर २०२२"],
+  ],
   content: {
     marathi: `<article
   id="post-18736"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="771"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/readers_write-0-HarGharTiranga-771x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/readers_write-0-HarGharTiranga-771x1024.jpg"
     class="aligncenter wp-post-image"
     alt="वाचक लिहितात – सप्टेम्बर २०२२"
     decoding="async"
@@ -104,14 +110,8 @@ image source: dainik bhaskar newspaper / internet</pre
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["masik-article"],
-    TAGS["readers-response"],
-    TAGS["september-सप्टेंबर-२०२२"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/readers_write.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/readers_write.jpg",
   verified: {
     marathi: true,
     english: false,

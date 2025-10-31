@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१९"],
+    TAGS["importance"],
+    TAGS["Importance of parenting"],
+    TAGS["masik-article"],
+    TAGS["parenting"],
+  ],
   content: {
     marathi: `<article
   id="post-1438"
@@ -290,7 +297,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1167"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-खरेच-इतके-महत्त्-0-sayali-e1560967288474.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्व-खरेच-इतके-महत्त्-0-sayali-e1560967288474.jpg"
           alt="Sayali"
           width="107"
           height="101"
@@ -332,15 +339,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१९"],
-    TAGS["importance"],
-    TAGS["importance-of-parenting"],
-    TAGS["masik-article"],
-    TAGS["parenting"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पालकत्व-खरेच-इतके-महत्त्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पालकत्व-खरेच-इतके-महत्त्.jpg",
   verified: {
     marathi: true,
     english: false,

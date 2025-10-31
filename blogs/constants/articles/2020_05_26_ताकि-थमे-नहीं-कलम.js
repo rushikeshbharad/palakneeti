@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["Children"],
+    TAGS["Children's Experiences"],
+    TAGS["Children's Writing"],
+    TAGS["Corona"],
+    TAGS["lockdown"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2067"
@@ -28,7 +38,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2071"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ताकि-थमे-नहीं-कलम-0-image1-2-461x1024-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ताकि-थमे-नहीं-कलम-0-image1-2-461x1024-1.jpg"
           alt="image1-2-461x1024"
           width="227"
           height="504"
@@ -36,7 +46,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2072"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ताकि-थमे-नहीं-कलम-1-sargam.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ताकि-थमे-नहीं-कलम-1-sargam.jpg"
           alt="sargam"
           width="237"
           height="505"
@@ -170,18 +180,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["april-may-एप्रिल-मे-२०२०"],
-    TAGS["children"],
-    TAGS["childrens-experiences"],
-    TAGS["childrens-writing"],
-    TAGS["corona"],
-    TAGS["lockdown"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ताकि-थमे-नहीं-कलम.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ताकि-थमे-नहीं-कलम.jpg",
   verified: {
     marathi: true,
     english: false,

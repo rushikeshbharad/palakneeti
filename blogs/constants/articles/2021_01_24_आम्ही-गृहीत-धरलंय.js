@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["January - जानेवारी २०२१"],
+    TAGS["masik-article"],
+    TAGS["Poem"],
+  ],
   content: {
     marathi: `<article
   id="post-2846"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="791"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-गृहीत-धरलंय-0-coverpage_jan_2021-791x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-गृहीत-धरलंय-0-coverpage_jan_2021-791x1024.jpg"
     class="aligncenter wp-post-image"
     alt="आम्ही गृहीत धरलंय…"
     decoding="async"
@@ -125,14 +131,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["january-जानेवारी-२०२१"],
-    TAGS["masik-article"],
-    TAGS["poem"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आम्ही-गृहीत-धरलंय.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आम्ही-गृहीत-धरलंय.jpg",
   verified: {
     marathi: true,
     english: false,

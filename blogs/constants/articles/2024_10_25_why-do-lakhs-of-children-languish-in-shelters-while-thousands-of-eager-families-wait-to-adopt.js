@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["English"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर २०२४ जोडअंक"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -412,7 +420,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt-0-SmritiGupta-916x1024.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt-0-SmritiGupta-916x1024.png"
           alt="Why do lakhs of children languish in shelters, while thousands of eager families wait to adopt?"
           class="wp-image-25524"
           width="68"
@@ -456,16 +464,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["english"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/why-do-lakhs-of-children-languish-in-shelters-while-thousands-of-eager-families-wait-to-adopt.png",
   verified: {
     marathi: false,
     english: true,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["डिसेंबर २०२४"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25656"
@@ -60,7 +67,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-0-meri-pahchan-hai-in-lakirome1-621x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-0-meri-pahchan-hai-in-lakirome1-621x1024.jpg"
           alt="मेरी पहचान है इन लकीरोंमें…"
           class="wp-image-25657"
           width="251"
@@ -123,7 +130,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-1-meri-pahchan-hai-in-lakirome2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-1-meri-pahchan-hai-in-lakirome2.jpg"
           alt="मेरी पहचान है इन लकीरोंमें…"
           class="wp-image-25658"
           width="407"
@@ -200,7 +207,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-2-meri-pahchan-hai-in-lakirome4.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-2-meri-pahchan-hai-in-lakirome4.jpg"
           alt="मेरी पहचान है इन लकीरोंमें…"
           class="wp-image-25659"
           width="267"
@@ -231,7 +238,7 @@ const articleData = {
         <img
           loading="lazy"
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-3-abha-bhagwat.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे-3-abha-bhagwat.jpg"
           alt="मेरी पहचान है इन लकीरोंमें…"
           class="wp-image-25660"
           width="82"
@@ -278,15 +285,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["डिसेंबर-२०२४"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मेरी-पहचान-है-इन-लकीरोंमे.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

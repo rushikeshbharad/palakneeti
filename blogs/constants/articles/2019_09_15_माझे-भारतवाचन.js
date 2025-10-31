@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["Books"],
+    TAGS["masik-article"],
+    TAGS["Reading"],
+    TAGS["September - सप्टेम्बर २०१९"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-1491"
@@ -142,7 +150,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1495"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझे-भारतवाचन-0-anokhipicture.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझे-भारतवाचन-0-anokhipicture.jpg"
           alt="AnokhiPicture"
           width="105"
           height="116"
@@ -271,16 +279,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["books"],
-    TAGS["masik-article"],
-    TAGS["reading"],
-    TAGS["september-सप्टेम्बर-२०१९"],
-    TAGS["uncategorized"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझे-भारतवाचन.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझे-भारतवाचन.jpg",
   verified: {
     marathi: true,
     english: false,

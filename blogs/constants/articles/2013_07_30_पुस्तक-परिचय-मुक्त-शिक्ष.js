@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-20444"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/S%20V%20School-3_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-मुक्त-शिक्ष-0-S V School-3_0.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -36,7 +36,7 @@ const articleData = {
         त्यांनी विचारलं तरच आम्ही उपलब्ध असायला हवे होतो – हे आमच्या हळूहळू
         लक्षात येत गेलं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/S%20V%20School-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-मुक्त-शिक्ष-1-S V School-1.jpg"
           width="248"
           height="157"
           alt="S V School-1.jpg"
@@ -110,7 +110,7 @@ const articleData = {
         कुलूप उघडण्याची किल्ली ‘लिहिलेले शब्द’ ही असते. मग कुतूहल वाटून ते त्या
         किल्लीचा पाठपुरावा करतात.’’<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/S%20V%20School-2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-मुक्त-शिक्ष-2-S V School-2.jpg"
           width="308"
           height="448"
           alt="S V School-2.jpg"
@@ -271,9 +271,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/S V School-3_0.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

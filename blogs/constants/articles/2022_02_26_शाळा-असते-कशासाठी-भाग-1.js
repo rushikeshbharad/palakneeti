@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["education"],
+    TAGS["masik-article"],
+    TAGS["school"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3501"
@@ -168,7 +174,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-असते-कशासाठी-भाग-1-0-rushikesh-dabholkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-असते-कशासाठी-भाग-1-0-rushikesh-dabholkar.jpg"
           alt="Rushikesh Dabholkar"
           width="161"
           height="161"
@@ -216,14 +222,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["education"],
-    TAGS["masik-article"],
-    TAGS["school"],
-    TAGS["uncategorized"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-असते-कशासाठी-भाग-1.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-असते-कशासाठी-भाग-1.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+  ],
   content: {
     marathi: `<article
   id="post-2388"
   class="post-2388 post type-post status-publish format-standard has-post-thumbnail hentry category-422 category-masik-article category-oct-nov--- tag-language"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         मी काही व्यक्तींना फोन केला, की त्या कंपनीची बाई कधीकधी मला सांगते,
         ‘‘आपण ज्या व्यक्तीशी संपर्क साधू इच्छिता, तो व्यक्ती आत्ता प्रतिसाद देत
@@ -64,7 +70,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2470"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-0-44.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-0-44.jpg"
           alt="भूगोलची बूक सापडत नाही   |   मुकुंद टाकसाळे"
           width="736"
           height="422"
@@ -167,7 +173,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2471"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-1-45.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-1-45.jpg"
           alt="भूगोलची बूक सापडत नाही   |   मुकुंद टाकसाळे"
           width="736"
           height="690"
@@ -299,7 +305,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2472"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-2-46.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु-2-46.jpg"
           alt="भूगोलची बूक सापडत नाही   |   मुकुंद टाकसाळे"
           width="115"
           height="142"
@@ -350,14 +356,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भूगोलची-बूक-सापडत-नाही-मु.jpg",
   verified: {
     marathi: true,
     english: false,

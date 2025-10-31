@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25787"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="252"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो-0-ayushya-mhanje-swatacha-shodh-1-252x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो-0-ayushya-mhanje-swatacha-shodh-1-252x300-1.jpg"
           alt="आयुष्य म्हणजे स्वतःचा शोध!"
           class="wp-image-27006"
         />
@@ -198,7 +205,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो-1-preeti-pushpa-prakash.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो-1-preeti-pushpa-prakash.jpg"
           alt="आयुष्य म्हणजे स्वतःचा शोध!"
           class="wp-image-27008"
           style="width: 106px; height: 131px"
@@ -244,15 +251,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मार्च-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आयुष्य-म्हणजे-स्वतःचा-शो.jpg",
   verified: {
     marathi: true,
     english: false,

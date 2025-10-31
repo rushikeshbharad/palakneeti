@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["English"], TAGS["masik-article"], TAGS["May - मे २०१८"]],
   content: {
     marathi: ``,
     english: `<article
@@ -57,7 +58,7 @@ const articleData = {
           decoding="async"
           class="wp-image-495 alignright"
           style="background-color: initial; text-align: center"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/saying-goodbye-to-achamma-0-achamma_december-2014.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/saying-goodbye-to-achamma-0-achamma_december-2014.jpg"
           alt="This is a black ink sketch that I made of Granny before she went into bed-rest. It is how I remember granny best; seated in a chair, looking away at people, coconut trees, the rain, the news on tv, the crows outside, the squirrels nibbling at our mangoes on the tree, at everything. "
           width="385"
           height="514"
@@ -101,7 +102,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-443 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/saying-goodbye-to-achamma-1-null1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/saying-goodbye-to-achamma-1-null1.png"
           width="89"
           height="116"
           sizes="(max-width: 89px) 100vw, 89px"
@@ -146,9 +147,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["english"], TAGS["masik-article"], TAGS["may-मे-२०१८"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/saying-goodbye-to-achamma.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/saying-goodbye-to-achamma.jpg",
   verified: {
     marathi: false,
     english: true,

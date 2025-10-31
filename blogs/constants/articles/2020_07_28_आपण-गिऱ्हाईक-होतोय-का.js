@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Consumerism"],
+    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2021"
@@ -271,7 +277,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आपण-गिऱ्हाईक-होतोय-का-0-rushikesh-dabholkar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपण-गिऱ्हाईक-होतोय-का-0-rushikesh-dabholkar.jpg"
           alt="Rushikesh Dabholkar"
           width="97"
           height="97"
@@ -326,14 +332,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["consumerism"],
-    TAGS["june-july-जून-जुलै-२०२०"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आपण-गिऱ्हाईक-होतोय-का.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपण-गिऱ्हाईक-होतोय-का.jpg",
   verified: {
     marathi: true,
     english: false,

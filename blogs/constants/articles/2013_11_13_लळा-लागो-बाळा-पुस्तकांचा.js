@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-19399"
@@ -12,9 +13,8 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Babachya%20Misha_1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-0-Babachya Misha_1.jpg"
           alt="Magazine Cover"
-          title=""
         />
       </figure>
 
@@ -44,7 +44,7 @@ const articleData = {
         ‘अक्षर-अनुभव’ सातत्यानं मिळत राहणं, पुढं लेखन-वाचनाचं कौशल्य आत्मसात
         करण्यासाठीचा पाया भक्कम करतं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sunruta%20%282%29_0.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-1-sunruta (2)_0.JPG"
           width="320"
           height="240"
           alt="sunruta (2)_0.JPG"
@@ -68,7 +68,7 @@ const articleData = {
         अक्षरअनुभव-संपन्न बालपण देणं म्हणजे या सगळ्या मजा करायला भरपूर संधी
         उपलब्ध करून देणं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sunruta%20%285%29.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-2-sunruta (5).JPG"
           width="320"
           height="240"
           alt="sunruta (5).JPG"
@@ -127,7 +127,7 @@ const articleData = {
         बाळाच्या मजेसाठी तर असतोच; पण त्यातून त्याचा कारक विकासही होत असतो हे
         ध्यानात ठेवायला हवं.<br /><img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/sunruta%20%283%29.JPG"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-3-sunruta (3).JPG"
           width="320"
           height="240"
           alt="sunruta (3).JPG"
@@ -162,7 +162,7 @@ const articleData = {
         सोप्या पुस्तकावर बाळं मात्र खूश असतात !<br /><img
           loading="lazy"
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/baby_0.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-4-baby_0.jpg"
           width="230"
           height="219"
           alt="baby_0.jpg"
@@ -176,7 +176,7 @@ const articleData = {
       <figure class="wp-block-image">
         <img
           decoding="async"
-          src="http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/baby7.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/लळा-लागो-बाळा-पुस्तकांचा-5-baby7.jpg"
           alt="baby7.jpg"
         />
       </figure>
@@ -214,9 +214,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
-  image:
-    "http://old.palakneeti.inhttps://palakneeti.in/wp-content/uploads/fd/post/imagecache/book_thumbnail/Babachya Misha_1.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

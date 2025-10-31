@@ -1,5 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["body"],
+    TAGS["earth"],
+    TAGS["English"],
+    TAGS["experience"],
+    TAGS["feet"],
+    TAGS["June - जून २०१८"],
+    TAGS["learning"],
+    TAGS["masik-article"],
+    TAGS["nature"],
+    TAGS["tagore"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-614"
@@ -96,19 +109,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["body"],
-    TAGS["earth"],
-    TAGS["english"],
-    TAGS["experience"],
-    TAGS["feet"],
-    TAGS["june-जून-२०१८"],
-    TAGS["learning"],
-    TAGS["masik-article"],
-    TAGS["nature"],
-    TAGS["tagore"],
-    TAGS["uncategorized"],
-  ],
   image: null,
   verified: {
     marathi: true,

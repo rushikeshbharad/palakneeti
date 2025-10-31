@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर २०२४ जोडअंक"],
+    TAGS["दिवाळी २०२४ लेख"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25561"
@@ -294,7 +302,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काराच्या-कार्याचे-कारण-1-sanvednshilata-astana-nastana2-903x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काराच्या-कार्याचे-कारण-1-sanvednshilata-astana-nastana2-903x1024.jpg"
           alt="काराच्या कार्याचे कारण"
           class="wp-image-25564"
           width="255"
@@ -329,7 +337,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काराच्या-कार्याचे-कारण-2-sangeeta-banginwar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काराच्या-कार्याचे-कारण-2-sangeeta-banginwar.jpg"
           alt="काराच्या कार्याचे कारण"
           class="wp-image-25565"
           width="78"
@@ -406,14 +414,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
     "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSCXslnYYSUeJiSVUd9btpd67quT3JNmikomnT_lEkgQlwkQa77Ou4Rc7mVz6fb_c4CMojexkF7U5LBcoDte82KMo90n5nO0D2fFTYnBVq6Ramv5jV1ymNpxEW1GHI-6GVJbUM9NkX2J7aIlUZlKmB91M-oJYC1UporsPuYQ?key=4MlNpaZrhkxnY4nFQdDW8g",
   verified: {

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१८"],
+    TAGS["Gender"],
+    TAGS["Gender and Education"],
+    TAGS["Gender education"],
+    TAGS["masik-article"],
+    TAGS["Teacher"],
+    TAGS["Teacher's perspective"],
+  ],
   content: {
     marathi: `<article
   id="post-17894"
@@ -168,7 +177,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-381"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षकाच्या-नजरेतून-0-6-jeevan_avadhare1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिक्षकाच्या-नजरेतून-0-6-jeevan_avadhare1.jpg"
           alt="6. Jeevan_Avadhare"
           width="78"
           height="98"
@@ -220,17 +229,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१८"],
-    TAGS["gender"],
-    TAGS["gender-and-education"],
-    TAGS["gender-education"],
-    TAGS["masik-article"],
-    TAGS["teacher"],
-    TAGS["teachers-perspective"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शिक्षकाच्या-नजरेतून.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शिक्षकाच्या-नजरेतून.jpg",
   verified: {
     marathi: true,
     english: false,

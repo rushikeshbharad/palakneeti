@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Children's Literature"],
+    TAGS["education resource"],
+    TAGS["January - जानेवारी २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2853"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="600"
     height="291"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अटकमटक-0-atak-matak-logo-paan-21.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अटकमटक-0-atak-matak-logo-paan-21.png"
     class="aligncenter wp-post-image"
     alt="अटकमटक"
     decoding="async"
@@ -86,15 +93,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["childrens-literature"],
-    TAGS["education-resource"],
-    TAGS["january-जानेवारी-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/अटकमटक.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/अटकमटक.png",
   verified: {
     marathi: true,
     english: false,

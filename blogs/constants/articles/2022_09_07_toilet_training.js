@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["potty"],
+    TAGS["September – सप्टेम्बर २०२२"],
+    TAGS["toilet"],
+    TAGS["toilet training"],
+  ],
   content: {
     marathi: `<article
   id="post-18764"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="600"
     height="560"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/toilet_training-0-potty-training.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/toilet_training-0-potty-training.png"
     class="aligncenter wp-post-image"
     alt="शी… शूऽऽऽ"
     decoding="async"
@@ -348,7 +357,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18766"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/toilet_training-1-DrSuhas_Nene.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/toilet_training-1-DrSuhas_Nene.png"
           alt="शी… शूऽऽऽ"
           width="94"
           height="142"
@@ -406,17 +415,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["potty"],
-    TAGS["september-सप्टेंबर-२०२२"],
-    TAGS["toilet"],
-    TAGS["toilet-training"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/toilet_training.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/toilet_training.png",
   verified: {
     marathi: true,
     english: false,

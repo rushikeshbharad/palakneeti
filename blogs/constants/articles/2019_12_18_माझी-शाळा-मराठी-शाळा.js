@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["December - डिसेंबर २०१९"],
+    TAGS["Government School"],
+    TAGS["Marathi as Medium of Instruction"],
+    TAGS["Marathi medium school"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1805"
@@ -222,7 +229,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1823"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझी-शाळा-मराठी-शाळा-0-bhausaheb-chaskar-300x290-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझी-शाळा-मराठी-शाळा-0-bhausaheb-chaskar-300x290-1.jpg"
           alt="bhausaheb-chaskar-300x290"
           width="96"
           height="97"
@@ -273,15 +280,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["december-डिसेंबर-२०१९"],
-    TAGS["government-school"],
-    TAGS["marathi-as-medium-of-instruction"],
-    TAGS["marathi-medium-school"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/माझी-शाळा-मराठी-शाळा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/माझी-शाळा-मराठी-शाळा.jpg",
   verified: {
     marathi: true,
     english: false,

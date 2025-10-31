@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22386"
@@ -24,7 +25,7 @@ const articleData = {
                   align="left"
                   alt="pigeon.jpg"
                   height="300"
-                  src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22386-0-pigeon.jpg"
+                  src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22386-0-pigeon.jpg"
                   width="450"
                 />
               </p>
@@ -107,7 +108,7 @@ const articleData = {
             align="left"
             alt="IMG_0150.JPG"
             height="200"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22386-1-IMG_0150.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22386-1-IMG_0150.JPG"
             width="300"
           />
         </p>
@@ -200,7 +201,7 @@ const articleData = {
             decoding="async"
             alt="IMG_0178.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22386-2-IMG_0178.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22386-2-IMG_0178.JPG"
             width="1200"
           />
         </p>
@@ -290,9 +291,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22386.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22386.jpg",
   verified: {
     marathi: true,
     english: false,

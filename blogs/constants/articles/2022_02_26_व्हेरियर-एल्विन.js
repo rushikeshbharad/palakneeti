@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3497"
@@ -118,7 +126,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-3510 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्हेरियर-एल्विन-0-verrier_elwin.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्हेरियर-एल्विन-0-verrier_elwin.jpg"
           alt="Verrier_Elwin"
           width="333"
           height="428"
@@ -245,7 +253,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्हेरियर-एल्विन-1-pranjal_k.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्हेरियर-एल्विन-1-pranjal_k.jpg"
           alt="Pranjal_K"
           width="98"
           height="97"
@@ -292,16 +300,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["adivasi"],
-    TAGS["february-फेब्रुवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["scientist"],
-    TAGS["tribal"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/व्हेरियर-एल्विन.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/व्हेरियर-एल्विन.jpg",
   verified: {
     marathi: true,
     english: false,

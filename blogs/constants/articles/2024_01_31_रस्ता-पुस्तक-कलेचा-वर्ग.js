@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-24876"
@@ -54,7 +55,7 @@ const articleData = {
           height="113"
           class="wp-image-24877"
           style="width: 150px"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-0-424549938_889501286296078_6492879363984915871_n.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-0-424549938_889501286296078_6492879363984915871_n.jpg"
           alt="‘रस्ता’ पुस्तक – कलेचा वर्ग"
           sizes="(max-width: 150px) 100vw, 150px"
         /><img
@@ -63,7 +64,7 @@ const articleData = {
           height="107"
           class="wp-image-24880"
           style="width: 150px"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-1-424547429_889501256296081_2579744921083983461_n.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-1-424547429_889501256296081_2579744921083983461_n.jpg"
           alt="‘रस्ता’ पुस्तक – कलेचा वर्ग"
           sizes="(max-width: 150px) 100vw, 150px"
         /><img
@@ -72,7 +73,7 @@ const articleData = {
           height="110"
           class="wp-image-24879"
           style="width: 150px"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-2-424547144_889501016296105_4330276593278491993_n.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग-2-424547144_889501016296105_4330276593278491993_n.jpg"
           alt="‘रस्ता’ पुस्तक – कलेचा वर्ग"
           sizes="(max-width: 150px) 100vw, 150px"
         />
@@ -111,9 +112,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/रस्ता-पुस्तक-कलेचा-वर्ग.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["August - ऑगस्ट २०२१"], TAGS["masik-article"], TAGS["Poem"]],
   content: {
     marathi: `<article
   id="post-3188"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="740"
     height="987"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काहीही-न-बोलता-0-watch-the-bird-dance.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काहीही-न-बोलता-0-watch-the-bird-dance.jpg"
     class="aligncenter wp-post-image"
     alt="काहीही न बोलता"
     decoding="async"
@@ -101,7 +102,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3191"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काहीही-न-बोलता-1-deeptideshpande.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काहीही-न-बोलता-1-deeptideshpande.png"
           alt="DeeptiDeshpande"
           width="96"
           height="94"
@@ -148,9 +149,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["masik-article"], TAGS["poem"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/काहीही-न-बोलता.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/काहीही-न-बोलता.jpg",
   verified: {
     marathi: true,
     english: false,

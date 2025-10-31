@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25169"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="503"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्री-विरुद्ध-शास्त्र-0-shastri-Vs-Shastri-1.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शास्त्री-विरुद्ध-शास्त्र-0-shastri-Vs-Shastri-1.jpg"
     class="aligncenter wp-post-image"
     alt="शास्त्री विरुद्ध शास्त्री"
     decoding="async"
@@ -277,14 +283,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शास्त्री-विरुद्ध-शास्त्र.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शास्त्री-विरुद्ध-शास्त्र.jpg",
   verified: {
     marathi: true,
     english: false,

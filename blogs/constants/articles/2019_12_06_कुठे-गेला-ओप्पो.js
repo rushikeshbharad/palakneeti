@@ -1,17 +1,24 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-1513"
   class="post-1513 post type-post status-publish format-image hentry category-masik-article category-oct-nov--- tag-story tag-story-by-children tag-story-for-children post_format-post-format-image"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content">
+    <div class="entry-content gsp_dc">
       <p>
         <img
           decoding="async"
           class="alignnone size-full wp-image-1761"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुठे-गेला-ओप्पो-0-oppo.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुठे-गेला-ओप्पो-0-oppo.png"
           alt="Oppo.png"
           width="937"
           height="2633"
@@ -50,15 +57,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-by-children"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुठे-गेला-ओप्पो.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुठे-गेला-ओप्पो.png",
   verified: {
     marathi: true,
     english: false,

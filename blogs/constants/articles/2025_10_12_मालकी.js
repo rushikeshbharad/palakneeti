@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["palakneeti"],
+    TAGS["कविता"],
+    TAGS["null"],
+    TAGS["null"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27774"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="564"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी-0-malki-564x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मालकी-0-malki-564x1024.jpg"
     class="aligncenter wp-post-image"
     alt="मालकी"
     decoding="async"
@@ -60,7 +68,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी-1-priyadarshan-sahrabudhe.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मालकी-1-priyadarshan-sahrabudhe.jpg"
           alt="मालकी"
           class="wp-image-27776"
           style="width: 83px; height: auto"
@@ -107,16 +115,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["palakneeti"],
-    TAGS["कविता"],
-    TAGS["दिवाळी-अंक-2"],
-    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मालकी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मालकी.jpg",
   verified: {
     marathi: true,
     english: false,

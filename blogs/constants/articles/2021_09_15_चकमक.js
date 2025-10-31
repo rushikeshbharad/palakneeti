@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["education resource"],
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०२१"],
+  ],
   content: {
     marathi: `<article
   id="post-3149"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="747"
     height="960"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चकमक-0-chakmak-cover-2.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चकमक-0-chakmak-cover-2.jpg"
     class="aligncenter wp-post-image"
     alt="चकमक"
     decoding="async"
@@ -69,7 +75,7 @@ const articleData = {
           ><img
             decoding="async"
             class="size-full wp-image-3151 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चकमक-1-chakmak-cover-1.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चकमक-1-chakmak-cover-1.jpg"
             alt="Chakmak cover 1"
             width="311"
             height="399"
@@ -182,14 +188,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["education-resource"],
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०२१"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चकमक.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चकमक.jpg",
   verified: {
     marathi: true,
     english: false,

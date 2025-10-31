@@ -1,12 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1601"
   class="post-1601 post type-post status-publish format-standard has-post-thumbnail hentry category-masik-article category-oct-nov--- tag-story tag-story-for-children"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         ‘‘रिहान, आधी तो टीव्हीचा चॅनल बदल. कित्ती वेळास सांगितलं तुला राजा, की
         तू कुकरी शो नको बघत बसूस. कार्टून नेटवर्क बघ, स्पोर्टस् चॅनल्स बघ. हे
@@ -86,7 +92,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1661"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वीकार-2-0-sweekar1-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वीकार-2-0-sweekar1-1.png"
           alt="Sweekar1"
           width="954"
           height="745"
@@ -254,7 +260,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-1662"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वीकार-2-1-sweekar2-1.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वीकार-2-1-sweekar2-1.png"
           alt="Sweekar2"
           width="1171"
           height="730"
@@ -268,7 +274,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1712"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वीकार-2-2-vaishalidiwakar.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वीकार-2-2-vaishalidiwakar.jpg"
           alt="VaishaliDiwakar.jpg"
           width="89"
           height="89"
@@ -316,14 +322,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/स्वीकार-2.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/स्वीकार-2.png",
   verified: {
     marathi: true,
     english: false,

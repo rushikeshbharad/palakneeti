@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जुलै २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25274"
@@ -10,7 +16,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरणपूरक-पालकत्व-0-title_-edited.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरणपूरक-पालकत्व-0-title_-edited.jpg"
           alt="पर्यावरणपूरक पालकत्व"
           class="wp-image-25277"
           width="276"
@@ -44,7 +50,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरणपूरक-पालकत्व-1-paryavaran-purak-palaktwa1-1024x963.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरणपूरक-पालकत्व-1-paryavaran-purak-palaktwa1-1024x963.jpg"
           alt="पर्यावरणपूरक पालकत्व"
           class="wp-image-25278"
           width="331"
@@ -176,7 +182,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरणपूरक-पालकत्व-2-paryavaran-purak-palaktwa2-1024x854.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरणपूरक-पालकत्व-2-paryavaran-purak-palaktwa2-1024x854.jpg"
           alt="पर्यावरणपूरक पालकत्व"
           class="wp-image-25280"
           width="322"
@@ -260,14 +266,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जुलै-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पर्यावरणपूरक-पालकत्व.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पर्यावरणपूरक-पालकत्व.jpg",
   verified: {
     marathi: true,
     english: false,

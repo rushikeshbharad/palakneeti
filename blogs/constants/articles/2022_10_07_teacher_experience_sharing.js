@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["experience"],
+    TAGS["palakneeti"],
+    TAGS["September – सप्टेम्बर २०२२"],
+    TAGS["Teacher"],
+    TAGS["teachers reflection"],
+  ],
   content: {
     marathi: `<article
   id="post-18763"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="591"
     height="274"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/teacher_experience_sharing-0-Devidas_Gosavi_ExperienceSharing_Illustration.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/teacher_experience_sharing-0-Devidas_Gosavi_ExperienceSharing_Illustration.png"
     class="aligncenter wp-post-image"
     alt="आणि वाचता येऊ लागले…"
     decoding="async"
@@ -189,7 +197,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-18772"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/teacher_experience_sharing-1-Devidas_Gosavi-256x300.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/teacher_experience_sharing-1-Devidas_Gosavi-256x300.jpg"
           alt="आणि वाचता येऊ लागले…"
           width="104"
           height="122"
@@ -244,16 +252,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["experience"],
-    TAGS["palakneeti"],
-    TAGS["september-सप्टेंबर-२०२२"],
-    TAGS["teacher"],
-    TAGS["teachers-reflection"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/teacher_experience_sharing.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/teacher_experience_sharing.png",
   verified: {
     marathi: true,
     english: false,

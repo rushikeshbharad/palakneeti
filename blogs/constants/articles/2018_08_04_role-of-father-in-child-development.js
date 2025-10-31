@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["English"],
+    TAGS["father"],
+    TAGS["fatherhood"],
+    TAGS["July - जुलै २०१८"],
+    TAGS["masik-article"],
+    TAGS["role of father in child development"],
+  ],
   content: {
     marathi: ``,
     english: `<article
@@ -130,7 +138,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-790 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/role-of-father-in-child-development-0-role_of_father.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/role-of-father-in-child-development-0-role_of_father.png"
             alt="Role_of_father"
             width="334"
             height="274"
@@ -210,8 +218,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/role-of-father-in-child-development-1-null.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/role-of-father-in-child-development-1-null.png"
           alt="Role of father in child development"
           width="90"
           height="96"
@@ -258,16 +265,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["english"],
-    TAGS["father"],
-    TAGS["fatherhood"],
-    TAGS["july-जुलै-२०१८"],
-    TAGS["masik-article"],
-    TAGS["role-of-father-in-child-development"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/role-of-father-in-child-development.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/role-of-father-in-child-development.png",
   verified: {
     marathi: false,
     english: true,

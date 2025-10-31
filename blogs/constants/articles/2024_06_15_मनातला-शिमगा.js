@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25161"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="822"
     height="769"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मनातला-शिमगा-0-Manatala-Shimga.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मनातला-शिमगा-0-Manatala-Shimga.jpg"
     class="aligncenter wp-post-image"
     alt="मनातला शिमगा"
     decoding="async"
@@ -38,7 +44,7 @@ const articleData = {
           decoding="async"
           width="267"
           height="261"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मनातला-शिमगा-1-Manatala-Shimga-QR.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मनातला-शिमगा-1-Manatala-Shimga-QR.jpg"
           alt="मनातला शिमगा"
           class="wp-image-25163"
           sizes="(max-width: 267px) 100vw, 267px"
@@ -255,14 +261,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मनातला-शिमगा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मनातला-शिमगा.jpg",
   verified: {
     marathi: true,
     english: false,

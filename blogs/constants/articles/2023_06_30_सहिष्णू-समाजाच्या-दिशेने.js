@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2023"],
+    TAGS["masik"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["जून २०२३"],
+  ],
   content: {
     marathi: `<article
   id="post-24534"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="895"
     height="660"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सहिष्णू-समाजाच्या-दिशेने-0-sahishnu1-1024x755.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सहिष्णू-समाजाच्या-दिशेने-0-sahishnu1-1024x755.jpg"
     class="aligncenter wp-post-image"
     alt="सहिष्णू समाजाच्या दिशेने एक पाऊल"
     decoding="async"
@@ -272,15 +279,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2023"],
-    TAGS["masik"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["जून-२०२३"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/सहिष्णू-समाजाच्या-दिशेने.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/सहिष्णू-समाजाच्या-दिशेने.jpg",
   verified: {
     marathi: true,
     english: false,

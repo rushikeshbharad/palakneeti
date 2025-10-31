@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["March - मार्च २०१९"],
+    TAGS["masik-article"],
+    TAGS["soldiers"],
+    TAGS["war"],
+    TAGS["देशप्रेम"],
+    TAGS["युद्ध"],
+  ],
   content: {
     marathi: `<article
   id="post-1200"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="706"
     height="492"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आपल्या-सैनिकांबद्दलच्या-0-sainik.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपल्या-सैनिकांबद्दलच्या-0-sainik.png"
     class="aligncenter wp-post-image"
     alt="आपल्या सैनिकांबद्दलच्या प्रेम…"
     decoding="async"
@@ -144,16 +152,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["march-मार्च-२०१९"],
-    TAGS["masik-article"],
-    TAGS["soldiers"],
-    TAGS["war"],
-    TAGS["देशप्रेम"],
-    TAGS["युद्ध"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आपल्या-सैनिकांबद्दलच्या.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आपल्या-सैनिकांबद्दलच्या.png",
   verified: {
     marathi: true,
     english: false,

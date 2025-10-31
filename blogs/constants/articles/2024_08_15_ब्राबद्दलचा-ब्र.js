@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२४"],
+  ],
   content: {
     marathi: `<article
   id="post-25416"
@@ -12,7 +18,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="478"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ब्राबद्दलचा-ब्र-0-bra-badalcha-bra-1024x478.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ब्राबद्दलचा-ब्र-0-bra-badalcha-bra-1024x478.jpg"
           alt="‘ब्रा’बद्दलचा ‘ब्र’"
           class="wp-image-25417"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -161,7 +167,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ब्राबद्दलचा-ब्र-1-bra-badalcha-bra1-986x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ब्राबद्दलचा-ब्र-1-bra-badalcha-bra1-986x1024.jpg"
           alt="‘ब्रा’बद्दलचा ‘ब्र’"
           class="wp-image-25418"
           width="328"
@@ -303,14 +309,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२४"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ब्राबद्दलचा-ब्र.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ब्राबद्दलचा-ब्र.jpg",
   verified: {
     marathi: true,
     english: false,

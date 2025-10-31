@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov २०१८"],
+    TAGS["पुस्तक परिचय"],
+    TAGS["रुपया-पैसा"],
+  ],
   content: {
     marathi: `<article
   id="post-911"
@@ -48,7 +54,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-thumbnail wp-image-1005 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-0-1-world_of_money.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-0-1-world_of_money.jpg"
           alt="1-world_of_money"
           width="119"
           height="150"
@@ -60,7 +66,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright size-thumbnail wp-image-1007"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-1-2-how_money_travels.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-1-2-how_money_travels.jpg"
           alt="2-how_money_travels"
           width="120"
           height="150"
@@ -72,7 +78,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-thumbnail wp-image-1009 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-2-be-wise_with-money.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-2-be-wise_with-money.jpg"
           alt="Be-wise_with-money"
           width="119"
           height="150"
@@ -86,7 +92,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="size-thumbnail wp-image-1008 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-3-4-money-managers.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-रुपया-पैसा-3-4-money-managers.jpg"
           alt="4-money-managers"
           width="119"
           height="150"
@@ -166,14 +172,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-२०१८"],
-    TAGS["पुस्तक-परिचय"],
-    TAGS["रुपया-पैसा"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/पुस्तक-परिचय-रुपया-पैसा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/पुस्तक-परिचय-रुपया-पैसा.jpg",
   verified: {
     marathi: true,
     english: false,

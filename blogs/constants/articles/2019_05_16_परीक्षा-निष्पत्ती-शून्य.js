@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2019"],
+    TAGS["Exams"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१९"],
+    TAGS["Tests"],
+  ],
   content: {
     marathi: `<article
   id="post-1315"
@@ -137,7 +144,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1061"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/परीक्षा-निष्पत्ती-शून्य-0-kamala-mukunda-w-399x600-e1558028455940.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/परीक्षा-निष्पत्ती-शून्य-0-kamala-mukunda-w-399x600-e1558028455940.jpg"
           alt="Kamala-Mukunda-w-399x600-e1545738183839.jpg"
           width="91"
           height="126"
@@ -193,15 +200,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2019"],
-    TAGS["exams"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१९"],
-    TAGS["tests"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/परीक्षा-निष्पत्ती-शून्य.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/परीक्षा-निष्पत्ती-शून्य.jpg",
   verified: {
     marathi: true,
     english: false,

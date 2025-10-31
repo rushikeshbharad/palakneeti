@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25753"
@@ -12,7 +19,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="767"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चिल्लर-पार्टी-0-chillar-party1-1024x767-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चिल्लर-पार्टी-0-chillar-party1-1024x767-1.jpg"
           alt="चिल्लर पार्टी"
           class="wp-image-27010"
           style="width: 546px; height: 408px"
@@ -130,7 +137,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="574"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चिल्लर-पार्टी-1-chillar-party2-1024x574.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चिल्लर-पार्टी-1-chillar-party2-1024x574.jpg"
           alt="चिल्लर पार्टी"
           class="wp-image-25756"
           sizes="(max-width: 1024px) 100vw, 1024px"
@@ -179,7 +186,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चिल्लर-पार्टी-2-adwait-dandwate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चिल्लर-पार्टी-2-adwait-dandwate.jpg"
           alt="चिल्लर पार्टी"
           class="wp-image-27012"
           style="width: 88px; height: 109px"
@@ -227,15 +234,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["फेब्रुवारी-२०२५"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चिल्लर-पार्टी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चिल्लर-पार्टी.jpg",
   verified: {
     marathi: true,
     english: false,

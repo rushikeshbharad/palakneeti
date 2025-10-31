@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["palakneeti"]],
   content: {
     marathi: `<article
   id="post-25661"
@@ -112,7 +113,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आर्टस्पार्क्सच्या-निमित-0-amruta-dhage.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आर्टस्पार्क्सच्या-निमित-0-amruta-dhage.jpg"
           alt="आर्टस्पार्क्सच्या निमित्ताने…"
           class="wp-image-25662"
           width="82"
@@ -159,9 +160,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["palakneeti"]],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आर्टस्पार्क्सच्या-निमित.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

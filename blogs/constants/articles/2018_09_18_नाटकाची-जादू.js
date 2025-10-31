@@ -1,5 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["September - सप्टेंबर २०१८"],
+    TAGS["Theatre"],
+  ],
   content: {
     marathi: `<article
   id="post-816"
@@ -49,7 +54,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-873"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाटकाची-जादू-0-tanaya-jadhav1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाटकाची-जादू-0-tanaya-jadhav1.jpg"
           alt="Tanaya Jadhav.jpg"
           width="98"
           height="120"
@@ -91,13 +96,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["september-सप्टेंबर-२०१८"],
-    TAGS["theatre"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नाटकाची-जादू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नाटकाची-जादू.jpg",
   verified: {
     marathi: true,
     english: false,

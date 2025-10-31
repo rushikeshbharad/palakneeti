@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर - नोव्हेंबर २०१९"],
+    TAGS["Story"],
+    TAGS["Story for Children"],
+  ],
   content: {
     marathi: `<article
   id="post-1591"
@@ -89,7 +95,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1655 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-0-shala-6.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-0-shala-6.jpg"
           alt="Shala (6)"
           width="300"
           height="225"
@@ -157,7 +163,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignright size-medium wp-image-1656"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-1-shala-8-e1573926949825.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-1-shala-8-e1573926949825.jpg"
           alt="Shala (8)"
           width="300"
           height="183"
@@ -214,7 +220,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-1657 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-2-shala-9.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-2-shala-9.jpg"
           alt="Shala (9)"
           width="253"
           height="300"
@@ -257,7 +263,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-1658 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-3-shala-10-e1573927086146.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-3-shala-10-e1573927086146.jpg"
           alt="shala-10.jpg"
           width="198"
           height="299"
@@ -373,7 +379,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-1659 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा-4-shala-11-e1573927284640.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा-4-shala-11-e1573927284640.jpg"
           alt="shala-11.jpg"
           width="189"
           height="135"
@@ -484,14 +490,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०१९"],
-    TAGS["story"],
-    TAGS["story-for-children"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/शाळा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/शाळा.jpg",
   verified: {
     marathi: true,
     english: false,

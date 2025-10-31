@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Determination"],
+    TAGS["Life Journey"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०२१"],
+    TAGS["Visual Impairment"],
+  ],
   content: {
     marathi: `<article
   id="post-3019"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="850"
     height="400"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जिद्द-डोळस-बनवते-0-quote-what-a-blind-person-needs-is-not-a-teacher-but-another-self-helen-keller-15-50-56.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जिद्द-डोळस-बनवते-0-quote-what-a-blind-person-needs-is-not-a-teacher-but-another-self-helen-keller-15-50-56.jpg"
     class="aligncenter wp-post-image"
     alt="जिद्द डोळस बनवते"
     decoding="async"
@@ -237,7 +245,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3021"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जिद्द-डोळस-बनवते-1-vidhya_y.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जिद्द-डोळस-बनवते-1-vidhya_y.jpg"
           alt="Vidhya_Y"
           width="127"
           height="127"
@@ -287,16 +295,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["determination"],
-    TAGS["life-journey"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०२१"],
-    TAGS["visual-impairment"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/जिद्द-डोळस-बनवते.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/जिद्द-डोळस-बनवते.jpg",
   verified: {
     marathi: true,
     english: false,

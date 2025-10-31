@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑक्टोबर-नोव्हेंबर २०२४ जोडअंक"],
+    TAGS["दिवाळी २०२४ लेख"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25555"
@@ -320,14 +328,6 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
-    TAGS["दिवाळी-२०२४-लेख"],
-    TAGS["पालकनीती"],
-  ],
   image:
     "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNzB2I8i98KoDccFnXCM0-rzJ8pbCVPQEfa6bCwWKqjaVS0fp_b18QAqRHgH6pnqFbsOAQQDpR2fJaiFVTlt_lAtz8jgkHvt8IlFGnaxppWhdRGwrC7DuirQpEJqAlU0QXrSMPBTUFtUOfecoqe56hHA364tpEijMuH-NlBA?key=GvPjmEFukQDgYRBF-eXizw",
   verified: {

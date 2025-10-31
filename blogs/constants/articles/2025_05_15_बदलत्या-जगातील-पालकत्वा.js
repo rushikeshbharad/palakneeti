@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["Movie Review"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["मे २०२५ - May 2025"],
+  ],
   content: {
     marathi: `<article
   id="post-27535"
@@ -40,7 +48,7 @@ const articleData = {
           decoding="async"
           width="259"
           height="194"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलत्या-जगातील-पालकत्वा-0-adolescence-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलत्या-जगातील-पालकत्वा-0-adolescence-1.jpg"
           alt="बदलत्या जगातील&nbsp; पालकत्वाचा धांडोळा :&nbsp; ॲडोलसन्स"
           class="wp-image-27537"
         />
@@ -124,7 +132,7 @@ const articleData = {
           decoding="async"
           width="1020"
           height="680"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलत्या-जगातील-पालकत्वा-1-adolescence.webp"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलत्या-जगातील-पालकत्वा-1-adolescence.webp"
           alt="बदलत्या जगातील&nbsp; पालकत्वाचा धांडोळा :&nbsp; ॲडोलसन्स"
           class="wp-image-27538"
           style="width: 360px; height: auto"
@@ -180,7 +188,7 @@ const articleData = {
           decoding="async"
           width="217"
           height="271"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलत्या-जगातील-पालकत्वा-2-sayali-tamane.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलत्या-जगातील-पालकत्वा-2-sayali-tamane.jpg"
           alt="बदलत्या जगातील&nbsp; पालकत्वाचा धांडोळा :&nbsp; ॲडोलसन्स"
           class="wp-image-27536"
           style="width: 102px; height: auto"
@@ -227,16 +235,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["movie-review"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["मे-२०२५-may-2025"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बदलत्या-जगातील-पालकत्वा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बदलत्या-जगातील-पालकत्वा.jpg",
   verified: {
     marathi: true,
     english: false,

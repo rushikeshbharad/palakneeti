@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["constitution"],
+    TAGS["null"],
+    TAGS["masik-article"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-3445"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="500"
     height="800"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारताची-सामूहिक-कविता-0-aaple-icard.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारताची-सामूहिक-कविता-0-aaple-icard.jpg"
     class="aligncenter wp-post-image"
     alt="भारताची सामूहिक कविता"
     decoding="async"
@@ -211,7 +218,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3448"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारताची-सामूहिक-कविता-1-shriranjan_awate.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारताची-सामूहिक-कविता-1-shriranjan_awate.jpg"
           alt="Shriranjan_awate"
           width="120"
           height="152"
@@ -262,15 +269,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["constitution"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["masik-article"],
-    TAGS["preamble-of-indian-constitution"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/भारताची-सामूहिक-कविता.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/भारताची-सामूहिक-कविता.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["constitution"],
+    TAGS["January - जानेवारी २०२२"],
+    TAGS["Loknaad"],
+    TAGS["masik-article"],
+    TAGS["Song"],
+    TAGS["we the people"],
+  ],
   content: {
     marathi: `<article
   id="post-3409"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="300"
     height="238"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हम-लोग-we-the-people-0-vinay-charul-e1642862536654.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/हम-लोग-we-the-people-0-vinay-charul-e1642862536654.png"
     class="aligncenter wp-post-image"
     alt="हम लोग, We the People"
     decoding="async"
@@ -220,17 +229,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["constitution"],
-    TAGS["january-जानेवारी-२०२२"],
-    TAGS["loknaad"],
-    TAGS["masik-article"],
-    TAGS["song"],
-    TAGS["we-the-people"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हम-लोग-we-the-people.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/हम-लोग-we-the-people.png",
   verified: {
     marathi: true,
     english: false,

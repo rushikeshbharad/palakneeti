@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["December - डिसेंबर २०२१"],
+    TAGS["Gaming"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-3357"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="473"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-0-gaming1.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-0-gaming1.png"
     class="aligncenter wp-post-image"
     alt="विळखा ‘ऑनलाइन गेमिंग’चा"
     decoding="async"
@@ -116,7 +122,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-full wp-image-3360 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-1-gaming3.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-1-gaming3.png"
           alt="विळखा ‘ऑनलाइन गेमिंग’चा"
           width="471"
           height="361"
@@ -195,7 +201,7 @@ const articleData = {
           ><img
             decoding="async"
             class="wp-image-3359 alignright"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-2-gaming2.png"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा-2-gaming2.png"
             alt="विळखा ‘ऑनलाइन गेमिंग’चा"
             width="298"
             height="303"
@@ -339,14 +345,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["december-डिसेंबर-२०२१"],
-    TAGS["gaming"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/विळखा-ऑनलाइन-गेमिंगचा.png",
   verified: {
     marathi: true,
     english: false,

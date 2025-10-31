@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Intersex"],
+    TAGS["March - मार्च २०१८"],
+    TAGS["masik-article"],
+    TAGS["Saptrang"],
+    TAGS["transgender"],
+  ],
   content: {
     marathi: `<article
   id="post-17887"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="768"
     height="945"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आत्मकथा-0-5.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आत्मकथा-0-5.jpg"
     class="aligncenter wp-post-image"
     alt="आत्मकथा"
     decoding="async"
@@ -205,15 +212,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["intersex"],
-    TAGS["march-मार्च-२०१८"],
-    TAGS["masik-article"],
-    TAGS["saptrang"],
-    TAGS["transgender"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आत्मकथा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आत्मकथा.jpg",
   verified: {
     marathi: true,
     english: false,

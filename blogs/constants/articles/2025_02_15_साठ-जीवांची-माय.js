@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+    TAGS["null"],
+  ],
   content: {
     marathi: `<article
   id="post-25757"
@@ -144,7 +151,7 @@ const articleData = {
           decoding="async"
           width="838"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/साठ-जीवांची-माय-0-sath-jiwanchi-may-838x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/साठ-जीवांची-माय-0-sath-jiwanchi-may-838x1024.jpg"
           alt="साठ जीवांची माय"
           class="wp-image-25758"
           sizes="(max-width: 838px) 100vw, 838px"
@@ -290,15 +297,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-    TAGS["फेब्रुवारी-२०२५"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/साठ-जीवांची-माय.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["grandchild"],
+    TAGS["grandparent"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-445"
@@ -82,9 +88,7 @@ const articleData = {
       <p>
         <img
           decoding="async"
-          class=""
-          title=""
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नात-मी-आजी-मी-0-null1.jpeg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नात-मी-आजी-मी-0-null1.jpeg"
           alt="नात मी आजी मी"
           width="86"
           height="115"
@@ -129,14 +133,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["grandchild"],
-    TAGS["grandparent"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०१८"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नात-मी-आजी-मी.jpeg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नात-मी-आजी-मी.jpeg",
   verified: {
     marathi: true,
     english: false,

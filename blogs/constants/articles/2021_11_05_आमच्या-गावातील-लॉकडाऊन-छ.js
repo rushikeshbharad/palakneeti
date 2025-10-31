@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["August - ऑगस्ट २०२१"], TAGS["Covid19"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-3199"
@@ -8,7 +9,7 @@ const articleData = {
   <img
     width="277"
     height="138"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ-0-aamchyagavatil.png"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ-0-aamchyagavatil.png"
     class="aligncenter wp-post-image"
     alt="आमच्या गावातील लॉकडाऊन छोट्या सवंगड्यांच्या नजरेतून"
     decoding="async"
@@ -164,7 +165,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ-1-aryajoshi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ-1-aryajoshi.jpg"
           alt="AryaJoshi"
           width="104"
           height="112"
@@ -216,9 +217,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["august-ऑगस्ट-२०२१"], TAGS["covid19"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/आमच्या-गावातील-लॉकडाऊन-छ.png",
   verified: {
     marathi: true,
     english: false,

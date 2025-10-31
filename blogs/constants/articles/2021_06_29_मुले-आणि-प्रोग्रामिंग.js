@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Children"],
+    TAGS["Coding"],
+    TAGS["June - जून २०२१"],
+    TAGS["masik-article"],
+    TAGS["Programming"],
+  ],
   content: {
     marathi: `<article
   id="post-3081"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="895"
     height="607"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुले-आणि-प्रोग्रामिंग-0-teach-your-kids-code-front-page-image-1-1024x695.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुले-आणि-प्रोग्रामिंग-0-teach-your-kids-code-front-page-image-1-1024x695.jpg"
     class="aligncenter wp-post-image"
     alt="मुले आणि प्रोग्रामिंग"
     decoding="async"
@@ -217,16 +225,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["children"],
-    TAGS["coding"],
-    TAGS["june-जून-२०२१"],
-    TAGS["masik-article"],
-    TAGS["programming"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मुले-आणि-प्रोग्रामिंग.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मुले-आणि-प्रोग्रामिंग.jpg",
   verified: {
     marathi: true,
     english: false,

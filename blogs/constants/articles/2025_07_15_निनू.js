@@ -1,5 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["fatherhood"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["parenting experience"],
+    TAGS["जुलै २०२५ - July 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27639"
@@ -8,7 +17,7 @@ const articleData = {
   <img
     width="895"
     height="839"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निनू-0-ninu-1024x960.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निनू-0-ninu-1024x960.jpg"
     class="aligncenter wp-post-image"
     alt="निनू"
     decoding="async"
@@ -211,7 +220,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निनू-1-sandip-chavan.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निनू-1-sandip-chavan.jpg"
           alt="निनू"
           class="wp-image-27641"
           style="width: 113px; height: auto"
@@ -260,17 +269,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["fatherhood"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["parenting-experience"],
-    TAGS["जुलै-२०२५-july-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/निनू.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/निनू.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["masik-article"],
+    TAGS["May - मे २०२१"],
+    TAGS["आदरांजली"],
+  ],
   content: {
     marathi: `<article
   id="post-3011"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="300"
     height="168"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हे-मावशीच-करू-जाणोत-0-sumitra-bhave.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/हे-मावशीच-करू-जाणोत-0-sumitra-bhave.jpg"
     class="aligncenter wp-post-image"
     alt="हे मावशीच करू जाणोत"
     decoding="async"
@@ -111,7 +117,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3014"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हे-मावशीच-करू-जाणोत-1-sanat-ganu.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/हे-मावशीच-करू-जाणोत-1-sanat-ganu.jpg"
           alt="Sanat-Ganu"
           width="88"
           height="110"
@@ -165,14 +171,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["masik-article"],
-    TAGS["may-मे-२०२१"],
-    TAGS["आदरांजली"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/हे-मावशीच-करू-जाणोत.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/हे-मावशीच-करू-जाणोत.jpg",
   verified: {
     marathi: true,
     english: false,

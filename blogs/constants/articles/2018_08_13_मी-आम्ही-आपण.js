@@ -1,5 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["August - ऑगस्ट २०१८"],
+    TAGS["collective identity"],
+    TAGS["identity"],
+    TAGS["individual identity"],
+    TAGS["masik-article"],
+    TAGS["nationality"],
+    TAGS["religion"],
+    TAGS["Uncategorized"],
+  ],
   content: {
     marathi: `<article
   id="post-753"
@@ -199,7 +209,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-768 alignleft"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-आम्ही-आपण-0-pramod_mujumdar.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-आम्ही-आपण-0-pramod_mujumdar.png"
           alt="Pramod_Mujumdar"
           width="122"
           height="163"
@@ -244,18 +254,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["august-ऑगस्ट-२०१८"],
-    TAGS["collective-identity"],
-    TAGS["identity"],
-    TAGS["individual-identity"],
-    TAGS["masik-article"],
-    TAGS["nationality"],
-    TAGS["religion"],
-    TAGS["uncategorized"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मी-आम्ही-आपण.png",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मी-आम्ही-आपण.png",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["February - फेब्रुवारी २०२०"],
+    TAGS["masik-article"],
+    TAGS["violence"],
+    TAGS["Violence against Woman"],
+    TAGS["Woman"],
+  ],
   content: {
     marathi: `<article
   id="post-1851"
@@ -261,7 +268,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-thumbnail wp-image-1131"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवजाणिवांच्या-प्रसूतिकळ-0-anandi-e1548608007148.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवजाणिवांच्या-प्रसूतिकळ-0-anandi-e1548608007148.jpg"
           alt="anandi"
           width="110"
           height="150"
@@ -305,15 +312,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["february-फेब्रुवारी-२०२०"],
-    TAGS["masik-article"],
-    TAGS["violence"],
-    TAGS["violence-against-woman"],
-    TAGS["woman"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नवजाणिवांच्या-प्रसूतिकळ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नवजाणिवांच्या-प्रसूतिकळ.jpg",
   verified: {
     marathi: true,
     english: false,

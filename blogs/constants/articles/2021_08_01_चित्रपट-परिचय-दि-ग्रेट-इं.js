@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["June - जून २०२१"],
+    TAGS["masik-article"],
+    TAGS["Movie Review"],
+  ],
   content: {
     marathi: `<article
   id="post-3126"
@@ -8,7 +14,7 @@ const articleData = {
   <img
     width="895"
     height="597"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-0-1-1024x683.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-0-1-1024x683.jpg"
     class="aligncenter wp-post-image"
     alt="चित्रपट परिचय  – दि ग्रेट इंडियन किचन 2021"
     decoding="async"
@@ -24,7 +30,7 @@ const articleData = {
           ><img
             decoding="async"
             class="size-full wp-image-3112 alignleft"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-1-2.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-1-2.jpg"
             alt="2"
             width="259"
             height="194"
@@ -135,7 +141,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3113"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-2-ab.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं-2-ab.jpg"
           alt="AB"
           width="106"
           height="107"
@@ -187,14 +193,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["june-जून-२०२१"],
-    TAGS["masik-article"],
-    TAGS["movie-review"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रपट-परिचय-दि-ग्रेट-इं.jpg",
   verified: {
     marathi: true,
     english: false,

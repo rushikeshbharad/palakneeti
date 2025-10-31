@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["heart to heart"],
+    TAGS["Language"],
+    TAGS["masik-article"],
+    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["translation"],
+  ],
   content: {
     marathi: `<article
   id="post-2425"
@@ -215,7 +223,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2527"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-हृदयीचे-ते-हृदयी-0-102.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-हृदयीचे-ते-हृदयी-0-102.jpg"
           alt="ये हृदयीचे ते हृदयी    |    आश्लेषा गोरे"
           width="108"
           height="134"
@@ -232,7 +240,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2634"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-हृदयीचे-ते-हृदयी-1-bhargav.png"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-हृदयीचे-ते-हृदयी-1-bhargav.png"
           alt="Bhargav"
           width="117"
           height="129"
@@ -274,16 +282,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["heart-to-heart"],
-    TAGS["language"],
-    TAGS["masik-article"],
-    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
-    TAGS["translation"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ये-हृदयीचे-ते-हृदयी.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ये-हृदयीचे-ते-हृदयी.jpg",
   verified: {
     marathi: true,
     english: false,

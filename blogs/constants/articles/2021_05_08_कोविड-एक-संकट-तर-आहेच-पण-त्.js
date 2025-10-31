@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2021"],
+    TAGS["Books"],
+    TAGS["Library"],
+    TAGS["March - मार्च २०२१"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-2962"
@@ -8,7 +15,7 @@ const articleData = {
   <img
     width="768"
     height="1024"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-0-kalpakta_rr3-768x1024.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-0-kalpakta_rr3-768x1024.jpg"
     class="aligncenter wp-post-image"
     alt="कोविड एक संकट तर आहेच, पण त्या निमित्तानं…"
     decoding="async"
@@ -38,7 +45,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2969 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-1-kalpakta_rr2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-1-kalpakta_rr2.jpg"
           alt="Kalpakta_RR2"
           width="521"
           height="391"
@@ -70,7 +77,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-2967 aligncenter"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-2-kalpakta_rr1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-2-kalpakta_rr1.jpg"
           alt="Kalpakta_RR1"
           width="495"
           height="371"
@@ -95,7 +102,7 @@ const articleData = {
           loading="lazy"
           decoding="async"
           class="wp-image-2971 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-3-sachin-tolesh.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्-3-sachin-tolesh.jpg"
           alt="Sachin-Tolesh"
           width="188"
           height="141"
@@ -144,15 +151,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2021"],
-    TAGS["books"],
-    TAGS["library"],
-    TAGS["march-मार्च-२०२१"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कोविड-एक-संकट-तर-आहेच-पण-त्.jpg",
   verified: {
     marathi: true,
     english: false,

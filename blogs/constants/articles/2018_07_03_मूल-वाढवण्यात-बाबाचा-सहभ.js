@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["fatherhood"], TAGS["July - जुलै २०१८"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-654"
@@ -55,7 +56,7 @@ const articleData = {
         <img
           decoding="async"
           class="size-medium wp-image-676 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-वाढवण्यात-बाबाचा-सहभ-0-father-making-daughters-hair.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मूल-वाढवण्यात-बाबाचा-सहभ-0-father-making-daughters-hair.jpg"
           alt="Father making daughter's hair"
           width="204"
           height="300"
@@ -165,9 +166,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["fatherhood"], TAGS["july-जुलै-२०१८"], TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/मूल-वाढवण्यात-बाबाचा-सहभ.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/मूल-वाढवण्यात-बाबाचा-सहभ.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2024"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["डिसेंबर २०२४"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25646"
@@ -10,7 +17,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रकलेपासून-दृश्यकलेक-0-chitrakalepasun-dushyakalekade.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रकलेपासून-दृश्यकलेक-0-chitrakalepasun-dushyakalekade.jpg"
           alt="चित्रकलेपासून दृश्यकलेकडे"
           class="wp-image-25647"
           width="288"
@@ -105,7 +112,7 @@ const articleData = {
       <figure class="wp-block-image size-large is-resized">
         <img
           decoding="async"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रकलेपासून-दृश्यकलेक-1-chitrakalepasun-dushyakalekade2-1024x565.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रकलेपासून-दृश्यकलेक-1-chitrakalepasun-dushyakalekade2-1024x565.jpg"
           alt="चित्रकलेपासून दृश्यकलेकडे"
           class="wp-image-25648"
           width="359"
@@ -144,7 +151,7 @@ const articleData = {
           decoding="async"
           width="177"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रकलेपासून-दृश्यकलेक-2-raju-deshpande.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/चित्रकलेपासून-दृश्यकलेक-2-raju-deshpande.jpg"
           alt="चित्रकलेपासून दृश्यकलेकडे"
           class="wp-image-25655"
         />
@@ -205,15 +212,7 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2024"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["डिसेंबर-२०२४"],
-    TAGS["पालकनीती"],
-  ],
-  image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/चित्रकलेपासून-दृश्यकलेक.jpg",
+  image: "",
   verified: {
     marathi: true,
     english: false,

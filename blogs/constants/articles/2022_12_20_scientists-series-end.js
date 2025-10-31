@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2022"],
+    TAGS["December - डिसेंबर २०२२"],
+    TAGS["masik"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["Scientist"],
+  ],
   content: {
     marathi: `<article
   id="post-19140"
@@ -8,7 +16,7 @@ const articleData = {
   <img
     width="420"
     height="408"
-    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/scientists-series-end-0-kaay-sangate-kahani-vidnyanachi.jpg"
+    src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/scientists-series-end-0-kaay-sangate-kahani-vidnyanachi.jpg"
     class="aligncenter wp-post-image"
     alt="काय सांगते कहाणी विज्ञानाची"
     decoding="async"
@@ -189,7 +197,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-3146"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/scientists-series-end-1-pranjal_k-300x297.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/scientists-series-end-1-pranjal_k-300x297.jpg"
           alt="काय सांगते कहाणी विज्ञानाची"
           width="133"
           height="132"
@@ -243,16 +251,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2022"],
-    TAGS["december-डिसेंबर-२०२२"],
-    TAGS["masik"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["scientist"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/scientists-series-end.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/scientists-series-end.jpg",
   verified: {
     marathi: true,
     english: false,

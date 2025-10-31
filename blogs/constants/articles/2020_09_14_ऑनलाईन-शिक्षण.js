@@ -1,5 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["Aug-Sep - ऑगस्ट- सप्टेंबर २०२०"],
+    TAGS["masik-article"],
+    TAGS["Online Classes"],
+    TAGS["online education"],
+    TAGS["online learning"],
+  ],
   content: {
     marathi: `<article
   id="post-2275"
@@ -134,7 +142,7 @@ const articleData = {
         <figure class="alignleft size-large is-resized">
           <img
             decoding="async"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-शिक्षण-0-mangal_pawar.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑनलाईन-शिक्षण-0-mangal_pawar.jpg"
             alt="ऑनलाईन शिक्षण?"
             class="wp-image-2283"
             width="86"
@@ -187,16 +195,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["aug-sep-ऑगस्ट-सप्टेंबर-२०२०"],
-    TAGS["masik-article"],
-    TAGS["online-classes"],
-    TAGS["online-education"],
-    TAGS["online-learning"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/ऑनलाईन-शिक्षण.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/ऑनलाईन-शिक्षण.jpg",
   verified: {
     marathi: true,
     english: false,

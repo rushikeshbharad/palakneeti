@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["ऑगस्ट २०२५ - August 2025"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-27671"
@@ -14,7 +21,7 @@ const articleData = {
           decoding="async"
           width="1024"
           height="768"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिनभिंतींची-शाळा-0-binbhintichi-shala-1024x768.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिनभिंतींची-शाळा-0-binbhintichi-shala-1024x768.jpg"
           alt="बिन’भिंतीं’ची शाळा"
           class="wp-image-27672"
           style="width: 475px; height: auto"
@@ -109,7 +116,7 @@ const articleData = {
           decoding="async"
           width="509"
           height="1024"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिनभिंतींची-शाळा-1-binbhintichi-shala1-509x1024.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिनभिंतींची-शाळा-1-binbhintichi-shala1-509x1024.jpg"
           alt="बिन’भिंतीं’ची शाळा"
           class="wp-image-27673"
           style="width: 232px; height: auto"
@@ -228,15 +235,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["ऑगस्ट-२०२५-august-2025"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/बिनभिंतींची-शाळा.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/बिनभिंतींची-शाळा.jpg",
   verified: {
     marathi: true,
     english: false,

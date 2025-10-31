@@ -1,5 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["April - एप्रिल २०१९"],
+    TAGS["Death"],
+    TAGS["Diary of a Mother"],
+    TAGS["masik-article"],
+  ],
   content: {
     marathi: `<article
   id="post-1257"
@@ -52,7 +58,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-201"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टोमॅटो-आदूकडे-गेला-का-0-12-preetee-oswal1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/टोमॅटो-आदूकडे-गेला-का-0-12-preetee-oswal1.jpg"
           alt="12. Preetee Oswal"
           width="108"
           height="108"
@@ -105,14 +111,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["april-एप्रिल-२०१९"],
-    TAGS["death"],
-    TAGS["diary-of-a-mother"],
-    TAGS["masik-article"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/टोमॅटो-आदूकडे-गेला-का.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/टोमॅटो-आदूकडे-गेला-का.jpg",
   verified: {
     marathi: true,
     english: false,

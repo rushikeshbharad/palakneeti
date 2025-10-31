@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["Dance"],
+    TAGS["dance movement"],
+    TAGS["masik-article"],
+    TAGS["Self-discovery"],
+    TAGS["September - सप्टेंबर २०१८"],
+  ],
   content: {
     marathi: `<article
   id="post-802"
@@ -19,7 +26,7 @@ const articleData = {
         <img
           decoding="async"
           class="wp-image-855 alignright"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्यकला-ते-स्वतचा-शोध-0-dance.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्यकला-ते-स्वतचा-शोध-0-dance.jpg"
           alt="Dance"
           width="222"
           height="253"
@@ -103,7 +110,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-822"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्यकला-ते-स्वतचा-शोध-1-radha-joshi.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्यकला-ते-स्वतचा-शोध-1-radha-joshi.jpg"
           alt="Radha-Joshi"
           width="93"
           height="124"
@@ -153,15 +160,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["dance"],
-    TAGS["dance-movement"],
-    TAGS["masik-article"],
-    TAGS["self-discovery"],
-    TAGS["september-सप्टेंबर-२०१८"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/नृत्यकला-ते-स्वतचा-शोध.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/नृत्यकला-ते-स्वतचा-शोध.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,12 +1,21 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2020"],
+    TAGS["December - डिसेंबर २०२०"],
+    TAGS["experience"],
+    TAGS["masik-article"],
+    TAGS["Mela"],
+    TAGS["Project"],
+    TAGS["school"],
+  ],
   content: {
     marathi: `<article
   id="post-2744"
   class="post-2744 post type-post status-publish format-standard has-post-thumbnail hentry category-422 category-december-- category-masik-article tag-experience tag-mela tag-project tag-school"
 >
   <div class="entry-content-wrapper">
-    <div class="entry-content gsp_dc">
+    <div class="entry-content">
       <p>
         ‘दुकानजत्रा: एक जीवनस्पर्शी शैक्षणिक अनुभव’ हे पुस्तक अक्षरनंदन शाळेने
         प्रकाशित केले आहे. ‘अक्षरनंदन’ ही पुण्यातील एक प्रयोगशील आणि सर्जनशील
@@ -113,7 +122,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone size-full wp-image-2753"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्-0-dukanjatra_aksharnandan2.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्-0-dukanjatra_aksharnandan2.jpg"
           alt="DukanJatra_AksharNandan2"
           width="1200"
           height="1280"
@@ -212,7 +221,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-1704"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्-1-shubhada_joshi-e1573837119453.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्-1-shubhada_joshi-e1573837119453.jpg"
           alt="Shubhada_Joshi"
           width="132"
           height="136"
@@ -259,17 +268,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2020"],
-    TAGS["december-डिसेंबर-२०२०"],
-    TAGS["experience"],
-    TAGS["masik-article"],
-    TAGS["mela"],
-    TAGS["project"],
-    TAGS["school"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/दुकानजत्रा-एक-जीवनस्पर्.jpg",
   verified: {
     marathi: true,
     english: false,

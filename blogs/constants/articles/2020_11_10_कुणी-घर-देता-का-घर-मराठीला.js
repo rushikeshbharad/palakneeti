@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"], TAGS["Uncategorized"]],
   content: {
     marathi: `<article
   id="post-2380"
@@ -165,7 +166,7 @@ const articleData = {
         <img
           decoding="async"
           class="alignnone wp-image-2552"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुणी-घर-देता-का-घर-मराठीला-0-127.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुणी-घर-देता-का-घर-मराठीला-0-127.jpg"
           alt="127"
           width="105"
           height="130"
@@ -214,9 +215,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"], TAGS["uncategorized"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/कुणी-घर-देता-का-घर-मराठीला.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/कुणी-घर-देता-का-घर-मराठीला.jpg",
   verified: {
     marathi: true,
     english: false,

@@ -1,5 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-22368"
@@ -21,8 +22,7 @@ const articleData = {
                 alt="Magazine Cover"
                 class="imagecache imagecache-book_thumbnail imagecache-default imagecache-book_thumbnail_default"
                 height="205"
-                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-0-vygotsky_0.jpg"
-                title=""
+                src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-0-vygotsky_0.jpg"
                 width="150"
               />
             </div>
@@ -67,7 +67,7 @@ const articleData = {
             decoding="async"
             alt="IMG_9118.JPG"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-1-IMG_9118.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-1-IMG_9118.JPG"
             width="450"
           />
         </p>
@@ -94,7 +94,7 @@ const articleData = {
             align="left"
             alt="bal.jpg"
             height="150"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-2-bal.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-2-bal.jpg"
             width="300"
           />
         </p>
@@ -117,7 +117,7 @@ const articleData = {
             align="right"
             alt="ghoda-kathi.jpg"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-3-ghoda-kathi.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-3-ghoda-kathi.jpg"
             width="350"
           />
         </p>
@@ -145,7 +145,7 @@ const articleData = {
             align="right"
             alt="DSC_0614.JPG"
             height="200"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-4-DSC_0614.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-4-DSC_0614.JPG"
             width="350"
           /><br />
           <img
@@ -153,7 +153,7 @@ const articleData = {
             decoding="async"
             alt="DSC_0615.JPG"
             height="200"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-5-DSC_0615.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-5-DSC_0615.JPG"
             width="350"
           />
         </p>
@@ -257,7 +257,7 @@ const articleData = {
             align="left"
             alt="DSC_0178.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-6-DSC_0178.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-6-DSC_0178.JPG"
             width="268"
           />
         </p>
@@ -279,7 +279,7 @@ const articleData = {
             align="right"
             alt="_MG_8518_0.JPG"
             height="267"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-7-_MG_8518_0.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-7-_MG_8518_0.JPG"
             width="400"
           />
         </p>
@@ -324,7 +324,7 @@ const articleData = {
             decoding="async"
             alt="DSCN4931.JPG"
             height="300"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-8-DSCN4931.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-8-DSCN4931.JPG"
             width="400"
           />
         </p>
@@ -423,7 +423,7 @@ const articleData = {
             align="left"
             alt="IMG_0396.JPG"
             height="400"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-9-IMG_0396.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-9-IMG_0396.JPG"
             width="267"
           />
         </p>
@@ -472,7 +472,7 @@ const articleData = {
             decoding="async"
             alt="P1010231.JPG"
             height="300"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-10-P1010231.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-10-P1010231.JPG"
             width="400"
           />
         </p>
@@ -509,7 +509,7 @@ const articleData = {
             align="left"
             alt="100_0524_0.JPG"
             height="350"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-11-100_0524_0.JPG"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-11-100_0524_0.JPG"
             width="250"
           />
         </p>
@@ -540,7 +540,7 @@ const articleData = {
             align="right"
             alt="mulgi-dar.jpg"
             height="250"
-            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368-12-mulgi-dar.jpg"
+            src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368-12-mulgi-dar.jpg"
             width="350"
           />
         </p>
@@ -592,9 +592,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [TAGS["masik-article"]],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/22368.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/22368.jpg",
   verified: {
     marathi: true,
     english: false,

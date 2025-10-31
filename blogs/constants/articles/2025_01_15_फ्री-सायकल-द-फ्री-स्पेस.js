@@ -1,5 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
+  tags: [
+    TAGS["2025"],
+    TAGS["January - जानेवारी २०२५"],
+    TAGS["masik-article"],
+    TAGS["palakneeti"],
+    TAGS["पालकनीती"],
+  ],
   content: {
     marathi: `<article
   id="post-25721"
@@ -14,7 +21,7 @@ const articleData = {
           decoding="async"
           width="288"
           height="300"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस-0-free-cycle-the-free-space1-288x300-1.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस-0-free-cycle-the-free-space1-288x300-1.jpg"
           alt="फ्री सायकल – द फ्री स्पेस"
           class="wp-image-27014"
           style="width: 197px; height: 205px"
@@ -202,7 +209,7 @@ const articleData = {
           decoding="async"
           width="197"
           height="244"
-          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस-1-preeti-pushpa-prakash.jpg"
+          src="https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस-1-preeti-pushpa-prakash.jpg"
           alt="फ्री सायकल – द फ्री स्पेस"
           class="wp-image-27008"
           style="width: 73px; height: 91px"
@@ -248,15 +255,8 @@ const articleData = {
   translators: [],
   verbalizers: [],
   conceptualists: [],
-  tags: [
-    TAGS["2025"],
-    TAGS["january-जानेवारी-२०२५"],
-    TAGS["masik-article"],
-    TAGS["palakneeti"],
-    TAGS["पालकनीती"],
-  ],
   image:
-    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस.jpg",
+    "https://cdn.jsdelivr.net/gh/rushikeshbharad/palakneeti@main/assets/article-images/फ्री-सायकल-द-फ्री-स्पेस.jpg",
   verified: {
     marathi: true,
     english: false,
