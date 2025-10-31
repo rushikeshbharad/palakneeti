@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Typography, Button, Box, Divider, Chip } from "@mui/material";
+import { Typography, Button, Box, Divider, Chip, Grid } from "@mui/material";
+import ArticleTile from "./article-tile";
 import ARTICLES from "../constants/index";
 import TAGS from "../constants/tags";
 
@@ -40,6 +41,16 @@ const ArticlePage = () => {
     const [key, value] = Object.entries(TAGS).find((t) => t[1] === tag) || [];
     return { key, value }
   });
+  const tagsForArticles = tags.filter(t => !['palakneeti', 'masik-article', 'masik-monthly', 'पालकनीती'].includes(t))
+  const relatedArticles = ARTICLES.filter((a) => {
+    const key = Object.keys(a)[0];
+    // Exclude the current article from the related list
+    if (key === articleKey) return false;
+    
+    const articleTags = Object.values(a)[0]?.tags || [];
+    return articleTags.filter(t => t).some(t => (tagsForArticles.length ? tagsForArticles : tags).includes(t));
+  });
+  const randomRelatedArticles = relatedArticles.sort(() => 0.5 - Math.random()).slice(0, 6);
 
   const encodedTitle = encodeURI(title);
   const encodedUrl = new URL(`${location.origin}/${slug}`).href;
@@ -168,7 +179,7 @@ const ArticlePage = () => {
                 </span>
             </a>
       </div>
-      <Box sx={{ marginTop: '2em', marginBottom: '4em', display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+      <Box sx={{ marginTop: '2em', display: 'flex', gap: 1, flexWrap: 'wrap' }}>
         {tagsKeyValues.filter(({ key }) => key).map(({ key, value }) => (
           <Chip
             key={key}
@@ -189,6 +200,22 @@ const ArticlePage = () => {
           />
         ))}
       </Box>
+      {randomRelatedArticles.length > 0 && (
+        <Box sx={{ marginTop: '4em', marginBottom: '4em' }}>
+          <Typography variant="h4" component="h2" gutterBottom>Related Articles</Typography>
+          <Divider sx={{ marginBottom: '2em' }} />
+          <Box className="article-grid">
+            {randomRelatedArticles.map((articleObject, index) => {
+              const [dateSlug, data] = Object.entries(articleObject)[0];
+              return (
+                <Grid item key={`${dateSlug}-${index}}`}>
+                  <ArticleTile shortTile dateSlug={dateSlug} data={data} />
+                </Grid>
+              );
+            })}
+          </Box>
+        </Box>
+      )}
     </Box>
   );
 };

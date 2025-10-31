@@ -87,6 +87,24 @@ blockquote p {
     text-align: center;
 }
 
+pre {
+    white-space: break-spaces;
+    background: #f0f0f0;
+    padding: 2em;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
 a {
     color: #1976d2 !important;
 }
