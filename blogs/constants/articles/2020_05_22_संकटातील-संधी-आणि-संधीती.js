@@ -2,12 +2,12 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["april-may-एप्रिल-मे-२०२०"],
     TAGS["covid"],
     TAGS["lockdown"],
     TAGS["masik-article"],
-    TAGS["Online Classes"],
-    TAGS["online learning"],
+    TAGS["online-classes"],
+    TAGS["online-learning"],
     TAGS["कोरोना"],
     TAGS["संकट"],
   ],

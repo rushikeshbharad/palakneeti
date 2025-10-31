@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["experience"],
-    TAGS["Language"],
+    TAGS["language"],
     TAGS["masik-article"],
-    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
-    TAGS["Reader's Response"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["readers-response"],
   ],
   content: {
     marathi: `<article

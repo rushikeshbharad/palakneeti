@@ -5,8 +5,8 @@ const articleData = {
     TAGS["fatherhood"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
-    TAGS["parenting experience"],
-    TAGS["जुलै २०२५ - July 2025"],
+    TAGS["parenting-experience"],
+    TAGS["जुलै-२०२५-july-2025"],
     TAGS["पालकनीती"],
   ],
   content: {

@@ -1,9 +1,9 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["famous personalities"],
+    TAGS["famous-personalities"],
     TAGS["fatherhood"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

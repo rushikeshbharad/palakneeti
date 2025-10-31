@@ -2,7 +2,7 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["masik-article"],
-    TAGS["Oct-Nov २०१८"],
+    TAGS["oct-nov-२०१८"],
     TAGS["अर्थशिक्षण"],
     TAGS["पालक"],
   ],

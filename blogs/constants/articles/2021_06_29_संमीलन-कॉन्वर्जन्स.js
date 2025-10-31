@@ -2,15 +2,15 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["Convergence"],
+    TAGS["convergence"],
     TAGS["environment"],
-    TAGS["Equity"],
-    TAGS["Human Rights"],
-    TAGS["June - जून २०२१"],
-    TAGS["Martin Luther King Jr."],
+    TAGS["equity"],
+    TAGS["human-rights"],
+    TAGS["june-जून-२०२१"],
+    TAGS["martin-luther-king-jr"],
     TAGS["masik-article"],
-    TAGS["Rachel Carson"],
-    TAGS["Social Movement"],
+    TAGS["rachel-carson"],
+    TAGS["social-movement"],
   ],
   content: {
     marathi: `<article

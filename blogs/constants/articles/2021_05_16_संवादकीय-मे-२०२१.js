@@ -4,8 +4,8 @@ const articleData = {
     TAGS["2021"],
     TAGS["editorial"],
     TAGS["masik-article"],
-    TAGS["May - मे २०२१"],
-    TAGS["Samvaadkiya"],
+    TAGS["may-मे-२०२१"],
+    TAGS["samvaadkiya"],
   ],
   content: {
     marathi: `<article

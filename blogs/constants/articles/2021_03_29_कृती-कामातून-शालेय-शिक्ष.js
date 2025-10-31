@@ -2,12 +2,12 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["Experiential Education"],
-    TAGS["Learning by DOing"],
+    TAGS["experiential-education"],
+    TAGS["learning-by-doing"],
     TAGS["masik-article"],
-    TAGS["Nai Talim"],
-    TAGS["work and education"],
-    TAGS["फेब्रुवारी २०२१"],
+    TAGS["nai-talim"],
+    TAGS["work-and-education"],
+    TAGS["फेब्रुवारी-२०२१"],
   ],
   content: {
     marathi: `<article

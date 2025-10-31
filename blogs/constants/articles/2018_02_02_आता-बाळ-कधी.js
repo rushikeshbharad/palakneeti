@@ -1,12 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Children"],
-    TAGS["Early Childhood"],
-    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["children"],
+    TAGS["early-childhood"],
+    TAGS["february-फेब्रुवारी-२०१८"],
     TAGS["masik-article"],
-    TAGS["No Child"],
-    TAGS["When to have a child"],
+    TAGS["no-child"],
+    TAGS["when-to-have-a-child"],
   ],
   content: {
     marathi: `<article

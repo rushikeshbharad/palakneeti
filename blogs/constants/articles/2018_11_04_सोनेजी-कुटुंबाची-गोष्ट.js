@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["masik-article"],
-    TAGS["Oct-Nov २०१८"],
+    TAGS["oct-nov-२०१८"],
     TAGS["गुजरात"],
     TAGS["धीरेंद्रभाई"],
-    TAGS["नैसर्गिक जीवनपद्धती"],
+    TAGS["नैसर्गिक-जीवनपद्धती"],
     TAGS["साकवा"],
     TAGS["सोनेजी"],
     TAGS["स्मिताबेन"],

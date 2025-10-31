@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["child development"],
-    TAGS["Children"],
-    TAGS["English"],
-    TAGS["June - जून २०१८"],
+    TAGS["child-development"],
+    TAGS["children"],
+    TAGS["english"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
     TAGS["nature"],
     TAGS["perception"],

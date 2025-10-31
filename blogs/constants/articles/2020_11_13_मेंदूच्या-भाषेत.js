@@ -2,11 +2,11 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["Brain"],
-    TAGS["Language"],
+    TAGS["brain"],
+    TAGS["language"],
     TAGS["masik-article"],
-    TAGS["Neuroscience"],
-    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["neuroscience"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
   ],
   content: {
     marathi: `<article

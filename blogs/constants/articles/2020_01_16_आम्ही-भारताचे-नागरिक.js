@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["constitution"],
-    TAGS["India"],
-    TAGS["January - जानेवारी २०२०"],
+    TAGS["india"],
+    TAGS["january-जानेवारी-२०२०"],
     TAGS["masik-article"],
-    TAGS["We the people of India"],
+    TAGS["we-the-people-of-india"],
   ],
   content: {
     marathi: `<article

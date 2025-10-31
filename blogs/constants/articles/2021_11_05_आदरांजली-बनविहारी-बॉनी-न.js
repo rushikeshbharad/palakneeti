@@ -3,7 +3,7 @@ const articleData = {
   tags: [
     TAGS["2021"],
     TAGS["masik-article"],
-    TAGS["September - सप्टेंबर २०२१"],
+    TAGS["september-सप्टेंबर-२०२१"],
     TAGS["tribute"],
   ],
   content: {

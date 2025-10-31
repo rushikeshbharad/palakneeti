@@ -4,7 +4,7 @@ const articleData = {
     TAGS["2022"],
     TAGS["masik-diwali"],
     TAGS["masik-monthly"],
-    TAGS["Oct-Nov – ऑक्टोबर – नोव्हेंबर २०२२"],
+    TAGS["jodank-2022"],
   ],
   content: {
     marathi: `<article

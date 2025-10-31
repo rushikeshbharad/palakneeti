@@ -2,12 +2,12 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["Covid19"],
-    TAGS["Female"],
-    TAGS["Gender"],
-    TAGS["March - मार्च २०२१"],
+    TAGS["covid19"],
+    TAGS["female"],
+    TAGS["gender"],
+    TAGS["march-मार्च-२०२१"],
     TAGS["masik-article"],
-    TAGS["Women"],
+    TAGS["women"],
   ],
   content: {
     marathi: `<article

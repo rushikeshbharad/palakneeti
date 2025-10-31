@@ -1,12 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Autonomy"],
-    TAGS["Children's perspective on freedom"],
-    TAGS["Experiences"],
-    TAGS["February - फेब्रुवारी २०१९"],
-    TAGS["Freedom"],
-    TAGS["Freedom at School"],
+    TAGS["autonomy"],
+    TAGS["childrens-perspective-on-freedom"],
+    TAGS["experiences"],
+    TAGS["february-फेब्रुवारी-२०१९"],
+    TAGS["freedom"],
+    TAGS["freedom-at-school"],
     TAGS["masik-article"],
   ],
   content: {

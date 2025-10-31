@@ -2,9 +2,9 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["Congratulations"],
-    TAGS["December - डिसेंबर २०२०"],
-    TAGS["Global Teacher Award"],
+    TAGS["congratulations"],
+    TAGS["december-डिसेंबर-२०२०"],
+    TAGS["global-teacher-award"],
     TAGS["masik-article"],
   ],
   content: {

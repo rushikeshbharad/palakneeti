@@ -1,12 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["English"],
+    TAGS["english"],
     TAGS["father"],
     TAGS["fatherhood"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
-    TAGS["role of father in child development"],
+    TAGS["role-of-father-in-child-development"],
   ],
   content: {
     marathi: ``,

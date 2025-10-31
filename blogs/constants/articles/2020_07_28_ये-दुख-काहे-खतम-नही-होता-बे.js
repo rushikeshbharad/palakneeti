@@ -2,14 +2,14 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["Covid19"],
-    TAGS["June-July - जून-जुलै २०२०"],
+    TAGS["covid19"],
+    TAGS["june-july-जून-जुलै-२०२०"],
     TAGS["lockdown"],
     TAGS["masik-article"],
-    TAGS["Migrant Workers"],
-    TAGS["Migration"],
-    TAGS["Relief Work"],
-    TAGS["Suffering"],
+    TAGS["migrant-workers"],
+    TAGS["migration"],
+    TAGS["relief-work"],
+    TAGS["suffering"],
   ],
   content: {
     marathi: `<article

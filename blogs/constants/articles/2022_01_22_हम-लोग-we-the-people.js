@@ -3,11 +3,11 @@ const articleData = {
   tags: [
     TAGS["2022"],
     TAGS["constitution"],
-    TAGS["January - जानेवारी २०२२"],
-    TAGS["Loknaad"],
+    TAGS["january-जानेवारी-२०२२"],
+    TAGS["loknaad"],
     TAGS["masik-article"],
-    TAGS["Song"],
-    TAGS["we the people"],
+    TAGS["song"],
+    TAGS["we-the-people"],
   ],
   content: {
     marathi: `<article

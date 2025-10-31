@@ -4,9 +4,9 @@ const articleData = {
     TAGS["2022"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
-    TAGS["Poet"],
-    TAGS["Poetry"],
-    TAGS["September – सप्टेम्बर २०२२"],
+    TAGS["poet"],
+    TAGS["poetry"],
+    TAGS["september-सप्टेंबर-२०२२"],
   ],
   content: {
     marathi: `<article

@@ -1,14 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["CFR"],
-    TAGS["collective action"],
-    TAGS["Community"],
-    TAGS["community forest conservation"],
+    TAGS["cfr"],
+    TAGS["collective-action"],
+    TAGS["community"],
+    TAGS["community-forest-conservation"],
     TAGS["gram-sabha"],
-    TAGS["June - जून २०१८"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
-    TAGS["Paachgaav"],
+    TAGS["paachgaav"],
   ],
   content: {
     marathi: `<article

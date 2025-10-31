@@ -1,12 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["April - एप्रिल २०१८"],
-    TAGS["Gender Identity"],
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["gender-identity"],
     TAGS["masik-article"],
-    TAGS["Menstrual Taboo"],
-    TAGS["Menstruation"],
-    TAGS["Stigma"],
+    TAGS["menstrual-taboo"],
+    TAGS["menstruation"],
+    TAGS["stigma"],
   ],
   content: {
     marathi: `<article

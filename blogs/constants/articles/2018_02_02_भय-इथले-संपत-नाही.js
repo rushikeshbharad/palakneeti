@@ -3,12 +3,12 @@ const articleData = {
   tags: [
     TAGS["control"],
     TAGS["fear"],
-    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["february-फेब्रुवारी-२०१८"],
     TAGS["juvenile"],
     TAGS["masik-article"],
     TAGS["newspaper"],
     TAGS["nonjudgmental"],
-    TAGS["safe environment"],
+    TAGS["safe-environment"],
     TAGS["violence"],
   ],
   content: {

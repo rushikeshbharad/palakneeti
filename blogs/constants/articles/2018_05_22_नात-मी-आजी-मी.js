@@ -4,7 +4,7 @@ const articleData = {
     TAGS["grandchild"],
     TAGS["grandparent"],
     TAGS["masik-article"],
-    TAGS["May - मे २०१८"],
+    TAGS["may-मे-२०१८"],
   ],
   content: {
     marathi: `<article

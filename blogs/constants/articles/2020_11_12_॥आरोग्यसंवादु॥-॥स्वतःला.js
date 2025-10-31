@@ -2,12 +2,12 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["Gender"],
-    TAGS["Health"],
-    TAGS["Health Education"],
+    TAGS["gender"],
+    TAGS["health"],
+    TAGS["health-education"],
     TAGS["masik-article"],
-    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
-    TAGS["Sex Education"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
+    TAGS["sex-education"],
   ],
   content: {
     marathi: `<article

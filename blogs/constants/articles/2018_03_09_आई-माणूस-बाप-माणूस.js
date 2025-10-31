@@ -1,11 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Gender"],
-    TAGS["Gender in Parents"],
-    TAGS["March - मार्च २०१८"],
+    TAGS["gender"],
+    TAGS["gender-in-parents"],
+    TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],
-    TAGS["Parenting Role and Gender"],
+    TAGS["parenting-role-and-gender"],
   ],
   content: {
     marathi: `<article

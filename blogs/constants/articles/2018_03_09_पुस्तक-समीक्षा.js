@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Book Review"],
-    TAGS["Gender"],
-    TAGS["Gender Identity"],
-    TAGS["March - मार्च २०१८"],
+    TAGS["book-review"],
+    TAGS["gender"],
+    TAGS["gender-identity"],
+    TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

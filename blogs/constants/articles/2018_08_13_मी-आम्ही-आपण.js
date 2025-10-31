@@ -1,14 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["August - ऑगस्ट २०१८"],
-    TAGS["collective identity"],
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["collective-identity"],
     TAGS["identity"],
-    TAGS["individual identity"],
+    TAGS["individual-identity"],
     TAGS["masik-article"],
     TAGS["nationality"],
     TAGS["religion"],
-    TAGS["Uncategorized"],
+    TAGS["uncategorized"],
   ],
   content: {
     marathi: `<article

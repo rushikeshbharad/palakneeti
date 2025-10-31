@@ -3,7 +3,7 @@ const articleData = {
   tags: [
     TAGS["editorial"],
     TAGS["fatherhood"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

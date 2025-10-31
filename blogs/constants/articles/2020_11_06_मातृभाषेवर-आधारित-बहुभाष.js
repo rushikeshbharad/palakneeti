@@ -2,16 +2,16 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["English"],
-    TAGS["Language"],
+    TAGS["english"],
+    TAGS["language"],
     TAGS["masik-article"],
-    TAGS["MLE"],
-    TAGS["mother tongue"],
-    TAGS["mother tongue based multi-lingual education"],
-    TAGS["MTB-MLE"],
-    TAGS["multi-lingual education"],
-    TAGS["NEP 2020"],
-    TAGS["Oct-Nov - ऑक्टोबर- नोव्हेंबर २०२०"],
+    TAGS["mle"],
+    TAGS["mother-tongue"],
+    TAGS["mother-tongue-based-multi-lingual-education"],
+    TAGS["mtb-mle"],
+    TAGS["multi-lingual-education"],
+    TAGS["nep-2020"],
+    TAGS["oct-nov-ऑक्टोबर-नोव्हेंबर-२०२०"],
   ],
   content: {
     marathi: `<article

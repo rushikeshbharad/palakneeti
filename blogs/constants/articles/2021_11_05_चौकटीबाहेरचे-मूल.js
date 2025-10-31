@@ -1,9 +1,9 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["August - ऑगस्ट २०२१"],
-    TAGS["Children"],
-    TAGS["Children's Literature"],
+    TAGS["august-ऑगस्ट-२०२१"],
+    TAGS["children"],
+    TAGS["childrens-literature"],
     TAGS["masik-article"],
   ],
   content: {

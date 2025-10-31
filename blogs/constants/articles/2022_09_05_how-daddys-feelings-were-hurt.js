@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["2022"],
     TAGS["masik-article"],
-    TAGS["Russian"],
-    TAGS["September – सप्टेम्बर २०२२"],
-    TAGS["Story"],
-    TAGS["when daddy was a little boy"],
+    TAGS["russian"],
+    TAGS["september-सप्टेंबर-२०२२"],
+    TAGS["story"],
+    TAGS["when-daddy-was-a-little-boy"],
   ],
   content: {
     marathi: `<article

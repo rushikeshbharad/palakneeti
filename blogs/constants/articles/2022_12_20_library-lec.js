@@ -1,9 +1,9 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Books"],
-    TAGS["Children's Literature"],
-    TAGS["Library"],
+    TAGS["books"],
+    TAGS["childrens-literature"],
+    TAGS["library"],
     TAGS["palakneeti"],
   ],
   content: {

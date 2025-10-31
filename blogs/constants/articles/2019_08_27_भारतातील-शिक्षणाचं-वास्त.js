@@ -1,12 +1,12 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["August - ऑगस्ट २०१९"],
-    TAGS["Education System"],
-    TAGS["India"],
-    TAGS["Indian Education"],
+    TAGS["august-ऑगस्ट-२०१९"],
+    TAGS["education-system"],
+    TAGS["india"],
+    TAGS["indian-education"],
     TAGS["masik-article"],
-    TAGS["Reality"],
+    TAGS["reality"],
   ],
   content: {
     marathi: `<article

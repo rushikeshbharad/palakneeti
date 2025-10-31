@@ -3,12 +3,12 @@ const articleData = {
   tags: [
     TAGS["2020"],
     TAGS["diversity"],
-    TAGS["February - फेब्रुवारी २०२०"],
-    TAGS["India"],
+    TAGS["february-फेब्रुवारी-२०२०"],
+    TAGS["india"],
     TAGS["masik-article"],
-    TAGS["Nation"],
+    TAGS["nation"],
     TAGS["religion"],
-    TAGS["Secularism"],
+    TAGS["secularism"],
   ],
   content: {
     marathi: `<article

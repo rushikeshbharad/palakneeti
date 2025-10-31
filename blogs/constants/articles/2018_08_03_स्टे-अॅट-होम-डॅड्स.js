@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["fatherhood"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
     TAGS["paternity"],
-    TAGS["'stay at home' dads"],
+    TAGS["stay-at-home-dads"],
   ],
   content: {
     marathi: `<article

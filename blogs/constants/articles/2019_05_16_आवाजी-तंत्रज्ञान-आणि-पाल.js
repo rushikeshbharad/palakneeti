@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["2019"],
     TAGS["masik-article"],
-    TAGS["May - मे २०१९"],
-    TAGS["personal voice assistant"],
-    TAGS["Technology"],
-    TAGS["Voice Technology"],
+    TAGS["may-मे-२०१९"],
+    TAGS["personal-voice-assistant"],
+    TAGS["technology"],
+    TAGS["voice-technology"],
   ],
   content: {
     marathi: `<article

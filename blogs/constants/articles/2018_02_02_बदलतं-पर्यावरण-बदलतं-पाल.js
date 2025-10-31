@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Changing times"],
+    TAGS["changing-times"],
     TAGS["ecology"],
     TAGS["environment"],
-    TAGS["February - फेब्रुवारी २०१८"],
+    TAGS["february-फेब्रुवारी-२०१८"],
     TAGS["masik-article"],
     TAGS["money"],
     TAGS["nature"],

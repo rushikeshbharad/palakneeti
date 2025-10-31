@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["January - जानेवारी २०२१"],
+    TAGS["january-जानेवारी-२०२१"],
     TAGS["masik-article"],
-    TAGS["Slow Language"],
-    TAGS["Slow Movement"],
+    TAGS["slow-language"],
+    TAGS["slow-movement"],
     TAGS["कमी-हळू-खरे"],
   ],
   content: {

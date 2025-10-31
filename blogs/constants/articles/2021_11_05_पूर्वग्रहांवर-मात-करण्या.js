@@ -1,11 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["August - ऑगस्ट २०२१"],
-    TAGS["Black lives matter"],
+    TAGS["august-ऑगस्ट-२०२१"],
+    TAGS["black-lives-matter"],
     TAGS["education"],
     TAGS["masik-article"],
-    TAGS["Prejudice"],
+    TAGS["prejudice"],
   ],
   content: {
     marathi: `<article

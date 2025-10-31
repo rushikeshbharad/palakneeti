@@ -1,11 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Changing Time"],
-    TAGS["February - फेब्रुवारी २०१८"],
-    TAGS["Food"],
-    TAGS["Health"],
-    TAGS["Junkfood"],
+    TAGS["changing-time"],
+    TAGS["february-फेब्रुवारी-२०१८"],
+    TAGS["food"],
+    TAGS["health"],
+    TAGS["junkfood"],
     TAGS["masik-article"],
   ],
   content: {

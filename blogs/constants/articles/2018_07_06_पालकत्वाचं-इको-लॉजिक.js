@@ -3,7 +3,7 @@ const articleData = {
   tags: [
     TAGS["eco-logic"],
     TAGS["ecology"],
-    TAGS["June - जून २०१८"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

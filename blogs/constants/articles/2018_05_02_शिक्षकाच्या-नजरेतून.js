@@ -1,13 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["April - एप्रिल २०१८"],
-    TAGS["Gender"],
-    TAGS["Gender and Education"],
-    TAGS["Gender education"],
+    TAGS["april-एप्रिल-२०१८"],
+    TAGS["gender"],
+    TAGS["gender-and-education"],
+    TAGS["gender-education"],
     TAGS["masik-article"],
-    TAGS["Teacher"],
-    TAGS["Teacher's perspective"],
+    TAGS["teacher"],
+    TAGS["teachers-perspective"],
   ],
   content: {
     marathi: `<article

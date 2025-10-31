@@ -3,15 +3,15 @@ const articleData = {
   tags: [
     TAGS["body"],
     TAGS["earth"],
-    TAGS["English"],
+    TAGS["english"],
     TAGS["experience"],
     TAGS["feet"],
-    TAGS["June - जून २०१८"],
+    TAGS["june-जून-२०१८"],
     TAGS["learning"],
     TAGS["masik-article"],
     TAGS["nature"],
     TAGS["tagore"],
-    TAGS["Uncategorized"],
+    TAGS["uncategorized"],
   ],
   content: {
     marathi: `<article

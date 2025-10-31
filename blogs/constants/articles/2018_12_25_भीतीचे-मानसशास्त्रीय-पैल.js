@@ -4,7 +4,7 @@ const articleData = {
     TAGS["2019"],
     TAGS["fear"],
     TAGS["masik-article"],
-    TAGS["Psychology of Fear"],
+    TAGS["psychology-of-fear"],
   ],
   content: {
     marathi: `<article

@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["child development"],
-    TAGS["Food"],
+    TAGS["child-development"],
+    TAGS["food"],
     TAGS["masik-article"],
-    TAGS["Nutrition"],
+    TAGS["nutrition"],
   ],
   content: {
     marathi: `<article

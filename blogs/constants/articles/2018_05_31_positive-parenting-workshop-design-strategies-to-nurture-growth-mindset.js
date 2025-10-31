@@ -2,8 +2,8 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["masik-article"],
-    TAGS["Parenting Workshops"],
-    TAGS["Positive Parenting"],
+    TAGS["parenting-workshops"],
+    TAGS["positive-parenting"],
   ],
   content: {
     marathi: ``,

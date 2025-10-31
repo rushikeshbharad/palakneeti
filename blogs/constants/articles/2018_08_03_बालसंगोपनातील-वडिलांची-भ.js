@@ -3,9 +3,9 @@ const articleData = {
   tags: [
     TAGS["father"],
     TAGS["fatherhood"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
-    TAGS["role of father in child development"],
+    TAGS["role-of-father-in-child-development"],
   ],
   content: {
     marathi: `<article

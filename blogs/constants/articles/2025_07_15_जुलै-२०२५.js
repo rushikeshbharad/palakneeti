@@ -5,7 +5,7 @@ const articleData = {
     TAGS["masik"],
     TAGS["masik-monthly"],
     TAGS["palakneeti"],
-    TAGS["जुलै २०२५ - July 2025"],
+    TAGS["जुलै-२०२५-july-2025"],
     TAGS["पालकनीती"],
   ],
   content: {

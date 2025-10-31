@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["April-May - एप्रिल-मे २०२०"],
+    TAGS["april-may-एप्रिल-मे-२०२०"],
     TAGS["masik-article"],
-    TAGS["Slow Media"],
-    TAGS["Slow Movement"],
+    TAGS["slow-media"],
+    TAGS["slow-movement"],
   ],
   content: {
     marathi: `<article

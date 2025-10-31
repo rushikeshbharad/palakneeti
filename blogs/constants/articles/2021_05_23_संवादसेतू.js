@@ -3,9 +3,9 @@ const articleData = {
   tags: [
     TAGS["2021"],
     TAGS["masik-article"],
-    TAGS["May - मे २०२१"],
-    TAGS["Reader's Response"],
-    TAGS["Teacher's Initiative"],
+    TAGS["may-मे-२०२१"],
+    TAGS["readers-response"],
+    TAGS["teachers-initiative"],
   ],
   content: {
     marathi: `<article

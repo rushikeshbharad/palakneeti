@@ -2,6 +2,7 @@ import React, { useState, useRef, useCallback, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, useParams, useSearchParams, Link } from "react-router-dom";
 import {
+  Autocomplete,
   Container,
   Divider,
   Typography,
@@ -13,6 +14,7 @@ import {
 } from "@mui/material";
 import ARTICLES from "./constants/index";
 import ArticleTile from "./components/article-tile";
+import TAGS from './constants/tags'
 import "./index.css"
 
 const ArticlePage = () => {
@@ -69,23 +71,41 @@ const ArticleList = () => {
   const observer = useRef();
 
   const searchTerm = searchParams.get("search") || "";
+  const tagsParam = searchParams.get("tags") || "";
+
+  const selectedTags = React.useMemo(() => {
+    if (!tagsParam) return [];
+    const tagIds = tagsParam.split(',');
+    return Object.entries(TAGS)
+      .filter(([key]) => tagIds.includes(key))
+      .map(([key, value]) => ({ label: value, id: key }));
+  }, [tagsParam]);
 
   const filteredArticles = React.useMemo(() => {
-    if (!searchTerm) {
+    const selectedTagIds = selectedTags.map(tag => tag.id);
+    const selectedTagValues = selectedTags.map(tag => TAGS[tag.id]);
+
+    if (!searchTerm && selectedTagIds.length === 0) {
       return ARTICLES;
     }
     return ARTICLES.filter(articleObject => {
       const data = Object.values(articleObject)[0];
+      // Check if all selected tags are present in the article's tags
+      if (selectedTagIds.length > 0 && !selectedTagValues.every(tag => (data.tags || []).includes(tag))) {
+        return false;
+      }
       const titleMarathi = (data.title.marathi || "").toLowerCase();
       const titleEnglish = (data.title.english || "").toLowerCase();
       const contentMarathi = (data.content.marathi || "").toLowerCase();
       const contentEnglish = (data.content.english || "").toLowerCase();
+      const allTags = (data.tags || []).join(" ").toLowerCase();
       return titleMarathi.includes(searchTerm.toLowerCase()) ||
         titleEnglish.includes(searchTerm.toLowerCase()) ||
         contentMarathi.includes(searchTerm.toLowerCase()) ||
-        contentEnglish.includes(searchTerm.toLowerCase());
-    });
-  }, [searchTerm]);
+        contentEnglish.includes(searchTerm.toLowerCase()) ||
+        allTags.includes(searchTerm.toLowerCase());
+    }); // `selectedTags` is derived from `tagsParam` which is part of `searchParams`
+  }, [searchTerm, selectedTags]); // `selectedTags` is stable for the same `tagsParam`
 
   const [articles, setArticles] = useState(filteredArticles.slice(0, 20));
 
@@ -124,15 +144,30 @@ const ArticleList = () => {
   }, [filteredArticles]);
 
   const handleSearch = () => {
+    const newSearchParams = new URLSearchParams(searchParams); // Preserve other params like 'tags'
     if (searchText.trim()) {
-      setSearchParams({ search: searchText.trim() });
-      setSearchText(""); // Clear the input field
+      newSearchParams.set('search', searchText.trim());
+    } else {
+      newSearchParams.delete('search');
     }
+    setSearchParams(newSearchParams);
+    setSearchText(""); // Clear the input field after search
   };
 
   const handleKeyDown = (event) => {
     if (event.key === 'Enter') handleSearch();
   };
+
+  const handleTagChange = (event, newTags) => {
+    const newSearchParams = new URLSearchParams(searchParams);
+    if (newTags.length > 0) {
+      const tagIds = newTags.map(tag => tag.id).join(',');
+      newSearchParams.set('tags', tagIds);
+    } else {
+      newSearchParams.delete('tags');
+    }
+    setSearchParams(newSearchParams);
+  }
 
   return (
     <Box>
@@ -144,16 +179,15 @@ const ArticleList = () => {
             variant="h5"
             sx={{
                 textAlign: 'center',
-                marginBottom: '2em',
                 marginTop: '1em'
             }}
         >
-            {`${filteredArticles.length} article${filteredArticles.length === 1 ? '' : 's'} found for search: "${searchTerm}" (`}
+            {`${filteredArticles.length} article${filteredArticles.length === 1 ? '' : 's'} found for "${searchTerm}" (`}
             <Link to="/">Clear</Link>
             {`)`}
         </Typography>
       ) : (
-        <Box sx={{ display: 'flex', gap: 2, alignItems: 'center', marginBottom: '4em' }}>
+        <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
             <TextField
                 fullWidth
                 label="Search Articles"
@@ -165,6 +199,25 @@ const ArticleList = () => {
             <Button variant="contained" sx={{ height: '56px' }} onClick={handleSearch}>Search</Button>
         </Box>
       )}
+      <Autocomplete
+        multiple
+        id="tags-filter"
+        options={Object.entries(TAGS).map(([key, value]) => ({ label: value, id: key }))}
+        value={selectedTags}
+        onChange={handleTagChange}
+        renderOption={(props, option) => (
+          <li {...props} key={option.id}>{option.label}</li>
+        )}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            variant="outlined"
+            label="Filter by Categories"
+            placeholder="Categories"
+          />
+        )}
+        sx={{ marginBottom: '4em', marginTop: '1em' }}
+      />
       <Box className="article-grid">
         {articles.map((articleObject, index) => {
           const [dateSlug, data] = Object.entries(articleObject)[0];
@@ -178,7 +231,7 @@ const ArticleList = () => {
             year: 'numeric'
           }).replace(/ /g, '-');
           return (
-            <Grid item key={slug} ref={isLastArticle ? lastArticleElementRef : null}>
+            <Grid item key={`${dateSlug}-${index}}`} ref={isLastArticle ? lastArticleElementRef : null}>
               <ArticleTile slug={slug} data={data} date={date} />
             </Grid>
           );

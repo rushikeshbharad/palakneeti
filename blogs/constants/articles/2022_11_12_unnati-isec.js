@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2022"],
-    TAGS["Civil Society Organisation"],
-    TAGS["June - जून २०२२"],
-    TAGS["MLE"],
-    TAGS["MTB-MLE"],
+    TAGS["civil-society-organisation"],
+    TAGS["june-जून-२०२२"],
+    TAGS["mle"],
+    TAGS["mtb-mle"],
     TAGS["palakneeti"],
   ],
   content: {

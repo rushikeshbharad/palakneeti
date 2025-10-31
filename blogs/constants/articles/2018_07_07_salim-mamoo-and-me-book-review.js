@@ -1,13 +1,13 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Bird-watching"],
-    TAGS["Birds"],
-    TAGS["Book Review"],
-    TAGS["English"],
-    TAGS["June - जून २०१८"],
+    TAGS["bird-watching"],
+    TAGS["birds"],
+    TAGS["book-review"],
+    TAGS["english"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
-    TAGS["Salim Ali"],
+    TAGS["salim-ali"],
   ],
   content: {
     marathi: ``,

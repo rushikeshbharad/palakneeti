@@ -1,9 +1,9 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Gender Discrimination and Law"],
-    TAGS["Legal History of Gender Equity"],
-    TAGS["March - मार्च २०१८"],
+    TAGS["gender-discrimination-and-law"],
+    TAGS["legal-history-of-gender-equity"],
+    TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

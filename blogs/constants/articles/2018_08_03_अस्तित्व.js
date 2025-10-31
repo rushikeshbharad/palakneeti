@@ -3,8 +3,8 @@ const articleData = {
   tags: [
     TAGS["existence"],
     TAGS["fatherhood"],
-    TAGS["growing up without father"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["growing-up-without-father"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

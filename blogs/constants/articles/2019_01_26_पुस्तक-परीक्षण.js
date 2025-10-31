@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Book Review"],
-    TAGS["Health"],
-    TAGS["health for all"],
-    TAGS["January - जानेवारी २०१९"],
+    TAGS["book-review"],
+    TAGS["health"],
+    TAGS["health-for-all"],
+    TAGS["january-जानेवारी-२०१९"],
     TAGS["masik-article"],
   ],
   content: {

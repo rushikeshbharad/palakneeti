@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["etymology"],
     TAGS["fatherhood"],
-    TAGS["history of father-words"],
-    TAGS["July - जुलै २०१८"],
+    TAGS["history-of-father-words"],
+    TAGS["july-जुलै-२०१८"],
     TAGS["masik-article"],
-    TAGS["Uncategorized"],
+    TAGS["uncategorized"],
   ],
   content: {
     marathi: `<article

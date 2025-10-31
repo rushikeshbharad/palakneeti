@@ -1,11 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Acceptance"],
-    TAGS["English"],
+    TAGS["acceptance"],
+    TAGS["english"],
     TAGS["fear"],
-    TAGS["fear of self-acceptance"],
-    TAGS["January - जानेवारी २०१९"],
+    TAGS["fear-of-self-acceptance"],
+    TAGS["january-जानेवारी-२०१९"],
     TAGS["masik-article"],
   ],
   content: {

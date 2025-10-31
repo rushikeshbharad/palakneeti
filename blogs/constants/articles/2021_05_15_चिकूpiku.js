@@ -2,10 +2,10 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["Children's Literature"],
-    TAGS["education resource"],
+    TAGS["childrens-literature"],
+    TAGS["education-resource"],
     TAGS["masik-article"],
-    TAGS["May - मे २०२१"],
+    TAGS["may-मे-२०२१"],
   ],
   content: {
     marathi: `<article

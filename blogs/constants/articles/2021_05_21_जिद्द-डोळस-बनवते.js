@@ -2,11 +2,11 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2021"],
-    TAGS["Determination"],
-    TAGS["Life Journey"],
+    TAGS["determination"],
+    TAGS["life-journey"],
     TAGS["masik-article"],
-    TAGS["May - मे २०२१"],
-    TAGS["Visual Impairment"],
+    TAGS["may-मे-२०२१"],
+    TAGS["visual-impairment"],
   ],
   content: {
     marathi: `<article

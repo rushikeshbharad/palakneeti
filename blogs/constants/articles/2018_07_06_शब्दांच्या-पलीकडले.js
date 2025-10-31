@@ -2,9 +2,9 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["animals"],
-    TAGS["June - जून २०१८"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
-    TAGS["parenting in animal world"],
+    TAGS["parenting-in-animal-world"],
   ],
   content: {
     marathi: `<article

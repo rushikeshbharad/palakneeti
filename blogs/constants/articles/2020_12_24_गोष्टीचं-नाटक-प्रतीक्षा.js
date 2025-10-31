@@ -2,12 +2,12 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2020"],
-    TAGS["December - डिसेंबर २०२०"],
+    TAGS["december-डिसेंबर-२०२०"],
     TAGS["masik-article"],
-    TAGS["Stories"],
-    TAGS["Story-telling"],
-    TAGS["Tales"],
-    TAGS["Theatre"],
+    TAGS["stories"],
+    TAGS["story-telling"],
+    TAGS["tales"],
+    TAGS["theatre"],
   ],
   content: {
     marathi: `<article

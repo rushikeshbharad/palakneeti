@@ -6,8 +6,8 @@ const articleData = {
     TAGS["masik-diwali"],
     TAGS["masik-monthly"],
     TAGS["palakneeti"],
-    TAGS["ऑक्टोबर-नोव्हेंबर २०२४ जोडअंक"],
-    TAGS["दिवाळी अंक"],
+    TAGS["ऑक्टोबर-नोव्हेंबर-२०२४-ज"],
+    TAGS["दिवाळी-अंक-2"],
     TAGS["पालकनीती"],
   ],
   content: {

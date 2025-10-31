@@ -1,15 +1,15 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["carnatic music"],
-    TAGS["classical music"],
+    TAGS["carnatic-music"],
+    TAGS["classical-music"],
     TAGS["masik-article"],
     TAGS["music"],
-    TAGS["music as way of life"],
-    TAGS["September - सप्टेंबर २०१८"],
+    TAGS["music-as-way-of-life"],
+    TAGS["september-सप्टेंबर-२०१८"],
     TAGS["singing"],
-    TAGS["T M Krishna"],
-    TAGS["way of life"],
+    TAGS["t-m-krishna"],
+    TAGS["way-of-life"],
   ],
   content: {
     marathi: `<article

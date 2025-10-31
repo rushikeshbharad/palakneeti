@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["2021"],
     TAGS["education"],
-    TAGS["June - जून २०२१"],
+    TAGS["june-जून-२०२१"],
     TAGS["masik-article"],
-    TAGS["online education"],
-    TAGS["Reflections"],
+    TAGS["online-education"],
+    TAGS["reflections"],
   ],
   content: {
     marathi: `<article

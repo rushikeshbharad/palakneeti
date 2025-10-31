@@ -3,9 +3,9 @@ const articleData = {
   tags: [
     TAGS["masik-article"],
     TAGS["online"],
-    TAGS["online story-telling"],
-    TAGS["September - सप्टेंबर २०२१"],
-    TAGS["Story-telling"],
+    TAGS["online-story-telling"],
+    TAGS["september-सप्टेंबर-२०२१"],
+    TAGS["story-telling"],
   ],
   content: {
     marathi: `<article

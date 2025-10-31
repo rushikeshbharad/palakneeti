@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["December - डिसेंबर २०१९"],
-    TAGS["Government School"],
-    TAGS["Marathi as Medium of Instruction"],
-    TAGS["Marathi medium school"],
+    TAGS["december-डिसेंबर-२०१९"],
+    TAGS["government-school"],
+    TAGS["marathi-as-medium-of-instruction"],
+    TAGS["marathi-medium-school"],
     TAGS["masik-article"],
   ],
   content: {

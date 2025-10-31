@@ -1,14 +1,14 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["April - एप्रिल २०१९"],
+    TAGS["april-एप्रिल-२०१९"],
     TAGS["disgreement"],
     TAGS["masik-article"],
-    TAGS["Opposite"],
-    TAGS["Opposite Views"],
-    TAGS["Perspectives"],
-    TAGS["TED Talk"],
-    TAGS["uncomfortable learning"],
+    TAGS["opposite"],
+    TAGS["opposite-views"],
+    TAGS["perspectives"],
+    TAGS["ted-talk"],
+    TAGS["uncomfortable-learning"],
   ],
   content: {
     marathi: `<article

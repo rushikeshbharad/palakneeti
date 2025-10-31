@@ -1,6 +1,6 @@
 import TAGS from "../tags.js";
 const articleData = {
-  tags: [TAGS["Gender"], TAGS["March - मार्च २०१८"], TAGS["masik-article"]],
+  tags: [TAGS["gender"], TAGS["march-मार्च-२०१८"], TAGS["masik-article"]],
   content: {
     marathi: `<article
   id="post-288"

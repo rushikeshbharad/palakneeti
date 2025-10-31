@@ -3,8 +3,8 @@ const articleData = {
   tags: [
     TAGS["2018"],
     TAGS["activity"],
-    TAGS["for parents"],
-    TAGS["January - जानेवारी २०१८"],
+    TAGS["for-parents"],
+    TAGS["january-जानेवारी-२०१८"],
     TAGS["masik-article"],
   ],
   content: {

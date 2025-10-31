@@ -1,8 +1,8 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["announcement"],
-    TAGS["Khelghar"],
+    TAGS["announcement-news"],
+    TAGS["khelghar"],
     TAGS["khelghar-news"],
     TAGS["palakneeti"],
   ],

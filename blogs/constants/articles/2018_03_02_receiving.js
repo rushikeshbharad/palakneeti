@@ -2,13 +2,13 @@ import TAGS from "../tags.js";
 const articleData = {
   tags: [
     TAGS["2018"],
-    TAGS["Acceptance"],
-    TAGS["English"],
-    TAGS["Giving"],
-    TAGS["January - जानेवारी २०१८"],
+    TAGS["acceptance"],
+    TAGS["english"],
+    TAGS["giving"],
+    TAGS["january-जानेवारी-२०१८"],
     TAGS["masik-article"],
-    TAGS["Receiver"],
-    TAGS["Receiving"],
+    TAGS["receiver"],
+    TAGS["receiving"],
   ],
   content: {
     marathi: ``,

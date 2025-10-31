@@ -1,18 +1,18 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["August - ऑगस्ट २०१८"],
-    TAGS["Children"],
-    TAGS["children and conflict"],
+    TAGS["august-ऑगस्ट-२०१८"],
+    TAGS["children"],
+    TAGS["children-and-conflict"],
     TAGS["conflict"],
     TAGS["constitution"],
     TAGS["education"],
-    TAGS["Krishna Kumar"],
+    TAGS["krishna-kumar"],
     TAGS["masik-article"],
     TAGS["peace"],
     TAGS["religion"],
-    TAGS["social conflict"],
-    TAGS["Uncategorized"],
+    TAGS["social-conflict"],
+    TAGS["uncategorized"],
   ],
   content: {
     marathi: `<article

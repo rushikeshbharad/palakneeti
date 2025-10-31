@@ -3,10 +3,10 @@ const articleData = {
   tags: [
     TAGS["2019"],
     TAGS["masik-article"],
-    TAGS["May - मे २०१९"],
+    TAGS["may-मे-२०१९"],
     TAGS["orphans"],
     TAGS["war"],
-    TAGS["War Orphans"],
+    TAGS["war-orphans"],
   ],
   content: {
     marathi: `<article

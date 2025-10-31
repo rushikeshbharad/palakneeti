@@ -1,11 +1,11 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Grandmother"],
+    TAGS["grandmother"],
     TAGS["great-grandmother"],
     TAGS["joint-family"],
     TAGS["masik-article"],
-    TAGS["May - मे २०१८"],
+    TAGS["may-मे-२०१८"],
   ],
   content: {
     marathi: `<article

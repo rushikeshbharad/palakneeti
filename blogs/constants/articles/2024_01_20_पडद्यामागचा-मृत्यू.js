@@ -4,7 +4,7 @@ const articleData = {
     TAGS["2024"],
     TAGS["masik-article"],
     TAGS["palakneeti"],
-    TAGS["जानेवरी २०२४"],
+    TAGS["जानेवरी-२०२४-masik-article"],
   ],
   content: {
     marathi: `<article

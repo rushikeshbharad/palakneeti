@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Intersex"],
-    TAGS["March - मार्च २०१८"],
+    TAGS["intersex"],
+    TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],
-    TAGS["Saptrang"],
+    TAGS["saptrang"],
     TAGS["transgender"],
   ],
   content: {

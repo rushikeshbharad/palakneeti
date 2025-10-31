@@ -1,10 +1,10 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Life Wisdom"],
-    TAGS["March - मार्च २०१८"],
+    TAGS["life-wisdom"],
+    TAGS["march-मार्च-२०१८"],
     TAGS["masik-article"],
-    TAGS["Philosophy of Life"],
+    TAGS["philosophy-of-life"],
   ],
   content: {
     marathi: `<article

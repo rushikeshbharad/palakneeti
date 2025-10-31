@@ -6,8 +6,8 @@ const articleData = {
     TAGS["news"],
     TAGS["palakneeti"],
     TAGS["palakneeti-news"],
-    TAGS["दिवाळी अंक"],
-    TAGS["दिवाळी अंक २०२५ - ऑक्टो.-नोव्हें. २०२५ - oct.-nov.2025"],
+    TAGS["दिवाळी-अंक-2"],
+    TAGS["दिवाळी-अंक-२०२५-ऑक्टो-नोव"],
     TAGS["पालकनीती"],
   ],
   content: {

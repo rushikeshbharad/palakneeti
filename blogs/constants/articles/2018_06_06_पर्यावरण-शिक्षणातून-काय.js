@@ -1,8 +1,8 @@
 import TAGS from "../tags.js";
 const articleData = {
   tags: [
-    TAGS["Environment Education"],
-    TAGS["June - जून २०१८"],
+    TAGS["environment-education"],
+    TAGS["june-जून-२०१८"],
     TAGS["masik-article"],
   ],
   content: {
