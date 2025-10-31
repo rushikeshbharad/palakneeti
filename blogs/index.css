@@ -55,6 +55,7 @@
 
 .article-page img {
     max-width: 100%;
+    height: auto;
 }
 
 .wp-block-pullquote {
@@ -88,4 +89,24 @@ blockquote p {
 
 a {
     color: #1976d2 !important;
+}
+
+.social-links {
+    margin-top: 2em;
+    display: flex;
+    align-content: center;
+    gap: 0.5rem;
+}
+
+.social-links span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 0.25em;
+    overflow: hidden;
+}
+
+.social-links span svg {
+    width: 32px;
+    height: 32px;
 }

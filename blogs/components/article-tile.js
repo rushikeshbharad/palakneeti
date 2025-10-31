@@ -10,7 +10,15 @@ import {
   Link,
 } from "@mui/material";
 
-const ArticleTile = ({ slug, data, date }) => {
+const ArticleTile = ({ dateSlug, data }) => {
+  const [yyyy, mm, dd, ...rest] = dateSlug.split("_");
+  const slug = rest.join("_");
+  const dateObj = new Date(yyyy, mm - 1, dd); // Month is 0-indexed in JS
+  const date = dateObj.toLocaleDateString('en-GB', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric'
+  }).replace(/ /g, '-');
   const title = data.title.marathi || data.title.english;
   const shortDescription = data.short.marathi || data.short.english;
 

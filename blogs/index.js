@@ -1,6 +1,6 @@
 import React, { useState, useRef, useCallback, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route, useParams, useSearchParams, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useSearchParams, Link } from "react-router-dom";
 import {
   Autocomplete,
   Container,
@@ -14,56 +14,9 @@ import {
 } from "@mui/material";
 import ARTICLES from "./constants/index";
 import ArticleTile from "./components/article-tile";
+import ArticlePage from "./components/article";
 import TAGS from './constants/tags'
 import "./index.css"
-
-const ArticlePage = () => {
-  const { slug } = useParams();
-  const contentRef = useRef(null);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [slug]);
-
-  // Find the article data from the slug
-  const articleObject = ARTICLES.find((a) => Object.keys(a)[0].includes(slug));
-
-  if (!articleObject) {
-    return <Typography variant="h4">Article not found!</Typography>;
-  }
-  const articleKey = Object.keys(articleObject)[0];
-
-  const articleData = articleObject[articleKey];
-  const content = articleData.content.marathi || articleData.content.english;
-
-  useEffect(() => {
-    // After the component renders and the HTML is set,
-    // we can inspect the DOM elements inside the ref.
-    if (contentRef.current) {
-      const images = contentRef.current.querySelectorAll("img");
-      images.forEach((img) => {
-        // Assign an error handler to remove the image if it fails to load.
-        img.onerror = () => img.remove();
-
-        // For images that might already be broken (e.g., from cache),
-        // check their 'complete' status and dimensions.
-        if (img.complete && img.naturalWidth === 0) {
-          img.remove();
-        }
-      });
-    }
-  }, [content]); // Rerun this effect if the article content changes.
-
-  return (
-    <Box className="article-page">
-      <Typography variant="h3" component="h1" gutterBottom>
-        {articleData.title.marathi || articleData.title.english}
-      </Typography>
-      <Divider sx={{ marginBottom: '4em' }} />
-      <div ref={contentRef} dangerouslySetInnerHTML={{ __html: content }} />
-    </Box>
-  );
-};
 
 const ArticleList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -90,15 +43,16 @@ const ArticleList = () => {
     }
     return ARTICLES.filter(articleObject => {
       const data = Object.values(articleObject)[0];
+      const articleTags = (data.tags || []).filter(t => t);
       // Check if all selected tags are present in the article's tags
-      if (selectedTagIds.length > 0 && !selectedTagValues.every(tag => (data.tags || []).includes(tag))) {
+      if (selectedTagIds.length > 0 && !selectedTagValues.every(tag => articleTags.includes(tag))) {
         return false;
       }
       const titleMarathi = (data.title.marathi || "").toLowerCase();
       const titleEnglish = (data.title.english || "").toLowerCase();
       const contentMarathi = (data.content.marathi || "").toLowerCase();
       const contentEnglish = (data.content.english || "").toLowerCase();
-      const allTags = (data.tags || []).join(" ").toLowerCase();
+      const allTags = articleTags.join(" ").toLowerCase();
       return titleMarathi.includes(searchTerm.toLowerCase()) ||
         titleEnglish.includes(searchTerm.toLowerCase()) ||
         contentMarathi.includes(searchTerm.toLowerCase()) ||
@@ -216,23 +170,38 @@ const ArticleList = () => {
             placeholder="Categories"
           />
         )}
-        sx={{ marginBottom: '4em', marginTop: '1em' }}
+        slotProps={{
+          popper: {
+            sx: {
+              '& ul': {
+                  display: 'flex',
+                  justifyContent: 'center',
+                  flexWrap: 'wrap',
+                  padding: '1em',
+                  gap: '0.5em'
+              },
+              '& ul li': {
+                  backgroundColor: '#1976d250 !important',
+                  borderRadius: '0.25em'
+              },
+              '& ul li:hover': {
+                  backgroundColor: '#1976d280 !important'
+              }
+            }
+          }
+        }}
+        sx={{
+            marginBottom: '4em',
+            marginTop: '1em',
+        }}
       />
       <Box className="article-grid">
         {articles.map((articleObject, index) => {
           const [dateSlug, data] = Object.entries(articleObject)[0];
-          const [yyyy, mm, dd, ...rest] = dateSlug.split("_");
-          const slug = rest.join("_");
           const isLastArticle = articles.length === index + 1;
-          const dateObj = new Date(yyyy, mm - 1, dd); // Month is 0-indexed in JS
-          const date = dateObj.toLocaleDateString('en-GB', {
-            day: '2-digit',
-            month: 'short',
-            year: 'numeric'
-          }).replace(/ /g, '-');
           return (
             <Grid item key={`${dateSlug}-${index}}`} ref={isLastArticle ? lastArticleElementRef : null}>
-              <ArticleTile slug={slug} data={data} date={date} />
+              <ArticleTile dateSlug={dateSlug} data={data} />
             </Grid>
           );
         })}
