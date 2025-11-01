@@ -84,7 +84,9 @@ const ArticlePage = () => {
     <Box className="article-page">
       <title>{`${title} | Palakneeti Blogs`}</title>
       <meta name="description" content={articleData.short.marathi || articleData.short.english} />
-      <Button variant="outlined" color="primary" to="/" component={Link}>Home</Button>
+      <Link to="/">
+        <Button variant="outlined" color="primary">Home</Button>
+      </Link>
       <Typography variant="h3" component="h1" gutterBottom sx={{ marginTop: '1em' }}>
         {title}
       </Typography>

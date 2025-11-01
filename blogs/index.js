@@ -15,6 +15,7 @@ import {
 import ARTICLES from "./constants/index";
 import ArticleTile from "./components/article-tile";
 import ArticlePage from "./components/article";
+import ChatBot from "./components/chat-bot";
 import TAGS from './constants/tags'
 import "./index.css"
 
@@ -219,6 +220,7 @@ function App() {
           <Route path="/" element={<ArticleList />} />
           <Route path="/:slug" element={<ArticlePage />} />
         </Routes>
+        <ChatBot />
       </Container>
     </BrowserRouter>
   );
