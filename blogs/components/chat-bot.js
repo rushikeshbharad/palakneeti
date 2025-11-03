@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import { Box, IconButton, Paper, Typography, TextField, Button, Divider } from "@mui/material"
 import ARTICLES from "../constants/index";
 
+const setDefaultMessages = () => {
+    const msgs = [{ from: 'bot', text: 'Hello! How can I help you find an article today?' }];
+    localStorage.setItem("palakneeti-bot-messages", JSON.stringify());
+    return msgs
+}
+
 const ChatBot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const chatRef = useRef(null);
@@ -10,10 +16,15 @@ const ChatBot = () => {
     const [messages, setMessages] = useState(() => {
         try {
             const savedMessages = localStorage.getItem("palakneeti-bot-messages");
-            return savedMessages ? JSON.parse(savedMessages) : [{ from: 'bot', text: 'Hello! How can I help you find an article today?' }];
+            if (!savedMessages) {
+                return setDefaultMessages();
+            }
+            if (!JSON.parse(savedMessages).length) {
+                return setDefaultMessages();
+            }
+            return JSON.parse(savedMessages)
         } catch (error) {
-            console.error("Could not parse messages from localStorage", error);
-            return [{ from: 'bot', text: 'Hello! How can I help you find an article today?' }];
+            return setDefaultMessages();
         }
     });
     const [inputValue, setInputValue] = useState('');
@@ -55,6 +66,14 @@ const ChatBot = () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
     }, [isOpen]);
+
+    const clearMessages = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const defaultMessages = setDefaultMessages();
+        setMessages(defaultMessages);
+        setIsThinking(false);
+    }
 
     const handleToggleChat = () => setIsOpen(prev => !prev);
 
@@ -160,9 +179,27 @@ const ChatBot = () => {
                 <Paper ref={chatRef} elevation={5} sx={{ width: 350, height: 500, display: 'flex', flexDirection: 'column', borderRadius: '10px' }}>
                     <Box
                         onClick={handleToggleChat}
-                        sx={{ p: 2, backgroundColor: 'primary.main', color: 'white', borderTopLeftRadius: '10px', borderTopRightRadius: '10px', cursor: "pointer" }}
+                        sx={{
+                            p: 2,
+                            backgroundColor: 'primary.main',
+                            color: 'white',
+                            borderTopLeftRadius: '10px',
+                            borderTopRightRadius: '10px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between'
+                        }}
                     >
                         <Typography variant="h6">Palakneeti Bot</Typography>
+                        {messages.length > 1 && (
+                            <Button
+                                sx={{ color: 'white !important', "&:hover": { opacity: 0.7 } }}
+                                variant="text"
+                                onClick={clearMessages}
+                            >
+                                Clear
+                            </Button>
+                        )}
                     </Box>
                     <Box sx={{ flexGrow: 1, p: 2, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: 2 }}>
                         {messages.map((msg, index) => (
