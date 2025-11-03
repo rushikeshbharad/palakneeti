@@ -78,7 +78,7 @@ const ArticlePage = () => {
         setReadingTime(time);
       }
     }
-  }, [contentRef.current]); // Rerun this effect if the article content changes.
+  }, [contentRef, slug]); // Rerun this effect if the article content changes.
 
   return (
     <Box className="article-page">
