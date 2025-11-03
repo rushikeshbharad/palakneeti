@@ -38,28 +38,36 @@ const ArticleList = () => {
   const filteredArticles = React.useMemo(() => {
     const selectedTagIds = selectedTags.map(tag => tag.id);
     const selectedTagValues = selectedTags.map(tag => TAGS[tag.id]);
+    const searchKeywords = searchTerm
+      ? searchTerm.toLowerCase().split(/[ ,]+/).filter(Boolean)
+      : [];
 
-    if (!searchTerm && selectedTagIds.length === 0) {
+    if (searchKeywords.length === 0 && selectedTagIds.length === 0) {
       return ARTICLES;
     }
     return ARTICLES.filter(articleObject => {
       const data = Object.values(articleObject)[0];
       const articleTags = (data.tags || []).filter(t => t);
+
       // Check if all selected tags are present in the article's tags
       if (selectedTagIds.length > 0 && !selectedTagValues.every(tag => articleTags.includes(tag))) {
         return false;
       }
+
+      // If no search keywords, and it passed tag filter, include it.
+      if (searchKeywords.length === 0) {
+        return true;
+      }
+
       const titleMarathi = (data.title.marathi || "").toLowerCase();
       const titleEnglish = (data.title.english || "").toLowerCase();
       const contentMarathi = (data.content.marathi || "").toLowerCase();
       const contentEnglish = (data.content.english || "").toLowerCase();
       const allTags = articleTags.join(" ").toLowerCase();
-      return titleMarathi.includes(searchTerm.toLowerCase()) ||
-        titleEnglish.includes(searchTerm.toLowerCase()) ||
-        contentMarathi.includes(searchTerm.toLowerCase()) ||
-        contentEnglish.includes(searchTerm.toLowerCase()) ||
-        allTags.includes(searchTerm.toLowerCase());
-    }); // `selectedTags` is derived from `tagsParam` which is part of `searchParams`
+      const searchableText = `${titleMarathi} ${titleEnglish} ${contentMarathi} ${contentEnglish} ${allTags}`;
+
+      return searchKeywords.every(keyword => searchableText.includes(keyword));
+    });
   }, [searchTerm, selectedTags]); // `selectedTags` is stable for the same `tagsParam`
 
   const [articles, setArticles] = useState(filteredArticles.slice(0, 20));
